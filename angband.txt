@@ -832,6 +832,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #armor "Plate Hauberk"|14
 #humanoid
 #holy
+#airshield 30
 #demon
 #maxage 3000
 #ethereal
