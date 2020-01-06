@@ -1,0 +1,939 @@
+﻿#modname "Lord of the Rings Nation Pack"
+#description "This is the description of the mod! WOW!"
+#icon "images/onering.tga"
+#version 0.00
+#newweapon 800
+#name "Scimitar"
+#copyweapon "Falchion"|10
+#end
+#newweapon 801
+#name "Fire Sword"
+#dmg 12
+#nratt 1
+#att 1
+#def 1
+#len 2
+#sound 16
+#rcost 5
+#dt_normal
+#fire
+#slash
+#magic
+#secondaryeffect "Fire (AP8)"
+#end
+#newweapon 802
+#name "Flaming Darts"
+#flyspr 110 1
+#dmg 2
+#nratt 1
+#att -2
+#def 0
+#sound 16
+#range -1
+#ammo 4
+#dt_normal
+#pierce
+#magic
+#secondaryeffect "Fire (AP 8)"
+#end
+#newweapon 803
+#name "Black Iron Axe"
+#dmg 15
+#def -1
+#length 1
+#nratt 1
+#sound 10
+#rcost 10
+#dt_normal
+#slash
+#armorpiercing
+#end
+#newweapon "Orc-Spear" 804
+#copyweapon "Machaka Spear"|315
+#end
+#newweapon 805
+#name "Poisoned Scimitar"
+#copyweapon "Falchion"|10
+#secondaryeffect Weak Poison|50
+#end
+#newarmor 300
+#name "Orc-Mail Cuirass"
+#type 5
+#prot 8
+#def -1
+#enc 1
+#rcost 2
+#ironarmor
+#end
+#newarmor 301
+#name "Orc-Mail Hauberk"
+#type 5
+#prot 10
+#def -2
+#enc 2
+#rcost 4
+#ironarmor
+#end
+#newarmor 302
+#name "Werewolf Plate Harness"
+#type 5
+#prot 17
+#def -2
+#enc 3
+#movepen 3
+#rcost 26
+#ironarmor
+#end
+#newarmor 303
+#name "Orc Plate Mail"
+#type 5
+#prot 18
+#def -3
+#enc 5
+#movepen 4
+#rcost 16
+#ironarmor
+#end
+#newarmor 304
+#name "Orc Helm"
+#copyarmor "Legionary Helmet"|126
+#end
+#newmonster 3500
+#name "Angband Orc Archer"
+#descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
+
+	After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
+#spr1 "images/3500_1.tga"
+#spr2 "images/3500_2.tga"
+#rcost 1
+#gcost 10
+#rpcost 5
+#hp 8
+#str 11
+#att 7
+#def 9
+#prec 8
+#prot 0
+#size 2
+#mr 9
+#mor 7
+#enc 3
+#mapmove 14
+#ap 10
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Poison Dagger"|126
+#armor "Orc-Mail Cuirass"|300
+#humanoid
+#wastesurvival
+#startage 150
+#maxage 1000
+#darvision 100
+#pillagebonus 2
+#slave
+#nametype 161
+#darkpower 3
+#prec 
+#end
+#newmonster 3501
+#name "Angband Orc Spearman"
+#descr "The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
+
+	After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
+#spr1 "images/3501_1.tga"
+#spr2 "images/3501_2.tga"
+#rcost 1
+#gcost 10
+#rpcost 5
+#hp 8
+#str 11
+#att 7
+#def 9
+#prec 8
+#prot 0
+#size 2
+#mr 9
+#mor 7
+#enc 3
+#mapmove 12
+#ap 10
+#eyes 2
+#weapon "Orc-Spear"|804
+#armor "Orc-Mail Hauberk"|301
+#armor "Iron Cap"|20
+#armor "Iron Shield"|208
+#humanoid
+#wastesurvival
+#startage 150
+#maxage 1000
+#darvision 100
+#pillagebonus 2
+#slave
+#nametype 161
+#darkpower 3
+#prec 
+#end
+#newmonster 3502
+#name "Angband Orc Soldier"
+#descr "Orc Soldier description
+
+The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
+
+
+After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. Great armies armed with steel, heavy helms and scimitars issued forth to lay waste to the enemies of Angband. Though the Orc is no longer the chief soldier of Angband, many still remain who remember those days and retain their weapons and arms to fight again for the glory of the Iron Crown."
+#spr1 "images/3502_1.tga"
+#spr2 "images/3502_2.tga"
+#rcost 1
+#gcost 15
+#rpcost 8
+#hp 10
+#str 12
+#att 8
+#def 10
+#prec 8
+#prot 0
+#size 2
+#mr 9
+#mor 8
+#enc 3
+#mapmove 12
+#ap 10
+#eyes 2
+#weapon "Scimitar"|800
+#armor "Orc Plate Mail"|303
+#armor "Orc Helm"|304
+#armor "Iron Shield"|208
+#humanoid
+#wastesurvival
+#startage 150
+#maxage 1000
+#darvision 100
+#pillagebonus 2
+#slave
+#nametype 161
+#darkpower 3
+#prec 
+#end
+
+
+#newmonster 3503
+#name "Angband Warg Rider"
+#desc "Lesser wolves are of little interest to the Dark Lord, but he has found some use in them bearing Orcs on their backs and acting as scouts and light cavalry. Wolf riders are chiefly used to harass enemy lines before the main force can reach them."
+#spr1 "images/3503_1.tga"
+#spr2 "images/3503_2.tga"
+#rcost 1
+#goldcost 12
+#rpcost 10 
+#resize 2
+#hp 8
+#str 11
+#att 7
+#def 9
+#prec 8
+#prot 0
+#size 3
+#mr 9
+#mor 8
+#enc 3
+#mapmove 18
+#ap 22
+#eyes 2
+#weapon "Poisoned Scimitar"|805
+#weapon "Bite"|20
+#armor "Orc-mail Cuirass"|300
+#armor "Iron Shield"|208
+#mountedhumanoid
+#mounted
+#snow
+#startage 150
+#max age 1000
+#darkpower 3
+#darkvision 100
+#pillage bonus 3
+#nametype 161
+#slave
+#end
+
+#newmonster 3504
+#name "Lesser Werewolf"
+#descr "Werewolves--great spirits in wolf shape--are the backbone of the armies of Angband, and the personal favourite of Gorhaur the Cruel. Savage, powerful and fast, they are a terror to behold on the battlefield. Lesser werewolves are often used for sneaking through enemy territory and flanking enemy archers."
+#spr1 "images/3504_1.tga"
+#spr2 "images/3504_2.tga"
+#rcost 1
+#gcost 25
+#rpcost 15
+#hp 28
+#str 16
+#att 13
+#def 10
+#prec 5
+#prot 6
+#size 3
+#mr 15
+#mor 14
+#enc 2
+#mapmove 20
+#ap 26
+#eyes 2
+#weapon "Bite"|20
+#quadruped
+#animal
+#snow
+#forestsurvival
+#stealthy 10
+#startage 22
+#maxage 1000
+#corpseeater 2
+#deadhp 2
+#falsearmy 1
+#coldres 5
+#darkvision 100
+#patrolbonus 10
+#nametypes 144
+#end
+
+#newmoster 3505
+#name "Greater Werewolf"
+#descr "The greater Werewolves are the mightiest of that dark brood, and the favoured warriors of Gorhaur the Cruel. With the forges of Angband beating once more, he has had armour crafted for his chosen servants to increase their effectiveness in battle. Now the howling of the Werewolves and Angband will bring destruction to all who oppose them."
+#spr1 "images/3505_1.tga"
+#spr2 "images/3505_2.tga"
+#reqtemple
+#rcost 3
+#gcost 85
+#rpcost 30
+#hp 30
+#str 23
+#att 13
+#def 10
+#prec 5
+#prot 6
+#size 4
+#mr 15
+#mor 17
+#enc 2
+#mapmove 20
+#ap 28
+#eyes 2
+#weapon "Bite"|20
+#weapon "Claw"|29
+#armor "Werewolf Plate Harness"|302
+#quadruped
+#holy
+#animal
+#snow
+#forestsurvival
+#startage 100
+#maxage 1000
+#darkvision 100
+#corpseeater 5
+#deadhp 2
+#coldres 5
+#fear 5
+#darkvision 100
+#patrolbonus 10
+#nametypes 144
+#end
+
+#newmonster 3506
+#name "Easterling Warrior"
+#descr "Men from distant lands who have been coerced and subjugated by Angband. They are convinced of the power of Angband, and ally with them more out of fear for the dark nation’s eventual conquest and the desire to be on the right side. Easterling warriors are strong and sturdy, and fight with axes and javelins."
+#spr1 "images/3506_1.tga"
+#spr2 "images/3506_2.tga"
+#rcost 1
+#gcost 10
+#rpcost 10
+#hp 10
+#str 11
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 9
+#mor 9
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"|18
+#weapon "Javelin"|21
+#armor "Ring Mail Hauberk"|11
+#humanoid
+#startage 20
+#maxage 50
+#nametype 104
+#end
+
+#newmonster 3507
+#name "Easterling Warrior"
+#descr "Men from distant lands who have been coerced and subjugated by Angband. They are convinced of the power of Angband, and ally with them more out of fear for the dark nation’s eventual conquest and the desire to be on the right side. Easterling warriors are strong and sturdy, and fight with spear and shield."
+#spr1 "images/3507_1.tga"
+#spr2 "images/3507_2.tga"
+#rcost 1
+#gcost 10
+#rpcost 10
+#hp 10
+#str 11
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 9
+#mor 9
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear" | 1
+#armor "Shield" | 2
+#armor "Ring Mail Hauberk" 11
+#humanoid
+#startage 20
+#maxage 50
+#nametype 104
+#end
+
+#newmonster 3508
+#name "Vampire"
+#descr "Great spirits in bat form, the Vampire Bats serve as messengers and flying support in Angband’s armies. With iron talons they can descend on enemies and tear them apart , sowing terror and chaos in the enemy lines."
+#spr1 "images/3508_1.tga"
+#spr2 "images/3508_2.tga"
+#rcost 5
+#gcost 30
+#rpcost 20
+#hp 19
+#str 12
+#att 11
+#def 13
+#prec 5
+#prot 4
+#size 3
+#mr 15
+#mor 12
+#enc 2
+#mapmove 28
+#ap 3
+#eyes 2
+#weapon "Claw"|236
+#weapon "Life Drain"|719
+#bird
+#animal
+#flying
+#stealthy 30
+#startage 200
+#max age 1000
+#darkvision 100
+#castledef 1
+#siegebonus 3
+#patrolbonus 10
+#neednoteat
+#nametype 140
+#end
+
+
+#newmonster 3509
+#name "Angband Troll"
+#descr "Created by the first Dark Lord of Angband, the trolls were Angband’s response to Ents. Huge, hulking creatures protected by thick skin or scales, trolls are fiercely strong, but dull and slow-witted. They possess another great weakness; under the light of of the sun, the dark enchantment binding them breaks, and they are turned to stone, unable to move. This makes them very difficult to use in battle, except in caves or under a shroud of darkness. "
+#spr1 "images/3509_1.tga"
+#spr2 "images/3509_2.tga"
+#rcost 5
+#gcost 30
+#rpcost 15
+#hp 30
+#str 11
+#att 0
+#def 0
+#prec 5
+#prot 15
+#size 4
+#mr 8
+#mor 10
+#enc 3
+#mapmove 16
+#ap 0
+#eyes 2
+#weapons "Stone Fist" |562
+#humanoid
+#startage 20
+#maxage 200
+#bluntres
+#darkpower 10
+#darkvision 100
+#trample
+#nametype 161
+#undisciplined
+#end
+
+#newmonster 3510
+#name "Trollguard"
+#descr "Created by the first Dark Lord of Angband, the trolls were Angband’s response to Ents. Huge, hulking creatures protected by thick skin or scales. Trolls are fiercely strong, but dull and slow-witted. They possess another great weakness; under the light of of the sun, the dark enchantment binding them breaks, and they are turned to stone, unable to move. This makes them very difficult to use in battle, except in caves or under a shroud of darkness. Some of the greater trolls are selected to be used as guards for important leaders and commanders. They are encouraged to acts of even greater ferocity in defence of their master."
+#spr1 "images/3510_1.tga"
+#spr2 "images/3510_2.tga"
+#rcost 5
+#gcost 40
+#rpcost 20
+#hp 33
+#str 13
+#att 0
+#def 0
+#prec 5
+#prot 17
+#size 4
+#mr 8
+#mor 11
+#enc 3
+#mapmove 16
+#ap 0
+#eyes 2
+#weapon "Claw" |29
+#humanoid
+#startage 20
+#maxage 200
+#bluntres
+#pierceres
+#fear 5
+#darkpower 10
+#berserk 3
+#darkvision 100
+#trample
+#nametype 161
+#bodyguard 1
+#end
+
+#newmonster 3511
+#name "Orc Taskmaster"
+#descr "Orcish cunning and brutality is greatly encouraged by the Powers of Angband. Orcs that possess such qualities are often elevated to egg their comrades on under the lash. But there is always a tougher orc just around the corner, and any Orc who slays a Taskmaster is entitled to take his job."
+#spr1 "images/3511_1.tga"
+#spr2 "images/3511_2.tga"
+#rcost 2
+#gcost 20
+#rpcost 1
+#hp 10
+#str 12
+#att 8
+#def 10
+#prec 8
+#prot 0
+#size 2
+#mr 9
+#mor 8
+#enc 3
+#mapmove 11
+#ap 11
+#eyes 2
+#weapon "Whip" | 40
+#armor "Orc-Mail Hauberk" | 301
+#humanoid
+#wastesurvival
+#startage 150
+#maxage 1000
+#darkpower 3
+#darkvision 100
+#nametype 161
+#poorleader 
+#command 30
+#nomagicleader
+#noundeadleader
+#taskmaster 2
+#slave
+#end
+
+#newmonster 3512
+#name "Vampire Scout"
+#descr "Vampires serve Angband best as scouts, keeping a watchful eye on enemy movements and report their doings to their lords. Unlike the greater spirits, these have no access to magic other than their innate abilities and must rely on their speed and stealth instead."
+#spr1 "images/3513_1.tga"
+#spr2 "images/3513_2.tga"
+#rcost 1
+#gcost 30
+#rpcost 1
+#hp 19
+#str 12
+#att 11
+#def 13
+#prec 5
+#prot 4
+#size 3
+#mr 15
+#mor 12
+#enc 2
+#mapmove 28
+#ap 3
+#eyes 2
+#weapon "Claw"| 236
+#weapon "Life Drain"| 719
+#bird
+#female
+#flying
+#stealthy 40
+#spy
+#startage 200
+#max age 1000
+#darkvision 100
+#castledef 1
+#siegebonus 3
+#patrolbonus 10
+#neednoteat
+#nametype 140
+#noleader
+#end
+
+#newmonster 3513
+#name "Werewolf Scout"
+#descr "Not as stealthy or as fast as the Vampire, but Werewolves on the prowl have a different purpose. Creeping through the wolves, their keen senses let them hunt down their prey, and wait for the perfect moment to strike. Many an unwary soldier had disappeared into a Werewolf’s jaws."
+#spr1 "images/3513_1.tga"
+#spr2 "images/3513_2.tga"
+#rcost 1
+#gcost 25
+#rpcost 15
+#hp 28
+#str 16
+#att 13
+#def 10
+#prec 5
+#prot 6
+#size 3
+#mr 15
+#mor 14
+#enc 2
+#mapmove 20
+#ap 26
+#eyes 2
+#weapon "Bite" 20
+#quadruped
+#animal
+#snow
+#forestsurvival
+#stealthy 20
+#assassin
+#patience 2
+#startage 22
+#maxage 1000
+#corpseeater 2
+#deadhp 2
+#coldres 5
+#darkvision 100
+#patrolbonus 10
+#batstartsum1d3 "Wolf" | 284
+#nametypes 144
+#noleader
+#end
+
+#newmonster 3514
+#name "Werewolf Lord"
+#descr "As favoured servants of Gorthaur, the Werewolves hold high rank in Angband. With built-in knowledge of pack mechanics, they are able to organise the disparate denizens of Angband into lethal killing machines. They prefer to lead other werewolves however, and care little for the other servants of Angband."
+#req temple
+#spr1 "images/3514_1.tga"
+#spr2 "images/3514_2.tga"
+#rcost 3
+#gcost 80
+#rpcost 3
+#hp 30
+#str 23
+#att 13
+#def 10
+#prec 5
+#prot 6
+#size 4
+#mr 15
+#mor 17
+#enc 2
+#mapmove 20
+#ap 28
+#eyes 2
+#weapon "Bite" 20
+#weapon "Claw" 29
+#armor "Werewolf Plate Harness" 302
+#quadruped
+#holy
+#animal
+#snow
+#forestsurvival
+#maxage 1000
+#darkvision 100
+#corpseeater 5
+#deadhp 2
+#coldres 5
+#fear 5
+#darkvision 100
+#patrolbonus 10
+#nametypes 144
+#okleader
+#command 20
+#beastmaster 1
+#douse
+#end
+
+
+#newmonster 3515
+#name "Vampire Lady"
+#descr "Only the lesser Vampires are sent out to scout the lands around Angband or fight in the armies of the Iron Crown. Greater spirits have been drawn back by the coming of the Awakened god, the Vampire Ladies. Uninterested in leading large forces, these elder Vampires come forth to spin their deadly spells once again."
+#req lab
+#rcost 1
+#gcost 50
+#rpcost 3
+#hp 21
+#str 12
+#att 11
+#def 13
+#prec 5
+#prot 4
+#size 3
+#mr 15
+#mor 124
+#enc 2
+#mapmove 28
+#ap 3
+#eyes 2
+#weapon "Claw"| 236
+#weapon "Life Drain"| 719
+#bird
+#female
+#flying
+#stealthy 40
+#max age 1000
+#darkvision 100
+#castledef 1
+#siegebonus 3
+#patrolbonus 10
+#neednoteat
+#nametype 140
+#okleader
+#okmagicleader
+#okundeadleader
+#magicskill 7 2
+#end
+
+#newmonster 3516
+#name "Easterling Chieftain"
+#descr "Long have Men from the Eastern lands been under the Darkness of Angband. With the rise of the Awakening God, these Men now march under the banners of Angband. They make better leaders than the Orcs, and are not concerned of the sun."
+#spr1 "images/3516_1.tga"
+#spr2 "images/3516_2.tga"
+#rcost 1
+#gcost 15
+#rpcost 10
+#hp 10
+#str 12
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 9
+#mor 9
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"|18
+#armor "Ring Mail Hauberk"|11
+#armor "Crown"|148
+#humanoid
+#maxage 50
+#nametype 104
+#okcommander
+#inspirational 1
+#end
+
+#newmonster 3517
+#name "Orc Sorcerer"
+#descr "Some among the Orcs display talents for magic and are elevated above their other bretheren. They are given minimal training however, and their increased rank really only counts with their fellow Orcs. To the rest of the denizens of Angband, they are just another simple tool in the Orcish arsenal."
+#spr1 "images/3517_1.tga"
+#spr2 "images/3517_2.tga"
+#rcost 1
+#gcost 30
+#rpcost 1
+#hp 8
+#str 11
+#att 7
+#def 9
+#prec 8
+#prot 0
+#size 2
+#mr 9
+#mor 7
+#enc 3
+#mapmove 14
+#ap 10
+#eyes 2
+#weapon "Quarterstaff"|7
+#armor "Leather Cuirass"|5
+#humanoid
+#wastesurvival
+#maxage 1000
+#darvision 100
+#pillagebonus 2
+#slave
+#nametype 161
+#darkpower 3
+#poorleader
+#magicskill 2 1
+#custommagic 1120 50
+#researchbonus -3
+#end
+
+#newmonster 3518
+#name "Easterling Shaman"
+#descr "When the Darkness came about Men, many of them succumbed to fear. But there were many of strong will among them who resisted or broke away. Where force would not cow, coercion would. Servants were dispatched and taught some of the men powers they had not before discovered. They became shamans of the Easterlings and allied with the dark powers in search of more power."
+#spr1 "images/3518_1.tga"
+#spr2 "images/3518_2.tga"
+#rcost 1
+#gcost 30
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 9
+#mor 9
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"|7
+#armor "Leather Cuirass"|5
+#armor "Crown"|148
+#humanoid
+#maxage 50
+#nametype 104
+#poorcommander
+#magicskill 8 1
+#magicskill 3 1
+#custommagic 17536 50
+#end
+
+#newmonster 3518
+#name "Balrog Captain"
+#descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
+#slowrec
+#reqlab
+#reqtemple
+#rcost 20
+#gcost 400
+#rpcost 3
+#hp 50
+#str 20
+#att 13
+#def 14
+#prec 10
+#prot 6
+#size 5
+#mr 18
+#mor 30
+#enc 2
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon "Fire Sword"|801
+#weapon "Demon Whip"|277
+#armor "Plate Hauberk"|14
+#humanoid
+#holy
+#demon
+#maxage 3000
+#ethereal
+#fireres 30
+#invulnerable 15
+#heat 3
+#fear 5
+#fireshield 7
+#ambidextrous 3
+#spiritsight
+#neednoteat
+#nametypes 140
+#okleader
+#command 40
+#okmagicleader
+#goodundeadleader
+#taskmaster 4
+#magicskill 0 3
+#end
+
+#newmonster 3519
+#name "Fallen Spirit"
+#descr "Many spirits lesser and greater were seduced by the first Dark Lord. They came in great variety with different magic powers and fought at his side against the Pantokrator. These spirits retain their different powers, but have adopted a uniform appearance, an echo of their ancient Master. It is their symbol and their pride, as in the years before the Awakening God, they became lords of their own little kingdoms."
+#reqlab
+#reqtemple
+#spr1 "images/3517_1.tga"
+#spr2 "images/3517_2.tga"
+#rcost 5
+#gcost 420
+#rpcost 4
+#hp 30
+#str 15
+#att 12
+#def 13
+#prot 6
+#prec 11
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Spectral Spear"|280
+#armor "Plate Cuirass"|9
+#armor "Half Helmet"|118
+#humanoid
+#holy
+#magicbeing
+#maxage 3000
+#spiritsight
+#nametypes 140
+#goodleader
+#okaymagicleader
+#goodundeadleader
+#taskmaster 2
+#spellsinger
+#magicskill 8 1
+#custommagicskill 23680 100
+#custommagicskill 23680 100
+#custommagicskill 23680 100
+#custommagicskill 23936 100
+#custommagicskill 32640 100
+#custommagicskill 32640 50
+#custommagicskill 32640 25
+#custommagicskill 32640 25
+#end
+
+
+#newsite
+#name Pits of Utumno:
+#path 7
+#loc 16384
+#level 0
+#rarity 5
+#homemon "Greater Werewolf"|3506
+#homemon "Vampire"|3508
+#homemon "Trollguard"|3511
+#homecom "Vampire Lady"|3515
+#conjcost 25%
+#end
+
+#newsite
+#name Forges of Angband
+#path 3
+#loc 16384
+#gems 3 2
+#gems 7 2
+#res 20
+#level 0
+#rarity 5 
+#end
+
+#newsite
+#name Throne of the World
+#path 4
+#loc 16384
+#gems 4 1
+# level 0
+#rarity 5
+#homecom “Balrog Captain” (number)
+#homecom “Fallen Spirit” (number)
+#scry 3
+#scryrange 7
+#sorceryrange 2
