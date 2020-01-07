@@ -810,6 +810,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #newmonster 3519
 #name "Balrog Captain"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
+#spr1 "images/3519_1.tga"
+#spr2 "images/3519_2.tga"
 #slowrec
 #reqlab
 #reqtemple
