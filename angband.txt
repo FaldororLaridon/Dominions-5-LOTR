@@ -668,6 +668,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #newmonster 3515
 #name "Vampire Lady"
 #descr "Only the lesser Vampires are sent out to scout the lands around Angband or fight in the armies of the Iron Crown. Greater spirits have been drawn back by the coming of the Awakened god, the Vampire Ladies. Uninterested in leading large forces, these elder Vampires come forth to spin their deadly spells once again."
+#spr1 "images/3515_1.tga"
+#spr2 "images/3515_2.tga"
 #req lab
 #rcost 1
 #gcost 50
@@ -805,7 +807,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #custommagic 17536 50
 #end
 
-#newmonster 3518
+#newmonster 3519
 #name "Balrog Captain"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
 #slowrec
@@ -853,13 +855,13 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #magicskill 0 3
 #end
 
-#newmonster 3519
+#newmonster 3520
 #name "Fallen Spirit"
 #descr "Many spirits lesser and greater were seduced by the first Dark Lord. They came in great variety with different magic powers and fought at his side against the Pantokrator. These spirits retain their different powers, but have adopted a uniform appearance, an echo of their ancient Master. It is their symbol and their pride, as in the years before the Awakening God, they became lords of their own little kingdoms."
 #reqlab
 #reqtemple
-#spr1 "images/3517_1.tga"
-#spr2 "images/3517_2.tga"
+#spr1 "images/3520_1.tga"
+#spr2 "images/3520_2.tga"
 #rcost 5
 #gcost 420
 #rpcost 4
