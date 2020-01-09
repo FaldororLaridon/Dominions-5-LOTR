@@ -989,6 +989,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name  "Spirit of Domination"
 #fixedname "Gorthaur the Cruel"
 #descr "Known also as Sauron, the abhorred, or Thû, Gorthaur was the lieutenant of the first Dark Lord, and was given command of Angband during the days of his power. When the great War defeated them and his Lord was taken and bound, Gorthaur fled and hid himself from the Pantokrator and his servants. When they had left, he snuck back into Angband and began re-establishing its power, gathering together its servants and raiding nearby nations. Now that the awakened God has claimed dominion over Angband, Gorthaur has pledged his allegiance to his new Master, and will lead Angband to victory under the Iron Crown. Gorthaur is a skilled manipulator and commander, and has access to great power himself. He is a shapeshifter and can take many forms to suit his needs."
+#spr1 "images/3521_1.tga"
+#spr2 "images/3521_2.tga"
 #hp 45
 #str 17
 #att 14
@@ -1034,6 +1036,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Greatest Wolf"
 #fixedname "Gorthaur the Cruel"
 #descr "Gorthaur’s wolf form is greater than even the greatest of his subjects. Werewolves are his favoured warriors, but none of them compare to the terror and majesty that he can wield himself."
+#spr1 "images/3522_1.tga"
+#spr2 "images/3522_2.tga"
 #hp 80
 #str 25
 #att 13
@@ -1077,6 +1081,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name “Vampire Lord”
 #fixedname “Gorthaur the Cruel”
 #descr “While the least of Gorthaur’s shapes, his form as a Vampire Lord is still deadly. Used chiefly to scout enemy territory, make a quick getaway, or slay enemy commanders.”
+#spr1 "images/3523_1.tga"
+#spr2 "images/3523_2.tga"
 #hp 25
 #str 13
 #att 11
@@ -1120,6 +1126,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Easterling Traitor"
 #fixedname "Ulfang"
 #descr "In the years since Angband coerced the eastern tribes to fight for them, a few commanders have risen in stature with the Iron Crown. But none was closer with the dark power of Angband than Ulfang. In secret service to Angband, he travels throughout enemy lands, playing the friend and swearing allegiance to lords of the lands he passes through, only to turn on them. He is an able commander and often leads large expeditions into enemy territory, to strike where they are weakest."
+#spr1 "images/3524_1.tga"
+#spr2 "images/3524_2.tga"
 #hp 12
 #str 12
 #att 12
@@ -1150,6 +1158,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Father of Werewolves"
 #fixedname "Draugluin"
 #descr "Draugluin was the first of the Werewolves, and all others were based or sired from him. He is old, fierce and cunning, and the most trusted servant of Gorthaur. He dwells with him, leaving his master’s side only to carry out his commands."
+#spr1 "images/3525_1.tga"
+#spr2 "images/3525_2.tga"
 #hp 35
 #str 23
 #att 13
@@ -1191,6 +1201,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "The Red Maw"
 #fixedname "Carcharoth"
 #descr "The greatest of the children of Draugluin, Carcharoth was fed by the hand of the first Dark Lord, and raised specifically by him to serve as a defence for Angband’s gates. He is the greatest werewolf barring Gorthaur’s own wolfshape, and his fangs drip with deadly poison. He is cunning, difficult to fool, and excellent at sniffing out enemies around him. If wounded, he flies into a deadly rage where his already great strength is greatly enhanced."
+#spr1 "images/35216_1.tga"
+#spr2 "images/3526_2.tga"
 #hp 60
 #str 22
 #att 11
@@ -1229,6 +1241,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Gorthaur’s Scout"
 #fixedname "Thuringwethil"
 #descr "Thuringwethil is Gorthaur’s chief spy and messenger. It is unto her he entrusts his messages and to deliver his will unto his servants. She is fiercely loyal to Gorthaur, and while he may have more favoured servants, he holds her as his most trusted. She is a powerful mage, and has learned much from Gorthaur himself. Thus, she wields different magics than most of her brethren."
+#spr1 "images/3527_1.tga"
+#spr2 "images/3527_2.tga"
 #hp 21
 #str 12
 #att 11
@@ -1268,6 +1282,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Balrog Lord"
 #fixedname "Gothmog"
 #descr "Lord of the Balrogs, Captain of Angband. If Gorthaur is the right hand of the Awakening God, then Gothmog is his left. Gothmog leads the armies of Angband from the front, and his power and skill encourages them to greater deeds. Gothmog and Gorthaur harbour no love for each other. Gothmog ridicules Gorthaur for leading armies from the back, calling cunning cowardice, while Gothaur denounces Gothmog as nothing more than a thug to be pointed in the direction of Angbands enemies."
+#spr1 "images/3528_1.tga"
+#spr2 "images/3528_2.tga"
 #hp 70
 #str 25
 #att 13
@@ -1311,6 +1327,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Devourer of Light"
 #fixedname "Ungoliant"
 #descr "A being of primordial darkness from before the dawn of time. The Devourer of Light consumes the light from the very air around her and spins it into webs of pure darkness that not even the Pantokrator could penetrate. She gives no thought to anything but her hunger, and has little interest in armies or servants. But she is cunning and filled with a bitter malice, and so with the Throne of God empty, she sees an oppourtunity to claim the throne for herself, and perhaps at long last sate her unending hunger."
+#spr1 "images/3529_1.tga"
+#spr2 "images/3529_2.tga"
 #pathcost 80
 #startdom 2
 #hp 120
@@ -1319,7 +1337,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #def 11
 #prec 11
 #prot 20
-#size 6
+#size 7
 #mr 18
 #mor 30
 #enc 2
@@ -1354,6 +1372,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Black Dragon"
 #fixedname "Ancalagon the Black"
 #descr "The greatest of all Dragons, the pinnacle of their race. The Black Dragon was the pinnacle of centuries of crossbreeding by the first great Adversary, who intended to create a fleet of Dragons to challenge the Pantokrator. He was defeated and captured before his dream could become reality, but the Black Dragon remained hidden. Now that the Pantokrator has vanished, he will rise from the depths and claim the world as his. Unlike other Dragons, the Black Dragon cannot revert to a human form, but his Draconic image is mightier than any other Dragon."
+#spr1 "images/3530_1.tga"
+#spr2 "images/3530_2.tga"
 #pathcost 50
 #startdom 2
 #hp 150
@@ -1391,6 +1411,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Istari of Crafts"
 #fixedname "Saruman"
 #descr "The Istari of Crafts was sent by the Pantokrator to scour the lands for the remaining servants of the Great Adversary and destroy them. For a time, he served faithfully, hunting down dark enemies and earning glory and fame in the name of the Pantokrator. Over time, his pride grew with his fame, and he began to desire more power for himself. Now that the Pantokrator has vanished, he will seize his opportunity to become God over all. The Istari of Crafts is powerful with his words, being a mighty commander whose forces would rather die than disappoint."
+#spr1 "images/3531_1.tga"
+#spr2 "images/3531_2.tga"
 #pathcost 10
 #startdom 1
 #homerealm 10
@@ -1423,6 +1445,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Fallen Valar"
 #fixedname "Morgoth"
 #descr "Once the first and greatest of the Pantokrator’s servants, he became enamoured with the World and lusted after it for himself. He rebelled against the Pantokrator and fought his peers for dominion of the World. After an eons long war he was defeated, and he and his servants fled. But they were not destroyed. They snuck back into the world and created Utumno and the fortress of Angband. He attacked the servants of the Pantokrator again, and caused much damage before being overthrown. Utumno was all but destroyed and the walls of Angband broken, and he was cast into prison for his crimes. But now the Pantokrator has vanished, his servants have scattered. And the Fallen Valar will rise again to take what is due."
+#spr1 "images/3532_1.tga"
+#spr2 "images/3532_2.tga"
 #pathcost 60
 #startdom 4
 #hp 50
@@ -1438,10 +1462,10 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #mapmove 16
 #ap 16
 #eyes 2
-#armor “Blacksteel Full Plate”|38
+#armor "Blacksteel Full Plate"|38
 #humanoid
-#startitem “Grond”
-#startitem “The Iron Crown”
+#startitem "Grond"
+#startitem "The Iron Crown"
 #startage 2000
 #maxage 5000
 #fear 10
@@ -1460,10 +1484,12 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #fixforge 3
 #end
 
-#newmonster 3532
-#name “Father of Dragons” 
-#fixedname “Glaurung”
-#descr “Glaurung is the first of the True Dragons. Bred by the Great Adversary in bygone years, he has hibernated for centuries. Now the Awakening God has returned, he is ready to come forth once again. Glaurung is still young and weak, but he will grow strong upon the blood of the slain.
+#newmonster 3533
+#name "Father of Dragons" 
+#fixedname "Glaurung"
+#descr "Glaurung is the first of the True Dragons. Bred by the Great Adversary in bygone years, he has hibernated for centuries. Now the Awakening God has returned, he is ready to come forth once again. Glaurung is still young and weak, but he will grow strong upon the blood of the slain."
+#spr1 "images/3533_1.tga"
+#spr2 "images/3533_2.tga"
 #hp 25
 #str 12
 #att 12
@@ -1477,9 +1503,9 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #mapmove 14
 #ap 16
 #eyes 2
-#weapon “Dragon Fire” 533
-#weapon “Paralyze” 282
-#weapon “Bite” 20
+#weapon "Dragon Fire"|533
+#weapon "Paralyze"|282
+#weapon "Bite"|20
 #snake
 #drake
 #unique
@@ -1493,10 +1519,12 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #okleader
 #end
 
-#newmonster 3532
-#name “Father of Dragons”
-#fixedname “Glaurung”
-#descr “Glaurung grows swiftly, as if making up for lost time while he slumbered and other Dragons grew mighty. He is far greater than he was before, though he still has yet to come into his full power. 
+#newmonster 3533
+#name "Father of Dragons"
+#fixedname "Glaurung"
+#descr "Glaurung grows swiftly, as if making up for lost time while he slumbered and other Dragons grew mighty. He is far greater than he was before, though he still has yet to come into his full power."
+#spr1 "images/3533_1.tga"
+#spr2 "images/3533_2.tga"
 #hp 60
 #str 17
 #att 13
@@ -1510,10 +1538,10 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #mapmove 18
 #ap 14
 #eyes 2
-#weapon “Dragon Fire” 533
-#weapon “Paralyze” 282
-#weapon “Bite” 20
-#weapon “Enslave Mind” 274
+#weapon "Dragon Fire"|533
+#weapon "Paralyze"|282
+#weapon "Bite"|20
+#weapon "Enslave Mind"|274
 #snake
 #drake 
 #unique
@@ -1534,10 +1562,12 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #magicpath 7 1
 #end
 
-#newmonster 3533
-#name “Father of Dragons”
-#fixedname “Glaurung”
-#descr “At last, Glaurung has grown into his full power. His hide is nigh impenetrable, his breath withers enemies before him, and the power of his eyes can cow even the strongest will beneath his wrath. He has become a terror for Angband, and his enemies shall flee before him.”
+#newmonster 3534
+#name "Father of Dragons"
+#fixedname "Glaurung"
+#descr "At last, Glaurung has grown into his full power. His hide is nigh impenetrable, his breath withers enemies before him, and the power of his eyes can cow even the strongest will beneath his wrath. He has become a terror for Angband, and his enemies shall flee before him."
+#spr1 "images/3534_1.tga"
+#spr2 "images/3534_2.tga"
 #hp 120
 #str 23
 #att 14
@@ -1551,11 +1581,11 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #mapmove 18
 #ap 14
 #eyes 2
-#weapon “Dragon Fire” 533
-#weapon “Paralyze” 282
-#weapon “Bite” 20
-#weapon “Enslave Mind” 274
-#weapon “Curse” 118
+#weapon "Dragon Fire"|533
+#weapon "Paralyze"|282
+#weapon "Bite"|20
+#weapon "Enslave Mind"|274
+#weapon "Curse"|118
 #snake
 #drake 
 #unique
@@ -1568,7 +1598,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #darkvision 100
 #deathcurse
 #gold -40
-#makemonster “Fire Drake” 523
+#makemonster "Fire Drake"|523
 #dragonlord 2
 #goodleader
 #okundeadleader
@@ -1577,44 +1607,11 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #magicpath 7 2
 #end
 
-#newmonster 3534
-#name “Balrog”
-#descr “The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world.”
-#hp 50
-#str 18
-#att 12
-#def 12
-#prec 10
-#prot 6
-#size 5
-#mr 18
-#mor 30
-#enc 2
-#mapmove 20
-#ap 14
-#eyes 2
-#weapon “Mace” 12
-#weapon “Balrog Whip” 806
-#humanoid
-#holy
-#demon
-#flying
-#maxage 3000
-#ethereal
-#fireres 30
-#invulnerable 15
-#heat 3
-#fear 5
-#fireshield 5
-#ambidextrous 2
-#spiritsight
-#neednoteat
-#nametypes 140
-#end
-
 #newmonster 3535
-#name “Balrog Skirmisher”
-#descr “The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world.”
+#name "Balrog"
+#descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
+#spr1 "images/3535_1.tga"
+#spr2 "images/3535_2.tga"
 #hp 50
 #str 18
 #att 12
@@ -1628,44 +1625,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #mapmove 20
 #ap 14
 #eyes 2
-#weapon “Mace” 12
-#weapon “Balrog Whip” 806
-#weapon “Flaming Darts” 802
-#humanoid
-#holy
-#demon
-#flying
-#maxage 3000
-#ethereal
-#fireres 30
-#invulnerable 15
-#heat 3
-#fear 5
-#fireshield 5
-#ambidextrous 2
-#spiritsight
-#neednoteat
-#nametypes 140
-#end
-#newmonster 3536
-#name “Balrog Soldier”
-#descr “The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world.”
-#hp 50
-#str 18
-#att 12
-#def 12
-#prec 10
-#prot 6
-#size 5
-#mr 18
-#mor 30
-#enc 2
-#mapmove 20
-#ap 14
-#eyes 2
-#weapon “Fire Sword” 801
-#weapon “Balrog Whip” 806
-#armor “Plate Hauberk” 14
+#weapon "Mace"|12
+#weapon "Balrog Whip"|806
 #humanoid
 #holy
 #demon
@@ -1683,9 +1644,86 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #nametypes 140
 #end
 
+#newmonster 3536
+#name "Balrog Skirmisher"
+#descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
+#spr1 "images/3536_1.tga"
+#spr2 "images/3536_2.tga"
+#hp 50
+#str 18
+#att 12
+#def 12
+#prec 10
+#prot 6
+#size 5
+#mr 18
+#mor 30
+#enc 2
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon "Mace"|12
+#weapon "Balrog Whip"|806
+#weapon "Flaming Darts"|802
+#humanoid
+#holy
+#demon
+#flying
+#maxage 3000
+#ethereal
+#fireres 30
+#invulnerable 15
+#heat 3
+#fear 5
+#fireshield 5
+#ambidextrous 2
+#spiritsight
+#neednoteat
+#nametypes 140
+#end
 #newmonster 3537
-#name “Bronze Serpent”
-#descr “Great war machines made in the pits of Angband, Bronze serpents have a singular function; knocking down enemy walls. They are slow and cumbersome, and are of little use otherwise in combat, though they can trample their enemies into the dirt as they make their way inevitably towards enemy fortifications
+#name "Balrog Soldier"
+#descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
+#spr1 "images/3537_1.tga"
+#spr2 "images/3537_2.tga"
+#hp 50
+#str 18
+#att 12
+#def 12
+#prec 10
+#prot 6
+#size 5
+#mr 18
+#mor 30
+#enc 2
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon "Fire Sword"|801
+#weapon "Balrog Whip"|806
+#armor "Plate Hauberk"|14
+#humanoid
+#holy
+#demon
+#flying
+#maxage 3000
+#ethereal
+#fireres 30
+#invulnerable 15
+#heat 3
+#fear 5
+#fireshield 5
+#ambidextrous 2
+#spiritsight
+#neednoteat
+#nametypes 140
+#end
+
+#newmonster 3538
+#name "Bronze Serpent"
+#descr "Great war machines made in the pits of Angband, Bronze serpents have a singular function; knocking down enemy walls. They are slow and cumbersome, and are of little use otherwise in combat, though they can trample their enemies into the dirt as they make their way inevitably towards enemy fortifications."
+#spr1 "images/3538_1.tga"
+#spr2 "images/3538_2.tga"
 #hp 125
 #str 20
 #att 8
@@ -1699,7 +1737,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #mapmove 10
 #ap 6
 #eyes 2
-#weapon “Crush” 90
+#weapon "Crush"|90
 #snake
 #magicbeing
 #inanimate 
