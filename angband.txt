@@ -107,6 +107,22 @@
 #blunt
 #aoe 2
 #end
+#newweapon 810
+#name "Flame Tendril"
+#dmg 5
+#natt 1
+#def 0
+#len 4
+#dt_normal
+#slash
+#fire
+#armorpiercing
+#nostr
+#sound 9
+#bonus
+#norepel
+#unrepel
+#end
 #newitem 
 #constlevel 12
 #mainpath 3
@@ -1428,7 +1444,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon “Quarterstaff”|7
+#weapon "Quarterstaff"|7
 #humanoid
 #startage 1500
 #maxage 3000
@@ -1749,7 +1765,39 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #neednoteat
 #end
 
-
+#newmonster 3539
+#name "Balrog Rider"
+#descr "The most terrible force of Angband, the pinnacle of pure destruction. Elite Balrogs are mounted on great elementals of molten flame. Virtually unstoppable in combat, they devastate and burn everything around them. With these warriors at their side, surely nothing can stop Angband from conquering all the world."
+#resize 5
+#hp 50
+#str 18
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 6
+#mr 18
+#mor 30
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Balrog Whip"|806
+#weapon "Fire Sword"|801
+#weapon "Flame Tendril"|810
+#weapon "Flame Tendril"|810
+#armour "Plate Hauberk"|14
+#mountedhumanoid
+#mounted
+#holy
+#demon
+#magicbeing
+#noriverpass
+#maxage 3000
+#uwdamage 100
+#ethereal
+#fireres 50
+#end
 
 
 #newsite
@@ -1783,8 +1831,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #gems 4 1
 # level 0
 #rarity 5
-#homecom “Balrog Captain” (number)
-#homecom “Fallen Spirit” (number)
+#homecom "Balrog Captain"|3519
+#homecom "Fallen Spirit"|3520
 #scry 3
 #scryrange 7
 #sorceryrange 2
