@@ -1767,7 +1767,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 
 #newmonster 3539
 #name "Balrog Rider"
-#descr "The most terrible force of Angband, the pinnacle of pure destruction. Elite Balrogs are mounted on great elementals of molten flame. Virtually unstoppable in combat, they devastate and burn everything around them. With these warriors at their side, surely nothing can stop Angband from conquering all the world. T"
+#descr "The most terrible force of Angband, the pinnacle of pure destruction. Elite Balrogs are mounted on great elementals of molten flame. Virtually unstoppable in combat, they devastate and burn everything around them. With these warriors at their side, surely nothing can stop Angband from conquering all the world."
 #resize 5
 #hp 50
 #str 18
