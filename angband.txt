@@ -527,7 +527,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #humanoid
 #startage 20
 #maxage 200
-#bluntres
+#pierceres
 #darkpower 10
 #darkvision 100
 #trample
@@ -560,7 +560,6 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #humanoid
 #startage 20
 #maxage 200
-#bluntres
 #pierceres
 #fear 5
 #darkpower 10
@@ -915,6 +914,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #heat 3
 #fear 5
 #fireshield 7
+#airshield 30
 #ambidextrous 3
 #spiritsight
 #neednoteat
@@ -1168,6 +1168,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #armor "Werewolf Plate Harness"|302
 #quadruped
 #holy
+#unique
 #animal
 #snow
 #forestsurvival
@@ -1344,7 +1345,6 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #startage 1500
 #maxage 5000
 #fireres -10
-#invulnerable 10
 #fear 10
 #darkpower 3
 #darkvision
@@ -1509,7 +1509,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #okleader
 #end
 
-#newmonster 3533
+#newmonster 3534
 #name "Father of Dragons"
 #fixedname "Glaurung"
 #descr "Glaurung grows swiftly, as if making up for lost time while he slumbered and other Dragons grew mighty. He is far greater than he was before, though he still has yet to come into his full power."
@@ -1552,7 +1552,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #magicpath 7 1
 #end
 
-#newmonster 3534
+#newmonster 3535
 #name "Father of Dragons"
 #fixedname "Glaurung"
 #descr "At last, Glaurung has grown into his full power. His hide is nigh impenetrable, his breath withers enemies before him, and the power of his eyes can cow even the strongest will beneath his wrath. He has become a terror for Angband, and his enemies shall flee before him."
@@ -1597,11 +1597,12 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #magicpath 7 2
 #end
 
-#newmonster 3535
+#newmonster 3536
 #name "Balrog"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
 #spr1 "images/3535_1.tga"
 #spr2 "images/3535_2.tga"
+#speciallook 1
 #hp 50
 #str 18
 #att 12
@@ -1634,11 +1635,12 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #nametypes 140
 #end
 
-#newmonster 3536
+#newmonster 3537
 #name "Balrog Skirmisher"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
 #spr1 "images/3536_1.tga"
 #spr2 "images/3536_2.tga"
+#speciallook 1
 #hp 50
 #str 18
 #att 12
@@ -1676,6 +1678,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
 #spr1 "images/3537_1.tga"
 #spr2 "images/3537_2.tga"
+#speciallook 1
 #hp 50
 #str 18
 #att 12
@@ -1695,7 +1698,6 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #humanoid
 #holy
 #demon
-#flying
 #maxage 3000
 #ethereal
 #fireres 30
@@ -1703,6 +1705,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #heat 3
 #fear 5
 #fireshield 5
+#airshield 30
 #ambidextrous 2
 #spiritsight
 #neednoteat
@@ -1710,8 +1713,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #end
 
 #newmonster 3538
-#name "Bronze Serpent"
-#descr "Great war machines made in the pits of Angband, Bronze serpents have a singular function; knocking down enemy walls. They are slow and cumbersome, and are of little use otherwise in combat, though they can trample their enemies into the dirt as they make their way inevitably towards enemy fortifications."
+#name "Iron Serpent"
+#descr "Great war machines made in the pits of Angband, Iron Serpents have a singular function; knocking down enemy walls. They are slow and cumbersome, and are of little use otherwise in combat, though they can trample their enemies into the dirt as they make their way inevitably towards enemy fortifications."
 #spr1 "images/3538_1.tga"
 #spr2 "images/3538_2.tga"
 #hp 125
@@ -1719,7 +1722,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #att 8
 #def 8
 #prec 5
-#prot 10
+#prot 20
 #size 6
 #mr 10
 #mor 50
@@ -1773,6 +1776,71 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #fireres 50
 #end
 
+#newmonster 3540
+#name “Flame Mount”
+#descr “The mounts of the Balrog Riders. Their flame is powerful but short lived. Without their Balrog, they will sputter out by the end of the battle.”
+#hp 20
+#str 20
+#att 10
+#def 8
+#prec 5
+#prot 0
+#size 5
+#mr 18
+#mor 50
+#enc 0
+#mapmove 16
+#ap 10
+#eyes 0
+#weapon “Flame Tendril” | 810
+#weapon “Flame Tendril” | 810
+#miscshape
+#magicbeing
+#blind
+#noriverpass
+#maxage 2400
+#uwdamage 100
+#woundfend 99
+#ethereal
+#coldres -5
+#fireres 60
+#poisonres 25
+#heat 7
+#fireshield 13
+#firepower
+#neednoteat
+#end
+
+#newmonster 3541
+#name "Bronze Serpent"
+#descr "Great war machines made in the pits of Angband, unlike their Iron bretheren, Bronze Serpents are bound with great spirits of fire. They are slightly faster, and can breathe fire on their enemies."
+#spr1 "images/3538_1.tga"
+#spr2 "images/3538_2.tga"
+#hp 125
+#str 20
+#att 8
+#def 8
+#prec 5
+#prot 18
+#size 6
+#mr 10
+#mor 50
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 2
+#weapon "Crush"|90
+#weapon "Dragon Fire | 533
+#snake
+#magicbeing
+#inanimate 
+#startage 3
+#maxage 2000
+#noheal
+#pierceres
+#fireres 30
+#neednoteat
+#end
 
 #newsite
 #name Pits of Utumno:
@@ -1793,6 +1861,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #loc 16384
 #gems 3 2
 #gems 7 2
+#gems 0 1
 #res 20
 #level 0
 #rarity 5 
@@ -1810,6 +1879,238 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #scry 3
 #scryrange 7
 #sorceryrange 2
+
+#newnation
+#name “Angband”
+#epithet “Reign of the Iron Crown”
+#era 1
+#descr “Angband”
+“Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness.
+#summary “Angband
+Race: various. Orcs, Men, Vampires, Werewolves and Trolls. Many units weaker in daylight. Prefers cold scale 1
+Military: Orc and Human infantry. Werewolf scouts and shock troops. Troll heavy infantry.
+Magic: Any, mostly Fire and Death, some blood.
+Priests: Weak, Dominion spreads fear and partial darkness.
+Buildings: Primitive. Starts with a powerful citadel.”
+#brief “Angband
+A nation of dark and evil creatures bent on destruction. They are led by powerful Demons and Spirits who spur them on with fear rather than leadership.”
+#color 2 2 2
+#flag “angflag”
+#startsite “Pits of Utumno”
+#startsite “Forges of Angband”
+#startsite “Throne of the World”
+#likesterr 8
+#idealcold 1
+#cavenation 1
+#aifirenation
+#aibloodnation
+#startcom “Werewolf Lord” 3514
+#startscout “Werewolf Scout” 3513
+#startunittype1 “Angband Orc Archer” 3500
+#startunitnbrs1 20
+#startunittype2 “Angband Orc Spearman” 3501
+#startunitnbrs2 20
+#addrecunit “Angband Orc Archer” 3500
+#addrecunit “Angband Orc Spearman” 3501
+#addrecunit “Angband Orc Soldier” 3502
+#addrecunit “Angband Warg Rider” 3503
+#addrecunit “Lesser Werewolf” 3504
+#addrecunit “Easterling Warrior” 3506
+#addrecunit “Easterling Warrior” 3507
+#addrecunit “Vampire” 3508
+#addrecunit “Angband Troll” 3509
+#addrecunit “Trollguard” 3510
+#addrecunit “Greater Werewolf” 3505
+#addreccom “Orc Taskmaster” 3511
+#addreccom “Vampire Scout” 3512
+#addreccom “Werewolf Scout” 3513
+#addreccom “Easterling Chieftain3516
+#addreccom “Werewolf Lord” 3514
+#addreccom “Orc Sorcerer” 3517
+#addreccom “Easterling Shaman” 3518
+#addreccom “Vampire Lady” 3515
+#addreccom “Balrog Captain” 3519
+#addreccom “Fallen Spirit” 3520
+#hero1 3521
+#hero2 3524
+#hero3 3525
+#hero4 3526
+#hero5 3527
+#hero6 3528
+#defcom1 “Orc Taskmaster” 3511
+#defcom2 “Werewolf Lord” 3514
+#defunit1 “Angband Orc Archer” 3500
+#defunit1b “Angband Orc Spearman” 3501
+#defunit2 “Lesser Werewolf” 3504
+#defunit2b “Angband Troll” 3509
+#defmult1 20
+#defmult1b 20
+#defmult2 10
+#defmult2b 2
+#wallcom “Orc Taskmaster” 3511
+#wallunit “Angband Orc Archer” 3500
+#wallmult 15
+#addgod “Devourer of Light” 3529
+#addgod “Black Dragon” 3530
+#addgod “Fallen Valar” 3532
+#homerealm 2
+#cheapgod20 “Devourer of Light” 3529
+#cheapgod20 “Black Dragon” 3530
+#cheapgod20 “Istari of Crafts” 3531
+#cheapgod 40 “Fallen Valar” 3532
+#fortera 0
+#templepic 13
+#homefort 25
+#end
+
+#newspell
+#name “Summon Glaurung”
+#descr “Awakens Glaurung, Father of Dragons from his slumber beneath Angband.”
+#school 0
+#research 4
+#path 0 0
+#pathlevel 0 3
+#fatiguecost 10
+#eff 10001
+#nreff 1
+#provrange 1
+#onlyatsite “Pits of Utumno”
+#restricted “Angband” 120
+#farsumcom “Father of Dragons” | 3532
+#end
+
+#newspell 
+#name “Summon Balrog”
+#descr “Summons a mighty Balrog to aid you in battle”
+#school 0
+#research 6
+#path 0 0
+#pathlevel 0 4
+#path 1 5
+#pathlevel 1 2
+#fatiguecost 20
+#eff 10001
+#nreff 1
+#provrange 1
+#farsumcom “Balrog” 3535
+#restricted “Angband” 120
+#end
+
+#newspell 
+#name “Summon Balrog Skirmisher”
+#descr “Summons a mighty Balrog Skirmisher to aid you in battle”
+#school 0
+#research 6
+#path 0 0
+#pathlevel 0 4
+#path 1 5
+#pathlevel 1 2
+#fatiguecost 20
+#eff 10001
+#nreff 1
+#provrange 1
+#farsumcom “Balrog Skirmisher” 3536
+#restricted “Angband” 120
+#end
+
+
+#newspell 
+#name “Summon Balrog Soldier”
+#descr “Summons a mighty Balrog Soldier to aid you in battle”
+#school 0
+#research 7
+#path 0 0
+#pathlevel 0 5
+#path 1 5
+#pathlevel 1 2
+#fatiguecost 25
+#eff 10001
+#nreff 1
+#provrange 1
+#farsumcom “Balrog Soldier” 3537
+#restricted “Angband” 120
+#end
+
+
+#newspell 
+#name “Forge Iron Serpent”
+#descr “Construct the great Siegebreaker of Angband, the mighty Iron Serpent”
+#school 3
+#research 7
+#path 0 3
+#pathlevel 0 6
+#path 1 0
+#path 1 2
+#fatiguecost 30
+#eff 10001
+#nreff 1
+#provrange 1
+#restricted “Angband”
+#end
+
+#newspell 
+#name “Forge Bronze Serpent”
+#descr “construct the great battle serpent of Angband, the fire-breathing Bronze Serpent”
+#school 3
+#research 7
+#path 0 3
+#pathlevel 0 6
+#path 1 0
+#path 1 2
+#fatiguecost 30
+#eff 10001
+#nreff 1
+#provrange 1
+#restricted “Angband”
+#end
+
+
+
+#newspell 
+#name “Summon Mounted Balrog”
+#descr “Summons a the most deadly weapon of all, a mounted Balrog”
+#school 0
+#research 9
+#path 0 0
+#pathlevel 0 7
+#path 1 5
+#pathlevel 1 2
+#fatiguecost 40
+#eff 10001
+#nreff 1
+#provrange 1
+#restricted “Angband” 120
+#end
+
+#newspell 
+#name “Summon Dragon”
+#descr “Calls forth a mighty Dragon”
+#school 0
+#research 9
+#path 0 0
+#pathlevel 0 7
+#fatiguecost 40
+#eff 10001
+#nreff 1
+#provrange 1
+#restricted “Angband” 120
+#end
+
+#newspell 
+#name “Balrog Squad”
+#descr “Summons 5 Balrogs Soldiers to aid you in battle”
+#school 0
+#research 9
+#path 0 0
+#pathlevel 0 6
+#path 1 5
+#pathlevel 1 3
+#fatiguecost 50
+#eff 10001
+#nreff 5
+#provrange 1
+#restricted “Angband” 120
+#end
 
 #newitem 
 #constlevel 12
