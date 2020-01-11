@@ -70,6 +70,8 @@
 #magic
 #nostr
 #secondaryeffectalways "Small Area Fire"|171 
+#norepel
+#unrepel
 #end
 #newweapon 807
 #name "Web of Choking Darkness"
@@ -123,35 +125,7 @@
 #norepel
 #unrepel
 #end
-#newitem 
-#constlevel 12
-#mainpath 3
-#mainlevel 8
-#secondarypath 5
-#secondarylevel 8
-#type 1
-#name "Grond"
-#descr "The Hammer of the Underworld, this is the weapon of the Dark Lord of Angband, the great Adversary. Its blows are so mighty that they can cause craters in the very earth beneath the blows.
-#weapon "Grond" 809
-#hp 20
-#str 5
-#minsize 4
-#unique
-#end
-#newitem
-#constlevel 12
-#type 9
-#name "The Iron Crown"
-#descr "The symbol of power of Angband. This crown holds the three Silmarils stolen by the great Adversary long ago."
-#armor "Magic Crown" 212
-#magicboost 4 2
-#pen 2
-#hp 30
-#prec 3
-#unique
-#inspirational 2
-#allrangeboost 2
-#end
+
 #newarmor 300
 #name "Orc-Mail Cuirass"
 #type 5
@@ -1830,3 +1804,33 @@
 #scry 3
 #scryrange 7
 #sorceryrange 2
+
+#newitem 
+#constlevel 12
+#mainpath 3
+#mainlevel 8
+#secondarypath 5
+#secondarylevel 8
+#type 1
+#name "Grond"
+#descr "The Hammer of the Underworld, this is the weapon of the Dark Lord of Angband, the great Adversary. Its blows are so mighty that they can cause craters in the very earth beneath the blows.
+#weapon "Grond" 809
+#hp 20
+#str 5
+#minsize 4
+#unique
+#end
+#newitem
+#constlevel 12
+#type 9
+#name "The Iron Crown"
+#descr "The symbol of power of Angband. This crown holds the three Silmarils stolen by the great Adversary long ago."
+#armor "Magic Crown" 212
+#magicboost 4 2
+#pen 2
+#hp 30
+#prec 3
+#unique
+#inspirational 2
+#allrangeboost 2
+#end
