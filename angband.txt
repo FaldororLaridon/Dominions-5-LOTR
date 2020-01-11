@@ -196,9 +196,7 @@
 #end
 #newmonster 3500
 #name "Angband Orc Archer"
-#descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
-
-	After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
+#descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs. After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
 #spr1 "images/3500_1.tga"
 #spr2 "images/3500_2.tga"
 #rcost 1
@@ -233,9 +231,7 @@
 #end
 #newmonster 3501
 #name "Angband Orc Spearman"
-#descr "The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
-
-	After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
+#descr "The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.  After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
 #spr1 "images/3501_1.tga"
 #spr2 "images/3501_2.tga"
 #rcost 1
@@ -271,12 +267,7 @@
 #end
 #newmonster 3502
 #name "Angband Orc Soldier"
-#descr "Orc Soldier description
-
-The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
-
-
-After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. Great armies armed with steel, heavy helms and scimitars issued forth to lay waste to the enemies of Angband. Though the Orc is no longer the chief soldier of Angband, many still remain who remember those days and retain their weapons and arms to fight again for the glory of the Iron Crown."
+#descr "The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.  After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. Great armies armed with steel, heavy helms and scimitars issued forth to lay waste to the enemies of Angband. Though the Orc is no longer the chief soldier of Angband, many still remain who remember those days and retain their weapons and arms to fight again for the glory of the Iron Crown."
 #spr1 "images/3502_1.tga"
 #spr2 "images/3502_2.tga"
 #rcost 1
