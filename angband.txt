@@ -1879,107 +1879,107 @@
 #sorceryrange 2
 
 #newnation
-#name “Angband”
-#epithet “Reign of the Iron Crown”
+#name "Angband"
+#epithet "Reign of the Iron Crown"
 #era 1
-#descr “Angband”
-“Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness.
-#summary “Angband
+#descr "Angband"
+"Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness."
+#summary "Angband
 Race: various. Orcs, Men, Vampires, Werewolves and Trolls. Many units weaker in daylight. Prefers cold scale 1
 Military: Orc and Human infantry. Werewolf scouts and shock troops. Troll heavy infantry.
 Magic: Any, mostly Fire and Death, some blood.
 Priests: Weak, Dominion spreads fear and partial darkness.
-Buildings: Primitive. Starts with a powerful citadel.”
-#brief “Angband
-A nation of dark and evil creatures bent on destruction. They are led by powerful Demons and Spirits who spur them on with fear rather than leadership.”
+Buildings: Primitive. Starts with a powerful citadel."
+#brief "Angband
+A nation of dark and evil creatures bent on destruction. They are led by powerful Demons and Spirits who spur them on with fear rather than leadership."
 #color 2 2 2
-#flag “angflag”
-#startsite “Pits of Utumno”
-#startsite “Forges of Angband”
-#startsite “Throne of the World”
+#flag "images/angflag.tga"
+#startsite "Pits of Utumno"
+#startsite "Forges of Angband"
+#startsite "Throne of the World"
 #likesterr 8
 #idealcold 1
 #cavenation 1
 #aifirenation
 #aibloodnation
-#startcom “Werewolf Lord” 3514
-#startscout “Werewolf Scout” 3513
-#startunittype1 “Angband Orc Archer” 3500
+#startcom "Werewolf Lord"|3514
+#startscout "Werewolf Scout"|3513
+#startunittype1 "Angband Orc Archer"|3500
 #startunitnbrs1 20
-#startunittype2 “Angband Orc Spearman” 3501
+#startunittype2 "Angband Orc Spearman"|3501
 #startunitnbrs2 20
-#addrecunit “Angband Orc Archer” 3500
-#addrecunit “Angband Orc Spearman” 3501
-#addrecunit “Angband Orc Soldier” 3502
-#addrecunit “Angband Warg Rider” 3503
-#addrecunit “Lesser Werewolf” 3504
-#addrecunit “Easterling Warrior” 3506
-#addrecunit “Easterling Warrior” 3507
-#addrecunit “Vampire” 3508
-#addrecunit “Angband Troll” 3509
-#addrecunit “Trollguard” 3510
-#addrecunit “Greater Werewolf” 3505
-#addreccom “Orc Taskmaster” 3511
-#addreccom “Vampire Scout” 3512
-#addreccom “Werewolf Scout” 3513
-#addreccom “Easterling Chieftain3516
-#addreccom “Werewolf Lord” 3514
-#addreccom “Orc Sorcerer” 3517
-#addreccom “Easterling Shaman” 3518
-#addreccom “Vampire Lady” 3515
-#addreccom “Balrog Captain” 3519
-#addreccom “Fallen Spirit” 3520
+#addrecunit "Angband Orc Archer"|3500
+#addrecunit "Angband Orc Spearman"|3501
+#addrecunit "Angband Orc Soldier"|3502
+#addrecunit "Angband Warg Rider"|3503
+#addrecunit "Lesser Werewolf"|3504
+#addrecunit "Easterling Warrior"|3506
+#addrecunit "Easterling Warrior"|3507
+#addrecunit "Vampire"|3508
+#addrecunit "Angband Troll"|3509
+#addrecunit "Trollguard"|3510
+#addrecunit "Greater Werewolf"|3505
+#addreccom "Orc Taskmaster"|3511
+#addreccom "Vampire Scout"|3512
+#addreccom "Werewolf Scout"|3513
+#addreccom "Easterling Chieftain"|3516
+#addreccom "Werewolf Lord"|3514
+#addreccom "Orc Sorcerer"|3517
+#addreccom "Easterling Shaman"|3518
+#addreccom "Vampire Lady"|3515
+#addreccom "Balrog Captain"|3519
+#addreccom "Fallen Spirit"|3520
 #hero1 3521
 #hero2 3524
 #hero3 3525
 #hero4 3526
 #hero5 3527
 #hero6 3528
-#defcom1 “Orc Taskmaster” 3511
-#defcom2 “Werewolf Lord” 3514
-#defunit1 “Angband Orc Archer” 3500
-#defunit1b “Angband Orc Spearman” 3501
-#defunit2 “Lesser Werewolf” 3504
-#defunit2b “Angband Troll” 3509
+#defcom1 "Orc Taskmaster"|3511
+#defcom2 "Werewolf Lord"|3514
+#defunit1 "Angband Orc Archer"|3500
+#defunit1b "Angband Orc Spearman"|3501
+#defunit2 "Lesser Werewolf"|3504
+#defunit2b "Angband Troll"|3509
 #defmult1 20
 #defmult1b 20
 #defmult2 10
 #defmult2b 2
-#wallcom “Orc Taskmaster” 3511
-#wallunit “Angband Orc Archer” 3500
+#wallcom "Orc Taskmaster"|3511
+#wallunit "Angband Orc Archer"|3500
 #wallmult 15
-#addgod “Devourer of Light” 3529
-#addgod “Black Dragon” 3530
-#addgod “Fallen Valar” 3532
+#addgod "Devourer of Light"|3529
+#addgod "Black Dragon"|3530
+#addgod "Fallen Valar"|3532
 #homerealm 2
-#cheapgod20 “Devourer of Light” 3529
-#cheapgod20 “Black Dragon” 3530
-#cheapgod20 “Istari of Crafts” 3531
-#cheapgod 40 “Fallen Valar” 3532
+#cheapgod20 "Devourer of Light"|3529
+#cheapgod20 "Black Dragon"|3530
+#cheapgod20 "Istari of Crafts"|3531
+#cheapgod 40 "Fallen Valar"|3532
 #fortera 0
 #templepic 13
 #homefort 25
 #end
 
 #newspell
-#name “Summon Glaurung”
-#descr “Awakens Glaurung, Father of Dragons from his slumber beneath Angband.”
+#name "Summon Glaurung"
+#descr "Awakens Glaurung, Father of Dragons from his slumber beneath Angband."
 #school 0
 #research 4
 #path 0 0
 #pathlevel 0 3
 #fatiguecost 10
 #eff 10001
+#damage 3533
 #nreff 1
 #provrange 1
-#onlyatsite “Pits of Utumno”
-#restricted “Angband” 120
-#farsumcom “Father of Dragons” | 3532
+#onlyatsite "Pits of Utumno"
+#restricted "Angband"|120
 #end
 
 #newspell 
-#name “Summon Balrog”
-#descr “Summons a mighty Balrog to aid you in battle”
+#name "Summon Balrog"
+#descr "Summons a mighty Balrog to aid you in battle"
 #school 0
 #research 6
 #path 0 0
@@ -1988,15 +1988,15 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 2
 #fatiguecost 20
 #eff 10001
+#damage 3536
 #nreff 1
 #provrange 1
-#farsumcom “Balrog” 3535
-#restricted “Angband” 120
+#restricted "Angband"|120
 #end
 
 #newspell 
-#name “Summon Balrog Skirmisher”
-#descr “Summons a mighty Balrog Skirmisher to aid you in battle”
+#name "Summon Balrog Skirmisher"
+#descr "Summons a mighty Balrog Skirmisher to aid you in battle"
 #school 0
 #research 6
 #path 0 0
@@ -2005,16 +2005,16 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 2
 #fatiguecost 20
 #eff 10001
+#damage 3537
 #nreff 1
 #provrange 1
-#farsumcom “Balrog Skirmisher” 3536
-#restricted “Angband” 120
+#restricted "Angband"|120
 #end
 
 
 #newspell 
-#name “Summon Balrog Soldier”
-#descr “Summons a mighty Balrog Soldier to aid you in battle”
+#name "Summon Balrog Soldier"
+#descr "Summons a mighty Balrog Soldier to aid you in battle"
 #school 0
 #research 7
 #path 0 0
@@ -2023,16 +2023,16 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 2
 #fatiguecost 25
 #eff 10001
+#damage 3538
 #nreff 1
 #provrange 1
-#farsumcom “Balrog Soldier” 3537
-#restricted “Angband” 120
+#restricted "Angband"|120
 #end
 
 
 #newspell 
-#name “Forge Iron Serpent”
-#descr “Construct the great Siegebreaker of Angband, the mighty Iron Serpent”
+#name "Forge Iron Serpent"
+#descr "Construct the great Siegebreaker of Angband, the mighty Iron Serpent"
 #school 3
 #research 7
 #path 0 3
@@ -2041,14 +2041,15 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #path 1 2
 #fatiguecost 30
 #eff 10001
+#damage 3539
 #nreff 1
 #provrange 1
-#restricted “Angband”
+#restricted "Angband"
 #end
 
 #newspell 
-#name “Forge Bronze Serpent”
-#descr “construct the great battle serpent of Angband, the fire-breathing Bronze Serpent”
+#name "Forge Bronze Serpent"
+#descr "construct the great battle serpent of Angband, the fire-breathing Bronze Serpent"
 #school 3
 #research 7
 #path 0 3
@@ -2057,16 +2058,17 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #path 1 2
 #fatiguecost 30
 #eff 10001
+#damage 3542
 #nreff 1
 #provrange 1
-#restricted “Angband”
+#restricted "Angband"
 #end
 
 
 
 #newspell 
-#name “Summon Mounted Balrog”
-#descr “Summons a the most deadly weapon of all, a mounted Balrog”
+#name "Summon Mounted Balrog"
+#descr "Summons a the most deadly weapon of all, a mounted Balrog"
 #school 0
 #research 9
 #path 0 0
@@ -2075,28 +2077,30 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 2
 #fatiguecost 40
 #eff 10001
+#damage 3540
 #nreff 1
 #provrange 1
-#restricted “Angband” 120
+#restricted "Angband" 120
 #end
 
 #newspell 
-#name “Summon Dragon”
-#descr “Calls forth a mighty Dragon”
+#name "Summon Dragon"
+#descr "Calls forth a mighty Dragon"
 #school 0
 #research 9
 #path 0 0
 #pathlevel 0 7
 #fatiguecost 40
 #eff 10001
+#damage 2534
 #nreff 1
 #provrange 1
-#restricted “Angband” 120
+#restricted "Angband" 120
 #end
 
 #newspell 
-#name “Balrog Squad”
-#descr “Summons 5 Balrogs Soldiers to aid you in battle”
+#name "Balrog Squad"
+#descr "Summons 5 Balrog Soldiers to aid you in battle"
 #school 0
 #research 9
 #path 0 0
@@ -2105,9 +2109,10 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 3
 #fatiguecost 50
 #eff 10001
+#damage 3538
 #nreff 5
 #provrange 1
-#restricted “Angband” 120
+#restricted "Angband" 120
 #end
 
 #newitem 
@@ -2116,6 +2121,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #mainlevel 8
 #secondarypath 5
 #secondarylevel 8
+#spr "images/grond.tga"
 #type 1
 #name "Grond"
 #descr "The Hammer of the Underworld, this is the weapon of the Dark Lord of Angband, the great Adversary. Its blows are so mighty that they can cause craters in the very earth beneath the blows.
@@ -2129,6 +2135,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #constlevel 12
 #type 9
 #name "The Iron Crown"
+#spr "images/ironcrown.tga"
 #descr "The symbol of power of Angband. This crown holds the three Silmarils stolen by the great Adversary long ago."
 #armor "Magic Crown" 212
 #magicboost 4 2
@@ -2138,4 +2145,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #unique
 #inspirational 2
 #allrangeboost 2
+#end
+
+#newevent
 #end
