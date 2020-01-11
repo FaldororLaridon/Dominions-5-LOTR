@@ -1527,12 +1527,12 @@
 #okleader
 #end
 
-#newmonster 3533
+#newmonster 3534
 #name "Father of Dragons"
 #fixedname "Glaurung"
 #descr "Glaurung grows swiftly, as if making up for lost time while he slumbered and other Dragons grew mighty. He is far greater than he was before, though he still has yet to come into his full power."
-#spr1 "images/3533_1.tga"
-#spr2 "images/3533_2.tga"
+#spr1 "images/3534_1.tga"
+#spr2 "images/3534_2.tga"
 #hp 60
 #str 17
 #att 13
@@ -1570,12 +1570,12 @@
 #magicpath 7 1
 #end
 
-#newmonster 3534
+#newmonster 3535
 #name "Father of Dragons"
 #fixedname "Glaurung"
 #descr "At last, Glaurung has grown into his full power. His hide is nigh impenetrable, his breath withers enemies before him, and the power of his eyes can cow even the strongest will beneath his wrath. He has become a terror for Angband, and his enemies shall flee before him."
-#spr1 "images/3534_1.tga"
-#spr2 "images/3534_2.tga"
+#spr1 "images/3535_1.tga"
+#spr2 "images/3535_2.tga"
 #hp 120
 #str 23
 #att 14
@@ -1615,11 +1615,11 @@
 #magicpath 7 2
 #end
 
-#newmonster 3535
+#newmonster 3536
 #name "Balrog"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#spr1 "images/3535_1.tga"
-#spr2 "images/3535_2.tga"
+#spr1 "images/3536_1.tga"
+#spr2 "images/3536_2.tga"
 #hp 50
 #str 18
 #att 12
@@ -1655,8 +1655,8 @@
 #newmonster 3536
 #name "Balrog Skirmisher"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#spr1 "images/3536_1.tga"
-#spr2 "images/3536_2.tga"
+#spr1 "images/3537_1.tga"
+#spr2 "images/3537_2.tga"
 #hp 50
 #str 18
 #att 12
@@ -1689,11 +1689,11 @@
 #neednoteat
 #nametypes 140
 #end
-#newmonster 3537
+#newmonster 3538
 #name "Balrog Soldier"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#spr1 "images/3537_1.tga"
-#spr2 "images/3537_2.tga"
+#spr1 "images/3538_1.tga"
+#spr2 "images/3538_2.tga"
 #hp 50
 #str 18
 #att 12
@@ -1727,11 +1727,11 @@
 #nametypes 140
 #end
 
-#newmonster 3538
+#newmonster 3539
 #name "Bronze Serpent"
 #descr "Great war machines made in the pits of Angband, Bronze serpents have a singular function; knocking down enemy walls. They are slow and cumbersome, and are of little use otherwise in combat, though they can trample their enemies into the dirt as they make their way inevitably towards enemy fortifications."
-#spr1 "images/3538_1.tga"
-#spr2 "images/3538_2.tga"
+#spr1 "images/3539_1.tga"
+#spr2 "images/3539_2.tga"
 #hp 125
 #str 20
 #att 8
@@ -1757,9 +1757,11 @@
 #neednoteat
 #end
 
-#newmonster 3539
+#newmonster 3540
 #name "Balrog Rider"
 #descr "The most terrible force of Angband, the pinnacle of pure destruction. Elite Balrogs are mounted on great elementals of molten flame. Virtually unstoppable in combat, they devastate and burn everything around them. With these warriors at their side, surely nothing can stop Angband from conquering all the world."
+#spr1 "images/3540_1.tga"
+#spr2 "images/3540_2.tga"
 #resize 5
 #hp 50
 #str 18
