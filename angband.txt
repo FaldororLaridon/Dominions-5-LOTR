@@ -170,9 +170,7 @@
 #end
 #newmonster 3500
 #name "Angband Orc Archer"
-#descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
-
-	After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
+#descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs. After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
 #spr1 "images/3500_1.tga"
 #spr2 "images/3500_2.tga"
 #rcost 1
@@ -207,9 +205,7 @@
 #end
 #newmonster 3501
 #name "Angband Orc Spearman"
-#descr "The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
-
-	After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
+#descr "The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.  After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
 #spr1 "images/3501_1.tga"
 #spr2 "images/3501_2.tga"
 #rcost 1
@@ -245,12 +241,7 @@
 #end
 #newmonster 3502
 #name "Angband Orc Soldier"
-#descr "Orc Soldier description
-
-The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.
-
-
-After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. Great armies armed with steel, heavy helms and scimitars issued forth to lay waste to the enemies of Angband. Though the Orc is no longer the chief soldier of Angband, many still remain who remember those days and retain their weapons and arms to fight again for the glory of the Iron Crown."
+#descr "The origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs.  After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. Great armies armed with steel, heavy helms and scimitars issued forth to lay waste to the enemies of Angband. Though the Orc is no longer the chief soldier of Angband, many still remain who remember those days and retain their weapons and arms to fight again for the glory of the Iron Crown."
 #spr1 "images/3502_1.tga"
 #spr2 "images/3502_2.tga"
 #rcost 1
@@ -1134,6 +1125,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #weapon "Axe"|17
 #armor "Ring Mail Hauberk"|11
 #armor "Shield"|2
+#armor "Crown"|148
 #humanoid
 #unique
 #stealthy 20
@@ -1513,8 +1505,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Father of Dragons"
 #fixedname "Glaurung"
 #descr "Glaurung grows swiftly, as if making up for lost time while he slumbered and other Dragons grew mighty. He is far greater than he was before, though he still has yet to come into his full power."
-#spr1 "images/3533_1.tga"
-#spr2 "images/3533_2.tga"
+#spr1 "images/3534_1.tga"
+#spr2 "images/3534_2.tga"
 #hp 60
 #str 17
 #att 13
@@ -1556,8 +1548,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #name "Father of Dragons"
 #fixedname "Glaurung"
 #descr "At last, Glaurung has grown into his full power. His hide is nigh impenetrable, his breath withers enemies before him, and the power of his eyes can cow even the strongest will beneath his wrath. He has become a terror for Angband, and his enemies shall flee before him."
-#spr1 "images/3534_1.tga"
-#spr2 "images/3534_2.tga"
+#spr1 "images/3535_1.tga"
+#spr2 "images/3535_2.tga"
 #hp 120
 #str 23
 #att 14
@@ -1600,9 +1592,9 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #newmonster 3536
 #name "Balrog"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#spr1 "images/3535_1.tga"
-#spr2 "images/3535_2.tga"
 #speciallook 1
+#spr1 "images/3536_1.tga"
+#spr2 "images/3536_2.tga"
 #hp 50
 #str 18
 #att 12
@@ -1638,9 +1630,9 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #newmonster 3537
 #name "Balrog Skirmisher"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#spr1 "images/3536_1.tga"
-#spr2 "images/3536_2.tga"
 #speciallook 1
+#spr1 "images/3537_1.tga"
+#spr2 "images/3537_2.tga"
 #hp 50
 #str 18
 #att 12
@@ -1673,12 +1665,12 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #neednoteat
 #nametypes 140
 #end
-#newmonster 3537
+#newmonster 3538
 #name "Balrog Soldier"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#spr1 "images/3537_1.tga"
-#spr2 "images/3537_2.tga"
 #speciallook 1
+#spr1 "images/3538_1.tga"
+#spr2 "images/3538_2.tga"
 #hp 50
 #str 18
 #att 12
@@ -1712,11 +1704,12 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #nametypes 140
 #end
 
-#newmonster 3538
+
+#newmonster 3539
 #name "Iron Serpent"
 #descr "Great war machines made in the pits of Angband, Iron Serpents have a singular function; knocking down enemy walls. They are slow and cumbersome, and are of little use otherwise in combat, though they can trample their enemies into the dirt as they make their way inevitably towards enemy fortifications."
-#spr1 "images/3538_1.tga"
-#spr2 "images/3538_2.tga"
+#spr1 "images/3539_1.tga"
+#spr2 "images/3539_2.tga"
 #hp 125
 #str 20
 #att 8
@@ -1742,9 +1735,12 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #neednoteat
 #end
 
-#newmonster 3539
+#newmonster 3540
 #name "Balrog Rider"
-#descr "The most terrible force of Angband, the pinnacle of pure destruction. Elite Balrogs are mounted on great elementals of molten flame. Virtually unstoppable in combat, they devastate and burn everything around them. With these warriors at their side, surely nothing can stop Angband from conquering all the world. T"
+#descr "The most terrible force of Angband, the pinnacle of pure destruction. Elite Balrogs are mounted on great elementals of molten flame. Virtually unstoppable in combat, they devastate and burn everything around them. With these warriors at their side, surely nothing can stop Angband from conquering all the world."
+#speciallook 1
+#spr1 "images/3540_1.tga"
+#spr2 "images/3540_2.tga"
 #resize 5
 #hp 50
 #str 18
@@ -1776,9 +1772,11 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #fireres 50
 #end
 
-#newmonster 3540
-#name “Flame Mount”
-#descr “The mounts of the Balrog Riders. Their flame is powerful but short lived. Without their Balrog, they will sputter out by the end of the battle.”
+#newmonster 3541
+#name "Flame Mount"
+#descr "The mounts of the Balrog Riders. Their flame is powerful but short lived. Without their Balrog, they will sputter out by the end of the battle."
+#spr1 "images/3541_1.tga"
+#spr2 "images/3541_2.tga"
 #hp 20
 #str 20
 #att 10
@@ -1792,8 +1790,8 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #mapmove 16
 #ap 10
 #eyes 0
-#weapon “Flame Tendril” | 810
-#weapon “Flame Tendril” | 810
+#weapon "Flame Tendril" | 810
+#weapon "Flame Tendril" | 810
 #miscshape
 #magicbeing
 #blind
@@ -1811,11 +1809,11 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #neednoteat
 #end
 
-#newmonster 3541
+#newmonster 3542
 #name "Bronze Serpent"
 #descr "Great war machines made in the pits of Angband, unlike their Iron bretheren, Bronze Serpents are bound with great spirits of fire. They are slightly faster, and can breathe fire on their enemies."
-#spr1 "images/3538_1.tga"
-#spr2 "images/3538_2.tga"
+#spr1 "images/3542_1.tga"
+#spr2 "images/3542_2.tga"
 #hp 125
 #str 20
 #att 8
@@ -1830,7 +1828,7 @@ After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband
 #ap 10
 #eyes 2
 #weapon "Crush"|90
-#weapon "Dragon Fire | 533
+#weapon "Dragon Fire" | 533
 #snake
 #magicbeing
 #inanimate 
