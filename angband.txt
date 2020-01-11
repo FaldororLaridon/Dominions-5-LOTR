@@ -1151,6 +1151,7 @@
 #weapon "Axe"|17
 #armor "Ring Mail Hauberk"|11
 #armor "Shield"|2
+#armor "Crown"|148
 #humanoid
 #unique
 #stealthy 20
