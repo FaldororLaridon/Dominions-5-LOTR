@@ -1,4 +1,4 @@
-﻿#modname "Lord of the Rings Nation Pack"
+#modname "Lord of the Rings Nation Pack"
 #description "This is the description of the mod! WOW!"
 #icon "images/onering.tga"
 #version 0.00
@@ -19,7 +19,7 @@
 #fire
 #slash
 #magic
-#secondaryeffect "Fire (AP8)"
+#secondaryeffect "Fire"|216
 #end
 #newweapon 802
 #name "Flaming Darts"
@@ -34,7 +34,7 @@
 #dt_normal
 #pierce
 #magic
-#secondaryeffect "Fire (AP 8)"
+#secondaryeffect "Fire"|216
 #end
 #newweapon 803
 #name "Black Iron Axe"
@@ -54,7 +54,7 @@
 #newweapon 805
 #name "Poisoned Scimitar"
 #copyweapon "Falchion"|10
-#secondaryeffect Weak Poison|50
+#secondaryeffect "Weak Poison"|50
 #end
 #newweapon 806
 #name "Balrog Whip" 
@@ -75,7 +75,14 @@
 #end
 #newweapon 807
 #name "Web of Choking Darkness"
-#copyweapon "Obsolete --- Death Poison and Web"|316
+#dmg 35
+#nratt 1
+#poison
+#nostr
+#secondaryeffect "Web"|261
+#sizeresist
+#bonus
+#norepel
 #end
 #newweapon 808
 #name "Black Dragon Fire"
@@ -168,6 +175,8 @@
 #name "Orc Helm"
 #copyarmor "Legionary Helmet"|126
 #end
+
+
 #newmonster 3500
 #name "Angband Orc Archer"
 #descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs. After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
@@ -196,12 +205,11 @@
 #wastesurvival
 #startage 150
 #maxage 1000
-#darvision 100
+#darkvision 100
 #pillagebonus 2
 #slave
 #nametype 161
 #darkpower 3
-#prec 
 #end
 #newmonster 3501
 #name "Angband Orc Spearman"
@@ -232,12 +240,11 @@
 #wastesurvival
 #startage 150
 #maxage 1000
-#darvision 100
+#darkvision 100
 #pillagebonus 2
 #slave
 #nametype 161
 #darkpower 3
-#prec 
 #end
 #newmonster 3502
 #name "Angband Orc Soldier"
@@ -268,12 +275,11 @@
 #wastesurvival
 #startage 150
 #maxage 1000
-#darvision 100
+#darkvision 100
 #pillagebonus 2
 #slave
 #nametype 161
 #darkpower 3
-#prec 
 #end
 
 
@@ -353,7 +359,7 @@
 #nametypes 144
 #end
 
-#newmoster 3505
+#newmonster 3505
 #name "Greater Werewolf"
 #descr "The greater Werewolves are the mightiest of that dark brood, and the favoured warriors of Gorhaur the Cruel. With the forges of Angband beating once more, he has had armour crafted for his chosen servants to increase their effectiveness in battle. Now the howling of the Werewolves and Angband will bring destruction to all who oppose them."
 #spr1 "images/3505_1.tga"
@@ -426,7 +432,7 @@
 #end
 
 #newmonster 3507
-#name "Easterling Warrior"
+#name "Easterling Fighter"
 #descr "Men from distant lands who have been coerced and subjugated by Angband. They are convinced of the power of Angband, and ally with them more out of fear for the dark nation’s eventual conquest and the desire to be on the right side. Easterling warriors are strong and sturdy, and fight with spear and shield."
 #spr1 "images/3507_1.tga"
 #spr2 "images/3507_2.tga"
@@ -456,7 +462,7 @@
 #end
 
 #newmonster 3508
-#name "Vampire"
+#name "Vampire Bat"
 #descr "Great spirits in bat form, the Vampire Bats serve as messengers and flying support in Angband’s armies. With iron talons they can descend on enemies and tear them apart , sowing terror and chaos in the enemy lines."
 #spr1 "images/3508_1.tga"
 #spr2 "images/3508_2.tga"
@@ -512,7 +518,7 @@
 #mor 10
 #enc 3
 #mapmove 16
-#ap 0
+#ap 1
 #eyes 2
 #weapons "Stone Fist" |562
 #humanoid
@@ -545,7 +551,7 @@
 #mor 11
 #enc 3
 #mapmove 16
-#ap 0
+#ap 1
 #eyes 2
 #weapon "Claw" |29
 #humanoid
@@ -602,8 +608,8 @@
 #newmonster 3512
 #name "Vampire Scout"
 #descr "Vampires serve Angband best as scouts, keeping a watchful eye on enemy movements and report their doings to their lords. Unlike the greater spirits, these have no access to magic other than their innate abilities and must rely on their speed and stealth instead."
-#spr1 "images/3513_1.tga"
-#spr2 "images/3513_2.tga"
+#spr1 "images/3512_1.tga"
+#spr2 "images/3512_2.tga"
 #rcost 1
 #gcost 30
 #rpcost 1
@@ -956,7 +962,7 @@
 #taskmaster 2
 #spellsinger
 #magicskill 8 1
-#custommagicskill 23680 100
+#magicskill 4 1
 #custommagicskill 23680 100
 #custommagicskill 23680 100
 #custommagicskill 23936 100
@@ -966,8 +972,8 @@
 #custommagicskill 32640 25
 #end
 
-#newmonster 3521
-#name  "Spirit of Domination"
+#newmonster 3543
+#name "Spirit of Domination"
 #fixedname "Gorthaur the Cruel"
 #descr "Known also as Sauron, the abhorred, or Thû, Gorthaur was the lieutenant of the first Dark Lord, and was given command of Angband during the days of his power. When the great War defeated them and his Lord was taken and bound, Gorthaur fled and hid himself from the Pantokrator and his servants. When they had left, he snuck back into Angband and began re-establishing its power, gathering together its servants and raiding nearby nations. Now that the awakened God has claimed dominion over Angband, Gorthaur has pledged his allegiance to his new Master, and will lead Angband to victory under the Iron Crown. Gorthaur is a skilled manipulator and commander, and has access to great power himself. He is a shapeshifter and can take many forms to suit his needs."
 #spr1 "images/3521_1.tga"
@@ -997,10 +1003,6 @@
 #fear 5
 #spiritsight
 #spreaddom 1
-#shapechange "Greatest Wolf"|3522
-#shapechange "Vampire Lord"|3523
-#firstshape "Spirit of Domination"|3521
-#secondshape "Greatest Wolf"|3522
 #expertleader
 #goodmagicleader
 #goodundeadleader
@@ -1050,7 +1052,7 @@
 #shapechange "Spirit of Domination"|3521
 #shapechange "Vampire Lord"|3523
 #firstshape "Spirit of Domination"|3521
-#secondshape “Vampire Lord”|3523
+#secondshape "Vampire Lord"|3523
 #expertleader
 #goodmagicleader
 #goodundeadleader
@@ -1058,10 +1060,57 @@
 #taskmaster 2
 #end
 
+#newmonster 3521
+#name "Spirit of Domination"
+#fixedname "Gorthaur the Cruel"
+#descr "Known also as Sauron, the abhorred, or Thû, Gorthaur was the lieutenant of the first Dark Lord, and was given command of Angband during the days of his power. When the great War defeated them and his Lord was taken and bound, Gorthaur fled and hid himself from the Pantokrator and his servants. When they had left, he snuck back into Angband and began re-establishing its power, gathering together its servants and raiding nearby nations. Now that the awakened God has claimed dominion over Angband, Gorthaur has pledged his allegiance to his new Master, and will lead Angband to victory under the Iron Crown. Gorthaur is a skilled manipulator and commander, and has access to great power himself. He is a shapeshifter and can take many forms to suit his needs."
+#spr1 "images/3521_1.tga"
+#spr2 "images/3521_2.tga"
+#hp 45
+#str 17
+#att 14
+#def 15
+#prot 6
+#prec 11
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Flail"|16
+#armor "Plate Hauberk"|14
+#armor  "Half Helmet"|118
+#humanoid
+#holy
+#unique
+#magicbeing
+#startage 1200
+#maxge 3000
+#fear 5
+#spiritsight
+#spreaddom 1
+#shapechange "Greatest Wolf"|3522
+#shapechange "Vampire Lord"|3523
+#firstshape "Spirit of Domination"|3521
+#secondshape "Greatest Wolf"|3522
+#expertleader
+#goodmagicleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 3 3
+#magicskill 5 2
+#magicskill 4 1
+#mastersmith 2
+#forgebonus 20
+#spellsinger
+#end
+
 #newmonster 3523
-#name “Vampire Lord”
-#fixedname “Gorthaur the Cruel”
-#descr “While the least of Gorthaur’s shapes, his form as a Vampire Lord is still deadly. Used chiefly to scout enemy territory, make a quick getaway, or slay enemy commanders.”
+#name "Vampire Lord"
+#fixedname "Gorthaur the Cruel"
+#descr "While the least of Gorthaur’s shapes, his form as a Vampire Lord is still deadly. Used chiefly to scout enemy territory, make a quick getaway, or slay enemy commanders."
 #spr1 "images/3523_1.tga"
 #spr2 "images/3523_2.tga"
 #hp 25
@@ -1184,7 +1233,7 @@
 #name "The Red Maw"
 #fixedname "Carcharoth"
 #descr "The greatest of the children of Draugluin, Carcharoth was fed by the hand of the first Dark Lord, and raised specifically by him to serve as a defence for Angband’s gates. He is the greatest werewolf barring Gorthaur’s own wolfshape, and his fangs drip with deadly poison. He is cunning, difficult to fool, and excellent at sniffing out enemies around him. If wounded, he flies into a deadly rage where his already great strength is greatly enhanced."
-#spr1 "images/35216_1.tga"
+#spr1 "images/3526_1.tga"
 #spr2 "images/3526_2.tga"
 #hp 60
 #str 22
@@ -1320,7 +1369,7 @@
 #def 11
 #prec 11
 #prot 20
-#size 7
+#size 6
 #mr 18
 #mor 30
 #enc 2
@@ -1373,7 +1422,7 @@
 #eyes 2
 #weapon "Black Dragon Fire"|808
 #weapon "Bite"|20
-#weapon “Claw"|29
+#weapon "Claw"|29
 #weapon "Tail Sweep"|532
 #quadruped
 #flying
@@ -1423,48 +1472,6 @@
 #end
 
 
-#newmonster 3532
-#name "Fallen Valar"
-#fixedname "Morgoth"
-#descr "Once the first and greatest of the Pantokrator’s servants, he became enamoured with the World and lusted after it for himself. He rebelled against the Pantokrator and fought his peers for dominion of the World. After an eons long war he was defeated, and he and his servants fled. But they were not destroyed. They snuck back into the world and created Utumno and the fortress of Angband. He attacked the servants of the Pantokrator again, and caused much damage before being overthrown. Utumno was all but destroyed and the walls of Angband broken, and he was cast into prison for his crimes. But now the Pantokrator has vanished, his servants have scattered. And the Fallen Valar will rise again to take what is due."
-#spr1 "images/3532_1.tga"
-#spr2 "images/3532_2.tga"
-#pathcost 60
-#startdom 4
-#hp 50
-#str 16
-#att 12
-#def 13
-#prec 10
-#prot 3
-#size 6
-#mr 18
-#mor 30
-#enc 2
-#mapmove 16
-#ap 16
-#eyes 2
-#armor "Blacksteel Full Plate"|38
-#humanoid
-#startitem "Grond"
-#startitem "The Iron Crown"
-#startage 2000
-#maxage 5000
-#fear 10
-#spiritsight
-#trample
-#dragonlord 3
-#goodleader
-#okmagicleader
-#goodundeadleader
-#taskmaster 2
-#magicskill 4 1
-#magicskill 3 1
-#magicskill 7 1
-#crossbreeder 15
-#forgebonus 5
-#fixforge 3
-#end
 
 #newmonster 3533
 #name "Father of Dragons" 
@@ -1841,12 +1848,12 @@
 #end
 
 #newsite
-#name Pits of Utumno:
+#name "Pits of Utumno"
 #path 7
 #loc 16384
 #level 0
 #rarity 5
-#homemon "Greater Werewolf"|3506
+#homemon "Greater Werewolf"|3505
 #homemon "Vampire"|3508
 #homemon "Trollguard"|3511
 #homecom "Vampire Lady"|3515
@@ -1854,7 +1861,7 @@
 #end
 
 #newsite
-#name Forges of Angband
+#name "Forges of Angband"
 #path 3
 #loc 16384
 #gems 3 2
@@ -1866,7 +1873,7 @@
 #end
 
 #newsite
-#name Throne of the World
+#name "Throne of the World"
 #path 4
 #loc 16384
 #gems 4 1
@@ -1877,109 +1884,108 @@
 #scry 3
 #scryrange 7
 #sorceryrange 2
+#end
 
-#newnation
-#name “Angband”
-#epithet “Reign of the Iron Crown”
+#newnation 120
+#name "Angband"
+#epithet "Reign of the Iron Crown"
 #era 1
-#descr “Angband”
-“Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness.
-#summary “Angband
+#descr "Angband"
+"Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness."
+#summary "Angband
 Race: various. Orcs, Men, Vampires, Werewolves and Trolls. Many units weaker in daylight. Prefers cold scale 1
 Military: Orc and Human infantry. Werewolf scouts and shock troops. Troll heavy infantry.
 Magic: Any, mostly Fire and Death, some blood.
 Priests: Weak, Dominion spreads fear and partial darkness.
-Buildings: Primitive. Starts with a powerful citadel.”
-#brief “Angband
-A nation of dark and evil creatures bent on destruction. They are led by powerful Demons and Spirits who spur them on with fear rather than leadership.”
+Buildings: Primitive. Starts with a powerful citadel."
+#brief "Angband
+A nation of dark and evil creatures bent on destruction. They are led by powerful Demons and Spirits who spur them on with fear rather than leadership."
 #color 2 2 2
-#flag “angflag”
-#startsite “Pits of Utumno”
-#startsite “Forges of Angband”
-#startsite “Throne of the World”
+#flag "images/angflag.tga"
+#startsite "Pits of Utumno"
+#startsite "Forges of Angband"
+#startsite "Throne of the World"
 #likesterr 8
 #idealcold 1
 #cavenation 1
 #aifirenation
 #aibloodnation
-#startcom “Werewolf Lord” 3514
-#startscout “Werewolf Scout” 3513
-#startunittype1 “Angband Orc Archer” 3500
+#startcom "Werewolf Lord"|3514
+#startscout "Werewolf Scout"|3513
+#startunittype1 "Angband Orc Archer"|3500
 #startunitnbrs1 20
-#startunittype2 “Angband Orc Spearman” 3501
+#startunittype2 "Angband Orc Spearman"|3501
 #startunitnbrs2 20
-#addrecunit “Angband Orc Archer” 3500
-#addrecunit “Angband Orc Spearman” 3501
-#addrecunit “Angband Orc Soldier” 3502
-#addrecunit “Angband Warg Rider” 3503
-#addrecunit “Lesser Werewolf” 3504
-#addrecunit “Easterling Warrior” 3506
-#addrecunit “Easterling Warrior” 3507
-#addrecunit “Vampire” 3508
-#addrecunit “Angband Troll” 3509
-#addrecunit “Trollguard” 3510
-#addrecunit “Greater Werewolf” 3505
-#addreccom “Orc Taskmaster” 3511
-#addreccom “Vampire Scout” 3512
-#addreccom “Werewolf Scout” 3513
-#addreccom “Easterling Chieftain3516
-#addreccom “Werewolf Lord” 3514
-#addreccom “Orc Sorcerer” 3517
-#addreccom “Easterling Shaman” 3518
-#addreccom “Vampire Lady” 3515
-#addreccom “Balrog Captain” 3519
-#addreccom “Fallen Spirit” 3520
+#addrecunit "Angband Orc Archer"|3500
+#addrecunit "Angband Orc Spearman"|3501
+#addrecunit "Angband Orc Soldier"|3502
+#addrecunit "Angband Warg Rider"|3503
+#addrecunit "Lesser Werewolf"|3504
+#addrecunit "Easterling Warrior"|3506
+#addrecunit "Easterling Fighter"|3507
+#addrecunit "Vampire Bat"|3508
+#addrecunit "Angband Troll"|3509
+#addrecunit "Trollguard"|3510
+#addrecunit "Greater Werewolf"|3505
+#addreccom "Orc Taskmaster"|3511
+#addreccom "Vampire Scout"|3512
+#addreccom "Werewolf Scout"|3513
+#addreccom "Easterling Chieftain"|3516
+#addreccom "Werewolf Lord"|3514
+#addreccom "Orc Sorcerer"|3517
+#addreccom "Easterling Shaman"|3518
+#addreccom "Vampire Lady"|3515
+#addreccom "Balrog Captain"|3519
+#addreccom "Fallen Spirit"|3520
 #hero1 3521
 #hero2 3524
 #hero3 3525
 #hero4 3526
 #hero5 3527
 #hero6 3528
-#defcom1 “Orc Taskmaster” 3511
-#defcom2 “Werewolf Lord” 3514
-#defunit1 “Angband Orc Archer” 3500
-#defunit1b “Angband Orc Spearman” 3501
-#defunit2 “Lesser Werewolf” 3504
-#defunit2b “Angband Troll” 3509
+#defcom1 "Orc Taskmaster"|3511
+#defcom2 "Werewolf Lord"|3514
+#defunit1 "Angband Orc Archer"|3500
+#defunit1b "Angband Orc Spearman"|3501
+#defunit2 "Lesser Werewolf"|3504
+#defunit2b "Angband Troll"|3509
 #defmult1 20
 #defmult1b 20
 #defmult2 10
 #defmult2b 2
-#wallcom “Orc Taskmaster” 3511
-#wallunit “Angband Orc Archer” 3500
+#wallcom "Orc Taskmaster"|3511
+#wallunit "Angband Orc Archer"|3500
 #wallmult 15
-#addgod “Devourer of Light” 3529
-#addgod “Black Dragon” 3530
-#addgod “Fallen Valar” 3532
+#addgod "Devourer of Light"|3529
+#addgod "Black Dragon"|3530
 #homerealm 2
-#cheapgod20 “Devourer of Light” 3529
-#cheapgod20 “Black Dragon” 3530
-#cheapgod20 “Istari of Crafts” 3531
-#cheapgod 40 “Fallen Valar” 3532
+#cheapgod20 "Devourer of Light"|3529
+#cheapgod20 "Black Dragon"|3530
+#cheapgod20 "Istari of Crafts"|3531
 #fortera 0
 #templepic 13
 #homefort 25
 #end
 
 #newspell
-#name “Summon Glaurung”
-#descr “Awakens Glaurung, Father of Dragons from his slumber beneath Angband.”
+#name "Summon Glaurung"
+#descr "Awakens Glaurung, Father of Dragons from his slumber beneath Angband."
 #school 0
 #research 4
 #path 0 0
 #pathlevel 0 3
 #fatiguecost 10
 #eff 10001
+#damage 3533
 #nreff 1
 #provrange 1
-#onlyatsite “Pits of Utumno”
-#restricted “Angband” 120
-#farsumcom “Father of Dragons” | 3532
+#onlyatsite "Pits of Utumno"
+#restricted "Angband"|120
 #end
 
 #newspell 
-#name “Summon Balrog”
-#descr “Summons a mighty Balrog to aid you in battle”
+#name "Summon Balrog"
+#descr "Summons a mighty Balrog to aid you in battle"
 #school 0
 #research 6
 #path 0 0
@@ -1988,15 +1994,15 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 2
 #fatiguecost 20
 #eff 10001
+#damage 3536
 #nreff 1
 #provrange 1
-#farsumcom “Balrog” 3535
-#restricted “Angband” 120
+#restricted "Angband"|120
 #end
 
 #newspell 
-#name “Summon Balrog Skirmisher”
-#descr “Summons a mighty Balrog Skirmisher to aid you in battle”
+#name "Summon Balrog Skirmisher"
+#descr "Summons a mighty Balrog Skirmisher to aid you in battle"
 #school 0
 #research 6
 #path 0 0
@@ -2005,16 +2011,16 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 2
 #fatiguecost 20
 #eff 10001
+#damage 3537
 #nreff 1
 #provrange 1
-#farsumcom “Balrog Skirmisher” 3536
-#restricted “Angband” 120
+#restricted "Angband"|120
 #end
 
 
 #newspell 
-#name “Summon Balrog Soldier”
-#descr “Summons a mighty Balrog Soldier to aid you in battle”
+#name "Summon Balrog Soldier"
+#descr "Summons a mighty Balrog Soldier to aid you in battle"
 #school 0
 #research 7
 #path 0 0
@@ -2023,16 +2029,16 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 2
 #fatiguecost 25
 #eff 10001
+#damage 3538
 #nreff 1
 #provrange 1
-#farsumcom “Balrog Soldier” 3537
-#restricted “Angband” 120
+#restricted "Angband"|120
 #end
 
 
 #newspell 
-#name “Forge Iron Serpent”
-#descr “Construct the great Siegebreaker of Angband, the mighty Iron Serpent”
+#name "Forge Iron Serpent"
+#descr "Construct the great Siegebreaker of Angband, the mighty Iron Serpent"
 #school 3
 #research 7
 #path 0 3
@@ -2041,14 +2047,15 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #path 1 2
 #fatiguecost 30
 #eff 10001
+#damage 3539
 #nreff 1
 #provrange 1
-#restricted “Angband”
+#restricted "Angband"
 #end
 
 #newspell 
-#name “Forge Bronze Serpent”
-#descr “construct the great battle serpent of Angband, the fire-breathing Bronze Serpent”
+#name "Forge Bronze Serpent"
+#descr "construct the great battle serpent of Angband, the fire-breathing Bronze Serpent"
 #school 3
 #research 7
 #path 0 3
@@ -2057,16 +2064,17 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #path 1 2
 #fatiguecost 30
 #eff 10001
+#damage 3542
 #nreff 1
 #provrange 1
-#restricted “Angband”
+#restricted "Angband"
 #end
 
 
 
 #newspell 
-#name “Summon Mounted Balrog”
-#descr “Summons a the most deadly weapon of all, a mounted Balrog”
+#name "Summon Mounted Balrog"
+#descr "Summons a the most deadly weapon of all, a mounted Balrog"
 #school 0
 #research 9
 #path 0 0
@@ -2075,28 +2083,30 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 2
 #fatiguecost 40
 #eff 10001
+#damage 3540
 #nreff 1
 #provrange 1
-#restricted “Angband” 120
+#restricted "Angband" 120
 #end
 
 #newspell 
-#name “Summon Dragon”
-#descr “Calls forth a mighty Dragon”
+#name "Summon Dragon"
+#descr "Calls forth a mighty Dragon"
 #school 0
 #research 9
 #path 0 0
 #pathlevel 0 7
 #fatiguecost 40
 #eff 10001
+#damage 2534
 #nreff 1
 #provrange 1
-#restricted “Angband” 120
+#restricted "Angband" 120
 #end
 
 #newspell 
-#name “Balrog Squad”
-#descr “Summons 5 Balrogs Soldiers to aid you in battle”
+#name "Balrog Squad"
+#descr "Summons 5 Balrog Soldiers to aid you in battle"
 #school 0
 #research 9
 #path 0 0
@@ -2105,37 +2115,10 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #pathlevel 1 3
 #fatiguecost 50
 #eff 10001
+#damage 3538
 #nreff 5
 #provrange 1
-#restricted “Angband” 120
+#restricted "Angband" 120
 #end
 
-#newitem 
-#constlevel 12
-#mainpath 3
-#mainlevel 8
-#secondarypath 5
-#secondarylevel 8
-#type 1
-#name "Grond"
-#descr "The Hammer of the Underworld, this is the weapon of the Dark Lord of Angband, the great Adversary. Its blows are so mighty that they can cause craters in the very earth beneath the blows.
-#weapon "Grond" 809
-#hp 20
-#str 5
-#minsize 4
-#unique
-#end
-#newitem
-#constlevel 12
-#type 9
-#name "The Iron Crown"
-#descr "The symbol of power of Angband. This crown holds the three Silmarils stolen by the great Adversary long ago."
-#armor "Magic Crown" 212
-#magicboost 4 2
-#pen 2
-#hp 30
-#prec 3
-#unique
-#inspirational 2
-#allrangeboost 2
-#end
+
