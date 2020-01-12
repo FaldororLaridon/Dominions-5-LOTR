@@ -313,7 +313,7 @@
 #mounted
 #snow
 #startage 150
-#max age 1000
+#maxage 1000
 #darkpower 3
 #darkvision 100
 #pillage bonus 3
@@ -881,9 +881,9 @@
 #slowrec
 #reqlab
 #reqtemple
-#rcost 20
-#gcost 400
-#rpcost 3
+#rcost 28
+#gcost 800
+#rpcost 2
 #hp 50
 #str 20
 #att 13
@@ -962,7 +962,7 @@
 #taskmaster 2
 #spellsinger
 #magicskill 8 1
-#magicskill 4 1
+#custommagicskill 23680 100
 #custommagicskill 23680 100
 #custommagicskill 23680 100
 #custommagicskill 23936 100
@@ -971,10 +971,9 @@
 #custommagicskill 32640 25
 #custommagicskill 32640 25
 #end
-
 #newmonster 3543
 #name "Spirit of Domination"
-#fixedname "Gorthaur the Cruel"
+#fixedname "Steve the angry"
 #descr "Known also as Sauron, the abhorred, or Thû, Gorthaur was the lieutenant of the first Dark Lord, and was given command of Angband during the days of his power. When the great War defeated them and his Lord was taken and bound, Gorthaur fled and hid himself from the Pantokrator and his servants. When they had left, he snuck back into Angband and began re-establishing its power, gathering together its servants and raiding nearby nations. Now that the awakened God has claimed dominion over Angband, Gorthaur has pledged his allegiance to his new Master, and will lead Angband to victory under the Iron Crown. Gorthaur is a skilled manipulator and commander, and has access to great power himself. He is a shapeshifter and can take many forms to suit his needs."
 #spr1 "images/3521_1.tga"
 #spr2 "images/3521_2.tga"
@@ -1297,7 +1296,7 @@
 #stealthy 40
 #spy
 #startage 200
-#max age 1000
+#maxage 1000
 #darkvision 100
 #castledef 1
 #siegebonus 3
