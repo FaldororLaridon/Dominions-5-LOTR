@@ -1817,8 +1817,6 @@
 #rarity 5
 #homemon "Greater Werewolf"|3505
 #homemon "Vampire Bat"|3508
-#homemon "Trollguard"|3511
-#homecom "Vampire Lady"|3515
 #conjcost 25%
 #end
 
@@ -1852,13 +1850,12 @@
 #name "Angband"
 #epithet "Reign of the Iron Crown"
 #era 1
-#descr "Angband"
-"Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness."
+#descr "Angband""Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness."
 #summary "Angband
 Race: various. Orcs, Men, Vampires, Werewolves and Trolls. Many units weaker in daylight. Prefers cold scale 1
 Military: Orc and Human infantry. Werewolf scouts and shock troops. Troll heavy infantry.
 Magic: Any, mostly Fire and Death, some blood.
-Priests: Weak, Dominion spreads fear and partial darkness.
+Priests: Weak.
 Buildings: Primitive. Starts with a powerful citadel."
 #brief "Angband
 A nation of dark and evil creatures bent on destruction. They are led by powerful Demons and Spirits who spur them on with fear rather than leadership."
@@ -1885,10 +1882,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #addrecunit "Lesser Werewolf"|3504
 #addrecunit "Easterling Warrior"|3506
 #addrecunit "Easterling Fighter"|3507
-#addrecunit "Vampire Bat"|3508
-#addrecunit "Angband Troll"|3509
 #addrecunit "Trollguard"|3510
-#addrecunit "Greater Werewolf"|3505
 #addreccom "Orc Taskmaster"|3511
 #addreccom "Vampire Scout"|3512
 #addreccom "Werewolf Scout"|3513
@@ -1897,8 +1891,6 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #addreccom "Orc Sorcerer"|3517
 #addreccom "Easterling Shaman"|3518
 #addreccom "Vampire Lady"|3515
-#addreccom "Balrog Captain"|3519
-#addreccom "Fallen Spirit"|3520
 #hero1 3521
 #hero2 3524
 #hero3 3525
@@ -1910,18 +1902,75 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #defunit1 "Angband Orc Archer"|3500
 #defunit1b "Angband Orc Spearman"|3501
 #defunit2 "Lesser Werewolf"|3504
-#defunit2b "Angband Troll"|3509
+#defunit2b "Angband Warg Rider"|3503
 #defmult1 20
 #defmult1b 20
 #defmult2 10
-#defmult2b 2
+#defmult2b 5
 #wallcom "Orc Taskmaster"|3511
 #wallunit "Angband Orc Archer"|3500
 #wallmult 15
 #addgod "Devourer of Light"|3529
 #addgod "Black Dragon"|3530
 #addgod "Istari of Crafts"|3531
+#addgod "Moloch"|120
+#addgod "Gorgon|138
+#addgod "Mother of Monsters"|157
+#addgod "Master Lich"|179
+#addgod "Demilich"|180
+#addgod "Freak Lord"|246
+#addgod "Crone"|249
+#addgod "Saurolich"|320
+#addgod "Prince of Death"|383
+#addgod "Neter of Chaos"|388
+#addgod "Lich Queen"|395
+#addgod "Bitch Queen"|401
+#addgod "Great Warlock"|486
+#addgod "Skratti"|500
+#addgod "Teotl of Rain"|603
+#addgod "Teotl of the Night"|604
+#addgod "Son of Winter"|605
+#addgod "Baphomet"|607
+#addgod "Bog Mummy"|643
+#addgod "Dracolich"|644
+#addgod "Void Lord"|652
+#addgod "Fountain of Blood|656
+#addgod "Smoking Mirror"|857
+#addgod "Vampire Queen"|862
+#addgod "Colossal Head"|958
+#addgod "Great Black Bull"|978
+#addgod "Carrion Dragon|1026
+#addgod "Destroyer of Worlds"|1096
+#addgod "Lord of the Summer Plague"|1097
+#addgod "Son of Fenrer"|1229
+#addgod "Colossal Fetish"|1346
+#addgod "Devourer of Souls"|1349
+#addgod "Fomorian God King"|1899
+#addgod "Son of the Fallen"|2082
+#addgod "Oni Kunshu"|2203
+#addgod "Teteo Inan"|2434
+#addgod "Annunaki of the Underworld"|2438
+#addgod "Teotl of War"|2442
+#addgod "Teotl of the Underworld"|2444
+#addgod "Idol of Sorcery"|2449
+#addgod "Golden Idol"|2462
+#addgod "Statue of War""|2463
+#addgod "Azi"|2608
+#addgod "Angra Mainyu"|2610
+#addgod "Hun Came"|2755
+#addgod "Bolon-ti-ku"|2756
+#addgod "Hun Balam"|2764
+#addgod "Man-Eater"|2788
+#addgod "Myrmecoleon"|2790
+#addgod "Serpent of Chaos|2793
+#addgod "Hound of Hades"|2796
+#addgod "Svartalf Mastersmith"|2802
+#addgod "Telkhine God-King"|2881
+#addgod "Bronze Colossus"|3346
 #homerealm 2
+#delgod "Duiu of Thunder"|3079
+#delgod "Duiu of Farming"|3080
+#delgod "Duiu of War"|3081
 #cheapgod20 "Devourer of Light"|3529
 #cheapgod20 "Black Dragon"|3530
 #cheapgod20 "Istari of Crafts"|3531
