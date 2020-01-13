@@ -3,8 +3,8 @@
 #icon "images/onering.tga"
 #version 0.00
 #newweapon 800
-#name "Scimitar"
 #copyweapon "Falchion"|10
+#name "Scimitar"
 #end
 #newweapon 801
 #name "Fire Sword"
@@ -48,12 +48,13 @@
 #slash
 #armorpiercing
 #end
-#newweapon "Orc-Spear" 804
+#newweapon 804
 #copyweapon "Machaka Spear"|315
+#name "Orc-Spear"
 #end
 #newweapon 805
-#name "Poisoned Scimitar"
 #copyweapon "Falchion"|10
+#name "Poisoned Scimitar"
 #secondaryeffect "Weak Poison"|50
 #end
 #newweapon 806
@@ -116,22 +117,6 @@
 #blunt
 #aoe 2
 #end
-#newweapon 810
-#name "Flame Tendril"
-#dmg 5
-#natt 1
-#def 0
-#len 4
-#dt_normal
-#slash
-#fire
-#armorpiercing
-#nostr
-#sound 9
-#bonus
-#norepel
-#unrepel
-#end
 
 #newarmor 300
 #name "Orc-Mail Cuirass"
@@ -177,6 +162,40 @@
 #end
 
 
+#newmonster 3500
+#name "Angband Orc Archer"
+#descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs. After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
+#spr1 "images/3500_1.tga"
+#spr2 "images/3500_2.tga"
+#rcost 1
+#gcost 10
+#rpcost 5
+#hp 8
+#str 11
+#att 7
+#def 9
+#prec 8
+#prot 0
+#size 2
+#mr 9
+#mor 7
+#enc 3
+#mapmove 14
+#ap 10
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Poison Dagger"|126
+#armor "Orc-Mail Cuirass"|300
+#humanoid
+#wastesurvival
+#startage 150
+#maxage 1000
+#darkvision 100
+#pillagebonus 2
+#slave
+#nametype 161
+#darkpower 3
+#end
 #newmonster 3500
 #name "Angband Orc Archer"
 #descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs. After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
@@ -267,7 +286,7 @@
 #mapmove 12
 #ap 10
 #eyes 2
-#weapon "Scimitar"|800
+#weapon "Poisoned Scimitar"|805
 #armor "Orc Plate Mail"|303
 #armor "Orc Helm"|304
 #armor "Iron Shield"|208
@@ -320,7 +339,6 @@
 #nametype 161
 #slave
 #end
-
 #newmonster 3504
 #name "Lesser Werewolf"
 #descr "Werewolves--great spirits in wolf shape--are the backbone of the armies of Angband, and the personal favourite of Gorhaur the Cruel. Savage, powerful and fast, they are a terror to behold on the battlefield. Lesser werewolves are often used for sneaking through enemy territory and flanking enemy archers."
@@ -1850,7 +1868,8 @@
 #name "Angband"
 #epithet "Reign of the Iron Crown"
 #era 1
-#descr "Angband""Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness."
+#descr "Angband
+Angband is all that is left of an ancient evil. Once only a fortress in the hands of the Great Adversary, it was created as a defence in the war against the First Pantokrator. But the Adversary was defeated, his minions scattered, and he was bound and thrown into the void. But Angband was not wholly destroyed, and so Gorthaur the Cruel, chief lieutenant of the Great Adversary returned and created a nation of Darkness in his master’s image. Still they were but a shadow of their former power, until the coming of the Awakening God. now the forges in Angband ring once more, and long-forgotten servants are gathering again under Angband’s banner. The drums of war are sounding, and this time Angband will stop at nothing to cover the world in Darkness."
 #summary "Angband
 Race: various. Orcs, Men, Vampires, Werewolves and Trolls. Many units weaker in daylight. Prefers cold scale 1
 Military: Orc and Human infantry. Werewolf scouts and shock troops. Troll heavy infantry.
@@ -1913,6 +1932,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #addgod "Devourer of Light"|3529
 #addgod "Black Dragon"|3530
 #addgod "Istari of Crafts"|3531
+#addgod "Fallen Valar"|3532
 #addgod "Moloch"|120
 #addgod "Gorgon|138
 #addgod "Mother of Monsters"|157
@@ -1954,7 +1974,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #addgod "Teotl of the Underworld"|2444
 #addgod "Idol of Sorcery"|2449
 #addgod "Golden Idol"|2462
-#addgod "Statue of War""|2463
+#addgod "Statue of War"|2463
 #addgod "Azi"|2608
 #addgod "Angra Mainyu"|2610
 #addgod "Hun Came"|2755
@@ -1974,6 +1994,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #cheapgod20 "Devourer of Light"|3529
 #cheapgod20 "Black Dragon"|3530
 #cheapgod20 "Istari of Crafts"|3531
+#cheapgod 40 "Fallen Valar"|3532
 #fortera 0
 #templepic 13
 #homefort 25
