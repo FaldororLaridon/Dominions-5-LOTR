@@ -117,7 +117,7 @@
 #blunt
 #aoe 2
 #end
-
+#newweapon 810
 #name "Flame Tendril"
 #dmg 5
 #natt 1
