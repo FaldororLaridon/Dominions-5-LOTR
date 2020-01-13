@@ -118,6 +118,22 @@
 #aoe 2
 #end
 
+#name "Flame Tendril"
+#dmg 5
+#natt 1
+#def 0
+#len 4
+#dt_normal
+#slash
+#fire
+#armorpiercing
+#nostr
+#sound 9
+#bonus
+#norepel
+#unrepel
+#end
+
 #newarmor 300
 #name "Orc-Mail Cuirass"
 #type 5
@@ -162,40 +178,6 @@
 #end
 
 
-#newmonster 3500
-#name "Angband Orc Archer"
-#descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs. After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
-#spr1 "images/3500_1.tga"
-#spr2 "images/3500_2.tga"
-#rcost 1
-#gcost 10
-#rpcost 5
-#hp 8
-#str 11
-#att 7
-#def 9
-#prec 8
-#prot 0
-#size 2
-#mr 9
-#mor 7
-#enc 3
-#mapmove 14
-#ap 10
-#eyes 2
-#weapon "Short Bow"|23
-#weapon "Poison Dagger"|126
-#armor "Orc-Mail Cuirass"|300
-#humanoid
-#wastesurvival
-#startage 150
-#maxage 1000
-#darkvision 100
-#pillagebonus 2
-#slave
-#nametype 161
-#darkpower 3
-#end
 #newmonster 3500
 #name "Angband Orc Archer"
 #descr "IThe origins of the Orc lie deep in the mists of time. It is said that the greatest servant of the First Pantokrator rebelled against his master and set to take the world for himself, and to change and corrupt all that was made to his own will. Elves he captured and subjected to terrible tortures and sorceries, and from them twisted the race of Orcs. After the fall of the first Dark Lord, Orcs became the chief soldiers of Angband, as many of the other powers had fled or vanished. With the return of the Awakening God, these powers are returning and the usefulness of Orcs has diminished. Still, thousands of them still fight in Angband’s armies, bolstering the tide of Angband’s war machine."
@@ -304,7 +286,7 @@
 
 #newmonster 3503
 #name "Angband Warg Rider"
-#desc "Lesser wolves are of little interest to the Dark Lord, but he has found some use in them bearing Orcs on their backs and acting as scouts and light cavalry. Wolf riders are chiefly used to harass enemy lines before the main force can reach them."
+#descr "Lesser wolves are of little interest to the Dark Lord, but he has found some use in them bearing Orcs on their backs and acting as scouts and light cavalry. Wolf riders are chiefly used to harass enemy lines before the main force can reach them."
 #spr1 "images/3503_1.tga"
 #spr2 "images/3503_2.tga"
 #rcost 1
