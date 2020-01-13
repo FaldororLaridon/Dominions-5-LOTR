@@ -971,48 +971,7 @@
 #custommagicskill 32640 25
 #custommagicskill 32640 25
 #end
-#newmonster 3543
-#name "Spirit of Domination"
-#fixedname "Steve the angry"
-#descr "Known also as Sauron, the abhorred, or Thû, Gorthaur was the lieutenant of the first Dark Lord, and was given command of Angband during the days of his power. When the great War defeated them and his Lord was taken and bound, Gorthaur fled and hid himself from the Pantokrator and his servants. When they had left, he snuck back into Angband and began re-establishing its power, gathering together its servants and raiding nearby nations. Now that the awakened God has claimed dominion over Angband, Gorthaur has pledged his allegiance to his new Master, and will lead Angband to victory under the Iron Crown. Gorthaur is a skilled manipulator and commander, and has access to great power himself. He is a shapeshifter and can take many forms to suit his needs."
-#spr1 "images/3521_1.tga"
-#spr2 "images/3521_2.tga"
-#hp 45
-#str 17
-#att 14
-#def 15
-#prot 6
-#prec 11
-#size 3
-#mr 18
-#mor 30
-#enc 1
-#mapmove 16
-#ap 16
-#eyes 2
-#weapon "Flail"|16
-#armor "Plate Hauberk"|14
-#armor  "Half Helmet"|118
-#humanoid
-#holy
-#unique
-#magicbeing
-#startage 1200
-#maxge 3000
-#fear 5
-#spiritsight
-#spreaddom 1
-#expertleader
-#goodmagicleader
-#goodundeadleader
-#taskmaster 2
-#magicskill 3 3
-#magicskill 5 2
-#magicskill 4 1
-#mastersmith 2
-#forgebonus 20
-#spellsinger
-#end
+
 
 #newmonster 3522
 #name "Greatest Wolf"
@@ -1354,12 +1313,14 @@
 #magicskill 0 4
 #end
 
+
 #newmonster 3529
 #name "Devourer of Light"
 #fixedname "Ungoliant"
 #descr "A being of primordial darkness from before the dawn of time. The Devourer of Light consumes the light from the very air around her and spins it into webs of pure darkness that not even the Pantokrator could penetrate. She gives no thought to anything but her hunger, and has little interest in armies or servants. But she is cunning and filled with a bitter malice, and so with the Throne of God empty, she sees an oppourtunity to claim the throne for herself, and perhaps at long last sate her unending hunger."
 #spr1 "images/3529_1.tga"
 #spr2 "images/3529_2.tga"
+#gcost 10000
 #pathcost 80
 #startdom 2
 #hp 120
@@ -1404,6 +1365,7 @@
 #descr "The greatest of all Dragons, the pinnacle of their race. The Black Dragon was the pinnacle of centuries of crossbreeding by the first great Adversary, who intended to create a fleet of Dragons to challenge the Pantokrator. He was defeated and captured before his dream could become reality, but the Black Dragon remained hidden. Now that the Pantokrator has vanished, he will rise from the depths and claim the world as his. Unlike other Dragons, the Black Dragon cannot revert to a human form, but his Draconic image is mightier than any other Dragon."
 #spr1 "images/3530_1.tga"
 #spr2 "images/3530_2.tga"
+#gcost 10000
 #pathcost 50
 #startdom 2
 #hp 150
@@ -1446,6 +1408,7 @@
 #pathcost 10
 #startdom 1
 #homerealm 10
+#gcost 10000
 #hp 10
 #str 10
 #att 10
@@ -1473,7 +1436,7 @@
 
 
 #newmonster 3533
-#name "Father of Dragons" 
+#name "First Dragon" 
 #fixedname "Glaurung"
 #descr "Glaurung is the first of the True Dragons. Bred by the Great Adversary in bygone years, he has hibernated for centuries. Now the Awakening God has returned, he is ready to come forth once again. Glaurung is still young and weak, but he will grow strong upon the blood of the slain."
 #spr1 "images/3533_1.tga"
@@ -1508,7 +1471,7 @@
 #end
 
 #newmonster 3534
-#name "Father of Dragons"
+#name "Mighty Dragon"
 #fixedname "Glaurung"
 #descr "Glaurung grows swiftly, as if making up for lost time while he slumbered and other Dragons grew mighty. He is far greater than he was before, though he still has yet to come into his full power."
 #spr1 "images/3534_1.tga"
@@ -1853,7 +1816,7 @@
 #level 0
 #rarity 5
 #homemon "Greater Werewolf"|3505
-#homemon "Vampire"|3508
+#homemon "Vampire Bat"|3508
 #homemon "Trollguard"|3511
 #homecom "Vampire Lady"|3515
 #conjcost 25%
@@ -1957,6 +1920,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #wallmult 15
 #addgod "Devourer of Light"|3529
 #addgod "Black Dragon"|3530
+#addgod "Istari of Crafts"|3531
 #homerealm 2
 #cheapgod20 "Devourer of Light"|3529
 #cheapgod20 "Black Dragon"|3530
@@ -1970,12 +1934,12 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Summon Glaurung"
 #descr "Awakens Glaurung, Father of Dragons from his slumber beneath Angband."
 #school 0
-#research 4
+#researchlevel 4
 #path 0 0
 #pathlevel 0 3
-#fatiguecost 10
-#eff 10001
-#damage 3533
+#fatiguecost 1000
+#effect 10021
+#damagemon "First Dragon"
 #nreff 1
 #provrange 1
 #onlyatsite "Pits of Utumno"
@@ -1986,13 +1950,13 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Summon Balrog"
 #descr "Summons a mighty Balrog to aid you in battle"
 #school 0
-#research 6
+#researchlevel 6
 #path 0 0
 #pathlevel 0 4
 #path 1 5
 #pathlevel 1 2
-#fatiguecost 20
-#eff 10001
+#fatiguecost 2000
+#effect 10001
 #damage 3536
 #nreff 1
 #provrange 1
@@ -2003,13 +1967,13 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Summon Balrog Skirmisher"
 #descr "Summons a mighty Balrog Skirmisher to aid you in battle"
 #school 0
-#research 6
+#researchlevel 6
 #path 0 0
 #pathlevel 0 4
 #path 1 5
 #pathlevel 1 2
-#fatiguecost 20
-#eff 10001
+#fatiguecost 2000
+#effect 10001
 #damage 3537
 #nreff 1
 #provrange 1
@@ -2021,13 +1985,13 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Summon Balrog Soldier"
 #descr "Summons a mighty Balrog Soldier to aid you in battle"
 #school 0
-#research 7
+#researchlevel 7
 #path 0 0
 #pathlevel 0 5
 #path 1 5
 #pathlevel 1 2
 #fatiguecost 25
-#eff 10001
+#effect 10001
 #damage 3538
 #nreff 1
 #provrange 1
@@ -2039,13 +2003,13 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Forge Iron Serpent"
 #descr "Construct the great Siegebreaker of Angband, the mighty Iron Serpent"
 #school 3
-#research 7
+#researchlevel 7
 #path 0 3
 #pathlevel 0 6
 #path 1 0
 #path 1 2
-#fatiguecost 30
-#eff 10001
+#fatiguecost 3000
+#effect 10001
 #damage 3539
 #nreff 1
 #provrange 1
@@ -2056,13 +2020,13 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Forge Bronze Serpent"
 #descr "construct the great battle serpent of Angband, the fire-breathing Bronze Serpent"
 #school 3
-#research 7
+#researchlevel 7
 #path 0 3
 #pathlevel 0 6
 #path 1 0
 #path 1 2
-#fatiguecost 30
-#eff 10001
+#fatiguecost 3000
+#effect 10001
 #damage 3542
 #nreff 1
 #provrange 1
@@ -2075,13 +2039,13 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Summon Mounted Balrog"
 #descr "Summons a the most deadly weapon of all, a mounted Balrog"
 #school 0
-#research 9
+#researchlevel 9
 #path 0 0
 #pathlevel 0 7
 #path 1 5
 #pathlevel 1 2
-#fatiguecost 40
-#eff 10001
+#fatiguecost 4000
+#effect 10001
 #damage 3540
 #nreff 1
 #provrange 1
@@ -2092,10 +2056,10 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Summon Dragon"
 #descr "Calls forth a mighty Dragon"
 #school 0
-#research 9
+#researchlevel 9
 #path 0 0
 #pathlevel 0 7
-#fatiguecost 40
+#fatiguecost 4000
 #eff 10001
 #damage 2534
 #nreff 1
@@ -2107,17 +2071,16 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #name "Balrog Squad"
 #descr "Summons 5 Balrog Soldiers to aid you in battle"
 #school 0
-#research 9
+#researchlevel 9
 #path 0 0
 #pathlevel 0 6
 #path 1 5
 #pathlevel 1 3
-#fatiguecost 50
+#fatiguecost 5000
 #eff 10001
 #damage 3538
 #nreff 5
 #provrange 1
 #restricted "Angband" 120
 #end
-
 
