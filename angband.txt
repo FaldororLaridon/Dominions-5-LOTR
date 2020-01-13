@@ -1973,6 +1973,15 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #delgod "Duiu of Thunder"|3079
 #delgod "Duiu of Farming"|3080
 #delgod "Duiu of War"|3081
+#delgod "Great Mother"|606
+#delgod "Arch Druis"|270
+#delgod "Rams-Headed-Serpent|779
+#delgod "Lord of the Forest"|1378
+#delgod "Horned One"|2450
+#delgod "Thrice Horned Boar"|2784
+#delgod "Son of the Sea"|2856
+#delgod "Hooded Spirit"|2930
+#delgod "Matrona of the Healing Spring"|3082
 #cheapgod20 "Devourer of Light"|3529
 #cheapgod20 "Black Dragon"|3530
 #cheapgod20 "Istari of Crafts"|3531
