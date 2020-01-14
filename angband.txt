@@ -906,7 +906,6 @@
 #airshield 30
 #demon
 #maxage 3000
-#ethereal
 #fireres 30
 #invulnerable 15
 #heat 3
@@ -1299,7 +1298,6 @@
 #startage 1200
 #maxage 3000
 #woundfend 1
-#ethereal
 #invulnerable 20
 #airshield 30
 #heat 3
@@ -1627,7 +1625,6 @@
 #demon
 #flying
 #maxage 3000
-#ethereal
 #fireres 30
 #invulnerable 15
 #heat 3
@@ -1666,7 +1663,6 @@
 #demon
 #flying
 #maxage 3000
-#ethereal
 #fireres 30
 #invulnerable 15
 #heat 3
@@ -1703,7 +1699,6 @@
 #holy
 #demon
 #maxage 3000
-#ethereal
 #fireres 30
 #invulnerable 15
 #heat 3
@@ -1780,7 +1775,6 @@
 #noriverpass
 #maxage 3000
 #uwdamage 100
-#ethereal
 #fireres 50
 #end
 
