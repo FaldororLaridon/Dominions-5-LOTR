@@ -2165,7 +2165,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #path 0 0
 #pathlevel 0 7
 #fatiguecost 4000
-#eff 10001
+#effect 10001
 #damage 2534
 #nreff 1
 #provrange 1
@@ -2182,7 +2182,7 @@ A nation of dark and evil creatures bent on destruction. They are led by powerfu
 #path 1 5
 #pathlevel 1 3
 #fatiguecost 5000
-#eff 10001
+#effect 10001
 #damage 3538
 #nreff 5
 #provrange 1
