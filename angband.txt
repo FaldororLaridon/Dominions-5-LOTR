@@ -522,7 +522,7 @@
 #flying
 #stealthy 30
 #startage 200
-#max age 1000
+#maxage 1000
 #darkvision 100
 #castledef 1
 #siegebonus 3
@@ -634,7 +634,7 @@
 #stealthy 40
 #spy
 #startage 200
-#max age 1000
+#maxage 1000
 #darkvision 100
 #castledef 1
 #siegebonus 3
@@ -759,7 +759,7 @@
 #female
 #flying
 #stealthy 40
-#max age 1000
+#maxage 1000
 #darkvision 100
 #castledef 1
 #siegebonus 3
