@@ -876,6 +876,7 @@
 
 #newmonster 3519
 #name "Balrog Captain"
+#speciallook 3
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
 #spr1 "images/3519_1.tga"
 #spr2 "images/3519_2.tga"
@@ -910,7 +911,6 @@
 #invulnerable 15
 #heat 3
 #fear 5
-#fireshield 7
 #airshield 30
 #ambidextrous 3
 #spiritsight
@@ -1271,6 +1271,7 @@
 #newmonster 3528
 #name "Balrog Lord"
 #fixedname "Gothmog"
+#speciallook 3
 #descr "Lord of the Balrogs, Captain of Angband. If Gorthaur is the right hand of the Awakening God, then Gothmog is his left. Gothmog leads the armies of Angband from the front, and his power and skill encourages them to greater deeds. Gothmog and Gorthaur harbour no love for each other. Gothmog ridicules Gorthaur for leading armies from the back, calling cunning cowardice, while Gothaur denounces Gothmog as nothing more than a thug to be pointed in the direction of Angbands enemies."
 #spr1 "images/3528_1.tga"
 #spr2 "images/3528_2.tga"
@@ -1302,7 +1303,6 @@
 #airshield 30
 #heat 3
 #fear 5
-#fireshield 7
 #spiritsight
 #neednoteat
 #ambidextrous 2
@@ -1602,7 +1602,7 @@
 #newmonster 3536
 #name "Balrog"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#speciallook 1
+#speciallook 3
 #spr1 "images/3536_1.tga"
 #spr2 "images/3536_2.tga"
 #hp 50
@@ -1629,7 +1629,6 @@
 #invulnerable 15
 #heat 3
 #fear 5
-#fireshield 5
 #ambidextrous 2
 #spiritsight
 #neednoteat
@@ -1639,7 +1638,7 @@
 #newmonster 3537
 #name "Balrog Skirmisher"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#speciallook 1
+#speciallook 3
 #spr1 "images/3537_1.tga"
 #spr2 "images/3537_2.tga"
 #hp 50
@@ -1667,7 +1666,6 @@
 #invulnerable 15
 #heat 3
 #fear 5
-#fireshield 5
 #ambidextrous 2
 #spiritsight
 #neednoteat
@@ -1676,7 +1674,7 @@
 #newmonster 3538
 #name "Balrog Soldier"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
-#speciallook 1
+#speciallook 3
 #spr1 "images/3538_1.tga"
 #spr2 "images/3538_2.tga"
 #hp 50
@@ -1703,7 +1701,6 @@
 #invulnerable 15
 #heat 3
 #fear 5
-#fireshield 5
 #airshield 30
 #ambidextrous 2
 #spiritsight
@@ -1745,7 +1742,7 @@
 #newmonster 3540
 #name "Balrog Rider"
 #descr "The most terrible force of Angband, the pinnacle of pure destruction. Elite Balrogs are mounted on great elementals of molten flame. Virtually unstoppable in combat, they devastate and burn everything around them. With these warriors at their side, surely nothing can stop Angband from conquering all the world."
-#speciallook 1
+#speciallook 3
 #spr1 "images/3540_1.tga"
 #spr2 "images/3540_2.tga"
 #resize 5
