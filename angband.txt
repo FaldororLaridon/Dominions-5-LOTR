@@ -884,7 +884,7 @@
 #reqtemple
 #rcost 28
 #gcost 600
-#rpcost 2
+#rpcost 4
 #hp 50
 #str 20
 #att 13
