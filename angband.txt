@@ -360,6 +360,7 @@
 #newmonster 3539
 #name "Wyrmslayer"
 #descr "The Elite of the Dwarven warriors, the Wyrmslayers are the most dreaded of all that grim-faced folk issuing from the mountains. They are trained to fight and slay the elites of other nations, Wielding their great battle-axes to deadly efficiancy. The last thing many would-be invaders of the halls of the Dwarves have seen is the Wyrmslayers in gilded armour charging towards them, and the last thing they hear is their battle-cry. "Baruk Khazad! Khazad ai Menu!"
+#reqtemple
 #rcost 2
 #gcost 35
 #rpcost 30
@@ -391,3 +392,7 @@
 #darkvision 50
 #nametypes 104
 #end
+#newmonster 3540
+#name "Dwarf Captain"
+#descr "Dwarf Captains typically lead mining expeditions, or groups of dwarf-guards to ensure that the mountains they delve into are not already occupied by hostiles. Their work is not glamourous, but it is vital. In times of war, sometimes they will leave the mines to lead the Khazad above ground.
+#
