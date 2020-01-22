@@ -169,4 +169,31 @@
 #rcost 2
 #gcost 20
 #rpcost 20
-#
+#hp 15
+#str 10
+#att 10
+#def 10
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Pick"|315
+#armor "Dwarf Half Helm"|307
+#armor "Dwarf-Mail Cuirass"|305
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 10
+#reinvigoration 4
+#darkvision 50
+#siegebonus 8
+#nametypes 104
+#end
+#newmonster 3534
+#name "Khazad Archer"
+#descr "
