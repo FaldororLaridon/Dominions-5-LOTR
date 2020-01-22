@@ -205,7 +205,7 @@
 #end
 #newmonster 3534
 #name "Khazad Archer"
-#descr "The infantry of the twin cities of Nogrod and Belegost are among the finest in the world. But the Dwarves recognised the nessecity of range against faster enemies, or in defence of their cities. Therefore, they developed a type of bow designed with their short but sturdy bodies in mind. the steelbow fires surprisingly far with little effort on the part of the archer. Enchantments are wrought into the very metal, to defy the shields of their enemies. Ware to those who mock the Dwarves! 
+#descr "The infantry of the twin cities of Nogrod and Belegost are among the finest in the world. But the Dwarves recognised the necessity of range against faster enemies, or in defence of their cities. Therefore, they developed a type of bow designed with their short but sturdy bodies in mind. The steelbow fires surprisingly far with little effort on the part of the archer. Enchantments are wrought into the very metal, to defy the shields of their enemies. Ware to those who mock the Dwarves!"
 #rcost 2
 #gcost 20
 #rpcost 20
@@ -236,7 +236,7 @@
 #end
 #newmonster 3535
 #name "Khazad Spearman" 
-#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall."
 #rcost 2
 #gcost 30
 #rpcost 25
@@ -269,7 +269,7 @@
 #end
 #newmonster 3536
 #name "Khazad Soldier" 
-#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall."
 #rcost 2
 #gcost 30
 #rpcost 25
@@ -302,7 +302,7 @@
 #end
 #newmonster 3537
 #name "Khazad Swordsman" 
-#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall."
 #rcost 2
 #gcost 30
 #rpcost 25
@@ -335,7 +335,7 @@
 #end
 #newmonster 3538
 #name "Khazad Axeman" 
-#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall."
 #rcost 2
 #gcost 30
 #rpcost 25
@@ -368,7 +368,7 @@
 #end
 #newmonster 3539
 #name "Wyrmslayer"
-#descr "The Elite of the Dwarven warriors, the Wyrmslayers are the most dreaded of all that grim-faced folk issuing from the mountains. They are trained to fight and slay the elites of other nations, Wielding their great battle-axes to deadly efficiancy. The last thing many would-be invaders of the halls of the Dwarves have seen is the Wyrmslayers in gilded armour charging towards them, and the last thing they hear is their battle-cry. "Baruk Khazad! Khazad ai Menu!"
+#descr "The Elite of the Dwarven warriors, the Wyrmslayers are the most dreaded of all that grim-faced folk issuing from the mountains. They are trained to fight and slay the elites of other nations, Wielding their great battle-axes to deadly efficiancy. The last thing many would-be invaders of the halls of the Dwarves have seen is the Wyrmslayers in gilded armour charging towards them, and the last thing they hear is their battle-cry. 'Baruk Khazad! Khazad ai Menu!'"
 #reqtemple
 #rcost 2
 #gcost 35
@@ -403,7 +403,7 @@
 #end
 #newmonster 3540
 #name "Dwarf Captain"
-#descr "Dwarf Captains typically lead mining expeditions, or groups of dwarf-guards to ensure that the mountains they delve into are not already occupied by hostiles. Their work is not glamourous, but it is vital. In times of war, sometimes they will leave the mines to lead the Khazad above ground.
+#descr "Dwarf Captains typically lead mining expeditions, or groups of dwarf-guards to ensure that the mountains they delve into are not already occupied by hostiles. Their work is not glamourous, but it is vital. In times of war, sometimes they will leave the mines to lead the Khazad above ground."
 #rcost 2
 #gcost 20000
 #rpcost 2
@@ -439,7 +439,7 @@
 #end
 #newmonster 3541
 #name "Dwarf Apprentice"
-#descr "All Dwarves learn of the trade of smithying and crafting, and they design their own weapons and armour. For some it is merely a cultural skill, while others choose to dedicate themselves to the way of the Forge. These apprentices have yet to learn the intricacies of smithcraft, and while their skills are far greater than most other nations, they are still only worthy to forge the most standard equipment of the twin cities.
+#descr "All Dwarves learn of the trade of smithying and crafting, and they design their own weapons and armour. For some it is merely a cultural skill, while others choose to dedicate themselves to the way of the Forge. These apprentices have yet to learn the intricacies of smithcraft, and while their skills are far greater than most other nations, they are still only worthy to forge the most standard equipment of the twin cities."
 #reqlab
 #reqtemple
 #rcost 2
@@ -477,7 +477,7 @@
 #end
 #newmonster 3542
 #name "Dwarf Forge-Priest"
-#descr "The art of smithying is considered a holy work among the dwarves. the works of their hands are their worship, and far more practical than hours spent on bended knee. The Forge-Priest is a Dwarf who has come far in the skill of crafting, and has divined many secrets in the forging of magic items and equipment. While Dwarves have a great love for the works of the hand, they are a jealous and secretive race, and rarely work well with others. Thus, they make for poor researchers.
+#descr "The art of smithying is considered a holy work among the dwarves. the works of their hands are their worship, and far more practical than hours spent on bended knee. The Forge-Priest is a Dwarf who has come far in the skill of crafting, and has divined many secrets in the forging of magic items and equipment. While Dwarves have a great love for the works of the hand, they are a jealous and secretive race, and rarely work well with others. Thus, they make for poor researchers."
 #reqlab
 #reqtemple
 #rcost 2
@@ -519,7 +519,7 @@
 #end
 #newmonster 3543
 #name "Dwarf Lord"
-#descr "The Dwarf-Lords of Nogrod and Belegost are nobles of that great people. They are masterful smiths, incredibly wealthy and mighty warriors. 
+#descr "The Dwarf-Lords of Nogrod and Belegost are nobles of that great people. They are masterful smiths, incredibly wealthy and mighty warriors."
 #rcost 2
 #gcost 2500
 #rpcost 2
@@ -556,7 +556,7 @@
 #end
 #newmonster 3544
 #name "Rune Smith"
-#descr "The Rune Smiths have delved deeper into their work than the Forge Priests below them. Uninterested in matters of state or other Dwarves, they have confined themselves to unlocking the secrets of smith-craft. They are skilled and mighty mages, but grow ever more secretive and jealous of their works.
+#descr "The Rune Smiths have delved deeper into their work than the Forge Priests below them. Uninterested in matters of state or other Dwarves, they have confined themselves to unlocking the secrets of smith-craft. They are skilled and mighty mages, but grow ever more secretive and jealous of their works."
 #slowrec
 #reqlab
 #reqtemple
@@ -598,7 +598,7 @@
 #end
 #newmonster 3545
 #name "Forge Lord"
-#descr "At first glance, there might be little difference between the Forge Lord and the Rune Smith. But where the Rune Smith focuses all his attention and energy on perfecting his craft and forging mighty and legendary works, the Forge Lord has opened his heart more to his people. While Dwarves engage in trade rather than gift-giving, he nevertheless makes his skills more open and available, and hoards his secrets less jealously than his peers. Thus, Forge Lords are held in high esteem by the Khazad, and it is because of their ceaseless labour that the Dwarven armies are maintained as best-equipped soldiers in the world.
+#descr "At first glance, there might be little difference between the Forge Lord and the Rune Smith. But where the Rune Smith focuses all his attention and energy on perfecting his craft and forging mighty and legendary works, the Forge Lord has opened his heart more to his people. While Dwarves engage in trade rather than gift-giving, he nevertheless makes his skills more open and available, and hoards his secrets less jealously than his peers. Thus, Forge Lords are held in high esteem by the Khazad, and it is because of their ceaseless labour that the Dwarven armies are maintained as best-equipped soldiers in the world."
 #slowrec
 #reqlab
 #reqtemple
@@ -643,7 +643,7 @@
 #end
 #newmonster 3546
 #name "Reborn Father"
-#descr "It is held in Dwarf-Lore that their race came of seven Fathers, the first to be created by an ancient deity. They were given peoples and told to go out into the world and make use of the gifts they had been given. Sometimes a Dwarf is born who is so alike these ancient legends, with memories and knowledge long lost, that it is agreed he must be one of the Seven Fathers reborn to walk among the Dwarves again. Reborn Fathers are held in awe by other Dwarves, and they excel at any skill they put their hands to. They are living legends among the Khazad, and even the Kings listen closely to their counsel
+#descr "It is held in Dwarf-Lore that their race came of seven Fathers, the first to be created by an ancient deity. They were given peoples and told to go out into the world and make use of the gifts they had been given. Sometimes a Dwarf is born who is so alike these ancient legends, with memories and knowledge long lost, that it is agreed he must be one of the Seven Fathers reborn to walk among the Dwarves again. Reborn Fathers are held in awe by other Dwarves, and they excel at any skill they put their hands to. They are living legends among the Khazad, and even the Kings listen closely to their counsel."
 #slowrec
 #reqlab
 #reqtemple
