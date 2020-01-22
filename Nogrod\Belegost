@@ -163,6 +163,15 @@
 #rcost 4
 #magic
 #end
+#newarmor 310
+#name "Dwarf-Mail Hauberk"
+#type 5
+#prot 18
+#def -2
+#enc 3
+#rcost 20
+#magic
+#end
 #newmonster 3533
 #name "Blue Mountain Sapper"
 #descr "No race is more attuned to the working of minerals and the deeps of the earth than the Dwarves. They are a hardy folk, difficult to daunt or slay, and masters of forging like few others can claim. The Sappers of the twin cities are often former miners that have answered the call to war and joined the Dwarven hosts. Their years in deep places have given them great nightvision and a knowledge of the strengths and weaknesses of stone. No wall can stand for long if the Sappers turn their will towards it."
@@ -395,4 +404,115 @@
 #newmonster 3540
 #name "Dwarf Captain"
 #descr "Dwarf Captains typically lead mining expeditions, or groups of dwarf-guards to ensure that the mountains they delve into are not already occupied by hostiles. Their work is not glamourous, but it is vital. In times of war, sometimes they will leave the mines to lead the Khazad above ground.
-#
+#rcost 2
+#gcost 20000
+#rpcost 2
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Falchion"|814
+#armor "Dwarf-Mail Hauberk"|310
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 1
+#patrolbonus 5
+#nametypes 104
+#okleader
+#command 20
+#end
+#newmonster 3541
+#name "Dwarf Apprentice"
+#descr "All Dwarves learn of the trade of smithying and crafting, and they design their own weapons and armour. For some it is merely a cultural skill, while others choose to dedicate themselves to the way of the Forge. These apprentices have yet to learn the intricacies of smithcraft, and while their skills are far greater than most other nations, they are still only worthy to forge the most standard equipment of the twin cities.
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 20000
+#rpcost 2
+#hp 15
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 1
+#mr 15
+#mor 13
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarven Dagger"|318
+#armor "Dwarf-Mail Cuirass"|305
+#humanoid
+#holy
+#mountainsurvival
+#maxage 230
+#fireres 15
+#reinvigoration 4
+#darkvision 50
+#resources 5
+#nametypes 104
+#poorleader
+#magicskill 3 1
+#magicskill 0 1
+#researchbonus -4
+#forgebonus 10
+#end
+#newmonster 3542
+#name "Dwarf Forge-Priest"
+#descr "The art of smithying is considered a holy work among the dwarves. the works of their hands are their worship, and far more practical than hours spent on bended knee. The Forge-Priest is a Dwarf who has come far in the skill of crafting, and has divined many secrets in the forging of magic items and equipment. While Dwarves have a great love for the works of the hand, they are a jealous and secretive race, and rarely work well with others. Thus, they make for poor researchers.
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 25000
+#rpcost 2
+#hp 15
+#str 12
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Hammer"|811
+#armor "Dwarf-Mail Cuirass"|305
+#humanoid
+#holy
+#mountainsurvival
+#maxage 230
+#fireres 15
+#reinvigoration 4
+#darkvision 50
+#nametypes 104
+#poorleader
+#magicskill 3 2
+#magicskill 0 2
+#custommagicskill 3200 100
+#custommagicskill 3200 20
+#masterrit 1
+#researchbonus -6
+#fixforgebonus 2
+#mastersmith 1
+#end
