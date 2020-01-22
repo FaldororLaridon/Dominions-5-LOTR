@@ -685,6 +685,7 @@
 #inspirational 1
 #warning 2
 #magicskill 3 4
+#magicskill 8 2
 #custommagicskill 3200 100
 #custommagicskill 3200 100
 #custommagicskill 3200 100
@@ -692,4 +693,33 @@
 #forgebonus 20
 #mastersmith 2
 #end
-
+#newsite 1504
+#name "Telchar's Smithy"
+#path 3
+#loc 16384
+#gems 3 2
+#gems 0 2
+#level 0
+#rarity 5
+#constcost 25
+#end
+#newsite 1505
+#name "Blue Mountain Mines"
+#path 3
+#loc 16384
+#gold 50
+#res 25
+#level 0
+#rarity 5
+#end
+#newsite 1506
+#name "Hall of Kings"
+#path 3
+#loc 16384
+#level 0
+#rarity 5
+#homemon "Wyrmslayer"|3539
+#homemon "Reborn Father"|3546
+#end
+#newnation
+#name
