@@ -1,1 +1,393 @@
-
+#modname "Lord of the Rings Nation Pack"
+#description "This is the description of the mod! WOW!"
+#icon "images/onering.tga"
+#version 0.00
+#newweapon 811
+#name "Dwarf-Steel Hammer"
+#dmg 8
+#nratt 1
+#att 0
+#def -1
+#len 1
+#sound 10
+#rcost 4
+#dt_normal
+#blunt
+#pierce
+#secondaryeffect "Break Armor"|174
+#end
+#newweapon 812
+#name "Dwarf-Steel Spear"
+#dmg 5
+#nratt 1
+#att 0
+#def 0
+#len 2
+#sound 12
+#rcost 3
+#dt_normal
+#pierce
+#armorpiercing
+#secondaryeffect "Burn Flesh"|571
+#end
+#newweapon 813
+#name "Dwarf-Steel Axe"
+#dmg 11
+#nratt 1
+#att 2
+#def 0
+#len 1
+#sound 10
+#rcost 5
+#dt_normal
+#slash
+#armorpiercing
+#end
+#newweapon 314
+#name "Dwarf-Steel Falchion"
+#dmg 10
+#nratt 1
+#att 1
+#def 1
+#len 1
+#sound 8
+#rcost 6
+#dt_normal
+#slash
+#shock
+#armorpiercing
+#secondaryeffect "Draw Blood"|690
+#end
+#newweapon 315
+#name "Dwarf-Steel Pick"
+#dmg  8
+#nratt 1
+#att -1
+#def -1
+#len 1
+#twohanded
+#sound 10
+#rcost 4
+#dt_normal
+#pierce
+#armornegating
+#end
+#newweapon 316
+#name "Wyrmslayer Axe"
+#dmg 13
+#nratt 1
+#att 1
+#def 1
+#len 1
+#twohanded
+#sound 10
+#rcost 6
+#dt_normal
+#slash
+#magic
+#armorpiercing
+#aoe 1
+#charge
+#end
+#newweapon 317
+#name "Dwarven Steelbow"
+#dmg 7
+#nratt 1
+#att 3
+#twohanded
+#sound 14
+#range 40
+#ammo 10
+#rcost 3
+#dt_normal
+#pierce
+#bowstr
+#flail
+#flyspr 109 1
+#end
+#newweapon 318
+#name "Dwarven Dagger"
+#dmg 4
+#nr att 1
+#att 1
+#def 0
+#len 0
+#sound 7
+#rcost 1
+#dt_normal 
+#pierce
+#slash
+#armorpiercing
+#end
+#newarmor 305
+#name "Dwarf-Mail Cuirass"
+#type 5
+#prot 14
+#def 0
+#enc 2
+#rcost 17
+#magicarmor
+#end
+#newarmor 306
+#name "Full Dwarf-Mail"
+#type 5
+#prot 21
+#def -3
+#enc 4
+#movepen 4
+#rcost 28
+#magicarmor
+#end
+#newarmor 307
+#name "Dwarf Full Helm"
+#type 6
+#prot 23
+#def -1
+#rcost 6
+#magic
+#end
+#newarmor 308
+#name "Dwarf Half Helm"
+#type 6
+#prot 19
+#def 0
+#rcost 4
+#magic
+#end
+#newarmor 309
+#name "Dwarven Shield"
+#type 4
+#prot 19
+#def 7
+#enc 2
+#rcost 4
+#magic
+#end
+#newmonster 3533
+#name "Blue Mountain Sapper"
+#descr "No race is more attuned to the working of minerals and the deeps of the earth than the Dwarves. They are a hardy folk, difficult to daunt or slay, and masters of forging like few others can claim. The Sappers of the twin cities are often former miners that have answered the call to war and joined the Dwarven hosts. Their years in deep places have given them great nightvision and a knowledge of the strengths and weaknesses of stone. No wall can stand for long if the Sappers turn their will towards it."
+#rcost 2
+#gcost 20
+#rpcost 20
+#hp 15
+#str 10
+#att 10
+#def 10
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Pick"|315
+#armor "Dwarf Half Helm"|307
+#armor "Dwarf-Mail Cuirass"|305
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 10
+#reinvigoration 4
+#darkvision 50
+#siegebonus 8
+#nametypes 104
+#end
+#newmonster 3534
+#name "Khazad Archer"
+#descr "The infantry of the twin cities of Nogrod and Belegost are among the finest in the world. But the Dwarves recognised the nessecity of range against faster enemies, or in defence of their cities. Therefore, they developed a type of bow designed with their short but sturdy bodies in mind. the steelbow fires surprisingly far with little effort on the part of the archer. Enchantments are wrought into the very metal, to defy the shields of their enemies. Ware to those who mock the Dwarves! 
+#rcost 2
+#gcost 20
+#rpcost 20
+#hp 15
+#str 10
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 1
+#mr 15
+#mor 13
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarven Steelbow"|317
+#weapon "Dwarven Dagger"|318
+#armor "Dwarf Half Helm"|308
+#armor "Dwarf-Mail Cuirass"|305
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 10
+#reinvigoration 4
+#darkvision 50
+#nametypes 104
+#end
+#newmonster 3535
+#name "Khazad Spearman" 
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#rcost 2
+#gcost 30
+#rpcost 25
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Spear"|812
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 2
+#nametypes 104
+#end
+#newmonster 3536
+#name "Khazad Soldier" 
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#rcost 2
+#gcost 30
+#rpcost 25
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Hammer"|811
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 2
+#nametypes 104
+#end
+#newmonster 3537
+#name "Khazad Swordsman" 
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#rcost 2
+#gcost 30
+#rpcost 25
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Falchion"|814
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 2
+#nametypes 104
+#end
+#newmonster 3538
+#name "Khazad Axeman" 
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#rcost 2
+#gcost 30
+#rpcost 25
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Axe"|813
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 2
+#nametypes 104
+#end
+#newmonster 3539
+#name "Wyrmslayer"
+#descr "The Elite of the Dwarven warriors, the Wyrmslayers are the most dreaded of all that grim-faced folk issuing from the mountains. They are trained to fight and slay the elites of other nations, Wielding their great battle-axes to deadly efficiancy. The last thing many would-be invaders of the halls of the Dwarves have seen is the Wyrmslayers in gilded armour charging towards them, and the last thing they hear is their battle-cry. "Baruk Khazad! Khazad ai Menu!"
+#rcost 2
+#gcost 35
+#rpcost 30
+#hp 15
+#str 12
+#att 12
+#def 13
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 18
+#enc 2
+#mapmove 14
+#ap 10
+#eyes 2
+#weapon "Wyrmslayer Axe"|316
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#humanoid
+#holy
+#lanceok
+#mountainsurvival
+#maxage 230
+#woundfend 1
+#fireres 30
+#reinvigoration 5
+#fear 2
+#darkvision 50
+#nametypes 104
+#end
