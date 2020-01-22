@@ -96,7 +96,29 @@
 #att 3
 #twohanded
 #sound 14
-
+#range 40
+#ammo 10
+#rcost 3
+#dt_normal
+#pierce
+#bowstr
+#flail
+#flyspr 109 1
+#end
+#newweapon 318
+#name "Dwarven Dagger"
+#dmg 4
+#nr att 1
+#att 1
+#def 0
+#len 0
+#sound 7
+#rcost 1
+#dt_normal 
+#pierce
+#slash
+#armorpiercing
+#end
 #newarmor 305
 #name "Dwarf-Mail Cuirass"
 #type 5
