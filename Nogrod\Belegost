@@ -473,7 +473,7 @@
 #magicskill 3 1
 #magicskill 0 1
 #researchbonus -4
-#forgebonus 10
+#fixforgebonus 1
 #end
 #newmonster 3542
 #name "Dwarf Forge-Priest"
@@ -509,6 +509,7 @@
 #poorleader
 #magicskill 3 2
 #magicskill 0 2
+#magicskill 8 1
 #custommagicskill 3200 100
 #custommagicskill 3200 20
 #masterrit 1
@@ -516,3 +517,179 @@
 #fixforgebonus 2
 #mastersmith 1
 #end
+#newmonster 3543
+#name "Dwarf Lord"
+#descr "The Dwarf-Lords of Nogrod and Belegost are nobles of that great people. They are masterful smiths, incredibly wealthy and mighty warriors. 
+#rcost 2
+#gcost 2500
+#rpcost 2
+#hp 15
+#str 12
+#att 12
+#def 13
+#prec 10
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Axe"|813
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#addrandomage 20
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 1
+#taxcollector
+#nametypes 104
+#goodleader
+#inspirational 1
+#end
+#newmonster 3544
+#name "Rune Smith"
+#descr "The Rune Smiths have delved deeper into their work than the Forge Priests below them. Uninterested in matters of state or other Dwarves, they have confined themselves to unlocking the secrets of smith-craft. They are skilled and mighty mages, but grow ever more secretive and jealous of their works.
+#slowrec
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 2500
+#rpcost 2
+#hp 15
+#str 12
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Hammer"|811
+#armor "Dwarf-Mail Cuirass"|305
+#humanoid
+#holy
+#mountainsurvival
+#maxage 230
+#fireres 15
+#reinvigoration 4
+#darkvision 50
+#nametypes 104
+#poorleader
+#magicskill 3 3
+#magicskill 0 2
+#custommagicskill 3200 100
+#custommagicskill 3200 50
+#researchbonus -8
+#masterrit 1
+#fixforgebonus 3
+#mastersmith 1
+#end
+#newmonster 3545
+#name "Forge Lord"
+#descr "At first glance, there might be little difference between the Forge Lord and the Rune Smith. But where the Rune Smith focuses all his attention and energy on perfecting his craft and forging mighty and legendary works, the Forge Lord has opened his heart more to his people. While Dwarves engage in trade rather than gift-giving, he nevertheless makes his skills more open and available, and hoards his secrets less jealously than his peers. Thus, Forge Lords are held in high esteem by the Khazad, and it is because of their ceaseless labour that the Dwarven armies are maintained as best-equipped soldiers in the world.
+#slowrec
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 2500
+#rpcost 2
+#hp 15
+#str 12
+#att 11
+#def 12
+#prec 11
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Hammer"|811
+#armor "Dwarf-Mail Hauberk"|310
+#armor "Dwarf Half Helm"|308
+#humanoid
+#holy
+#mountainsurvival
+#maxage 230
+#addrandomage 30
+#fireres 15
+#reinvigoration 4
+#darkvision 50
+#resources 10
+#nametypes 104
+#goodleader 
+#inspirational 1
+#magicskill 3 2
+#magicskill 0 1
+#magicskill 4 2
+#custommagicskill 3200 100
+#masterrit 1
+#researchbonus -4
+#fixforgebonus 2
+#end
+#newmonster 3546
+#name "Reborn Father"
+#descr "It is held in Dwarf-Lore that their race came of seven Fathers, the first to be created by an ancient deity. They were given peoples and told to go out into the world and make use of the gifts they had been given. Sometimes a Dwarf is born who is so alike these ancient legends, with memories and knowledge long lost, that it is agreed he must be one of the Seven Fathers reborn to walk among the Dwarves again. Reborn Fathers are held in awe by other Dwarves, and they excel at any skill they put their hands to. They are living legends among the Khazad, and even the Kings listen closely to their counsel
+#slowrec
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 5000
+#rpcost 2
+#hp 20
+#str 13
+#att 12
+#def 13
+#prec 14
+#prot 0
+#size 1
+#mr 17
+#mor 20
+#enc 2
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Dwarf-Steel Axe"|813
+#armor "Dwarf-Mail Hauberk"|310
+#armor "Dwarf Half Helm"|308
+#armor "Dwarven Shield"|308
+#holy
+#mountainsurvival
+#maxage 300
+#startaroab 50
+#firres 20
+#awe 1
+#reinvigoration 5
+#darkvision 100
+#castledef 5
+#siegebonus 5
+#gold 5
+#mason
+#resources 10
+#nametypes 104
+#expertleader
+#inspirational 1
+#warning 2
+#magicskill 3 4
+#custommagicskill 3200 100
+#custommagicskill 3200 100
+#custommagicskill 3200 100
+#masterrit 1
+#forgebonus 20
+#mastersmith 2
+#end
+
