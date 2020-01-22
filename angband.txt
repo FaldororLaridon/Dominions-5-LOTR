@@ -163,3 +163,10 @@
 #rcost 4
 #magic
 #end
+#newmonster 3533
+#name "Blue Mountain Sapper"
+#descr "No race is more attuned to the working of minerals and the deeps of the earth than the Dwarves. They are a hardy folk, difficult to daunt or slay, and masters of forging like few others can claim. The Sappers of the twin cities are often former miners that have answered the call to war and joined the Dwarven hosts. Their years in deep places have given them great nightvision and a knowledge of the strengths and weaknesses of stone. No wall can stand for long if the Sappers turn their will towards it."
+#rcost 2
+#gcost 20
+#rpcost 20
+#
