@@ -146,7 +146,7 @@
 #rcost 6
 #magic
 #end
-#newarmor 307
+#newarmor 308
 #name "Dwarf Half Helm"
 #type 6
 #prot 19
@@ -154,7 +154,7 @@
 #rcost 4
 #magic
 #end
-#newarmor 308
+#newarmor 309
 #name "Dwarven Shield"
 #type 4
 #prot 19
@@ -196,4 +196,198 @@
 #end
 #newmonster 3534
 #name "Khazad Archer"
-#descr "
+#descr "The infantry of the twin cities of Nogrod and Belegost are among the finest in the world. But the Dwarves recognised the nessecity of range against faster enemies, or in defence of their cities. Therefore, they developed a type of bow designed with their short but sturdy bodies in mind. the steelbow fires surprisingly far with little effort on the part of the archer. Enchantments are wrought into the very metal, to defy the shields of their enemies. Ware to those who mock the Dwarves! 
+#rcost 2
+#gcost 20
+#rpcost 20
+#hp 15
+#str 10
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 1
+#mr 15
+#mor 13
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarven Steelbow"|317
+#weapon "Dwarven Dagger"|318
+#armor "Dwarf Half Helm"|308
+#armor "Dwarf-Mail Cuirass"|305
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 10
+#reinvigoration 4
+#darkvision 50
+#nametypes 104
+#end
+#newmonster 3535
+#name "Khazad Spearman" 
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#rcost 2
+#gcost 30
+#rpcost 25
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Spear"|812
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 2
+#nametypes 104
+#end
+#newmonster 3536
+#name "Khazad Soldier" 
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#rcost 2
+#gcost 30
+#rpcost 25
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Hammer"|811
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 2
+#nametypes 104
+#end
+#newmonster 3537
+#name "Khazad Swordsman" 
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#rcost 2
+#gcost 30
+#rpcost 25
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Falchion"|814
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 2
+#nametypes 104
+#end
+#newmonster 3538
+#name "Khazad Axeman" 
+#descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall.
+#rcost 2
+#gcost 30
+#rpcost 25
+#hp 15
+#str 10
+#att 11
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Axe"|813
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 30
+#reinvigoration 4
+#fear 2
+#darkvision 50
+#castledef 2
+#nametypes 104
+#end
+#newmonster 3539
+#name "Wyrmslayer"
+#descr "The Elite of the Dwarven warriors, the Wyrmslayers are the most dreaded of all that grim-faced folk issuing from the mountains. They are trained to fight and slay the elites of other nations, Wielding their great battle-axes to deadly efficiancy. The last thing many would-be invaders of the halls of the Dwarves have seen is the Wyrmslayers in gilded armour charging towards them, and the last thing they hear is their battle-cry. "Baruk Khazad! Khazad ai Menu!"
+#rcost 2
+#gcost 35
+#rpcost 30
+#hp 15
+#str 12
+#att 12
+#def 13
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 18
+#enc 2
+#mapmove 14
+#ap 10
+#eyes 2
+#weapon "Wyrmslayer Axe"|316
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#humanoid
+#holy
+#lanceok
+#mountainsurvival
+#maxage 230
+#woundfend 1
+#fireres 30
+#reinvigoration 5
+#fear 2
+#darkvision 50
+#nametypes 104
+#end
