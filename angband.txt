@@ -10,9 +10,10 @@
 #def -1
 #len 1
 #sound 10
-#rcost 5
+#rcost 4
 #dt_normal
 #blunt
+#pierce
 #secondaryeffect "Break Armor"|174
 #end
 #newweapon 812
@@ -37,7 +38,7 @@
 #def 0
 #len 1
 #sound 10
-#rcost 6
+#rcost 5
 #dt_normal
 #slash
 #armorpiercing
@@ -50,7 +51,7 @@
 #def 1
 #len 1
 #sound 8
-#rcost 7
+#rcost 6
 #dt_normal
 #slash
 #shock
@@ -71,10 +72,72 @@
 #pierce
 #armornegating
 #end
+#newweapon 316
+#name "Wyrmslayer Axe"
+#dmg 13
+#nratt 1
+#att 1
+#def 1
+#len 1
+#twohanded
+#sound 10
+#rcost 6
+#dt_normal
+#slash
+#magic
+#armorpiercing
+#aoe 1
+#charge
+#end
+#newweapon 317
+#name "Dwarven Steelbow"
+#dmg 7
+#nratt 1
+#att 3
+#twohanded
+#sound 14
+
 #newarmor 305
 #name "Dwarf-Mail Cuirass"
 #type 5
 #prot 14
 #def 0
 #enc 2
-#rcost
+#rcost 17
+#magicarmor
+#end
+#newarmor 306
+#name "Full Dwarf-Mail"
+#type 5
+#prot 21
+#def -3
+#enc 4
+#movepen 4
+#rcost 28
+#magicarmor
+#end
+#newarmor 307
+#name "Dwarf Full Helm"
+#type 6
+#prot 23
+#def -1
+#rcost 6
+#magic
+#end
+#newarmor 307
+#name "Dwarf Half Helm"
+#type 6
+#prot 19
+#def 0
+#rcost 4
+#magic
+#end
+#newarmor 308
+#name "Dwarven Shield"
+#type 4
+#prot 19
+#def 7
+#enc 2
+#rcost 4
+#magic
+#end
