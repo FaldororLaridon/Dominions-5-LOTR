@@ -498,11 +498,13 @@
 #eyes 2
 #weapon "Dwarf-Steel Hammer"|811
 #armor "Dwarf-Mail Cuirass"|305
+#armor "Dwarf Full Helm"|307
 #humanoid
 #holy
 #mountainsurvival
 #maxage 230
-#fireres 15
+#fireres 30
+#fear 2
 #reinvigoration 4
 #darkvision 50
 #nametypes 104
@@ -578,11 +580,13 @@
 #eyes 2
 #weapon "Dwarf-Steel Hammer"|811
 #armor "Dwarf-Mail Cuirass"|305
+#armor "Dwarf Full Helm"|307
 #humanoid
 #holy
 #mountainsurvival
 #maxage 230
-#fireres 15
+#fireres 30
+#fear 2
 #reinvigoration 4
 #darkvision 50
 #nametypes 104
@@ -620,13 +624,14 @@
 #eyes 2
 #weapon "Dwarf-Steel Hammer"|811
 #armor "Dwarf-Mail Hauberk"|310
-#armor "Dwarf Half Helm"|308
+#armor "Dwarf Full Helm"|307
 #humanoid
 #holy
 #mountainsurvival
 #maxage 230
 #addrandomage 30
-#fireres 15
+#fireres 30
+#fear 2
 #reinvigoration 4
 #darkvision 50
 #resources 10
@@ -670,7 +675,7 @@
 #holy
 #mountainsurvival
 #maxage 300
-#startaroab 50 --what is this?--
+#startheroab 50 
 #firres 20
 #awe 1
 #reinvigoration 5
@@ -693,6 +698,45 @@
 #forgebonus 20
 #mastersmith 2
 #end
+#newmonster 3547
+#name "Khazad Mastersmith"
+#fixedname "Telchar"
+#descr "Telchar is the greatest Dwarf-Smith of all time. Learning his craft from Gamil Zirak the Old, he has forged uncounted masterworks beyond even the most skilled of his peers. Revered among other Dwarves, he works tirelessly to bring incredible works to life for the betterment of his bretheren."
+#hp 15
+#str 10
+#att 12
+#def 10
+#prec 10
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Hammer"|811
+#armor "Dwarf-Mail Hauberk"|310
+#armor "Dwarf Full Helm"|307
+#humanoid
+#holy
+#unique
+#mountainsurvival
+#startage 150
+#maxage 250
+#fireres 30
+#fear 2
+#darkvision 50
+#poorleader
+#magicskill 8 1
+#magicskill 3 3
+#magicskill 0 3
+#magicskill 4 2
+#masterrit 2
+#researchbonus -8
+#
+
+
 #newsite 1504
 #name "Telchar's Smithy"
 #path 3
