@@ -734,7 +734,13 @@
 #magicskill 4 2
 #masterrit 2
 #researchbonus -8
-#
+#forgebonus 20
+#mastersmith 3
+#end
+#newmonster 3548
+#name "King of Belegost"
+#fixed name "Azaghal"
+#descr "Azaghal is the king of Belegost. He is more friendly to outsiders than his fellow king of Nogrod, Naugladur. He is a skilled warrior and a valient leader, with many devoted followers of his people, and is not afraid to lead his men into battle from the front.
 
 
 #newsite 1504
