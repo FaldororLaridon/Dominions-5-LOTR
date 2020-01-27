@@ -840,3 +840,59 @@
 #end
 #newnation
 #name "Nogrod and Belegost"
+#epithet "Khazad Kings"
+#era 1
+#descr "Nogrod and Belegost are two of the ancient Dwarf-holds, founded by two of the Seven Fathers. The two cities, while separate clans, often come to each other's aid in times of need, and are the most renowned of Dwarven lands in this early age. The Dwarves of Nogrod and Belegost are great warriors, skilled smiths and steadfast friends to their allies. they are difficult to intimidate or coerce by magical means. they are a hardy and durable race, able to shoulder much greater burdens than any other living being under the Sun. With the coming of the Awakening God, they leave their mountain strongholds, singing the war-songs of old as they march for victory over the surface world."
+#summary 
+#brief 
+#color 0.1 0.3 0.5
+#startsite "Telchar's Smithy"
+#startsite "Blue Mountain Mines"
+#startsite "Hall of Kings"
+#likesterrain 4
+#cavenation 2
+#aiearthnation
+#startcom "Dwarf Captain"|3540
+#startscout "Dwarf Apprentice"|3541
+#startunittype1 "Khazad Spearman"|3535
+#startunitnbrs1 10
+#startunittype2 "Khazad Archer"|3534
+#startunitnbrs2 10
+#addrecruit "Blue Mountain Sapper"|3533
+#addrecruit "Khazad Archer"|3534
+#addrecruit "Khazad Spearman"|3535
+#addrecruit "Khazad Soldier"|3536
+#addrecruit "Khazad Swordsman"|3537
+#addrecruit "Khazad Axeman"|3538
+#addreccom "Dwarf Captain"|3540
+#addreccom "Dwarf Apprentice"|3541
+#addreccom "Dwarf Forge-Priest"|3542
+#addreccom "Dwarf Lord"|3543
+#addreccom "Rune Smith"|3544
+#addreccom "Forge Lord"|3545
+#hero1 3547
+#hero2 3548
+#hero3 3549
+#defcom1 "Dwarf Captain"|3540
+#defcom2 "Dwarf Forge-Priest"|3542
+#defunit1 "Blue Mountain Sapper"|3533
+#defunit1b "Khazad Archer"|3534
+#defunit2 "Khazad Spearman"|3535
+#defunit2b "Blue Mountain Sapper"|3533
+#defmult1 10
+#defmultb 10
+#defmult2 5
+#defmult2b 10
+#wallcom "Dwarf Captain"|3540
+#wallunit "Khazad Archer"|3534
+#wallmult 10
+#homerealm 10
+#earthblessbonus 2
+#fortera 3
+#labcost 400
+#templecost 600
+#templepic 31
+#templegems 3
+#buildfort 14
+#end
+
