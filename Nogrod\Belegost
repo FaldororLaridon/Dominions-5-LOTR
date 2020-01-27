@@ -22,7 +22,7 @@
 #nratt 1
 #att 0
 #def 0
-#len 2
+#len 3
 #sound 12
 #rcost 3
 #dt_normal
@@ -43,7 +43,7 @@
 #slash
 #armorpiercing
 #end
-#newweapon 314
+#newweapon 814
 #name "Dwarf-Steel Falchion"
 #dmg 10
 #nratt 1
@@ -58,7 +58,7 @@
 #armorpiercing
 #secondaryeffect "Draw Blood"|690
 #end
-#newweapon 315
+#newweapon 815
 #name "Dwarf-Steel Pick"
 #dmg  8
 #nratt 1
@@ -72,7 +72,7 @@
 #pierce
 #armornegating
 #end
-#newweapon 316
+#newweapon 816
 #name "Wyrmslayer Axe"
 #dmg 13
 #nratt 1
@@ -89,7 +89,7 @@
 #aoe 1
 #charge
 #end
-#newweapon 317
+#newweapon 817
 #name "Dwarven Steelbow"
 #dmg 7
 #nratt 1
@@ -105,7 +105,7 @@
 #flail
 #flyspr 109 1
 #end
-#newweapon 318
+#newweapon 818
 #name "Dwarven Dagger"
 #dmg 4
 #nr att 1
@@ -118,6 +118,18 @@
 #pierce
 #slash
 #armorpiercing
+#end
+#newweapon 819
+#name "Mastercraft Dagger"
+#dmg 5
+#nr att 1
+#att 1
+#len 0
+##sound 7
+#rcost 3
+#pierce
+#slash
+#armornegating
 #end
 #newarmor 305
 #name "Dwarf-Mail Cuirass"
@@ -191,7 +203,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Pick"|315
+#weapon "Dwarf-Steel Pick"|815
 #armor "Dwarf Half Helm"|307
 #armor "Dwarf-Mail Cuirass"|305
 #humanoid
@@ -222,7 +234,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarven Steelbow"|317
+#weapon "Dwarven Steelbow"|817
 #weapon "Dwarven Dagger"|318
 #armor "Dwarf Half Helm"|308
 #armor "Dwarf-Mail Cuirass"|305
@@ -262,7 +274,6 @@
 #maxage 230
 #fireres 30
 #reinvigoration 4
-#fear 2
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -295,7 +306,6 @@
 #maxage 230
 #fireres 30
 #reinvigoration 4
-#fear 2
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -328,7 +338,6 @@
 #maxage 230
 #fireres 30
 #reinvigoration 4
-#fear 2
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -361,7 +370,6 @@
 #maxage 230
 #fireres 30
 #reinvigoration 4
-#fear 2
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -386,7 +394,7 @@
 #mapmove 14
 #ap 10
 #eyes 2
-#weapon "Wyrmslayer Axe"|316
+#weapon "Wyrmslayer Axe"|816
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -397,7 +405,6 @@
 #woundfend 1
 #fireres 30
 #reinvigoration 5
-#fear 2
 #darkvision 50
 #nametypes 104
 #end
@@ -429,7 +436,6 @@
 #maxage 230
 #fireres 30
 #reinvigoration 4
-#fear 2
 #darkvision 50
 #castledef 1
 #patrolbonus 5
@@ -458,7 +464,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarven Dagger"|318
+#weapon "Dwarven Dagger"|818
 #armor "Dwarf-Mail Cuirass"|305
 #humanoid
 #holy
@@ -504,7 +510,6 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#fear 2
 #reinvigoration 4
 #darkvision 50
 #nametypes 104
@@ -548,7 +553,6 @@
 #addrandomage 20
 #fireres 30
 #reinvigoration 4
-#fear 2
 #darkvision 50
 #castledef 1
 #taxcollector
@@ -586,7 +590,6 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#fear 2
 #reinvigoration 4
 #darkvision 50
 #nametypes 104
@@ -631,7 +634,6 @@
 #maxage 230
 #addrandomage 30
 #fireres 30
-#fear 2
 #reinvigoration 4
 #darkvision 50
 #resources 10
@@ -725,7 +727,6 @@
 #startage 150
 #maxage 250
 #fireres 30
-#fear 2
 #darkvision 50
 #poorleader
 #magicskill 8 1
@@ -741,7 +742,73 @@
 #name "King of Belegost"
 #fixed name "Azaghal"
 #descr "Azaghal is the king of Belegost. He is more friendly to outsiders than his fellow king of Nogrod, Naugladur. He is a skilled warrior and a valient leader, with many devoted followers of his people, and is not afraid to lead his men into battle from the front.
-
+#hp 20
+#str 14
+#att 12
+#def 13
+#prec 10
+#prot 0
+#size 1
+#mr 15
+#mor 20
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Axe"|813
+#weapon "Mastercraft Dagger"|818
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#startage 110
+#maxage 230
+#addrandomage 20
+#fireres 30
+#reinvigoration 4
+#darkvision 50
+#resources 5
+#gold 5
+#mason
+#expertleader
+#inspirational 1
+#end
+#newmonster 3549
+#name "King of Nogrod"
+#fixedname "Naugladur"
+#descr "Naugladur is the king of Nogrod. more prideful and swift to anger than his fellow king, he relishes the knowledge that it is his city that has produced the the greatest of the Dwarven Smiths. His people tend to take more offence to slights real or imagined from outsiders. Azaghal is a fierce warrior, and durable even by Dwarf standards. But he is less courageous than his fellow king, and more susceptible to hostile magics.
+#hp 22
+#str 15
+#att 12
+#def 13
+#prec 10
+#prot 0
+#size 1
+#mr 12
+#mor 14
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Falchion"|814
+#armor "Full Dwarf-Mail"|306
+#armor "Dwarf Full Helm"|307
+#armor "Dwarven Shield"|308
+#humanoid
+#mountainsurvival
+#startage 110
+#maxage 230
+#addrandomage 20
+#fireres 30
+#reinvigoration 7
+#darkvision 50
+#resources 10
+#gold 10
+#expertleader
+#end
+#newmonster 3550
+#name "
 
 #newsite 1504
 #name "Telchar's Smithy"
@@ -772,4 +839,4 @@
 #homemon "Reborn Father"|3546
 #end
 #newnation
-#name
+#name "Nogrod and Belegost"
