@@ -741,7 +741,7 @@
 #newmonster 3548
 #name "King of Belegost"
 #fixed name "Azaghal"
-#descr "Azaghal is the king of Belegost. He is more friendly to outsiders than his fellow king of Nogrod, Naugladur. He is a skilled warrior and a valient leader, with many devoted followers of his people, and is not afraid to lead his men into battle from the front.
+#descr "Azaghal is the king of Belegost. He is more friendly to outsiders than his fellow king of Nogrod, Naugladur. He is a skilled warrior and a valient leader, with many devoted followers of his people, and is not afraid to lead his men into battle from the front."
 #hp 20
 #str 14
 #att 12
@@ -777,7 +777,7 @@
 #newmonster 3549
 #name "King of Nogrod"
 #fixedname "Naugladur"
-#descr "Naugladur is the king of Nogrod. more prideful and swift to anger than his fellow king, he relishes the knowledge that it is his city that has produced the the greatest of the Dwarven Smiths. His people tend to take more offence to slights real or imagined from outsiders. Azaghal is a fierce warrior, and durable even by Dwarf standards. But he is less courageous than his fellow king, and more susceptible to hostile magics.
+#descr "Naugladur is the king of Nogrod. more prideful and swift to anger than his fellow king, he relishes the knowledge that it is his city that has produced the the greatest of the Dwarven Smiths. His people tend to take more offence to slights real or imagined from outsiders. Azaghal is a fierce warrior, and durable even by Dwarf standards. But he is less courageous than his fellow king, and more susceptible to hostile magics."
 #hp 22
 #str 15
 #att 12
