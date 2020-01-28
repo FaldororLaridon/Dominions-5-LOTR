@@ -808,7 +808,7 @@
 #expertleader
 #end
 #newmonster 3550
-#name "
+#name "Eol"
 
 #newsite 1504
 #name "Telchar's Smithy"
@@ -836,7 +836,6 @@
 #level 0
 #rarity 5
 #homemon "Wyrmslayer"|3539
-#homemon "Reborn Father"|3546
 #end
 #newnation
 #name "Nogrod and Belegost"
@@ -873,6 +872,7 @@
 #hero1 3547
 #hero2 3548
 #hero3 3549
+#mulihero1 3546
 #defcom1 "Dwarf Captain"|3540
 #defcom2 "Dwarf Forge-Priest"|3542
 #defunit1 "Blue Mountain Sapper"|3533
