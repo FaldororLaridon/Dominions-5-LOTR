@@ -871,6 +871,56 @@
 #magicskill 3 2
 #mastersmith 1
 #end
+#newmonster 3551
+#name "Eldest Father"
+#fixedname "Durin"
+#descr "The Dwarven race began with Seven fathers, the first of their kind created by an an ancient deity who wished for beings to teach the ways of smithcraft. The Eldest Father is the first and mightiest of these Fathers. The Pantokrator allowed these creations to survive, but chided his servant for making them before the coming of those he had long planned. The Dwarves were put to sleep beneath the mountains to await their proper time. Now that the Pantokrator had vanished, the Eldest Father wakes again and will lead his people to claim this world as their own."
+#pathcost 40
+#startdom 1
+#gcost 10000
+#hp 20
+#str 15
+#att 12
+#def 13
+#prec 12
+#prot 0
+#size 1
+#mr 18
+#mor 23
+#enc 2
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Dwarf-Steel Axe"|813
+#armor "Dwarf-Mail Hauberk"|310
+#armor "Dwarf Full Helm"|307
+#humanoid
+#mountainsurvival
+#startage 550
+#maxage 1000
+#woundfend 1
+#fireres 30
+#reinvigoration 7
+#awe 1
+#castledef 5
+#siegebonus 20
+#resources 10
+#gold 20
+#mason
+#expertleader
+#inspirational 2
+#warning 5
+#magicpath 3 2
+#magicpath fire 1
+#masterrit 1
+#forgebonus 20
+#mastersmith 2
+#end
+#newmonster 3552
+#name "Valar of the Hunt"
+#fixedname "Orome"
+#descr "The Valar of the Hunt was one who 
+
 #newsite 1504
 #name "Telchar's Smithy"
 #path 3
