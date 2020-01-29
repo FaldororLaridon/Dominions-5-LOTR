@@ -131,6 +131,26 @@
 #slash
 #armornegating
 #end
+#newweapon 820
+#name "Poisoned Javelin"
+#copyweapon "Javelin"|21
+#secondaryeffect "Strong Poison"|51
+#end
+#newweapon 821 
+#name "Meteorite Sword"
+#dmg 12
+#nratt 1
+#att 2
+#def 2
+#len 1
+#soudn 8
+#dt_normal
+#slash
+#pierce
+#magic
+#armorpiercing
+#secondaryeffect "Soul Slay"|194
+#end
 #newarmor 305
 #name "Dwarf-Mail Cuirass"
 #type 5
@@ -185,6 +205,14 @@
 #magic
 #end
 #newmonster 3533
+#newarmor 311
+#name "Galvorn Armor"
+#type 5
+#prot 18
+#def 0
+#enc 1
+#magicarmor
+#end
 #name "Blue Mountain Sapper"
 #descr "No race is more attuned to the working of minerals and the deeps of the earth than the Dwarves. They are a hardy folk, difficult to daunt or slay, and masters of forging like few others can claim. The Sappers of the twin cities are often former miners that have answered the call to war and joined the Dwarven hosts. Their years in deep places have given them great nightvision and a knowledge of the strengths and weaknesses of stone. No wall can stand for long if the Sappers turn their will towards it."
 #rcost 2
@@ -759,8 +787,8 @@
 #weapon "Mastercraft Dagger"|818
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
-#armor "Dwarven Shield"|308
 #humanoid
+#unique
 #mountainsurvival
 #startage 110
 #maxage 230
@@ -768,6 +796,7 @@
 #fireres 30
 #reinvigoration 4
 #darkvision 50
+#ambidexterous 2
 #resources 5
 #gold 5
 #mason
@@ -796,6 +825,7 @@
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
 #humanoid
+#unique
 #mountainsurvival
 #startage 110
 #maxage 230
@@ -809,7 +839,38 @@
 #end
 #newmonster 3550
 #name "Eol"
-
+#fixedname "Eol"
+#descr "One of the Sindar Elves, Eol is the only Elf who can boast a close friendship with the Dwarves, and has indeed entered the cities of Nogrod and Belegost. He has learned much from the Dwarves, and taught them some things as well. He is and excellent smith, and a cunning warrior. He can seem hard, even cruel at times however, and gets along better with the Dwarves of Nogrod than those of Belegost."
+#hp 13
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 14
+#ap 13
+#eyes 2
+#weapon "Meteorite Sword"|821
+#weapon "Poisoned Javelin"|820
+#armor "Galvorn Armor"|311
+#humanoid
+#unique
+#forestsurvival
+#stealthy 10
+#startage 200
+#maxage 1000
+#diseasesres 100
+#fireres 5
+#pierceres
+#slashres
+#sppiritsight
+#poorleader
+#magicskill 3 2
+#mastersmith 1
+#end
 #newsite 1504
 #name "Telchar's Smithy"
 #path 3
@@ -872,6 +933,7 @@
 #hero1 3547
 #hero2 3548
 #hero3 3549
+#hero4 3550
 #mulihero1 3546
 #defcom1 "Dwarf Captain"|3540
 #defcom2 "Dwarf Forge-Priest"|3542
