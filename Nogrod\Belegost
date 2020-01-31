@@ -2,7 +2,7 @@
 #description "This is the description of the mod! WOW!"
 #icon "images/onering.tga"
 #version 0.00
-#newweapon 811
+#newweapon 814
 #name "Dwarf-Steel Hammer"
 #dmg 8
 #nratt 1
@@ -16,7 +16,7 @@
 #pierce
 #secondaryeffect "Break Armor"|174
 #end
-#newweapon 812
+#newweapon 815
 #name "Dwarf-Steel Spear"
 #dmg 5
 #nratt 1
@@ -30,7 +30,7 @@
 #armorpiercing
 #secondaryeffect "Burn Flesh"|571
 #end
-#newweapon 813
+#newweapon 816
 #name "Dwarf-Steel Axe"
 #dmg 11
 #nratt 1
@@ -43,7 +43,7 @@
 #slash
 #armorpiercing
 #end
-#newweapon 814
+#newweapon 817
 #name "Dwarf-Steel Falchion"
 #dmg 10
 #nratt 1
@@ -58,7 +58,7 @@
 #armorpiercing
 #secondaryeffect "Draw Blood"|690
 #end
-#newweapon 815
+#newweapon 818
 #name "Dwarf-Steel Pick"
 #dmg  8
 #nratt 1
@@ -72,7 +72,7 @@
 #pierce
 #armornegating
 #end
-#newweapon 816
+#newweapon 819
 #name "Wyrmslayer Axe"
 #dmg 13
 #nratt 1
@@ -89,7 +89,7 @@
 #aoe 1
 #charge
 #end
-#newweapon 817
+#newweapon 820
 #name "Dwarven Steelbow"
 #dmg 7
 #nratt 1
@@ -105,7 +105,7 @@
 #flail
 #flyspr 109 1
 #end
-#newweapon 818
+#newweapon 821
 #name "Dwarven Dagger"
 #dmg 4
 #nr att 1
@@ -119,7 +119,7 @@
 #slash
 #armorpiercing
 #end
-#newweapon 819
+#newweapon 822
 #name "Mastercraft Dagger"
 #dmg 5
 #nr att 1
@@ -131,12 +131,12 @@
 #slash
 #armornegating
 #end
-#newweapon 820
+#newweapon 823
 #name "Poisoned Javelin"
 #copyweapon "Javelin"|21
 #secondaryeffect "Strong Poison"|51
 #end
-#newweapon 821 
+#newweapon 824
 #name "Meteorite Sword"
 #dmg 12
 #nratt 1
@@ -204,7 +204,6 @@
 #rcost 20
 #magic
 #end
-#newmonster 3533
 #newarmor 311
 #name "Galvorn Armor"
 #type 5
@@ -213,6 +212,7 @@
 #enc 1
 #magicarmor
 #end
+#newmonster 3533
 #name "Blue Mountain Sapper"
 #descr "No race is more attuned to the working of minerals and the deeps of the earth than the Dwarves. They are a hardy folk, difficult to daunt or slay, and masters of forging like few others can claim. The Sappers of the twin cities are often former miners that have answered the call to war and joined the Dwarven hosts. Their years in deep places have given them great nightvision and a knowledge of the strengths and weaknesses of stone. No wall can stand for long if the Sappers turn their will towards it."
 #rcost 2
@@ -231,7 +231,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Pick"|815
+#weapon "Dwarf-Steel Pick"|818
 #armor "Dwarf Half Helm"|307
 #armor "Dwarf-Mail Cuirass"|305
 #humanoid
@@ -262,8 +262,8 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarven Steelbow"|817
-#weapon "Dwarven Dagger"|318
+#weapon "Dwarven Steelbow"|820
+#weapon "Dwarven Dagger"|321
 #armor "Dwarf Half Helm"|308
 #armor "Dwarf-Mail Cuirass"|305
 #humanoid
@@ -293,7 +293,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Spear"|812
+#weapon "Dwarf-Steel Spear"|815
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -325,7 +325,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Hammer"|811
+#weapon "Dwarf-Steel Hammer"|814
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -357,7 +357,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Falchion"|814
+#weapon "Dwarf-Steel Falchion"|817
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -389,7 +389,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Axe"|813
+#weapon "Dwarf-Steel Axe"|816
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -422,7 +422,7 @@
 #mapmove 14
 #ap 10
 #eyes 2
-#weapon "Wyrmslayer Axe"|816
+#weapon "Wyrmslayer Axe"|819
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -455,7 +455,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Falchion"|814
+#weapon "Dwarf-Steel Falchion"|817
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -492,7 +492,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarven Dagger"|818
+#weapon "Dwarven Dagger"|821
 #armor "Dwarf-Mail Cuirass"|305
 #humanoid
 #holy
@@ -530,7 +530,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Hammer"|811
+#weapon "Dwarf-Steel Hammer"|814
 #armor "Dwarf-Mail Cuirass"|305
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -571,7 +571,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Axe"|813
+#weapon "Dwarf-Steel Axe"|816
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -610,7 +610,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Hammer"|811
+#weapon "Dwarf-Steel Hammer"|814
 #armor "Dwarf-Mail Cuirass"|305
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -653,7 +653,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Hammer"|811
+#weapon "Dwarf-Steel Hammer"|814
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -698,7 +698,7 @@
 #mapmove 16
 #ap 10
 #eyes 2
-#weapon "Dwarf-Steel Axe"|813
+#weapon "Dwarf-Steel Axe"|816
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Half Helm"|308
 #armor "Dwarven Shield"|308
@@ -745,7 +745,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Hammer"|811
+#weapon "Dwarf-Steel Hammer"|814
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -783,8 +783,8 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Axe"|813
-#weapon "Mastercraft Dagger"|818
+#weapon "Dwarf-Steel Axe"|816
+#weapon "Mastercraft Dagger"|821
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -820,7 +820,7 @@
 #mapmove 14
 #ap 8
 #eyes 2
-#weapon "Dwarf-Steel Falchion"|814
+#weapon "Dwarf-Steel Falchion"|817
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -853,8 +853,8 @@
 #mapmove 14
 #ap 13
 #eyes 2
-#weapon "Meteorite Sword"|821
-#weapon "Poisoned Javelin"|820
+#weapon "Meteorite Sword"|824
+#weapon "Poisoned Javelin"|823
 #armor "Galvorn Armor"|311
 #humanoid
 #unique
@@ -891,7 +891,7 @@
 #mapmove 16
 #ap 10
 #eyes 2
-#weapon "Dwarf-Steel Axe"|813
+#weapon "Dwarf-Steel Axe"|816
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Full Helm"|307
 #humanoid
