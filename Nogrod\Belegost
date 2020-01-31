@@ -1058,7 +1058,7 @@
 #loc 16384
 #level 0
 #rarity 5
-#homemon "Wyrmslayer"|3539
+#homemon "Wyrmslayer"
 #end
 #newnation
 #name "Nogrod and Belegost"
@@ -1074,43 +1074,43 @@
 #likesterrain 4
 #cavenation 2
 #aiearthnation
-#startcom "Dwarf Captain"|3540
-#startscout "Dwarf Apprentice"|3541
-#startunittype1 "Khazad Spearman"|3535
+#startcom "Dwarf Captain"
+#startscout "Dwarf Apprentice"
+#startunittype1 "Khazad Spearman"
 #startunitnbrs1 10
-#startunittype2 "Khazad Archer"|3534
+#startunittype2 "Khazad Archer"
 #startunitnbrs2 10
-#addrecruit "Blue Mountain Sapper"|3533
-#addrecruit "Khazad Archer"|3534
-#addrecruit "Khazad Spearman"|3535
-#addrecruit "Khazad Soldier"|3536
-#addrecruit "Khazad Swordsman"|3537
-#addrecruit "Khazad Axeman"|3538
-#addreccom "Dwarf Captain"|3540
-#addreccom "Dwarf Apprentice"|3541
-#addreccom "Dwarf Forge-Priest"|3542
-#addreccom "Dwarf Lord"|3543
-#addreccom "Rune Smith"|3544
-#addreccom "Forge Lord"|3545
-#hero1 3547
-#hero2 3548
-#hero3 3549
-#hero4 3550
-#mulihero1 3546
-#defcom1 "Dwarf Captain"|3540
-#defcom2 "Dwarf Forge-Priest"|3542
-#defunit1 "Blue Mountain Sapper"|3533
-#defunit1b "Khazad Archer"|3534
-#defunit2 "Khazad Spearman"|3535
-#defunit2b "Blue Mountain Sapper"|3533
+#addrecruit "Blue Mountain Sapper"
+#addrecruit "Khazad Archer"
+#addrecruit "Khazad Spearman"
+#addrecruit "Khazad Soldier"
+#addrecruit "Khazad Swordsman"
+#addrecruit "Khazad Axeman"
+#addreccom "Dwarf Captain"
+#addreccom "Dwarf Apprentice"
+#addreccom "Dwarf Forge-Priest"
+#addreccom "Dwarf Lord"
+#addreccom "Rune Smith"
+#addreccom "Forge Lord"
+#hero1 3557
+#hero2 3558
+#hero3 3559
+#hero4 3560
+#multihero1 3556
+#defcom1 "Dwarf Captain"
+#defcom2 "Dwarf Forge-Priest"
+#defunit1 "Blue Mountain Sapper"
+#defunit1b "Khazad Archer"
+#defunit2 "Khazad Spearman"
+#defunit2b "Blue Mountain Sapper"
 #defmult1 10
 #defmultb 10
 #defmult2 5
 #defmult2b 10
-#wallcom "Dwarf Captain"|3540
-#wallunit "Khazad Archer"|3534
+#wallcom "Dwarf Captain"
+#wallunit "Khazad Archer"
 #wallmult 10
-#addgod "Eldest Father"|3551
+#addgod "Eldest Father"
 #homerealm 10
 #earthblessbonus 2
 #fortera 3
