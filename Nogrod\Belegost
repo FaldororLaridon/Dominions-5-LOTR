@@ -13,7 +13,6 @@
 #rcost 4
 #dt_normal
 #blunt
-#pierce
 #secondaryeffect "Break Armor"|174
 #end
 #newweapon 815
@@ -54,7 +53,6 @@
 #rcost 6
 #dt_normal
 #slash
-#shock
 #armorpiercing
 #secondaryeffect "Draw Blood"|690
 #end
@@ -163,7 +161,7 @@
 #nratt 1
 #len 0
 #dt_normal
-#secondaryeffectalways 823
+#secondaryeffectalways 825
 #nostr
 #bonus
 #end
@@ -827,7 +825,7 @@
 #end
 #newmonster 3558
 #name "King of Belegost"
-#fixed name "Azaghal"
+#fixedname "Azaghal"
 #descr "Azaghal is the king of Belegost. He is more friendly to outsiders than his fellow king of Nogrod, Naugladur. He is a skilled warrior and a valient leader, with many devoted followers of his people, and is not afraid to lead his men into battle from the front."
 #spr1 "images/NogrodBelegost/dwarf_azaghal_1.tga"
 #spr2 "images/NogrodBelegost/dwarf_azaghal_2.tga"
@@ -1065,9 +1063,10 @@
 #epithet "Khazad Kings"
 #era 1
 #descr "Nogrod and Belegost are two of the ancient Dwarf-holds, founded by two of the Seven Fathers. The two cities, while separate clans, often come to each other's aid in times of need, and are the most renowned of Dwarven lands in this early age. The Dwarves of Nogrod and Belegost are great warriors, skilled smiths and steadfast friends to their allies. they are difficult to intimidate or coerce by magical means. they are a hardy and durable race, able to shoulder much greater burdens than any other living being under the Sun. With the coming of the Awakening God, they leave their mountain strongholds, singing the war-songs of old as they march for victory over the surface world."
-#summary 
-#brief 
-#color 0.1 0.3 0.5
+#summary "Insert Summary Here, you coward!"
+#brief "Insert Brief Here, you coward!"
+#flag "images/NogrodBelegost/belegostflag.tga"
+#color 2.2 3.5 20.4
 #startsite "Telchar's Smithy"
 #startsite "Blue Mountain Mines"
 #startsite "Hall of Kings"
@@ -1080,23 +1079,24 @@
 #startunitnbrs1 10
 #startunittype2 "Khazad Archer"
 #startunitnbrs2 10
-#addrecruit "Blue Mountain Sapper"
-#addrecruit "Khazad Archer"
-#addrecruit "Khazad Spearman"
-#addrecruit "Khazad Soldier"
-#addrecruit "Khazad Swordsman"
-#addrecruit "Khazad Axeman"
-#addreccom "Dwarf Captain"
-#addreccom "Dwarf Apprentice"
-#addreccom "Dwarf Forge-Priest"
-#addreccom "Dwarf Lord"
-#addreccom "Rune Smith"
-#addreccom "Forge Lord"
+#addrecunit "Blue Mountain Sapper"|3543
+#addrecunit "Khazad Archer"|3544
+#addrecunit "Khazad Spearman"|3545
+#addrecunit "Khazad Soldier"|3546
+#addrecunit "Khazad Swordsman"|3547
+#addrecunit "Khazad Axeman"|3548
+#addreccom "Dwarf Captain"|3550
+#addreccom "Dwarf Apprentice"|3551
+#addreccom "Dwarf Forge-Priest"|3552
+#addreccom "Dwarf Lord"|3553
+#addreccom "Rune Smith"|3554
+#addreccom "Forge Lord"|3555
 #hero1 3557
 #hero2 3558
 #hero3 3559
 #hero4 3560
 #multihero1 3556
+#defcom1 "Dwarf Captain"
 #defcom1 "Dwarf Captain"
 #defcom2 "Dwarf Forge-Priest"
 #defunit1 "Blue Mountain Sapper"
@@ -1120,4 +1120,3 @@
 #templegems 3
 #buildfort 14
 #end
-
