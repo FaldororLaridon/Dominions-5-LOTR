@@ -125,7 +125,7 @@
 #nr att 1
 #att 1
 #len 0
-##sound 7
+#sound 7
 #rcost 3
 #pierce
 #slash
@@ -143,7 +143,7 @@
 #att 2
 #def 2
 #len 1
-#soudn 8
+#sound 8
 #dt_normal
 #slash
 #pierce
