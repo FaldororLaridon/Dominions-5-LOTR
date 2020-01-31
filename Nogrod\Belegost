@@ -174,7 +174,7 @@
 #prot 14
 #def 0
 #enc 2
-#rcost 17
+#rcost 34
 #magicarmor
 #end
 #newarmor 307
@@ -184,7 +184,7 @@
 #def -3
 #enc 4
 #movepen 4
-#rcost 28
+#rcost 56
 #magicarmor
 #end
 #newarmor 308
@@ -192,7 +192,7 @@
 #type 6
 #prot 23
 #def -1
-#rcost 6
+#rcost 12
 #magic
 #end
 #newarmor 309
@@ -200,7 +200,7 @@
 #type 6
 #prot 19
 #def 0
-#rcost 4
+#rcost 8
 #magic
 #end
 #newarmor 310
@@ -209,7 +209,7 @@
 #prot 19
 #def 7
 #enc 2
-#rcost 4
+#rcost 8
 #magic
 #end
 #newarmor 311
@@ -218,7 +218,7 @@
 #prot 18
 #def -2
 #enc 3
-#rcost 20
+#rcost 40
 #magic
 #end
 #newarmor 312
