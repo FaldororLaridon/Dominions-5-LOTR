@@ -232,6 +232,8 @@
 #newmonster 3533
 #name "Blue Mountain Sapper"
 #descr "No race is more attuned to the working of minerals and the deeps of the earth than the Dwarves. They are a hardy folk, difficult to daunt or slay, and masters of forging like few others can claim. The Sappers of the twin cities are often former miners that have answered the call to war and joined the Dwarven hosts. Their years in deep places have given them great nightvision and a knowledge of the strengths and weaknesses of stone. No wall can stand for long if the Sappers turn their will towards it."
+#spr1 "images/NogrodBelegost/dwarfminer_1.tga"
+#spr2 "images/NogrodBelegost/dwarfminer_2.tga"
 #rcost 2
 #gcost 20
 #rpcost 20
@@ -263,6 +265,8 @@
 #newmonster 3534
 #name "Khazad Archer"
 #descr "The infantry of the twin cities of Nogrod and Belegost are among the finest in the world. But the Dwarves recognised the necessity of range against faster enemies, or in defence of their cities. Therefore, they developed a type of bow designed with their short but sturdy bodies in mind. The steelbow fires surprisingly far with little effort on the part of the archer. Enchantments are wrought into the very metal, to defy the shields of their enemies. Ware to those who mock the Dwarves!"
+#spr1 "images/NogrodBelegost/dwarfarcher_1.tga"
+#spr2 "images/NogrodBelegost/dwarfarcher_2.tga"
 #rcost 2
 #gcost 20
 #rpcost 20
@@ -294,6 +298,8 @@
 #newmonster 3535
 #name "Khazad Spearman" 
 #descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall."
+#spr1 "images/NogrodBelegost/dwarflightspear_1.tga"
+#spr2 "images/NogrodBelegost/dwarflightspear_2.tga"
 #rcost 2
 #gcost 30
 #rpcost 25
@@ -311,6 +317,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Spear"|815
+#weapon "Dwarf Mask"
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -326,6 +333,8 @@
 #newmonster 3536
 #name "Khazad Soldier" 
 #descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall."
+#spr1 "images/NogrodBelegost/dwarfhammerheavy_1.tga"
+#spr2 "images/NogrodBelegost/dwarfhammerheavy_2.tga"
 #rcost 2
 #gcost 30
 #rpcost 25
@@ -343,6 +352,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Hammer"|814
+#weapon "Dwarf Mask"
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -358,6 +368,8 @@
 #newmonster 3537
 #name "Khazad Swordsman" 
 #descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall."
+#spr1 "images/NogrodBelegost/dwarfswordheavy_1.tga"
+#spr2 "images/NogrodBelegost/dwarfswordheavy_2.tga"
 #rcost 2
 #gcost 30
 #rpcost 25
@@ -375,6 +387,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Falchion"|817
+#weapon "Dwarf Mask"
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -390,6 +403,8 @@
 #newmonster 3538
 #name "Khazad Axeman" 
 #descr "The Khazad, or Dwarves as other folk name them, boast some of the finest infantry in the world. Their soldiers are skilled, hardy, and difficult to daunt or sway by magic. They bear armour of cunning rings and helms etched with terrible designs that strike fear into the enemies that look upon them. Their armour makes them almost entirely immune to fire, and many an Abysian assault has broken on the rock that is a Khazad shield-wall."
+#spr1 "images/NogrodBelegost/dwarfaxeheavy_1.tga"
+#spr2 "images/NogrodBelegost/dwarfaxeheavy_2.tga"
 #rcost 2
 #gcost 30
 #rpcost 25
@@ -407,6 +422,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Axe"|816
+#weapon "Dwarf Mask"
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -422,6 +438,8 @@
 #newmonster 3539
 #name "Wyrmslayer"
 #descr "The Elite of the Dwarven warriors, the Wyrmslayers are the most dreaded of all that grim-faced folk issuing from the mountains. They are trained to fight and slay the elites of other nations, Wielding their great battle-axes to deadly efficiancy. The last thing many would-be invaders of the halls of the Dwarves have seen is the Wyrmslayers in gilded armour charging towards them, and the last thing they hear is their battle-cry. 'Baruk Khazad! Khazad ai Menu!'"
+#spr1 "images/NogrodBelegost/dwarfwyrmslayer_1.tga"
+#spr2 "images/NogrodBelegost/dwarfwyrmslayer_2.tga"
 #reqtemple
 #rcost 2
 #gcost 35
@@ -440,6 +458,7 @@
 #ap 10
 #eyes 2
 #weapon "Wyrmslayer Axe"|819
+#weapon "Dwarf Mask"
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -456,6 +475,8 @@
 #newmonster 3540
 #name "Dwarf Captain"
 #descr "Dwarf Captains typically lead mining expeditions, or groups of dwarf-guards to ensure that the mountains they delve into are not already occupied by hostiles. Their work is not glamourous, but it is vital. In times of war, sometimes they will leave the mines to lead the Khazad above ground."
+#spr1 "images/NogrodBelegost/dwarfcaptain_1.tga"
+#spr2 "images/NogrodBelegost/dwarfcaptain_2.tga"
 #rcost 2
 #gcost 20000
 #rpcost 2
@@ -473,6 +494,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Falchion"|817
+#weapon "Dwarf Mask"
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -491,6 +513,8 @@
 #newmonster 3541
 #name "Dwarf Apprentice"
 #descr "All Dwarves learn of the trade of smithying and crafting, and they design their own weapons and armour. For some it is merely a cultural skill, while others choose to dedicate themselves to the way of the Forge. These apprentices have yet to learn the intricacies of smithcraft, and while their skills are far greater than most other nations, they are still only worthy to forge the most standard equipment of the twin cities."
+#spr1 "images/NogrodBelegost/dwarfapprentice_1.tga"
+#spr2 "images/NogrodBelegost/dwarfapprentice_2.tga"
 #reqlab
 #reqtemple
 #rcost 2
@@ -529,6 +553,8 @@
 #newmonster 3542
 #name "Dwarf Forge-Priest"
 #descr "The art of smithying is considered a holy work among the dwarves. the works of their hands are their worship, and far more practical than hours spent on bended knee. The Forge-Priest is a Dwarf who has come far in the skill of crafting, and has divined many secrets in the forging of magic items and equipment. While Dwarves have a great love for the works of the hand, they are a jealous and secretive race, and rarely work well with others. Thus, they make for poor researchers."
+#spr1 "images/NogrodBelegost/dwarfforgepriest_1.tga"
+#spr2 "images/NogrodBelegost/dwarfforgepriest_2.tga"
 #reqlab
 #reqtemple
 #rcost 2
@@ -548,6 +574,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Hammer"|814
+#weapon "Dwarf Mask"
 #armor "Dwarf-Mail Cuirass"|305
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -572,6 +599,8 @@
 #newmonster 3543
 #name "Dwarf Lord"
 #descr "The Dwarf-Lords of Nogrod and Belegost are nobles of that great people. They are masterful smiths, incredibly wealthy and mighty warriors."
+#spr1 "images/NogrodBelegost/dwarflord_1.tga"
+#spr2 "images/NogrodBelegost/dwarflord_2.tga"
 #rcost 2
 #gcost 2500
 #rpcost 2
@@ -589,6 +618,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Axe"|816
+#weapon "Dwarf Mask"
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -608,6 +638,8 @@
 #newmonster 3544
 #name "Rune Smith"
 #descr "The Rune Smiths have delved deeper into their work than the Forge Priests below them. Uninterested in matters of state or other Dwarves, they have confined themselves to unlocking the secrets of smith-craft. They are skilled and mighty mages, but grow ever more secretive and jealous of their works."
+#spr1 "images/NogrodBelegost/dwarfrunesmith_1.tga"
+#spr2 "images/NogrodBelegost/dwarfrunesmith_2.tga"
 #slowrec
 #reqlab
 #reqtemple
@@ -628,6 +660,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Hammer"|814
+#weapon "Dwarf Mask"
 #armor "Dwarf-Mail Cuirass"|305
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -651,6 +684,8 @@
 #newmonster 3545
 #name "Forge Lord"
 #descr "At first glance, there might be little difference between the Forge Lord and the Rune Smith. But where the Rune Smith focuses all his attention and energy on perfecting his craft and forging mighty and legendary works, the Forge Lord has opened his heart more to his people. While Dwarves engage in trade rather than gift-giving, he nevertheless makes his skills more open and available, and hoards his secrets less jealously than his peers. Thus, Forge Lords are held in high esteem by the Khazad, and it is because of their ceaseless labour that the Dwarven armies are maintained as best-equipped soldiers in the world."
+#spr1 "images/NogrodBelegost/dwarfforgelord_1.tga"
+#spr2 "images/NogrodBelegost/dwarfforgelord_2.tga"
 #slowrec
 #reqlab
 #reqtemple
@@ -671,6 +706,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Hammer"|814
+#weapon "Dwarf Mask"
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -696,6 +732,8 @@
 #newmonster 3546
 #name "Reborn Father"
 #descr "It is held in Dwarf-Lore that their race came of seven Fathers, the first to be created by an ancient deity. They were given peoples and told to go out into the world and make use of the gifts they had been given. Sometimes a Dwarf is born who is so alike these ancient legends, with memories and knowledge long lost, that it is agreed he must be one of the Seven Fathers reborn to walk among the Dwarves again. Reborn Fathers are held in awe by other Dwarves, and they excel at any skill they put their hands to. They are living legends among the Khazad, and even the Kings listen closely to their counsel."
+#spr1 "images/NogrodBelegost/dwarf_rebornfather_1.tga"
+#spr2 "images/NogrodBelegost/dwarf_rebornfather_2.tga"
 #slowrec
 #reqlab
 #reqtemple
@@ -716,6 +754,7 @@
 #ap 10
 #eyes 2
 #weapon "Dwarf-Steel Axe"|816
+#weapon "Dwarf Mask"
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Half Helm"|308
 #armor "Dwarven Shield"|308
@@ -749,6 +788,8 @@
 #name "Khazad Mastersmith"
 #fixedname "Telchar"
 #descr "Telchar is the greatest Dwarf-Smith of all time. Learning his craft from Gamil Zirak the Old, he has forged uncounted masterworks beyond even the most skilled of his peers. Revered among other Dwarves, he works tirelessly to bring incredible works to life for the betterment of his bretheren."
+#spr1 "images/NogrodBelegost/dwarfmastersmith_1.tga"
+#spr2 "images/NogrodBelegost/dwarfmastersmith_2.tga"
 #hp 15
 #str 10
 #att 12
@@ -763,6 +804,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Hammer"|814
+#weapon "Dwarf Mask"
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -787,6 +829,8 @@
 #name "King of Belegost"
 #fixed name "Azaghal"
 #descr "Azaghal is the king of Belegost. He is more friendly to outsiders than his fellow king of Nogrod, Naugladur. He is a skilled warrior and a valient leader, with many devoted followers of his people, and is not afraid to lead his men into battle from the front."
+#spr1 "images/NogrodBelegost/dwarf_azaghal_1.tga"
+#spr2 "images/NogrodBelegost/dwarf_azaghal_2.tga"
 #hp 20
 #str 14
 #att 12
@@ -802,6 +846,7 @@
 #eyes 2
 #weapon "Dwarf-Steel Axe"|816
 #weapon "Mastercraft Dagger"|821
+#weapon "Dwarf Mask"
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #humanoid
@@ -824,6 +869,8 @@
 #name "King of Nogrod"
 #fixedname "Naugladur"
 #descr "Naugladur is the king of Nogrod. more prideful and swift to anger than his fellow king, he relishes the knowledge that it is his city that has produced the the greatest of the Dwarven Smiths. His people tend to take more offence to slights real or imagined from outsiders. Azaghal is a fierce warrior, and durable even by Dwarf standards. But he is less courageous than his fellow king, and more susceptible to hostile magics."
+#spr1 "images/NogrodBelegost/dwarf_naugladr_1.tga"
+#spr2 "images/NogrodBelegost/dwarf_naugladr_2.tga"
 #hp 22
 #str 15
 #att 12
@@ -838,6 +885,7 @@
 #ap 8
 #eyes 2
 #weapon "Dwarf-Steel Falchion"|817
+#weapon "Dwarf Mask"
 #armor "Full Dwarf-Mail"|306
 #armor "Dwarf Full Helm"|307
 #armor "Dwarven Shield"|308
@@ -858,6 +906,8 @@
 #name "Eol"
 #fixedname "Eol"
 #descr "One of the Sindar Elves, Eol is the only Elf who can boast a close friendship with the Dwarves, and has indeed entered the cities of Nogrod and Belegost. He has learned much from the Dwarves, and taught them some things as well. He is and excellent smith, and a cunning warrior. He can seem hard, even cruel at times however, and gets along better with the Dwarves of Nogrod than those of Belegost."
+#spr1 "images/NogrodBelegost/dwarf_eol_1.tga"
+#spr2 "images/NogrodBelegost/dwarf_eol_2.tga"
 #hp 13
 #att 13
 #def 13
@@ -892,6 +942,8 @@
 #name "Eldest Father"
 #fixedname "Durin"
 #descr "The Dwarven race began with Seven fathers, the first of their kind created by an an ancient deity who wished for beings to teach the ways of smithcraft. The Eldest Father is the first and mightiest of these Fathers. The Pantokrator allowed these creations to survive, but chided his servant for making them before the coming of those he had long planned. The Dwarves were put to sleep beneath the mountains to await their proper time. Now that the Pantokrator had vanished, the Eldest Father wakes again and will lead his people to claim this world as their own."
+#spr1 "images/NogrodBelegost/dwarf_durin_1.tga"
+#spr2 "images/NogrodBelegost/dwarf_durin_2.tga"
 #pathcost 40
 #startdom 1
 #gcost 10000
@@ -909,6 +961,7 @@
 #ap 10
 #eyes 2
 #weapon "Dwarf-Steel Axe"|816
+#weapon "Dwarf Mask"
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Full Helm"|307
 #humanoid
