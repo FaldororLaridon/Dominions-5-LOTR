@@ -151,7 +151,24 @@
 #armorpiercing
 #secondaryeffect "Soul Slay"|194
 #end
-#newarmor 305
+#newweapon 825
+#copyweapon 139
+#name "Dwarf-Terror"
+#dmg 1
+#aoe 1
+#end
+#newweapon 826
+#name "Dwarf Mask"
+#dmg 0
+#nratt 1
+#len 0
+#dt_normal
+#secondaryeffectalways 823
+#nostr
+#bonus
+#end
+
+#newarmor 306
 #name "Dwarf-Mail Cuirass"
 #type 5
 #prot 14
@@ -160,7 +177,7 @@
 #rcost 17
 #magicarmor
 #end
-#newarmor 306
+#newarmor 307
 #name "Full Dwarf-Mail"
 #type 5
 #prot 21
@@ -170,7 +187,7 @@
 #rcost 28
 #magicarmor
 #end
-#newarmor 307
+#newarmor 308
 #name "Dwarf Full Helm"
 #type 6
 #prot 23
@@ -178,7 +195,7 @@
 #rcost 6
 #magic
 #end
-#newarmor 308
+#newarmor 309
 #name "Dwarf Half Helm"
 #type 6
 #prot 19
@@ -186,7 +203,7 @@
 #rcost 4
 #magic
 #end
-#newarmor 309
+#newarmor 310
 #name "Dwarven Shield"
 #type 4
 #prot 19
@@ -195,7 +212,7 @@
 #rcost 4
 #magic
 #end
-#newarmor 310
+#newarmor 311
 #name "Dwarf-Mail Hauberk"
 #type 5
 #prot 18
@@ -204,7 +221,7 @@
 #rcost 20
 #magic
 #end
-#newarmor 311
+#newarmor 312
 #name "Galvorn Armor"
 #type 5
 #prot 18
