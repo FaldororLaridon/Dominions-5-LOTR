@@ -978,9 +978,10 @@
 #expertleader
 #inspirational 2
 #warning 5
-#magicpath 3 2
-#magicpath fire 1
+#magicskill 3 2
+#magicskill 0 1
 #masterrit 1
+#inspiringres 5
 #forgebonus 20
 #mastersmith 2
 #end
@@ -1030,6 +1031,49 @@
 #magicskill 3 1
 #spellsinger
 #end
+#newmonster 3562
+#name "Valar Smith"
+#fixedname "Aule"
+#descr "One of the greatest of the Valar, and the creator of the race of Dwarves. The Valar Smith is lord and master over the depths of the earth, and all precious minterals. He broke the Pantokrator's trust making the Dwarves, but was forgiven and not punished for his deeds. Now that the Pantokrator is gone, the Valar Smith can claim dominion over all the earth and not simply the ores in the ground.
+#pathcost 70
+#startdom 3
+#homerealm 2
+#gcost 10000
+#hp 100
+#str 27
+#att 11
+#def 12
+#prec 10
+#prot 3
+#size 6
+#mr 16
+#mor 30
+#enc 3
+#mapmove 20
+#ap 16
+#eyes 2
+#weapon "Dwarf-Steel Hammer"|814
+#humanoid
+#magicbeing
+#mountainsurvival
+#startage 1000
+#maxage 3000
+#awe 3
+#spiritsight
+#castledef 10
+#resources 20
+#gold 50
+#mason
+#okleader
+#okmagicleader
+#magicskill 3 2
+#magicskill 0 1
+#fixforgebonus 20
+#mastersmith 2
+#end
+#newmonster 3563
+#name "Valar Doomsman"
+#fixedname "Mandos"
 
 #newsite 1504
 #name "Telchar's Smithy"
@@ -1076,9 +1120,7 @@
 #startcom "Dwarf Captain"
 #startscout "Dwarf Apprentice"
 #startunittype1 "Khazad Spearman"
-#startunitnbrs1 10
-#startunittype2 "Khazad Archer"
-#startunitnbrs2 10
+#startunitnbrs1 5
 #addrecunit "Blue Mountain Sapper"|3543
 #addrecunit "Khazad Archer"|3544
 #addrecunit "Khazad Spearman"|3545
