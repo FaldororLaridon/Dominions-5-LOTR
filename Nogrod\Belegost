@@ -1039,7 +1039,7 @@
 #startdom 3
 #homerealm 2
 #gcost 10000
-#hp 100
+#hp 90
 #str 27
 #att 11
 #def 12
@@ -1074,6 +1074,37 @@
 #newmonster 3563
 #name "Valar Doomsman"
 #fixedname "Mandos"
+#descr "The Valar Doomsman was given great power under the Pantokrator. All thing that are fated to be are known to him, except those that are governed by free will. He also watches over the Houses of the Dead in Valinor, until the remaking of the world. With the disappearance of the Pantokrator, his visions have become troubled, and are less sure than he once was. He still grasps for his former Lord's grand plan however, and will ascend to the heavens in the hope that all will be made clear once more."
+#hp 90
+#str 25
+#att 11
+#def 12
+#prec 10
+#prot 3
+#size 6
+#mr 18
+#mor 30
+#enc 3
+#mapmove 20
+#ap 16
+#eyes 2
+#weapon "Fist"|92
+#humanoid
+#magicbeing
+#startage 1000
+#maxage 3000
+#awe 2
+#fear 5
+#curseluckshield 2
+#spiritsight
+#deathcurse
+#okleader
+#okmagicleader
+#warning 5
+#magicskill 4 2
+#magicskill 5 1
+#spellsinger
+#end
 
 #newsite 1504
 #name "Telchar's Smithy"
