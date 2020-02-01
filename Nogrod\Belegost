@@ -17,6 +17,11 @@
 #secondaryeffect "Break Armor"|174
 #end
 #newweapon 815
+#copyweapon 571
+#name "Sear Flesh"
+#dmg 5
+#end
+#newweapon 816
 #name "Dwarf-Steel Spear"
 #dmg 5
 #nratt 1
@@ -28,9 +33,9 @@
 #dt_normal
 #pierce
 #armorpiercing
-#secondaryeffect "Burn Flesh"|571
+#secondaryeffect "Sear Flesh"
 #end
-#newweapon 816
+#newweapon 817
 #name "Dwarf-Steel Axe"
 #dmg 11
 #nratt 1
@@ -43,7 +48,7 @@
 #slash
 #armorpiercing
 #end
-#newweapon 817
+#newweapon 818
 #name "Dwarf-Steel Falchion"
 #dmg 10
 #nratt 1
@@ -57,7 +62,7 @@
 #armorpiercing
 #secondaryeffect "Draw Blood"|690
 #end
-#newweapon 818
+#newweapon 819
 #name "Dwarf-Steel Pick"
 #dmg  8
 #nratt 1
@@ -71,7 +76,7 @@
 #pierce
 #armornegating
 #end
-#newweapon 819
+#newweapon 820
 #name "Wyrmslayer Axe"
 #dmg 13
 #nratt 1
@@ -88,7 +93,7 @@
 #aoe 1
 #charge
 #end
-#newweapon 820
+#newweapon 821
 #name "Dwarven Steelbow"
 #dmg 7
 #nratt 1
@@ -104,7 +109,7 @@
 #flail
 #flyspr 109 1
 #end
-#newweapon 821
+#newweapon 822
 #name "Dwarven Dagger"
 #dmg 4
 #nr att 1
@@ -118,24 +123,24 @@
 #slash
 #armorpiercing
 #end
-#newweapon 822
+#newweapon 823
 #name "Mastercraft Dagger"
 #dmg 5
 #nr att 1
 #att 1
 #len 0
-#sound 7
+##sound 7
 #rcost 3
 #pierce
 #slash
 #armornegating
 #end
-#newweapon 823
+#newweapon 824
 #name "Poisoned Javelin"
 #copyweapon "Javelin"|21
 #secondaryeffect "Strong Poison"|51
 #end
-#newweapon 824
+#newweapon 825
 #name "Meteorite Sword"
 #dmg 12
 #nratt 1
@@ -150,23 +155,26 @@
 #armorpiercing
 #secondaryeffect "Soul Slay"|194
 #end
-#newweapon 825
+
+#newweapon 826
 #copyweapon 139
 #name "Dwarf-Terror"
 #dmg 1
 #aoe 1
+#rcost 0
 #end
-#newweapon 826
+#newweapon 827
 #name "Dwarf Mask"
 #dmg 0
 #nratt 1
 #len 0
 #dt_normal
-#secondaryeffectalways 825
+#rcost 0
+#secondaryeffectalways 826
 #nostr
 #bonus
 #end
-#newweapon 827
+#newweapon 828
 #name "Tulkas's Fists"
 #dmg 10
 #nratt 2
