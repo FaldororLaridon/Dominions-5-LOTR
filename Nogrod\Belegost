@@ -260,6 +260,7 @@
 #darkvision 50
 #siegebonus 8
 #nametypes 104
+#formationfighter -3
 #end
 #newmonster 3544
 #name "Khazad Archer"
@@ -293,6 +294,7 @@
 #reinvigoration 4
 #darkvision 50
 #nametypes 104
+#formationfighter -3
 #end
 #newmonster 3545
 #name "Khazad Spearman" 
@@ -328,6 +330,7 @@
 #darkvision 50
 #castledef 2
 #nametypes 104
+#formationfighter -3
 #end
 #newmonster 3546
 #name "Khazad Soldier" 
@@ -363,6 +366,7 @@
 #darkvision 50
 #castledef 2
 #nametypes 104
+#formationfighter -3
 #end
 #newmonster 3547
 #name "Khazad Swordsman" 
@@ -398,6 +402,7 @@
 #darkvision 50
 #castledef 2
 #nametypes 104
+#formationfighter -3
 #end
 #newmonster 3548
 #name "Khazad Axeman" 
@@ -433,6 +438,7 @@
 #darkvision 50
 #castledef 2
 #nametypes 104
+#formationfighter -3
 #end
 #newmonster 3549
 #name "Wyrmslayer"
@@ -470,6 +476,7 @@
 #reinvigoration 5
 #darkvision 50
 #nametypes 104
+#formationfighter -3
 #end
 #newmonster 3550
 #name "Dwarf Captain"
@@ -508,6 +515,7 @@
 #nametypes 104
 #okleader
 #command 20
+#formationfighter -3
 #end
 #newmonster 3551
 #name "Dwarf Apprentice"
@@ -548,6 +556,7 @@
 #magicskill 0 1
 #researchbonus -4
 #fixforgebonus 1
+#formationfighter -3
 #end
 #newmonster 3552
 #name "Dwarf Forge-Priest"
@@ -594,6 +603,7 @@
 #researchbonus -6
 #fixforgebonus 2
 #mastersmith 1
+#formationfighter -3
 #end
 #newmonster 3553
 #name "Dwarf Lord"
@@ -633,6 +643,7 @@
 #nametypes 104
 #goodleader
 #inspirational 1
+#formationfighter -3
 #end
 #newmonster 3554
 #name "Rune Smith"
@@ -679,6 +690,7 @@
 #masterrit 1
 #fixforgebonus 3
 #mastersmith 1
+#formationfighter -3
 #end
 #newmonster 3555
 #name "Forge Lord"
@@ -727,6 +739,7 @@
 #masterrit 1
 #researchbonus -4
 #fixforgebonus 2
+#formationfighter -3
 #end
 #newmonster 3556
 #name "Reborn Father"
@@ -782,6 +795,7 @@
 #masterrit 1
 #forgebonus 20
 #mastersmith 2
+#formationfighter -3
 #end
 #newmonster 3557
 #name "Khazad Mastersmith"
@@ -823,6 +837,7 @@
 #researchbonus -8
 #forgebonus 20
 #mastersmith 3
+#formationfighter -3
 #end
 #newmonster 3558
 #name "King of Belegost"
@@ -863,6 +878,7 @@
 #mason
 #expertleader
 #inspirational 1
+#formationfighter -3
 #end
 #newmonster 3559
 #name "King of Nogrod"
@@ -900,6 +916,7 @@
 #resources 10
 #gold 10
 #expertleader
+#formationfighter -3
 #end
 #newmonster 3560
 #name "Eol"
@@ -936,6 +953,7 @@
 #poorleader
 #magicskill 3 2
 #mastersmith 1
+#formationfighter -3
 #end
 #newmonster 3561
 #name "Eldest Father"
