@@ -255,8 +255,8 @@
 #spr1 "images/NogrodBelegost/dwarfminer_1.tga"
 #spr2 "images/NogrodBelegost/dwarfminer_2.tga"
 #rcost 2
-#gcost 20
-#rpcost 20
+#gcost 25
+#rpcost 25
 #hp 15
 #str 10
 #att 10
@@ -290,8 +290,8 @@
 #spr1 "images/NogrodBelegost/dwarfarcher_1.tga"
 #spr2 "images/NogrodBelegost/dwarfarcher_2.tga"
 #rcost 2
-#gcost 20
-#rpcost 20
+#gcost 25
+#rpcost 25
 #hp 15
 #str 10
 #att 10
@@ -325,8 +325,8 @@
 #spr1 "images/NogrodBelegost/dwarflightspear_1.tga"
 #spr2 "images/NogrodBelegost/dwarflightspear_2.tga"
 #rcost 2
-#gcost 30
-#rpcost 25
+#gcost 45
+#rpcost 35
 #hp 15
 #str 10
 #att 11
@@ -362,8 +362,8 @@
 #spr1 "images/NogrodBelegost/dwarfhammerheavy_1.tga"
 #spr2 "images/NogrodBelegost/dwarfhammerheavy_2.tga"
 #rcost 2
-#gcost 30
-#rpcost 25
+#gcost 45
+#rpcost 35
 #hp 15
 #str 10
 #att 11
@@ -399,8 +399,8 @@
 #spr1 "images/NogrodBelegost/dwarfswordheavy_1.tga"
 #spr2 "images/NogrodBelegost/dwarfswordheavy_2.tga"
 #rcost 2
-#gcost 30
-#rpcost 25
+#gcost 45
+#rpcost 35
 #hp 15
 #str 10
 #att 11
@@ -436,8 +436,8 @@
 #spr1 "images/NogrodBelegost/dwarfaxeheavy_1.tga"
 #spr2 "images/NogrodBelegost/dwarfaxeheavy_2.tga"
 #rcost 2
-#gcost 30
-#rpcost 25
+#gcost 45
+#rpcost 35
 #hp 15
 #str 10
 #att 11
@@ -474,8 +474,8 @@
 #spr2 "images/NogrodBelegost/dwarfwyrmslayer_2.tga"
 #reqtemple
 #rcost 2
-#gcost 35
-#rpcost 30
+#gcost 70
+#rpcost 50
 #hp 15
 #str 12
 #att 12
