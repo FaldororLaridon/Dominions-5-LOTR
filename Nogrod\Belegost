@@ -1260,15 +1260,12 @@
 #hero4 3560
 #multihero1 3556
 #defcom1 "Dwarf Captain"
-#defcom1 "Dwarf Captain"
 #defcom2 "Dwarf Forge-Priest"
 #defunit1 "Blue Mountain Sapper"
-#defunit1b "Khazad Archer"
 #defunit2 "Khazad Spearman"
-#defunit2b "Blue Mountain Sapper"
+#defunit2b "Khazad Archer"
 #defmult1 10
-#defmultb 10
-#defmult2 5
+#defmult2 2
 #defmult2b 10
 #wallcom "Dwarf Captain"
 #wallunit "Khazad Archer"
