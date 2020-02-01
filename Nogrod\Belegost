@@ -166,6 +166,19 @@
 #nostr
 #bonus
 #end
+#newweapon 827
+#name "Tulkas's Fists"
+#dmg 10
+#nratt 2
+#att 0
+#def 0
+#len 0
+#twohanded
+#sound 10
+#dt_normal
+#magic
+#norepel
+#end
 
 #newarmor 306
 #name "Dwarf-Mail Cuirass"
@@ -1117,6 +1130,7 @@
 #curseluckshield 2
 #spiritsight
 #deathcurse
+#nobadevents 50
 #okleader
 #okmagicleader
 #warning 5
@@ -1124,6 +1138,63 @@
 #magicskill 5 1
 #spellsinger
 #end
+#newmonster 3564
+#name "Valar of Valour"
+#fixedname "Tulkas"
+#descr "The Valar of Valour was uninterested in the world for aeons, except as an observer. When the Great Adversary rose to power and contended with the Pantokrator's servants however, he could no longer stand idly by. He came into battle as a storm, laughing with the joy of the fight upon him, and swept the Adversary away, earning his eternal hatred. Now bound to the world, he roams it freely, delighting in feats of strength and valour. As ancient monsters and enemies rise from their lairs, seeking the throne, he too will rise and smite down those who would steal the world for their own gain."
+#pathcost 80
+#startdom 3
+#homerealm 2
+#gcost 10000
+#hp 90
+#str 27
+#att 12
+#def 14
+#prec 10
+#prot 3
+#size 6
+#mr 16
+#mor 30
+#enc 3
+#mapmove 26
+#ap 30
+#eyes 2
+#weapon "Tulkas's Fists"|827
+#humanoid
+#magicbeing
+#startage 800
+#maxage 3000
+#coldres 10
+#fireres 10
+#awe 3
+#goodleader
+#okmagicleader
+#inspirational 1
+#magicskill 3 1
+#magicskill 0 1
+#researchbonus -5
+#end
+#newmonster 3565
+#name "Elder King"
+#fixedname "Manwe"
+#descr "Lord of the skies, lover of all great birds, the Elder King was set by the Pantokrator to lead his servants, order the world and resist the Great Adversary. he has done so, earning his master's favour and reaping the rewards of loyal and faithful work. Now that the Pantokrator has vanished, he must order the world in his master's wishes, and take the Empty Throne for himself."
+#pathcost 80
+#startdom 3
+#homerealm 2
+#gcost 10000
+#hp 90
+#str 27
+#att 12
+#def 14
+#prec 10
+#prot 3
+#size 6
+#mr 16
+#mor 30
+#enc 3
+#mapmove 26
+#ap 30
+#eyes 2
 
 #newsite 1504
 #name "Telchar's Smithy"
