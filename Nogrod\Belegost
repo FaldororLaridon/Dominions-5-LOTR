@@ -13,6 +13,7 @@
 #rcost 4
 #dt_normal
 #blunt
+#pierce
 #secondaryeffect "Break Armor"|174
 #end
 #newweapon 815
