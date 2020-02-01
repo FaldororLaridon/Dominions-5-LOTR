@@ -1264,8 +1264,8 @@
 #aiearthnation
 #startcom "Dwarf Captain"
 #startscout "Dwarf Apprentice"
-#startunittype1 "Khazad Spearman"
-#startunitnbrs1 5
+#startunittype1 "Blue Mountain Sapper"
+#startunitnbrs1 10
 #addrecunit "Blue Mountain Sapper"|3543
 #addrecunit "Khazad Archer"|3544
 #addrecunit "Khazad Spearman"|3545
