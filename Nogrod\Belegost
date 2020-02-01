@@ -282,6 +282,7 @@
 #siegebonus 8
 #nametypes 104
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3544
 #name "Khazad Archer"
@@ -316,6 +317,7 @@
 #darkvision 50
 #nametypes 104
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3545
 #name "Khazad Spearman" 
@@ -352,6 +354,7 @@
 #castledef 2
 #nametypes 104
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3546
 #name "Khazad Soldier" 
@@ -388,6 +391,7 @@
 #castledef 2
 #nametypes 104
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3547
 #name "Khazad Swordsman" 
@@ -424,6 +428,7 @@
 #castledef 2
 #nametypes 104
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3548
 #name "Khazad Axeman" 
@@ -460,6 +465,7 @@
 #castledef 2
 #nametypes 104
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3549
 #name "Wyrmslayer"
@@ -498,6 +504,7 @@
 #darkvision 50
 #nametypes 104
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3550
 #name "Dwarf Captain"
@@ -537,6 +544,7 @@
 #okleader
 #command 20
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3551
 #name "Dwarf Apprentice"
@@ -578,6 +586,7 @@
 #researchbonus -4
 #fixforgebonus 1
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3552
 #name "Dwarf Forge-Priest"
@@ -625,6 +634,7 @@
 #fixforgebonus 2
 #mastersmith 1
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3553
 #name "Dwarf Lord"
@@ -665,6 +675,7 @@
 #goodleader
 #inspirational 1
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3554
 #name "Rune Smith"
@@ -761,6 +772,7 @@
 #researchbonus -4
 #fixforgebonus 2
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3556
 #name "Reborn Father"
@@ -817,6 +829,7 @@
 #forgebonus 20
 #mastersmith 2
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3557
 #name "Khazad Mastersmith"
@@ -859,6 +872,7 @@
 #forgebonus 20
 #mastersmith 3
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3558
 #name "King of Belegost"
@@ -938,6 +952,7 @@
 #gold 10
 #expertleader
 #formationfighter -3
+#supplybonus -1
 #end
 #newmonster 3560
 #name "Eol"
@@ -1024,6 +1039,7 @@
 #inspiringres 5
 #forgebonus 20
 #mastersmith 2
+#supplybonus -1
 #end
 #newmonster 3562
 #name "Valar of the Hunt"
