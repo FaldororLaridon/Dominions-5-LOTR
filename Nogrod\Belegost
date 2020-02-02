@@ -90,7 +90,6 @@
 #slash
 #magic
 #armorpiercing
-#aoe 1
 #charge
 #end
 #newweapon 821
@@ -260,7 +259,7 @@
 #hp 15
 #str 10
 #att 10
-#def 10
+#def 9
 #prec 8
 #prot 0
 #size 1
@@ -277,7 +276,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 10
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #siegebonus 8
 #nametypes 104
@@ -295,7 +294,7 @@
 #hp 15
 #str 10
 #att 10
-#def 10
+#def 9
 #prec 12
 #prot 0
 #size 1
@@ -313,7 +312,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 10
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #nametypes 104
 #formationfighter -3
@@ -330,7 +329,7 @@
 #hp 15
 #str 10
 #att 11
-#def 12
+#def 9
 #prec 8
 #prot 0
 #size 1
@@ -349,7 +348,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -367,7 +366,7 @@
 #hp 15
 #str 10
 #att 11
-#def 12
+#def 9
 #prec 8
 #prot 0
 #size 1
@@ -386,7 +385,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -404,7 +403,7 @@
 #hp 15
 #str 10
 #att 11
-#def 12
+#def 9
 #prec 8
 #prot 0
 #size 1
@@ -423,7 +422,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -441,7 +440,7 @@
 #hp 15
 #str 10
 #att 11
-#def 12
+#def 9
 #prec 8
 #prot 0
 #size 1
@@ -460,7 +459,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -479,7 +478,7 @@
 #hp 15
 #str 12
 #att 12
-#def 13
+#def 10
 #prec 8
 #prot 0
 #size 1
@@ -500,7 +499,7 @@
 #maxage 230
 #woundfend 1
 #fireres 30
-#reinvigoration 5
+#reinvigoration 3
 #darkvision 50
 #nametypes 104
 #formationfighter -3
@@ -517,7 +516,7 @@
 #hp 15
 #str 10
 #att 11
-#def 12
+#def 9
 #prec 8
 #prot 0
 #size 1
@@ -536,7 +535,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #castledef 1
 #patrolbonus 5
@@ -559,7 +558,7 @@
 #hp 15
 #str 10
 #att 10
-#def 10
+#def 8
 #prec 10
 #prot 0
 #size 1
@@ -601,7 +600,7 @@
 #hp 15
 #str 12
 #att 10
-#def 10
+#def 9
 #prec 11
 #prot 0
 #size 1
@@ -620,7 +619,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #nametypes 104
 #poorleader
@@ -646,7 +645,7 @@
 #rpcost 2
 #hp 15
 #str 12
-#att 12
+#att 9
 #def 13
 #prec 10
 #prot 0
@@ -667,13 +666,13 @@
 #maxage 230
 #addrandomage 20
 #fireres 30
-#reinvigoration 4
+#reinvigoration 3
 #darkvision 50
 #castledef 1
 #taxcollector
 #nametypes 104
 #goodleader
-#inspirational 1
+#inspirational 2
 #formationfighter -3
 #supplybonus -1
 #end
@@ -691,7 +690,7 @@
 #hp 15
 #str 12
 #att 10
-#def 10
+#def 9
 #prec 11
 #prot 0
 #size 1
@@ -710,7 +709,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 30
-#reinvigoration 4
+#reinvigoration 1
 #darkvision 50
 #nametypes 104
 #poorleader
@@ -723,6 +722,7 @@
 #fixforgebonus 3
 #mastersmith 1
 #formationfighter -3
+#startage 150
 #end
 #newmonster 3555
 #name "Forge Lord"
@@ -738,7 +738,7 @@
 #hp 15
 #str 12
 #att 11
-#def 12
+#def 9
 #prec 11
 #prot 0
 #size 1
@@ -763,7 +763,6 @@
 #resources 10
 #nametypes 104
 #goodleader 
-#inspirational 1
 #magicskill 3 2
 #magicskill 0 1
 #magicskill 4 2
@@ -773,6 +772,7 @@
 #fixforgebonus 2
 #formationfighter -3
 #supplybonus -1
+#startage 150
 #end
 #newmonster 3556
 #name "Reborn Father"
@@ -830,6 +830,7 @@
 #mastersmith 2
 #formationfighter -3
 #supplybonus -1
+#startage 100
 #end
 #newmonster 3557
 #name "Khazad Mastersmith"
@@ -863,6 +864,7 @@
 #fireres 30
 #darkvision 50
 #poorleader
+#reinvigoration 1
 #magicskill 8 1
 #magicskill 3 3
 #magicskill 0 3
@@ -905,7 +907,7 @@
 #maxage 230
 #addrandomage 20
 #fireres 30
-#reinvigoration 4
+#reinvigoration 3
 #darkvision 50
 #ambidexterous 2
 #resources 5
@@ -946,7 +948,7 @@
 #maxage 230
 #addrandomage 20
 #fireres 30
-#reinvigoration 7
+#reinvigoration 4
 #darkvision 50
 #resources 10
 #gold 10
@@ -1023,7 +1025,7 @@
 #maxage 1000
 #woundfend 1
 #fireres 30
-#reinvigoration 7
+#reinvigoration 4
 #awe 1
 #castledef 5
 #siegebonus 20
