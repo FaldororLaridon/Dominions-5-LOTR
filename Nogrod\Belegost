@@ -512,7 +512,7 @@
 #spr1 "images/NogrodBelegost/dwarfcaptain_1.tga"
 #spr2 "images/NogrodBelegost/dwarfcaptain_2.tga"
 #rcost 2
-#gcost 20000
+#gcost 10000
 #rpcost 2
 #hp 15
 #str 10
@@ -554,7 +554,7 @@
 #reqlab
 #reqtemple
 #rcost 2
-#gcost 20000
+#gcost 10000
 #rpcost 2
 #hp 15
 #str 10
@@ -596,7 +596,7 @@
 #reqlab
 #reqtemple
 #rcost 2
-#gcost 25000
+#gcost 10000
 #rpcost 2
 #hp 15
 #str 12
@@ -642,7 +642,7 @@
 #spr1 "images/NogrodBelegost/dwarflord_1.tga"
 #spr2 "images/NogrodBelegost/dwarflord_2.tga"
 #rcost 2
-#gcost 2500
+#gcost 10000
 #rpcost 2
 #hp 15
 #str 12
@@ -686,7 +686,7 @@
 #reqlab
 #reqtemple
 #rcost 2
-#gcost 2500
+#gcost 10000
 #rpcost 2
 #hp 15
 #str 12
@@ -734,7 +734,7 @@
 #reqlab
 #reqtemple
 #rcost 2
-#gcost 2500
+#gcost 10000
 #rpcost 2
 #hp 15
 #str 12
@@ -784,7 +784,7 @@
 #reqlab
 #reqtemple
 #rcost 2
-#gcost 5000
+#gcost 10000
 #rpcost 2
 #hp 20
 #str 13
