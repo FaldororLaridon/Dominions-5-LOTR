@@ -504,6 +504,7 @@
 #nametypes 104
 #formationfighter -3
 #supplybonus -1
+#reclimit 2
 #end
 #newmonster 3550
 #name "Dwarf Captain"
