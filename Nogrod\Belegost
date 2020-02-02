@@ -1297,10 +1297,10 @@
 #addgod "Eldest Father"
 #homerealm 10
 #earthblessbonus 2
-#fortera 3
+#fortera 2
 #labcost 400
 #templecost 600
 #templepic 31
 #templegems 3
-#buildfort 14
+#homefort 4
 #end
