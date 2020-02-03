@@ -1194,6 +1194,7 @@
 #eyes 2
 #weapon "Tulkas's Fists"|827
 #humanoid
+#itemslots 15488
 #magicbeing
 #startage 800
 #maxage 3000
@@ -1314,8 +1315,13 @@
 #epithet "Khazad Kings"
 #era 1
 #descr "Nogrod and Belegost are two of the ancient Dwarf-holds, founded by two of the Seven Fathers. The two cities, while separate clans, often come to each other's aid in times of need, and are the most renowned of Dwarven lands in this early age. The Dwarves of Nogrod and Belegost are great warriors, skilled smiths and steadfast friends to their allies. they are difficult to intimidate or coerce by magical means. they are a hardy and durable race, able to shoulder much greater burdens than any other living being under the Sun. With the coming of the Awakening God, they leave their mountain strongholds, singing the war-songs of old as they march for victory over the surface world."
-#summary "Insert Summary Here, you coward!"
-#brief "Insert Brief Here, you coward!"
+#summary "Race: Dwarves. Small, Fire resistant, extremely slow-moving, reinvigoration. Excellent smiths.
+Military: Very heavy infantry. Steelbow archers. No cavalry or fast units. 
+Magic: Earth, Fire, some Astral.
+Priests: Weak, temples generate earth gems.
+Bless bonuses: Earth bless points +2
+Buildings: Advanced Forts"
+#brief "Nogrod and Belegost is a mountain nation comprised of hardy Dwarves. they are excellent smiths, and field the heaviest infantry in the world."
 #flag "images/NogrodBelegost/belegostflag.tga"
 #color 2.2 3.5 20.4
 #startsite "Telchar's Smithy"
@@ -1357,6 +1363,10 @@
 #wallunit "Khazad Archer"
 #wallmult 10
 #addgod "Eldest Father"
+#addgod "Eldest Cyclops"
+#addgod "Eldest Dwarf"
+#addgod "Svartalf Mastersmith"
+#addgod "Neter of Crafts"
 #homerealm 10
 #earthblessbonus 2
 #fortera 2
