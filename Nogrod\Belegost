@@ -190,6 +190,11 @@
 #magic
 #norepel
 #end
+#newweapon 829
+#name "Superior Wyrmslayer Axe"
+#copyweapon "Wyrmslayer Axe"|820
+#aoe 1
+#end
 
 #newarmor 306
 #name "Dwarf-Mail Cuirass"
@@ -1376,3 +1381,42 @@ Buildings: Advanced Forts"
 #templegems 3
 #homefort 4
 #end
+
+#newitem
+#name "Galvorn Armour"
+#constlevel 6
+#mainpath 3
+#mainlevel 4
+#type 5
+#descr "Created by the Elf-smith Eol, Galvorn is a supple and and deceptively strong armour. Even when thin it gives defence similar to dwarf-forged armour, while being considerably lighter."
+#armor "Galvorn Armor"|311
+#restricted 121|"Nogrod and Belegost"
+#slashres
+#pierceres
+#end
+#newitem
+#name "Dragonhelm of Dor-lomin"
+#constlevel 8
+#mainpath 3
+#mainlevel 5
+#secondarypath 0
+#secondarylevel 5
+#type 6
+#descr "The Dragon-Helm was made in response to the emergence of the First Dragon. It is a symbol of defiance against that hated race, and grants the wearer the strength to stand up to such mighty creatures."
+#armor "Dwarf Full Helm"|307
+#restricted 121|Nogrod and Belegost"
+#invulnerable 15
+#fireres 10
+#fear 5
+#end
+#newitem
+#name "Wyrmslayer Axe"
+#constlevel 6
+#mainpath 3
+#mainlevel 4
+#type 2
+#descr "Wielded by the legendary Wyrmslayers, the Wyrmslayer axe is a masterwork of construction from a race that excels in crafts. These axes have been tempered by Forge Lords, and can sweep through a line of orc-necks in a single swing."
+#weapon "Superior Wyrmslayer Axe"|829
+#restricted 121|Nogrod and Belegost
+#end
+#
