@@ -161,6 +161,8 @@
 #dmg 1
 #aoe 1
 #rcost 0
+#norepel
+#unrepel
 #end
 #newweapon 827
 #name "Dwarf Mask"
@@ -172,6 +174,8 @@
 #secondaryeffectalways 826
 #nostr
 #bonus
+#norepel
+#unrepel
 #end
 #newweapon 828
 #name "Tulkas's Fists"
@@ -275,8 +279,8 @@
 #humanoid
 #mountainsurvival
 #maxage 230
-#fireres 10
-#reinvigoration 1
+#fireres 5
+#reinvigoration 2
 #darkvision 50
 #siegebonus 8
 #nametypes 104
@@ -311,8 +315,8 @@
 #humanoid
 #mountainsurvival
 #maxage 230
-#fireres 10
-#reinvigoration 1
+#fireres 5
+#reinvigoration 2
 #darkvision 50
 #nametypes 104
 #formationfighter -3
@@ -347,8 +351,8 @@
 #humanoid
 #mountainsurvival
 #maxage 230
-#fireres 30
-#reinvigoration 1
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -384,8 +388,8 @@
 #humanoid
 #mountainsurvival
 #maxage 230
-#fireres 30
-#reinvigoration 1
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -421,8 +425,8 @@
 #humanoid
 #mountainsurvival
 #maxage 230
-#fireres 30
-#reinvigoration 1
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -458,8 +462,8 @@
 #humanoid
 #mountainsurvival
 #maxage 230
-#fireres 30
-#reinvigoration 1
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #castledef 2
 #nametypes 104
@@ -498,8 +502,8 @@
 #mountainsurvival
 #maxage 230
 #woundfend 1
-#fireres 30
-#reinvigoration 3
+#fireres 25
+#reinvigoration 4
 #darkvision 50
 #nametypes 104
 #formationfighter -3
@@ -512,7 +516,7 @@
 #spr1 "images/NogrodBelegost/dwarfcaptain_1.tga"
 #spr2 "images/NogrodBelegost/dwarfcaptain_2.tga"
 #rcost 2
-#gcost 10000
+#gcost 10030
 #rpcost 2
 #hp 15
 #str 10
@@ -535,8 +539,8 @@
 #humanoid
 #mountainsurvival
 #maxage 230
-#fireres 30
-#reinvigoration 1
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #castledef 1
 #patrolbonus 5
@@ -575,8 +579,8 @@
 #holy
 #mountainsurvival
 #maxage 230
-#fireres 15
-#reinvigoration 4
+#fireres 5
+#reinvigoration 2
 #darkvision 50
 #resources 5
 #nametypes 104
@@ -596,7 +600,7 @@
 #reqlab
 #reqtemple
 #rcost 2
-#gcost 10000
+#gcost 10020
 #rpcost 2
 #hp 15
 #str 12
@@ -619,8 +623,8 @@
 #holy
 #mountainsurvival
 #maxage 230
-#fireres 30
-#reinvigoration 1
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #nametypes 104
 #poorleader
@@ -642,7 +646,7 @@
 #spr1 "images/NogrodBelegost/dwarflord_1.tga"
 #spr2 "images/NogrodBelegost/dwarflord_2.tga"
 #rcost 2
-#gcost 10000
+#gcost 10030
 #rpcost 2
 #hp 15
 #str 12
@@ -666,8 +670,8 @@
 #mountainsurvival
 #maxage 230
 #addrandomage 20
-#fireres 30
-#reinvigoration 3
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #castledef 1
 #taxcollector
@@ -686,7 +690,7 @@
 #reqlab
 #reqtemple
 #rcost 2
-#gcost 10000
+#gcost 10050
 #rpcost 2
 #hp 15
 #str 12
@@ -709,8 +713,8 @@
 #holy
 #mountainsurvival
 #maxage 230
-#fireres 30
-#reinvigoration 1
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #nametypes 104
 #poorleader
@@ -723,6 +727,7 @@
 #fixforgebonus 3
 #mastersmith 1
 #formationfighter -3
+#supplybonus -1
 #startage 150
 #end
 #newmonster 3555
@@ -734,7 +739,7 @@
 #reqlab
 #reqtemple
 #rcost 2
-#gcost 10000
+#gcost 10070
 #rpcost 2
 #hp 15
 #str 12
@@ -758,8 +763,8 @@
 #mountainsurvival
 #maxage 230
 #addrandomage 30
-#fireres 30
-#reinvigoration 4
+#fireres 20
+#reinvigoration 2
 #darkvision 50
 #resources 10
 #nametypes 104
@@ -774,6 +779,7 @@
 #formationfighter -3
 #supplybonus -1
 #startage 150
+#supplybonus -1
 #end
 #newmonster 3556
 #name "Reborn Father"
@@ -800,7 +806,6 @@
 #ap 10
 #eyes 2
 #weapon "Dwarf-Steel Axe"|816
-#weapon "Dwarf Mask"
 #armor "Dwarf-Mail Hauberk"|310
 #armor "Dwarf Half Helm"|308
 #armor "Dwarven Shield"|308
@@ -810,7 +815,7 @@
 #startheroab 50 
 #firres 20
 #awe 1
-#reinvigoration 5
+#reinvigoration 4
 #darkvision 100
 #castledef 5
 #siegebonus 5
@@ -870,7 +875,7 @@
 #magicskill 3 3
 #magicskill 0 3
 #magicskill 4 2
-#masterrit 2
+#masterrit 1
 #researchbonus -8
 #forgebonus 20
 #mastersmith 3
