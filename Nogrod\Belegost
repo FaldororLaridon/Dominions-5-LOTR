@@ -195,6 +195,11 @@
 #copyweapon "Wyrmslayer Axe"|820
 #aoe 1
 #end
+#newweapon 830
+#name "Angrist"
+#copyweapon "Mastercraft Dagger"|823
+#secondaryeffect "Break Armor"|174
+#end
 
 #newarmor 306
 #name "Dwarf-Mail Cuirass"
@@ -1404,7 +1409,7 @@ Buildings: Advanced Forts"
 #type 6
 #descr "The Dragon-Helm was made in response to the emergence of the First Dragon. It is a symbol of defiance against that hated race, and grants the wearer the strength to stand up to such mighty creatures."
 #armor "Dwarf Full Helm"|307
-#restricted 121|Nogrod and Belegost"
+#restricted 121|"Nogrod and Belegost"
 #invulnerable 15
 #fireres 10
 #fear 5
@@ -1417,6 +1422,15 @@ Buildings: Advanced Forts"
 #type 2
 #descr "Wielded by the legendary Wyrmslayers, the Wyrmslayer axe is a masterwork of construction from a race that excels in crafts. These axes have been tempered by Forge Lords, and can sweep through a line of orc-necks in a single swing."
 #weapon "Superior Wyrmslayer Axe"|829
-#restricted 121|Nogrod and Belegost
+#restricted 121|"Nogrod and Belegost"
 #end
-#
+#newitem
+#name "Angrist"
+#constlevel 8
+#mainpath 3
+#mainlevel 6
+#type 1
+#descr "Angrist is a keen, deadly knife so sharp it can cut through steel like butter. Deadly against armoured foes, it will not only cleave steel, but shatter it in it's wake."
+#weapon "Angrist"|830
+#restricted 121|"Nogrod and Belegost"
+
