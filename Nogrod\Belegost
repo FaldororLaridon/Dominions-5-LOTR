@@ -1108,6 +1108,8 @@
 #name "Valar Smith"
 #fixedname "Aule"
 #descr "One of the greatest of the Valar, and the creator of the race of Dwarves. The Valar Smith is lord and master over the depths of the earth, and all precious minterals. He broke the Pantokrator's trust making the Dwarves, but was forgiven and not punished for his deeds. Now that the Pantokrator is gone, the Valar Smith can claim dominion over all the earth and not simply the ores in the ground.
+#spr1 "images/Valar/aule_1.tga"
+#spr2 "images/Valar/aule_2.tga"
 #pathcost 70
 #startdom 3
 #homerealm 2
