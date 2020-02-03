@@ -1241,7 +1241,42 @@
 #spellsinger
 #end
 #newmonster 3566
-#name "Vala
+#name "Vala of Stars"
+#fixedname "Varda"
+#descr "The Vala of Stars is a spirit of divine heritage from the dawn of time. She was given dominion over light, and it was she that set the stars in the sky above. She was hated and feared by the Great Adversary, and strove ever against him. Now that the Pantokrator has vanished, the Vala of Stars will ascend to the heavens that she designed and bring light upon the world below."
+#pathcost 80
+#startdom 3
+#homerealm 2
+#gcost 10000
+#hp 90
+#str 23
+#att 11
+#def 11
+#prec 10
+#prot 3
+#size 6
+#mr 16
+#mor 30
+#enc 3
+#mapmove 26
+#ap 30
+#eyes 2
+#weapon "Fist"|92
+#humanoid
+#female
+#magicbeing
+#startage 1000
+#maxage 3000
+#ethereal
+#awe 3
+#spiritsight
+#patrolbonus 15
+#goodleader
+#okmagicleader
+#magicskill 4 3
+#astralrange 2
+#spellsinger
+#end
 
 #newsite 1504
 #name "Telchar's Smithy"
