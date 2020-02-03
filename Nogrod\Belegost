@@ -813,7 +813,7 @@
 #mountainsurvival
 #maxage 300
 #startheroab 50 
-#firres 20
+#firres 25
 #awe 1
 #reinvigoration 4
 #darkvision 100
@@ -867,7 +867,7 @@
 #mountainsurvival
 #startage 150
 #maxage 250
-#fireres 30
+#fireres 20
 #darkvision 50
 #poorleader
 #reinvigoration 1
@@ -912,8 +912,8 @@
 #startage 110
 #maxage 230
 #addrandomage 20
-#fireres 30
-#reinvigoration 3
+#fireres 20
+#reinvigoration 4
 #darkvision 50
 #ambidexterous 2
 #resources 5
@@ -953,8 +953,8 @@
 #startage 110
 #maxage 230
 #addrandomage 20
-#fireres 30
-#reinvigoration 4
+#fireres 20
+#reinvigoration 5
 #darkvision 50
 #resources 10
 #gold 10
@@ -993,11 +993,10 @@
 #fireres 5
 #pierceres
 #slashres
-#sppiritsight
+#spiritsight
 #poorleader
 #magicskill 3 2
 #mastersmith 1
-#formationfighter -3
 #end
 #newmonster 3561
 #name "Eldest Father"
