@@ -201,7 +201,7 @@
 #secondaryeffect "Break Armor"|174
 #end
 #newweapon 831
-#name "Narsil
+#name "Narsil"
 #copyweapon "Blacksteel Sword"|691
 #end
 
