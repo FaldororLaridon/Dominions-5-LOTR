@@ -645,8 +645,6 @@
 #magicskill 3 2
 #magicskill 0 2
 #magicskill 8 1
-#custommagicskill 3200 100
-#custommagicskill 3200 20
 #masterrit 1
 #researchbonus -6
 #fixforgebonus 2
@@ -734,8 +732,8 @@
 #poorleader
 #magicskill 3 3
 #magicskill 0 2
-#custommagicskill 3200 100
-#custommagicskill 3200 50
+#custommagic 3200 100
+#custommagic 3200 50
 #researchbonus -8
 #masterrit 1
 #fixforgebonus 3
@@ -785,8 +783,8 @@
 #goodleader 
 #magicskill 3 2
 #magicskill 0 1
-#magicskill 4 2
-#custommagicskill 3200 100
+#magicskill 4 1
+#custommagic 3200 100
 #masterrit 1
 #researchbonus -4
 #fixforgebonus 2
@@ -842,9 +840,7 @@
 #warning 2
 #magicskill 3 4
 #magicskill 8 2
-#custommagicskill 3200 100
-#custommagicskill 3200 100
-#custommagicskill 3200 100
+#custommagic 3200 100
 #masterrit 1
 #forgebonus 20
 #mastersmith 2
@@ -1452,12 +1448,22 @@ Buildings: Advanced Forts"
 #mainpath 3
 #mainlevel 7
 #type 1
-#descr "The mate of Angrist, Narsil."
+#descr "The mate of Angrist, Narsil. The bearer of this deadly weapon will be filled with courage, as will those who follow him."
 #weapon "Narsil"|831
 #inspirational 1
 #morale 3
 #fireres 10
 #end
 #newitem 
-#name "Nauglamir
+#name "Nauglamir"
+#constlevel 8
+#mainpath 3
+#mainlevel 7
+#type 8
+#desc "The greatest work of the Dwarves, the Nauglamir is a necklace studded with many fair gems. Just wearing it confers power, awe and majesty upon the bearer."
+#pen 2
+#awe 2
+#inspirational 2
+#end
+
 
