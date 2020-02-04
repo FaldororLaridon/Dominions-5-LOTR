@@ -200,6 +200,10 @@
 #copyweapon "Mastercraft Dagger"|823
 #secondaryeffect "Break Armor"|174
 #end
+#newweapon 831
+#name "Narsil
+#copyweapon "Blacksteel Sword"|691
+#end
 
 #newarmor 306
 #name "Dwarf-Mail Cuirass"
@@ -1299,7 +1303,7 @@
 #name "Telchar's Smithy"
 #path 3
 #loc 16384
-#gems 3 2
+#gems 3 1
 #gems 0 2
 #level 0
 #rarity 5
@@ -1379,7 +1383,13 @@ Buildings: Advanced Forts"
 #addgod "Eldest Dwarf"
 #addgod "Svartalf Mastersmith"
 #addgod "Neter of Crafts"
+#addgod "Valar Smith"
 #homerealm 10
+#cheapgod40 "Eldest Father"
+#cheapgod40 "Valar Smith"
+#cheapgod20 "Eldest Dwarf"
+#cheapgod20 "Eldest Cyclops"
+#cheapgod20 "Svartalf Mastersmith"
 #earthblessbonus 2
 #fortera 2
 #labcost 400
@@ -1405,9 +1415,9 @@ Buildings: Advanced Forts"
 #name "Dragonhelm of Dor-lomin"
 #constlevel 8
 #mainpath 3
-#mainlevel 5
+#mainlevel 8
 #secondarypath 0
-#secondarylevel 5
+#secondarylevel 8
 #type 6
 #descr "The Dragon-Helm was made in response to the emergence of the First Dragon. It is a symbol of defiance against that hated race, and grants the wearer the strength to stand up to such mighty creatures."
 #armor "Dwarf Full Helm"|307
@@ -1420,7 +1430,7 @@ Buildings: Advanced Forts"
 #name "Wyrmslayer Axe"
 #constlevel 6
 #mainpath 3
-#mainlevel 4
+#mainlevel 5
 #type 2
 #descr "Wielded by the legendary Wyrmslayers, the Wyrmslayer axe is a masterwork of construction from a race that excels in crafts. These axes have been tempered by Forge Lords, and can sweep through a line of orc-necks in a single swing."
 #weapon "Superior Wyrmslayer Axe"|829
@@ -1430,9 +1440,24 @@ Buildings: Advanced Forts"
 #name "Angrist"
 #constlevel 8
 #mainpath 3
-#mainlevel 6
+#mainlevel 7
 #type 1
 #descr "Angrist is a keen, deadly knife so sharp it can cut through steel like butter. Deadly against armoured foes, it will not only cleave steel, but shatter it in it's wake."
 #weapon "Angrist"|830
 #restricted 121|"Nogrod and Belegost"
+#end
+#newitem
+#name "Narsil"
+#constlevel 8
+#mainpath 3
+#mainlevel 7
+#type 1
+#descr "The mate of Angrist, Narsil."
+#weapon "Narsil"|831
+#inspirational 1
+#morale 3
+#fireres 10
+#end
+#newitem 
+#name "Nauglamir
 
