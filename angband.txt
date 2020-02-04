@@ -448,9 +448,9 @@
 #startage 100
 #maxage 1000
 #darkvision 100
-#corpseeater 5
+#corpseeater 2
 #hpoverslow 100
-#deadhp 2
+#deadhp 1
 #coldres 5
 #fear 5
 #darkvision 100
@@ -1079,7 +1079,7 @@
 #startage 1200
 #maxage 3000
 #corpseeater 5
-#deadhp 5
+#deadhp 2
 #coldres 10
 #fear 10
 #darkvision 100
@@ -1198,7 +1198,7 @@
 #startage 300
 #maxage 1000
 #darkvision 100
-#corpseeater 1
+#corpseeater 2
 #deadhp 3
 #coldres 5
 #hpoverflow
