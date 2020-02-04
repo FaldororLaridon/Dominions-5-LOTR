@@ -134,17 +134,27 @@
 #unrepel
 #end
 #newweapon 811
-#copyweapon "Enslave Mind"
-#name "Voice of Saruman"
+#copywesapon 255
+#name "Fear of Saruman"
 #range 100
-#explspr 10001
-#aoe 3
+#dmg 5
+#aoe 5
+#friendlyimmune
 #end
 
 #newweapon 812
 #copyweapon "Claw"
 #name "Troll Claw"
 #aoe 1
+#end
+
+#newweapon 813
+#copyweapon "Enslave Mind"
+#name "Voice of Saruman"
+#range 100
+#explspr 10001
+#aoe 3
+#secondaryeffectalways 811
 #end
 
 #newarmor 300
