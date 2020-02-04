@@ -415,9 +415,9 @@
 #stealthy 10
 #startage 22
 #maxage 1000
-#corpseeater 2
+#corpseeater 1
 #hpoverslow 100
-#deadhp 2
+#deadhp 1
 #falsearmy 1
 #coldres 5
 #darkvision 100
