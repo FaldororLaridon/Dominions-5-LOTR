@@ -661,8 +661,8 @@
 #rpcost 2
 #hp 15
 #str 12
-#att 9
-#def 13
+#att 12
+#def 9
 #prec 10
 #prot 0
 #size 1
@@ -1400,6 +1400,7 @@ Buildings: Advanced Forts"
 #mainpath 3
 #mainlevel 4
 #type 5
+#spr "images/NogrodBelegost/galvornarmour.tga"
 #descr "Created by the Elf-smith Eol, Galvorn is a supple and and deceptively strong armour. Even when thin it gives defence similar to dwarf-forged armour, while being considerably lighter."
 #armor "Galvorn Armor"|311
 #restricted 121|"Nogrod and Belegost"
@@ -1424,6 +1425,7 @@ Buildings: Advanced Forts"
 #newitem
 #name "Wyrmslayer Axe"
 #constlevel 6
+#spr "images/NogrodBelegost/wyrmslayeraxe.tga"
 #mainpath 3
 #mainlevel 5
 #type 2
