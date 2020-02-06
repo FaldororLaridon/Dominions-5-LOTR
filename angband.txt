@@ -274,7 +274,7 @@
 #slave
 #nametype 161
 #chaospower 1
-#darkpower 3
+#darkpower 1
 #end
 #newmonster 3501
 #name "Angband Orc Spearman"
@@ -310,6 +310,7 @@
 #slave
 #nametype 161
 #chaospower 1
+#darkpower 1
 #end
 #newmonster 3502
 #name "Angband Orc Soldier"
@@ -342,6 +343,7 @@
 #maxage 1000
 #darkvision 100
 #chaospower 1
+#darkpower 1
 #pillagebonus 2
 #slave
 #nametype 161
@@ -381,6 +383,7 @@
 #startage 150
 #maxage 1000
 #chaospower 1
+#darkpower 1
 #darkvision 100
 #pillage bonus 3
 #nametype 161
@@ -417,7 +420,7 @@
 #maxage 1000
 #corpseeater 1
 #hpoverslow 100
-#deadhp 1
+#deadhp 2
 #falsearmy 1
 #coldres 5
 #darkvision 100
@@ -631,6 +634,7 @@
 #startage 150
 #maxage 1000
 #chaospower 1
+#darkpower 1
 #darkvision 100
 #nametype 161
 #poorleader 
@@ -872,13 +876,14 @@
 #pillagebonus 2
 #slave
 #nametype 161
-#darkpower 3
+#darkpower 1
 #chaospower 1
 #poorleader
 #magicskill 5 1
 #custommagic 20608 100
 #researchbonus -3
 #end
+
 
 #newmonster 3518
 #name "Easterling Shaman"
