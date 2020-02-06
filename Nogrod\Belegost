@@ -522,7 +522,6 @@
 #nametypes 104
 #formationfighter -3
 #supplybonus -1
-#reclimit 2
 #end
 #newmonster 3550
 #name "Dwarf Captain"
@@ -1464,6 +1463,23 @@ Buildings: Advanced Forts"
 #pen 2
 #awe 2
 #inspirational 2
+#end
+
+#newspell
+#name "Raise Castle"
+#descr "Through the power of their craft, the dwarves can raise a fully constructed castle. Since it is a dwarven stronghold, it is not structurally designed to be built underwater."
+#school 1
+#researchlevel 7
+#path 0 3
+#pathlevel 3 5
+#fatiguecost 6000
+#effect 10063 
+#damage 4
+#nreff 1
+#provrange 0
+#nogeosrc 2052
+#onlyowndst 1
+#restricted "Nogrod and Belegost"
 #end
 
 
