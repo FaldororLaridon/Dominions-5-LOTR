@@ -1674,7 +1674,7 @@
 #end
 
 #newmonster 3537
-#name "Balrog Skirmisher"
+#name "Balrog /"
 #descr "The Valaraukar, Balrogs, were the greatest of the servants of the first Dark Lord, and fought at his side against the Pantokrator. When he was defeated, they fled or hid in deep caverns beneath Angband and the ruins of Utumno. Now that a new god is awakening, they begin to gather once more to Angband, ready to lead the armies of Angband against the world."
 #speciallook 3
 #spr1 "images/3537_1.tga"
@@ -2092,7 +2092,7 @@ Buildings: Primitive. Starts with a powerful citadel."
 #pathlevel 0 4
 #path 1 5
 #pathlevel 1 2
-#fatiguecost 2500
+#fatiguecost 2100
 #effect 10001
 #damage 3537
 #nreff 1
