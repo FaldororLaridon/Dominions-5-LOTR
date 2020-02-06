@@ -1391,7 +1391,7 @@ Buildings: Advanced Forts"
 #templecost 600
 #templepic 31
 #templegems 3
-#homefort 4
+#homefort 3
 #end
 
 #newitem
