@@ -1,1 +1,22 @@
-
+#modname "Lord of the Rings Nation Pack"
+#description "This is the description of the mod! WOW!"
+#icon "images/onering.tga"
+#version 0.00
+#newweapon 822
+#name "Elven Bill"
+#copyweapon "Glaive"|308
+#magic
+#armorpiercing
+#end
+#newweapon 823
+#name "Elven Axe"
+#copyweapon "Axe"|17
+#magic
+#end
+#newweapon 834
+#name "Elven Blade"
+#copyweapon "Broad Sword"|8
+#magic
+#end
+#newweapon 823
+#name 
