@@ -599,7 +599,7 @@
 #nametypes 104
 #poorleader
 #magicskill 3 1
-#magicskill 0 1
+#custommagic 1152 25
 #researchbonus -4
 #fixforgebonus 1
 #formationfighter -3
@@ -641,10 +641,10 @@
 #darkvision 50
 #nametypes 104
 #poorleader
-#magicskill 3 2
-#magicskill 0 2
+#magicskill 3 1
+#magicskill 0 1
 #magicskill 8 1
-#masterrit 1
+#custommagic 1152 50
 #researchbonus -6
 #fixforgebonus 2
 #mastersmith 1
@@ -729,12 +729,11 @@
 #darkvision 50
 #nametypes 104
 #poorleader
-#magicskill 3 3
-#magicskill 0 2
+#magicskill 3 2
+#magicskill 0 1
 #custommagic 3200 100
 #custommagic 3200 50
 #researchbonus -8
-#masterrit 1
 #fixforgebonus 3
 #mastersmith 1
 #formationfighter -3
@@ -780,11 +779,10 @@
 #resources 10
 #nametypes 104
 #goodleader 
-#magicskill 3 2
+#magicskill 3 1
 #magicskill 0 1
 #magicskill 4 1
 #custommagic 3200 100
-#masterrit 1
 #researchbonus -4
 #fixforgebonus 2
 #formationfighter -3
@@ -837,10 +835,9 @@
 #expertleader
 #inspirational 1
 #warning 2
-#magicskill 3 4
+#magicskill 3 3
 #magicskill 8 2
 #custommagic 3200 100
-#masterrit 1
 #forgebonus 20
 #mastersmith 2
 #formationfighter -3
@@ -884,7 +881,6 @@
 #magicskill 3 3
 #magicskill 0 3
 #magicskill 4 2
-#masterrit 1
 #researchbonus -8
 #forgebonus 20
 #mastersmith 3
