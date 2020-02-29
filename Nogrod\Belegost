@@ -1057,6 +1057,8 @@
 #name "Valar of the Hunt"
 #fixedname "Orome"
 #descr "The Valar of the Hunt was one who loved the woods, the forests and the thrill of the chase and the hunt. Under the Pantokrator's reign, he hunted monsters and evil beings at his master's behest, and became a champion of the Pantokrator. Now that the Throne is empty, and monsters and demons rising again, he will take the throne so that these creatures can be kept in check. The sound of his horn strikes fear into the hearts of enemies, and emboldens those who follow him to ever greater deeds."
+#spr1 "images/Valar/orome_1.tga"
+#spr2 "images/Valar/orome_2.tga"
 #pathcost 80
 #startdom 3
 #homerealm 1
