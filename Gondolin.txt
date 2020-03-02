@@ -3,18 +3,18 @@
 #icon "images/onering.tga"
 #version 0.00
 #newweapon 822
-#name "Elven Bill"
+#name "Elvish Bill"
 #copyweapon "Glaive"|308
 #magic
 #armorpiercing
 #end
 #newweapon 823
-#name "Elven Axe"
+#name "Elvish Axe"
 #copyweapon "Axe"|17
 #magic
 #end
 #newweapon 824
-#name "Elven Blade"
+#name "Elvish Blade"
 #copyweapon "Broad Sword"|8
 #magic
 #end
@@ -28,3 +28,97 @@
 #copyweapon "Scimitar"|746
 #magic
 #end
+#newweapon 826
+#name "Gondothlim Longbow"
+#dmg 9
+#nratt 1
+#def 0
+#twohanded
+#sound 14
+#range 70
+#rcost 4
+#dt_normal
+#pierce
+#bowstr
+#end
+#newarmor 313
+#name "Elf-Silver Hauberk"
+#copyarmor "Silver Hauberk"|48
+#rcost 17
+#end
+#newarmor 314
+#name "Elf-Silver Cuirass"
+#type 5
+#prot 11
+#def -1
+#enc 0
+#rcost 13
+#magic
+#end
+#newarmor 312
+#name "Galvorn Armor"
+#type 5
+#prot 18
+#def 0
+#enc 1
+#magicarmor
+#end
+#newmonster 3567
+#name "Soldier of the Tree"
+#descr "The most numerous of the Houses of Gondolin is the House of the Tree. They are not the wealthiest, nor most prestigious of the the houses, and make up much of what would be called 'the common folk' in a different land. The soldiers of the Tree are less well-armed and trained than most of the Gondothlim, but they are still Noldor, and thus a force to be reckoned with. They wield heavy iron-studded clubs into battle. As with all the Gondothlim, they can traverse through mountains with ease."
+#rcost 2
+#gcost 20
+#rpcost 15
+#hp 14
+#str 13
+#att 11
+#def 12
+#prec 12
+#prot 0
+#sixe 2
+#mr 13
+#mor 11
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Club"|252
+#armor "Elf-Silver Cuirass"|314
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 3568
+#name "Gondothlim Slinger"
+#descr "The most numerous of the Houses of Gondolin is the House of the Tree. They are not the wealthiest, nor most prestigious of the the houses, and make up much of what would be called 'the common folk' in a different land. The soldiers of the Tree are less well-armed and trained than most of the Gondothlim, but they are still Noldor, and thus a force to be reckoned with. As with all Gondothlim, they can traverse mountains with ease."
+#rcost 2
+#gcost 15
+#rpcost 13
+#hp 14
+#str 13
+#att 11
+#def 12
+#prec 12
+#prot 0
+#sixe 2
+#mr 13
+#mor 11
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Sling"|22
+#armor"Elf-Silver Cuirass"|314
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+
