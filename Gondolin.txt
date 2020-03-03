@@ -68,14 +68,14 @@
 #descr "The most numerous of the Houses of Gondolin is the House of the Tree. They are not the wealthiest, nor most prestigious of the the houses, and make up much of what would be called 'the common folk' in a different land. The soldiers of the Tree are less well-armed and trained than most of the Gondothlim, but they are still Noldor, and thus a force to be reckoned with. They wield heavy iron-studded clubs into battle. As with all the Gondothlim, they can traverse through mountains with ease."
 #rcost 2
 #gcost 20
-#rpcost 15
+#rpcost 12
 #hp 14
 #str 13
 #att 11
 #def 12
 #prec 12
 #prot 0
-#sixe 2
+#size 2
 #mr 13
 #mor 11
 #mapmove 16
@@ -96,21 +96,22 @@
 #name "Gondothlim Slinger"
 #descr "The most numerous of the Houses of Gondolin is the House of the Tree. They are not the wealthiest, nor most prestigious of the the houses, and make up much of what would be called 'the common folk' in a different land. The soldiers of the Tree are less well-armed and trained than most of the Gondothlim, but they are still Noldor, and thus a force to be reckoned with. As with all Gondothlim, they can traverse mountains with ease."
 #rcost 2
-#gcost 15
-#rpcost 13
+#gcost 20
+#rpcost 12
 #hp 14
 #str 13
 #att 11
 #def 12
 #prec 12
 #prot 0
-#sixe 2
+#size 2
 #mr 13
 #mor 11
 #mapmove 16
 #ap 14
 #eyes 2
 #weapon "Sling"|22
+#weapon "Elvish Dagger"
 #armor"Elf-Silver Cuirass"|314
 #humanoid
 #mountainsurvival
@@ -121,4 +122,38 @@
 #patrolbonus 1
 #nametypes 100
 #end
-
+#newmonster 3569
+#name "Soldier of the Mole"
+#descr "The folk of the Mole consist mostly of miners that delve deep into the mountains around Gondolin, and the soldiers that guard them or keep a watchful eye out for enemies. They are grimmer than most of the Noldor, and do not inspire the same awe in lesser beings as most of their kind. Their Lord Maeglin has equipped them with Galvorn armour, a secret passed down from his father that he now shares only with is own folk.
+#rcost 2
+#gcost 25
+#rpcost 15
+#hp 14
+#str 13
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Axe"|823
+#armor "Galvorn Armor"|312
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseasesres 100
+#pierceres
+#slashres
+#awe 1
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 3570
+#name "Soldier of the Swallow"
+#descr "The House 
