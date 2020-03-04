@@ -1151,6 +1151,10 @@
 #spr1 "images/Valar/mandos_1.tga"
 #spr2 "images/Valar/mandos_2.tga"
 #descr "The Valar Doomsman was given great power under the Pantokrator. All thing that are fated to be are known to him, except those that are governed by free will. He also watches over the Houses of the Dead in Valinor, until the remaking of the world. With the disappearance of the Pantokrator, his visions have become troubled, and are less sure than he once was. He still grasps for his former Lord's grand plan however, and will ascend to the heavens in the hope that all will be made clear once more."
+#pathcost 70
+#startdom 3
+#homerealm 2
+#gcost 10000
 #hp 90
 #str 25
 #att 11
