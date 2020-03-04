@@ -32,6 +32,7 @@
 #name "Gondothlim Longbow"
 #dmg 9
 #nratt 1
+#att 2
 #def 0
 #twohanded
 #sound 14
@@ -41,13 +42,26 @@
 #pierce
 #bowstr
 #end
+#newweapon 827
+#name "Hammer of Wrath"
+#dmg 6
+#nratt 1
+#att 0
+#def 0
+#len 1
+#sound 10
+#rcost 2
+#dt_demon
+#blunt
+#magic
+#end
 #newarmor 313
-#name "Elf-Silver Hauberk"
+#name "Elf-Mail Hauberk"
 #copyarmor "Silver Hauberk"|48
 #rcost 17
 #end
 #newarmor 314
-#name "Elf-Silver Cuirass"
+#name "Elf-Mail Cuirass"
 #type 5
 #prot 11
 #def -1
@@ -82,7 +96,7 @@
 #ap 14
 #eyes 2
 #weapon "Club"|252
-#armor "Elf-Silver Cuirass"|314
+#armor "Elf-Mail Cuirass"|314
 #humanoid
 #mountainsurvival
 #maxage 3000
@@ -112,7 +126,7 @@
 #eyes 2
 #weapon "Sling"|22
 #weapon "Elvish Dagger"
-#armor"Elf-Silver Cuirass"|314
+#armor"Elf-Mail Cuirass"|314
 #humanoid
 #mountainsurvival
 #maxage 3000
@@ -156,4 +170,192 @@
 #end
 #newmonster 3570
 #name "Soldier of the Swallow"
-#descr "The House 
+#descr "The House of the Swallow is the second most numerous of the Houses of Gondolin. It boasts some of the most skilled archers of an already keen-eyed and fell-handed people. Wielding the great longbows of their own design, they can outrange any other archers who would dare to challange them.
+#rcost 2
+#gcost 25
+#rpcost 13
+#hp 14
+#str 13
+#att 11
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 13
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Gondothlim Longbow"|826
+#weapon "Elvish Dagger"|825
+#armor "Elf-Mail Cuirass"|314
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 3571
+#name "Soldier of the Heavenly Arch"
+#descr "The Heavenly Arch is the wealthiest of all the Houses of Gondolin. It's people delight in gold, silver and gems, and make many fair things that they proudly display in battle. They boast nearly as many skilled archers as the House of the Swallow, though their own equipment is far more extravagant. They are truly a sight to behold on the battlefield.
+#rcost 2
+#gcost 55
+#rpcost 20
+#hp 14
+#str 13
+#att 12
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Gondothlim Longbow"|826
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Golden Shield"|155
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 3
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 3573
+#name "Soldier of the Fountain"
+#descr: "One of the most prestigious houses of Gondolin, the House of the Fountain traditionally guards the fountains that grace the city of Gondolin, particularly those of the King. Noble and wise, they take great delight in silver and gems, but are less wealthy than the House of the Heavenly Arch. They often go into battle to the music of flutes, inspiring them and increasing their morale."
+#rcost 2
+#gcost 30
+#rpcost 18
+#hp 14
+#str 13
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 3574
+#name "Hammer of Wrath"
+#descr "The House of the Hammer of Wrath is comprised mostly of smiths. Many among them are former slaves who escaped from Angband and found their way to the Hidden City. They are armed with maces specifically designed to slay the Balrogs, who they hate above all others. In times of war, they comprise the shock troops of the city, and are renowned for their strength and their unwavering will."
+#rcost 2
+#gcost 30
+#rpcost 20
+#hp 14
+#str 15
+#att 13
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Hammer of Wrath"|827
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Kite Shield"|3
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#fireres 5
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametype 100
+#end
+#newmonster 3575
+#name "Royal Guard"
+#descr "The Royal Guard are the elite bodyguards of the House of the King. They rarely venture out from the city, as their duty is to protect their King, and to die for him if nessecary. They wield enchanted polearms, and are ever dedicated to guarding their commanders with their lives. 
+#rcost 2
+#gcost 30
+#rpcost 22
+#hp 14
+#str 3
+#att 14
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Bill"|308
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametype 100
+#formationfighter 2
+#bodyguard 2
+#end
+#newmonster 3576
+#name "Soldier of the Wing"
+#descr "The newest and smallest of the Houses, The House of the Wing was formed with the coming of the Awakening god. When an ancient prophecy was fulfilled, and the god awoke and his prophet arrived at the Hidden City, he was welcomed in. The Folk of the Wing are his closest and most trusted followersand are considered sacred by the peoples of Gondolin.
+#rcost 2
+#gcost 40
+#rpcost 22
+#hp 14
+#str 3
+#att 14
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametype 100
+#end
