@@ -55,6 +55,11 @@
 #blunt
 #magic
 #end
+#newweapon 828
+#name "Elvish Battleaxe"
+#copyweapon "Battleaxe"|18
+#magic
+#end
 #newarmor 313
 #name "Elf-Mail Hauberk"
 #copyarmor "Silver Hauberk"|48
@@ -302,7 +307,7 @@
 #gcost 30
 #rpcost 22
 #hp 14
-#str 3
+#str 13
 #att 14
 #def 14
 #prec 12
@@ -334,7 +339,7 @@
 #gcost 40
 #rpcost 22
 #hp 14
-#str 3
+#str 13
 #att 14
 #def 14
 #prec 12
@@ -345,7 +350,7 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon Elvish Blade"|824
+#weapon "Elvish Blade"|824
 #armor "Elf-Mail Hauberk"|313
 #armor "Crested Helmet"|162
 #armor "Iron Shield"|208
@@ -358,4 +363,160 @@
 #spiritsight
 #patrolbonus 1
 #nametype 100
+#end
+#newmonster 3576
+#name "Royal Standard Bearer"
+#descr "Many banners rise above the gleaming armies of the Gondothlim. The highest and most proud are those with the symbol of the king. it is a rallying cry to all Elves, and under it's shadow they sahll not break or fall.
+#rcost 2
+#gcost 30
+#rpcost 22
+#hp 14
+#str 13
+#att 14
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametype 100
+#standard 1
+#end
+#newmonster 2577
+#name "Bronze Guard"
+#descr "Guardians of the Gate of Bronze, one of the seven Gates leading to Gondolin. They are fierce warriors comprised of Sindar refugees that found their way to the hidden city. Their magical armour burns the flesh of their enemies and protects them from heat. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city.
+#rcost 1
+#gcost 15
+#rpcost 12
+#hp 13
+#str 12
+#att 12
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Battleaxe"|828
+#armor "Bronze Scale Hauberk"|136
+#armor "Bronze Cap"|135
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres
+#fireres 5
+#heat 3
+#spiritsight
+#patrolbonus 1
+#nametype 100
+#end
+#newmonster 2578
+#name "Iron Guard"
+#descr "Guards of the Gate of Iron, one of the seven gates leading to Gondolin. Unlike the guards of the Bronze Gate, these are comprised of Noldor from the city. Their armour and weapons are black, and they lack some of the gleam of awe most of the Noldor wield. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city.
+#rcost 2
+#gcost 20
+#rpcost 15
+#hp 14
+#str 13
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Half Helmet"|118
+#armor "Kite Shield"|3
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseasesres 100
+#awe 1
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 2579
+#name "Silver Guard"
+#descr "Guards of the Gate of Silver, one of the seven gates leading to Gondolin. They are skilled archers though they do not wield the great Gondothlim longbow. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city.
+#rcost 2
+#gcost 30
+#rpcost 15
+#hp 14
+#str 13
+#att 11
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 13
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Longbow"|24
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 2580
+#name "Golden Guard"
+#descr "Guards of the Gate of Gold, one of the seven gates leading to Gondolin. The Golden Guards are the most splendid of all the defenders of the realm, with magnificent gilded armour and wielding the mighty Gondothlim Longbow. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city.
+#rcost 2
+#gcost 40
+#rpcost 20
+#hp 14
+#str 13
+#att 12
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Gondothlim Longbow"|826
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Golden Shield"|155
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
 #end
