@@ -520,3 +520,35 @@
 #patrolbonus 1
 #nametypes 100
 #end
+#newmonster 2581
+#name "Gondothlim Scout"
+#descr "Few of the inhabitants of Gondolin left the borders of their little kingdom befroe the coming of the Awakening god. Still, it has always been nessecary to keep an eye on the outside world, and ensure that it doesn't get too close to them. Generally, Elves born outside the city who have made their way to Gondolin are given this task, as they have a better idea of what goes on beyond the city's walls.
+#rcost 2
+#gcost 10000
+#rpcost 1
+#hp 13
+#str 13
+#att 12
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Cuirass"|314
+#humanoid
+#mountainsurvival
+#stealthy 10
+#maxage 3000
+#diseasres 100
+#awe 2
+#spiritsight
+#patrolbonus 2
+#nametypes 100
+#noleader
+#end
+
