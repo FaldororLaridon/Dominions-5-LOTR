@@ -143,7 +143,7 @@
 #end
 #newmonster 3569
 #name "Soldier of the Mole"
-#descr "The folk of the Mole consist mostly of miners that delve deep into the mountains around Gondolin, and the soldiers that guard them or keep a watchful eye out for enemies. They are grimmer than most of the Noldor, and do not inspire the same awe in lesser beings as most of their kind. Their Lord Maeglin has equipped them with Galvorn armour, a secret passed down from his father that he now shares only with is own folk.
+#descr "The folk of the Mole consist mostly of miners that delve deep into the mountains around Gondolin, and the soldiers that guard them or keep a watchful eye out for enemies. They are grimmer than most of the Noldor, and do not inspire the same awe in lesser beings as most of their kind. Their Lord Maeglin has equipped them with Galvorn armour, a secret passed down from his father that he now shares only with is own folk."
 #rcost 2
 #gcost 25
 #rpcost 15
@@ -175,7 +175,7 @@
 #end
 #newmonster 3570
 #name "Soldier of the Swallow"
-#descr "The House of the Swallow is the second most numerous of the Houses of Gondolin. It boasts some of the most skilled archers of an already keen-eyed and fell-handed people. Wielding the great longbows of their own design, they can outrange any other archers who would dare to challange them.
+#descr "The House of the Swallow is the second most numerous of the Houses of Gondolin. It boasts some of the most skilled archers of an already keen-eyed and fell-handed people. Wielding the great longbows of their own design, they can outrange any other archers who would dare to challange them."
 #rcost 2
 #gcost 25
 #rpcost 13
@@ -207,7 +207,7 @@
 #end
 #newmonster 3571
 #name "Soldier of the Heavenly Arch"
-#descr "The Heavenly Arch is the wealthiest of all the Houses of Gondolin. It's people delight in gold, silver and gems, and make many fair things that they proudly display in battle. They boast nearly as many skilled archers as the House of the Swallow, though their own equipment is far more extravagant. They are truly a sight to behold on the battlefield.
+#descr "The Heavenly Arch is the wealthiest of all the Houses of Gondolin. It's people delight in gold, silver and gems, and make many fair things that they proudly display in battle. They boast nearly as many skilled archers as the House of the Swallow, though their own equipment is far more extravagant. They are truly a sight to behold on the battlefield."
 #rcost 2
 #gcost 55
 #rpcost 20
@@ -302,7 +302,7 @@
 #end
 #newmonster 3575
 #name "Royal Guard"
-#descr "The Royal Guard are the elite bodyguards of the House of the King. They rarely venture out from the city, as their duty is to protect their King, and to die for him if nessecary. They wield enchanted polearms, and are ever dedicated to guarding their commanders with their lives. 
+#descr "The Royal Guard are the elite bodyguards of the House of the King. They rarely venture out from the city, as their duty is to protect their King, and to die for him if nessecary. They wield enchanted polearms, and are ever dedicated to guarding their commanders with their lives."
 #rcost 2
 #gcost 30
 #rpcost 22
@@ -334,7 +334,7 @@
 #end
 #newmonster 3576
 #name "Soldier of the Wing"
-#descr "The newest and smallest of the Houses, The House of the Wing was formed with the coming of the Awakening god. When an ancient prophecy was fulfilled, and the god awoke and his prophet arrived at the Hidden City, he was welcomed in. The Folk of the Wing are his closest and most trusted followersand are considered sacred by the peoples of Gondolin.
+#descr "The newest and smallest of the Houses, The House of the Wing was formed with the coming of the Awakening god. When an ancient prophecy was fulfilled, and the god awoke and his prophet arrived at the Hidden City, he was welcomed in. The Folk of the Wing are his closest and most trusted followersand are considered sacred by the peoples of Gondolin."
 #rcost 2
 #gcost 40
 #rpcost 22
@@ -366,7 +366,7 @@
 #end
 #newmonster 3576
 #name "Royal Standard Bearer"
-#descr "Many banners rise above the gleaming armies of the Gondothlim. The highest and most proud are those with the symbol of the king. it is a rallying cry to all Elves, and under it's shadow they sahll not break or fall.
+#descr "Many banners rise above the gleaming armies of the Gondothlim. The highest and most proud are those with the symbol of the king. it is a rallying cry to all Elves, and under it's shadow they sahll not break or fall."
 #rcost 2
 #gcost 30
 #rpcost 22
@@ -398,7 +398,7 @@
 #end
 #newmonster 2577
 #name "Bronze Guard"
-#descr "Guardians of the Gate of Bronze, one of the seven Gates leading to Gondolin. They are fierce warriors comprised of Sindar refugees that found their way to the hidden city. Their magical armour burns the flesh of their enemies and protects them from heat. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city.
+#descr "Guardians of the Gate of Bronze, one of the seven Gates leading to Gondolin. They are fierce warriors comprised of Sindar refugees that found their way to the hidden city. Their magical armour burns the flesh of their enemies and protects them from heat. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city."
 #rcost 1
 #gcost 15
 #rpcost 12
@@ -429,7 +429,7 @@
 #end
 #newmonster 2578
 #name "Iron Guard"
-#descr "Guards of the Gate of Iron, one of the seven gates leading to Gondolin. Unlike the guards of the Bronze Gate, these are comprised of Noldor from the city. Their armour and weapons are black, and they lack some of the gleam of awe most of the Noldor wield. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city.
+#descr "Guards of the Gate of Iron, one of the seven gates leading to Gondolin. Unlike the guards of the Bronze Gate, these are comprised of Noldor from the city. Their armour and weapons are black, and they lack some of the gleam of awe most of the Noldor wield. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city."
 #rcost 2
 #gcost 20
 #rpcost 15
@@ -460,7 +460,7 @@
 #end
 #newmonster 2579
 #name "Silver Guard"
-#descr "Guards of the Gate of Silver, one of the seven gates leading to Gondolin. They are skilled archers though they do not wield the great Gondothlim longbow. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city.
+#descr "Guards of the Gate of Silver, one of the seven gates leading to Gondolin. They are skilled archers though they do not wield the great Gondothlim longbow. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city."
 #rcost 2
 #gcost 30
 #rpcost 15
@@ -490,7 +490,7 @@
 #end
 #newmonster 2580
 #name "Golden Guard"
-#descr "Guards of the Gate of Gold, one of the seven gates leading to Gondolin. The Golden Guards are the most splendid of all the defenders of the realm, with magnificent gilded armour and wielding the mighty Gondothlim Longbow. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city.
+#descr "Guards of the Gate of Gold, one of the seven gates leading to Gondolin. The Golden Guards are the most splendid of all the defenders of the realm, with magnificent gilded armour and wielding the mighty Gondothlim Longbow. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city."
 #rcost 2
 #gcost 40
 #rpcost 20
@@ -522,7 +522,7 @@
 #end
 #newmonster 2581
 #name "Gondothlim Scout"
-#descr "Few of the inhabitants of Gondolin left the borders of their little kingdom befroe the coming of the Awakening god. Still, it has always been nessecary to keep an eye on the outside world, and ensure that it doesn't get too close to them. Generally, Elves born outside the city who have made their way to Gondolin are given this task, as they have a better idea of what goes on beyond the city's walls.
+#descr "Few of the inhabitants of Gondolin left the borders of their little kingdom befroe the coming of the Awakening god. Still, it has always been nessecary to keep an eye on the outside world, and ensure that it doesn't get too close to them. Generally, Elves born outside the city who have made their way to Gondolin are given this task, as they have a better idea of what goes on beyond the city's walls."
 #rcost 2
 #gcost 10000
 #rpcost 1
@@ -551,4 +551,198 @@
 #nametypes 100
 #noleader
 #end
-
+#newmonster 2582
+#name "Gondothlim Guard Captain"
+#descr "In the days before the Awakening God and the fulfilment of the Prophecy, guarding the seven gates of the city was a position of high honour in Gondolin. Even now, the Gate Guards are held in respect, if not honour. Many still remain at their ancient posts, but others have gone out into the world to protect the lands of the expanding nation."
+#rcost 2
+#gcost 10000
+#rpcost 1
+#hp 13
+#str 13
+#att 12
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 13
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseasres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#okcommander
+#end
+#newmonster 2583
+#name "Gondothlim Lord"
+#descr "Gondolin's many noble Houses sport many powerful, ancient and noble leaders. there are many of these lords, and as the Ascension Wars loom, many of them are eager to be at front of the war, to win glory for their Houses or perhaps even create new ones of their own. Gondothlim Lords are cunning and fell-handed, and  are excellent commanders."
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#att 13
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#mountainsurvival
+#maxage 3000
+#autohealer 1
+#diseasres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#goodleader
+#magicskill 8 1
+#magicskill 4 2
+#magicskill 3 1
+#custommagic 3072 50
+#custommagic 3072 10
+#spellsinger
+#end
+#newmonster 2584
+#name "Gondothlim Smith"
+#descr "The Noldor that make up the majority of Gondolin's population have ever been skilled with tools and crafts. Long ago, they invented the art of creating gems from the earth itself. Few still posess this ability, and the smiths of Gondolin are held in reverence as masters who have risen above their peers in their craft. They rarely travel with the armies, preferring instead to remain in their homes, seeking more knowledge and skill."
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#att 11
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Dagger"|825
+#armor "Robes"|158
+#humanoid
+#holy
+#mountainsurvival
+#maxage 3000
+#diseasres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#poorleader
+#magicskill 8 1
+#magicskill 4 2
+#magicskill 3 2
+#custommagic 3072 100
+#gemprod 4 1
+#fixforgebonus 3
+#spellsinger
+#end
+#newmonster 2585
+#name "Gondothlim Seer"
+#descr "There are some among the Noldor who are blessed with glimpses of the future, and insight into things yet to come. Such youths are highly honoured, and taught how to hone their skills among the Seers, that their visions might be better interpreted for the good of their nation. The Seers are revered by their fellow Noldor, but they are not very good at leading armies."
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#att 11
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Dagger"|825
+#armor "Robes"|158
+#humanoid
+#holy
+#mountainsurvival
+#maxage 3000
+#diseasres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nobadevents 20
+#nametypes 100
+#poorleader
+#magicskill 8 2
+#magicskill 4 3
+#spellsinger 
+#end
+#newmonster 2586
+#name "Ancient Noldor"
+#descr "The Noldor do not suffer from disease or the passing of time. If they are not slain, they can go on indefinately. The Ancient Noldor is a revered Lord among Lords, who still remembers Valinor before the great Exile. They are wise and powerful even among the Noldor, and remember all to well the bitter cold of Helcaraxe where many of their people died because of the treachery of Feanor. They do not seek out battle, but when roused they can turn a broken regiment into a sword that strikes deep into the heart of their enemy."
+#slowrec
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 15
+#str 14
+#att 14
+#def 14
+#prec 13
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#mountainsurvival
+#snow
+#maxage 3000
+#autohealer 2
+#diseasres 100
+#coldres 5
+#awe 2
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#expertleader
+#magicskill 8 2
+#magicskill 4 2
+#magicskill 3 3
+#custommagic 3072 100
+#spellsinger 
+#end
