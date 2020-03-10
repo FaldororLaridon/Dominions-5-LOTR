@@ -203,6 +203,7 @@
 #newweapon 831
 #name "Narsil"
 #copyweapon "Blacksteel Sword"|691
+#twohanded
 #end
 
 #newarmor 306
