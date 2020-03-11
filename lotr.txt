@@ -1,7 +1,7 @@
 #modname "Lord of the Rings Nation Pack"
-#description "This is the description of the mod! WOW!"
+#description "This is a mod that seeks to capture Tolkien's vision of Middle-Earth -- but in Dominions!"
 #icon "images/onering.tga"
-#version 0.00
+#version 0.20
 #newweapon 800
 #copyweapon "Falchion"|10
 #name "Scimitar"
@@ -1660,7 +1660,7 @@
 #makemonsters3 "Great Spider"|884
 #poorleader
 #magicskill 5 3
-#gemprod 4 2
+#gemprod 5 2
 #researchbonus -8
 #end
 
