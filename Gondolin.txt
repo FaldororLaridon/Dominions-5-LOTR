@@ -308,7 +308,7 @@
 #mountainsurvival
 #maxage 3000
 #diseaseres 100
-#fireres 5
+#fireres 10
 #awe 2
 #spiritsight
 #patrolbonus 1
@@ -896,9 +896,147 @@
 #awe 3
 #spiritsight
 #patrolbonus 1
-#nametypes 100
+#magicskill 8 1
+#magicskill 4 2
+#spellsinger
 #end
 #newmonster 2591
 #name "Lord of the Fountain"
 #fixedname "Ecthelion"
-#descr "
+#descr "Ecthelion is one of the Ancient Lords who remembers Valinor before the Exile. He traveled with Fingon over the Helcaraxe, and is one of the greatest Lords of Gondolin. He was one of the ones entrusted with the King's sister's protection on her ill-fated journey beyond the borders of Gondolin. He is an old friend of the King, and his voice holds much weight in Gondolin. He delights in music, and he is renowned as the greatest musician in the city."
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 15
+#str 14
+#att 14
+#def 14
+#prec 13
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#mountainsurvival
+#snow
+#startage 1200
+#maxage 3000
+#autohealer 2
+#diseasres 100
+#coldres 5
+#awe 2
+#spiritsight
+#patrolbonus 1
+#expertleader
+#inspirational 1
+#magicskill 8 1
+#magicskill 4 2
+#magicskill 3 1
+#magicskill 2 1
+#spellsinger
+#end
+#newmonster 2592
+#name "Lord of the Hammer of Wrath"
+#fixedname "Rog"
+#descr "Rog is the strongest of the Noldor of Gondolin. He is also the greatest of the craftsmen of that city, and in times of peace he made many wondrous and fair things. He was never enslaved in Angband, though many of his people were, but he holds their same unflinching hatred for the Balrogs. It was he who designed their maces, created to be the bane of all demons."
+#hp 15
+#str 17
+#att 13
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 16
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Hammer of Wrath"|827
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Kite Shield"|3
+#humanoid
+#holy
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#fireres 10
+#awe 2
+#spiritsight
+#patrolbonus 1
+#expertleader
+#inspirational 1
+#magicskill 0 3
+#magicskill 3 2
+#magicskill 4 1
+#mastersmith 1
+#spellsinger 
+#end
+#newmonster 2593
+#name "Lord of Goldenflower"
+#fixedname "Glorfindel
+#descr "Glorfindel is another of the Ancient Lords that remembers the light of Valinor. He is a close friend of Ecthelion and Egalmoth. the seers have spoken over Glorfindel, prophecying great deeds, glory and power to him, but also great pain and suffering. Only time will tell which will come on top in the end. Until then, Glorfindel remains one of the greatest leaders and champions of the people of Gondolin"
+rcost 2
+#gcost 10000
+#rpcost 2
+#hp 16
+#str 14
+#att 14
+#def 14
+#prec 13
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#mountainsurvival
+#snow
+#startage 1200
+#maxage 3000
+#autohealer 2
+#diseasres 100
+#coldres 5
+#awe 2
+#spiritsight
+#patrolbonus 1
+#expertleader
+#inspirational
+#magicskill 8 2
+#magicskill 4 3
+#spellsinger
+#end
+#newmonster 2594
+#name "Lord of the Mole"
+#fixedname "Maeglin"
+#descr "The nephew of the King, Maeglin is the King's most trusted and well-confided Lord. The son of his sister and the rogue Sindar Elf Eol. Maeglin quickly rose high in his Uncle's ranks. The young Elf proved himself adept at anything he bent his mind to, and soon headed his own House. His people are mostly miners and smiths, and he spends much time in deep holes in the earth, searching for ore and gems. he has distinguished himself in battle, and he is the only one outside of his Father who knows how to make Galvorn armour. He wields a sword stolen from his father made from the metal of a fallen star, said to slay anyone who is wounded by it."
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#att 13
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
