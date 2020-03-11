@@ -60,6 +60,20 @@
 #copyweapon "Battleaxe"|18
 #magic
 #end
+#newweapon 829
+#name "Egalmoth's Longbow"
+#dmg 9
+#nratt 1
+#att 3
+#def 0
+#twohanded
+#sound 14
+#range 80
+#rcost 4
+#dt_normal
+#pierce
+#bowstr
+#end
 #newarmor 313
 #name "Elf-Mail Hauberk"
 #copyarmor "Silver Hauberk"|48
@@ -851,3 +865,40 @@
 #magicskill 4 3
 #spellsinger 
 #end
+#newmonster 2590
+#name "Lord of the Heavenly Arch"
+#fixedname "Egalmoth"
+#descr "Egalmoth is the wealthiest of all the lords in Gondolin, barring the King himself. He wields a mighty bow and is known to shoot farther and further than any. His gilded and shining armour strikes awe and wonder in his allies and enemies alike. He is the only one of the Elves to bear a curved sword into battle."
+#rcost 2
+#gcost 1000
+#rpcost 2
+#hp 13
+#str 13
+#att 13
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Egalmoth's Longbow"|829
+#weapon "Elvish Scimitar"|826
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Golden Shield"|155
+#humanoid
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#awe 3
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 2591
+#name "Lord of the Fountain"
+#fixedname "Ecthelion"
+#descr "
