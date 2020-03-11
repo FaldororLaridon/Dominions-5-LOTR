@@ -681,7 +681,7 @@
 #prot 0
 #size 2
 #mr 14
-#mor 15
+#mor 14
 #mapmove 16
 #ap 14
 #eyes 2
@@ -732,6 +732,7 @@
 #mountainsurvival
 #snow
 #maxage 3000
+#older 300
 #autohealer 2
 #diseasres 100
 #coldres 5
@@ -744,5 +745,109 @@
 #magicskill 4 2
 #magicskill 3 3
 #custommagic 3072 100
+#spellsinger 
+#end
+#newmonster 2587
+#name "Lord of the Tree"
+#fixedname "Galdor"
+#descr "Galdor is the Lord of the Folk of the Tree. While being the leader of one of the lesser Houses of Gondolin, he is no less brave or noble than his compatriots. In fact, his boldness in battle is well-known and respected in Gondolin, where it is said that he would only break at the fall of his city. Galdor is skilled in nature magic, and knows more about living off the land than any other of the Gondothlim."
+#rcost 2
+#gcost 30
+#rpcost 2
+#hp 13
+#str 13
+#att 13
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 17
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#maxage 3000
+#autohealer 1
+#diseasres 100
+#awe 2
+#spiritsight
+#patrolbonus 1
+#goodleader
+#magicskill 6 3
+#magicskill 4 1
+#spellsinger
+#end
+#newmonster 2588
+#name "Lord of the Swallow"
+#fixedname "Duilin"
+#descr "The Lord of some of the most skilled archers in Gondolin, Duilin is said to be able to hit a butterfly's wing from the other side of the city. Tales of his swiftness of foot and keeness of eye resound throughout the ancient city. Now he takes up his bow in service to the Awakening God."
+#rcost 2
+#gcost 30
+#rpcost 2
+#hp 13
+#str 13
+#att 13
+#def 14
+#prec 16
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 18
+#ap 18
+#eyes 2
+#weapon "Gondothlim Longbow"|826
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#humanoid
+#mountainsurvival
+#maxage 3000
+#autohealer 1
+#diseasres 100
+#awe 2
+#spiritsight
+#patrolbonus 2
+#goodleader 
+#magicskill 4 2
+#spellsinger
+#end
+#newmonster 2589
+#name "Princess of Gondolin"
+#fixedname "Idril"
+#descr "The only child of King Turgon of Gondolin. Idril is gifted with greaet foresight, and she spoke with great passion with her father when the Awakening God was revealed and the Prophecy came nigh, urging him to open the gates and listen to the Voice of the Awakening God. In time, she wedded Tuor, who was the Hero of the Prophecy. Idril is not a commander, but she is skilled in the reading of the stars and futures."
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 12
+#att 11
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Dagger"|825
+#armor "Elf-Mail Cuirass"|314
+#female
+#holy
+#mountainsurvival
+#autoheal 2
+#awe 2
+#spiritsight
+#nobadevents 25
+#noleader
+#magicskill 8 2
+#magicskill 4 3
 #spellsinger 
 #end
