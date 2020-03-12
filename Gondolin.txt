@@ -74,6 +74,21 @@
 #pierce
 #bowstr
 #end
+#newweapon 825
+#name "Meteorite Sword"
+#dmg 12
+#nratt 1
+#att 2
+#def 2
+#len 1
+#sound 8
+#dt_normal
+#slash
+#pierce
+#magic
+#armorpiercing
+#secondaryeffect "Soul Slay"|194
+#end
 #newarmor 313
 #name "Elf-Mail Hauberk"
 #copyarmor "Silver Hauberk"|48
@@ -636,7 +651,7 @@
 #magicskill 4 2
 #magicskill 3 1
 #custommagic 3072 50
-#custommagic 3072 10
+#custommagic 9728 20
 #spellsinger
 #end
 #newmonster 2584
@@ -759,6 +774,8 @@
 #magicskill 4 2
 #magicskill 3 3
 #custommagic 3072 100
+#custommagic 9728 20
+#custommagic 9728 20
 #spellsinger 
 #end
 #newmonster 2587
@@ -785,6 +802,7 @@
 #armor "Crested Helmet"|162
 #armor "Iron Shield"|208
 #humanoid
+#unique
 #mountainsurvival
 #maxage 3000
 #autohealer 1
@@ -821,6 +839,7 @@
 #armor "Elf-Mail Hauberk"|313
 #armor "Crested Helmet"|162
 #humanoid
+#unique
 #mountainsurvival
 #maxage 3000
 #autohealer 1
@@ -855,6 +874,7 @@
 #armor "Elf-Mail Cuirass"|314
 #female
 #holy
+#unique
 #mountainsurvival
 #autoheal 2
 #awe 2
@@ -890,6 +910,8 @@
 #armor "Crested Helmet"|162
 #armor "Golden Shield"|155
 #humanoid
+#holy
+#unique
 #mountainsurvival
 #maxage 3000
 #diseaseres 100
@@ -925,6 +947,7 @@
 #armor "Iron Shield"|208
 #humanoid
 #holy
+#unique
 #mountainsurvival
 #snow
 #startage 1200
@@ -965,6 +988,7 @@
 #armor "Kite Shield"|3
 #humanoid
 #holy
+#unique
 #mountainsurvival
 #maxage 3000
 #diseaseres 100
@@ -1005,6 +1029,7 @@ rcost 2
 #armor "Iron Shield"|208
 #humanoid
 #holy
+#unique
 #mountainsurvival
 #snow
 #startage 1200
@@ -1024,19 +1049,114 @@ rcost 2
 #newmonster 2594
 #name "Lord of the Mole"
 #fixedname "Maeglin"
-#descr "The nephew of the King, Maeglin is the King's most trusted and well-confided Lord. The son of his sister and the rogue Sindar Elf Eol. Maeglin quickly rose high in his Uncle's ranks. The young Elf proved himself adept at anything he bent his mind to, and soon headed his own House. His people are mostly miners and smiths, and he spends much time in deep holes in the earth, searching for ore and gems. he has distinguished himself in battle, and he is the only one outside of his Father who knows how to make Galvorn armour. He wields a sword stolen from his father made from the metal of a fallen star, said to slay anyone who is wounded by it."
+#descr "The nephew of the King, Maeglin is the King's most trusted and well-confided Lord. The son of his sister and the rogue Sindar Elf Eol. Maeglin quickly rose high in his Uncle's ranks. The young Elf proved himself adept at anything he bent his mind to, and soon headed his own House. His people are mostly miners and smiths, and he spends much time in deep holes in the earth, searching for ore and gems. he has distinguished himself in battle, and he is the only one outside of his Father who knows how to make Galvorn armour. He wields a sword stolen from his father made from the metal of a fallen star, said to slay anyone who is wounded by it. His only fault is his desire for Princess Idril, who is his cousin. She is the only one aware of this, and she loathes him for it. Since she has married Tuor, Maeglin has fallen deeper into himself, gnawing on his hatred of Tuor, seeing him as his greatest rival."
 #rcost 2
 #gcost 10000
 #rpcost 2
-#hp 13
+#hp 14
 #str 13
-#att 13
-#def 14
+#att 14
+#def 15
 #prec 12
 #prot 0
 #size 2
 #mr 14
-#mor 14
+#mor 12
 #mapmove 16
 #ap 14
 #eyes 2
+#weapon "Meteorite Sword"|824
+#armor "Galvorn Armor"|312
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#unique
+#mountainsurvival
+#maxage 3000
+#diseasesres 100
+#pierceres
+#slashres
+#awe 1
+#spiritsight
+#patrolbonus 1
+#goodleader 
+#command 40
+#magicskill 3 3
+#spellsinger
+#end
+#newmonster 2595
+#name "Hero of Prophecy"
+#fixedname "Tuor"
+#descr "Gondolin's origins lie in divine inspiration. King Turgon was visited by one of the greatest servants of the Pantokrator and warned to make the city. he was also told one day he would be sent a Hero who would bring tidings which would lead to the rise of Gondolin if obeyed... or it's fall if ignored. He instructed a very specific set of arms and armour be made for him, that Turgon would know him when he was seen. Tuor is the son of one of the great heroes of Men, and it was he who answered the call and brought the tidings of the Awakening God to Gondolin. He has risen swiftly in the ranks of Gondolin, and leads his own house. He married Princess Idril, and is considered Sacred by the people of Gondolin."
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 12
+#att 12
+#def 13
+#prec 12
+#size 2
+#mr 11
+#mor 15
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Kite Shield"|3
+#humanoid
+#holy
+#unique
+#sailing 999 2
+#startage 24
+#maxage 60
+#awe 1
+#expertleader
+#inspirational
+#magicskill 8 3
+#end
+#newmonster 2596
+#name "King of Gondolin"
+#fixedname "Turgon"
+#descr "Turgon is theKing and founder of Gondolin. It was his dream that stirred him to create the hidden city as a bastion against the power of Angband. Here he has dwelt for many centuries, leaving rarely and letting few of his people ever leave the gleaming walls of his city. In this way he has kept an island of peace amidst the turmoils of war around him. He is a great king, powerful and kind, though he is proud and is difficult to sway once he has made a decision. Nevertheless, he is loved by all his people. It was with some reluctance that he opened the gates of Gondolin and led his people forth, but the fulfilling of the Prophecy and the rise of the Awakening God were enough to push his doubts aside and now he leads his people to claim the world for the Awakening God."
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 15
+#str 14
+#att 14
+#def 14
+#prec 13
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#unique
+#mountainsurvival
+#snow
+#startage 1500
+#maxage 3000
+#autohealer 2
+#diseasres 100
+#coldres 5
+#awe 2
+#spiritsight
+#patrolbonus 1
+#superior leader
+#magicskill 8 1
+#magicskill 4 4
+#magicskill 3 2
+#spellsinger 
+#end
