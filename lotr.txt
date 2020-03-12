@@ -917,7 +917,7 @@
 #spr2 "images/angband/3512_2.tga"
 #rcost 1
 #gcost 100
-#rpcost 1
+#rpcost 2
 #hp 19
 #str 12
 #att 11
