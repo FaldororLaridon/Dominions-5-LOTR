@@ -190,6 +190,7 @@
 #eyes 2
 #weapon "Elvish Axe"|823
 #armor "Galvorn Armor"|312
+#armor "Iron Cap"|20
 #armor "Iron Shield"|208
 #humanoid
 #mountainsurvival
