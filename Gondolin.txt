@@ -333,7 +333,7 @@
 #name "Royal Guard"
 #descr "The Royal Guard are the elite bodyguards of the House of the King. They rarely venture out from the city, as their duty is to protect their King, and to die for him if nessecary. They wield enchanted polearms, and are ever dedicated to guarding their commanders with their lives."
 #rcost 2
-#gcost 30
+#gcost 35
 #rpcost 22
 #hp 14
 #str 13
