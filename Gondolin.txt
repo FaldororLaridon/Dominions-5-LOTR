@@ -19,7 +19,7 @@
 #magic
 #end
 #newweapon 825
-#name "Elvish Dagger
+#name "Elvish Dagger"
 #copyweapon "Dagger"|9
 #magic
 #end
