@@ -28,7 +28,7 @@
 #copyweapon "Scimitar"|746
 #magic
 #end
-#newweapon 826
+#newweapon 827
 #name "Gondothlim Longbow"
 #dmg 9
 #nratt 1
@@ -42,7 +42,7 @@
 #pierce
 #bowstr
 #end
-#newweapon 827
+#newweapon 828
 #name "Hammer of Wrath"
 #dmg 6
 #nratt 1
@@ -55,12 +55,12 @@
 #blunt
 #magic
 #end
-#newweapon 828
+#newweapon 829
 #name "Elvish Battleaxe"
 #copyweapon "Battleaxe"|18
 #magic
 #end
-#newweapon 829
+#newweapon 830
 #name "Egalmoth's Longbow"
 #dmg 9
 #nratt 1
@@ -160,7 +160,7 @@
 #eyes 2
 #weapon "Sling"|22
 #weapon "Elvish Dagger"
-#armor"Elf-Mail Cuirass"|314
+#armor "Elf-Mail Cuirass"|314
 #humanoid
 #mountainsurvival
 #maxage 3000
@@ -267,7 +267,7 @@
 #patrolbonus 1
 #nametypes 100
 #end
-#newmonster 3573
+#newmonster 3572
 #name "Soldier of the Fountain"
 #descr: "One of the most prestigious houses of Gondolin, the House of the Fountain traditionally guards the fountains that grace the city of Gondolin, particularly those of the King. Noble and wise, they take great delight in silver and gems, but are less wealthy than the House of the Heavenly Arch. They often go into battle to the music of flutes, inspiring them and increasing their morale."
 #rcost 2
@@ -298,7 +298,7 @@
 #patrolbonus 1
 #nametypes 100
 #end
-#newmonster 3574
+#newmonster 3573
 #name "Hammer of Wrath"
 #descr "The House of the Hammer of Wrath is comprised mostly of smiths. Many among them are former slaves who escaped from Angband and found their way to the Hidden City. They are armed with maces specifically designed to slay the Balrogs, who they hate above all others. In times of war, they comprise the shock troops of the city, and are renowned for their strength and their unwavering will."
 #rcost 2
@@ -330,7 +330,7 @@
 #patrolbonus 1
 #nametype 100
 #end
-#newmonster 3575
+#newmonster 3574
 #name "Royal Guard"
 #descr "The Royal Guard are the elite bodyguards of the House of the King. They rarely venture out from the city, as their duty is to protect their King, and to die for him if nessecary. They wield enchanted polearms, and are ever dedicated to guarding their commanders with their lives."
 #rcost 2
@@ -362,7 +362,7 @@
 #formationfighter 2
 #bodyguard 2
 #end
-#newmonster 3576
+#newmonster 3575
 #name "Soldier of the Wing"
 #descr "The newest and smallest of the Houses, The House of the Wing was formed with the coming of the Awakening god. When an ancient prophecy was fulfilled, and the god awoke and his prophet arrived at the Hidden City, he was welcomed in. The Folk of the Wing are his closest and most trusted followersand are considered sacred by the peoples of Gondolin."
 #rcost 2
@@ -1007,8 +1007,8 @@
 #end
 #newmonster 2593
 #name "Lord of Goldenflower"
-#fixedname "Glorfindel
-#descr "Glorfindel is another of the Ancient Lords that remembers the light of Valinor. He is a close friend of Ecthelion and Egalmoth. the seers have spoken over Glorfindel, prophecying great deeds, glory and power to him, but also great pain and suffering. Only time will tell which will come on top in the end. Until then, Glorfindel remains one of the greatest leaders and champions of the people of Gondolin"
+#fixedname "Glorfindel"
+#descr "Glorfindel is another of the Ancient Lords that remembers the light of Valinor. He is a close friend of Ecthelion and Egalmoth. the seers have spoken over Glorfindel, prophecying great deeds, glory and power to him, but also great pain and suffering. Only time will tell which will come on top in the end. Until then, Glorfindel remains one of the greatest leaders and champions of the people of Gondolin."
 rcost 2
 #gcost 10000
 #rpcost 2
@@ -1088,7 +1088,7 @@ rcost 2
 #newmonster 2595
 #name "Hero of Prophecy"
 #fixedname "Tuor"
-#descr "Gondolin's origins lie in divine inspiration. King Turgon was visited by one of the greatest servants of the Pantokrator and warned to make the city. he was also told one day he would be sent a Hero who would bring tidings which would lead to the rise of Gondolin if obeyed... or it's fall if ignored. He instructed a very specific set of arms and armour be made for him, that Turgon would know him when he was seen. Tuor is the son of one of the great heroes of Men, and it was he who answered the call and brought the tidings of the Awakening God to Gondolin. He has risen swiftly in the ranks of Gondolin, and leads his own house. He married Princess Idril, and is considered Sacred by the people of Gondolin."
+#descr "Gondolin's origins lie in divine inspiration. King Turgon was visited by one of the greatest servants of the Pantokrator and warned to make the city. He was also told one day he would be sent a Hero who would bring tidings which would lead to the rise of Gondolin if obeyed... or it's fall if ignored. He instructed a very specific set of arms and armour be made for him, that Turgon would know him when he was seen. Tuor is the son of one of the great heroes of Men, and it was he who answered the call and brought the tidings of the Awakening God to Gondolin. He has risen swiftly in the ranks of Gondolin, and leads his own house. He married Princess Idril, and is considered Sacred by the people of Gondolin."
 #rcost 1
 #gcost 10000
 #rpcost 2
