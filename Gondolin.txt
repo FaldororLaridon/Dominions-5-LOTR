@@ -1161,3 +1161,14 @@ rcost 2
 #magicskill 3 2
 #spellsinger 
 #end
+#newmonster 2597
+#name "Vala of the Sea"
+#fixedname "Ulmo"
+#descr "The Vala of the Sea is one of the greatest of his kin. Unlike the other Vala, he never turned his attention away from the world, even after the Darkening  of Valinor. It was he who struggled the longest against the Great Adversary. He is a master of waves and rivers, and in all water his power can be felt. Now that the Pantokrator has vanished, he takes up a godly mantle to smite down those enemies of creation who were imprisoned during the Pantokrator's reign."
+#pathcost 80
+#startdom 3
+#homerealm 2
+#gcost 250
+#hp 88
+#str 25
+#
