@@ -91,6 +91,21 @@
 #armorpiercing
 #secondaryeffect "Soul Slay"|194
 #end
+#newweapon 831
+#name "Dramborleg"
+#dmg 10
+#nratt 1
+#att 1
+#def 0
+#len 1
+#sound 10
+#dt_normal
+#slash
+#blunt
+#magic
+#armorpiercing
+#secondaryeffect "Small Area Stun"|699
+#end
 #newarmor 313
 #name "Elf-Mail Hauberk"
 #copyarmor "Silver Hauberk"|48
@@ -1486,4 +1501,29 @@ rcost 2
 #expertleader
 #magicskill 2 3
 #waterrange 2
+#end
+
+#newitem
+#name "Dramborleg"
+#constlevel 8
+#mainpath 3
+#mainlevel 5
+#type 1
+#descr "A great axe forged for Tuor, the child of Prophecy in Gondolin. A mighty weapon with the blade of an axe and the weight of a sledgehammer, it will stun foes as easily as cut them down."
+#weapon "Dramborleg"|831
+#restricted "Gondolin"|122
+#end
+#newitem
+#name "Galvorn Armour"
+#constlevel 6
+#mainpath 3
+#mainlevel 4
+#type 5
+#descr "Created by the Elf-smith Eol, Galvorn is a supple and and deceptively strong armour. Even when thin it gives defence similar to dwarf-forged armour, while being considerably lighter."
+#armor "Galvorn Armor"|311
+#spr "images/NogrodBelegost/galvornarmour.tga"
+#restricted 121|"Nogrod and Belegost"
+#restricted 122|"Gondolin"
+#slashres
+#pierceres
 #end
