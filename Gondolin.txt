@@ -44,7 +44,7 @@
 #flysprite 109 1
 #end
 #newweapon 828
-#name "Hammer of Wrath"
+#name "Elvish Mace"
 #dmg 6
 #nratt 1
 #att 0
@@ -310,7 +310,7 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Hammer of Wrath"|827
+#weapon "Elvish Mace"|827
 #armor "Elf-Mail Hauberk"|313
 #armor "Crested Helmet"|162
 #armor "Kite Shield"|3
@@ -420,7 +420,7 @@
 #nametype 100
 #standard 1
 #end
-#newmonster 2577
+#newmonster 3577
 #name "Bronze Guard"
 #descr "Guardians of the Gate of Bronze, one of the seven Gates leading to Gondolin. They are fierce warriors comprised of Sindar refugees that found their way to the hidden city. Their magical armour burns the flesh of their enemies and protects them from heat. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city."
 #rcost 1
@@ -451,7 +451,7 @@
 #patrolbonus 1
 #nametype 100
 #end
-#newmonster 2578
+#newmonster 3578
 #name "Iron Guard"
 #descr "Guards of the Gate of Iron, one of the seven gates leading to Gondolin. Unlike the guards of the Bronze Gate, these are comprised of Noldor from the city. Their armour and weapons are black, and they lack some of the gleam of awe most of the Noldor wield. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city."
 #rcost 2
@@ -482,7 +482,7 @@
 #patrolbonus 1
 #nametypes 100
 #end
-#newmonster 2579
+#newmonster 3579
 #name "Silver Guard"
 #descr "Guards of the Gate of Silver, one of the seven gates leading to Gondolin. They are skilled archers though they do not wield the great Gondothlim longbow. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city."
 #rcost 2
@@ -512,7 +512,7 @@
 #patrolbonus 1
 #nametypes 100
 #end
-#newmonster 2580
+#newmonster 3580
 #name "Golden Guard"
 #descr "Guards of the Gate of Gold, one of the seven gates leading to Gondolin. The Golden Guards are the most splendid of all the defenders of the realm, with magnificent gilded armour and wielding the mighty Gondothlim Longbow. Now that Gondolin has opened it's gates and marched forth, they take the mantle of defending their new lands as they defend the gate of their city."
 #rcost 2
@@ -544,7 +544,7 @@
 #patrolbonus 1
 #nametypes 100
 #end
-#newmonster 2581
+#newmonster 3581
 #name "Gondothlim Scout"
 #descr "Few of the inhabitants of Gondolin left the borders of their little kingdom befroe the coming of the Awakening god. Still, it has always been nessecary to keep an eye on the outside world, and ensure that it doesn't get too close to them. Generally, Elves born outside the city who have made their way to Gondolin are given this task, as they have a better idea of what goes on beyond the city's walls."
 #rcost 2
@@ -575,7 +575,7 @@
 #nametypes 100
 #noleader
 #end
-#newmonster 2582
+#newmonster 3582
 #name "Gondothlim Guard Captain"
 #descr "In the days before the Awakening God and the fulfilment of the Prophecy, guarding the seven gates of the city was a position of high honour in Gondolin. Even now, the Gate Guards are held in respect, if not honour. Many still remain at their ancient posts, but others have gone out into the world to protect the lands of the expanding nation."
 #rcost 2
@@ -607,7 +607,7 @@
 #nametypes 100
 #okcommander
 #end
-#newmonster 2583
+#newmonster 3583
 #name "Gondothlim Lord"
 #descr "Gondolin's many noble Houses sport many powerful, ancient and noble leaders. there are many of these lords, and as the Ascension Wars loom, many of them are eager to be at front of the war, to win glory for their Houses or perhaps even create new ones of their own. Gondothlim Lords are cunning and fell-handed, and  are excellent commanders."
 #reqlab
@@ -649,7 +649,7 @@
 #custommagic 9728 20
 #spellsinger
 #end
-#newmonster 2584
+#newmonster 3584
 #name "Gondothlim Smith"
 #descr "The Noldor that make up the majority of Gondolin's population have ever been skilled with tools and crafts. Long ago, they invented the art of creating gems from the earth itself. Few still posess this ability, and the smiths of Gondolin are held in reverence as masters who have risen above their peers in their craft. They rarely travel with the armies, preferring instead to remain in their homes, seeking more knowledge and skill."
 #reqlab
@@ -689,7 +689,7 @@
 #fixforgebonus 3
 #spellsinger
 #end
-#newmonster 2585
+#newmonster 3585
 #name "Gondothlim Seer"
 #descr "There are some among the Noldor who are blessed with glimpses of the future, and insight into things yet to come. Such youths are highly honoured, and taught how to hone their skills among the Seers, that their visions might be better interpreted for the good of their nation. The Seers are revered by their fellow Noldor, but they are not very good at leading armies."
 #reqlab
@@ -726,7 +726,7 @@
 #magicskill 4 3
 #spellsinger 
 #end
-#newmonster 2586
+#newmonster 3586
 #name "Ancient Noldor"
 #descr "The Noldor do not suffer from disease or the passing of time. If they are not slain, they can go on indefinately. The Ancient Noldor is a revered Lord among Lords, who still remembers Valinor before the great Exile. They are wise and powerful even among the Noldor, and remember all to well the bitter cold of Helcaraxe where many of their people died because of the treachery of Feanor. They do not seek out battle, but when roused they can turn a broken regiment into a sword that strikes deep into the heart of their enemy."
 #slowrec
@@ -773,7 +773,7 @@
 #custommagic 9728 20
 #spellsinger 
 #end
-#newmonster 2587
+#newmonster 3587
 #name "Lord of the Tree"
 #fixedname "Galdor"
 #descr "Galdor is the Lord of the Folk of the Tree. While being the leader of one of the lesser Houses of Gondolin, he is no less brave or noble than his compatriots. In fact, his boldness in battle is well-known and respected in Gondolin, where it is said that he would only break at the fall of his city. Galdor is skilled in nature magic, and knows more about living off the land than any other of the Gondothlim."
@@ -810,7 +810,7 @@
 #magicskill 4 1
 #spellsinger
 #end
-#newmonster 2588
+#newmonster 3588
 #name "Lord of the Swallow"
 #fixedname "Duilin"
 #descr "The Lord of some of the most skilled archers in Gondolin, Duilin is said to be able to hit a butterfly's wing from the other side of the city. Tales of his swiftness of foot and keeness of eye resound throughout the ancient city. Now he takes up his bow in service to the Awakening God."
@@ -846,7 +846,7 @@
 #magicskill 4 2
 #spellsinger
 #end
-#newmonster 2589
+#newmonster 3589
 #name "Princess of Gondolin"
 #fixedname "Idril"
 #descr "The only child of King Turgon of Gondolin. Idril is gifted with greaet foresight, and she spoke with great passion with her father when the Awakening God was revealed and the Prophecy came nigh, urging him to open the gates and listen to the Voice of the Awakening God. In time, she wedded Tuor, who was the Hero of the Prophecy. Idril is not a commander, but she is skilled in the reading of the stars and futures."
@@ -880,7 +880,7 @@
 #magicskill 4 3
 #spellsinger 
 #end
-#newmonster 2590
+#newmonster 3590
 #name "Lord of the Heavenly Arch"
 #fixedname "Egalmoth"
 #descr "Egalmoth is the wealthiest of all the lords in Gondolin, barring the King himself. He wields a mighty bow and is known to shoot farther and further than any. His gilded and shining armour strikes awe and wonder in his allies and enemies alike. He is the only one of the Elves to bear a curved sword into battle."
@@ -917,7 +917,7 @@
 #magicskill 4 2
 #spellsinger
 #end
-#newmonster 2591
+#newmonster 3591
 #name "Lord of the Fountain"
 #fixedname "Ecthelion"
 #descr "Ecthelion is one of the Ancient Lords who remembers Valinor before the Exile. He traveled with Fingon over the Helcaraxe, and is one of the greatest Lords of Gondolin. He was one of the ones entrusted with the King's sister's protection on her ill-fated journey beyond the borders of Gondolin. He is an old friend of the King, and his voice holds much weight in Gondolin. He delights in music, and he is renowned as the greatest musician in the city."
@@ -961,7 +961,7 @@
 #magicskill 2 1
 #spellsinger
 #end
-#newmonster 2592
+#newmonster 3592
 #name "Lord of the Hammer of Wrath"
 #fixedname "Rog"
 #descr "Rog is the strongest of the Noldor of Gondolin. He is also the greatest of the craftsmen of that city, and in times of peace he made many wondrous and fair things. He was never enslaved in Angband, though many of his people were, but he holds their same unflinching hatred for the Balrogs. It was he who designed their maces, created to be the bane of all demons."
@@ -999,7 +999,7 @@
 #mastersmith 1
 #spellsinger 
 #end
-#newmonster 2593
+#newmonster 3593
 #name "Lord of Goldenflower"
 #fixedname "Glorfindel"
 #descr "Glorfindel is another of the Ancient Lords that remembers the light of Valinor. He is a close friend of Ecthelion and Egalmoth. the seers have spoken over Glorfindel, prophecying great deeds, glory and power to him, but also great pain and suffering. Only time will tell which will come on top in the end. Until then, Glorfindel remains one of the greatest leaders and champions of the people of Gondolin."
@@ -1041,7 +1041,7 @@ rcost 2
 #magicskill 4 3
 #spellsinger
 #end
-#newmonster 2594
+#newmonster 3594
 #name "Lord of the Mole"
 #fixedname "Maeglin"
 #descr "The nephew of the King, Maeglin is the King's most trusted and well-confided Lord. The son of his sister and the rogue Sindar Elf Eol. Maeglin quickly rose high in his Uncle's ranks. The young Elf proved himself adept at anything he bent his mind to, and soon headed his own House. His people are mostly miners and smiths, and he spends much time in deep holes in the earth, searching for ore and gems. he has distinguished himself in battle, and he is the only one outside of his Father who knows how to make Galvorn armour. He wields a sword stolen from his father made from the metal of a fallen star, said to slay anyone who is wounded by it. His only fault is his desire for Princess Idril, who is his cousin. She is the only one aware of this, and she loathes him for it. Since she has married Tuor, Maeglin has fallen deeper into himself, gnawing on his hatred of Tuor, seeing him as his greatest rival."
@@ -1079,7 +1079,7 @@ rcost 2
 #magicskill 3 3
 #spellsinger
 #end
-#newmonster 2595
+#newmonster 3595
 #name "Hero of Prophecy"
 #fixedname "Tuor"
 #descr "Gondolin's origins lie in divine inspiration. King Turgon was visited by one of the greatest servants of the Pantokrator and warned to make the city. He was also told one day he would be sent a Hero who would bring tidings which would lead to the rise of Gondolin if obeyed... or it's fall if ignored. He instructed a very specific set of arms and armour be made for him, that Turgon would know him when he was seen. Tuor is the son of one of the great heroes of Men, and it was he who answered the call and brought the tidings of the Awakening God to Gondolin. He has risen swiftly in the ranks of Gondolin, and leads his own house. He married Princess Idril, and is considered Sacred by the people of Gondolin."
@@ -1113,7 +1113,7 @@ rcost 2
 #inspirational
 #magicskill 8 3
 #end
-#newmonster 2596
+#newmonster 3596
 #name "King of Gondolin"
 #fixedname "Turgon"
 #descr "Turgon is theKing and founder of Gondolin. It was his dream that stirred him to create the hidden city as a bastion against the power of Angband. Here he has dwelt for many centuries, leaving rarely and letting few of his people ever leave the gleaming walls of his city. In this way he has kept an island of peace amidst the turmoils of war around him. He is a great king, powerful and kind, though he is proud and is difficult to sway once he has made a decision. Nevertheless, he is loved by all his people. It was with some reluctance that he opened the gates of Gondolin and led his people forth, but the fulfilling of the Prophecy and the rise of the Awakening God were enough to push his doubts aside and now he leads his people to claim the world for the Awakening God."
@@ -1156,7 +1156,7 @@ rcost 2
 #spellsinger 
 #end
 
-#newmonster 2597
+#newmonster 3597
 #name "Vala of the Sea"
 #fixedname "Ulmo"
 #descr "The Vala of the Sea is one of the greatest of his kin. Unlike the other Vala, he never turned his attention away from the world, even after the Darkening  of Valinor. It was he who struggled the longest against the Great Adversary. He is a master of waves and rivers, and in all water his power can be felt. Now that the Pantokrator has vanished, he takes up a godly mantle to smite down those enemies of creation who were imprisoned during the Pantokrator's reign."
@@ -1190,7 +1190,7 @@ rcost 2
 #magicskill 2 3
 #waterrange 2
 #end
-#newmonster 2598
+#newmonster 3598
 #name "Vala of the Deep"
 #fixedname "Ulmo"
 #descr "The Vala of the Sea is one of the greatest of his kin. Unlike the other Vala, he never turned his attention away from the world, even after the Darkening  of Valinor. It was he who struggled the longest against the Great Adversary. He is a master of waves and rivers, and in all water his power can be felt. Now that the Pantokrator has vanished, he takes up a godly mantle to smite down those enemies of creation who were imprisoned during the Pantokrator's reign."
@@ -1248,5 +1248,42 @@ rcost 2
 #slashres
 #pierceres
 #end
-
+#newsite 
+#name "Turgon's Palace"
+#path 4
+#loc 16384
+#gems 4 2
+#gems 3 1
+#level 0
+#homemon "Royal Guard"|3574
+#homemon "Soldier of the Wing"|3575
+#homemon "Royal Standard Bearer"|3576
+#homecom "Ancient Noldor"|3586
+#end
+#newnation
+#name "Gondolin"
+#epithet "THe Hidden City"
+#era 1
+#descr "Badass Elves commin outta they city to kick some Orc ass"
+#summary "They got Stuff"
+#brief "yeah yeah I'll get to it"
+#color 0.5 0.4 0.7
+#startsite "Turgon's Palace"
+#likesterrain 4
+#aiastralnation
+#aigoodbless 50
+#aiholyranged
+#startcom "Gondothlim Guard Captain"|3582
+#startscout "Gondothlim Scout"|3581
+#startunittype1 "Soldier of the Tree"|3567
+#startunitnbrs1 10
+#startunittype2 "Gondothlim Slinger"|3568
+#startunitnbrs2 15
+#addrecunit "Soldier of the Tree"|3567
+#addrecunit "Gondothlim Slinger"|3568
+#addrecunit "Soldier of the Mole"|3569
+#addrecunit "Soldier of the Swallow"|3570
+#addrecunit "Soldier of the Heavenly Arch"|3571
+#addrecunit "Soldier of the Silver Foundain"|3572
+#addrecunit "Hammer of Wrath"|3573
 
