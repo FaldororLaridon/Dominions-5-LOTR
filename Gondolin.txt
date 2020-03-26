@@ -375,6 +375,7 @@
 #ap 14
 #eyes 2
 #weapon "Elvish Blade"|824
+#weapon "Long Bow"|24
 #armor "Elf-Mail Hauberk"|313
 #armor "Crested Helmet"|162
 #armor "Iron Shield"|208
