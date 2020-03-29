@@ -874,6 +874,7 @@
 #weapon "Elvish Blade"|824
 #armor "Elf-Mail Hauberk"|313
 #armor "Crested Helmet"|162
+#armor "Iron Shield"|208
 #humanoid
 #unique
 #mountainsurvival
