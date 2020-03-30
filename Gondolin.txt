@@ -1227,13 +1227,13 @@ rcost 2
 #awe 1
 #fear 7
 #spiritsight
-#watershape "Vala of the Deep"|2598
+#watershape 3598
 #expertleader
 #magicskill 2 3
 #waterrange 2
 #end
 #newmonster 3598
-#name "Vala of the Deep"
+#name "Valar of the Deep"
 #fixedname "Ulmo"
 #descr "The Vala of the Sea is one of the greatest of his kin. Unlike the other Vala, he never turned his attention away from the world, even after the Darkening  of Valinor. It was he who struggled the longest against the Great Adversary. He is a master of waves and rivers, and in all water his power can be felt. Now that the Pantokrator has vanished, he takes up a godly mantle to smite down those enemies of creation who were imprisoned during the Pantokrator's reign."
 #pathcost 80
@@ -1260,7 +1260,7 @@ rcost 2
 #awe 1
 #fear 7
 #spiritsight
-#watershape "Vala of the Sea"|2597
+#landshape 3597
 #expertleader
 #magicskill 2 3
 #waterrange 2
@@ -1315,7 +1315,7 @@ rcost 2
 #end
 #newnation
 #name "Gondolin"
-#epithet "THe Hidden City"
+#epithet "The Hidden City"
 #era 1
 #descr "Badass Elves commin outta they city to kick some Orc ass"
 #summary "They got Stuff"
