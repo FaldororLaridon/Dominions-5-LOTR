@@ -1308,7 +1308,7 @@ rcost 2
 #gems 4 2
 #gems 3 1
 #level 0
-#homemon "Royal Guard"|3574
+#homemon "Turgon's Guard"|3574
 #homemon "Soldier of the Wing"|3575
 #homemon "Royal Standard Bearer"|3576
 #homecom "Ancient Noldor"|3586
@@ -1326,39 +1326,39 @@ rcost 2
 #aiastralnation
 #aigoodbless 50
 #aiholyranged
-#startcom "Gondothlim Guard Captain"|3582
-#startscout "Gondothlim Scout"|3581
-#startunittype1 "Soldier of the Tree"|3567
+#startcom "Gondothlim Guard Captain"|3583
+#startscout "Gondothlim Scout"|3582
+#startunittype1 "Soldier of the Tree"|3568
 #startunitnbrs1 10
-#startunittype2 "Gondothlim Slinger"|3568
+#startunittype2 "Gondothlim Slinger"|3569
 #startunitnbrs2 15
-#addrecunit "Soldier of the Tree"|3567
-#addrecunit "Gondothlim Slinger"|3568
-#addrecunit "Soldier of the Mole"|3569
-#addrecunit "Soldier of the Swallow"|3570
-#addrecunit "Soldier of the Heavenly Arch"|3571
-#addrecunit "Soldier of the Silver Foundain"|3572
-#addrecunit "Hammer of Wrath"|3573
-#addreccom "Gondothlim Scout"|3581
-#addreccom "Gondothlim Guard Captain"|3582
-#addreccom "Gondothlim Lord"|3583
-#addreccom "Gondothlim Smith"|3584
-#addreccom "Gondothlim Seer"|3485
-#hero1 3487
-#hero2 3488
-#hero3 3489
-#defcom1 "Gondothlim Guard Captain"|3582
-#defcom2 "Gondothlim Lord"|3583
-#defunit1 "Bronze Guard"|3577
-#defunit1b "Silver Guard"|3578
-#defunit2 "Iron Guard"|3579
-#defunit2b "Golden Guard"|3580
+#addrecunit "Soldier of the Tree"|3568
+#addrecunit "Gondothlim Slinger"|3569
+#addrecunit "Soldier of the Mole"|3570
+#addrecunit "Soldier of the Swallow"|3571
+#addrecunit "Soldier of the Heavenly Arch"|3572
+#addrecunit "Soldier of the Silver Foundain"|3573
+#addrecunit "Hammer of Wrath"|3574
+#addreccom "Gondothlim Scout"|3582
+#addreccom "Gondothlim Guard Captain"|3583
+#addreccom "Gondothlim Lord"|3584
+#addreccom "Gondothlim Smith"|3585
+#addreccom "Gondothlim Seer"|3486
+#hero1 3488
+#hero2 3489
+#hero3 3490
+#defcom1 "Gondothlim Guard Captain"|3583
+#defcom2 "Gondothlim Lord"|3584
+#defunit1 "Bronze Guard"|3578
+#defunit1b "Silver Guard"|3579
+#defunit2 "Iron Guard"|3580
+#defunit2b "Golden Guard"|3581
 #defmult1 20
 #defmult1b 10
 #defmult2 5
 #defmult2b 5
-#wallcom "Gondothlim Guard Captain"|3582
-#wallunit "Silver Guard"|3578
+#wallcom "Gondothlim Guard Captain"|3583
+#wallunit "Silver Guard"|3579
 #wallunit "Golden Guard"|3580
 #wallmult 5
 #addgod "Valar of the Hunt"|3562
