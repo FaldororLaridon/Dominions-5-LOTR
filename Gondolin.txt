@@ -1199,7 +1199,7 @@ rcost 2
 #end
 
 #newmonster 3597
-#name "Vala of the Sea"
+#name "Valar of the Sea"
 #fixedname "Ulmo"
 #descr "The Vala of the Sea is one of the greatest of his kin. Unlike the other Vala, he never turned his attention away from the world, even after the Darkening  of Valinor. It was he who struggled the longest against the Great Adversary. He is a master of waves and rivers, and in all water his power can be felt. Now that the Pantokrator has vanished, he takes up a godly mantle to smite down those enemies of creation who were imprisoned during the Pantokrator's reign."
 #pathcost 80
@@ -1265,14 +1265,25 @@ rcost 2
 #magicskill 2 3
 #waterrange 2
 #end
-
+#newitem
+#name "Hammer of Wrath"
+#descr "The Elves of the Hammer of Wrath hold a fierce and burning hatred for the Balrogs of Morgoth. The maces they forge as their main weapons of choice are infused with that hatred and do signifigant damage against all demons."
+#constlevel 4
+#mainpath 3
+#mainlevel 3
+#secondarypath 4
+#secondarylevel 2
+#type 1
+#weapon "Elvish Mace"|828
+#restricted "Gondolin"|122
+#end
 #newitem
 #name "Dramborleg"
+#descr "A great axe forged for Tuor, the child of Prophecy in Gondolin. A mighty weapon with the blade of an axe and the weight of a sledgehammer, it will stun foes as easily as cut them down."
 #constlevel 8
 #mainpath 3
 #mainlevel 5
 #type 1
-#descr "A great axe forged for Tuor, the child of Prophecy in Gondolin. A mighty weapon with the blade of an axe and the weight of a sledgehammer, it will stun foes as easily as cut them down."
 #weapon "Dramborleg"|831
 #restricted "Gondolin"|122
 #end
@@ -1328,4 +1339,36 @@ rcost 2
 #addrecunit "Soldier of the Heavenly Arch"|3571
 #addrecunit "Soldier of the Silver Foundain"|3572
 #addrecunit "Hammer of Wrath"|3573
-
+#addreccom "Gondothlim Scout"|3581
+#addreccom "Gondothlim Guard Captain"|3582
+#addreccom "Gondothlim Lord"|3583
+#addreccom "Gondothlim Smith"|3584
+#addreccom "Gondothlim Seer"|3485
+#hero1 3487
+#hero2 3488
+#hero3 3489
+#defcom1 "Gondothlim Guard Captain"|3582
+#defcom2 "Gondothlim Lord"|3583
+#defunit1 "Bronze Guard"|3577
+#defunit1b "Silver Guard"|3578
+#defunit2 "Iron Guard"|3579
+#defunit2b "Golden Guard"|3580
+#defmult1 20
+#defmult1b 10
+#defmult2 5
+#defmult2b 5
+#wallcom "Gondothlim Guard Captain"|3582
+#wallunit "Silver Guard"|3578
+#wallunit "Golden Guard"|3580
+#wallmult 5
+#addgod "Valar of the Hunt"|3562
+#homerealm 2
+#cheapgod20 "Valar Doomsman"|3564
+#cheapgod20 "Elder King"|3566
+#cheapgod40 "Vala of Stars"|3567
+#fortera 2
+#labcost 500
+#templecost 400
+#templepic 4
+#homefort 14
+#end
