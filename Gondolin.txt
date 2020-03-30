@@ -1313,7 +1313,7 @@ rcost 2
 #homemon "Royal Standard Bearer"|3576
 #homecom "Ancient Noldor"|3586
 #end
-#newnation
+#newnation 122
 #name "Gondolin"
 #epithet "The Hidden City"
 #era 1
