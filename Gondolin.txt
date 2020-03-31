@@ -91,6 +91,17 @@
 #armorpiercing
 #secondaryeffect "Small Area Stun"|699
 #end
+#newweapon 832
+#copyweapon "Elvish Blade"|824
+#name "Glamdring"
+#damage 8
+#end
+#newweapon 833
+#copyweapon "Elvish Blade"|824
+#name "Orcrist"
+#att 1
+#def 2
+#end
 #newarmor 313
 #name "Elf-Mail Hauberk"
 #copyarmor "Silver Hauberk"|48
@@ -1174,11 +1185,11 @@ rcost 2
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Elvish Blade"|824
 #armor "Elf-Mail Hauberk"|313
 #armor "Crested Helmet"|162
 #armor "Iron Shield"|208
 #humanoid
+#startitem "Glamdring"
 #holy
 #unique
 #mountainsurvival
@@ -1301,6 +1312,25 @@ rcost 2
 #slashres
 #pierceres
 #end
+#newitem
+#name "Glamdring"
+#descr "The mighty blade of Turgon, it is a deadly weapon bound with spells to make it's user swifter in combat, and to resist the fires of the dreaded Balrogs. Any who grips the hilt of a mighty blade such as this will surely be enheartened."
+#constlevel 12
+#mainpath 3
+#mainlevel 4
+#type 1
+#weapon "Glamdring"|832
+#hp 5
+#morale 3
+#quickness
+#fireres 5
+#restricted "Gondolin"|122
+#unique
+#end
+#newitem
+#name "Orcrist"
+#descr "The sword of Ecthelion
+
 #newsite 
 #name "Turgon's Palace"
 #path 4
