@@ -1317,9 +1317,12 @@ rcost 2
 #name "Gondolin"
 #epithet "The Hidden City"
 #era 1
-#descr "Badass Elves commin outta they city to kick some Orc ass"
-#summary "They got Stuff"
-#brief "yeah yeah I'll get to it"
+#descr "When the Noldor Elves came to Beleriand, they did so in direct defiance of the Will of the Valar, the caretakers of the world. but one among the Valar took pity on the Elves, and tried to aid them. He appeared to Turgon in a dream, revealing a hidden place where a city could be made, and laying down a prophecy for when the time was right. Turgon heeded the call, and took his household and founded the city of Gondolin in secret, hidden from all. In time, the city grew great and wonderful, it's people prosperous and its army strong. Now the Hero of Prophecy has arrived at Gondolin, and the Awakening God arises. The flutes and horns of the Gondothlim sound for war, the great gates open, and the Hidden People will come forth to claim the world as their own."
+#summary "Race: Awe, magic weapons, disease immune.
+Military: Light infantry, heavy infantry powerful archers
+Magic: Astral and Earth. Some water, fire, nature."
+Priests: Average"
+#brief "Gondolin is a nation of proud Noldoran Elves divided into several Houses that work together to bring justice to their enemies."
 #color 0.5 0.4 0.7
 #startsite "Turgon's Palace"
 #likesterrain 4
