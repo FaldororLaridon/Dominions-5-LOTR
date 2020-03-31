@@ -989,11 +989,11 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Elvish Blade"|824
 #armor "Elf-Mail Hauberk"|313
 #armor "Crested Helmet"|162
 #armor "Iron Shield"|208
 #humanoid
+#startitem 510
 #holy
 #unique
 #mountainsurvival
@@ -1324,13 +1324,22 @@ rcost 2
 #morale 3
 #quickness
 #fireres 5
-#restricted "Gondolin"|122
+#restricted 122|"Gondolin"
 #unique
 #end
-#newitem
+#selectitem 510
 #name "Orcrist"
-#descr "The sword of Ecthelion
-
+#descr "The sword of Ecthelion, this weapon is deadly and graceful, designed to inspire the wielder's allies, and strike terror into the hearts of their foes"
+#constlevel 12
+#mainpath 3
+#mainlevel 4
+#type 1
+#weapon "Orcrist"|833
+#restricted 122|"Gondolin"
+#unique
+#fear 5
+#inspirational 1
+#end
 #newsite 
 #name "Turgon's Palace"
 #path 4
