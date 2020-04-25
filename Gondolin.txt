@@ -1414,3 +1414,242 @@ Priests: Average"
 #templepic 4
 #homefort 14
 #end
+
+
+
+
+
+
+Orc Namelist
+
+#selectnametype 170
+#addname Bardushgat
+#addname Hurbrum
+#addname Thrugdurz
+#addname Grishdush
+#addname Lugrat
+#addname Gunzankuth
+#addname Akburz
+#addname Naumarb
+#addname Gankrim
+#addname Ozgulb
+#addname Logdragh
+#addname Glatudrim
+#addname Azgai
+#addname Tharbru
+#addname Shakgash
+#addname Drushmak
+#addname Krulghar
+#addname Kughlur
+#addname Glurkhalka
+#addname Dhurztal
+#addname Thrugzumrur
+#addname Dharshan
+#addname Khuglak
+#addname Shukmud
+#addname Glurosh
+#addname Prakrak
+#addname Maukskoi
+#addname Sharsnak
+#addname Frauptum
+#addname Ghaurauth
+#addname Zaghlukrur
+#addname Ozlag
+#addname Blafrak
+#addname Ragtith
+#end
+
+Balrog/Fallen Spirit namelist
+
+#selectnametype 171
+#addname Zazkoc
+#addname Golnuk
+#addname Dulnek
+#addname Bhatrog
+#addname Khumdezad
+#addname Dulviluc
+#addname Bizodrod
+#addname Dhakangan
+#addname Zundar
+#addname Gothrag
+#addname Hokzotud
+#addname Hakzudon
+#addname Khabnok
+#addname Dhaldan
+#addname Khemognul
+#addname Gozgir
+#addname Ragzoc
+#addname Dhagnelag
+#end
+
+Vampire namelist
+
+#selectnametype 172
+#addname Zatrud
+#addname Rukvol
+#addname Genguc
+#addname Dazcuk
+#addname Razuzcun
+#addname Dheldnun
+#addname Dobnukan
+#addname Dhodulmuc
+#addname Dhizkog
+#addname Dholmur
+#addname Khethremunn
+#addname Vobukvon
+#addname Givongur
+#addname Gilku
+#addname Îgkine
+#addname Rageke
+#addname Nîtan
+#addname Mirake
+#addname Mîrig
+#addname Yinule
+#addname Yîlkag
+#addname Yotene
+#addname Vunuke
+#end
+
+
+Easterling namelist
+
+#selectnametype 173
+#addname Közînd
+#addname Kaldün
+#addname Brerlöç
+#addname Yózoç
+#addname Módgind
+#addname Serthund
+#addname Göltüz
+#addname Gamrol
+#addname Dólwaç
+#addname Bektî
+#addname Necok
+#addname Kóktö
+#addname Ólwaç
+#addname Bamrud
+#addname Dulwod
+#addname Sazönd
+#addname Gödgin
+#addname Sola
+#addname Golwal
+#addname Iltiç 
+#addname Brulwörth
+#addname Gicul
+#addname Kaltönd
+#addname Kuldun
+#addname Nóldu
+#addname Gestoz
+#addname Brostan
+#addname Kedgîd
+#addname Yorlok
+#addname Guza
+#addname Bróli
+#addname Górga
+#addname Durgöç
+#addname Nörlü
+#addname Samrurth
+#addname Brelwul
+#addname Sobuk
+#addname Docuç
+#addname Yurlur
+#addname Yömröz
+#end
+
+Dwarf Namelist
+
+#selectnametype 174
+#addname Anar
+#addname Beli
+#addname Bláin
+#addname Bruni
+#addname Dori
+#addname Dwalin
+#addname Farin
+#addname Flói
+#addname Frár
+#addname Ginar
+#addname Grór
+#addname Hanar
+#addname Hepti
+#addname Iari
+#addname Lófar
+#addname Lóni
+#addname Náli
+#addname Niping
+#addname Óin
+#addname Ónar
+#addname Regin
+#addname Svior
+#addname Thrór
+#addname Veig
+#addname Vidar
+#addname Fundin 
+#addname Ai
+#addname Borin
+#addname Nár
+#addname Póri
+#end
+
+Noldor namelist
+
+#selectnametype 175
+#addname Feamáro
+#addname Sailatio
+#addname Valyarion
+#addname Tulcatio
+#addname Siciltamo
+#addname Sailion
+#addname Aþeo
+#addname Lótealoxo
+#addname Harnion
+#addname Mastaro
+#addname Arnion
+#addname Quantion
+#addname Telpinion
+#addname Nyellion
+#addname Corimion
+#addname Hirindion
+#addname Sintarion
+#addname Nossencion
+#addname Alion
+#addname Ruscuition
+#addname Neunion
+#addname Calimion
+#addname Sornion
+#addname Aration
+#addname Nucemenion
+#addname Ulcion
+#addname Sartion
+#addname Nandarion
+#addname Leryarion
+#addname Nípion
+#addname Hilyarion
+#addname Raitarion
+#addname Vórimion
+#addname Cundion
+#addname Panyarion
+#addname Eccairo
+#addname Ranyaro
+#addname Muino
+#addname Vanimion
+#addname Hyarno
+#addname Tornango
+#addname Nandetamo
+#addname Mityo
+#addname Quelindo
+#addname Almáreo
+#addname Lelyaro
+
+
+
+
+
+
+
+
+
+
+
+
+
