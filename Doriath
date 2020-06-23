@@ -1,0 +1,28 @@
+#modname "Lord of the Rings Nation Pack"
+#description "This is a mod that seeks to capture Tolkien's vision of Middle-Earth -- but in Dominions!"
+#icon "images/onering.tga"
+#version 0.20
+#newweapon 816
+#name "Dwarf-Steel Spear"
+#dmg 5
+#nratt 1
+#att 0
+#def 0
+#len 3
+#sound 12
+#rcost 3
+#dt_normal
+#pierce
+#armorpiercing
+#secondaryeffect "Sear Flesh"
+#end
+#newweapon 844
+#name "Dwarf-steel blade"
+#dmg 6
+#nratt 1
+#att 2
+#def 1
+#len 1
+#sound 8
+#rcost 5
+#dt_normal
