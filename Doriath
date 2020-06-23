@@ -16,6 +16,19 @@
 #armorpiercing
 #secondaryeffect "Sear Flesh"
 #end
+#name "Dwarven Dagger"
+#dmg 4
+#nr att 1
+#att 1
+#def 0
+#len 0
+#sound 7
+#rcost 1
+#dt_normal 
+#pierce
+#slash
+#armorpiercing
+#end
 #newweapon 844
 #name "Dwarf-steel blade"
 #dmg 6
@@ -26,3 +39,47 @@
 #sound 8
 #rcost 5
 #dt_normal
+#slash
+#pierce
+#armorpiercing
+#end
+#newarmor 315
+#name "Khazad-Mail Cuirass"
+#type 5
+#prot 14
+#def 0
+#enc 2
+#rcost 17
+#magicarmor
+#end
+#newarmor 316
+#name "Khazad-Mail Hauberk"
+#type 5
+#prot 18
+#def -2
+#enc 3
+#rcost 20
+#magic
+#end
+#newmonster 3600
+#name "Doriath Hunter"
+#descr "The lands of Doriath are primarily forest and fertile land. Hunters stalk and hunt prey throughout the lands, but these skills can also be used to slip through enemy lines and hunt more dangerous prey than deer."
+#rcost 1
+#gcost 15
+#rpcost 10
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Short Bow"|23
+#weapon
+#
