@@ -16,6 +16,7 @@
 #armorpiercing
 #secondaryeffect "Sear Flesh"
 #end
+#newweapon 822
 #name "Dwarven Dagger"
 #dmg 4
 #nr att 1
@@ -61,6 +62,14 @@
 #rcost 20
 #magic
 #end
+#newarmor 317
+#name "Khazad Half Helm"
+#type 6
+#prot 19
+#def 0
+#rcost 4
+#magic
+#end
 #newmonster 3600
 #name "Doriath Hunter"
 #descr "The lands of Doriath are primarily forest and fertile land. Hunters stalk and hunt prey throughout the lands, but these skills can also be used to slip through enemy lines and hunt more dangerous prey than deer."
@@ -81,5 +90,208 @@
 #ap 14
 #eyes 2
 #weapon "Short Bow"|23
-#weapon
-#
+#weapon "Dwarven Dagger"|822
+#armor "Leather Hauberk"|10
+#humanoid
+#forestsurvival
+#stealthy 15
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3601
+#name "Borderguard"
+#descr "While the heart of Doriath is protected by the Girdle of Melian, not all territory is protected by that magical barrier. And in the meanwhile, enemies ever prowl the borders, seeking a way in. THe Borderguards range far and wide, defending their homeland and new territories from would-be invaders. They are lightly armed to better go where they are needed and strike from the shadows."
+#rcost 1
+#gcost 17
+#rpcost 13
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Spear"|816
+#armor "Khazad-Mail Cuirass"|315
+#armor "Leather Cap"|120
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 2
+#nametype 175
+#end
+#newmonster 3602
+#name "Sindaran Warrior"
+#descr "While the heart of Doriath is protected by the Girdle of Melian, not all territory is protected by that magical barrier. And in the meanwhile, enemies ever prowl the borders, seeking a way in. THe Borderguards range far and wide, defending their homeland and new territories from would-be invaders. They are lightly armed to better go where they are needed and strike from the shadows."
+#rcost 1
+#gcost 17
+#rpcost 13
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Blade"|844
+#armor "Khazad-Mail Cuirass"|315
+#armor "Leather Cap"|120
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 2
+#nametype 175
+#end
+#newmonster 3603
+#name "Protector of Doriath"
+#descr "While Doriath is a place of peace and safety, there are those who must ensure that it remains that way. And with centuries with which to perfect their craft, they become very good at it. The Borderguard can repel minor threats and patrol borders, but for a hardened assualt, the Protectors are called to defend their homes."
+#rcost 1
+#gcost 25
+#rpcost 18
+#hp 13
+#str 12
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Blade"|844
+#armor "Khazad-Mail Hauberk"|316
+#armor "Khazad Half Helm"|317
+#armor "Iron Shield"|208
+#humanoid
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3604
+#name "Defender of Doriath"
+#descr "While Doriath is a place of peace and safety, there are those who must ensure that it remains that way. And with centuries with which to perfect their craft, they become very good at it. The Borderguard can repel minor threats and patrol borders, but for a hardened assualt, the Protectors are called to defend their homes."
+#rcost 1
+#gcost 25
+#rpcost 18
+#hp 13
+#str 12
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Spear"|816
+#armor "Khazad-Mail Hauberk"|316
+#armor "Khazad Half Helm"|317
+#armor "Iron Shield"|208
+#humanoid
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3605
+#name "Orc-Hunter"
+#descr "Since the days when Thu first sent invasions of Orcs out from the fortress of Angband, Orcs have been one of the greatest threats to Doriath. Through the forests, silent and deadly, the Orc-Hunters mercilessly hunt down their quarry, knowing that any who survive their attacks might make it home to report to their commanders. The Orc-hunters carry the blessing of Queen Melian, and strike awe into their foes in battle. tehy are more lightly armoured than the protectors to allow for quicker and quieter speed, relying on their shields and awe to defend them."
+#reqtemple
+#rcost 1
+#gcost 30
+#rpcost 25
+#hp 13
+#str 13
+#att 14
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Blade"|844
+#armor "Khazad-Mail Cuirass"|315
+#armor "Khazad Half Helm"|317
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#forestsurvival
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3606
+#name "Spider-Slayer"
+#descr "Doriath sits at the foot of of the Mountains of Shadow, where the children of Ungoliant scuttle and weave their maddening webs. Even the servants of Morgoth do not dare to travel there, but such a taint so close to their borders cannot be ignored. the spiders are best kept at a distance, and so Sindar of keen eye and heavy hand are armed with longbows and sent periodically to help drive the spiders back from the borders of Doriath."
+#reqtemple
+#rcost 1
+#gcost 30
+#rpcost 25
+#hp 13
+#str 13
+#att 13
+#def 13
+#prec 13
+#prot 0
+#size 2
+#mr 14
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Spear"|816
+#weapon "Long Bow"|24
+#armor "Khazad-Mail Cuirass"|315
+#armor "Khazad Half Helm"|317
+#humanoid
+#holy
+#forestsurvival
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight
+#patrolbonus 2
+#nametype 175
+#end
