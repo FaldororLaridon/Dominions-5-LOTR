@@ -44,6 +44,19 @@
 #pierce
 #armorpiercing
 #end
+#newweapon 814
+#name "Dwarf-Steel Hammer"
+#dmg 8
+#nratt 1
+#att 0
+#def -1
+#len 1
+#sound 10
+#rcost 4
+#dt_normal
+#blunt
+#secondaryeffect "Break Armor"|174
+#end
 #newarmor 315
 #name "Khazad-Mail Cuirass"
 #type 5
@@ -133,7 +146,7 @@
 #nametype 175
 #end
 #newmonster 3602
-#name "Sindaran Warrior"
+#name "Borderguard"
 #descr "While the heart of Doriath is protected by the Girdle of Melian, not all territory is protected by that magical barrier. And in the meanwhile, enemies ever prowl the borders, seeking a way in. THe Borderguards range far and wide, defending their homeland and new territories from would-be invaders. They are lightly armed to better go where they are needed and strike from the shadows."
 #rcost 1
 #gcost 17
@@ -195,7 +208,7 @@
 #nametype 175
 #end
 #newmonster 3604
-#name "Defender of Doriath"
+#name "Protector of Doriath"
 #descr "While Doriath is a place of peace and safety, there are those who must ensure that it remains that way. And with centuries with which to perfect their craft, they become very good at it. The Borderguard can repel minor threats and patrol borders, but for a hardened assualt, the Protectors are called to defend their homes."
 #rcost 1
 #gcost 25
@@ -294,4 +307,244 @@
 #spiritsight
 #patrolbonus 2
 #nametype 175
+#end
+#newmonster 3607
+#name "Doriath Scout" 
+#descr "While the realm of Doriath has ever been a protected, safe haven, the world outside has never been. Lightly armoured scouts have always been nessecary to venture into the world beyond and bring back tidings of enemy movements."
+#rcost 1
+#gcost 10000
+#rpcost 1
+#noreqlab
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Dwarven Dagger"|822
+#armor "Khazad-Mail Cuirass"|315
+#humanoid
+#forestsurvival
+#stealthy 15
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#noleader
+#magicskill 6 1
+#spellsinger
+#end
+#newmonster 3608
+#name "Border Captain"
+#descr "The leaders of the Borderguards, Border Captains are the first line of defence between Doriath and the outside world. They are good leaders, and inspire their men by example to keep their homeland safe."
+#rcost 1
+#gcost 10000
+#rpcost 2
+#reqlab
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Blade"|844
+#armor "Khazad-Mail Cuirass"|315
+#armor "Khazad Half Helm"|317
+#armor "Iron Shield"|208
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 2
+#nametype 175
+#goodleader
+#inspirational 1
+#magicskill 6 1
+#custommagic 8704 100
+#custommagic 8704 50
+#custommagic 8704 10
+#spellsinger
+#end
+#newmonster 3609
+#name "Khazad Emmisary"
+#descr "While Elves and Dwarves have never been the closest of friends, there has always been trade between Doriath and the Dwarven peoples. Dwarves will still periodically visit the halls of Menegroth and put their skills  to work for King Thingol. For a price, of course."
+#slowrec
+#reqlab
+#rcost 2
+#gcost 10050
+#rpcost 2
+#hp 11
+#str 12
+#att 10
+#def 9
+#prec 11
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarf-Steel Hammer"|814
+#weapon "Dwarf Mask"
+#armor "Dwarf-Mail Cuirass"|305
+#armor "Dwarf Full Helm"|307
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 20
+#reinvigoration 2
+#darkvision 50
+#nametype 174
+#poorleader
+#magicskill 3 2
+#magicskill 0 1
+#custommagic 3200 50
+#researchbonus -6
+#fixforgebonus 3
+#mastersmith 1
+#formationfighter -3
+#supplybonus -1
+#startage 150
+#addupkeep 7
+#end
+#newmonster 3610
+#name "Handmaiden of Melian"
+#descr "The Handmaidens of Melian are those Elves privileged to wait upon their Queen. From her they learn much of her wisdom and knowledge, and even some of her foresight passes to them. While they do not lead armies, they nontheless command much respect from the other Sindar of Doriath."
+#rcost 1
+#gcost 10000
+#rpcost 2
+#reqlab
+#reqtemple
+#hp 13
+#str 11
+#att 10
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarven Dagger"|822
+#armor "Robe"|148
+#humanoid
+#holy
+#forestsurvival
+#stealthy 15
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#poorleader
+#inspirational
+#magicskill 6 2
+#magicskill 4 1
+#magicskill 8 2
+#custommagic 10240 50
+#custommagic 10240 10
+#spellsinger
+#end
+#newmonster 3611
+#name "Sindaran Minstril"
+#descr "The Elves have centuries to dedicate to the learning and perfecting of their crafts. Many prectice the playing of harps and lyres and beautiful musical instruments, but some focus on them to another level. Now that the armies of Doriath are marching forth, some of these Minstrils are marching with their armies to boost their morale. They are stealthy and can infiltrate enemy provinces with ease when not supporting an army."
+#rcost 1
+#gcost 10000
+#rpcost 1
+#reqlab
+#hp 13
+#str 11
+#att 11
+#def 11
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Blade"|844
+#armor "Dwarf-Mail Cuirass"|305
+#humanoid
+#forestsurvival
+#stealthy 20
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#okleader
+#inspirational 2
+#magicskill 6 1
+#magicskill 2 1
+#custommagic 8704 100
+#custommagic 8704 50
+#spellsinger
+#end
+#newmonster 3612
+#name "Lord of Doriath"
+#descr "The Lords of Doriath are the greatest leaders and warriors of that nation. Fair, noble and wise, they advise the king himself, and lead armies into battle in times of war."
+#rcost 1
+#gcost 10000
+#rpcost 2
+#reqlab
+#reqtemple
+#slowrec
+#hp 14
+#str 14
+#att 13
+#def 13
+#prec 13
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#enc 3
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Dwarf-Steel Blade"|844
+#armor "Khazad-Mail Hauberk"|316
+#armor "Khazad Half Helm"|317
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#expertleader
+#magicskill 6 3
+#magicskill 2 2
+#magicskill 8 1
+#custommagic 8704 100
+#custommagic 8704 50
+#spellsinger
 #end
