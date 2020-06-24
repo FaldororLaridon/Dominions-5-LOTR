@@ -456,8 +456,10 @@
 #stealthy 15
 #maxage 3000
 #diseaseres 100
+#autohealer 2
 #spiritsight
 #patrolbonus 1
+#nobadevents 20
 #nametype 175
 #poorleader
 #inspirational
