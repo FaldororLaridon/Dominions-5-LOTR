@@ -606,7 +606,7 @@
 #newmonster 3614
 #name "Eternal Friend"
 #fixedname "Beleg Cuthalion"
-#descr "
+#descr "TBD"
 #hp 14
 #str 13
 #att 13
@@ -638,5 +638,42 @@
 #magicskill 6 2
 #spellsinger
 #end
-
-
+#newmonster 3615
+#name "King of Doriath"
+#fixedname "Thingol"
+#descr "TBD"
+#hp 15
+#str 14
+#att 14
+#def 15
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon 
+#armor "Crown"|148
+#armor "Khazad-Mail Hauberk"|316
+#humanoid
+#startitem "Aranruth"|
+#unique
+#forestsurvival
+#startage 1500
+#maxage 3000
+#autohealer 1
+#diseaseres 100
+#awe 3
+#spiritsight
+#patrolbonus 2
+#incunrest -20
+#expertleader
+#command 40
+#magicskill 6 4
+#magicskill 4 1
+#magicskill 2 2
+#spellsinger
+#end
