@@ -57,6 +57,24 @@
 #blunt
 #secondaryeffect "Break Armor"|174
 #end
+#neweapon 845
+#name "Belthronding"
+#dmg 12
+#nratt 1
+#att 1
+#def 0
+#len 0
+#twohanded
+#sound 14
+#range 50
+#ammo 15
+#rcost 4
+#dt_normal
+#pierce
+#bowstr
+#woodenweapon
+#flyspr 109 1
+#end
 #newarmor 315
 #name "Khazad-Mail Cuirass"
 #type 5
@@ -392,7 +410,7 @@
 #gcost 10050
 #rpcost 2
 #hp 11
-#str 12
+#str 11
 #att 10
 #def 9
 #prec 11
@@ -451,6 +469,7 @@
 #weapon "Dwarven Dagger"|822
 #armor "Robe"|148
 #humanoid
+#female
 #holy
 #forestsurvival
 #stealthy 15
@@ -550,3 +569,74 @@
 #custommagic 8704 50
 #spellsinger
 #end
+#newmonster 3613
+#name "Hunter-Captain"
+#fixedname "Mablung Heavy-hand"
+#descr "Mablung is a captain of Doriath, and one of the most renowned warriors of Doriath. He and Beleg were the only Elves from Doriath to participate in the Battle of Unnumbered Tears, and they have both achieved many great deeds. Mablung is fiercely loyal to his people, but is a reasonable, level-headed man whose attempts at reason are often thwarted by proud or hot-headed people around him."
+#hp 14
+#str 15
+#att 13
+#def 13
+#prec 14
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Dwarf-Steel Blade"|844
+#weapon "Short Bow"|23
+#armor "Khazad-Mail Hauberk"|316
+#armor "Khazad Half Helm"|317
+#humanoid
+#unique
+#forestsurvival
+#stealthy 15
+#startage 400
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 5
+#expertleader 
+#magicskill 6 2
+#spellsinger
+#end
+#newmonster 3614
+#name "Eternal Friend"
+#fixedname "Beleg Cuthalion"
+#descr "
+#hp 14
+#str 13
+#att 13
+#def 13
+#prec 15
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Belthronding"|845
+#weapon "Dwarf-Steel Blade"|844
+#armor "Khazad-Mail Cuirass"|315
+#armor "Khazad Half Helm"|317
+#humanoid
+#unique
+#forestsurvival
+#stealthy 20
+#startage 420
+#maxage 3000
+#autohealer 1
+#diseaseres 100
+#spiritsight
+#patrolbonus 5
+#goodleader
+#magicskill 6 2
+#spellsinger
+#end
+
+
