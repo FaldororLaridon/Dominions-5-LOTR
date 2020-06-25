@@ -240,7 +240,7 @@
 #end
 #newmonster 3605
 #name "Orc-Hunter"
-#descr "Since the days when Thu first sent invasions of Orcs out from the fortress of Angband, Orcs have been one of the greatest threats to Doriath. Through the forests, silent and deadly, the Orc-Hunters mercilessly hunt down their quarry, knowing that any who survive their attacks might make it home to report to their commanders. The Orc-hunters carry the blessing of Queen Melian, and strike awe into their foes in battle. tehy are more lightly armoured than the protectors to allow for quicker and quieter speed, relying on their shields and awe to defend them."
+#descr "Since the days when Thu first sent invasions of Orcs out from the fortress of Angband, Orcs have been one of the greatest threats to Doriath. Through the forests, silent and deadly, the Orc-Hunters mercilessly hunt down their quarry, knowing that any who survive their attacks might make it home to report to their commanders. The Orc-hunters carry the blessing of Queen Melian, and strike awe into their foes in battle. Theyy are more lightly armoured than the protectors to allow for quicker and quieter speed, relying on their shields and awe to defend them."
 #reqtemple
 #rcost 1
 #gcost 30
