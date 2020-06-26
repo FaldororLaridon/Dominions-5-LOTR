@@ -491,7 +491,7 @@
 #end
 #newmonster 3611
 #name "Sindaran Minstril"
-#descr "The Elves have centuries to dedicate to the learning and perfecting of their crafts. Many prectice the playing of harps and lyres and beautiful musical instruments, but some focus on them to another level. Now that the armies of Doriath are marching forth, some of these Minstrils are marching with their armies to boost their morale. They are stealthy and can infiltrate enemy provinces with ease when not supporting an army."
+#descr "The Elves have centuries to dedicate to the learning and perfecting of their crafts. Many practice the playing of harps and lyres and beautiful musical instruments, but some focus on them to another level. Now that the armies of Doriath are marching forth, some of these Minstrils are marching with their armies to boost their morale. They are stealthy and can infiltrate enemy provinces with ease when not supporting an army."
 #rcost 1
 #gcost 10000
 #rpcost 1
