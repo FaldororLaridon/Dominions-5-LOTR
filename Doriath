@@ -75,6 +75,18 @@
 #woodenweapon
 #flyspr 109 1
 #end
+#newweapon 846
+#name "Aranruth"
+#dmg 9
+#nratt 2
+#att 2
+#def 3
+#len 1
+#sound 8
+#dt_normal
+#slash
+#pierce
+#end
 #newarmor 315
 #name "Khazad-Mail Cuirass"
 #type 5
@@ -677,3 +689,19 @@
 #magicskill 2 2
 #spellsinger
 #end
+
+
+
+
+
+#newitem
+#name "Aranruth"
+#constlevel 12
+#mainpath 3
+#mainpathlevel 5
+#type 1
+#descr "The Blade of the King of Doriath, forged as a gift by the Dwarves before the rising of the Sun."
+#weapon "Aranruth"|846
+#
+
+
