@@ -87,6 +87,18 @@
 #slash
 #pierce
 #end
+#newweapon 847
+#name "Angrist"
+#dmg 5
+#nr att 1
+#att 1
+#len 0
+#sound 7
+#rcost 3
+#pierce
+#slash
+#armornegating
+#end
 #newarmor 315
 #name "Khazad-Mail Cuirass"
 #type 5
@@ -667,7 +679,6 @@
 #mapmove 16
 #ap 16
 #eyes 2
-#weapon 
 #armor "Crown"|148
 #armor "Khazad-Mail Hauberk"|316
 #humanoid
@@ -689,6 +700,38 @@
 #magicskill 2 2
 #spellsinger
 #end
+#newmonster 3616
+#name "Fated Hero"
+#fixedname "Beren"
+#descr "TBD"
+#hp 12
+#str 12
+#att 13
+#def 14
+#prec 13
+#prot 0
+#size 2
+#mr 12
+#mor 18
+#enc 3
+#mapmove 14
+#ap 14
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Broad Sword"|8
+#armor "Chain Mail Cuirass"|8
+#humanoid
+#holy
+#unique
+#forestsurvival
+#mountainsurvival
+#stealthy 20
+#startage 20
+#maxage 80
+#domimmortal
+#awe 1
+#
+
 
 
 
@@ -702,6 +745,10 @@
 #type 1
 #descr "The Blade of the King of Doriath, forged as a gift by the Dwarves before the rising of the Sun."
 #weapon "Aranruth"|846
-#
+#str 3
+#def 2
+#slashres 
+#pierceres
+#end
 
 
