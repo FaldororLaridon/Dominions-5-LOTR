@@ -719,6 +719,7 @@
 #eyes 2
 #weapon "Short Bow"|23
 #weapon "Broad Sword"|8
+#weapon "Angrist"|847
 #armor "Chain Mail Cuirass"|8
 #humanoid
 #holy
@@ -728,10 +729,52 @@
 #stealthy 20
 #startage 20
 #maxage 80
-#domimmortal
+#immortal
 #awe 1
-#
-
+#ambidextrous 3
+#goodleader
+#inspirational 1
+#end
+#newmonster 3617
+#name "Princess of Doriath"
+#fixedname "Luthien Tinuviel"
+#descr "TBD"
+#hp 15
+#str 11
+#att 10
+#def 10
+#prec 14
+#prot 0
+#size 2
+#mr 14
+#mor 18
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Fist"|92
+#armor "Robes"|158
+#humanoid
+#female
+#holy
+#forestsurvival
+#stealthy 15
+#startage 1000
+#maxage 3000
+#autohealer 2
+#woundfend
+#immortal
+#awe 5
+#sleepaura 15
+#spiritsight
+#patrolbonus 1
+#noleader
+#magicskill 8 2
+#magicskill 6 4
+#magicskill 3 1
+#magicskill 4 2
+#spellsinger
+#end
 
 
 
