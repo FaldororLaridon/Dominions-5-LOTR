@@ -666,13 +666,13 @@
 #name "King of Doriath"
 #fixedname "Thingol"
 #descr "TBD"
-#hp 15
-#str 14
+#hp 17
+#str 15
 #att 14
 #def 15
 #prec 12
 #prot 0
-#size 2
+#size 3
 #mr 14
 #mor 15
 #enc 3
@@ -776,6 +776,7 @@
 #magicskill 6 4
 #magicskill 3 1
 #magicskill 4 2
+#magicskill 8 2
 #spellsinger
 #end
 #newmonster 3618
@@ -816,8 +817,141 @@
 #name "Queen of Doriath"
 #fixedname "Melian"
 #descr "TBD"
-
-
+#hp 25
+#str 12
+#att 11
+#def 10
+#prec 14
+#prot 0
+#size 2
+#mr 15
+#mor 15
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Fist"|92
+#armor "Robes"|158
+#humanoid
+#female
+#holy
+#magicbeing
+#forestsurvival
+#startage 1000
+#maxage 3000
+#homesick 50
+#autohealer 3
+#awe 5
+#springpower 20
+#spiritsight
+#nobadevents 30
+#spreaddom 1
+#okleader 
+#okmagicleader
+#magicskill 6 5
+#magicskill 4 3
+#magicskill 8 3
+#spellsinger 
+#end
+#newmonster 3620
+#name "Golden Lady"
+#fixedname "Galadriel"
+#descr "TBD"
+#hp 15
+#str 11
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Fist"|92
+#armor "Robes"|158
+#humanoid
+#female
+#startage 600
+#maxage 3000
+#autohealer 2
+#diseaseres 100
+#homesick 20
+#awe 3
+#spiritsight
+#patrolbonus 2
+#nobadevents 10
+#okleader
+#okmagicleader
+#magicskill 3 3
+#magicskill 4 2
+#magicskill 8 2
+#spellsinger
+#end
+#newmonster 3621
+#name "Manifestation of Doriath"
+#descr "TBD"
+#hp 10
+#str 10
+#att 11
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 50
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Spectral Spear"|280
+#armor "Spectral Shield"|156
+#humanoid
+#holy
+#magicbeing
+#float
+#maxage 3000
+#diseaseres 100
+#ethereal
+#spiritsight
+#neednoteat
+#nametypes 175
+#end
+#newmonster 3622
+#name "Manifestation Commander"
+#descr "TBD"
+#hp 10
+#str 10
+#att 11
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 50
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Spectral Sword"|281
+#armor "Spectral Shield"|156
+#humanoid
+#holy
+#magicbeing
+#float
+#maxage 3000
+#diseaseres 100
+#ethereal
+#spiritsight
+#neednoteat
+#nametypes 175
+#okleader
+#okmagicleader
+#magicskill 8 1
+#spellsinger
+#end
 
 
 
