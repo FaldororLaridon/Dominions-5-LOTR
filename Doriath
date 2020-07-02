@@ -14,7 +14,6 @@
 #dt_normal
 #pierce
 #armorpiercing
-#secondaryeffect "Sear Flesh"
 #end
 #newweapon 822
 #name "Dwarven Dagger"
@@ -28,21 +27,19 @@
 #dt_normal 
 #pierce
 #slash
-#armorpiercing
 #end
 #newweapon 844
 #name "Dwarf-steel blade"
-#dmg 6
+#dmg 7
 #nratt 1
-#att 2
-#def 1
+#att 1
+#def 2
 #len 1
 #sound 8
 #rcost 5
 #dt_normal
 #slash
 #pierce
-#armorpiercing
 #end
 #newweapon 814
 #name "Dwarf-Steel Hammer"
@@ -514,7 +511,7 @@
 #spellsinger
 #end
 #newmonster 3611
-#name "Sindaran Minstril"
+#name "Sindarin Minstril"
 #descr "The Elves have centuries to dedicate to the learning and perfecting of their crafts. Many practice the playing of harps and lyres and beautiful musical instruments, but some focus on them to another level. Now that the armies of Doriath are marching forth, some of these Minstrils are marching with their armies to boost their morale. They are stealthy and can infiltrate enemy provinces with ease when not supporting an army."
 #rcost 1
 #gcost 10000
@@ -953,7 +950,82 @@
 #magicskill 8 1
 #spellsinger
 #end
-
+#newsite 
+#name "Forest of Light"
+#path 6
+#loc 16384
+#gems 6 3
+#level 0
+#rarity 5
+#end
+#newsite
+#name "Menegroth"
+#path 3
+#loc 16384
+#level 0
+#rarity 5
+#homemon "Spiderslayer"|3603
+#homemon "Orc-Hunter"|3605
+#homecom "Lord of Doriath"|3612
+#homecom "Khazad Emmisary"|3609
+#end
+#newnation
+#name "Doriath"
+#epithet "Forest of Light"
+#era 1
+#descr "TBD"
+#summary "Race: Sindarin Elves, Disease immune, stealthy units"
+Military: Lightly armoured infantry and heavy infantry. Sacred units have awe."
+Magic: Mostly Nature and Water, some Earth and Astral
+Priests: Average, few"
+#brief "A stealthy forest-dwelling nation of Elves with Dwarven weapons and armour"
+#startsite "Forest of Light"
+#startsite "Menegroth"
+#likesterr 2
+#cavenation
+#hatesterr 8
+#ainaturenation
+#startcom "Border Captain"|3608
+#startscout "Doriath Scout"|3607
+#startunittype1 3600 
+#startunitnbrs1 20
+#startunittype2 3601
+#startunitnbrs2 10
+#addrecunit 3600
+#addrecunit 3601
+#addrecunit 3602
+#addrecunit 3603
+#addrecunit 3604
+#addreccom "Doriath Scout"|3607
+#addreccom "Border Captain"|3608
+#addreccom "Handmaiden of Melian"|3610
+#addreccom "Sindarin Minstril"|3611
+#hero1 3613
+#hero2 3614
+#hero3 3615
+#hero4 3616
+#hero5 3619
+#hero6 3620
+#defcom1 "Manifestation Commander"|3622
+#defcom2 "Manifestation Commander"|3622
+#defunit1 3600
+#defunit1b 3621
+#defunit2 3602
+#defunit2b 3621
+#defmult1 20
+#defmult1b 3
+#defmult2 10
+#defmult2b 5
+#wallcom "Border Captain"|3608
+#wallunit 3600
+#wallmult 10
+#homerealm 2
+#fortera 1
+#labcost 500
+#templecost 200
+#templepic 30
+#homefort 3
+#end
 
 
 
