@@ -1,1 +1,115 @@
-
+#newweapon 847
+#name "Elven Spear"
+#copyweapon "Spear"|1
+#magic
+#end
+#newmonster 3636
+#name "Edain Archer"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 12
+#hp 11
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 9
+#enc 3
+#mapmove 14
+#ap 14
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Short Sword"|6
+#armor "Chain Mail Cuirass"|8
+#armor "Iron Cap"|20
+#humanoid
+#maxage 80
+#nametype 175
+#end
+#newmonster 3637
+#name "Edain Spearman"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 12
+#hp 11
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 10
+#enc 3
+#mapmove 14
+#ap 14
+#eyes 2
+#weapon "Spear"|1
+#armor "Chain Mail Cuirass"|8
+#armor "Iron Cap"|20
+#armor "Shield"|2
+#humanoid
+#maxage 80
+#nametypes 175
+#end
+#newmonster 3638
+#name "Edain Swordsman"
+#descr "TBD"
+#rcost 1
+#gcost 12
+#rpcost 14
+#hp 12
+#str 11
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 14
+#ap 14
+#eyes 2
+#weapon "Broad Sword"|8
+#armor "Chain Mail Hauberk"|8
+#armor "Iron Cap"|20
+#armor "Shield"|2
+#humanoid
+#maxage 80
+#nametypes 175
+#end
+#newmonster 3639
+#name "Edain Knight"
+#descr "TBD"
+#rcost 1
+#gcost 30
+#rpcost 22
+#ressize 2
+#hp 12
+#str 11
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 3
+#mr 11
+#mor 13
+#enc 5
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Broad Sword"|8
+#armor "Chain Mail Hauberk"|8
+#armor "Iron Cap"|20
+#armor "Shield"|2
+#mountedhumanoid
+#mounted
+#maxage 80
+#nametypes 175
+#end
