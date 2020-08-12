@@ -145,5 +145,71 @@
 #end
 #newmonster 3638
 #name "Khazad Warrior"
-#descr "While the true strength of the Khazad is in the gleaming wall of steel that is their heavy infantry, there is also room for more nimble and light-footed Dwarves within the Khazad war machine. But let not the enemy be fooled, even with smaller shields and less armour, the Khazad Warriors are still a match for any heavy infantry of other nations
-#
+#descr "While the true strength of the Khazad is in the gleaming wall of steel that is their heavy infantry, there is also room for more nimble and light-footed Dwarves within the Khazad war machine. But let not the enemy be fooled, even with smaller shields and less armour, the Khazad Warriors are still a match for any heavy infantry of other nations. However, they do not wear the feared Dwarf-mask, and are much more vulnerable to fire."
+#rcost 2
+#gcost 25
+#rpcost 20
+#hp 11
+#str 10
+#att 10
+#def 9
+#prec 10
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarven Throwing Axe"|849
+#weapon "Dwarf-Steel Falchion"|817
+#armor "Dwarf-Mail Hauberk"|310
+#armor "Dwarf Half Helm"|307
+#armor "Dwarven Round Shield"|319
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#reinvigoration 2
+#darkvision 50
+#nametype 174
+#formationfighter -3
+#supplybonus -1
+#addupkeep 5
+#end
+#newmonster 3639
+#name "Khazad Warrior"
+#descr "While the true strength of the Khazad is in the gleaming wall of steel that is their heavy infantry, there is also room for more nimble and light-footed Dwarves within the Khazad war machine. But let not the enemy be fooled, even with smaller shields and less armour, the Khazad Warriors are still a match for any heavy infantry of other nations. However, they do not wear the feared Dwarf-mask, and are much more vulnerable to fire."
+#rcost 2
+#gcost 25
+#rpcost 20
+#hp 11
+#str 10
+#att 10
+#def 9
+#prec 10
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 14
+#ap 8
+#eyes 2
+#weapon "Dwarven Throwing Axe"|849
+#weapon "Dwarf-Steel Axe"|816
+#armor "Dwarf-Mail Hauberk"|310
+#armor "Dwarf Half Helm"|307
+#armor "Dwarven Round Shield"|319
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#reinvigoration 2
+#darkvision 50
+#nametype 174
+#formationfighter -3
+#supplybonus -1
+#addupkeep 5
+#end
