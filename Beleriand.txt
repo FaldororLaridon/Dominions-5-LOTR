@@ -3,7 +3,7 @@
 #copyweapon "Spear"|1
 #magic
 #end
-#newmonster 3636
+#newmonster 3640
 #name "Edain Archer"
 #descr "TBD"
 #rcost 1
@@ -30,7 +30,7 @@
 #maxage 80
 #nametype 175
 #end
-#newmonster 3637
+#newmonster 3641
 #name "Edain Spearman"
 #descr "TBD"
 #rcost 1
@@ -57,7 +57,7 @@
 #maxage 80
 #nametypes 175
 #end
-#newmonster 3638
+#newmonster 3642
 #name "Edain Swordsman"
 #descr "TBD"
 #rcost 1
@@ -84,7 +84,7 @@
 #maxage 80
 #nametypes 175
 #end
-#newmonster 3639
+#newmonster 3643
 #name "Edain Knight"
 #descr "TBD"
 #rcost 1
@@ -113,3 +113,37 @@
 #maxage 80
 #nametypes 175
 #end
+
+
+
+
+
+
+
+#newarmor 319
+#name "Dwarven Round Shield"
+#type 4
+#prot 21
+#def 4
+#enc 1
+#rcost 6
+#magicarmor
+#end
+#newweapon 849
+#name 'Dwarven Throwing Axe"
+#dmg 5
+#nratt 1
+#att -2
+#def 0
+#sound 10
+#range -1
+#ammo 4
+#rcost 3
+#dt_normal
+#slash
+#flyspr 411 4
+#end
+#newmonster 3638
+#name "Khazad Warrior"
+#descr "While the true strength of the Khazad is in the gleaming wall of steel that is their heavy infantry, there is also room for more nimble and light-footed Dwarves within the Khazad war machine. But let not the enemy be fooled, even with smaller shields and less armour, the Khazad Warriors are still a match for any heavy infantry of other nations
+#
