@@ -49,7 +49,7 @@
 #darkvision 100
 #pillagebonus 1
 #incunrest 2
-#nametye (Orc)
+#nametype (Orc)
 #slave
 #undisciplined
 #end
@@ -81,7 +81,7 @@
 #darkvision 100
 #pillagebonus 1
 #incunrest 5
-#nametye (Orc)
+#nametype (Orc)
 #end
 #newmonster 3752
 #name "Goblin Raider"
@@ -115,7 +115,7 @@
 #darkvision 100
 #pillagebonus 2
 #incunrest 5
-#nametye (Orc)
+#nametype (Orc)
 #undisciplined
 #end
 #newmonster 3753
@@ -150,7 +150,7 @@
 #darkvision 100
 #pillagebonus 2
 #incunrest 5
-#nametye (Orc)
+#nametype (Orc)
 #undisciplined
 #end
 #newmonster 3754
@@ -180,7 +180,7 @@
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
-#nametye (Orc)
+#nametype (Orc)
 #undisciplined
 #end
 #newmonster 3755
@@ -210,7 +210,7 @@
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
-#nametye (Orc)
+#nametype (Orc)
 #undisciplined
 #end
 #newmonster 3756
@@ -243,7 +243,7 @@
 #darkvision 100
 #pillagebonus 2
 #incunrest 5
-#nametye (Orc)
+#nametype (Orc)
 #undisciplined
 #end
 #newmonster 3757
@@ -275,7 +275,7 @@
 #darkvision 100
 #castledefence 1
 #pillagebonus 1
-#nametye (Orc)
+#nametype (Orc)
 #end
 #newmonster 3758
 #name "Bolg's Guard"
