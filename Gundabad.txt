@@ -1,1 +1,328 @@
+#neweapon 900
+#name "Orcish Blade"
+#damage 5
+#nratt 1
+#att 1
+#def 0
+#len 1
+#sound 7
+#rcost 2
+#dt_normal
+#slash
+#secondaryeffect "Weak Poison"|50
+#ironweapon
+#end
 
+#newarmor 600
+#name "Scavenged Dwarf-Mail"
+#type 5
+#prot 14
+#def -2
+#enc 2
+#rcost 30
+#end
+
+#newmonster 3750
+#name "Goblin Snaga"
+#descr "Small, weak and cowardly, the Goblin Snagas are nothing more than fodder for their overlords, to be driven shrieking into enemy lines before the real battle begins."
+#rcost 1
+#gcost 5
+#rpcost 6
+#hp 6
+#str 10
+#att 7
+#def 7
+#prec 7
+#size 1
+#mr 8
+#morale 6
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Spear"|1
+#armor "Furs"|44
+#humanoid
+#mountainsurvival
+#stealthy 
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#incunrest 2
+#nametye (Orc)
+#slave
+#undisciplined
+#end
+#newmonster 3751
+#name "Goblin Runner"
+#descr "Even among the smaller and weaker of the Orcs of the Misty Mountains there can be some use made. The Runners have the keenest vision, and the quietest feet of the Orcs, and they can be used to outflank the enemy and pummel them with arrows where they are not expecting it.
+#rcost 1
+#gcost 8
+#rpcost 8
+#hp 7
+#str 10
+#att 7
+#def 7
+#prec 9
+#size 1
+#mr 8
+#morale 7
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Dagger"|9
+#armor "Furs"|44
+#humanoid
+#mountainsurvival
+#stealthy 20
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#incunrest 5
+#nametye (Orc)
+#end
+#newmonster 3752
+#name "Goblin Raider"
+#descr "The alliance between the Wargs and the Orcs of Gundabad is perhaps their greatest weapon. Riding on these fierce mounts, the goblins can move much swifter"
+#rcost 1
+#gcost 10
+#rpcost 14
+#resize 1
+#hp 7
+#str 10
+#att 8
+#def 8
+#prec 9
+#size 2
+#mr 8
+#morale 9
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Orcish Blade"|900
+#weapon "Bite"|237
+#armor "Leather Cuirass"|5
+#armor "Leather Cap"|120
+#armor "Shield"|2
+#mountedhumanoid
+#mounted
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#pillagebonus 2
+#incunrest 5
+#nametye (Orc)
+#undisciplined
+#end
+#newmonster 3753
+#name "Goblin Raider"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 14
+#resize 1
+#hp 7
+#str 10
+#att 8
+#def 8
+#prec 9
+#size 2
+#mr 8
+#morale 9
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Orcish Blade"|900
+#weapon "Bite"|237
+#armor "Leather Cuirass"|5
+#armor "Leather Cap"|120
+#mountedhumanoid
+#mounted
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#pillagebonus 2
+#incunrest 5
+#nametye (Orc)
+#undisciplined
+#end
+#newmonster 3754
+#name "Mountain Orc Raider"
+#descr "TBD"
+#rcost 1
+#gcost 8
+#rpcost 8
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#size 1
+#mr 8
+#morale 8
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Battleaxe"|18
+#weapon "Javelin"|21
+#armor "Furs"|44
+#humanoid
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#nametye (Orc)
+#undisciplined
+#end
+#newmonster 3755
+#name "Mountain Orc Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 8
+#rpcost 8
+#hp 8
+#str 12
+#att 9
+#def 9
+#prec 8
+#size 1
+#mr 8
+#morale 9
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Orcish Blade"|900
+#armor "Leather Hauberk"|10
+#armor "Shield"|2
+#humanoid
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#nametye (Orc)
+#undisciplined
+#end
+#newmonster 3756
+#name "Warg Rider"
+#descr "TBD"
+#rcost 1
+#gcost 15
+#rpcost 20
+#hp 8
+#str 12
+#att 9
+#def 9
+#prec 8
+#size 3
+#mr 8
+#morale 10
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Orcish Blade"|900
+#weapon "Bite"|237
+#armor "Leather Hauberk"|10
+#armor "Shield"|2
+#mountedhumanoid
+#mounted
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#pillagebonus 2
+#incunrest 5
+#nametye (Orc)
+#undisciplined
+#end
+#newmonster 3757
+#name "Gundabad Soldier"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 10
+#hp 8
+#str 13
+#att 10
+#def 10
+#prec 8
+#size 1
+#mr 8
+#morale 10
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Orcish Blade"|900
+#armor "Orc-Mail Hauberk"
+#armor "Iron Cap"|20
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#stealthy
+#maxage 1000
+#darkvision 100
+#castledefence 1
+#pillagebonus 1
+#nametye (Orc)
+#end
+#newmonster 3758
+#name "Bolg's Guard"
+#descr "TBD"
+#rcost 1
+#gcost 40
+#rpcost 18
+#reqtemple
+#hp 13
+#str 15
+#att 11
+#def 11
+#prec 8
+#size 2
+#mr 8
+#morale 15
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Poisoned Scimitar"|805
+#armor "Scavenged Dwarf-Mail"|600
+#armor "Iron Cap"|20
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#mountainsurvival
+#maxage 1000
+#invulnerable 10
+#darkvision 100
+#castledef 1
+#nametype (orcs)
+#bodyguard 2
+#standard 1
+#end
+#newmonster 3759
+#name "Mountain Wolf"
+#descr "TBD"
+#hp 8
+#str 15
+#att 11
+#def 11
+#prec 8
+#size 2
+#mr 8
+#morale 15
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
