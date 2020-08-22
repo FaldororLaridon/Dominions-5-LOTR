@@ -1,7 +1,22 @@
 #newweapon 847
-#name "Elven Spear"
+#name "Elvish Spear"
 #copyweapon "Spear"|1
 #magic
+#end
+#newweapon 848
+#name "Elvish Greatsword"
+#copyweapon "Greatsword"|11
+#magic
+#end
+#newweapon 849
+#name "Elvish Lance"
+#copyweapon "Light Lance"|596
+#magic
+#end
+#newweapon 850
+#name "Nargothrond Longbow"
+#copyweapon "Long Bow"|24
+#secondaryeffect "Strong Poison"|51
 #end
 #newmonster 3640
 #name "Edain Archer"
@@ -87,7 +102,7 @@
 #newmonster 3643
 #name "Edain Knight"
 #descr "TBD"
-#rcost 1
+#rcost 10
 #gcost 30
 #rpcost 22
 #ressize 2
@@ -102,7 +117,7 @@
 #mor 13
 #enc 5
 #mapmove 20
-#ap 22
+#ap 20
 #eyes 2
 #weapon "Broad Sword"|8
 #armor "Chain Mail Hauberk"|8
@@ -113,103 +128,293 @@
 #maxage 80
 #nametypes 175
 #end
-
-
-
-
-
-
-
-#newarmor 319
-#name "Dwarven Round Shield"
-#type 4
-#prot 21
-#def 4
-#enc 1
-#rcost 6
-#magicarmor
-#end
-#newweapon 849
-#name 'Dwarven Throwing Axe"
-#dmg 5
-#nratt 1
-#att -2
-#def 0
-#sound 10
-#range -1
-#ammo 4
-#rcost 3
-#dt_normal
-#slash
-#flyspr 411 4
-#end
-#newmonster 3638
-#name "Khazad Warrior"
-#descr "While the true strength of the Khazad is in the gleaming wall of steel that is their heavy infantry, there is also room for more nimble and light-footed Dwarves within the Khazad war machine. But let not the enemy be fooled, even with smaller shields and less armour, the Khazad Warriors are still a match for any heavy infantry of other nations. However, they do not wear the feared Dwarf-mask, and are much more vulnerable to fire."
-#rcost 2
-#gcost 25
+#newmonster 3644
+#name "Cu"
+#descr "TBD"
+#rcost 1
+#gcost 30
 #rpcost 20
-#hp 11
-#str 10
+#hp 14
+#str 13
 #att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Long Bow"|24
+#weapon "Elvish Dagger"|825
+#armor "Elf-Mail Cuirass"|314
+#armor "Crested Helmet"|162
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight 
+#patrolbonus 1
+#nametype 100
+#end
+#newmonster 3645
+#name "Ehtyar"
+#rcost 1
+#gcost 40
+#rpcost 20
+#hp 14
+#str 13
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Spear"|847
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight 
+#patrolbonus 1
+#nametype 100
+#end
+#newmonster 3646
+#name "Macar"
+#descr "TBD"
+#rcost 1
+#gcost 45
+#rpcost 22
+#hp 14
+#str 13
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight 
+#patrolbonus 1
+#nametype 100
+#end
+#newmonster 3647
+#name "Roquen of Hithlum"
+#descr "TBD"
+#rcost 12
+#gcost 60
+#rpcost 36
+#resize 2
+#hp 14
+#str 14
+#att 13
+#def 12
+#prec 12
+#prot 0
+#size 3
+#mr 13
+#mor 15
+#enc 5
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"|849
+#weapon "Elvish Blade"|824
+#weapon "Hoof"|615
+#armor "Elf-Mail Hauberk"|313
+#armor "Hoplite Helmet"|123
+#armor "Iron Shield"|208
+#mountedhumanoid
+#mounted
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight 
+#patrolbonus 1
+#nametype 100
+#end
+#newmonster 3648
+#name "Ranger of Nargothrond"
+#descr "TBD"
+#rcost 1
+#gcost 50
+#rpcost 26
+#hp 14
+#str 13
+#att 11
+#def 11
+#prec 13
+#prot 0
+#size 2
+#mr 13
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Nargothrond Longbow"|24
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Cuirass"|314
+#armor "Leather Hood"|121
+#humanoid
+#stealthy 20
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight
+#patrolbonus 3
+#end
+#newmonster 3649
+#name "Helcaraxe Veteran"
+#descr "TBD"
+#rcost 1
+#gcost 50
+#rpcost 30
+#reqtemple
+#hp 17
+#str 14
+#att 13
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 15
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Axe"|823
+#armor "Elf-Mail Hauberk"|313
+#armor "Hoplite Helmet"|123
+#armor "Iron Shield"|208
+#humanoid
+#holy
+#snow
+#maxage 3000
+#older 200
+#diseaseres 100
+#coldres 10
+#awe 1
+#spiritsight
+#patrolbonus 1
+#nametype 100
+#end
+#newmonster 3650
+#name "Feanoran Guard"
+#descr "TBD"
+#rcost 1
+#gcost 50
+#rpcost 26
+#reqtemple
+#hp 14
+#str 14
+#att 14
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 11
+#mor 15
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Greatsword"|848
+#armor "Elf-Mail Hauberk"|313
+#armor "Hoplite Helmet"|123
+#humanoid
+#holy
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight
+#patrolbonus 1
+#incunrest 5
+#nametype 100
+#bodyguard 1
+#end
+#newmonster 3651
+#name "Warrior of Haleth"
+#descr "TBD"
+#rcost 1
+#gcost 8
+#rpcost 10
+#hp 11
+#str 11
+#att 9
 #def 9
 #prec 10
 #prot 0
-#size 1
-#mr 15
-#mor 15
-#enc 2
+#size 2
+#mr 10
+#mor 10
+#enc 3
 #mapmove 14
-#ap 8
+#ap 12
 #eyes 2
-#weapon "Dwarven Throwing Axe"|849
-#weapon "Dwarf-Steel Falchion"|817
-#armor "Dwarf-Mail Hauberk"|310
-#armor "Dwarf Half Helm"|307
-#armor "Dwarven Round Shield"|319
+#weapon "Battleaxe"|18
+#armor "Leather Hauberk"|10
 #humanoid
-#mountainsurvival
-#maxage 230
-#fireres 5
-#reinvigoration 2
-#darkvision 50
-#nametype 174
-#formationfighter -3
-#supplybonus -1
-#addupkeep 5
+#female
+#forestsurvival
+#stealthy
+#maxage 50
+#nametype 100
 #end
-#newmonster 3639
-#name "Khazad Warrior"
-#descr "While the true strength of the Khazad is in the gleaming wall of steel that is their heavy infantry, there is also room for more nimble and light-footed Dwarves within the Khazad war machine. But let not the enemy be fooled, even with smaller shields and less armour, the Khazad Warriors are still a match for any heavy infantry of other nations. However, they do not wear the feared Dwarf-mask, and are much more vulnerable to fire."
-#rcost 2
-#gcost 25
-#rpcost 20
-#hp 11
-#str 10
+#newmonster 3652
+#name "Drug"
+#descr "TBD"
+#rcost 1
+#gcost 6
+#rpcost 16
+#hp 8
+#str 9
 #att 10
-#def 9
-#prec 10
+#def 10
+#prec 11
 #prot 0
 #size 1
-#mr 15
-#mor 15
-#enc 2
-#mapmove 14
-#ap 8
+#mr 14
+#mor 12
+#enc 3
+#mapmove 10
+#ap 10
 #eyes 2
-#weapon "Dwarven Throwing Axe"|849
-#weapon "Dwarf-Steel Axe"|816
-#armor "Dwarf-Mail Hauberk"|310
-#armor "Dwarf Half Helm"|307
-#armor "Dwarven Round Shield"|319
+#weapon "Poison Tipped Spear"|519
+#armor "Furs"|44
 #humanoid
-#mountainsurvival
-#maxage 230
-#fireres 5
-#reinvigoration 2
+#forestsurvival
+#stealthy 20
+#maxage 30
+#fear 5
 #darkvision 50
-#nametype 174
-#formationfighter -3
-#supplybonus -1
-#addupkeep 5
+#patrolbonus 5
+#neednoteat
+#nametype 100
 #end
+
+
+
