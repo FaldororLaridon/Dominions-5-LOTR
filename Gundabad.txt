@@ -33,6 +33,7 @@
 #att 7
 #def 7
 #prec 7
+#prot 0
 #size 1
 #mr 8
 #morale 6
@@ -64,6 +65,7 @@
 #att 7
 #def 7
 #prec 9
+#prot 0
 #size 1
 #mr 8
 #morale 7
@@ -76,7 +78,7 @@
 #armor "Furs"|44
 #humanoid
 #mountainsurvival
-#stealthy 20
+#stealthy 10
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
@@ -95,6 +97,7 @@
 #att 8
 #def 8
 #prec 9
+#prot 0
 #size 2
 #mr 8
 #morale 9
@@ -130,6 +133,7 @@
 #att 8
 #def 8
 #prec 9
+#prot 0
 #size 2
 #mr 8
 #morale 9
@@ -164,6 +168,7 @@
 #att 8
 #def 8
 #prec 8
+#prot 0
 #size 1
 #mr 8
 #morale 8
@@ -194,6 +199,7 @@
 #att 9
 #def 9
 #prec 8
+#prot 0
 #size 1
 #mr 8
 #morale 9
@@ -224,6 +230,7 @@
 #att 9
 #def 9
 #prec 8
+#prot 0
 #size 3
 #mr 8
 #morale 10
@@ -257,6 +264,7 @@
 #att 10
 #def 10
 #prec 8
+#prot 0
 #size 1
 #mr 8
 #morale 10
@@ -281,7 +289,7 @@
 #name "Bolg's Guard"
 #descr "TBD"
 #rcost 1
-#gcost 40
+#gcost 25
 #rpcost 18
 #reqtemple
 #hp 13
@@ -289,6 +297,7 @@
 #att 11
 #def 11
 #prec 8
+#prot 0
 #size 2
 #mr 8
 #morale 15
@@ -312,17 +321,48 @@
 #standard 1
 #end
 #newmonster 3759
-#name "Mountain Wolf"
+#name "Warg"
 #descr "TBD"
-#hp 8
-#str 15
+#hp 11
+#str 10
 #att 11
 #def 11
-#prec 8
+#prec 5
 #size 2
 #mr 8
-#morale 15
+#morale 12
+#enc 2
+#mapmove 22
+#ap 26
+#eyes 2
+#weapon "Bite"|20
+#quadroped
+#animal
+#snow
+#mountainsurvival
+#forestsurvival
+#stealthy
+#maxage 80
+#undisciplined
+#end
+#newmonster 3760
+#name "Warg-Blooded"
+#descr "TBD"
+#reqtemple
+#rcost 1
+#gcost 20
+#rpcost 12
+#hp 8
+#str 13
+#att 10
+#def 10
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 10
 #enc 2
 #mapmove 16
 #ap 12
 #eyes 2
+
