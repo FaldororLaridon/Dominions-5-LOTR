@@ -301,7 +301,7 @@
 #size 2
 #mr 8
 #morale 15
-#enc 2
+#enc 3
 #mapmove 16
 #ap 12
 #eyes 2
@@ -352,7 +352,7 @@
 #rcost 1
 #gcost 20
 #rpcost 12
-#hp 8
+#hp 10
 #str 13
 #att 10
 #def 10
@@ -360,9 +360,25 @@
 #prot 0
 #size 1
 #mr 8
-#morale 10
+#morale 11
 #enc 2
 #mapmove 16
 #ap 12
 #eyes 2
+#weapon "Poison Tipped Spear"|519
+#armor "Magic Furs"|192
+#armor "Hide Shield"|105
+#humanoid
+#holy
+#snow
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#coldres 5
+#animalawe 1
+#darkvision 100
+#pillagebonus 1
+#batstartsum1 "Warg"|3759
+#nametype (ORC)
+#end
 
