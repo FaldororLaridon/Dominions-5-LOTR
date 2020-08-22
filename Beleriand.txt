@@ -157,7 +157,7 @@
 #awe 1
 #spiritsight 
 #patrolbonus 1
-#nametype 100
+#nametype 175
 #end
 #newmonster 3645
 #name "Ehtyar"
@@ -187,7 +187,7 @@
 #awe 1
 #spiritsight 
 #patrolbonus 1
-#nametype 100
+#nametype 175
 #end
 #newmonster 3646
 #name "Macar"
@@ -218,7 +218,7 @@
 #awe 1
 #spiritsight 
 #patrolbonus 1
-#nametype 100
+#nametype 175
 #end
 #newmonster 3647
 #name "Roquen of Hithlum"
@@ -253,7 +253,7 @@
 #awe 1
 #spiritsight 
 #patrolbonus 1
-#nametype 100
+#nametype 175
 #end
 #newmonster 3648
 #name "Ranger of Nargothrond"
@@ -285,6 +285,7 @@
 #awe 1
 #spiritsight
 #patrolbonus 3
+#nametype 175
 #end
 #newmonster 3649
 #name "Helcaraxe Veteran"
@@ -320,7 +321,7 @@
 #awe 1
 #spiritsight
 #patrolbonus 1
-#nametype 100
+#nametype 175
 #end
 #newmonster 3650
 #name "Feanoran Guard"
@@ -353,7 +354,7 @@
 #spiritsight
 #patrolbonus 1
 #incunrest 5
-#nametype 100
+#nametype 175
 #bodyguard 1
 #end
 #newmonster 3651
