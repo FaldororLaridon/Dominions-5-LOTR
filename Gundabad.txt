@@ -113,7 +113,7 @@
 #mountedhumanoid
 #mounted
 #mountainsurvival
-#stealthy 10
+#stealthy 
 #maxage 1000
 #darkvision 100
 #pillagebonus 2
@@ -149,7 +149,7 @@
 #mountedhumanoid
 #mounted
 #mountainsurvival
-#stealthy 10
+#stealthy
 #maxage 1000
 #darkvision 100
 #pillagebonus 2
@@ -181,7 +181,7 @@
 #armor "Furs"|44
 #humanoid
 #mountainsurvival
-#stealthy 10
+#stealthy 
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
@@ -209,10 +209,11 @@
 #eyes 2
 #weapon "Orcish Blade"|900
 #armor "Leather Hauberk"|10
+#armor "Iron Cap"|20
 #armor "Shield"|2
 #humanoid
 #mountainsurvival
-#stealthy 10
+#stealthy 
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
@@ -241,11 +242,12 @@
 #weapon "Orcish Blade"|900
 #weapon "Bite"|237
 #armor "Leather Hauberk"|10
+#armor "Iron Cap"|20
 #armor "Shield"|2
 #mountedhumanoid
 #mounted
 #mountainsurvival
-#stealthy 10
+#stealthy 
 #maxage 1000
 #darkvision 100
 #pillagebonus 2
@@ -328,6 +330,7 @@
 #att 11
 #def 11
 #prec 5
+#prot 4
 #size 2
 #mr 8
 #morale 12
@@ -336,13 +339,15 @@
 #ap 26
 #eyes 2
 #weapon "Bite"|20
-#quadroped
+#quadruped
 #animal
 #snow
 #mountainsurvival
 #forestsurvival
-#stealthy
+#stealthy 10
 #maxage 80
+#fireres -5
+#patrolbonus 1
 #undisciplined
 #end
 #newmonster 3760
@@ -381,4 +386,187 @@
 #batstartsum1 "Warg"|3759
 #nametype (ORC)
 #end
-
+#newmonster 3761
+#name "Slave"
+#descr "TBD"
+#rcost 1
+#gcost 2
+#rpcost 4
+#hp 10
+#str 10
+#att 6
+#def 6
+#prec 5
+#prot 0
+#size 2
+#mr 10
+#morale 6
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#humanoid
+#maxage 50
+#resources 1
+#nametype 100
+#end
+#newmonster 3762
+#name "Gundabad Taskmaster"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 9
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Whip"|40
+#armor "Furs"|44
+#humanoid
+#mountainsurvival
+#maxage 1000
+#darkvision 100
+#nametype (ORC)
+#poorleader
+#command 70
+#taskmaster 2
+#end
+#newmonster 3763
+#name "Goblin Scout"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 7
+#str 10
+#att 7
+#def 7
+#prec 9
+#prot 0
+#size 1
+#mr 8
+#morale 7
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Dagger"|9
+#armor "Furs"|44
+#humanoid
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#nametype orc
+#noleader
+#end
+#newmonster 2764
+#name "Goblin Shadow"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#resize 1
+#hp 7
+#str 10
+#att 9
+#def 8
+#prec 9
+#prot 0
+#size 2
+#mr 8
+#morale 9
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Orcish Blade"|900
+#weapon "Bite"|237
+#armor "Leather Cuirass"|5
+#armor "Leather Cap"|120
+#armor "Shield"|2
+#mountedhumanoid
+#mounted
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#nametype orc
+#noleader
+#end
+#newmonster 2765
+#name "Warg Chieftain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 28
+#str 16
+#att 13
+#def 9
+#prec 5
+#prot 6
+#size 3
+#mr 13
+#morale 12
+#enc 2
+#mapmove 22
+#ap 26
+#eyes 2
+#weapon "Bite"|20
+#quadruped
+#animal
+#mountainsurvival
+#snow
+#forestsurvival
+#stealthy
+#maxage 80
+#fireres -5
+#patrolbonus 5
+#nametype 140
+#poorleader
+#command 50
+#beastmaster 2
+#end
+#newmonster 2766
+#name "Hound of Sauron"
+#TBD"
+#reqtemple
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 28
+#str 16
+#att 13
+#def 9
+#prec 5
+#prot 6
+#size 3
+#mr 13
+#morale 12
+#enc 2
+#mapmove 22
+#ap 26
+#eyes 2
+#weapon "Bite"|20
+#quadruped
+#animal
+#mountainsurvival
+#snow
+#forestsurvival
+#stealthy 20
+#spy
+#maxage 80
+#fireres -5
+#patrolbonus 5
+#nametype 140
