@@ -540,7 +540,7 @@
 #end
 #newmonster 2766
 #name "Hound of Sauron"
-#TBD"
+#descr "TBD"
 #reqtemple
 #rcost 1
 #gcost 10000
@@ -560,6 +560,7 @@
 #eyes 2
 #weapon "Bite"|20
 #quadruped
+#holy
 #animal
 #mountainsurvival
 #snow
@@ -570,3 +571,151 @@
 #fireres -5
 #patrolbonus 5
 #nametype 140
+#noleader
+#magicskill 8 1
+#end
+#newmonster 2767
+#name "Orc Chieftain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 9
+#str 14
+#att 10
+#def 10
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 11
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Poisoned Scimitar"|805
+#armor "Orc-Mail Hauberk"
+#armor "Iron Cap"|20
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#stealthy
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#nametype (Orc)
+#okleader
+#command 110
+#end
+#newmonster 2768
+#name "Orc Scavenger"
+#descr "TBD"
+#reqlab
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 8
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 10
+#morale 10
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"|7
+#armor "Furs"|44
+#humanoid
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#nametype orc
+#noleader
+#magicskill 3 1
+#magicskill 0 1
+#custommagic 17536 100
+#custommagic 17536 10
+#researchbonus -2
+#end
+#newmonster 2769
+#name "Hand of Shadow"
+#descr "TBD"
+#reqtemple
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 8
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 10
+#morale 10
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Poison Dagger"|126
+#armor "Leather Cuirass"|5
+#humanoid
+#holy
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#nametype orc
+#noleader
+#magicskill 8 2
+#end
+#newmonster 2770
+#name "Wargcaller"
+#descr "TBD"
+#reqlab
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 10
+#str 13
+#att 10
+#def 10
+#prec 8
+#prot 0
+#size 1
+#mr 11
+#morale 11
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Poison Tipped Spear"|519
+#armor "Magic Furs"|192
+#humanoid
+#holy
+#snow
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#coldres 5
+#animalawe 1
+#darkvision 100
+#pillagebonus 1
+#batstartsum5 "Warg"|3759
+#nametype (ORC)
+#okleader
+#command 60
+#beastmaster 1
+#magicskill 6 2
+#custommagic 21504 100
+#custommagic 21504 10
+#end
+#newmonster 2771
+#name "Slavemaster"
+
+
