@@ -18,6 +18,10 @@
 #copyweapon "Long Bow"|24
 #secondaryeffect "Strong Poison"|51
 #end
+#newarmor 315
+#name "Noldor Helm"
+#copyarmor "Hoplite Helmet" 123
+#end
 #newmonster 3640
 #name "Edain Archer"
 #descr "TBD"
@@ -160,11 +164,11 @@
 #nametype 175
 #end
 #newmonster 3645
-#name "Ehtyar"
+#name "Ehtyar of Hithlum"
 #rcost 1
-#gcost 40
+#gcost 45
 #rpcost 20
-#hp 14
+#hp 16
 #str 13
 #att 12
 #def 12
@@ -185,18 +189,19 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
+#coldres 10
 #spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
 #newmonster 3646
-#name "Macar"
+#name "Macar of Hithlum"
 #descr "TBD"
 #rcost 1
-#gcost 45
+#gcost 50
 #rpcost 22
-#hp 14
-#str 13
+#hp 16
+#str 15
 #att 12
 #def 12
 #prec 12
@@ -216,10 +221,31 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
+#coldres 10
 #spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #newmonster 3647
 #name "Roquen of Hithlum"
 #descr "TBD"
@@ -417,5 +443,11 @@
 #nametype 100
 #end
 
-
+*change swordsman and spearman to Hithlum equivelents, extra health and cold resistance, hardier.
+*add horse archers
+*remove sacred from Feanoran guard
+*remove Helcaraxe warrior
+*add soldier with axe and dwarf-made armour
+*add Valinoran hounds and other Valinor units as sacreds, including Eagles of Manwe
+*remember to check and make sure magic resistance is at least one lower than base tuatha*Sindar units for coastal
 
