@@ -227,9 +227,41 @@
 #patrolbonus 1
 #nametype 175
 #end
-
-
-
+#newmonster 3647
+#name "Beleriandic Warden"
+#descr "TBD"
+#rcost 1
+#gcost 50
+#rpcost 26
+#hp 14
+#str 13
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Axe"|823
+#armor "Dwarf-Mail Hauberk"|311
+#armor "Noldor Helm"|315
+#armor "Iron Shield"|208
+#humanoid
+#mountain survival
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight 
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3648
+#name "Hithlum Horse Archer"
+#descr "TBD"
 
 
 
@@ -271,7 +303,7 @@
 #weapon "Elvish Blade"|824
 #weapon "Hoof"|615
 #armor "Elf-Mail Hauberk"|313
-#armor "Hoplite Helmet"|123
+#armor "Noldor Helm"|315
 #armor "Iron Shield"|208
 #mountedhumanoid
 #mounted
@@ -372,7 +404,7 @@
 #eyes 2
 #weapon "Feanoran Blade"|848
 #armor "Elf-Mail Hauberk"|313
-#armor "Hoplite Helmet"|123
+#armor "Noldor Helm"|315
 #humanoid
 #maxage 3000
 #diseaseres 100
