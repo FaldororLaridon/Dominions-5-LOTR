@@ -4,9 +4,10 @@
 #magic
 #end
 #newweapon 848
-#name "Elvish Greatsword"
+#name "Feanoran Blade"
 #copyweapon "Greatsword"|11
 #magic
+#secondaryeffect "Bane of Heresy"|509
 #end
 #newweapon 849
 #name "Elvish Lance"
@@ -125,7 +126,7 @@
 #eyes 2
 #weapon "Broad Sword"|8
 #armor "Chain Mail Hauberk"|8
-#armor "Iron Cap"|20
+#armor "Half Helmet"|118
 #armor "Shield"|2
 #mountedhumanoid
 #mounted
@@ -146,7 +147,7 @@
 #prot 0
 #size 2
 #mr 13
-#mor 13
+#mor 12
 #enc 3
 #mapmove 16
 #ap 14
@@ -183,7 +184,7 @@
 #eyes 2
 #weapon "Elvish Spear"|847
 #armor "Elf-Mail Hauberk"|313
-#armor "Crested Helmet"|162
+#armor "Noldor Helm"|315
 #armor "Iron Shield"|208
 #humanoid
 #maxage 3000
@@ -215,7 +216,7 @@
 #eyes 2
 #weapon "Elvish Blade"|824
 #armor "Elf-Mail Hauberk"|313
-#armor "Crested Helmet"|162
+#armor "Noldor Helm"|315
 #armor "Iron Shield"|208
 #humanoid
 #maxage 3000
@@ -247,7 +248,7 @@
 
 
 #newmonster 3647
-#name "Roquen of Hithlum"
+#name "Noldor Roquen"
 #descr "TBD"
 #rcost 12
 #gcost 60
@@ -261,7 +262,7 @@
 #prot 0
 #size 3
 #mr 13
-#mor 15
+#mor 14
 #enc 5
 #mapmove 26
 #ap 24
@@ -369,11 +370,10 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Elvish Greatsword"|848
+#weapon "Feanoran Blade"|848
 #armor "Elf-Mail Hauberk"|313
 #armor "Hoplite Helmet"|123
 #humanoid
-#holy
 #maxage 3000
 #diseaseres 100
 #awe 1
