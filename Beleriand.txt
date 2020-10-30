@@ -147,7 +147,7 @@
 #prot 0
 #size 2
 #mr 13
-#mor 12
+#mor 11
 #enc 3
 #mapmove 16
 #ap 14
@@ -170,7 +170,7 @@
 #gcost 45
 #rpcost 20
 #hp 16
-#str 13
+#str 14
 #att 12
 #def 12
 #prec 12
@@ -202,7 +202,7 @@
 #gcost 50
 #rpcost 22
 #hp 16
-#str 15
+#str 14
 #att 12
 #def 12
 #prec 12
@@ -241,7 +241,7 @@
 #prot 0
 #size 2
 #mr 13
-#mor 13
+#mor 12
 #enc 3
 #mapmove 16
 #ap 14
@@ -262,24 +262,38 @@
 #newmonster 3648
 #name "Hithlum Horse Archer"
 #descr "TBD"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#newmonster 3647
+#rcost 1
+#gcost 55
+#rpcost 32
+#ressize 2
+#hp 16
+#str 14
+#att 13
+#def 12
+#prec 12
+#prot 0
+#size 3
+#mr 13
+#mor 13
+#enc 5
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Elvish Spear"|847
+#armor "Elf-Mail Cuirass"|314
+#armor "Crested Helmet"|162
+#mountedhumanoid
+#mounted
+#maxage 3000
+#diseaseres 100
+#coldres 10
+#awe 1
+#spiritsight 
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3649
 #name "Noldor Roquen"
 #descr "TBD"
 #rcost 12
@@ -314,7 +328,7 @@
 #patrolbonus 1
 #nametype 175
 #end
-#newmonster 3648
+#newmonster 3650
 #name "Ranger of Nargothrond"
 #descr "TBD"
 #rcost 1
@@ -346,43 +360,7 @@
 #patrolbonus 3
 #nametype 175
 #end
-#newmonster 3649
-#name "Helcaraxe Veteran"
-#descr "TBD"
-#rcost 1
-#gcost 50
-#rpcost 30
-#reqtemple
-#hp 17
-#str 14
-#att 13
-#def 14
-#prec 12
-#prot 0
-#size 2
-#mr 13
-#mor 15
-#enc 3
-#mapmove 16
-#ap 14
-#eyes 2
-#weapon "Elvish Axe"|823
-#armor "Elf-Mail Hauberk"|313
-#armor "Hoplite Helmet"|123
-#armor "Iron Shield"|208
-#humanoid
-#holy
-#snow
-#maxage 3000
-#older 200
-#diseaseres 100
-#coldres 10
-#awe 1
-#spiritsight
-#patrolbonus 1
-#nametype 175
-#end
-#newmonster 3650
+#newmonster 3651
 #name "Feanoran Guard"
 #descr "TBD"
 #rcost 1
@@ -415,7 +393,7 @@
 #nametype 175
 #bodyguard 1
 #end
-#newmonster 3651
+#newmonster 3652
 #name "Warrior of Haleth"
 #descr "TBD"
 #rcost 1
@@ -443,7 +421,7 @@
 #maxage 50
 #nametype 100
 #end
-#newmonster 3652
+#newmonster 3653
 #name "Drug"
 #descr "TBD"
 #rcost 1
@@ -475,11 +453,6 @@
 #nametype 100
 #end
 
-*change swordsman and spearman to Hithlum equivelents, extra health and cold resistance, hardier.
-*add horse archers
-*remove sacred from Feanoran guard
-*remove Helcaraxe warrior
-*add soldier with axe and dwarf-made armour
-*add Valinoran hounds and other Valinor units as sacreds, including Eagles of Manwe
-*remember to check and make sure magic resistance is at least one lower than base tuatha*Sindar units for coastal
+
+*Sindar units for coastal
 
