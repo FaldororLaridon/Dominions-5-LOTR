@@ -513,7 +513,7 @@
 #nametype 175
 #end
 #newmonster 3456
-#name "Hound of Valinor
+#name "Hound of Valinor"
 #descr "TBD"
 #hp 30
 #str 14
@@ -623,6 +623,7 @@
 #maxage 3000
 #diseaseres 100
 #awe 3
+#holy
 #spiritsight 
 #patrolbonus 1
 #nametype 175
