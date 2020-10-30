@@ -452,7 +452,181 @@
 #neednoteat
 #nametype 100
 #end
-
+#newmonster 3654
+#name "Seaguard"
+#descr "TBD"
+#rcost 1
+#gcost 15
+#rpcost 12
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 12
+#prot 0
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Dagger"|9
+#armor "Leather Hauberk"|10
+#humanoid
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3455
+#name "Seaguard"
+#descr "TBD"
+#rcost 1
+#gcost 17
+#rpcost 13
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Spear"|1
+#armor "Chain Mail Cuirass"|8
+#armor "Iron Cap"|20
+#humanoid
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 2
+#nametype 175
+#end
+#newmonster 3456
+#name "Hound of Valinor
+#descr "TBD"
+#hp 30
+#str 14
+#att 13
+#def 10
+#prec 8
+#prot 0
+#size 3
+#mr 15
+#mor 14
+#enc 2
+#mapmove 22
+#ap 28
+#eyes 2
+#weapon "Bite"|20
+#quadroped
+#holy
+#animal
+#swimming
+#snow
+#forestsurvival
+#stealthy 20
+#maxage 1000
+#awe 1
+#darkvision 50
+#patrolbonus 5
+#nametype 175
+#end
+#newmonster 3457
+#name "Vanyar Spearman"
+#descr "TBD"
+#hp 16
+#str 15
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Spear"|837
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet" 162
+#armor "Golden Shield"|155
+#humanoid
+#holy
+#awe 3
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3458
+#name "Vanyar Archer"
+#descr "TBD"
+#hp 16
+#str 15
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Longbow"|24
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet" 162
+#humanoid
+#holy
+#awe 3
+#spiritsight
+#patrolbonus 1
+#nametype 175
+#end
+#newmonster 3459
+#name "Vanyar Knight"
+#descr "TBD"
+#hp 16
+#str 15
+#att 13
+#def 12
+#prec 12
+#prot 0
+#size 3
+#mr 14
+#mor 15
+#enc 3
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"|849
+#weapon "Elvish Blade"|824
+#weapon "Hoof"|615
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Golden Shield"|155
+#mountedhumanoid
+#mounted
+#maxage 3000
+#diseaseres 100
+#awe 3
+#spiritsight 
+#patrolbonus 1
+#nametype 175
+#end
 
 *Sindar units for coastal
 
