@@ -628,6 +628,280 @@
 #patrolbonus 1
 #nametype 175
 #end
+#newmonster 3460
+#name "Edain Scout"
+#descr "TBD"
+#rcost 1
+#gcost 25
+#rpcost 1
+#hp 11
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 10
+#enc 3
+#mapmove 14
+#ap 14
+#eyes 2
+#weapon "Short Sword"|6
+#armor "Leather Cuirass"|5
+#armour "Leather Hood"|121
+#humanoid
+#stealthy
+#maxage 80
+#nametype 175
+#noleader
+#end
+#newmonster 3461
+#name "Edain Captain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 12
+#str 11
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 14
+#ap 14
+#eyes 2
+#weapon "Broad Sword"|8
+#armor "Chain Mail Hauberk"|8
+#armor "Half Helmet"|20
+#armor "Shield"|2
+#humanoid
+#maxage 80
+#nametypes 175
+#okleader
+#end
+#newmonster 3462
+#name "Edain Lord"
+#descr "TBD"
+#rcost 10
+#gcost 10000
+#rpcost 1
+#ressize 2
+#hp 12
+#str 11
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 3
+#mr 11
+#mor 13
+#enc 5
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Light Lance"|357
+#armor "Chain Mail Hauberk"|8
+#armor "Half Helmet"|118
+#armor "Shield"|2
+#mountedhumanoid
+#mounted
+#maxage 80
+#nametypes 175
+#goodleader
+#end
+#newmonster 3463
+#name "Noldor Scout"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 14
+#str 13
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Cuirass"|314
+#humanoid
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight 
+#patrolbonus 1
+#nametype 175
+#noleader
+#end
+#newmonster 3464
+#name "Noldor Captain"
+#descr "TBD"
+#reqlab
+#rcost 1
+#gcost 1000
+#rpcost 2
+#hp 14
+#str 13
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 13
+#mor 12
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Noldor Helm"|315
+#armor "Kite Shield"|3
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#spiritsight 
+#patrolbonus 1
+#nametype 175
+#goodleader
+#magicskill 0 1
+#magicskill 3 1
+#spellsinger
+#end
+#newmonster 3465
+#name "Noldor King"
+#descr "TBD"
+#reqlab
+#reqtemple
+#rcost 12
+#gcost 10000
+#rpcost 4
+#resize 2
+#hp 16
+#str 15
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 3
+#mr 13
+#mor 15
+#enc 5
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"|849
+#weapon "Elvish Blade"|824
+#weapon "Hoof"|615
+#armor "Elf-Mail Hauberk"|313
+#armor "Magic Crown"|212
+#armor "Iron Shield"|208
+#mountedhumanoid
+#mounted
+#holy
+#maxage 3000
+#diseaseres 100
+#awe 2
+#spiritsight 
+#patrolbonus 1
+#nametype 175
+#expertleader
+#magicskill 3 2
+#magicskill 4 2
+#magicskill 8 1
+#custommagic 3712 50
+#custommagic 3712 50
+#custommagic 3712 10
+#spellsinger
+#end
+#newmonster 3585
+#name "Noldor Smith"
+#descr "TBD"
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Dagger"|825
+#armor "Robes"|158
+#humanoid
+#holy
+#maxage 3000
+#diseasres 100
+#awe 1
+#spiritsight
+#patrolbonus 1
+#nametypes 100
+#poorleader
+#magicskill 8 1
+#magicskill 4 1
+#magicskill 3 2
+#magicskill 0 1
+#custommagic 3072 100
+#gemprod 4 1
+#fixforgebonus 3
+#spellsinger
+#end
+#newmonster 3586
+#name "Noldor Seer"
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Dagger"|825
+#armor "Robes"|158
+#humanoid
+#holy
+#maxage 3000
+#diseasres 100
+#awe 1
+#spiritsight
+#patrolbonus 1
+#nobadevents 10
+#nametypes 100
+#poorleader
+#magicskill 8 1
+#magicskill 4 2
+#spellsinger 
+#end
 
-*Sindar units for coastal
+
 
