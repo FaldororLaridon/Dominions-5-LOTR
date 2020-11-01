@@ -1092,5 +1092,88 @@
 #gemprod 1 1
 #spellsinger
 #end
-
-
+#newmonster 3592
+#name "Maiar of Ulmo"
+#descr "TBD"
+#gcost 10000
+#hp 32
+#str 15
+#att 12
+#def 13
+#prot 6
+#prec 12
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Fist"|92
+#armor "Robes"|158
+#humanoid
+#holy
+#magicbeing
+#amphibian
+#swimming
+#giftofwater 40
+#maxage 3000
+#resfire 15
+#awe 3
+#spiritsight
+#montag 1006
+#nametype 175
+#goodleader
+#okmagicleader
+#magicskill 2 3
+#magicskill 8 2
+#custommagic 512 50
+#custommagic 512 50
+#custommagic 512 10
+#waterrange 1
+#gemprod 2 1
+#spellsinger
+#end
+#newmonster 3593
+#name "Maiar of Aule"
+#descr "TBD"
+#gcost 10000
+#hp 30
+#str 17
+#att 13
+#def 13
+#prot 6
+#prec 10
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Fist"|92
+#armor "Robes"|158
+#humanoid
+#holy
+#magicbeing
+#maxage 3000
+#fireres 15
+#pierceres
+#slashres
+#awe 3
+#spiritsight
+#montag 1006
+#nametype 175
+#okleader
+#okmagicleader
+#magicskill 3 2
+#magicskill 0 1
+#magicskill 8 2
+#custommagic 1152 50
+#custommagic 1152 50
+#custommagic 1152
+#researchbonus 5
+#fixforgebonus 2
+#mastersmith 1
+#spellsinger
+#end
