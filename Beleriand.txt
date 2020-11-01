@@ -185,7 +185,7 @@
 #weapon "Elvish Spear"|847
 #armor "Elf-Mail Hauberk"|313
 #armor "Noldor Helm"|315
-#armor "Iron Shield"|208
+#armor "Kite Shield"|3
 #humanoid
 #maxage 3000
 #diseaseres 100
@@ -217,7 +217,7 @@
 #weapon "Elvish Blade"|824
 #armor "Elf-Mail Hauberk"|313
 #armor "Noldor Helm"|315
-#armor "Iron Shield"|208
+#armor "Kite Shield"|3
 #humanoid
 #maxage 3000
 #diseaseres 100
@@ -249,7 +249,7 @@
 #weapon "Elvish Axe"|823
 #armor "Dwarf-Mail Hauberk"|311
 #armor "Noldor Helm"|315
-#armor "Iron Shield"|208
+#armor "Kite Shield"|3
 #humanoid
 #mountain survival
 #maxage 3000
@@ -318,7 +318,7 @@
 #weapon "Hoof"|615
 #armor "Elf-Mail Hauberk"|313
 #armor "Noldor Helm"|315
-#armor "Iron Shield"|208
+#armor "Kite Shield"|3
 #mountedhumanoid
 #mounted
 #maxage 3000
@@ -412,8 +412,9 @@
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon "Battleaxe"|18
+#weapon "Axe"|17
 #armor "Leather Hauberk"|10
+#armor "Shield"|2
 #humanoid
 #female
 #forestsurvival
@@ -460,8 +461,8 @@
 #rpcost 12
 #hp 13
 #str 12
-#att 11
-#def 11
+#att 10
+#def 10
 #prec 12
 #prot 0
 #size 2
@@ -490,8 +491,8 @@
 #rpcost 13
 #hp 13
 #str 12
-#att 12
-#def 12
+#att 11
+#def 10
 #prec 12
 #prot 0
 #size 2
@@ -808,7 +809,7 @@
 #weapon "Hoof"|615
 #armor "Elf-Mail Hauberk"|313
 #armor "Magic Crown"|212
-#armor "Iron Shield"|208
+#armor "Kite Shield"|3
 #mountedhumanoid
 #mounted
 #holy
@@ -902,6 +903,73 @@
 #magicskill 4 2
 #spellsinger 
 #end
+#newmonster 3587
+#name "Haleth Chieftain
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 11
+#str 12
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"|18
+#armor "Leather Hauberk"|10
+#armor "Iron Cap"|20
+#humanoid
+#female
+#forestsurvival
+#stealthy
+#maxage 50
+#nametype 100
+#okleader
+#end
+#newmonster 3588
+#name "Sindar Captain
+#descr "TBD"
+#rcost 1
+#gcost 17
+#rpcost 13
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 12
+#prot 0
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Broad Sword"|8
+#armor "Chain Mail Cuirass"|8
+#armor "Iron Cap"|20
+#humanoid
+#stealthy 10
+#sailing 60 3
+#maxage 3000
+#diseaseres 100
+#spiritsight
+#patrolbonus 2
+#nametype 175
+#okleader
+#magicskill 2 2
+#spellsinger
+#end
+#newmonster3589
+#name "Sindar Lord"
+#
 
 
 
