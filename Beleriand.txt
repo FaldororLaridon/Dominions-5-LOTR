@@ -483,7 +483,7 @@
 #patrolbonus 1
 #nametype 175
 #end
-#newmonster 3455
+#newmonster 3655
 #name "Seaguard"
 #descr "TBD"
 #rcost 1
@@ -513,7 +513,7 @@
 #patrolbonus 2
 #nametype 175
 #end
-#newmonster 3456
+#newmonster 3656
 #name "Hound of Valinor"
 #descr "TBD"
 #hp 30
@@ -543,7 +543,7 @@
 #patrolbonus 5
 #nametype 175
 #end
-#newmonster 3457
+#newmonster 3657
 #name "Vanyar Spearman"
 #descr "TBD"
 #hp 16
@@ -570,7 +570,7 @@
 #patrolbonus 1
 #nametype 175
 #end
-#newmonster 3458
+#newmonster 3658
 #name "Vanyar Archer"
 #descr "TBD"
 #hp 16
@@ -597,7 +597,7 @@
 #patrolbonus 1
 #nametype 175
 #end
-#newmonster 3459
+#newmonster 3659
 #name "Vanyar Knight"
 #descr "TBD"
 #hp 16
@@ -629,7 +629,7 @@
 #patrolbonus 1
 #nametype 175
 #end
-#newmonster 3460
+#newmonster 3660
 #name "Edain Scout"
 #descr "TBD"
 #rcost 1
@@ -657,7 +657,7 @@
 #nametype 175
 #noleader
 #end
-#newmonster 3461
+#newmonster 3661
 #name "Edain Captain"
 #descr "TBD"
 #rcost 1
@@ -685,7 +685,7 @@
 #nametypes 175
 #okleader
 #end
-#newmonster 3462
+#newmonster 3662
 #name "Edain Lord"
 #descr "TBD"
 #rcost 10
@@ -715,7 +715,7 @@
 #nametypes 175
 #goodleader
 #end
-#newmonster 3463
+#newmonster 3663
 #name "Noldor Scout"
 #descr "TBD"
 #rcost 1
@@ -746,7 +746,7 @@
 #nametype 175
 #noleader
 #end
-#newmonster 3464
+#newmonster 3664
 #name "Noldor Captain"
 #descr "TBD"
 #reqlab
@@ -782,7 +782,7 @@
 #magicskill 3 1
 #spellsinger
 #end
-#newmonster 3465
+#newmonster 3665
 #name "Noldor King"
 #descr "TBD"
 #reqlab
@@ -828,7 +828,7 @@
 #custommagic 3712 10
 #spellsinger
 #end
-#newmonster 3585
+#newmonster 3666
 #name "Noldor Smith"
 #descr "TBD"
 #reqlab
@@ -868,7 +868,7 @@
 #fixforgebonus 3
 #spellsinger
 #end
-#newmonster 3586
+#newmonster 3667
 #name "Noldor Seer"
 #reqlab
 #reqtemple
@@ -903,7 +903,7 @@
 #magicskill 4 2
 #spellsinger 
 #end
-#newmonster 3587
+#newmonster 3668
 #name "Haleth Chieftain"
 #descr "TBD"
 #rcost 1
@@ -933,7 +933,7 @@
 #nametype 100
 #okleader
 #end
-#newmonster 3588
+#newmonster 3669
 #name "Sindar Captain"
 #descr "TBD"
 #rcost 1
@@ -967,7 +967,7 @@
 #magicskill 2 2
 #spellsinger
 #end
-#newmonster 3589
+#newmonster 3670
 #name "Sindar Lord"
 #descr "TBD"
 #rcost 1
@@ -1005,7 +1005,7 @@
 #custommagic 9216 10
 #spellsinger
 #end
-#newmonster 3590
+#newmonster 3671
 #name "Maia of Yavanna"
 #descr "TBD"
 #gcost 10000
@@ -1050,7 +1050,7 @@
 #gemprod 6 1
 #spellsinger
 #end
-#newmonster 3591
+#newmonster 3672
 #name "Maiar of Manwe"
 #descr "TBD"
 #gcost 10000
@@ -1092,7 +1092,7 @@
 #gemprod 1 1
 #spellsinger
 #end
-#newmonster 3592
+#newmonster 3673
 #name "Maiar of Ulmo"
 #descr "TBD"
 #gcost 10000
@@ -1134,7 +1134,7 @@
 #gemprod 2 1
 #spellsinger
 #end
-#newmonster 3593
+#newmonster 3674
 #name "Maiar of Aule"
 #descr "TBD"
 #gcost 10000
