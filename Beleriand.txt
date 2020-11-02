@@ -934,7 +934,7 @@
 #okleader
 #end
 #newmonster 3588
-#name "Sindar Captain
+#name "Sindar Captain"
 #descr "TBD"
 #rcost 1
 #gcost 10000
