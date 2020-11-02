@@ -904,7 +904,7 @@
 #spellsinger 
 #end
 #newmonster 3587
-#name "Haleth Chieftain
+#name "Haleth Chieftain"
 #descr "TBD"
 #rcost 1
 #gcost 10000
