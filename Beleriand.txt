@@ -7,7 +7,7 @@
 #name "Feanoran Blade"
 #copyweapon "Greatsword"|11
 #magic
-#secondaryeffect "Bane of Heresy"|509
+#secondaryeffect "Flame of Feanor"|851
 #end
 #newweapon 849
 #name "Elvish Lance"
@@ -18,6 +18,22 @@
 #name "Nargothrond Longbow"
 #copyweapon "Long Bow"|24
 #secondaryeffect "Strong Poison"|51
+#end
+#newweapon 851
+#name "Flame of Feanor"
+#dmg 6
+#nratt 1
+#att 0
+#def 0
+#len 0
+#dt_normal
+#fire
+#armorpiercing
+#nostr
+#mrnegates
+#sacredonly
+#norepel
+#unrepel
 #end
 #newarmor 315
 #name "Noldor Helm"
