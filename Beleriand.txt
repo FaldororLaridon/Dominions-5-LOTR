@@ -176,7 +176,6 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
@@ -207,7 +206,6 @@
 #diseaseres 100
 #awe 1
 #coldres 10
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
@@ -239,7 +237,6 @@
 #diseaseres 100
 #awe 1
 #coldres 10
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
@@ -271,7 +268,6 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
@@ -305,7 +301,6 @@
 #diseaseres 100
 #coldres 10
 #awe 1
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
@@ -340,7 +335,6 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
@@ -372,7 +366,6 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
-#spiritsight
 #patrolbonus 3
 #nametype 175
 #end
@@ -403,7 +396,6 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
-#spiritsight
 #patrolbonus 1
 #incunrest 5
 #nametype 175
@@ -495,7 +487,6 @@
 #stealthy 10
 #maxage 3000
 #diseaseres 100
-#spiritsight
 #patrolbonus 1
 #nametype 175
 #end
@@ -525,7 +516,6 @@
 #stealthy 10
 #maxage 3000
 #diseaseres 100
-#spiritsight
 #patrolbonus 2
 #nametype 175
 #end
@@ -582,7 +572,6 @@
 #humanoid
 #holy
 #awe 3
-#spiritsight
 #patrolbonus 1
 #nametype 175
 #end
@@ -609,7 +598,6 @@
 #humanoid
 #holy
 #awe 3
-#spiritsight
 #patrolbonus 1
 #nametype 175
 #end
@@ -641,7 +629,6 @@
 #diseaseres 100
 #awe 3
 #holy
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #end
@@ -757,7 +744,6 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #noleader
@@ -790,7 +776,6 @@
 #maxage 3000
 #diseaseres 100
 #awe 1
-#spiritsight 
 #patrolbonus 1
 #nametype 175
 #goodleader
@@ -831,8 +816,7 @@
 #holy
 #maxage 3000
 #diseaseres 100
-#awe 2
-#spiritsight 
+#awe 1
 #patrolbonus 1
 #nametype 175
 #expertleader
@@ -871,7 +855,6 @@
 #maxage 3000
 #diseasres 100
 #awe 1
-#spiritsight
 #patrolbonus 1
 #nametypes 100
 #poorleader
@@ -910,7 +893,6 @@
 #maxage 3000
 #diseasres 100
 #awe 1
-#spiritsight
 #patrolbonus 1
 #nobadevents 10
 #nametypes 100
@@ -1010,7 +992,6 @@
 #sailing 100 3
 #maxage 3000
 #diseaseres 100
-#spiritsight
 #patrolbonus 1
 #nametype 175
 #goodleader
@@ -1052,7 +1033,6 @@
 #regeneration 10
 #awe 3
 #springpower 20
-#spiritsight
 #nametype 175
 #okleader
 #okmagicleader
@@ -1093,7 +1073,6 @@
 #maxage 3000
 #shockres 15
 #awe 3
-#spiritsight
 #siegebonus 5
 #montag 1006
 #nametype 175
@@ -1129,7 +1108,6 @@
 #armor "Robes"|158
 #humanoid
 #holy
-#magicbeing
 #amphibian
 #swimming
 #giftofwater 40
@@ -1177,7 +1155,6 @@
 #pierceres
 #slashres
 #awe 3
-#spiritsight
 #montag 1006
 #nametype 175
 #okleader
@@ -1193,3 +1170,72 @@
 #mastersmith 1
 #spellsinger
 #end
+#newmonster 3575
+#name "Unwearied Noldor"
+#descr "TBD"
+#hp 16
+#str 14
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 16
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Noldor Helm"|315
+#armor "Kite Shield"|3
+#humanoid
+#holy
+#maxage 3000
+#diseasres 100
+#awe 2
+#patrolbonus 1
+#nametypes 100
+#end
+#newmonster 3576
+#name "Unwearied Lord"
+#descr "TBD"
+#hp 16
+#str 15
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 3
+#mr 14
+#mor 16
+#enc 5
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"|849
+#weapon "Elvish Blade"|824
+#weapon "Hoof"|615
+#armor "Elf-Mail Hauberk"|313
+#armor "Magic Crown"|212
+#armor "Kite Shield"|3
+#mountedhumanoid
+#mounted
+#holy
+#maxage 3000
+#diseaseres 100
+#awe 2
+#patrolbonus 1
+#nametype 175
+#expertleader
+#magicskill 3 2
+#magicskill 4 2
+#magicskill 8 2
+#custommagic 3712 50
+#custommagic 3712 50
+#custommagic 3712 10
+#spellsinger
+#end
+#newmonster 2577
+#name 
