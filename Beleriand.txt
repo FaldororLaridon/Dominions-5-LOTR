@@ -1238,4 +1238,40 @@
 #spellsinger
 #end
 #newmonster 2577
-#name 
+#name "Heir of Feanor"
+#fixedname "Maedhros"
+#descr "TBD"
+#hp 18
+#str 16
+#att 14
+#def 18
+#prec 12
+#prot 0
+#size 3
+#mr 14
+#mor 18
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Noldor Helm"|315
+#humanoid
+#unique
+#startage 1000
+#maxage 3000
+#diseaseres 100
+#startingaff (add number here)
+#awe 1
+#patrolbonus 5
+#superiorleader
+#magicskill 3 3
+#magicskill 4 2
+#gemprod 4 1
+#spellsinger
+#end
+#newmonster2578
+#name "Lord of Ships"
+#fixedname "Cirdan"
+
