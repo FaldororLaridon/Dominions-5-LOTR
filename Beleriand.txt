@@ -1271,10 +1271,36 @@
 #gemprod 4 1
 #spellsinger
 #end
-#newmonster2578
+#newmonster 2578
 #name "Lord of Ships"
 #fixedname "Cirdan"
 
+#selectnametype 176
+#addname "Maglor"
+#addname "Celegorm"
+#addname "Curufin
+#addname "Amrod"
+#addname "Amras"
+#end
+
+#newsite
+#name "Nargothrond"
+#loc 16384
+#gems 3 3
+#level 0
+#rarity 5
+#homemon "Ranger of Nargothrond"|3650
+#end
+#newsite
+#name "Himring"
+#loc 16384
+#res 20
+#level 0
+#rarity 5
+#homemon "Feanoran Guard"|3651
+#homemon "Noldor Roquen"|3649
+#homecom "Noldor King"|3665
+#end
 
 
 #selectpoptype 27
