@@ -1275,3 +1275,62 @@
 #name "Lord of Ships"
 #fixedname "Cirdan"
 
+
+
+#selectpoptype 27
+#clearrec
+#cleardef
+#addrecunit "Edain Archer"|3640
+#addrecunit "Edain Spearman"|3641
+#addrecunit "Edain Swordsman"|3642
+#addreccom "Edain Scout"|3660
+#adreccom "Edain Captain"|3661
+#defcom1 "Edain Lord"|3662
+#defunit1 "Edain Archer"
+#defunit1b "Edain Spearman"
+#defunit1c "Edain Swordsman
+#defmult1 20
+#defmult1b 15
+#defmultc 10
+#end
+#selectpopytype 48
+#clearrec
+#cleardef
+#addrecunit "Seaguard"|3654
+#addrecunit "Seaguard"|3655
+#addreccom "Sindar Captain"|3669
+#defcom1 "Sindar Lord"|3670
+#defunit 1 "Seaguard"|3654
+#defunit1b "Seaguard"|3655
+#defmult1 20
+#defmult1b 20
+#end
+#selectpoptype 51
+#clearrec
+#cleardef
+#addrecunit "Snaga Archer"|3629
+#addrecunit "Orc Warrior"|3631
+#addrecunit "Angband Troll"|3633
+#addreccom "Orc Taskmaster|3511
+#addreccom "Orc Sorcerer"|3517
+#defcom1 "Fallen Spirit"|3520
+#defunit1 "Snaga Archer"|3629
+#defunit1b "Orc Warrior"|3631
+#defunitc "Angband Troll"|3633
+#defmult1 20
+#defmult1b 20
+#defmult1c 5
+#end
+#selectpoptype 93
+#clearrec
+#cleardef
+#addrecunit "Blue Mountain Sapper"|3543
+#addrecunit "Khazad Warrior"|3639
+#addreccom "Khazad Captain"|3550
+#addrecom "Khazad Forge-Priest"|3552
+#defcom1 "3553
+#defunit1 "Blue Mountain Sapper"|3543
+#defunit1b "Khazad Warrior"|3639
+#defmult1 10
+#defmult2 5
+#end
