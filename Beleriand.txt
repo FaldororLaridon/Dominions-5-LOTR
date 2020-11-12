@@ -1275,6 +1275,74 @@
 #newmonster 2578
 #name "Lord of Ships"
 #fixedname "Cirdan"
+#hp 14
+#str 13
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Chain Mail Cuirass"|8
+#humanoid
+#unique
+#stealthy 10
+#sailing 200 3
+#farsail 1
+#age 1600
+#maxage 3000
+#autohealer 1
+#diseaseres 100
+#patrolbonus 1
+#nobadevents 20
+#expertleader
+#magicskill 2 4
+#magicskill 4 2
+#magicskill 8 2
+#spellsinger
+#end
+
+
+
+
+
+
+#newmonster 3588
+#name "Eagle of Manwe"
+#descr "Manwe is the Lord of the air and of birds, but the Eagles are his favoured creatures above all others. They live on great mountain peaks, keeping a watchful eye on the world and delivering their tales to their Lord. They are intelligent and proud, and will not be controlled, but will ally themselves against great threats if nessecary."
+#hp 55
+#str 18
+#att 12
+#def 11
+#prec 14
+#prot 7
+#size 6
+#mr 18
+#mor 30
+#enc 3
+#mapmove 40
+#ap 8
+#eyes 2
+#weapon "Talons"|408
+#weapon "Beak"|404
+#bird
+#holy
+#magicbeing
+#flying
+#mountainsurvival
+#maxage 1000
+#awe 2
+#seigebonus 10
+#patrolbonus 10
+#nametypes 175
+#end
+
 
 #selectnametype 176
 #addname "Maglor"
@@ -1378,6 +1446,7 @@ Buildings: Advanced."
 #addgod "Elder King"
 #addgod "Vala of Stars"
 #addgod "Valar of the Sea"
+#addgod "Vala of Growth"
 #homerealm 10
 #homerealm 2
 #likespop 27
@@ -1526,6 +1595,24 @@ Buildings: Advanced."
 #restricted "Beleriand"
 #restricted "Gondolin"
 #end
+#newspell 
+#name "Call Eagles of Manwe"
+#descr "Calls five Eagles of Manwe to fight for your cause."
+#school 0
+#researchlevel 5
+#path 0 1
+#pathlevel 0 3
+#fatiguecost 1500
+#damage 3488
+#effect 10001
+#nreff 5
+#provrange 0
+#restricted "Beleriand"
+#restricted "Gondolin"
+#restricted "Doriath"
+#end
+
+
 
 
 
