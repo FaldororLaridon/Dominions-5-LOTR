@@ -241,7 +241,7 @@
 #nametype 175
 #end
 #newmonster 3647
-#name "Beleriandic Warden"
+#name "Vare"
 #descr "TBD"
 #rcost 1
 #gcost 50
@@ -272,7 +272,7 @@
 #nametype 175
 #end
 #newmonster 3648
-#name "Hithlum Horse Archer"
+#name "Rokko Cu of Hithlum"
 #descr "TBD"
 #rcost 1
 #gcost 55
@@ -1033,6 +1033,7 @@
 #regeneration 10
 #awe 3
 #springpower 20
+#montag 1006
 #nametype 175
 #okleader
 #okmagicleader
@@ -1301,6 +1302,104 @@
 #homemon "Noldor Roquen"|3649
 #homecom "Noldor King"|3665
 #end
+
+#newnation
+#name "Beleriand"
+#epithet "Exiles of Valinor"
+#era 1
+#descr "TBD"
+#summary "Race: Elves and Men. Mostly powerful Noldor and Edain."
+Military: Medium and heavy infantry, heavy cavalry."
+Magic: Mostly Earth and Astral, some Fire and Water.
+Priests: Weak
+Buildings: Advanced."
+#brief  "A mix of Elves and Men with Sacred summons"
+#startsite "Nargothrond"
+#startsite  "Himring
+#startcom "Edain Captain"|3661
+#coastcom1 "Sindar Captain"|3669
+#coastcom2 "Sindar Lord"|3670
+#coastrec 3654
+#coastrec 3655
+#forestrec "Warrior of Haleth"|3652
+#forestrec "Drug"|3653
+#startscout "Edain Scout"|3660
+#forestcom "Haleth Chieftain"|3668
+#startunittype1 "Edain Spearman"|3641
+#startunitnbrs1 10
+#startunitype2 "Edain Archer"|3640
+#startunitnbrs 15
+#addrecunit "Edain Archer"|3640
+#addrecunit "Edain Spearman"|3641
+#addrecunit "Edain Swordsman"|3642
+#addrecunit "Edain Knight"|3643
+#addrecunit "Cu"|3644
+#addrecunit "Ehtyar of Hithlum"|3645
+#addrecunit "Macar of Hithlum"|3646
+#addrecunit "Vare"|3647
+#addrecunit "Rokko Cu of Hithlum"|3648
+#addreccom "Edain Scout"|3660
+#addreccom "Edain Captain"|3661
+#addreccom "Edain Lord"|3662
+#addreccom "Noldor Scout"|3663
+#addreccom "Noldor Captain"|3664
+#addreccom "Noldor Smith"|3666
+#addreccom "Noldor Seer"|3667
+#hero1 3577
+#hero2 3578
+#hero3 3579
+#hero4 3580
+#hero5 3581
+#hero6 3582
+#hero7 3583
+#hero8 3584
+#hero9 3585
+#hero10 3586
+#multihero1 3587
+#defcom1 "Edain Captain"|3661
+#defcom2 "Noldor Captain"|3664
+#defunit1 "Edain Archer"|3640
+#defunit1b "Edain Spearman"|3641
+#defunit2 "Edain Swordsman"|3642
+#defunit2b "Edain Knight"|3643
+#defmult1 20
+#defmult1b 20
+#defmult2 10
+#defmult2b 3
+#wallcom "Noldor Captain"|3664
+#wallunit "Edain Archer"|3640 
+#wallmult 10
+#wallunit "Cu"|3644
+#wallmult 5
+#addgod "Valar of the Hunt"
+#addgod "Valar Smith"
+#addgod "Valar Doomsman"
+#addgod "Valar of Valour"
+#addgod "Elder King"
+#addgod "Vala of Stars"
+#addgod "Valar of the Sea"
+#homerealm 10
+#homerealm 2
+#likespop 27
+#likespop 48
+#cheapgod20 "Valar of Valour"
+#cheapgod20 "Valar Smith"
+#cheapgod20 "Elder King"
+#cheapgod20 "Vala of Stars"
+#cheapgod40 "Valar of the Sea"
+#fortera 2
+#labcost 500
+#templecost 500
+#templepic 2
+
+
+
+
+
+
+
+
+
 
 
 #selectpoptype 27
