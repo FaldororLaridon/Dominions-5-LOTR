@@ -1389,12 +1389,143 @@ Buildings: Advanced."
 #cheapgod40 "Valar of the Sea"
 #fortera 2
 #labcost 500
-#templecost 500
+#templecost 800
+#templegems 4
 #templepic 2
+#end
 
+#newspell
+#name "Summon Hounds of Valinor"
+#descr "Summons a pack of Valinoran Hounds to your cause"
+#school 0
+#researchlevel 3
+#path 0 4
+#path 1 8
+#pathlevel 0 2
+#pathlevel 1 1
+#fatiguecost 800
+#damage 3656
+#effect 10001
+#nreff 2010
+#provrange 0
+#reqspellsinger
+#restricted "Beleriand"
+#restricted "Gondolin"
+#restricted "Doriath"
+#end
+#newspell
+#name "Call Maiar"
+#descr "Calls one Maiar commander"
+#school 0
+#researchlevel 5
+#path 0 4
+#path 1 8
+#pathlevel 0 4
+#pathlevel 1 1
+#fatiguecost 1000
+#damage -1006
+#effect 10021
+#nreff 1
+#provrange 0
+#reqspellsinger
+#restricted "Beleriand"
+#restricted "Gondolin"
+#restricted "Doriath"
+#end
+#newspell
+#name "Call Unwearied Lord"
+#school 0
+#researchlevel 6
+#path 0 4
+#path 1 8
+#pathlevel 0 4
+#pathlevel 1 1
+#damage 3576
+#effect 10021
+#nreff 1
+#provrange 0
+#end
+#newspell
+#name "Call Kinsmen"
+#descr "In the dark days of Beleriand, aid may still be found in the West. Sends a call for help from Valinor, and calls a group of Unwearied Noldor to come to their bretheren's aid"
+#details "Summons one Unwearied Lord and ten Unwearied Noldor"
+#school 0
+#researchlevel 6
+#path 0 4
+#path 1 8
+#pathlevel 0 4
+#pathlevel 1 1
+#fatiguecost 2000
+#damage 3575
+#nextspell "Call Unwearied Lord
+#effect 10001
+#nreff 15
+#provrange 0
+#onlycoastrc 1
+#reqspellsinger
+#restricted "Beleriand"
+#restricted "Gondolin"
+#end
+#newspell 
+#name "Summon Vanyar Archers"
+#descr "Summond ten Vanyar Archers"
+#school 0
+#researchlevel 8
+#path 0 4
+#path 1 8
+#pathlevel 0 5
+#pathlevel 1 2
+#damage 3657
+#nextspell "Summon Maiar"
+#effect 10001
+#nreff 10
+#provrange 0
+#onlycoastrc 1
+#reqspellsinger
+#restricted "Beleriand"
+#restricted "Gondolin"
+#end
 
-
-
+#newspell
+#name "Summon Vanyar Spearmen"
+#descr "Summons ten Vanyar Spearmen"
+#school 0
+#researchlevel 8
+#path 0 4
+#path 1 8
+#pathlevel 0 5
+#pathlevel 1 2
+#damage 3657
+#nextspell "Summon Vanyar Archers"
+#effect 10001
+#nreff 10
+#provrange 0
+#onlycoastrc 1
+#reqspellsinger
+#restricted "Beleriand"
+#restricted "Gondolin"
+#end
+#newspell
+#name "War of Wrath"
+#descr "When all hope is lost, even the Valar themselves may rise from Valinor and send their armies to rescue the beleagured forces of the world. This spell calls forth an army from Valinor to sail across the sea and lay waste to the forces of darkness."
+#details "Summons one Maiar commander, ten Vanyar Archers, ten Vanyar Spearmen and four Vanyar Knights"
+#school 0
+#researchlevel 8
+#path 0 4
+#path 1 8
+#pathlevel 0 5
+#pathlevel 1 2
+#fatiguecost 4000
+#damage 3659
+#nextspell "Summon Vanyar Spearmen"
+#effect 10001
+#nreff 4
+#provrange 0
+#onlycoastrc 1
+#reqspellsinger
+#restricted "Beleriand"
+#restricted "Gondolin"
+#end
 
 
 
