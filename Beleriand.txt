@@ -1048,7 +1048,7 @@
 #spellsinger
 #end
 #newmonster 3672
-#name "Maiar of Manwe"
+#name "Maia of Manwe"
 #descr "TBD"
 #gcost 10000
 #hp 30
@@ -1089,7 +1089,7 @@
 #spellsinger
 #end
 #newmonster 3673
-#name "Maiar of Ulmo"
+#name "Maia of Ulmo"
 #descr "TBD"
 #gcost 10000
 #hp 32
@@ -1130,7 +1130,7 @@
 #spellsinger
 #end
 #newmonster 3674
-#name "Maiar of Aule"
+#name "Maia of Aule"
 #descr "TBD"
 #gcost 10000
 #hp 30
@@ -1484,8 +1484,8 @@ Buildings: Advanced."
 #restricted "Doriath"
 #end
 #newspell
-#name "Call Maiar"
-#descr "Calls one Maiar commander"
+#name "Call Maia"
+#descr "Calls one Maia commander"
 #school 0
 #researchlevel 5
 #path 0 4
@@ -1546,7 +1546,7 @@ Buildings: Advanced."
 #pathlevel 0 5
 #pathlevel 1 2
 #damage 3657
-#nextspell "Summon Maiar"
+#nextspell "Summon Maia"
 #effect 10001
 #nreff 10
 #provrange 0
@@ -1578,7 +1578,7 @@ Buildings: Advanced."
 #newspell
 #name "War of Wrath"
 #descr "When all hope is lost, even the Valar themselves may rise from Valinor and send their armies to rescue the beleagured forces of the world. This spell calls forth an army from Valinor to sail across the sea and lay waste to the forces of darkness."
-#details "Summons one Maiar commander, ten Vanyar Archers, ten Vanyar Spearmen and four Vanyar Knights"
+#details "Summons one Maia commander, ten Vanyar Archers, ten Vanyar Spearmen and four Vanyar Knights"
 #school 0
 #researchlevel 8
 #path 0 4
