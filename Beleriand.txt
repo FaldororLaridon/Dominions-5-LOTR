@@ -1263,7 +1263,8 @@
 #startage 1000
 #maxage 3000
 #diseaseres 100
-#startingaff (add number here)
+--this number looks big, but trust me, that's how the thing works--
+#startingaff 1073741824
 #awe 1
 #patrolbonus 5
 #superiorleader
