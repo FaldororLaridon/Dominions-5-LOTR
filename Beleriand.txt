@@ -1409,6 +1409,7 @@
 #newmonster 3581
 #name "Troll Slayer"
 #fixedname "Hurin Thalion"
+#descr "TBD"
 #hp 37
 #str 16
 #att 16
@@ -1540,7 +1541,7 @@ Priests: Weak
 Buildings: Advanced."
 #brief  "A mix of Elves and Men with Sacred summons"
 #startsite "Nargothrond"
-#startsite  "Himring
+#startsite  "Himring"
 #startcom "Edain Captain"|3661
 #coastcom1 "Sindar Captain"|3669
 #coastcom2 "Sindar Lord"|3670
@@ -1683,7 +1684,7 @@ Buildings: Advanced."
 #pathlevel 1 1
 #fatiguecost 2000
 #damage 3575
-#nextspell "Call Unwearied Lord
+#nextspell "Call Unwearied Lord"
 #effect 10001
 #nreff 15
 #provrange 0
