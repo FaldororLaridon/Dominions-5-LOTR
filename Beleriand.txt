@@ -1398,9 +1398,9 @@
 #name "Troll Slayer"
 #fixedname "Hurin Thalion"
 #hp 37
-#str 15
-#att 14
-#def 13
+#str 16
+#att 16
+#def 15
 #prec 10
 #prot 0
 #size 2
@@ -1439,7 +1439,7 @@
 #prec 14
 #prot 7
 #size 6
-#mr 18
+#mr 14
 #mor 30
 #enc 3
 #mapmove 40
@@ -1461,7 +1461,34 @@
 #newmonster 3589
 #name "Edain Champion"
 #fixedname "Hurin Thalion
-
+#hp 15
+#str 16
+#att 16
+#def 14
+#prec 10
+#prot 0
+#size 3
+#mr 15
+#mor 30
+#enc 5
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Half Helmet"|118
+#armor "Shield"|2
+#mountedhumanoid
+#unique
+#mounted
+#startage 32
+#maxage 80
+#reinvigoration 1
+#secondshape "Troll Slayer"|3581
+#goodleader
+#inspirational 1
+#latehero 24
+#end
 
 #selectnametype 176
 #addname "Maglor"
