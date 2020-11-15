@@ -33,7 +33,27 @@
 #name "Feanoran Blade"
 #copyweapon "Greatsword"|11
 #magic
-#secondaryeffect "Flame of Feanor"|851
+#secondaryeffect "Flame of Feanor"|848
+#end
+#newweapon 852
+#name "Axe of Wrath"
+#dmg 10
+#nratt 1
+#att 1
+#def 0
+#len 2
+#twohanded
+#sound 10
+#dt_large
+#slash
+#armourpiercing
+#ironweapon
+#end
+#newweapon 853
+#name "Elvish Mattock"
+#copyweapon "Battleaxe"|18
+#pierce
+#magic
 #end
 #newarmor 315
 #name "Noldor Helm"
@@ -1219,7 +1239,7 @@
 #weapon "Elvish Blade"|824
 #weapon "Hoof"|615
 #armor "Elf-Mail Hauberk"|313
-#armor "Magic Crown"|212
+#armor "Noldor Helm"|315
 #armor "Kite Shield"|3
 #mountedhumanoid
 #mounted
