@@ -1,3 +1,4 @@
+--Beleriand Weapons--
 #newweapon 847
 #name "Elvish Spear"
 #copyweapon "Spear"|1
@@ -55,10 +56,14 @@
 #pierce
 #magic
 #end
+
+--Beleriand armour--
 #newarmor 315
 #name "Noldor Helm"
 #copyarmor "Hoplite Helmet" 123
 #end
+
+--Beleriand Units--
 #newmonster 3640
 #name "Edain Archer"
 #descr "TBD"
@@ -421,6 +426,7 @@
 #nametype 175
 #bodyguard 1
 #end
+--situational units(forest/(coastal/river))
 #newmonster 3652
 #name "Warrior of Haleth"
 #descr "TBD"
@@ -539,6 +545,7 @@
 #patrolbonus 2
 #nametype 175
 #end
+--Beleriand summoned units--
 #newmonster 3656
 #name "Hound of Valinor"
 #descr "TBD"
@@ -652,6 +659,8 @@
 #patrolbonus 1
 #nametype 175
 #end
+
+--Beleriand Commanders--
 #newmonster 3660
 #name "Edain Scout"
 #descr "TBD"
@@ -1022,6 +1031,8 @@
 #custommagic 9216 10
 #spellsinger
 #end
+
+--Beleriand Summoned commanders--
 #newmonster 3671
 #name "Maia of Yavanna"
 #descr "TBD"
@@ -1258,7 +1269,8 @@
 #custommagic 3712 10
 #spellsinger
 #end
-#newmonster 2577
+--Beleriand Heroes--
+#newmonster 3577
 #name "Heir of Feanor"
 #fixedname "Maedhros"
 #descr "TBD"
@@ -1293,7 +1305,7 @@
 #gemprod 4 1
 #spellsinger
 #end
-#newmonster 2578
+#newmonster 3578
 #name "Lord of Ships"
 #fixedname "Cirdan"
 #hp 14
@@ -1328,7 +1340,7 @@
 #magicskill 8 2
 #spellsinger
 #end
-#newmonster 2579
+#newmonster 3579
 #name "Sire of Hope"
 #fixedname "Huor"
 #descr "TBD"
@@ -1358,7 +1370,7 @@
 #nobadevents 10
 #goodleader
 #end
-#newmonster 2580
+#newmonster 3580
 #name "Dark"
 #fixedname "Caranthir"
 #descr "TBD"
@@ -1394,7 +1406,7 @@
 #magicskill 4 2
 #spellsinger
 #end
-#newmonster 2581
+#newmonster 3581
 #name "Troll Slayer"
 #fixedname "Hurin Thalion"
 #hp 37
@@ -1425,7 +1437,6 @@
 #inspirational 1
 #latehero 24
 #end
-
 
 
 
@@ -1460,7 +1471,7 @@
 #end
 #newmonster 3589
 #name "Edain Champion"
-#fixedname "Hurin Thalion
+#fixedname "Hurin Thalion"
 #hp 15
 #str 16
 #att 16
