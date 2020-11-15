@@ -1285,7 +1285,7 @@
 #diseaseres 100
 --this number looks big, but trust me, that's how the thing works--
 #startingaff 1073741824
-#awe 1
+#awe 2
 #patrolbonus 5
 #superiorleader
 #magicskill 3 3
@@ -1360,7 +1360,7 @@
 #end
 #newmonster 2580
 #name "Dark"
-#fixedname "Caranthir
+#fixedname "Caranthir"
 #descr "TBD"
 #hp 16
 #str 15
@@ -1378,8 +1378,53 @@
 #weapon "Feanoran Blade"|848
 #armor "Dwarf-Mail Hauberk"|311
 #armor "Noldor Helm"|315
-#
-
+#humanoid
+#unique
+#mountainsurvival
+#startage 900
+#maxage 3000
+#diseaseres 100
+#awe 1
+#patrolbonus 2
+#taxcollector
+#gold 20
+#goodleader
+#command 40
+#magicskill 3 3
+#magicskill 4 2
+#spellsinger
+#end
+#newmonster 2581
+#name "Troll Slayer"
+#fixedname "Hurin Thalion"
+#hp 37
+#str 15
+#att 14
+#def 13
+#prec 10
+#prot 0
+#size 2
+#mr 15
+#mor 30
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Axe of Wrath"|852
+#armor "Elf-Mail Hauberk"|313
+#armor "Half Helmet"|118
+#humanoid
+#unique
+#startage 32
+#maxage 80
+#woundfend 1
+#slashres
+#reinvigoration 1
+#firstshape "Edain Champion"|3589
+#goodleader
+#inspirational 1
+#latehero 24
+#end
 
 
 
@@ -1413,6 +1458,9 @@
 #patrolbonus 10
 #nametypes 175
 #end
+#newmonster 3589
+#name "Edain Champion"
+#fixedname "Hurin Thalion
 
 
 #selectnametype 176
@@ -1488,7 +1536,7 @@ Buildings: Advanced."
 #hero2 3578
 #hero3 3579
 #hero4 3580
-#hero5 3581
+#hero5 3589
 #hero6 3582
 #hero7 3583
 #hero8 3584
