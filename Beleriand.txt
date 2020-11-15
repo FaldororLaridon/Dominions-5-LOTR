@@ -1270,7 +1270,7 @@
 #prot 0
 #size 3
 #mr 14
-#mor 18
+#mor 17
 #enc 3
 #mapmove 16
 #ap 14
@@ -1328,7 +1328,57 @@
 #magicskill 8 2
 #spellsinger
 #end
-
+#newmonster 2579
+#name "Sire of Hope"
+#fixedname "Huor"
+#descr "TBD"
+#ressize 2
+#hp 14
+#str 12
+#att 13
+#def 12
+#prec 10
+#prot 0
+#size 3
+#mr 13
+#mor 30
+#enc 5
+#mapmove 22
+#ap 22
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Half Helmet"|118
+#armor "Shield"|2
+#mountedhumanoid
+#unique
+#mounted
+#startage 29
+#maxage 80
+#nobadevents 10
+#goodleader
+#end
+#newmonster 2580
+#name "Dark"
+#fixedname "Caranthir
+#descr "TBD"
+#hp 16
+#str 15
+#att 14
+#def 14
+#prec 12
+#prot 0
+#size 3
+#mr 14
+#mor 17
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Feanoran Blade"|848
+#armor "Dwarf-Mail Hauberk"|311
+#armor "Noldor Helm"|315
+#
 
 
 
