@@ -1497,7 +1497,7 @@
 #str 15
 #att 14
 #def 14
-#prec 12
+#prec 15
 #prot 0
 #size 3
 #mr 15
@@ -1530,8 +1530,42 @@
 #spellsinger
 #end
 #newmonster 3584
-#name "
-
+#name "Findekano"
+#fixedname "Fingon"
+#descr "TBD"
+#hp 19
+#str 15
+#att 14
+#def 15
+#prec 15
+#prot 0
+#size 3
+#mr 15
+#mor 30
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"|824
+#weapon "Longbow"|24
+#armor "Elf-Mail Hauberk"|313
+#armor "Noldor Helm"|315
+#unique
+#snow
+#stealthy
+#startage 1300
+#maxage 3000
+#autohealer 1
+#diseaseres 100
+#coldres 15
+#awe 2
+#patrolbonus 5
+#expertleader
+#magicskill 4 3
+#magicskill 1 2
+#magicskill 3 2
+#spellsinger
+#end
 
 #newmonster 3588
 #name "Eagle of Manwe"
