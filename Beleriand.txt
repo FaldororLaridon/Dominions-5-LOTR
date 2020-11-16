@@ -56,6 +56,20 @@
 #pierce
 #magic
 #end
+#newweapon 854
+#name "Ringil"
+#dmg 8
+#nratt 2
+#att 2
+#def 2
+#len 1
+#sound 8
+#dt_normal
+#slash
+#pierce
+#cold
+#armorpiercing
+#end
 
 --Beleriand armour--
 #newarmor 315
@@ -1438,7 +1452,43 @@
 #inspirational 1
 #latehero 24
 #end
-
+#newmonster 3582
+#name "High King"
+#fixedname "Fingolfin
+#descr "TBD"
+#hp 24
+#str 16
+#att 15
+#def 18
+#prec 12
+#prot 0
+#size 3
+#mr 15
+#mor 30
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Ringil"|852
+#armor "Elf-Mail Hauberk"|313
+#armor "Noldor Helm"|315
+#armor "Kite Shield"|3
+#humanoid
+#holy
+#unique
+#snow
+#startage 1600
+#maxage 3000
+#autohealer 1
+#diseaseres 100
+#coldres 15
+#awe 2
+#patrolbonus 5
+#superiorleader
+#magicskill 4 5
+#magicskill 3 2
+#spellsinger
+#end
 
 
 #newmonster 3588
