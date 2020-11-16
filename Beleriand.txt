@@ -1454,7 +1454,7 @@
 #end
 #newmonster 3582
 #name "High King"
-#fixedname "Fingolfin
+#fixedname "Fingolfin"
 #descr "TBD"
 #hp 24
 #str 16
