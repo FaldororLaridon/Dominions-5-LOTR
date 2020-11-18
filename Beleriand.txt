@@ -1586,7 +1586,12 @@
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon "Meteorite Sword"|
+#weapon "Meteorite Sword"|825
+#armor "Elf-Mail Hauberk"|313
+#armor "Iron Shield"|208
+#humanoid
+#startitem "Helm of Hador"|512
+
 
 
 
@@ -1988,4 +1993,10 @@ Buildings: Advanced."
 #defunit1b "Khazad Warrior"|3639
 #defmult1 10
 #defmult2 5
+#end
+
+#selectitem 512
+#name "Helm of Hador"
+#copyitem "Dragonhelm of Dor-lomin 502
+#copyspr 502
 #end
