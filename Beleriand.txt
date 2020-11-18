@@ -434,6 +434,7 @@
 #humanoid
 #maxage 3000
 #diseaseres 100
+#fireres 5
 #awe 1
 #patrolbonus 1
 #incunrest 5
@@ -1312,6 +1313,7 @@
 --this number looks big, but trust me, that's how the thing works--
 #startingaff 1073741824
 #awe 2
+#fireres 10
 #patrolbonus 5
 #superiorleader
 #magicskill 3 3
@@ -1410,6 +1412,7 @@
 #startage 900
 #maxage 3000
 #diseaseres 100
+#fireres 10
 #awe 1
 #patrolbonus 2
 #taxcollector
@@ -1566,6 +1569,10 @@
 #magicskill 3 2
 #spellsinger
 #end
+#newmonster 3585
+#name "Cursed Champion"
+#name "Turin Turambar"
+#descr "TBD"
 
 #newmonster 3588
 #name "Eagle of Manwe"
