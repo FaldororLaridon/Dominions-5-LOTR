@@ -1573,6 +1573,27 @@
 #name "Cursed Champion"
 #name "Turin Turambar"
 #descr "TBD"
+#hp 22
+#str 16
+#att 15
+#def 14
+#prec 10
+#prot 0
+#size 2
+#mr 8
+#mor 16
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Meteorite Sword"|
+
+
+
+
+
+
+
 
 #newmonster 3588
 #name "Eagle of Manwe"
