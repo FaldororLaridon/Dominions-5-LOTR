@@ -1576,7 +1576,7 @@
 #hp 22
 #str 16
 #att 15
-#def 14
+#def 15
 #prec 10
 #prot 0
 #size 2
@@ -1591,7 +1591,21 @@
 #armor "Iron Shield"|208
 #humanoid
 #startitem "Helm of Hador"|512
-
+#unique
+#startage 28
+#maxage 80
+#woundfend 2
+#resources 40
+#patrolbonus 10
+#gold 50
+#incscale 4
+#mason
+#expertleader
+#inspirational 2
+#end
+#newmonster 3587
+#name "Son of Feanor"
+#descr "TBD"
 
 
 
