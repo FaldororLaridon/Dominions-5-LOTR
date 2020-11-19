@@ -219,7 +219,7 @@
 #nametype 175
 #end
 #newmonster 3645
-#name "Ehtyar of Hithlum"
+#name "Ehtyar Hithlumo"
 #rcost 1
 #gcost 45
 #rpcost 20
@@ -249,7 +249,7 @@
 #nametype 175
 #end
 #newmonster 3646
-#name "Macar of Hithlum"
+#name "Macar Hithlumo"
 #descr "TBD"
 #rcost 1
 #gcost 50
@@ -311,7 +311,7 @@
 #nametype 175
 #end
 #newmonster 3648
-#name "Rocco Quingar of Hithlum"
+#name "Rocco Quingar Hithlumo"
 #descr "TBD"
 #rcost 1
 #gcost 55
@@ -378,7 +378,7 @@
 #nametype 175
 #end
 #newmonster 3650
-#name "Ranger of Nargothrond"
+#name "Taurëtelconto Nargothrondo"
 #descr "TBD"
 #rcost 1
 #gcost 50
@@ -1817,7 +1817,7 @@
 #gems 3 3
 #level 0
 #rarity 5
-#homemon "Ranger of Nargothrond"|3650
+#homemon "Taurëtelconto Nargothrondo"|3650
 #end
 #newsite
 #name "Himring"
@@ -1825,9 +1825,9 @@
 #res 20
 #level 0
 #rarity 5
-#homemon "Fëanoran Guard"|3651
+#homemon "Varno Fëanoro"|3651
 #homemon "Noldor Roquen"|3649
-#homecom "Noldor King"|3665
+#homecom "Aran"|3665
 #end
 
 #newnation
@@ -1861,10 +1861,10 @@ Buildings: Advanced."
 #addrecunit "Edain Swordsman"|3642
 #addrecunit "Edain Knight"|3643
 #addrecunit "Quingar"|3644
-#addrecunit "Ehtyar of Hithlum"|3645
-#addrecunit "Macar of Hithlum"|3646
+#addrecunit "Ehtyar Hithlumo"|3645
+#addrecunit "Macar Hithlumo"|3646
 #addrecunit "Varno"|3647
-#addrecunit "Rocco Quingar of Hithlum"|3648
+#addrecunit "Rocco Quingar Hithlumo"|3648
 #addreccom "Edain Scout"|3660
 #addreccom "Edain Captain"|3661
 #addreccom "Edain Lord"|3662
@@ -1895,7 +1895,7 @@ Buildings: Advanced."
 #wallcom "Cáno"|3664
 #wallunit "Edain Archer"|3640 
 #wallmult 10
-#wallunit "Cu"|3644
+#wallunit "Quingar"|3644
 #wallmult 5
 #addgod "Valar of the Hunt"
 #addgod "Valar Smith"
