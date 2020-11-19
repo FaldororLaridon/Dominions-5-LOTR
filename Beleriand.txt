@@ -1598,11 +1598,10 @@
 #startage 28
 #maxage 80
 #woundfend 2
-#resources 40
+#resources 100
 #patrolbonus 10
 #gold 50
 #incscale 4
-#mason
 #expertleader
 #inspirational 2
 #end
