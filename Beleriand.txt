@@ -2206,3 +2206,14 @@ Buildings: Advanced."
 #msg "Gold has been stolen in Turin's province!"
 #gold -200
 #end
+
+#newevent
+--change to rarity 0, add #req_rare 5, setting it to be a 5% chance of happening each turn--
+#rarity 5
+#nation 2
+#req_monster "Cursed Champion"
+#req_targgod 0
+#req_targprophet 0
+#msg "In Turin's province, an unfortunate set of circumstances has led to the death of one of your commanders."
+#killcom
+#end
