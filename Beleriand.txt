@@ -2145,3 +2145,64 @@ Buildings: Advanced."
 #copyitem "Dragonhelm of Dor-lomin"|502
 #copyspr 502
 #end
+
+#newevent
+--change to rarity -2, uncommon good(this is a very good event!)--
+#rarity 5
+#nation -2
+#req_monster "Cursed Champion"
+#msg "Turin has raised a small army to fight at your side!"
+#4d6units "Edain Archer"
+#4d6units "Edain Spearman"
+#1d6units "Edain Swordsman"
+#end
+
+
+#newevent
+--change to rarity -1, uncommon good(this is a good event!)--
+#rarity 5
+#nation -2
+#req_monster "Cursed Champion"
+#msg "Turin has rallied people to defend this province!"
+#defense 10
+#end
+
+#newevent
+--change to rarity 2, uncommon bad--
+#rarity 5
+#nation 2
+#req_monster "Cursed Champion"
+#msg "An army has come for Turin's blood!"
+#com "Werewolf Lord"
+#1d6units "Lesser Werewolf"
+#3d6units "Angband Orc Soldier"
+#4d6units "Angband Orc Archer"
+#4d6units "Angband Orc Spearman"
+#end
+
+#newevent
+--change to rarity 1, common bad--
+#rarity 5
+#nation 2
+#req_monster "Cursed Champion"
+#msg "Raiders have come in the night to slaughter Turin's people!"
+#kill 2
+#end
+
+#newevent
+--change to rarity 1, common bad--
+#rarity 5
+#nation 2
+#req_monster "Cursed Champion"
+#msg "Turin's provincial guards have been ambushed, and the attackers left without a trace!"
+#defense -10
+#end
+
+#newevent
+--change to rarity 1, common bad--
+#rarity 5
+#nation 2
+#req_monster "Cursed Champion"
+#msg "Gold has been stolen in Turin's province!"
+#gold -200
+#end
