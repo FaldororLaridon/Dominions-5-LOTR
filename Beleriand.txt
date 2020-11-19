@@ -1713,7 +1713,7 @@
 #att 16
 #def 16
 #prec 14
-#prot 0
+#prot 6
 #size 2
 #mr 18
 #mor 30
@@ -1746,7 +1746,55 @@
 #fixforgebonus 2
 #spellsinger
 #end
-#
+#newmonster 3590
+#name "Star of High Hope"
+#fixedname "Earendil
+#descr "TBD"
+#pathcost 40
+#startdom 2
+#gcost 10000
+#hp 25
+#str 15
+#att 16
+#def 15
+#prec 17
+#prot 5
+#size 3
+#mr 18
+#mor 30
+#enc 3
+#mapmove 22
+#ap 8
+#eyes 2
+#weapon "Elvish Blade"|824
+#armor "Elf-Mail Hauberk"|313
+#armor "Crested Helmet"|162
+#armor "Iron Shield"|208
+#mountedhumanoid
+#mounted
+#float
+#flying
+#stormimmune
+#nomovepen
+#startage 34
+#maxage 3000
+#heal 2
+#diseaseres 100
+#poisonres 20
+#regeneration 20
+#immortal
+#awe 4
+#spiritsight
+#siegebonus 5
+#patrolbonus 10
+#goodleader
+#goodmagicleader
+#inspirational 2
+#magicskill 2 1
+#magicskill 4 1
+#magicskill 1 1
+#spellsinger
+#end
 
 
 
@@ -1858,6 +1906,8 @@ Buildings: Advanced."
 #addgod "Vala of Stars"
 #addgod "Valar of the Sea"
 #addgod "Vala of Growth"
+#addgod "Greatest Noldor"
+#addgod "Star of High Hope"
 #homerealm 10
 #homerealm 2
 #likespop 27
@@ -1867,6 +1917,8 @@ Buildings: Advanced."
 #cheapgod20 "Elder King"
 #cheapgod20 "Vala of Stars"
 #cheapgod40 "Valar of the Sea"
+#cheapgod40 "Star of High Hope"
+#cheapgod40 "Greatest Noldor"
 #fortera 2
 #labcost 500
 #templecost 800
