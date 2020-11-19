@@ -1295,7 +1295,7 @@
 #def 18
 #prec 12
 #prot 0
-#size 3
+#size 2
 #mr 14
 #mor 17
 #enc 3
@@ -1397,7 +1397,7 @@
 #def 14
 #prec 12
 #prot 0
-#size 3
+#size 2
 #mr 14
 #mor 17
 #enc 3
@@ -1468,7 +1468,7 @@
 #def 18
 #prec 12
 #prot 0
-#size 3
+#size 2
 #mr 15
 #mor 30
 #enc 3
@@ -1505,7 +1505,7 @@
 #def 14
 #prec 15
 #prot 0
-#size 3
+#size 2
 #mr 15
 #mor 30
 #enc 3
@@ -1545,7 +1545,7 @@
 #def 15
 #prec 15
 #prot 0
-#size 3
+#size 2
 #mr 15
 #mor 30
 #enc 3
@@ -1615,7 +1615,7 @@
 #def 14
 #prec 12
 #prot 0
-#size 3
+#size 2
 #mr 13
 #mor 16
 #enc 3
@@ -1705,16 +1705,18 @@
 #name "Greatest Noldor"
 #fixedname "Feanor"
 #descr "TBD"
-
-#hp 15
-#str 15
-#att 14
-#def 14
-#prec 12
+#pathcost 50
+#startdom 1
+#gcost 10000
+#hp 30
+#str 18
+#att 16
+#def 16
+#prec 14
 #prot 0
-#size 3
-#mr 13
-#mor 16
+#size 2
+#mr 18
+#mor 30
 #enc 3
 #mapmove 16
 #ap 14
@@ -1722,6 +1724,29 @@
 #weapon "Feanoran Blade"|848
 #armor "Elf-Mail Hauberk"|313
 #armor "Noldor Helm"|315
+#humanoid
+#startage 1900
+#maxage 3000
+#diseaseres 100
+#woundfend 2
+#slashres
+#bluntres
+#fireres 25
+#awe 4
+#berserk 3
+#spiritsight
+#deathfire 2
+#superiorleader
+#command 50
+#magicskill 0 1
+#magicskill 3 1
+#magicskill 4 1
+#gemprod 4 2
+#mastersmith 1
+#fixforgebonus 2
+#spellsinger
+#end
+#
 
 
 
