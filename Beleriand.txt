@@ -1318,6 +1318,7 @@
 #superiorleader
 #magicskill 3 3
 #magicskill 4 2
+#magicskill 0 1
 #gemprod 4 1
 #spellsinger
 #end
@@ -1421,6 +1422,8 @@
 #command 40
 #magicskill 3 3
 #magicskill 4 2
+#magicskill 0 2
+#gemprod 4 1
 #spellsinger
 #end
 #newmonster 3581
@@ -1450,7 +1453,7 @@
 #woundfend 1
 #slashres
 #reinvigoration 1
-#firstshape "Edain Champion"|3589
+#firstshape "Edain Champion"|3588
 #goodleader
 #inspirational 1
 #latehero 24
@@ -1603,18 +1606,42 @@
 #expertleader
 #inspirational 2
 #end
-#newmonster 3587
+#newmonster 3586
 #name "Son of Feanor"
 #descr "TBD"
-
-
-
-
-
-
-
-
-#newmonster 3588
+#hp 15
+#str 15
+#att 14
+#def 14
+#prec 12
+#prot 0
+#size 3
+#mr 13
+#mor 16
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Feanoran Blade"|848
+#armor "Elf-Mail Hauberk"|313
+#armor "Noldor Helm"|315
+#humanoid
+#maxage 3000
+#diseaseres 100
+#fireres 10
+#awe 1
+#patrolbonus 2
+#nametype 176
+#expertleader
+#magicskill 3 2
+#custommagic 3200 100
+#custommagic 3200 100
+#custommagic 3200 50
+#custommagic 1152 10
+#gemprod 4 1
+#spellsinger
+#end
+#newmonster 3587
 #name "Eagle of Manwe"
 #descr "Manwe is the Lord of the air and of birds, but the Eagles are his favoured creatures above all others. They live on great mountain peaks, keeping a watchful eye on the world and delivering their tales to their Lord. They are intelligent and proud, and will not be controlled, but will ally themselves against great threats if nessecary."
 #hp 55
@@ -1643,7 +1670,7 @@
 #patrolbonus 10
 #nametypes 175
 #end
-#newmonster 3589
+#newmonster 3588
 #name "Edain Champion"
 #fixedname "Hurin Thalion"
 #hp 15
@@ -1674,6 +1701,35 @@
 #inspirational 1
 #latehero 24
 #end
+#newmonster 3589
+#name "Greatest Noldor"
+#fixedname "Feanor"
+#descr "TBD"
+
+#hp 15
+#str 15
+#att 14
+#def 14
+#prec 12
+#prot 0
+#size 3
+#mr 13
+#mor 16
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Feanoran Blade"|848
+#armor "Elf-Mail Hauberk"|313
+#armor "Noldor Helm"|315
+
+
+
+
+
+
+
+
 
 #selectnametype 176
 #addname "Maglor"
@@ -1748,13 +1804,12 @@ Buildings: Advanced."
 #hero2 3578
 #hero3 3579
 #hero4 3580
-#hero5 3589
+#hero5 3588
 #hero6 3582
 #hero7 3583
 #hero8 3584
 #hero9 3585
-#hero10 3586
-#multihero1 3587
+#multihero1 3586
 #defcom1 "Edain Captain"|3661
 #defcom2 "Noldor Captain"|3664
 #defunit1 "Edain Archer"|3640
@@ -1934,7 +1989,7 @@ Buildings: Advanced."
 #path 0 1
 #pathlevel 0 3
 #fatiguecost 1500
-#damage 3488
+#damage 3487
 #effect 10001
 #nreff 5
 #provrange 0
