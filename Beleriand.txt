@@ -5,7 +5,7 @@
 #magic
 #end
 #newweapon 848
-#name "Flame of Feanor"
+#name "Flame of Fëanor"
 #dmg 6
 #nratt 1
 #att 0
@@ -31,10 +31,10 @@
 #secondaryeffect "Strong Poison"|51
 #end
 #newweapon 851
-#name "Feanoran Blade"
+#name "Fëanoran Blade"
 #copyweapon "Greatsword"|11
 #magic
-#secondaryeffect "Flame of Feanor"|848
+#secondaryeffect "Flame of Fëanor"|848
 #end
 #newweapon 852
 #name "Axe of Wrath"
@@ -409,7 +409,7 @@
 #nametype 175
 #end
 #newmonster 3651
-#name "Feanoran Guard"
+#name "Fëanoran Guard"
 #descr "TBD"
 #rcost 1
 #gcost 50
@@ -428,7 +428,7 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Feanoran Blade"|848
+#weapon "Fëanoran Blade"|848
 #armor "Elf-Mail Hauberk"|313
 #armor "Noldor Helm"|315
 #humanoid
@@ -441,7 +441,7 @@
 #nametype 175
 #bodyguard 1
 #end
---situational units(forest/(coastal/river))
+--situational units(forest/(coastal/river))--
 #newmonster 3652
 #name "Warrior of Haleth"
 #descr "TBD"
@@ -1094,7 +1094,7 @@
 #spellsinger
 #end
 #newmonster 3672
-#name "Maia of Manwe"
+#name "Maia of Manwë"
 #descr "TBD"
 #gcost 10000
 #hp 30
@@ -1286,7 +1286,7 @@
 #end
 --Beleriand Heroes--
 #newmonster 3577
-#name "Heir of Feanor"
+#name "Heir of Fëanor"
 #fixedname "Maedhros"
 #descr "TBD"
 #hp 18
@@ -1404,7 +1404,7 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Feanoran Blade"|848
+#weapon "Fëanoran Blade"|848
 #armor "Dwarf-Mail Hauberk"|311
 #armor "Noldor Helm"|315
 #humanoid
@@ -1606,7 +1606,7 @@
 #inspirational 2
 #end
 #newmonster 3586
-#name "Son of Feanor"
+#name "Son of Fëanor"
 #descr "TBD"
 #hp 15
 #str 15
@@ -1621,7 +1621,7 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Feanoran Blade"|848
+#weapon "Fëanoran Blade"|848
 #armor "Elf-Mail Hauberk"|313
 #armor "Noldor Helm"|315
 #humanoid
@@ -1641,8 +1641,8 @@
 #spellsinger
 #end
 #newmonster 3587
-#name "Eagle of Manwe"
-#descr "Manwe is the Lord of the air and of birds, but the Eagles are his favoured creatures above all others. They live on great mountain peaks, keeping a watchful eye on the world and delivering their tales to their Lord. They are intelligent and proud, and will not be controlled, but will ally themselves against great threats if nessecary."
+#name "Eagle of Manwë"
+#descr "Manwë is the Lord of the air and of birds, but the Eagles are his favoured creatures above all others. They live on great mountain peaks, keeping a watchful eye on the world and delivering their tales to their Lord. They are intelligent and proud, and will not be controlled, but will ally themselves against great threats if nessecary."
 #hp 55
 #str 18
 #att 12
@@ -1702,7 +1702,7 @@
 #end
 #newmonster 3589
 #name "Greatest Noldor"
-#fixedname "Feanor"
+#fixedname "Fëanor"
 #descr "TBD"
 #pathcost 50
 #startdom 1
@@ -1720,7 +1720,7 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Feanoran Blade"|848
+#weapon "Fëanoran Blade"|848
 #armor "Elf-Mail Hauberk"|313
 #armor "Noldor Helm"|315
 #humanoid
@@ -1747,7 +1747,7 @@
 #end
 #newmonster 3590
 #name "Star of High Hope"
-#fixedname "Earendil
+#fixedname "Earendil"
 #descr "TBD"
 #pathcost 40
 #startdom 2
@@ -1825,7 +1825,7 @@
 #res 20
 #level 0
 #rarity 5
-#homemon "Feanoran Guard"|3651
+#homemon "Fëanoran Guard"|3651
 #homemon "Noldor Roquen"|3649
 #homecom "Noldor King"|3665
 #end
@@ -2058,8 +2058,8 @@ Buildings: Advanced."
 #restricted "Gondolin"
 #end
 #newspell 
-#name "Call Eagles of Manwe"
-#descr "Calls five Eagles of Manwe to fight for your cause."
+#name "Call Eagles of Manwë"
+#descr "Calls five Eagles of Manwë to fight for your cause."
 #school 0
 #researchlevel 5
 #path 0 1
