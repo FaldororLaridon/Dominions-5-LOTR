@@ -409,7 +409,7 @@
 #nametype 175
 #end
 #newmonster 3651
-#name "Fëanoran Guard"
+#name "Varno Fëanoro"
 #descr "TBD"
 #rcost 1
 #gcost 50
@@ -1806,7 +1806,7 @@
 #selectnametype 176
 #addname "Maglor"
 #addname "Celegorm"
-#addname "Curufin
+#addname "Curufin"
 #addname "Amrod"
 #addname "Amras"
 #end
@@ -2093,7 +2093,7 @@ Buildings: Advanced."
 #defcom1 "Edain Lord"|3662
 #defunit1 "Edain Archer"
 #defunit1b "Edain Spearman"
-#defunit1c "Edain Swordsman
+#defunit1c "Edain Swordsman"
 #defmult1 20
 #defmult1b 15
 #defmultc 10
@@ -2133,7 +2133,7 @@ Buildings: Advanced."
 #addrecunit "Khazad Warrior"|3639
 #addreccom "Khazad Captain"|3550
 #addrecom "Khazad Forge-Priest"|3552
-#defcom1 "3553
+#defcom1 3553
 #defunit1 "Blue Mountain Sapper"|3543
 #defunit1b "Khazad Warrior"|3639
 #defmult1 10
@@ -2142,6 +2142,6 @@ Buildings: Advanced."
 
 #selectitem 512
 #name "Helm of Hador"
-#copyitem "Dragonhelm of Dor-lomin 502
+#copyitem "Dragonhelm of Dor-lomin"|502
 #copyspr 502
 #end
