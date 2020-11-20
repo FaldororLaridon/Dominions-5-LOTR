@@ -1778,6 +1778,7 @@
 #startage 34
 #maxage 3000
 #heal 2
+#woundfend 2
 #diseaseres 100
 #poisonres 20
 #regeneration 20
@@ -1794,9 +1795,40 @@
 #magicskill 1 1
 #spellsinger
 #end
-
-
-
+#newmonster 3591
+#name "Orc Captain"
+#descr "Particularly large and savage Orcs may survive long enough to be promoted to Captain. Tough and strong, these Orcs lead their bretheren into battle with threats and snarls. They hold the highest rank an Orc can have in Angband, but know that every other Orc wants to take their place, and their authority only extends to their fellow Orcs. The powers of Angband care not what Orc rises or falls, so long as they do as they are commanded."
+#rcost 1
+#gcost 15
+#rpcost 1
+#hp 11
+#str 14
+#att 9
+#def 9
+#prec 8
+#prot 0
+#size 2
+#mr 10
+#mor 8
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Battleaxe"|18
+#armor "Orc Plate Mail"|303
+#armor "Full Helmet"|304
+#humanoid
+#wastesurvival
+#startage 150
+#maxage 1000
+#darkvision 100
+#chaospower 1
+#pillagebonus 2
+#slave
+#nametype 170
+#okleader
+#taskmaster 1
+#end
 
 
 
