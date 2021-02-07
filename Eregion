@@ -1,1 +1,86 @@
 
+--Eregion Weapons--
+#newweapon 865
+#name "Dwarven Spear"
+#dmg 4
+#nratt 1
+#att 1
+#def 0
+#len 3
+#sound 12
+#rcost 3
+#pierce
+#end
+#newweapon 866
+#name "Dwarven Axe"
+#dmg 10
+#nratt 1
+#att 0
+#def 0
+#len 1
+#sound 10
+#rcost 3
+#slash
+#end
+#newweapon 867
+#name "Dwarven Falchion"
+#dmg 9
+#nratt 1
+#att 1
+#def 0
+#len 1
+#sound 8
+#rcost 4
+#slash
+#end
+#newweapon 868
+#name "Dwarven Battleaxe"
+#dmg 11
+#att 1
+#def 0
+#len 2
+#twohanded
+#sound 10
+#rcost 4
+#slash
+#end
+#newweapon 869
+#name "Dwarven Pickaxe"
+#dmg 8
+#att -1
+#def -1
+#len 1
+#twohanded
+#sound 10
+#rcost 3
+#pierce
+#end
+#newweapon 870
+#name "Dwarven Dagger"
+#copyweapon "Khazad Dagger"
+#end
+#newweapon 871
+#name "Mithril Axe"
+#dmg 10
+#nratt 2
+#att 0
+#def 0
+#len 1
+#sound 10
+#rcost 8
+#slash
+#armorpiercing
+#end
+#newweapon 872
+#name "Mithril Lance"
+#dmg 6
+#nratt 1
+#att 1
+#def 1
+#len 3
+#sound 12
+#rcost 6
+#pierce
+#armorpiercing
+#charge
+#end
