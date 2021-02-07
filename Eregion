@@ -84,3 +84,7 @@
 #armorpiercing
 #charge
 #end
+#newweapon 873
+#copyweapon 28
+#magic
+#end
