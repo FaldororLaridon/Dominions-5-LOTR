@@ -88,3 +88,39 @@
 #copyweapon 28
 #magic
 #end
+#newarmor 321
+#name "Mithril Cuirass"
+#type 5
+#prot 16
+#def 0
+#enc 0
+#rcost 22
+#magicarmor
+#end
+#newarmor 322
+#name "Mithril Hauberk"
+#type 5
+#prot 21
+#def 0
+#enc 1
+#rcost 30
+#magicarmor 
+#end
+#newarmor 323
+#name "Mithril Helm"
+#type 6
+#prot 21
+#def 0
+#enc 0 
+#rcost 12
+#magicarmor
+#end
+#newarmor 324
+#name "Mithril Full Helm"
+#type 6
+#prot 25
+#def -1
+#enc 0
+#rcost 16
+#magicarmor
+#end
