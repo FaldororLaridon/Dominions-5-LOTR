@@ -102,7 +102,7 @@
 #type 5
 #prot 21
 #def 0
-#enc 1
+#enc 0
 #rcost 30
 #magicarmor 
 #end
@@ -124,3 +124,22 @@
 #rcost 16
 #magicarmor
 #end
+#newarmor 325
+#name "Mithril Full Mail"
+#type 5
+#prot 25
+#def 0
+#enc 1
+#rcost 44
+#magicarmor 
+#end
+
+#newmonster 3706
+#name "Dwarf Miner"
+#descr "TBD"
+#rcost 2
+#gcost 12
+#rpcost 1000
+#hp 11
+#str 10
+
