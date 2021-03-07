@@ -138,8 +138,175 @@
 #name "Dwarf Miner"
 #descr "TBD"
 #rcost 2
-#gcost 12
+#gcost 11
 #rpcost 1000
 #hp 11
 #str 10
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 11
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Dwarven Pickaxe"
+#armor "Leather Hauberk"
+#armor "Iron Cap"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#addupkeep 2
+#reinvigoration 2
+#darkvision 50
+#siegebonus 6
+#nametype 174
+#supplybonus -1
+#drawsize 10
+#end
 
+#newmonster 3708
+#name "Dwarf Archer"
+#descr "TBD"
+#rcost 2
+#gcost 11
+#rpcost 1000
+#hp 11
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 1
+#mr 15
+#mor 12
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Short Bow"
+#armor "Leather Hauberk"
+#armor "Dwarven Dagger"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#addupkeep 2
+#reinvigoration 2
+#darkvision 50
+#nametype 174
+#supplybonus -1
+#drawsize 10
+#end
+
+#newmonster 3709
+#name "Dwarf Skirmisher"
+#descr "TBD"
+#rcost 2
+#gcost 20
+#rpcost 1000
+#hp 11
+#str 10
+#att 10
+#def 9
+#prec 10
+#prot 0
+#size 1
+#mr 15
+#mor 14
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Dwarven Spear"
+#weapon "Khazad Throwing Axe"
+#armor "Dwarf-Mail Cuirass"
+#armor "Iron Cap"
+#armor "Buckler"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#addupkeep 3
+#reinvigoration 2
+#darkvision 50
+#nametype 174
+#supplybonus -1
+#drawsize 10
+#end
+
+#newmonster 3710
+#name "Dwarf Soldier"
+#descr "TBD"
+#rcost 2
+#gcost 30
+#rpcost 1000
+#hp 13
+#str 12
+#att 11
+#def 9
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Dwarven Axe"
+#armor "Dwarf-Mail Hauberk"
+#armor "Dwarf Half Helm'
+#armor "Khazad Round Shield"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#addupkeep 5
+#reinvigoration 2
+#darkvision 50
+#castledef 1
+#nametype 174
+#supplybonus -1
+#drawsize 10
+#end
+
+#newmonster 3711
+#name "Dwarf Soldier"
+#descr "TBD"
+#rcost 2
+#gcost 30
+#rpcost 1000
+#hp 13
+#str 12
+#att 11
+#def 9
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Dwarven Falchion"
+#armor "Dwarf-Mail Hauberk"
+#armor "Dwarf Half Helm'
+#armor "Khazad Round Shield"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#addupkeep 5
+#reinvigoration 2
+#darkvision 50
+#castledef 1
+#nametype 174
+#supplybonus -1
+#drawsize 10
+#end
