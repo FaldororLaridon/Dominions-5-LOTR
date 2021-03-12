@@ -388,5 +388,63 @@
 #name "Hollin Archer"
 #descr "TBD"
 #rcost 1
-#gcost 30
-#
+#gcost 28
+#rpcost 22
+#hp 13
+#str 13
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Long Bow"
+#weapon "Elvish Dagger"
+#armor "Elf-Mail Cuirass"
+#armor "Crested Helmet"
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#darkvision 50
+#patrolbonus 1
+#nametype 175
+#drawsize 5
+#end
+#newmonster 3715
+#name "Hollin Guard"
+#descr "TBD"
+#rcost 1
+#gcost 35
+#rpcost 26
+#hp 13
+#str 13
+#att 12
+#def 11
+#prec 12
+#prot 0
+#size 2
+#mr 12
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Longspear"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#armor "Elf-Mail Hauberk"
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#darkvision 50
+#patrolbonus 2
+#nametype 175
+#drawsize 5
+#end
