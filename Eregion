@@ -183,7 +183,7 @@
 #prot 0
 #size 1
 #mr 15
-#mor 12
+#mor 11
 #enc 2
 #mapmove 20
 #ap 8
@@ -217,7 +217,7 @@
 #prot 0
 #size 1
 #mr 15
-#mor 14
+#mor 13
 #enc 2
 #mapmove 20
 #ap 8
@@ -253,7 +253,7 @@
 #prot 0
 #size 1
 #mr 15
-#mor 15
+#mor 14
 #enc 2
 #mapmove 20
 #ap 8
@@ -289,7 +289,7 @@
 #prot 0
 #size 1
 #mr 15
-#mor 15
+#mor 14
 #enc 2
 #mapmove 20
 #ap 8
@@ -310,3 +310,83 @@
 #supplybonus -1
 #drawsize 10
 #end
+#newmonster 3712
+#name "Dûm Guard"
+#descr "TBD"
+#rcost 2
+#gcost 38
+#rpcost 1000
+#hp 14
+#str 13
+#att 11
+#def 11
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Dwarven Battleaxe"
+#armor "Mithril Hauberk"
+#armor "Mithril Helm"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#addupkeep 8
+#reinvigoration 3
+#darkvision 50
+#castledef 3
+#nametype 174
+#supplybonus -1
+#standard 1
+#drawsize 10
+#end
+
+#newmonster 3713
+#name "Baruk Durin"
+#descr "TBD"
+#rcost 2
+#gcost 55
+#rpcost 1000
+#reqlab
+#reqtemple
+#hp 15
+#str 14
+#att 12
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Mithril Axe"
+#armor "Mithril Full Mail"
+#armor "Khazad Round Shield"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 230
+#woundfend 1
+#fear 5
+#darkvision 100
+#castledef 1
+#addupkeep 20
+#nametype 174
+#supplybonus -1
+#drawsize 10
+#end
+
+#newmonster 3714
+#name "Hollin Archer"
+#descr "TBD"
+#rcost 1
+#gcost 30
+#
