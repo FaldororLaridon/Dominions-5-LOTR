@@ -421,7 +421,7 @@
 #name "Hollin Guard"
 #descr "TBD"
 #rcost 1
-#gcost 35
+#gcost 30
 #rpcost 26
 #hp 13
 #str 13
@@ -483,4 +483,72 @@
 #drawsize 5
 #end
 #newmonster 1718
-#name "
+#name "Maemagor"
+#descr "TBD"
+#rcost 1
+#gcost 42
+#rpcost 30
+#hp 14
+#str 13
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Noldor Helm"
+#armor "Mithril Cuirass"
+#armor "Kite Shield"
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#darkvision 50
+#patrolbonus 1
+#nametype 175
+#drawsize 5
+#end
+#newmonster 1719
+#name "Mithril Rochir"
+#descr "TBD"
+#rcost 12
+#gcost 74
+#rpcost 50
+#ressize 2
+#reqlab
+#reqtemple
+#hp 14
+#str 14
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 3
+#mr 12
+#mor 14
+#enc 5
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Mithril Lance"
+#weapon 55
+#armor "Mithril Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#holy
+#mounted
+#maxage 3000
+#diseaseres 100
+#awe 1
+#darkvision 50
+#patrolbonus 1
+#nametype 175
+#drawsize 5
+#end
