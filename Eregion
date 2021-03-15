@@ -85,6 +85,7 @@
 #charge
 #end
 #newweapon 873
+#name "Elvish Long Spear"
 #copyweapon 28
 #magic
 #end
@@ -435,7 +436,7 @@
 #mapmove 16
 #ap 13
 #eyes 2
-#weapon "Elvish Longspear"
+#weapon "Elvish Long Spear"
 #armor "Noldor Helm"
 #armor "Kite Shield"
 #armor "Elf-Mail Hauberk"
@@ -448,3 +449,38 @@
 #nametype 175
 #drawsize 5
 #end
+#newmonster 1716
+#name "Hollin Rider"
+#descr "TBD"
+#rcost 1
+#gcost 50
+#rpcost 45
+#ressize 2
+#hp 13
+#str 13
+#att 12
+#def 11
+#prec 12
+#prot 0
+#size 2
+#mr 12
+#mor 12
+#enc 5
+#mapmove 22
+#ap 24
+#eyes 2
+#weapon "Short Bow"
+#weapon "Elvish Spear"
+#armor "Elf-Mail Cuirass"
+#armor "Crested Helmet"
+#mountedhumanoid
+#mounted
+#maxage 3000
+#diseaseres 100
+#awe 1
+#patrolbonus 1
+#nametype 175
+#drawsize 5
+#end
+#newmonster 1718
+#name "
