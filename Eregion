@@ -1,6 +1,6 @@
 
 --Eregion Weapons--
-#newweapon 865
+#newweapon 867
 #name "Dwarven Spear"
 #dmg 4
 #nratt 1
@@ -11,7 +11,7 @@
 #rcost 3
 #pierce
 #end
-#newweapon 866
+#newweapon 868
 #name "Dwarven Axe"
 #dmg 10
 #nratt 1
@@ -22,7 +22,7 @@
 #rcost 3
 #slash
 #end
-#newweapon 867
+#newweapon 869
 #name "Dwarven Falchion"
 #dmg 9
 #nratt 1
@@ -33,7 +33,7 @@
 #rcost 4
 #slash
 #end
-#newweapon 868
+#newweapon 870
 #name "Dwarven Battleaxe"
 #dmg 11
 #att 1
@@ -44,7 +44,7 @@
 #rcost 4
 #slash
 #end
-#newweapon 869
+#newweapon 871
 #name "Dwarven Pickaxe"
 #dmg 8
 #att -1
@@ -55,7 +55,7 @@
 #rcost 3
 #pierce
 #end
-#newweapon 870
+#newweapon 872
 #name "Dwarven Dagger"
 #copyweapon "Khazad Dagger"
 #end
@@ -71,7 +71,7 @@
 #slash
 #armorpiercing
 #end
-#newweapon 872
+#newweapon 873
 #name "Mithril Lance"
 #dmg 6
 #nratt 1
@@ -84,7 +84,7 @@
 #armorpiercing
 #charge
 #end
-#newweapon 873
+#newweapon 874
 #name "Elvish Long Spear"
 #copyweapon 28
 #magic
@@ -355,6 +355,7 @@
 #rpcost 1000
 #reqlab
 #reqtemple
+#monpresentrec "Master of Traditions"
 #hp 15
 #str 14
 #att 12
@@ -376,6 +377,7 @@
 #mountainsurvival
 #maxage 230
 #woundfend 1
+#fireres 5
 #fear 5
 #darkvision 100
 #castledef 1
@@ -523,6 +525,7 @@
 #ressize 2
 #reqlab
 #reqtemple
+#monpresentrec "Master of Traditions"
 #hp 14
 #str 14
 #att 13
@@ -552,3 +555,44 @@
 #nametype 175
 #drawsize 5
 #end
+#newmonster 1720
+#name "Miner Captain"
+#descr "TBD"
+#rcost 2
+#gcost 10000
+#rpcost 1
+#hp 13
+#str 12
+#att 11
+#def 9
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 14
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Dwarven Axe"
+#armor "Dwarf-Mail Hauberk"
+#armor "Dwarf Half Helm"
+#armor "Khazad Round Shield"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#reinvigoration 2
+#darkvision 50
+#castledef 1
+#nametype 174
+#okleader
+#command 10
+#supplybonus -1
+#addupkeep 5
+#drawsize 10
+#end
+#newmonster 1721
+#name "Eregion Smith"
+#descr "TBD"
+
