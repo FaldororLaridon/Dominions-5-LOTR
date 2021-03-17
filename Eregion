@@ -135,6 +135,7 @@
 #magicarmor 
 #end
 
+
 #newmonster 3706
 #name "Dwarf Miner"
 #descr "TBD"
@@ -372,6 +373,7 @@
 #weapon "Mithril Axe"
 #armor "Mithril Full Mail"
 #armor "Khazad Round Shield"
+#armor "Mithril Full Helm"
 #humanoid
 #holy
 #mountainsurvival
@@ -595,4 +597,167 @@
 #newmonster 1721
 #name "Eregion Smith"
 #descr "TBD"
-
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 10000
+#rpcost 1
+#hp 11
+#att 9
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 12
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Khazad-Steel Hammer"
+#armor "Robe"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 230
+#fireres 5
+#reinvigoration 2
+#darkvision 50
+#nametype 174
+#poorleader
+#magicskill 3 1
+#magicskill 0 1
+#custommagic 1152
+#supplybonus -1
+#researchbonus -2
+#drawsize 10
+#end
+#newmonster 1722
+#name "Gwaith-i-Mírdain Smith"
+#descr "TBD"
+#reqlab
+#reqtemple
+#reqtemple
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 11
+#att 9
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 17
+#mor 13
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Khazad-Steel Hammer"
+#armor "Dwarf-Mail Hauberk"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 230
+#fireres 5
+#reinvigoration 2
+#darkvision 50
+#nametype 174
+#okleader
+#magicskill 3 1
+#magicskill 0 2
+#magicskill 1 1
+#magicskill 8 1
+#custommagic 1408
+#researchbonus -2
+#supplybonus -1
+#mastersmith 1
+#drawsize 10
+#end
+#newmonster 1723
+#name "Khazad-dum Lord"
+#descr "TBD"
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 14
+#str 14
+#att 12
+#def 10
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 15
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Dwarven Falchion"
+#armor "Dwarf-Mail Hauberk"
+#armor "Khazad Full Helm"
+#armor "Khazad Round Shield"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#reinvigoration 2
+#fear 5
+#darkvision 50
+#castledef 1
+#siegebonus 5
+#taxcollector
+#nametype 174
+#goodleader
+#command 10
+#inspirational 1
+#supplybonus -1
+#addupkeep 5
+#drawsize 10
+#end
+#newmonster 1724
+#name "Master of Traditions"
+#descr "TBD"
+#reqlab
+#reqtemple
+#rcost 2
+#gcost 10040
+#rpcost 6
+#hp 11
+#str 12
+#att 10
+#def 9
+#prec 11
+#prot 0
+#size 1
+#mr 17
+#mor 17
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Khazad-Steel Hammer"
+#armor "Mithril Hauberk"
+#armor "Full Mithril Helm"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 230
+#startage 250
+#fireres 10
+#reinvigoration 3
+#darkvision 50
+#fear 5
+#resources 10
+#nametype 174
+#goodleader 
+#magicskill 3 2
+#magicskill 0 2
+#magicskill 1 2
+#magicskill 8 2
+#custommagic 1408 100
+#researchbonus -6
+#supplybonus -1
+#addupkeep 7
+#drawsize 10
+#end
