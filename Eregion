@@ -629,7 +629,7 @@
 #magicskill 0 1
 #custommagic 1152 50
 #supplybonus -1
-#researchbonus -2
+#researchbonus -4
 #drawsize 10
 #end
 #newmonster 1722
@@ -756,7 +756,7 @@
 #magicskill 1 2
 #magicskill 8 2
 #custommagic 1408 100
-#researchbonus -6
+#researchbonus -8
 #mastersmith 2
 #supplybonus -1
 #addupkeep 7
@@ -944,4 +944,88 @@
 #magicskill 8 1
 #spellsinger
 #drawsize 5
+#end
+#newmonster 1740
+#name "Elf-Friend"
+#fixedname "Narvi"
+#descr "TBD"
+#hp 13
+#att 10
+#def 9
+#prec 8
+#prot 0
+#size 1
+#mr 17
+#mor 16
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Khazad-Steel Hammer"
+#armor "Mithril Cuirass"
+#humanoid
+#mountainsurvival
+#startage 100
+#maxage 230
+#fireres 5
+#reinvigoration 2
+#darkvision 50
+#castledef 20
+#siegebonus 10
+#alchemy 50
+#mason
+#okleader
+#magicskill 3 3
+#magicskill 0 1
+#magicskill 1 2
+#magicskill 4 1
+#researchbonus -2
+#supplybonus -1
+#mastersmith 1
+#fixforgebonus 2
+#drawsize 10
+#end
+#newmonster 1741
+#name "King of Khazad-Dum"
+#fixedname "Durin III"
+#descr "TBD"
+#hp 17
+#str 15
+#att 12
+#def 13
+#prec 12
+ 
+#size 1
+#mr 18
+#mor 20
+#enc 2
+#mapmove 20
+#ap 10
+#eyes 2
+#weapon "Mithril Axe"
+#armor "Mithril Hauberk"
+#armor "Mithril Full Helm"
+#armor "Khazad Round Shield
+#humanoid
+#mountainsurvival
+#startage 80
+#maxage 240
+#woundfend 1
+#fireres 5
+#reinvigoration 4
+#awe 1
+#castledef 15
+#gold 30
+#mason
+#expertleader
+#inspirational 1
+#warning 5
+#magicskill 3 3
+#magicskill 0 3
+#magicskill 1 2
+#forgebonus 20
+#mastersmith 2
+#supplybonus -1
+#researchbonus -4
+#drawsize 10
 #end
