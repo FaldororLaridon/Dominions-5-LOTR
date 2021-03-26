@@ -601,7 +601,7 @@
 #reqtemple
 #rcost 2
 #gcost 10000
-#rpcost 1
+#rpcost 2
 #hp 11
 #att 9
 #def 8
@@ -627,7 +627,7 @@
 #poorleader
 #magicskill 3 1
 #magicskill 0 1
-#custommagic 1152
+#custommagic 1152 50
 #supplybonus -1
 #researchbonus -2
 #drawsize 10
@@ -668,7 +668,7 @@
 #magicskill 0 2
 #magicskill 1 1
 #magicskill 8 1
-#custommagic 1408
+#custommagic 1408 50
 #researchbonus -2
 #supplybonus -1
 #mastersmith 1
@@ -757,7 +757,191 @@
 #magicskill 8 2
 #custommagic 1408 100
 #researchbonus -6
+#mastersmith 2
 #supplybonus -1
 #addupkeep 7
 #drawsize 10
+#end
+#newmonster 1725
+#name "Elven Scout"
+#descr "TBD"
+#rcost 1
+#gcost 40
+#rpcost 1
+#hp 13
+#str 13
+#prec 12
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Dagger"
+#armor "Leather Cuirass"
+#humanoid
+#stealthy 20
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#awe 1
+#patrolbonus 1
+#nametype 175
+#noleader
+#drawsize 5
+#end
+#newmonster 1736
+#name "Captain of Hollin"
+#descr "TBD"
+#reqlab
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#att 12
+#def 12
+#prec 12
+#size 2
+#mr 13
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#humanoid
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#awe 1
+#patrolbonus 1
+#nametype 175
+#goodleader
+#magicskill 3 1
+#magicskill 4 1
+#spellsinger
+#drawsize 5
+#end
+#newmonster 1737
+#name "Eregion Smith"
+#descr "TBD"
+#reqlab
+#reqtemple
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 12
+#str 13
+#prec 12
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Dagger"
+#armor "Robes"
+#humanoid
+#holy
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#awe 1
+#patrolbonus 1
+#nametype 175
+#poorleader
+#magicskill 4 1
+#magicskill 3 1
+#custommagic 3072 50
+#fixforgebonus 2
+#spellsinger
+#drawsize 5
+#end
+#newmonster  1738
+#name "Gwaith-i-Mírdain Smith"
+#descr "TBD"
+#reqlab
+#reqtemple
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 12
+#str 13
+#prec 12
+#size 2
+#mr 15
+#mor 13
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Dagger"
+#armor "Robes"
+#humanoid
+#holy
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#awe 1
+#patrolbonus 1
+#nametype 175
+#poorleader
+#magicskill 4 1
+#magicskill 3 2
+#magicskill 2 1
+#magicskill 8 1
+#custommagic 3584 50
+#fixforgebonus 3
+#spellsinger
+#drawsize 5
+#end
+#newmonster 1739
+#name "Lord of Hollin"
+#descr "TBD"
+#reqlab
+#reqtemple
+#rcost 12
+#gcost 10000
+#rpcost 4
+#ressize 2
+#hp 15
+#str 15
+#att 14
+#def 13
+#prec 12
+ 
+#size 3
+#mr 15
+#mor 15
+#enc 5
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"
+#weapon "Elvish Blade"
+#weapon "Hoof"
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#awe 1
+#patrolbonus 1
+#nametype 175
+#expertleader
+#magicskill 3 3
+#magicskill 4 2
+#magicskill 8 1
+#spellsinger
+#drawsize 5
 #end
