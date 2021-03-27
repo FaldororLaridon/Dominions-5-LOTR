@@ -390,7 +390,7 @@
 #end
 
 #newmonster 3714
-#name "Eregion Archer"
+#name "Hollin Archer"
 #descr "TBD"
 #rcost 1
 #gcost 28
@@ -422,7 +422,7 @@
 #drawsize 5
 #end
 #newmonster 3715
-#name "Eregion Guard"
+#name "Hollin Guard"
 #descr "TBD"
 #rcost 1
 #gcost 30
@@ -454,7 +454,7 @@
 #drawsize 5
 #end
 #newmonster 3716
-#name "Eregion Rider"
+#name "Hollin Rider"
 #descr "TBD"
 #rcost 1
 #gcost 50
@@ -792,7 +792,7 @@
 #drawsize 5
 #end
 #newmonster 3725
-#name "Captain of Eregion"
+#name "Captain of Hollin"
 #descr "TBD"
 #reqlab
 #rcost 1
@@ -902,7 +902,7 @@
 #drawsize 5
 #end
 #newmonster 3728
-#name "Lord of Eregion"
+#name "Lord of Hollin"
 #descr "TBD"
 #reqlab
 #reqtemple
