@@ -1,6 +1,6 @@
 
 --Eregion Weapons--
-#newweapon 867
+#newweapon 869
 #name "Dwarven Spear"
 #dmg 4
 #nratt 1
@@ -11,7 +11,7 @@
 #rcost 3
 #pierce
 #end
-#newweapon 868
+#newweapon 870
 #name "Dwarven Axe"
 #dmg 10
 #nratt 1
@@ -22,7 +22,7 @@
 #rcost 3
 #slash
 #end
-#newweapon 869
+#newweapon 871
 #name "Dwarven Falchion"
 #dmg 9
 #nratt 1
@@ -33,7 +33,7 @@
 #rcost 4
 #slash
 #end
-#newweapon 870
+#newweapon 872
 #name "Dwarven Battleaxe"
 #dmg 11
 #att 1
@@ -44,7 +44,7 @@
 #rcost 4
 #slash
 #end
-#newweapon 871
+#newweapon 873
 #name "Dwarven Pickaxe"
 #dmg 8
 #att -1
@@ -55,11 +55,11 @@
 #rcost 3
 #pierce
 #end
-#newweapon 872
+#newweapon 874
 #name "Dwarven Dagger"
 #copyweapon "Khazad Dagger"
 #end
-#newweapon 871
+#newweapon 875
 #name "Mithril Axe"
 #dmg 10
 #nratt 2
@@ -71,7 +71,7 @@
 #slash
 #armorpiercing
 #end
-#newweapon 873
+#newweapon 876
 #name "Mithril Lance"
 #dmg 6
 #nratt 1
@@ -84,7 +84,7 @@
 #armorpiercing
 #charge
 #end
-#newweapon 874
+#newweapon 877
 #name "Elvish Long Spear"
 #copyweapon 28
 #magic
@@ -390,7 +390,7 @@
 #end
 
 #newmonster 3714
-#name "Hollin Archer"
+#name "Eregion Archer"
 #descr "TBD"
 #rcost 1
 #gcost 28
@@ -422,7 +422,7 @@
 #drawsize 5
 #end
 #newmonster 3715
-#name "Hollin Guard"
+#name "Eregion Guard"
 #descr "TBD"
 #rcost 1
 #gcost 30
@@ -453,8 +453,8 @@
 #nametype 175
 #drawsize 5
 #end
-#newmonster 1716
-#name "Hollin Rider"
+#newmonster 3716
+#name "Eregion Rider"
 #descr "TBD"
 #rcost 1
 #gcost 50
@@ -486,7 +486,7 @@
 #nametype 175
 #drawsize 5
 #end
-#newmonster 1718
+#newmonster 3717
 #name "Maemagor"
 #descr "TBD"
 #rcost 1
@@ -518,7 +518,7 @@
 #nametype 175
 #drawsize 5
 #end
-#newmonster 1719
+#newmonster 3718
 #name "Mithril Rochir"
 #descr "TBD"
 #rcost 12
@@ -557,7 +557,7 @@
 #nametype 175
 #drawsize 5
 #end
-#newmonster 1720
+#newmonster 3719
 #name "Miner Captain"
 #descr "TBD"
 #rcost 2
@@ -594,7 +594,7 @@
 #addupkeep 5
 #drawsize 10
 #end
-#newmonster 1721
+#newmonster 3720
 #name "Eregion Smith"
 #descr "TBD"
 #reqlab
@@ -632,7 +632,7 @@
 #researchbonus -4
 #drawsize 10
 #end
-#newmonster 1722
+#newmonster 3721
 #name "Gwaith-i-Mírdain Smith"
 #descr "TBD"
 #reqlab
@@ -674,8 +674,8 @@
 #mastersmith 1
 #drawsize 10
 #end
-#newmonster 1723
-#name "Khazad-dum Lord"
+#newmonster 3722
+#name "Khazad-dûm Lord"
 #descr "TBD"
 #rcost 2
 #gcost 10000
@@ -715,7 +715,7 @@
 #addupkeep 5
 #drawsize 10
 #end
-#newmonster 1724
+#newmonster 3723
 #name "Master of Traditions"
 #descr "TBD"
 #reqlab
@@ -762,7 +762,7 @@
 #addupkeep 7
 #drawsize 10
 #end
-#newmonster 1725
+#newmonster 3724
 #name "Elven Scout"
 #descr "TBD"
 #rcost 1
@@ -791,8 +791,8 @@
 #noleader
 #drawsize 5
 #end
-#newmonster 1736
-#name "Captain of Hollin"
+#newmonster 3725
+#name "Captain of Eregion"
 #descr "TBD"
 #reqlab
 #rcost 1
@@ -827,7 +827,7 @@
 #spellsinger
 #drawsize 5
 #end
-#newmonster 1737
+#newmonster 3726
 #name "Eregion Smith"
 #descr "TBD"
 #reqlab
@@ -863,7 +863,7 @@
 #spellsinger
 #drawsize 5
 #end
-#newmonster  1738
+#newmonster  3727
 #name "Gwaith-i-Mírdain Smith"
 #descr "TBD"
 #reqlab
@@ -901,8 +901,8 @@
 #spellsinger
 #drawsize 5
 #end
-#newmonster 1739
-#name "Lord of Hollin"
+#newmonster 3728
+#name "Lord of Eregion"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -945,7 +945,7 @@
 #spellsinger
 #drawsize 5
 #end
-#newmonster 1740
+#newmonster 3729
 #name "Elf-Friend"
 #fixedname "Narvi"
 #descr "TBD"
@@ -985,8 +985,8 @@
 #fixforgebonus 2
 #drawsize 10
 #end
-#newmonster 1741
-#name "King of Khazad-Dum"
+#newmonster 3730
+#name "King of Khazad-dûm"
 #fixedname "Durin III"
 #descr "TBD"
 #hp 17
@@ -1005,7 +1005,7 @@
 #weapon "Mithril Axe"
 #armor "Mithril Hauberk"
 #armor "Mithril Full Helm"
-#armor "Khazad Round Shield
+#armor "Khazad Round Shield"
 #humanoid
 #mountainsurvival
 #startage 80
