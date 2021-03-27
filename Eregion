@@ -964,6 +964,7 @@
 #weapon "Khazad-Steel Hammer"
 #armor "Mithril Cuirass"
 #humanoid
+#unique
 #mountainsurvival
 #startage 100
 #maxage 230
@@ -1007,6 +1008,8 @@
 #armor "Mithril Full Helm"
 #armor "Khazad Round Shield"
 #humanoid
+#unique
+#holy
 #mountainsurvival
 #startage 80
 #maxage 240
@@ -1016,6 +1019,7 @@
 #awe 1
 #castledef 15
 #gold 30
+#spreaddom 1
 #mason
 #expertleader
 #inspirational 1
@@ -1029,3 +1033,150 @@
 #researchbonus -4
 #drawsize 10
 #end
+#newmonster 3731
+#name "King of Hollin"
+#fixedname "Celebrimbor"
+#descr "TBD"
+#hp 16
+#str 14
+#att 14
+#def 14
+#prec 13
+#size 2
+#mr 16
+#mor 15
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Dagger"
+#armor "Mithril Cuirass"
+#armor "Crown"
+#humanoid
+#unique
+#startage 1000
+#maxage 3000
+#diseaseres 100
+#fireres 5
+#darkvision 50
+#awe 1
+#patrolbonus 1
+#nametype 175
+#expertleader
+#magicskill 4 2
+#magicskill 3 2
+#magicskill 0 3
+#fixforgebonus 3
+#mastersmith 1
+#spellsinger
+#drawsize 5
+#end
+#newmonster 3732
+#name "Dethroned Lord"
+#fixedname "Celeborn"
+#descr "TBD"
+#hp 14
+#str 12
+#att 11
+#def 11
+#prec 12
+#size 2
+#mr 16
+#mor 14
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Dagger"
+#armor "Robe"
+#humanoid
+#unique
+#forestsurvival
+#stealthy 10
+#age 1200
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#goodleader
+#magicskill 2 3
+#magicskill 6 2
+#spellsinger
+#drawsize 3
+#end
+#newmonster 3733
+#name "Giver of Gifts"
+#fixedname "Annatar"
+#hp 25
+#str 15
+#att 13
+#def 13
+#prot 0
+#prec 11
+#size 2
+#mr 18
+#mor 14
+#enc 3
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Fist"
+#armor "Robe"
+#humanoid
+#unique
+#magicbeing
+#startage 2000
+#maxage 7000
+#fireres 20
+#spiritsight
+#heretic 3
+#expertleader
+#magicpath 0 4
+#magicpath 3 4
+#fixforgebonus 3
+#mastersmith 2
+#spellsinger
+#end
+
+#newitem 515
+#name "Mithril Cuirass"
+#constlevel 4
+#mainpath 3
+#mainlevel 2
+#secondarypath 1
+#secondarylevel 1
+#type 5
+#armor "Mithril Cuirass"
+#end
+#newitem 516
+#name "Mithril Hauberk"
+#constlevel 4
+#mainpath 3
+#mainlevel 3
+#secondarypath 1
+#secondarylevel 1
+#type 5
+#armor "Mithril Hauberk"
+#end
+#newitem 517
+#name "Mithril Full Mail"
+#constlevel 4
+#mainpath 3
+#mainlevel 4
+#secondarypath 1
+#secondarylevel 1
+#type 5
+#armor "Mithril Full Mail"
+#end
+#newitem 518
+#name "Mithril Helm"
+#constlevel 4
+#mainpath 3
+#mainlevel 2
+#secondarypath 1
+#secondarylevel 1
+#type 6
+#armor "Mithril Helm"
+#end
+#newitem 519
+#constlevel 4 
