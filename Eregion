@@ -1140,43 +1140,140 @@
 
 #newitem 515
 #name "Mithril Cuirass"
-#constlevel 4
+#constlevel 2
 #mainpath 3
 #mainlevel 2
 #secondarypath 1
 #secondarylevel 1
 #type 5
 #armor "Mithril Cuirass"
+#restricted "Eregion"
 #end
 #newitem 516
 #name "Mithril Hauberk"
-#constlevel 4
+#constlevel 2
 #mainpath 3
 #mainlevel 3
 #secondarypath 1
 #secondarylevel 1
 #type 5
 #armor "Mithril Hauberk"
+#restricted "Eregion"
 #end
 #newitem 517
 #name "Mithril Full Mail"
-#constlevel 4
+#constlevel 2
 #mainpath 3
 #mainlevel 4
 #secondarypath 1
 #secondarylevel 1
 #type 5
 #armor "Mithril Full Mail"
+#restricted "Eregion"
 #end
 #newitem 518
 #name "Mithril Helm"
-#constlevel 4
+#constlevel 2
 #mainpath 3
 #mainlevel 2
 #secondarypath 1
 #secondarylevel 1
 #type 6
 #armor "Mithril Helm"
+#restricted "Eregion"
 #end
 #newitem 519
-#constlevel 4 
+#constlevel 2
+#mainpath 3
+#mainlevel 2
+#secondarypath 1
+#secondarylevel 2
+#type 6
+#armor "Mithril Full Helm"
+#fear 5
+#restricted "Eregion"
+#end
+#newitem 520
+#name "Lesser Ring"
+#descr "TBD"
+#constlevel 4
+#mainpath 3
+#mainlevel 3
+#secondarypath 0
+#secondarypath 1
+#type 8
+#mr 2
+#restricted "Eregion"
+#noaging 40
+#woundfend 1
+#spiritsight
+#end
+#newitem 521
+#name "Ring of Power"
+#descr "TBD"
+#constlevel 12
+#type 8
+#magicboost 53 1
+#hp 5
+#mr 1
+#restricted "Eregion"
+#noaging 60
+#spiritsight
+#allrange 1
+#dompower
+#reinvigoration 2
+#end
+#newitem 521
+#name "Tainted Ring of Power"
+#descr "TBD"
+#constlevel 12
+#type 8
+#magicboost 53 1
+#hp 5
+#mr -2
+#restricted "Eregion"
+#cursed
+#noaging 60
+#spiritsight
+#allrange 1
+#heretic 1
+#reinvigoration 2
+#end
+#newitem 522
+#name "Dwarf-Lord Ring"
+#descr "TBD"
+#constlevel 12
+#type 8
+#magicboost 53 1
+#restricted "Eregion"
+#noaging 60
+#spiritsight
+#allrange 1
+#dompower
+#woundfend
+#reinvigoration 2
+#taxcollector
+#gold 50
+#inspirational
+#end
+#newitem 523
+#name "Tainted Dwarf-Lord Ring"
+#descr "TBD"
+#descr "TBD"
+#constlevel 12
+#type 8
+#magicboost 53 1
+#restricted "Eregion"
+#cursed
+#noaging 60
+#spiritsight
+#allrange 1
+#heretic 1
+#woundfend
+#reinvigoration 2
+#taxcollector
+#gold 50
+#addupkeep 100
+#inspirational
+#end
+#
