@@ -1259,7 +1259,6 @@
 #newitem 523
 #name "Tainted Dwarf-Lord Ring"
 #descr "TBD"
-#descr "TBD"
 #constlevel 12
 #type 8
 #magicboost 53 1
@@ -1276,4 +1275,68 @@
 #addupkeep 100
 #inspirational
 #end
-#
+#newitem 524
+#name "Narya"
+#descr "TBD"
+#constlevel 12
+#type 8
+#magicboost 0 3
+#hp 12
+#mr 2
+#unique
+#noaging 80
+#morale 5
+#fireres 5
+#coldres 5
+#reinvigoration 2
+#awe 1
+#spiritsight
+#incprovdef 6
+#inspirational 2
+#command 40
+#end
+#newitem 525
+#name "Nenya"
+#descr "TBD"
+#constlevel 12
+#type 8
+#magicboost 2 3
+#hp 10
+#def 1
+#mr 2
+#bless
+#noaging 80
+#unique
+#autohealer 2
+#autodishealer 1
+#reinvigoration 2
+#awe 2
+#spiritsight
+#patrolbonus 20
+#nobadevents 20
+#allrange 2
+#end
+#newitem 526
+#name "Vilya"
+#descr "TBD"
+#constlevel 12
+#type 8
+#magicboost 1 3
+#hp 10
+#prec 2
+#shockres 5
+#mapspeed 4
+#run
+#unique
+#noaging 80
+#autohealer 3
+#autodishealer 1
+#reinvigoration 2
+#woundfend 1
+#awe 2
+#spiritsight
+#castledef 20
+#spreaddom 1
+#inspirational 1
+#allrange 1
+#end
