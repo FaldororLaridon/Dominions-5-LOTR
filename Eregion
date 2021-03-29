@@ -1407,3 +1407,109 @@
 #inspirational 1
 #allrange 1
 #end
+
+#newsite
+#name "Khazad-Dum"
+#path 3
+#loc 16384
+#gems 3 2
+#gems 0 1
+#res 20
+#level 0
+#rarity 5
+#homemon "Baruk Durin"
+#homemon "Dûm Guard"
+#homecom "Master of Traditions"
+#wallunit "Dûm Guard"
+#wallmult 5
+#end
+#newsite
+#name "Ost-in-Edhil"
+#path 3
+#loc 16384
+#gems 3 1
+#gems 4 1
+#homemon "Maemagor"
+#homemon "Mithril Rochir"
+#homecon "Lord of Hollin"
+#end
+
+#newnation
+#name "Eregion"
+#epithet "Firstborn Alliance"
+#era 2
+#descr "TBD"
+#summary "A nation of mastersmiths hailing both from the kindreds of Elves and Dwarves, featuring elites with Mithril armour."
+#startsite "Khazad-Dum"
+#startsite "Ost-in Edhil"
+#startcom "Miner Captain"
+#startscout 3724
+#startunittype1 "Dwarf Skirmisher"
+#startunitnbrs1 10
+#startunitype2 "Hollin Archer"
+#startunitnbrs2 5
+#addrecunit 3706
+#addrecunit 3707
+#addrecunit 3708
+#addrecunit 3709
+#addrecunit 3710
+#addrecunit 3713
+#addrecunit 3714
+#addrecunit 3715
+#addrecunit 3716
+#addreccom 3719
+#addreccom 3720
+#addreccom 3721
+#addreccom 3722
+#addreccom 3723
+#addreccom 3724
+#addreccom 3725
+#addreccom 3726
+#addreccom 3727
+#hero1 3729
+#hero2 3730
+#hero3 3731
+#hero4 3732
+#hero5 3733
+#defcom1 "Miner Captain"
+#defcom2 "Hollin Captain"
+#defunit1 "Dwarf Archer"
+#defunit1b "Dwarf Skirmisher"
+#defunit2 "Hollin Guard"
+#defunit2b 3710
+#defmult1 20
+#defmult1b 15
+#defmult2 5
+#defmult2b 10
+#wallcom "Khazad-dûm Lord"
+#wallunit "Dwarf Archer"
+#wallmult 10
+#wallunit "Hollin Archer"
+#wallmult 5
+#homerealm 2
+#homerealm 1
+#homerealm 10
+#addgod "Vala of the Hunt"
+#addgod "Vala Smith"
+#addgod "Vala Doomsman"
+#addgod "Vala of Valour"
+#addgod "Elder King"
+#addgod "Vala of Stars"
+#addgod "Vala of the Sea"
+#addgod "Star of High Hope"
+#addgod "Eldest Father"
+#addgod "Eldest Cyclops"
+#addgod "Eldest Dwarf"
+#addgod "Svartalf Mastersmith"
+#addgod "Neter of Crafts"
+#cheapgod20 "Eldest Dwarf"
+#cheapgod20 "Eldest Cyclops"
+#cheapgod20 "Svartalf Mastersmith"
+#cheapgod40 "Eldest Father"
+#cheapgod40 "Vala Smith"
+#fortera 2
+#labcost 400
+#templecost 400
+#templepic 4
+#homefort 3
+#end
