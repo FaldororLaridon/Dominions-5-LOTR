@@ -1433,6 +1433,21 @@
 #homemon "Mithril Rochir"
 #homecon "Lord of Hollin"
 #end
+#newsite 1700
+#name "Forge of Eregion"
+#path 3
+#loc 16384
+#end
+#newsite 1701
+#name "Ring-Forge of Eregion"
+#path 0
+#loc 16384
+#end
+#newsite 1702
+#name "Ring-Forge of Eregion"
+#path 3
+#loc 16384
+#end
 
 #newnation
 #name "Eregion"
@@ -1442,6 +1457,7 @@
 #summary "A nation of mastersmiths hailing both from the kindreds of Elves and Dwarves, featuring elites with Mithril armour."
 #startsite "Khazad-Dum"
 #startsite "Ost-in Edhil"
+#startsite "Forge of Eregion"
 #startcom "Miner Captain"
 #startscout 3724
 #startunittype1 "Dwarf Skirmisher"
@@ -1513,3 +1529,196 @@
 #templepic 4
 #homefort 3
 #end
+
+#newspell
+ #name "The Forging of the Rings(Annatar)"
+ #descr "This is the corrupted version."
+ #school 3
+ #researchlevel 1
+ #path 0 3
+ #pathlevel 2
+ #fatiguecost 500
+ #effect 10081
+ #damage 200
+ #onlyatsite "Forge of Eregion"
+#end
+
+
+#newspell
+ #name "The Forging of the Rings"
+ #descr "This is the uncorrupted version."
+ #school 3
+ --researchlevel will be higher--
+ #researchlevel 1
+ #path 0 3
+ #pathlevel 2
+ #fatiguecost 500
+ #effect 10081
+ #damage 201
+ #onlyatsite "Forge of Eregion"
+#end
+
+--Corrupted Eregion Ring Events--
+#newevent
+#rarity 0 
+#req_unique 1
+#req_owncapital
+#req_myench 200
+#req_noench 201
+#req_notanycode -2008
+#nation -2
+#msg "The Rings are being forged, but at a cost![Tainted Ring of Power]"
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#addsite 1701
+#removesite 1700
+#code -2003
+#end
+
+ 
+ #newevent
+#rarity 0
+#req_unique 1
+#req_owncapital
+#req_code -2003
+#req_notanycode -2008
+#nation -2
+#msg "The Rings are being forged, but at a cost![Tainted Dwarf-Lord Ring]"
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+
+#code -2004
+#end
+
+
+
+#newevent
+#rarity 0
+#req_unique 1
+#req_owncapital
+#req_code -2004
+#req_notanycode -2008
+#nation -2
+#msg "The Rings are being forged, but at a cost![Narya]"
+#magicitem 9
+#code -2005
+#end
+
+ #newevent
+#rarity 0
+#req_unique 1
+#req_owncapital
+#req_code -2005
+#req_notanycode -2008
+#nation -2
+#msg "The Rings have been forged, but at a cost![Nenya]"
+#magicitem 9
+#code -2006
+#end
+
+ #newevent
+#rarity 0
+#req_unique 1
+#req_owncapital
+#req_code -2006
+#req_notanycode -2008
+#nation -2
+#msg "The Rings are being forged, but at a cost![Vilya]"
+#magicitem 9
+#code -2007
+#end
+
+--end of corrupted Eregion Ring Events--
+
+--uncorrupted Eregion Ring Events--
+#newevent
+#rarity 0 
+#req_unique 1
+#req_owncapital
+#req_myench 201
+#req_noench 200
+#req_notanycode -2003
+#nation -2
+#msg "The Rings are being forged without Annatar![Ring of Power]"
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#code -2008
+#addsite 1702
+#removesite 1700
+#end
+
+ 
+ #newevent
+#rarity 0
+#req_unique 1
+#req_owncapital
+#req_code -2008
+#req_notanycode -2003
+#nation -2
+#msg "The Rings are being forged without Annatar![Dwarf-Lord Ring]"
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#magicitem 9
+#code -2009
+#end
+
+
+
+#newevent
+#rarity 0
+#req_unique 1
+#req_owncapital
+#req_code -2009
+#req_notanycode -2003
+#nation -2
+#msg "The Rings are being forged without Annatar![Narya]"
+#magicitem 9
+#code -2010
+#end
+
+ #newevent
+#rarity 0
+#req_unique 1
+#req_owncapital
+#req_code -2010
+#req_notanycode -2003
+#nation -2
+#msg "The Rings have been forged, but at a cost![Nenya]"
+#magicitem 9
+#code -2011
+#end
+ #newevent
+#rarity 0
+#req_unique 1
+#req_owncapital
+#req_code -2011
+#req_notanycode -2003
+#nation -2
+#msg "The Rings are being forged, but at a cost! [Vilya]"
+#magicitem 9
+#code -2011
+#end
+--end of uncorrupted Ring events--
