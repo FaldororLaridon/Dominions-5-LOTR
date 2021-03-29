@@ -1427,6 +1427,8 @@
 #name "Ost-in-Edhil"
 #path 3
 #loc 16384
+#level 0
+#rarity 5
 #gems 3 1
 #gems 4 1
 #homemon "Maemagor"
@@ -1436,16 +1438,25 @@
 #newsite 1700
 #name "Forge of Eregion"
 #path 3
+#constcost 15
 #loc 16384
+#level 0
+#rarity 5
 #end
 #newsite 1701
 #name "Ring-Forge of Eregion"
 #path 0
 #loc 16384
+#constcost 15
+#level 0
+#rarity 5
 #end
 #newsite 1702
 #name "Ring-Forge of Eregion"
 #path 3
+#level 0
+#rarity 5
+#constcost 15
 #loc 16384
 #end
 
