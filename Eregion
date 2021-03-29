@@ -1534,10 +1534,12 @@
  #name "The Forging of the Rings(Annatar)"
  #descr "This is the corrupted version."
  #school 3
- #researchlevel 1
+ #researchlevel 6
  #path 0 3
- #pathlevel 2
- #fatiguecost 500
+ #pathlevel 0 5
+ #path 1 0
+ #pathlevel 1 3
+ #fatiguecost 8000
  #effect 10081
  #damage 200
  #onlyatsite "Forge of Eregion"
@@ -1549,10 +1551,12 @@
  #descr "This is the uncorrupted version."
  #school 3
  --researchlevel will be higher--
- #researchlevel 1
+ #researchlevel 9
  #path 0 3
- #pathlevel 2
- #fatiguecost 500
+ #pathlevel 0 7
+ #path 1 4
+ #pathlevel 1 5
+ #fatiguecost 10000
  #effect 10081
  #damage 201
  #onlyatsite "Forge of Eregion"
