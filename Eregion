@@ -1194,6 +1194,7 @@
 
 #newitem 515
 #name "Mithril Cuirass"
+#spr "images/eregion/mithrilcuirass.tga"
 #constlevel 2
 #mainpath 3
 #mainlevel 2
@@ -1205,6 +1206,7 @@
 #end
 #newitem 516
 #name "Mithril Hauberk"
+#spr "images/eregion/mithrilhauberk.tga"
 #constlevel 2
 #mainpath 3
 #mainlevel 3
@@ -1216,6 +1218,7 @@
 #end
 #newitem 517
 #name "Mithril Full Mail"
+#spr "images/eregion/fullmithril.tga"
 #constlevel 2
 #mainpath 3
 #mainlevel 4
@@ -1234,6 +1237,7 @@
 #secondarylevel 1
 #type 6
 #armor "Mithril Helm"
+#spr "images/eregion/mithrilhalfhelm.tga"
 #restricted "Eregion"
 #end
 #newitem 519
@@ -1244,11 +1248,13 @@
 #secondarylevel 2
 #type 6
 #armor "Mithril Full Helm"
+#spr "images/eregion/mithrilfullhelm.tga"
 #fear 5
 #restricted "Eregion"
 #end
 #newitem 520
 #name "Lesser Ring"
+#spr "images/eregion/lesserring.tga"
 #descr "TBD"
 #constlevel 4
 #mainpath 3
@@ -1264,6 +1270,7 @@
 #end
 #newitem 521
 #name "Ring of Power"
+#spr "images/eregion/ringofpower.tga"
 #descr "TBD"
 #constlevel 12
 #type 8
@@ -1279,6 +1286,7 @@
 #end
 #newitem 521
 #name "Tainted Ring of Power"
+#spr "images/eregion/ringofpower.tga"
 #descr "TBD"
 #constlevel 12
 #type 8
@@ -1295,6 +1303,7 @@
 #end
 #newitem 522
 #name "Dwarf-Lord Ring"
+#spr "images/eregion/dwarflordsring.tga"
 #descr "TBD"
 #constlevel 12
 #type 8
@@ -1312,6 +1321,7 @@
 #end
 #newitem 523
 #name "Tainted Dwarf-Lord Ring"
+#spr "images/eregion/dwarflordsring.tga"
 #descr "TBD"
 #constlevel 12
 #type 8
@@ -1331,6 +1341,7 @@
 #end
 #newitem 524
 #name "Narya"
+#spr "images/eregion/narya.tga"
 #descr "TBD"
 #constlevel 12
 #type 8
@@ -1351,6 +1362,7 @@
 #end
 #newitem 525
 #name "Nenya"
+#spr "images/eregion/nenya.tga"
 #descr "TBD"
 #constlevel 12
 #type 8
@@ -1372,6 +1384,7 @@
 #end
 #newitem 526
 #name "Vilya"
+#spr "images/eregion/vilya.tga"
 #descr "TBD"
 #constlevel 12
 #type 8
