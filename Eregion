@@ -138,6 +138,8 @@
 
 #newmonster 3706
 #name "Dwarf Miner"
+#spr1 "images/eregion/dwarfsapper_1.tga"
+#spr2 "images/eregion/dwarfsapper_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 11
@@ -173,6 +175,8 @@
 
 #newmonster 3708
 #name "Dwarf Archer"
+#spr1 "images/eregion/dwarfarcher_1.tga"
+#spr2 "images/eregion/dwarfarcher_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 11
@@ -207,6 +211,8 @@
 
 #newmonster 3709
 #name "Dwarf Skirmisher"
+#spr1 "images/eregion/dwarfskirmisher_1.tga"
+#spr2 "images/eregion/dwarfskirmisher_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 20
@@ -243,6 +249,8 @@
 
 #newmonster 3710
 #name "Dwarf Soldier"
+#spr1 "images/eregion/dwarfaxe_1.tga"
+#spr2 "images/eregion/dwarfaxe_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 30
@@ -279,6 +287,8 @@
 
 #newmonster 3711
 #name "Dwarf Soldier"
+#spr1 "images/eregion/dwarfsword_1.tga"
+#spr2 "images/eregion/dwarfsword_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 30
@@ -314,6 +324,8 @@
 #end
 #newmonster 3712
 #name "Dûm Guard"
+#spr1 "images/eregion/dumguard_1.tga"
+#spr2 "images/eregion/dumguard_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 38
@@ -350,6 +362,8 @@
 
 #newmonster 3713
 #name "Baruk Durin"
+#spr1 "images/eregion/barukdurin_1.tga"
+#spr2 "images/eregion/barukdurin_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 55
@@ -391,6 +405,8 @@
 
 #newmonster 3714
 #name "Hollin Archer"
+#spr1 "images/eregion/elfarcher_1.tga"
+#spr2 "images/eregion/elfarcher_2.tga"
 #descr "TBD"
 #rcost 1
 #gcost 28
@@ -423,6 +439,8 @@
 #end
 #newmonster 3715
 #name "Hollin Guard"
+#spr1 "images/eregion/elfspear_1.tga"
+#spr2 "images/eregion/elfspear_2.tga"
 #descr "TBD"
 #rcost 1
 #gcost 30
@@ -455,6 +473,8 @@
 #end
 #newmonster 3716
 #name "Hollin Rider"
+#spr1 "images/eregion/horsearcher_1.tga"
+#spr2 "images/eregion/horsearcher_2.tga"
 #descr "TBD"
 #rcost 1
 #gcost 50
@@ -488,6 +508,8 @@
 #end
 #newmonster 3717
 #name "Maemagor"
+#spr1 "images/eregion/elfsoldier_1.tga"
+#spr2 "images/eregion/elfsoldier_2.tga"
 #descr "TBD"
 #rcost 1
 #gcost 42
@@ -520,6 +542,8 @@
 #end
 #newmonster 3718
 #name "Mithril Rochir"
+#spr1 "images/eregion/eregionknight_1.tga"
+#spr2 "images/eregion/eregionknight_2.tga"
 #descr "TBD"
 #rcost 12
 #gcost 74
@@ -559,6 +583,8 @@
 #end
 #newmonster 3719
 #name "Miner Captain"
+#spr1 "images/eregion/dwarfcaptain_1.tga"
+#spr2 "images/eregion/dwarfcaptain_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 10000
@@ -596,6 +622,8 @@
 #end
 #newmonster 3720
 #name "Eregion Smith"
+#spr1 "images/eregion/dwarflessersmith_1.tga"
+#spr2 "images/eregion/dwarflessersmith_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -634,6 +662,8 @@
 #end
 #newmonster 3721
 #name "Gwaith-i-Mírdain Smith"
+#spr1 "images/eregion/dwarfsmith_1.tga"
+#spr2 "images/eregion/dwarfsmith_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -676,6 +706,8 @@
 #end
 #newmonster 3722
 #name "Khazad-dûm Lord"
+#spr1 "images/eregion/dwarflord_1.tga"
+#spr2 "images/eregion/dwarflord_2.tga"
 #descr "TBD"
 #rcost 2
 #gcost 10000
@@ -717,6 +749,8 @@
 #end
 #newmonster 3723
 #name "Master of Traditions"
+#spr1 "images/eregion/dwarfmasteroftraditions_1.tga"
+#spr2 "images/eregion/dwarfmasteroftraditions_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -764,6 +798,8 @@
 #end
 #newmonster 3724
 #name "Elven Scout"
+#spr1 "images/eregion/scout_1.tga"
+#spr2 "images/eregion/scout_2.tga"
 #descr "TBD"
 #rcost 1
 #gcost 40
@@ -793,6 +829,8 @@
 #end
 #newmonster 3725
 #name "Captain of Hollin"
+#spr1 "images/eregion/noldor_captain_1.tga"
+#spr2 "images/eregion/noldor_captain_2.tga"
 #descr "TBD"
 #reqlab
 #rcost 1
@@ -829,6 +867,8 @@
 #end
 #newmonster 3726
 #name "Eregion Smith"
+#spr1 "images/eregion/noldor_smith_1.tga"
+#spr2 "images/eregion/noldor_smith_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -865,6 +905,8 @@
 #end
 #newmonster  3727
 #name "Gwaith-i-Mírdain Smith"
+#spr1 "images/eregion/noldor_master_1.tga"
+#spr2 "images/eregion/noldor_master_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -903,6 +945,8 @@
 #end
 #newmonster 3728
 #name "Lord of Hollin"
+#spr1 "images/eregion/noldor_lord_1.tga"
+#spr2 "images/eregion/noldor_lord_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -948,6 +992,8 @@
 #newmonster 3729
 #name "Elf-Friend"
 #fixedname "Narvi"
+#spr1 "images/eregion/narvi_1.tga"
+#spr2 "images/eregion/narvi_2.tga"
 #descr "TBD"
 #hp 13
 #att 10
@@ -989,6 +1035,8 @@
 #newmonster 3730
 #name "King of Khazad-dûm"
 #fixedname "Durin III"
+#spr1 "images/eregion/durin_1.tga"
+#spr2 "images/eregion/durin_2.tga"
 #descr "TBD"
 #hp 17
 #str 15
@@ -1036,6 +1084,8 @@
 #newmonster 3731
 #name "King of Hollin"
 #fixedname "Celebrimbor"
+#spr1 "images/eregion/celebrimbor_1.tga"
+#spr2 "images/eregion/celebrimbor_2.tga"
 #descr "TBD"
 #hp 16
 #str 14
@@ -1074,6 +1124,8 @@
 #newmonster 3732
 #name "Dethroned Lord"
 #fixedname "Celeborn"
+#spr1 "images/eregion/celeborn_1.tga"
+#spr2 "images/eregion/celeborn_2.tga"
 #descr "TBD"
 #hp 14
 #str 12
@@ -1107,6 +1159,8 @@
 #newmonster 3733
 #name "Giver of Gifts"
 #fixedname "Annatar"
+#spr1 "images/eregion/annatar_1.tga"
+#spr2 "images/eregion/annatar_2.tga"
 #hp 25
 #str 15
 #att 13
