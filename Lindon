@@ -2,7 +2,7 @@
 #name "Sindar Archer"
 #descr "TBD"
 #rcost 1
-#gcost 15
+#gcost 12
 #rpcost 12
 #hp 12
 #str 12
@@ -33,7 +33,7 @@
 #name "Sindar Infantry"
 #descr "TBD"
 #rcost 1
-#gcost 17
+#gcost 15
 #rpcost 13
 #hp 12
 #str 12
@@ -65,7 +65,7 @@
 #name "Sindar Infantry"
 #descr "TBD"
 #rcost 1
-#gcost 17
+#gcost 15
 #rpcost 13
 #hp 12
 #str 12
@@ -97,7 +97,7 @@
 #name "Sindar Rider"
 #descr "TBD"
 #rcost 1
-#gcost 22
+#gcost 18
 #rpcost 30
 #ressize 2
 #hp 12
@@ -131,13 +131,13 @@
 #name "Mithlond Soldier"
 #descr "TBD"
 #rcost 1
-#gcost 25
+#gcost 20
 #rpcost 18
 #rpcost 13
 #hp 13
 #str 12
 #att 12
-#def 12
+#def 13
 #prec 12
 #size 2
 #mr 11
