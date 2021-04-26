@@ -1,1 +1,333 @@
+#newmonster 3735
+#name "Sindar Archer"
+#descr "TBD"
+#rcost 1
+#gcost 15
+#rpcost 12
+#hp 12
+#str 12
+#prec 12
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Short Bow"
+#weapon "Dagger"
+#armor "Chain Mail Cuirass"
+#armor "Crested Helmet"
+#humanoid
+#stealthy 10
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#drawsize 3
+#end
 
+#newmonster 3736
+#name "Sindar Infantry"
+#descr "TBD"
+#rcost 1
+#gcost 17
+#rpcost 13
+#hp 12
+#str 12
+#att 11
+#prec 12
+#size 2
+#mr 11
+#mor 11
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Spear"
+#armor "Chain Mail Hauberk"
+#armor "Crested Helmet"
+#armor "Shield"
+#humanoid
+#stealthy 10
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#drawsize 3
+#end
+
+#newmonster 3737
+#name "Sindar Infantry"
+#descr "TBD"
+#rcost 1
+#gcost 17
+#rpcost 13
+#hp 12
+#str 12
+#att 11
+#prec 12
+#size 2
+#mr 11
+#mor 11
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Crested Helmet"
+#armor "Shield"
+#humanoid
+#stealthy 10
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#drawsize 3
+#end
+
+#newmonster 3738
+#name "Sindar Rider"
+#descr "TBD"
+#rcost 1
+#gcost 22
+#rpcost 30
+#ressize 2
+#hp 12
+#str 12
+#att 11
+#prec 12
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 20
+#ap 25
+#eyes 2
+#weapon "Spear"
+#armor "Chain Mail Cuirass"
+#armor "Crested Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#stealthy 10
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 2
+#nametype 177
+#drawsize 3
+#end
+
+#newmonster 3739
+#name "Mithlond Soldier"
+#descr "TBD"
+#rcost 1
+#gcost 25
+#rpcost 18
+#rpcost 13
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 12
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Spear"
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#humanoid
+#stealthy 10
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#drawsize 3
+#end
+
+#newmonster 2740
+#name "Noldor Archer"
+#descr "TBD"
+#rcost 1
+#gcost 30
+#rpcost 20
+#hp 13
+#str 13
+#prec 12
+ 
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Long Bow"
+#weapon "Elvish Dagger"
+#armor "Elf-Mail Cuirass"
+#armor "Noldor Helm"
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#darkvision 50
+#patrolbonus 1
+#nametype 175
+#drawsize 5
+#end
+
+#newmonster 2741
+#name "Lindon Swordsman"
+#descr "TBD"
+#rcost 1
+#gcost 42
+#rpcost 26
+#hp 14
+#str 13
+#att 12
+#def 12
+#prec 12
+ 
+#size 2
+#mr 12
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 1
+#darkvision 50
+#patrolbonus 1
+#nametype 175
+#drawsize 5
+#end
+
+#newmonster 2742
+#name "Lindon Knight"
+#descr "TBD"
+#rcost 12
+#gcost 80
+#rpcost 50
+#ressize 2
+#hp 14
+#str 13
+#att 13
+#def 12
+#prec 12
+ 
+#size 3
+#mr 12
+#mor 14
+#enc 5
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"
+#weapon "Elvish Blade"
+#weapon 56
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#maxage 3000
+#diseaseres 100
+#awe 1
+#darkvision 50
+#patrolbonus 1
+#nametype 175
+#drawsize 5
+#end
+
+#newmonster 2743
+#name "Heir of Gondolin"
+#descr "TBD"
+#rcost 2
+#gcost 60
+#rpcost 40
+#reqtemple
+#hp 14
+#str 13
+#att 13
+#def 12
+#prec 12
+ 
+#size 2
+#mr 13
+#mor 15
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Elf-Mail Hauberk"
+#armor "Crested Helmet"
+#armor "Iron Shield"
+#humanoid
+#holy
+#swimming
+#maxage 3000
+#diseaseres 100
+#awe 1
+#darkvision 50
+#patrolbonus 1
+#nametype 100
+#drawsize 5
+#end
+
+#newmonster 2744
+#name "
+#descr "TBD"
+#rcost 1
+#gcost 40
+#rpcost 30
+#hp 13
+#str 13
+#att 11
+#def 13
+#prec 12
+ 
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Dwarf-Steel Axe"
+#armor "Dwarf-Mail Cuirass"
+#armor "Dwarf Half Helm"
+#armor "Shield"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#drawsize 3
+#end
