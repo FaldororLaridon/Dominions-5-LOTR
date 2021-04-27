@@ -575,6 +575,7 @@
 #patrolbonus 1
 #magicskill 8 1
 #spellsinger
+#drawsize 5
 #end
 
 #newmonster 2751
