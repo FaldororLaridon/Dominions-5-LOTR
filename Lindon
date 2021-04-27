@@ -402,6 +402,7 @@
 #newmonster 2746
 #name "Sindar Lord"
 #descr "TBD"
+#reqlab
 #rcost 1
 #gcost 10000
 #rpcost 2
@@ -439,6 +440,8 @@
 #newmonster 2747
 #name "Messenger of Ulmo"
 #descr "TBD"
+#reqlab
+#reqtemple
 #rcost 1
 #gcost 10000
 #rpcost 2
@@ -476,6 +479,7 @@
 #newmonster 2748
 #name "Noldor Captain"
 #descr "TBD"
+#reqlab
 #rcost 1
 #gcost 10000
 #rpcost 2
@@ -576,4 +580,43 @@
 #newmonster 2751
 #name "Noldor Lord"
 #descr "TBD"
-#
+#rcost 12
+#gcost 10000
+#rpcost 4
+#ressize 2
+#hp 15
+#str 15
+#att 14
+#def 13
+#prec 12
+ 
+#size 3
+#mr 15
+#mor 15
+#enc 5
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"
+#weapon "Elvish Blade"
+#weapon "Hoof"
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#awe 1
+#patrolbonus 1
+#nametype 175
+#expertleader
+#magicskill 3 2
+#magicskill 4 2
+#magicskill 0 1
+#magicskill 8 1
+#spellsinger
+#drawsize 5
+#end
