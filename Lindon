@@ -327,7 +327,7 @@
 #end
 
 #newmonster 2744
-#name "Defender of Ossiriand"
+#name "Ossiriand Defender"
 #descr "TBD"
 #rcost 1
 #gcost 40
@@ -811,11 +811,15 @@
 #newsite
 #name "Mithlond"
 #loc 16384
+#rarity 5
+#level 0
 #gems 2 3
 #gems 4 2
 #homemon "Heir of Gondolin"
-#homemon
-
+#homemon "Ossiriand Defender"
+#homemon "Lindon Knight"
+#homecom "Noldor Lord"
+#end
 
 
 #newnation 126
@@ -828,7 +832,28 @@
 #color
 #secondarycolor
 #flag
-#
+#startsite "Mithlond"
+#likesterr 64
+#coastnation
+#aiwaternation
+#aigoodbless 60
+#startcom 2745
+#startscout "Lindon Scout"
+#startunitype1 "Sindar Archer"
+#startunitnbrs1 20
+#startunittype2 3736
+#startunitnbrs2 10
+#addrecunit "Sindar Archer"
+#addrecunit 3736
+#addrecunit 3737
+#addrecunit "Sindar Rider"
+#addrecunit "Mithlond Soldier"
+#addrecunit "Noldor Archer"
+#addrecunit "Lindon Swordsman"
+#addreccom "Lindon Scout"
+#addreccom 2745
+#addreccom 2746
+#addreccom 
 
 
 
