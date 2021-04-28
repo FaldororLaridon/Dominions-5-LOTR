@@ -327,7 +327,7 @@
 #end
 
 #newmonster 2744
-#name "Something Doriath"
+#name "Defender of Ossiriand"
 #descr "TBD"
 #rcost 1
 #gcost 40
@@ -808,8 +808,27 @@
 #spellsinger
 #end
 
+#newsite
+#name "Mithlond"
+#loc 16384
+#gems 2 3
+#gems 4 2
+#homemon "Heir of Gondolin"
+#homemon
+
+
+
 #newnation 126
 #name "Lindon"
-#epithet "M
+#epithet "Memory of Beleriand"
+#era 2
+#descr
+#summary "TBD"
+#brief "A nation consisting of sea-faring Sindarin Elves, and powerful Noldor Elves.
+#color
+#secondarycolor
+#flag
+#
+
 
 
