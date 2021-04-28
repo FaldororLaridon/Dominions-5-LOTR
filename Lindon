@@ -808,6 +808,44 @@
 #spellsinger
 #end
 
+#newmonster 2756
+#name "High Lady"
+#fixedname "Galadriel"
+#descr "TBD"
+#pathcost 40
+#startdom 1
+#gcost 10000
+#hp 15
+#str 11
+#prec 12
+ 
+#size 2
+#mr 14
+#mor 30
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Fist"
+#armor "Robes"
+#humanoid
+#female
+#startage 600
+#maxage 3000
+#autohealer 2
+#diseaseres 100
+#awe 3
+
+#patrolbonus 2
+#nobadevents 20
+#expertleader
+#okmagicleader
+#magicskill 3 1
+#magicskill 4 1
+#spellsinger
+#drawsize 5
+#end
+
 #newsite
 #name "Mithlond"
 #loc 16384
@@ -887,6 +925,7 @@
 #addgod "Vala of the Sea"
 #addgod "Vala of Growth"
 #addgod "Star of High Hope"
+#addgod "High Lady"
 #cheapgod20 "Vala of the Hunt"
 #cheapgod20 "Vala Smith"
 #cheapgod20 "Vala Doomsman"
@@ -894,7 +933,9 @@
 #cheapgod40 "Elder King"
 #cheapgod40 "Vala of Stars"
 #cheapgod40 "Vala of the Sea"
+#cheapgod40 "Star of High Hope"
 #fortera 2
 #templepic 2
+#tradecoast 40
 #end
 
