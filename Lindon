@@ -861,7 +861,40 @@
 #hero2 2753
 #hero3 2754
 #hero4 2755
-#defcom1
-
-
+#defcom1 2745
+#defcom2 "Noldor Captain"
+#defunit1 "Sindar Archer"
+#defunit1b 3736
+#defunit2 3736
+#defunit 2b "Sindar Rider"
+#defmult1 20
+#defmult1b 10
+#defmult2 10
+#defmult2b 5
+#wallcom "Noldor Captain"
+#wallunit "Sindar Archer"
+#wallmult 10
+#wallunit "Noldor Archer"
+#wallmult 3
+#homerealm 2
+#homerealm 10
+#addgod "Vala of the Hunt"
+#addgod "Vala Smith"
+#addgod "Vala Doomsman"
+#addgod "Vala of Valour"
+#addgod "Elder King"
+#addgod "Vala of Stars"
+#addgod "Vala of the Sea"
+#addgod "Vala of Growth"
+#addgod "Star of High Hope"
+#cheapgod20 "Vala of the Hunt"
+#cheapgod20 "Vala Smith"
+#cheapgod20 "Vala Doomsman"
+#cheapgod20 "Vala of Growth"
+#cheapgod40 "Elder King"
+#cheapgod40 "Vala of Stars"
+#cheapgod40 "Vala of the Sea"
+#fortera 2
+#templepic 2
+#end
 
