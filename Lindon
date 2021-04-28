@@ -1,3 +1,31 @@
+#newweapon 878
+#name "Aeglos"
+#dmg 7
+#nratt 1
+#att 2
+#def 2
+#len 3
+#sound 12
+#pierce
+#cold
+#magic
+#armorpiercing
+#secondaryeffect 222
+#end
+
+#newitem
+#constlevel 12
+#type 1
+#name "Aeglos"
+#descr "The spear of the High King of the Elves, Aeglos is a deadly weapon enchanted with bitter cold. The sight of the flashing spear will fill it's foes with dread. And in the migthy hands of the King, who will stand against it?"
+#weapon "Aeglos"
+#str 2
+#quickness
+#fear 5
+#end
+
+
+
 #newmonster 3735
 #name "Sindar Archer"
 #descr "TBD"
@@ -551,7 +579,7 @@
 #name "Noldor Maiden"
 #descr "TBD"
 #rcost 1
-#gcost 10000
+#gcost 10030
 #rpcost 2
 #hp 13
 #str 11
@@ -573,6 +601,7 @@
 #autohealer 2
 #awe 1
 #patrolbonus 1
+#nametype 175
 #magicskill 8 1
 #spellsinger
 #drawsize 5
@@ -621,3 +650,166 @@
 #spellsinger
 #drawsize 5
 #end
+
+#newmonster 2752
+#name "Lord of Mithlond"
+#fixedname "Cirdan"
+#descr "TBD"
+#hp 14
+#str 13
+#att 12
+#def 12
+#prec 12
+#size 2
+#mr 14
+#mor 14
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Elf-Mail Hauberk"
+#armor "Kite Shield"
+#humanoid
+#unique
+#holy
+#stealthy 10
+#sailing 999 3
+#farsail 1
+#age 1800
+#maxage 3000
+#autohealer 1
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nobadevents 20
+#expertleader
+#magicskill 2 4
+#magicskill 4 2
+#magicskill 8 2
+#spellsinger
+#drawsize 3
+#end
+
+#newmonster 2753
+#name "Last High King"
+#fixedname "Eirenion Gil-galad"
+#descr "TBD"
+#hp 17
+#str 14
+#att 13
+#def 13
+#prec 12
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#humanoid
+#startitem "Aeglos"
+#holy
+#unique
+#startage 700
+#maxage 3000
+#diseaseres 100
+#awe 2
+#darkvision 50
+#patrolbonus 5
+#superiorleader
+#magicskill 3 3
+#magicskill 4 3
+#magicskill 8 2
+#fixforgebonus 2
+#spellsinger
+#drawsize 5
+#end
+
+#newmonster 2754
+#name "Halfelven"
+#fixedname "Elrond"
+#descr "TBD"
+#hp 15
+#str 13
+#att 13
+#def 13
+#prec 12
+#size 2
+#mr 15
+#mor 15
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Elf-Mail Cuirass"
+#armor "Kite Shield"
+#humanoid
+#unique
+#holy
+#startage 580
+#maxage 3000
+#diseaseres 100
+#autohealer 2
+#autodishealer 1
+#awe 1
+#darkvision 50
+#patrolbonus 1
+#nobadevents 15
+#goodleader
+#magicskill 4 4
+#magicskill 3 2
+#magicskill 8 2
+#researchbonus 5
+#spellsinger
+#drawsize 5
+#end
+
+#newmonster 2755
+#name "Reborn Hero"
+#fixedname "Glorfindel"
+#descr "TBD"
+#hp 20
+#str 15
+#att 15
+#def 14
+#prec 13
+#size 2
+#mr 15
+#mor 20
+#enc 3
+#mapmove 26
+#ap 26
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Elf-Mail Hauberk"
+#armor "Crested Helmet"
+#armor "Golden Shield"
+#mountedhumanoid
+#mounted
+#holy
+#unique
+#mountainsurvival
+#stealthy
+#startage 300
+#maxage 3000
+#autohealer 1
+#diseaseres 100
+#awe 4
+#expertleader
+#inspirational 1
+#magicskill 3 2
+#magicskill 4 2
+#magicskill 8 3
+#spellsinger
+#end
+
+#newnation 126
+#name "Lindon"
+#epithet "M
+
+
