@@ -1,0 +1,10 @@
+#newweapon 879
+#copyweapon "Elvish Blade"
+#name "Blade of Westernesse"
+#end
+#newweapon 880
+#copyweapon 11
+#name "Greatsword of Westernesse"
+#magic
+#end
+#newmonster 3758
