@@ -7,4 +7,161 @@
 #name "Greatsword of Westernesse"
 #magic
 #end
+#newweapon 881
+#name "Numenorian Steelbow"
+#dmg 11
+#nratt 1
+#att 0
+#twohanded
+#sound 13
+#range 50
+#ammo 12
+#rcost 7
+#pierce
+#armorpiercing
+#bowstr
+#ironweapon
+#end
 #newmonster 3758
+#name "Adûnâi Steelbow"
+#desc "TBD"
+#gcost 17
+#rcost 1
+#rpcost 17000
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Numenorian Steelbow"
+#weapon "Short Sword"
+#armor "Full Chain Mail"
+#armor "Half Helmet"
+#humanoid
+#maxage 300
+#woundfend 1
+#patrolbonus 1
+#formationfighter 2
+#end
+#newmonster 3759
+#name "Adûnâi Soldier"
+#descr "TBD"
+#gcost 17
+#rcost 1
+#rpcost 17000
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Long Spear"
+#armor "Full Chain Mail"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#maxage 300
+#woundfend 1
+#patrolbonus 1
+#end
+#newmonster 3760
+#name "Adûnâi Soldier"
+#descr "TBD"
+#gcost 17
+#rcost 1
+#rpcost 17000
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Battleaxe"
+#armor "Full Chain Mail"
+#armor "Half Helmet"
+#humanoid
+#maxage 300
+#woundfend 1
+#patrolbonus 1
+#end
+#newmonster 3761
+#name "Adûnâi Knight"
+#descr "TBD"
+#gcost 20
+#rcost 1
+#rpcost 20000
+#hp 15
+#str 14
+#att 13
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 14
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Great Sword"
+#armor "Full Chain Mail"
+#armor "Half Helmet"
+#humanoid
+#maxage 300
+#woundfend 1
+#patrolbonus 1
+#formationfighter 2
+#end
+#newmonster 3762
+#name "Adûnâi Knight"
+#descr "TBD"
+#gcost 20
+#rcost 1
+#rpcost 20000
+#hp 15
+#str 14
+#att 13
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 14
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Broad Sword"
+#armor "Full Chain Mail"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#maxage 300
+#woundfend 1
+#patrolbonus 1
+#formationfighter 2
+#end
+#newmonster 3763
+#name "
