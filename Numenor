@@ -164,4 +164,31 @@
 #formationfighter 2
 #end
 #newmonster 3763
-#name "
+#name "Ar-Agan Nardû"
+#descr "TBD"
+#gcost 24
+#rcost 1
+#rpcost 24000
+#hp 15
+#str 15
+#att 14
+#def 14
+#prec 11
+#prot 0
+#size 2
+#mr 112
+#mor 14
+#enc 2
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Blade of Westernesse"
+#weapon "Blade of Westernesse"
+#armor "Full Chain Mail"
+#armor "Mithril Helm"
+#humanoid
+#maxage 300
+#woundfend 1
+#ambidextrous 2
+#patrolbonus 1
+#end
