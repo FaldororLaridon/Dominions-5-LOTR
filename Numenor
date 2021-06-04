@@ -38,7 +38,7 @@
 #mr 11
 #mor 12
 #enc 2
-#mapmove 16
+#mapmove 18
 #ap 14
 #eyes 2
 #weapon "Numenorian Steelbow"
@@ -49,6 +49,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
+#nametype
 #formationfighter 2
 #end
 #newmonster 3759
@@ -67,7 +68,7 @@
 #mr 11
 #mor 12
 #enc 2
-#mapmove 16
+#mapmove 18
 #ap 14
 #eyes 2
 #weapon "Long Spear"
@@ -78,6 +79,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
+#nametype
 #end
 #newmonster 3760
 #name "Adûnâi Soldier"
@@ -95,7 +97,7 @@
 #mr 11
 #mor 12
 #enc 2
-#mapmove 16
+#mapmove 18
 #ap 14
 #eyes 2
 #weapon "Battleaxe"
@@ -105,6 +107,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
+#nametype
 #end
 #newmonster 3761
 #name "Adûnâi Knight"
@@ -122,7 +125,7 @@
 #mr 11
 #mor 14
 #enc 2
-#mapmove 16
+#mapmove 18
 #ap 14
 #eyes 2
 #weapon "Great Sword"
@@ -132,6 +135,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
+#nametype
 #formationfighter 2
 #end
 #newmonster 3762
@@ -150,7 +154,7 @@
 #mr 11
 #mor 14
 #enc 2
-#mapmove 16
+#mapmove 18
 #ap 14
 #eyes 2
 #weapon "Broad Sword"
@@ -161,6 +165,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
+#nametype
 #formationfighter 2
 #end
 #newmonster 3763
@@ -171,15 +176,15 @@
 #rpcost 24000
 #hp 15
 #str 15
-#att 14
-#def 14
+#att 13
+#def 13
 #prec 11
 #prot 0
 #size 2
 #mr 12
 #mor 14
 #enc 2
-#mapmove 16
+#mapmove 18
 #ap 16
 #eyes 2
 #weapon "Blade of Westernesse"
@@ -191,4 +196,99 @@
 #woundfend 1
 #ambidextrous 2
 #patrolbonus 1
+#nametype
+#end
+#newmonster 3764
+#name "Ar-narûwî"
+#descr "TBD"
+#gcost 30
+#rcost 1
+#rpcost 30000
+#hp 15
+#str 15
+#att 14
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 14
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Greatsword of Westernesse"
+#armor "Full Chain Mail"
+#armor "Full Helmet"
+#humanoid
+#holy
+#maxage 300
+#woundfend 1
+#fear 5
+#patrolbonus 1
+#nametype
+#formationfighter 2
+#end
+#newmonster 3765
+#name "Nimruzîrim"
+#descr "TBD"
+#gcost 30
+#rcost 1
+#rpcost 30000
+#hp 15
+#str 15
+#att 14
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 13
+#mor 15
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Mithril Helm"
+#armor "Mithril Cuirass
+#armor "Kite Shield
+#humanoid
+#holy
+#maxage 300
+#woundfend 1
+#awe 1
+#patrolbonus 1
+#nametype
+#formationfighter 2
+#end
+#newmonster 3766
+#name "Black Numenorian"
+#descr "TBD"
+#gcost 17
+#rcost 1
+#rpcost 17000
+#hp 13
+#str 13
+#att 12
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#holy
+#maxage 300
+#darkvision 50
+#patrolbonus 1
+#nametype
+#end
 #end
