@@ -291,4 +291,83 @@
 #patrolbonus 1
 #nametype
 #end
+
+#newmonster 3767
+#name "Longbowman"
+#descr "TBD"
+#gcost 10
+#rcost 1
+#rpcost 10004
+#hp 10
+#str 11
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Long Bow"
+#weapon "Short Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#humanoid
+#end
+
+#newmonster 3768
+#name "Horse Archer"
+#descr "TBD"
+#gcost 20
+#rcost 8
+#rpcost 10000
+#ressize 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 3
+#mr 10
+#mor 10
+#enc 5
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Short Bow"
+#weapon "Spear"
+#armor "Chain Mail Cuirass"
+#armor "Leather Cap"
+#mountedhumanoid
+#mounted
+#end
+
+#newmonster 3769
+#name "Soldier"
+#descr "TBD"
+#gcost 10
+#rcost 1
+#rpcost 10000
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
 #end
