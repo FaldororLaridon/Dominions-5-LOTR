@@ -316,6 +316,7 @@
 #armor "Chain Mail Hauberk"
 #armor "Half Helmet"
 #humanoid
+#maxage 60
 #end
 
 #newmonster 3768
@@ -344,6 +345,7 @@
 #armor "Leather Cap"
 #mountedhumanoid
 #mounted
+#maxage 60
 #end
 
 #newmonster 3769
@@ -370,4 +372,7 @@
 #armor "Half Helmet"
 #armor "Kite Shield"
 #humanoid
+#maxage 60
 #end
+
+#newmonster 3770
