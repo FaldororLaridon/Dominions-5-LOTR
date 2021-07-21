@@ -244,7 +244,7 @@
 #size 2
 #mr 13
 #mor 15
-#enc 3
+#enc 2
 #mapmove 18
 #ap 14
 #eyes 2
@@ -376,3 +376,68 @@
 #end
 
 #newmonster 3770
+#name "Adûnâi Captain"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 1
+#hp 15
+#str 14
+#att 13
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 14
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Broad Sword"
+#armor "Full Chain Mail"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#sailing 999 2
+#farsail 1
+#maxage 300
+#patrolbonus 1
+#nametype
+#okleader
+#command 10
+#end
+
+#newmonster 3771
+#name "Windcaller"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 2
+#hp 13
+#str 12
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Fist"
+#armor "Robes"
+#humanoid
+#sailing 2 999
+#maxage 300
+#nametype
+#poorleader
+#magicskill 1 2
+#magicskill 2 1
+#end
+
+#newmonster 3772
+#name "Shipmaster"
+#descr "TBD"
