@@ -49,7 +49,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
-#nametype
+#nametype 183
 #formationfighter 2
 #end
 #newmonster 3759
@@ -79,7 +79,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
-#nametype
+#nametype 183
 #end
 #newmonster 3760
 #name "Adûnâi Soldier"
@@ -107,7 +107,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
-#nametype
+#nametype 183
 #end
 #newmonster 3761
 #name "Adûnâi Knight"
@@ -135,7 +135,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
-#nametype
+#nametype 183
 #formationfighter 2
 #end
 #newmonster 3762
@@ -165,7 +165,7 @@
 #maxage 300
 #woundfend 1
 #patrolbonus 1
-#nametype
+#nametype 183
 #formationfighter 2
 #end
 #newmonster 3763
@@ -183,7 +183,7 @@
 #size 2
 #mr 12
 #mor 14
-#enc 2
+#enc 3
 #mapmove 18
 #ap 16
 #eyes 2
@@ -196,11 +196,12 @@
 #woundfend 1
 #ambidextrous 2
 #patrolbonus 1
-#nametype
+#nametype 183
 #end
 #newmonster 3764
 #name "Ar-narûwî"
 #descr "TBD"
+#reqtemple
 #gcost 30
 #rcost 1
 #rpcost 30000
@@ -226,11 +227,13 @@
 #woundfend 1
 #fear 5
 #patrolbonus 1
-#nametype
+#nametype 183
 #formationfighter 2
 #end
+
 #newmonster 3765
 #name "Nimruzîrim"
+#reqtemple
 #descr "TBD"
 #gcost 30
 #rcost 1
@@ -264,6 +267,7 @@
 #newmonster 3766
 #name "Black Numenorian"
 #descr "TBD"
+#reqtemple
 #gcost 17
 #rcost 1
 #rpcost 17000
@@ -289,7 +293,7 @@
 #maxage 300
 #darkvision 50
 #patrolbonus 1
-#nametype
+#nametype 183
 #end
 
 #newmonster 3767
@@ -317,6 +321,7 @@
 #armor "Half Helmet"
 #humanoid
 #maxage 60
+#nametype 100
 #end
 
 #newmonster 3768
@@ -346,6 +351,7 @@
 #mountedhumanoid
 #mounted
 #maxage 60
+#nametype 100
 #end
 
 #newmonster 3769
@@ -373,6 +379,7 @@
 #armor "Kite Shield"
 #humanoid
 #maxage 60
+#nametype 100
 #end
 
 #newmonster 3770
@@ -383,7 +390,7 @@
 #rpcost 1
 #hp 15
 #str 14
-#att 13
+#att 12
 #def 12
 #prec 11
 #prot 0
@@ -403,14 +410,119 @@
 #farsail 1
 #maxage 300
 #patrolbonus 1
-#nametype
+#nametype 183
 #okleader
-#command 10
 #end
 
 #newmonster 3771
 #name "Windcaller"
 #descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 2
+#reqlab
+#hp 13
+#str 12
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Fist"
+#armor "Robes"
+#humanoid
+#sailing 2 999
+#farsail 1
+#maxage 300
+#nametype 183
+#poorleader
+#magicskill 1 2
+#magicskill 2 1
+#end
+
+#newmonster 3772
+#name "Shipmaster"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 2
+#reqlab
+#reqtemple
+#hp 15
+#str 14
+#att 12
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 14
+#mor 14
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Chain Mail Hauberk"
+#armor "Kite Shield"
+#armor "Mithril Helm"
+#humanoid
+#holy
+#sailing 999 2
+#farsail 2
+#maxage 300
+#patrolbonus 1
+#nametype 183
+#goodleader
+#magicskill 2 2
+#magicskill 1 1
+#magicskill 8 1
+#custommagic 768 100
+#custommagic 768 10
+#end
+
+#newmonster 3773
+#name "Adûnâi Noble"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 2
+#hp 15
+#str 14
+#att 13
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 15
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Mithril Cuirass"
+#armor "Mithril Helm"
+#armor "Kite Shield"
+#humanoid
+#sailing 999 2
+#farsail 1
+#maxage 350
+#patrolbonus 1
+#nametype 183
+#expertleader
+#end
+
+#newmonster 3774
+#name "Adûnâi Oracle"
+#descr "TBD"
+#reqtemple
+#reqlab
 #gcost 10000
 #rcost 1
 #rpcost 2
@@ -421,23 +533,23 @@
 #prec 11
 #prot 0
 #size 2
-#mr 14
+#mr 15
 #mor 12
-#enc 2
+#enc 3
 #mapmove 18
 #ap 14
 #eyes 2
 #weapon "Fist"
 #armor "Robes"
 #humanoid
-#sailing 2 999
+#holy
+#sailing 999 2
+#farsail 1
 #maxage 300
-#nametype
+#patrolbonus 1
+#nobadevents 15
+#nametype 183
 #poorleader
-#magicskill 1 2
-#magicskill 2 1
+#magicskill 4 2
+#magicskill 1 1
 #end
-
-#newmonster 3772
-#name "Shipmaster"
-#descr "TBD"
