@@ -553,3 +553,219 @@
 #magicskill 4 2
 #magicskill 1 1
 #end
+
+#newmonster 3775
+#name "Dark Captain"
+#descr "TBD"
+#reqtemple
+#gcost 10000
+#rcost 1
+#rpcost 2
+#hp 13
+#str 13
+#att 13
+#def 13
+#prec 12
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#holy
+#sailing 999 2
+#maxage 300
+#darkvision 50
+#patrolbonus 1
+#nametype 183
+#goodleader
+#magicskill 8 1
+#end
+
+#newmonster 3776
+#name "Sorcerer"
+#descr "TBD"
+#reqlab
+#gcost 10000
+#rcost 1
+#rpcost 2
+#hp 12
+#str 12
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Dagger"
+#armor "Robes"
+#humanoid
+#sailing 999 2
+#maxage 300
+#darkvision 50
+#patrolbonus 1
+#nametype 183
+#poorleader
+#magicskill 5 2
+#magicskill 7 1
+#custommagic 20480 50
+#end
+
+#newmonster 3777
+#name "Mason"
+#descr "TBD"
+#gcost 10000
+#rcost 52
+#rpcost 2
+#hp 13
+#str 12
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 15
+#mor 12
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Fist"
+#humanoid
+#maxage 300
+#siegebonus 20
+#mason
+#nametype 183
+#poorleader
+#end
+
+#newmonster 3778
+#name "Faithful"
+#descr "TBD"
+#reqlab
+#reqtemple
+#gcost 10000
+#rcost 1
+#rpcost 4
+#hp 15
+#str 15
+#att 14
+#def 14
+#prec 11
+#prot 0
+#size 2
+#mr 13
+#mor 15
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Mithril Cuirass"
+#armor "Mithril Helm"
+#armor "Kite Shield"
+#humanoid
+#holy
+#sailing 999 2
+#farsail 1
+#maxage 300
+#awe 1
+#patrolbonus 1
+#nametype 183
+#expertleader
+#inspirational 1
+#magicskill 8 1
+#magicskill 1 1
+#magicskill 4 1
+#end
+
+#newmonster 3779
+#name "High Priest of Darkness"
+#descr "TBD"
+#reqlab
+#reqtemple
+#gcost 10000
+#rcost 1
+#rpcost 4
+#hp 14
+#str 13
+#att 12
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 15
+#mor 13
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Chain Mail Cuirass"
+#humanoid
+#holy
+#sailing 999 2
+#maxage 200
+#fear 5
+#patrolbonus 1
+#adeptsacr 1
+#darkvision 50
+#nametype 158
+#okleader
+#magicskill 8 3
+#magicskill 7 3
+#magicskill 5 2
+#custommagic 20480 100
+#custommagic 20480 10
+#end
+
+#newmonster 3780
+#name "High Priest of the West"
+#descr "TBD"
+#reqlab
+#reqtemple
+#gcost 10000
+#rcost 1
+#rpcost 4
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 12
+#prot 0
+#size 2
+#mr 15
+#mor 14
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Fist"
+#weapon "Robes"
+#humanoid
+#holy
+#sailing 999 2
+#maxage 200
+#awe 1
+#patrolbonus 1
+#nobadevents 10
+#nametype 158
+#okleader
+#magicskill 8 3
+#magicskill 1 3
+#magicskill 4 2
+#custommagic 2816 100
+#custommagic 2869 10
+#end
