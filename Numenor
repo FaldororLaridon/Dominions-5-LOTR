@@ -519,7 +519,7 @@
 #end
 
 #newmonster 3774
-#name "Sapthân"
+#name "Izindu-bêth"
 #descr "TBD"
 #reqtemple
 #reqlab
@@ -769,3 +769,42 @@
 #custommagic 2816 100
 #custommagic 2869 10
 #end
+
+#newmonster 3781
+#name "Dolga-azgabâr"
+#descr "TBD"
+#reqlab
+#reqtemple
+#gcost 10000
+#rcost 1
+#rpcost 4
+#hp 16
+#str 15
+#att 14
+#def 14
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 15
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Full Helmet"
+#armor "Full Chain Mail"
+#armor "Kite Shield"
+#holy
+#sailing 999 2
+#maxage 200
+#fear 5
+#patrolbonus 1
+#darkvision 50
+#nametype 158
+#expertleader
+#command 40
+#magicskill 8 1
+#magicskill 5 2
+#end
+
