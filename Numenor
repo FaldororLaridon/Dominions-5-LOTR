@@ -795,6 +795,7 @@
 #armor "Full Helmet"
 #armor "Full Chain Mail"
 #armor "Kite Shield"
+#humanoid
 #holy
 #sailing 999 2
 #maxage 200
@@ -807,4 +808,107 @@
 #magicskill 8 1
 #magicskill 5 2
 #end
+
+#newmonster 3782
+#name "Adûnâi Envoy"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 1
+#hp 13
+#str 12
+#att 11
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 15
+#mor 12
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Short Sword"
+#armor "Chain Mail Cuirass"
+#armor "Leather Cap"
+#humanoid
+#maxage 300
+#nametype 158
+#patrolbonus 1
+#incprovdef 2
+#goodleader
+#end
+
+#newmonster 3783
+#name "High Priest of Darkness"
+#fixedname "Sauron"
+#descr "TBD"
+#hp 25
+#str 15
+#att 13
+#def 13
+#prot 0
+#prec 11
+#size 2
+#mr 18
+#mor 14
+#enc 3
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Dagger"
+#armor "Robe"
+#humanoid
+#holy
+#unique
+#magicbeing
+#startage 2000
+#maxage 7000
+#fireres 20
+#spiritsight
+#incunrest 30
+#expertleader
+#adeptsacr 2
+#magicpath 5 4
+#magicpath 7 4
+#magicpath 7 3
+#fixforgebonus 3
+#mastersmith 2
+#spellsinger
+#end
+
+#newmonster 3784
+#name "King of Numenor"
+#fixedname "Ar-Pharazon"
+#descr "TBD"
+#hp 20
+#str 17
+#att 15
+#def 16
+#prec 11
+#prot 0
+#size 2
+#mr 10
+#mor 14
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Full Chain Mail"
+#armor "Full Helmet"
+#armor "Kite Shield"
+#humanoid
+#unique
+#maxage 200
+#startage 140
+#fear 7
+#patrolbonus 1
+#expertleader 
+#command 80
+#end
+
+#newmonster 37885
+#name "
+
 
