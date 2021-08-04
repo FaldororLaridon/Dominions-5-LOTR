@@ -900,6 +900,7 @@
 #armor "Kite Shield"
 #humanoid
 #unique
+#sailing 999 2
 #maxage 200
 #startage 140
 #fear 7
@@ -909,6 +910,20 @@
 #end
 
 #newmonster 37885
-#name "
-
+#name "Lord of the Faithful"
+#fixedname "Elendil"
+#descr "TBD"
+#hp 21
+#str 18
+#att 16
+#def 14
+#prec 11
+#prot 0
+#size 2
+#mr 14
+#mor 16
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
 
