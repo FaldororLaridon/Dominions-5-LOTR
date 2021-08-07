@@ -915,7 +915,7 @@
 #descr "TBD"
 #hp 21
 #str 18
-#att 16
+#att 15
 #def 14
 #prec 11
 #prot 0
@@ -926,4 +926,20 @@
 #mapmove 18
 #ap 14
 #eyes 2
+#armor "Full Chain Mail"
+#armor "Noldor Helm"
+#startitem "Narsil"
+#unique
+#humanoid
+#sailing 999 2
+#farsail 2
+#startage 150 
+#maxage 300
+#autohealer 1
+#reinvigoration 2
+#awe 2
+#patrolbonus 1
+#expertleader
+#inspirational 1
+#end
 
