@@ -909,13 +909,13 @@
 #command 80
 #end
 
-#newmonster 37885
+#newmonster 3785
 #name "Lord of the Faithful"
 #fixedname "Elendil"
 #descr "TBD"
 #hp 21
 #str 18
-#att 15
+#att 14
 #def 14
 #prec 11
 #prot 0
@@ -943,3 +943,43 @@
 #inspirational 1
 #end
 
+#newmonster 3786
+#name "Saviour of the Tree"
+#fixedname "Isildur"
+#descr "TBD"
+#hp 19
+#str 16
+#att 14
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 14
+#mor 16
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Greatsword of Westernesse"
+#armor "Full Chain Mail"
+#armor "Noldor Helm"
+#humanoid
+#holy
+#unique
+#sailing 999 2
+#farsail 2
+#startage 100
+#maxage 300
+#heal
+#autohealer 1
+#diseaseres 50
+#awe 1
+#patrolbonus 1
+#expertleader
+#inspirational 1
+#end
+
+#newmonster 3787
+#name "Admiral of Numenor"
+#fixedname "Ciryatur"
+#descr "TBD"
