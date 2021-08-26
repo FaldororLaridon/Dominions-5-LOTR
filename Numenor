@@ -1127,3 +1127,131 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #snow
 #swimming
 #end
+
+
+--adding pretenders to other nations, up to Middle Age
+#selectnation 8
+#addgod "The Moon Hunter"
+#end
+
+#selectnation 5
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#addgod "The Moon Hunter"
+#end
+
+#selectnation 43
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#addgod "The Moon Hunter"
+#end
+
+#selectnation 7
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 17
+#addgod "Herald of Manwë"
+#end
+
+
+#selectnation 18
+#addgod "Herald of Manwë"
+#addgod "The Moon Hunter"
+#end
+
+#selectnation 24
+#addgod "Herald of Manwë"
+#addgod "The Moon Hunter"
+#end
+
+#selectnation 25
+#addgod "Maiden of Sun"
+#addgod "The Moon Hunter"
+#end
+
+#selectnation 33
+#addgod "Maiden of Sun"
+#end
+
+#selectnation 121
+#addgod "The Moon Hunter"
+#end
+
+
+#selectnation 122
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 123
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 124
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 47
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 48
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 49
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 50
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 63
+#addgod "Maiden of Sun"
+#end
+
+#selectnation 71
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+#selectnation 72
+#addgod "Maiden of Sun"
+#end
+
+
+#selectnation 125
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+
+#selectnation 126
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
+
+
+#selectnation 127
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#end
