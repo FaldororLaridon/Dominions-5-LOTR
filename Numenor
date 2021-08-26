@@ -22,6 +22,16 @@
 #bowstr
 #ironweapon
 #end
+
+#newweapon 882
+#copyweapon "Great Bow"
+#name "Silver Bow"
+#att 2
+#magic
+#end
+
+
+
 #newmonster 3758
 #name "Adûnâi Steelbow"
 #desc "TBD"
@@ -983,3 +993,56 @@
 #name "Admiral of Numenor"
 #fixedname "Ciryatur"
 #descr "TBD"
+#end
+
+#newmonster 3788
+#name "Maiden of Sun"
+#fixedname "Arien"
+#spr1 "images/maia summons/arien_1.tga"
+#spr2 "images/maia summons/arien_2.tga"
+#descr "The Maia Arien is a spirit of fire uncorrupted by the Great Adversary. She tended the golden flowers of the gardens of Vána, sister of Yavanna and spouse to Oromë.
+
+After the Great Adversary worked with the Devourer of Light to destroy the Trees of Valinor, Arien was chosen to carry the last fruit of Laurelin and ride the vessel made by Aulë as the Sun. Her form is bright and hard to look at, and the Great Adversary and his allies recoiled at her light. Those who fight her risk losing an eye to her brilliance.
+
+With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to bring light to the darkness of the world, and ensure that the shadows cannot stand before her.
+
+'Too bright were the eyes of Arien for even the Eldar to look on, and leaving Valinor she forsook the form and raiment which like the Valar she had worn there, and she was as a naked flame, terrible in the fullness of her splendor.'(Quenta Silmarillion, Of the Sun and Moon and the Hiding of Valinor)"
+#pathcost 80
+#startdom 2
+#gcost 10000
+#hp 24
+#str 14
+#def 12
+#prot 6
+#prec 12
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Flame Strike"
+#humanoid
+#female
+#magicbeing
+#noriverpass
+#uwdamage 100
+#coldres -10
+#fireres 65
+#heat 7
+#fireshield 13
+#deathfire 3
+#eyeloss
+#firepower 1
+#maxage 3000
+#awe 3
+#spiritsight
+#okleader
+#okmagicleader
+#localsun
+#magicskill 0 2
+#firerange 1
+#ethereal
+#spellsinger
+#end
