@@ -1067,7 +1067,7 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #mor 30
 #enc 1
 #mapmove 16
-#ap 18
+#ap 16
 #eyes 2
 #weapon "Great Sword"
 #armor "Full Chain Mail"
@@ -1081,4 +1081,46 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #magicskill 1 2
 #spellsinger
 #combatcaster
+#end
+
+#newmonster 3789
+#name "The Moon Hunter"
+#fixedname "Tilion"
+#spr1 "images/maia summons/tilion_1.tga"
+#spr2 "images/maia summons/tilion_2.tga"
+#descr "Tilion once hunted with Oromë, and spent his days in the forests of Lórien, under the light of Telperion. He loves silver, but was drawn to the splendour of Arien. He begged to have care of the moon, to have a hope of getting closer to her, but when he did he was scorched by her heat.(rest to be filled in later I'm a hypocrite this is a lot of work)"
+#pathcost 80
+#startdom 2
+#gcost 10000
+#hp 30
+#str 15
+#att 12
+#def 14
+#prot 6
+#prec 15
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 18
+#ap 18
+#eyes 2
+#weapon "Silver Bow"
+#weapon "Short Sword"
+#armor "Silver Hauberk"
+#armor "Half Helmet"
+#humanoid
+#magicbeing
+#maxage 3000
+#fireres -5
+#awe 3
+#okleader
+#okmagicleader
+#magicskill 4 1
+#magicskill 6 1
+#spellsinger
+#forestsurvival
+#mountainsurvival
+#wastesurvival
+#swimming
 #end
