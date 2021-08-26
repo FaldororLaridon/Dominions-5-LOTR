@@ -1080,6 +1080,7 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #inspirational 1
 #magicskill 1 2
 #spellsinger
+#ambidextrous 2
 #combatcaster
 #end
 
@@ -1121,6 +1122,8 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #spellsinger
 #forestsurvival
 #mountainsurvival
+#swampsurvival
 #wastesurvival
+#snow
 #swimming
 #end
