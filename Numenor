@@ -1046,3 +1046,39 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #ethereal
 #spellsinger
 #end
+
+#newmonster 3789
+#name "Herald of Manwë"
+#fixedname "Eönwë"
+#spr1 "images/maia summons/eonwe_1.tga"
+#spr2 "images/maia summons/eonnwe_2.tga"
+#descr "The herald of Manwë is known for being the most skilled warrior in all of Middle-Earth. He was sent to lead the Vanyar against the Great Adversary in the War of Wrath alongside the Star of High Hope, and overcame him.(rest to be filled in later I'm a hypocrite this is a lot of work)"
+#pathcost 80
+#startdom 2
+#gcost 10000
+#hp 25
+#str 13
+#att 17
+#def 17
+#prot 6
+#prec 17
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 18
+#eyes 2
+#weapon "Great Sword"
+#armor "Full Chain Mail"
+#humanoid
+#magicbeing
+#maxage 3000
+#awe 3
+#superiorleader
+#expertmagicleader
+#inspirational 1
+#magicskill 1 2
+#spellsinger
+#combatcaster
+#end
