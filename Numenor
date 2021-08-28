@@ -30,6 +30,21 @@
 #magic
 #end
 
+#newweapon 883
+#name "Bow of Bregor"
+#dmg 12
+#nratt 2
+#att 3
+#def 0
+#twohanded
+#sound 14
+#range 50
+#ammo 20
+#pierce
+#magic
+#bowstr
+#end
+
 
 
 #newmonster 3758
@@ -263,8 +278,8 @@
 #eyes 2
 #weapon "Blade of Westernesse"
 #armor "Mithril Helm"
-#armor "Mithril Cuirass
-#armor "Kite Shield
+#armor "Mithril Cuirass"
+#armor "Kite Shield"
 #humanoid
 #holy
 #maxage 300
@@ -822,6 +837,7 @@
 #newmonster 3782
 #name "Adûnâi Envoy"
 #descr "TBD"
+#reqtemple
 #gcost 10000
 #rcost 1
 #rpcost 1
@@ -842,11 +858,13 @@
 #armor "Chain Mail Cuirass"
 #armor "Leather Cap"
 #humanoid
+#holy
 #maxage 300
 #nametype 158
 #patrolbonus 1
 #incprovdef 2
 #goodleader
+#magicpath 8 1
 #end
 
 #newmonster 3783
@@ -993,6 +1011,33 @@
 #name "Admiral of Numenor"
 #fixedname "Ciryatur"
 #descr "TBD"
+#hp 17
+#str 15
+#att 14
+#def 13
+#prec 14
+#prot 0
+#size 2
+#mr 12
+#mor 16
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Numenorian Steelbow"
+#weapon "Short Sword"
+#armor "Full Chain Mail"
+#armor "Half Helmet"
+#humanoid
+#unique
+#sailing 999 2
+#farsail 2
+#startage 100
+#maxage 300
+#patrolbonus 3
+#expertleader
+#command 80
+#inspirational 1
 #end
 
 #newmonster 3788
@@ -1128,6 +1173,134 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #swimming
 #end
 
+#newsite 1501
+#name "Armenelos"
+#path 1
+#loc 16384
+#level 0
+#rarity 5
+#homemon "Ar-Agan Nardû"
+#homemon 3761
+#homemon 3762
+#homemon "Ar-narûwî"
+#homecom "Bâr"
+#homecom "Dolga-azgabâr"
+#end
+
+#newsite 1502
+#name "Meneltarma"
+#path 3
+#loc 16384
+#level 0
+#rarity 5
+#gems 1 3
+#homemon "Nimruzîrim"
+#homecom "Izindu-bêth"
+#homecom "Abrazân"
+#end
+
+#newsite
+#name "Rómenna"
+#path 2
+#loc16384
+#level 0
+#rarity 5
+#gems 2 3
+#homecom "Balakbâr"
+#end
+
+#newsite 1503
+#name "Meneltarma"
+#path 1
+#loc 16384
+#level 0
+#rarity 5
+#gems 1 3
+#homemon "Nimruzîrim"
+#homecom "Izindu-bêth"
+#homecom "Abrazân"
+#summonlvl2 "Eagle of Manwe"
+#end
+
+#newsite 1504
+#name "Meletarma"
+#path 3
+#loc 16384
+#level 0
+#rarity 5
+#gems 1 2
+#homecom "Izindu-bêth"
+#end
+
+#newsite 1505
+#name "Armenelos"
+#path 1
+#loc 16384
+#level 0
+#rarity 5
+#homemon "Ar-Agan Nardû"
+#homemon 3761
+#homemon 3762
+#homecom "Bâr"
+#end
+
+#newsite 1506
+#name "Armenelos"
+#path 1
+#loc 16384
+#level 0
+#rarity 5
+#homemon "Ar-Agan Nardû"
+#homemon 3761
+#homemon 3762
+#homemon "Ar-narûwî"
+#homecom "Bâr"
+#homecom "Dolga-azgabâr"
+#end
+
+#newsite 
+#name "Nimloth"
+#path 4
+#loc 16384
+#level 0
+#rarity 5
+#gems 4 2
+#gems 1 1
+#homecom "Adûnabên"
+#incscale 3
+#end
+
+#newsite
+#name "Temple of Darkness"
+#path 5
+#loc 16384
+#level 0
+#rarity 5
+#gems 5 2
+#gems 7 3
+#gold 50
+#homecom "Dolgubên"
+#decscale 3
+#decscale 4
+#bloodcost 20
+#bloodrange 2
+#disease 5
+#end
+
+#newsite
+#name "
+
+
+
+
+
+
+
+
+
+
+
+
 
 --adding pretenders to other nations, up to Middle Age
 #selectnation 8
@@ -1255,3 +1428,38 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #addgod "Maiden of Sun"
 #addgod "Herald of Manwë"
 #end
+
+
+#newitem
+#name "Bow of Bregor"
+#descr "A mighty bow of the Men of the First Age, The Bow of Bregor fires with great speet and uncanny accuracy."
+#constlevel 12
+#mainpath 2
+#mainlevel 3
+#type 3
+#weapon 883
+#autospell "Aim"
+#restricted "Numenor"
+#unique
+#end
+
+#newitem
+#name "Ring of Barahir"
+#descr "An ancient heirloom, gifted to a lord of Men by the Elven-King Finrod Felagund for saving his life. The ring has been worn by many great heroes and is believed to give fortune to the wearer."
+#constlevel 12
+#mainpath 3
+#mainlevel 4
+#type 8
+#luck
+#morale 3
+#mr 2
+#swift 20
+#sneakunit 40
+#inspirational 2
+#restricted "Numenor"
+#unique
+#end
+
+
+
+
