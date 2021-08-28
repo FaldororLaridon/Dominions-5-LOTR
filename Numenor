@@ -290,7 +290,7 @@
 #formationfighter 2
 #end
 #newmonster 3766
-#name "Black Numenorian"
+#name "Nâlu Nardû"
 #descr "TBD"
 #reqtemple
 #gcost 17
@@ -472,7 +472,7 @@
 #end
 
 #newmonster 3772
-#name "Balakbâr"
+#name "Barakbâr"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -1244,20 +1244,6 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #homecom "Bâr"
 #end
 
-#newsite 1506
-#name "Armenelos"
-#path 1
-#loc 16384
-#level 0
-#rarity 5
-#homemon "Ar-Agan Nardû"
-#homemon 3761
-#homemon 3762
-#homemon "Ar-narûwî"
-#homecom "Bâr"
-#homecom "Dolga-azgabâr"
-#end
-
 #newsite 
 #name "Nimloth"
 #path 4
@@ -1271,7 +1257,7 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #end
 
 #newsite
-#name "Temple of Darkness"
+#name "Ugru-Târik"
 #path 5
 #loc 16384
 #level 0
@@ -1288,11 +1274,38 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #end
 
 #newsite
-#name "
+#name "Dolgu-Balak"
+#path 2
+#loc 64
+#nat "Numenor"
+#natmon "Nâlu Nardû"
+#natcom "Nâluzigûr"
+#natcom "Nâlubalak"
+#end
 
+#newnation
+#name "Numenor"
+#epithet "Sea-Kings"
+#era 2
+#descr "TBD"
+#summary "Military: Heavy Infantry, Sailing.
 
+Magic: Mostly air and ater, some Astral. Can get Blood and Death.
 
+Priests: Weak.
 
+Buildings: advanced with Masons."
+#brief "A nation of powerful men, blessed by the Pantokrator. In his abscence, civil war looms between the Elf-friends loyal to the old ways, and the King's Men who embrace a new path."
+#startsite "Armenelos"
+#startsite "Meneltarma"
+#startsite "Rómenna"
+#islandnation
+#aiairnation
+#aiwaternation
+#aigoodbless 50
+#startcom "Adûnâi Captain"
+#coastcom1 "Barakbâr"
+#coastcom2 "Bawabrûkhû"
 
 
 
