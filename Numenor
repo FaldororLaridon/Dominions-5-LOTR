@@ -1173,6 +1173,56 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #swimming
 #end
 
+#newmonster 3790
+#name "Dark Enemy of the World"
+#fixedname "Morgoth"
+#hp 130
+#str 24
+#att 12
+#def 13
+#prec 10
+#prot 3
+#size 6
+#mr 18
+#mor 18
+#enc 2
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Enchanted Spear"|127
+#armor "Blacksteel Full Plate"|38
+#armor "Blacksteel Round Shield"
+#armor "Full Helmet"
+#humanoid
+#unique
+#demon
+#holy
+#startage 3000
+#maxage 5000
+#coldres 30
+#heatrest 30
+#heat 5
+#cold 8
+#fear 10
+#spiritsight
+#dragonlord 3
+#goodleader
+#okmagicleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 0 5
+#magicskill 1 2
+#magicskill 2 1
+#magicskill 3 4
+#magicskill 4 2
+#magicskill 5 4
+#magicskill 6 2
+#magicskill 7 5
+#crossbreeder 15
+#forgebonus 5
+#fixforge 3
+#end
+
 #newsite 1501
 #name "Armenelos"
 #path 1
