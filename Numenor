@@ -868,7 +868,7 @@
 #end
 
 #newmonster 3783
-#name "High Priest of Darkness"
+#name "High Priest of Mulkhêr"
 #fixedname "Sauron"
 #descr "TBD"
 #hp 25
@@ -1223,7 +1223,7 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #end
 
 #newsite 1504
-#name "Meletarma"
+#name "Meneltarma"
 #path 3
 #loc 16384
 #level 0
@@ -1288,13 +1288,10 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #epithet "Sea-Kings"
 #era 2
 #descr "TBD"
-#summary "Military: Heavy Infantry, Sailing.
-
-Magic: Mostly air and ater, some Astral. Can get Blood and Death.
-
-Priests: Weak.
-
-Buildings: advanced with Masons."
+#summary "Race: Greater Numenorian Men and lesser Men recruitable inland. Sailing, Masons.
+Military: Heavy Infantry, most units recruitable only on coast.
+Magic: Mostly air and water, some Astral. Can get Blood and Death.
+Priests: Weak."
 #brief "A nation of powerful men, blessed by the Pantokrator. In his abscence, civil war looms between the Elf-friends loyal to the old ways, and the King's Men who embrace a new path."
 #startsite "Armenelos"
 #startsite "Meneltarma"
@@ -1306,9 +1303,70 @@ Buildings: advanced with Masons."
 #startcom "Adûnâi Captain"
 #coastcom1 "Barakbâr"
 #coastcom2 "Bawabrûkhû"
-
-
-
+#startscout "Izindu-bêth"
+#coastcom "Târik-Tamar"
+#startunittype1 3759
+#startunitnbrs1 15
+#startunittype2 3760
+#startunitnbrs2 15
+#addrecunit 3767
+#addrecunit 3768
+#addrecunit 3769
+#addreccom "Adûnâi Captain"
+#addreccom "Adûnâi Envoy"
+#coastunit1 "Adûnâi Steelbow"
+#coastunit2 3759
+#coastunit3 3760
+#hero1 3787
+#defcom1 "Adûnâi Captain"
+#defcom2 "Bâr"
+#defunit1 3759
+#defunit1b 3760
+#defunit2 3761
+#defunit2b "Adûnâi Steelbow"
+#defmult1 10
+#defmult1b 10
+#defmult2 5
+#defmult2b 5
+#wallcom "Bâr"
+#wallunit "Adûnâi Steelbow"
+#wallmult 5
+#homerealm 10
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#addgod "Devourer of Light"
+#addgod "Dagon"
+#addgod "Moloch"
+#addgod "Demilich"
+#addgod "Master Lich"
+#addgod "Statue of War"
+#addgod "Fomorian God King"
+#addgod "Lich Queen"
+#addgod "Vampire Queen"
+#addgod "Fountain of Blood"
+#addgod "Prince of Death"
+#addgod "Idol of Sorcery"
+#addgod "Vala of the Hunt"
+#addgod "Vala Smith"
+#addgod "Vala Doomsman"
+#addgod "Vala of Valour"
+#addgod "Elder King"
+#addgod "Vala of Stars"
+#addgod "Vala of the Sea"
+#addgod "Vala of Growth"
+#addgod "Star of High Hope"
+#cheapgod20 "Statue of War"
+#cheapgod20 "Prince of Death"
+#cheapgod20 "Vala of Valour"
+#cheapgod20 "Vala of Stars"
+#cheapgod40 "Elder King"
+#cheapgod40 "Vala of the Sea"
+#cheapgod40 "Star of High Hope"
+#fortera 3
+#templepic 9
+#homefort 19
+#end
 
 
 
