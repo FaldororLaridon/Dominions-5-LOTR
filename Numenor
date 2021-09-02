@@ -1,3 +1,5 @@
+
+--numenor weapons--
 #newweapon 879
 #copyweapon "Elvish Blade"
 #name "Blade of Westernesse"
@@ -45,10 +47,13 @@
 #bowstr
 #end
 
-
+--Numenor Units--
 
 #newmonster 3758
+#spr1 "images/numenor/steelbow_1.tga"
+#spr2 "images/numenor/steelbow_2.tga"
 #name "Adûnâi Steelbow"
+
 #desc "TBD"
 #gcost 17
 #rcost 1
@@ -77,8 +82,11 @@
 #nametype 183
 #formationfighter 2
 #end
+
 #newmonster 3759
 #name "Adûnâi Soldier"
+#spr1 "images/numenor/longspear_1.tga"
+#spr2 "images/numenor/longspear_2.tga"
 #descr "TBD"
 #gcost 17
 #rcost 1
@@ -106,8 +114,11 @@
 #patrolbonus 1
 #nametype 183
 #end
+
 #newmonster 3760
 #name "Adûnâi Soldier"
+#spr1 "images/numenor/battleaxe_1.tga"
+#spr2 "images/numenor/battleaxe_2.tga"
 #descr "TBD"
 #gcost 17
 #rcost 1
@@ -136,6 +147,8 @@
 #end
 #newmonster 3761
 #name "Adûnâi Knight"
+#spr1 "images/numenor/greatsword_1.tga"
+#spr2 "images/numenor/greatsword_2.tga"
 #descr "TBD"
 #gcost 20
 #rcost 1
@@ -165,6 +178,8 @@
 #end
 #newmonster 3762
 #name "Adûnâi Knight"
+#spr1 "images/numenor/sword_1.tga"
+#spr2 "images/numenor/sword_2.tga"
 #descr "TBD"
 #gcost 20
 #rcost 1
@@ -195,6 +210,8 @@
 #end
 #newmonster 3763
 #name "Ar-Agan Nardû"
+#spr1 "images/numenor/palaceguard_1.tga"
+#spr2 "images/numenor/palaceguard_2.tga"
 #descr "TBD"
 #gcost 24
 #rcost 1
@@ -225,6 +242,8 @@
 #end
 #newmonster 3764
 #name "Ar-narûwî"
+#spr1 "images/numenor/arnaruwi_1.tga"
+#spr2 "images/numenor/arnaruwi_2.tga"
 #descr "TBD"
 #reqtemple
 #gcost 30
@@ -258,6 +277,8 @@
 
 #newmonster 3765
 #name "Nimruzîrim"
+#spr1 "images/numenor/elffriend_1.tga"
+#spr2 "images/numenor/elffriend_2.tga"
 #reqtemple
 #descr "TBD"
 #gcost 30
@@ -291,6 +312,8 @@
 #end
 #newmonster 3766
 #name "Nâlu Nardû"
+#spr1 "images/numenor/black_numenorean_1.tga"
+#spr2 "images/numenor/black_numenorean_2.tga"
 #descr "TBD"
 #reqtemple
 #gcost 17
@@ -323,6 +346,8 @@
 
 #newmonster 3767
 #name "Longbowman"
+#spr1 "images/numenor/mortallongbow_1.tga"
+#spr2 "images/numenor/mortallongbow_2.tga"
 #descr "TBD"
 #gcost 10
 #rcost 1
@@ -351,6 +376,8 @@
 
 #newmonster 3768
 #name "Horse Archer"
+#spr1 "images/numenor/mortalhorsearcher_1.tga"
+#spr2 "images/numenor/mortalhorsearcher_2.tga"
 #descr "TBD"
 #gcost 20
 #rcost 8
@@ -381,6 +408,8 @@
 
 #newmonster 3769
 #name "Soldier"
+#spr1 "images/numenor/mortalspear_1.tga"
+#spr2 "images/numenor/mortalspear_2.tga"
 #descr "TBD"
 #gcost 10
 #rcost 1
@@ -409,6 +438,8 @@
 
 #newmonster 3770
 #name "Adûnâi Captain"
+#spr1 "images/numenor/captain_1.tga"
+#spr2 "images/numenor/captain_2.tga"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -441,6 +472,8 @@
 
 #newmonster 3771
 #name "Bawabrûkhû"
+#spr1 "images/numenor/windcaller_1.tga"
+#spr2 "images/numenor/windcaller_2.tga"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -513,6 +546,8 @@
 
 #newmonster 3773
 #name "Bâr"
+#spr1 "images/numenor/lord_1.tga"
+#spr2 "images/numenor/lord_2.tga"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -545,6 +580,8 @@
 
 #newmonster 3774
 #name "Izindu-bêth"
+#spr1 "images/numenor/oracle_1.tga"
+#spr2 "images/numenor/oracle_2.tga"
 #descr "TBD"
 #reqtemple
 #reqlab
@@ -581,6 +618,8 @@
 
 #newmonster 3775
 #name "Nâlubalak"
+#spr1 "images/numenor/darkcaptain_1.tga"
+#spr2 "images/numenor/darkcaptain_2.tga"
 #descr "TBD"
 #reqtemple
 #gcost 10000
@@ -616,6 +655,8 @@
 
 #newmonster 3776
 #name "Nâluzigûr"
+#spr1 "images/numenor/sorcerer_1.tga"
+#spr2 "images/numenor/sorcerer_2.tga"
 #descr "TBD"
 #reqlab
 #gcost 10000
@@ -650,6 +691,8 @@
 
 #newmonster 3777
 #name "Târik-Tamar"
+#spr1 "images/numenor/mason_1.tga"
+#spr2 "images/numenor/mason_2.tga"
 #descr "TBD"
 #gcost 10000
 #rcost 52
@@ -678,6 +721,8 @@
 
 #newmonster 3778
 #name "Abrazân"
+#spr1 "images/numenor/faithful_1.tga"
+#spr2 "images/numenor/faithful_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -718,6 +763,8 @@
 
 #newmonster 3779
 #name "Dolgubên"
+#spr1 "images/numenor/kingsman_1.tga"
+#spr2 "images/numenor/kingsman_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -758,6 +805,8 @@
 
 #newmonster 3780
 #name "Adûnabên"
+#spr1 "images/numenor/elffriendmage_1.tga"
+#spr2 "images/numenor/elffriendmage_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -797,6 +846,8 @@
 
 #newmonster 3781
 #name "Dolga-azgabâr"
+#spr1 "images/numenor/arnaruwi_lord_1.tga"
+#spr2 "images/numenor/arnaruwi_lord_2.tga"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -836,6 +887,8 @@
 
 #newmonster 3782
 #name "Adûnâi Envoy"
+#spr1 "images/numenor/envoy_1.tga"
+#spr2 "images/numenor/envoy_2.tga"
 #descr "TBD"
 #reqtemple
 #gcost 10000
@@ -869,6 +922,8 @@
 
 #newmonster 3783
 #name "High Priest of Mulkhêr"
+#spr1 "images/numenor/sauron_1.tga"
+#spr2 "images/numenor/sauron_2.tga"
 #fixedname "Sauron"
 #descr "TBD"
 #hp 25
@@ -908,6 +963,8 @@
 #newmonster 3784
 #name "King of Numenor"
 #fixedname "Ar-Pharazon"
+#spr1 "images/numenor/ar-pharazon_1.tga"
+#spr2 "images/numenor/ar-pharazon_2.tga"
 #descr "TBD"
 #hp 20
 #str 17
@@ -940,6 +997,8 @@
 #newmonster 3785
 #name "Lord of the Faithful"
 #fixedname "Elendil"
+#spr1 "images/numenor/elendil_1.tga"
+#spr2 "images/numenor/elendil_2.tga"
 #descr "TBD"
 #hp 21
 #str 18
@@ -974,6 +1033,8 @@
 #newmonster 3786
 #name "Saviour of the Tree"
 #fixedname "Isildur"
+#spr1 "images/numenor/isildur_1.tga"
+#spr2 "images/numenor/isildur_2.tga"
 #descr "TBD"
 #hp 19
 #str 16
@@ -1010,6 +1071,8 @@
 #newmonster 3787
 #name "Admiral of Numenor"
 #fixedname "Ciryatur"
+#spr1 "images/numenor/ciryatur_1.tga"
+#spr2 "images/numenor/ciryatur_2.tga"
 #descr "TBD"
 #hp 17
 #str 15
@@ -1175,6 +1238,8 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 
 #newmonster 3790
 #name "Dark Enemy of the World"
+#spr1 "images/numenor/morgoth_1.tga"
+#spr2 "images/numenor/morgoth_2.tga"
 #fixedname "Morgoth"
 #hp 130
 #str 24
@@ -1336,6 +1401,7 @@ With the Pantokrator missing, the Maiden of the Sun has taken it upon herself to
 #newnation
 #name "Numenor"
 #epithet "Sea-Kings"
+#flag "images/numenor/numenorflag.tga"
 #era 2
 #descr "TBD"
 #summary "Race: Greater Numenorian Men and lesser Men recruitable inland. Sailing, Masons.
