@@ -47,7 +47,115 @@
 #bowstr
 #end
 
+#newweapon 884
+#copyweapon "Fear and Cold"
+#name "Black Breath"
+#bonus
+#norepel
+#unrepel
+#end
+
+
+
 --Numenor Units--
+
+#newmonster 3794
+#name "Nazgûl"
+#descr "Pale shadows that have succumbed to the power of the Rings they wear, the Nazgûl are deadly and terrifying to behold. Their mere prescence can cause even the most hardened warrior to lose heart in battle, and think only of flight, or hiding."
+#hp 10
+#str 12
+#att 12
+#def 13
+#prec 10
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#humanoid
+#holy
+#undead
+#blind
+#stealthy 30
+#assassin
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#shapechange 3795
+#goodleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 3
+#onebattlespell "Terror"
+#end
+
+#newmonster 3795
+#name "Nazgûl"
+#descr "Pale shadows that have succumbed to the power of the Rings they wear, the Nazgûl are deadly and terrifying to behold. Their mere prescence can cause even the most hardened warrior to lose heart in battle, and think only of flight, or hiding."
+#hp 10
+#str 12
+#att 12
+#def 13
+#prec 10
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#mountedhumanoid
+#holy
+#undead
+#mounted
+#blind
+#stealthy 30
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#shapechange 3794
+#goodleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 3
+#onebattlespell "Terror"
+#end
+
+
+
+
 
 #newmonster 3758
 #spr1 "images/numenor/steelbow_1.tga"
