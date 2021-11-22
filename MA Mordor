@@ -1,10 +1,9 @@
 units:
 
-Snaga (2 varients)
-Snaga archer
+
 Orc Tracker
-Orc spearman
-Orc warrior
+Mordor Orc (spear)
+Mordor Orc (scimitar)
 Orc archer
 Haradrim warrior
 Dark Dwarf
@@ -17,4 +16,17 @@ Werewolf
 (coast)
 
 Black Numenorian
-Black Numenorian Noble
+
+commanders:
+
+Orc captain
+Orc sorcerer
+Haradrim chieftain
+Easterling sorcerer (fire, blood, death)
+Blak Numenorian Captain
+Black Numenorian Sorcerer
+Vampite
+Haradrim priest (blood, 2priest)
+spy (stealthy priest, 40 leadership)
+Sorcerer of Barad-Dur
+Blacklock Lord
