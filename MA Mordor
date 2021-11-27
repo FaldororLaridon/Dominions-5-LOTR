@@ -31,3 +31,264 @@ Haradrim priest (blood, 2priest)
 spy (stealthy priest, 40 leadership)
 Sorcerer of Barad-Dur
 Blacklock Lord
+
+#newarmor 326
+#name "Full Orc-Mail"
+#type 5
+#prot 12
+#def -2
+#enc 3
+#rcost 7
+#ironarmor 
+#end
+
+
+#newmonster 3799
+#name "Mordor Orc"
+#descr "TBD"
+#rcost 1
+#gcost 7
+#rpcost 5
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 7
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Poisoned Scimitar"
+#armor "Iron Cap"
+#armor "Iron Shield"
+#armor "Orc-Mail Hauberk"
+#humanoid
+#wastesurvival
+#startage 20
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#incunrest 1
+#pillagebonus 1
+#nametype 170
+#slave
+#end
+
+#newmonster 3800
+#name "Mordor Orc"
+#descr "TBD"
+#rcost 1
+#gcost 7
+#rpcost 5
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 7
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Poison Tipped Spear"
+#armor "Iron Cap"
+#armor "Iron Shield"
+#armor "Orc-Mail Hauberk"
+#humanoid
+#wastesurvival
+#startage 20
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#incunrest 1
+#pillagebonus 1
+#nametype 170
+#slave
+#end
+
+#newmonster 3801
+#name "Mordor Orc Tracker"
+#descr "TBD"
+#rcost 1
+#gcost 7
+#rpcost 5
+#hp 8
+#str 11
+#att 8
+#def 8
+#prec 9
+#prot 0
+#size 1
+#mr 8
+#mor 7
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Spear"
+#weapon "Short Bow"
+#armor "Iron Cap"
+#armor "Leather Hauberk"
+#humanoid
+#wastesurvival
+#stealthy
+#startage 20
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#incunrest 1
+#patrolbonus 1
+#nametype 170
+#slave
+#end
+
+#newmonster 3802
+#name "Mordor Orc Archer"
+#descr "TBD"
+#rcost 1
+#gcost 7
+#rpcost 5
+#hp 8
+#str 11
+#att 8
+#def 8
+#prec 11
+#prot 0
+#size 1
+#mr 8
+#mor 7
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Poison Dagger"
+#weapon "Short Bow"
+#armor "Iron Cap"
+#armor "Orc-Mail Cuirass"
+#humanoid
+#wastesurvival
+#startage 20
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#incunrest 1
+#nametype 170
+#slave
+#end
+
+#newmonster 3803
+#name "Mordor Warg Rider"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 13
+#ressize 1
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+ 
+#size 2
+#mr 8
+#mor 8
+#enc 3
+#mapmove 21
+#ap 22
+#eyes 2
+#weapon "Poison Tipped Spear"
+#weapon 20
+#armor "Orc-mail Cuirass"
+#armor "Iron Shield"
+#armor "Iron Cap"
+#mountedhumanoid
+#mounted
+#snow
+#stealthy
+#startage 21
+#maxage 300
+#uwdamage 100
+#darkvision 100
+#darkpower 1
+#pillagebonus 3
+#secondtmpshape "Wolf"
+#nametype 170
+#slave
+#end
+
+#newmonster 3804
+#name "Haradrim Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 10
+#hp 10
+#str 10
+#att 11
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Scimitar"
+#armor "Scale Mail Cuirass"
+#armor "Iron Cap"
+#armor "Shield"
+#humanoid
+#wastesurvival
+#maxage 70
+#nametype 100
+#end
+
+#newmonster 3705
+#name "Haradrim Horseman"
+#descr "TBD"
+#rcost 12
+#gcost 10015
+#rpcost 10000
+#ressize 2
+#hp 10
+#str 11
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Scimitar"
+#weapon 56
+#armor "Scale Mail Hauberk"
+#armor "Shield"
+#armor "Half Helmet"
+#mounted
+#mountedhumanoid
+#wastesurvival
+#maxage 70
+#nametype 100
+#end
+
+#newmonster 3706
+#name "Blacklock 
