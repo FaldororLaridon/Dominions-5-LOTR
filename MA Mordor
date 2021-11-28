@@ -351,4 +351,17 @@ Blacklock Lord
 #mapmove 20
 #ap 18
 #eyes 2
-#
+#weapon "Spear"
+#armor "Ring Mail Hauberk"
+#armor "Iron Cap"
+#mountedhumanoid
+#mounted
+#nomovepen
+#maxage 60
+#trample
+#nametype 100
+#end
+
+#newmonster 3708
+#name "Barad-Dur Guard"
+#descr 
