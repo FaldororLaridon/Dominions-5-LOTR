@@ -367,12 +367,12 @@ Blacklock Lord
 #descr "TBD"
 #rcost 1
 #gcost 10010
-#rpcost 10010
+#rpcost 10000
 #hp 10
 #str 15
 #att 11
 #def 10
-#prec 11
+#prec 8
 #prot 0
 #size 1
 #mr 12
@@ -391,6 +391,7 @@ Blacklock Lord
 #wastesurvival
 #maxage 300
 #darkpower 2
+#darkvision 100
 #castledef 1
 #nametype 170
 #bodyguard 1
@@ -399,4 +400,31 @@ Blacklock Lord
 #newmonster 3709
 #name "Great Orc"
 #descr "TBD"
-#
+#rcost 1
+#gcost 10015
+#rpcost 20000
+#hp 13
+#str 16
+#att 12
+#def 11
+#prec 8
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Poisoned Scimitar"
+#armor "Orc-Mail Hauberk"
+#armor "Full Helmet"
+#armor "Iron Shield"
+#humanoid
+#wastesurvival
+#maxage 500
+#darkvision 100
+#pillagebonus 2
+#darkpower 1
+#nametype 170
+#end
