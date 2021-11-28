@@ -364,4 +364,34 @@ Blacklock Lord
 
 #newmonster 3708
 #name "Barad-Dur Guard"
-#descr 
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 10010
+#hp 10
+#str 15
+#att 11
+#def 10
+#prec 11
+#prot 0
+#size 1
+#mr 12
+#mor 50
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Poisoned Scimitar"
+#armor "Full Helmet"
+#armor "Full Orc-Mail"
+#armor "Iron Shield"
+#humanoid
+#holy
+#magicbeing
+#wastesurvival
+#maxage 300
+#darkpower 2
+#castledef 1
+#nametype 170
+#bodyguard 1
+#end
