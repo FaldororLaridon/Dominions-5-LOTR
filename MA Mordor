@@ -428,3 +428,37 @@ Blacklock Lord
 #darkpower 1
 #nametype 170
 #end
+
+#newmonster 3710
+#name "Hound of Sauron"
+#descr "TBD"
+#rcost 1
+#gcost 20
+#rpcost 15
+#hp 28
+#str 16
+#att 13
+#prec 5
+#prot 6
+#size 3
+#mr 15
+#mor 14
+#enc 2
+#mapmove 20
+#ap 26
+#eyes 2
+#weapon 223
+#quadruped
+#holy
+#animal
+#snow
+#forestsurvival
+#stealthy 10
+#maxage 1000
+#falsearmy 1
+#coldres 5
+#poisonres 5
+#darkvision 100
+#patrolbonus 10
+#nametype 144
+#end
