@@ -395,3 +395,8 @@ Blacklock Lord
 #nametype 170
 #bodyguard 1
 #end
+
+#newmonster 3709
+#name "Great Orc"
+#descr "TBD"
+#
