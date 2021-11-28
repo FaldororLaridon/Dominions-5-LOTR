@@ -77,6 +77,7 @@ Blacklock Lord
 #pillagebonus 1
 #nametype 170
 #slave
+#undisciplined
 #end
 
 #newmonster 3800
@@ -113,6 +114,7 @@ Blacklock Lord
 #pillagebonus 1
 #nametype 170
 #slave
+#undisciplined
 #end
 
 #newmonster 3801
@@ -151,6 +153,7 @@ Blacklock Lord
 #patrolbonus 1
 #nametype 170
 #slave
+#undisciplined
 #end
 
 #newmonster 3802
@@ -187,6 +190,7 @@ Blacklock Lord
 #incunrest 1
 #nametype 170
 #slave
+#undisciplined
 #end
 
 #newmonster 3803
@@ -328,3 +332,23 @@ Blacklock Lord
 #end
 
 #newmonster 3707
+#name "Easterling Chariot"
+#descr "TBD"
+#rcost 8
+#gcost 10030
+#rpcost 40
+#ressize 2
+#hp 10
+#str 10
+#att 9
+#def 11
+#prec 10
+#prot 0
+#size 4
+#mr 11
+#mor 11
+#enc 5
+#mapmove 20
+#ap 18
+#eyes 2
+#
