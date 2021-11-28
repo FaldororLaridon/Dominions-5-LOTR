@@ -291,4 +291,40 @@ Blacklock Lord
 #end
 
 #newmonster 3706
-#name "Blacklock 
+#name "Blacklock Soldier"
+#descr "TBD"
+#rcost 2
+#gcost 18
+#rpcost 26
+#hp 13
+#str 12
+#att 12
+#def 9
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 13
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Axe"
+#armor "Dwarf-Mail Hauberk"
+#armor "Dwarf Half Helm"
+#armor "Khazad Round Shield"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#addupkeep 5
+#reinvigoration 2
+#darkvision 50
+#castledef 1
+#nametype 174
+#supplybonus -1
+#formationfighter -3
+#drawsize 10
+#end
+
+#newmonster 3707
