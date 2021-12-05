@@ -881,6 +881,7 @@ newmonster 3822
 #woundfend 10
 #ethereal
 #coldres 5
+#uwdamage 100
 #fireres -5
 #domimmortal
 #fear 10
@@ -923,6 +924,7 @@ newmonster 3822
 #mountedhumanoid
 #holy
 #undead
+#unique
 #mounted
 #blind
 #stealthy 30
@@ -935,7 +937,8 @@ newmonster 3822
 #fear 10
 #curseluckshield 2
 #damagerev 1
-#darkpower 4
+#darkpower 6
+#uwdamage 100
 #dompower 1
 #spiritsight
 #spreaddom 1
@@ -969,6 +972,7 @@ newmonster 3822
 #weapon -1
 #miscshape
 #holy
+#unique
 #undead
 #blind
 #stealthy 30
@@ -977,12 +981,163 @@ newmonster 3822
 #woundfend 99
 #ethereal
 #coldres 5
+#uwdamage 100
 #domimmortal
 #fear 15
 #invisible
 #spiritsight
 #spreaddom 1
 #neednoteat
-#shapechange 3794
+#shapechange 3822
+#noleader
+#end
+
+#newmonster 3826
+#name "Lord of the Nazgûl"
+#fixedname " "
+#descr "TBD"
+#hp 12
+#str 14
+#att 14
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 14
+#mor 18
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#humanoid
+#holy
+#unique
+#undead
+#blind
+#stealthy 30
+#assassin
+#maxage 2000
+#woundfend 10
+#ethereal
+#invulnerable 15
+#coldres 5
+#uwdamage 100
+#fireres -5
+#domimmortal
+#fear 15
+#curseluckshield 3
+#deathcurse
+#damagerev 2
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#siegebonus 15
+#shapechange 3827
+#superiorleader
+#superiorundeadleader
+#taskmaster 2
+#magicskill 5 5
+#magicskill 3 3
+#magicskill 7 2
+#sorceryrange 1
+#end
+
+#newmonster 3827
+#name "Lord of the Nazgûl"
+#fixedname " "
+#descr "TBD"
+#hp 12
+#str 14
+#att 14
+#def 13
+#prec 10
+#prot 0
+#size 2
+#mr 14
+#mor 18
+#enc 0
+#mapmove 20
+#ap 24
+#eyes 0
+#weapon "Fire Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#mountedhumanoid
+#holy
+#unique
+#undead
+#mounted
+#blind
+#stealthy 30
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#uwdamage 100
+#domimmortal
+#fear 15
+#curseluckshield 3
+#deathcurse
+#invulnerable 15
+#damagerev 2
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#siegebonus 15
+#shapechange 3828
+#superioreader
+#superiorundeadleader
+#taskmaster 2
+#magicskill 5 5
+#magicskill 3 3
+#magicskill 7 2
+#sorceryrange 1
+#end
+
+#newmonster 3828
+#name "Lord of the Nazgûl"
+#fixedname " " 
+#descr "TBD"
+#hp 12
+#str 1
+#att 0
+#def 0
+#prec 0
+#prot 0
+#size 2
+#mr 12
+#mor 10
+#enc 0
+#mapmove 14
+#ap 14
+#eyes 0
+#weapon -1
+#miscshape
+#holy
+#unique
+#undead
+#blind
+#stealthy 30
+#spy
+#maxage 2000
+#woundfend 99
+#ethereal
+#coldres 5
+#uwdamage 100
+#domimmortal
+#fear 15
+#invisible
+#spiritsight
+#spreaddom 1
+#neednoteat
+#shapechange 3826
 #noleader
 #end
