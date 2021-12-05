@@ -1177,4 +1177,43 @@ newmonster 3822
 #drawsize 10
 #end
 
+#newmonster 3830
+#name "Daughter of Ungoliant"
+#fixedname "Shelob"
+#descr "TBD"
+#hp 80
+#str 17
+#att 12
+#def 12
+#prec 11
+#prot 20
+#size 6
+#mr 13
+#mor 17
+#enc 2
+#mapmove 0
+#ap 26
+#eyes 8
+#weapon "Beak"
+#weapon 629
+#lizard
+#female
+#unique
+#unteleportable
+#mountainsurvival
+#stealthy 10
+#assassin
+#patience 3
+#startage 1500
+#maxage 3000
+#fireres -10
+#poisonres 25
+#fear 5
+#darkpower 3
+#darkvision 100
+#popkill 5
+#patrolbonus 20
+#makemonsters2 884
+#noleader
+#end
 
