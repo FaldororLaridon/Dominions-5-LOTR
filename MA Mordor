@@ -669,3 +669,50 @@ Blacklock Lord
 #magicskill 8 1
 #end
 
+#newmonster 3717
+#name "Blacklock Lord"
+#descr "TBD"
+#rcost 2
+#gcost 10035
+#rpcost 2
+#hp 13
+#str 12
+#att 12
+#def 10
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 13
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Axe"
+#armor "Dwarf-Mail Hauberk"
+#armor "Khazad Half Helm"
+#armor "Khazad Round Shield"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#fear 5
+#addupkeep 5
+#reinvigoration 2
+#darkvision 50
+#castledef 1
+#nametype 174
+#goodleader
+#supplybonus -1
+#formationfighter -3
+#drawsize 10
+#end
+
+#newmonster 3718
+#name "Vampire"
+#descr "TBD"
+#rcost 1
+#gcost 10025
+#rpcost 2
+#
+
