@@ -850,8 +850,8 @@ Blacklock Lord
 #end
 
 newmonster 3822
-#name "Khamûl"
-#fixedname "Shadow of the East"
+#name "Shadow of the East"
+#fixedname "Khamûl"
 #descr "TBD"
 #hp 10
 #str 11
@@ -870,11 +870,13 @@ newmonster 3822
 #weapon "Black Breath"
 #armor "Chain Mail Hauberk"
 #humanoid
+#unique
 #holy
 #undead
 #blind
 #stealthy 30
 #assassin
+#patience 1
 #maxage 2000
 #woundfend 10
 #ethereal
@@ -896,4 +898,91 @@ newmonster 3822
 #taskmaster 2
 #magicskill 5 4
 #magicboost 5 1
+#end
+
+#newmonster 3823
+#name "Shadow of the East"
+#fixedname "Khamûl"
+#descr "TBD"
+#hp 10
+#str 11
+#att 11
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 0
+#mapmove 20
+#ap 24
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#mountedhumanoid
+#holy
+#undead
+#mounted
+#blind
+#stealthy 30
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#patrolbonus 10
+#neednoteat
+#shapechange 3824
+#expertleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 4
+#magicboost 5 1
+#end
+
+#newmonster 3825
+#name "Shadow of the East"
+#fixedname "Khamûl"
+#descr "TBD"
+#hp 10
+#str 1
+#att 0
+#def 0
+#prec 0
+#prot 0
+#size 2
+#mr 12
+#mor 10
+#enc 0
+#mapmove 14
+#ap 14
+#eyes 0
+#weapon -1
+#miscshape
+#holy
+#undead
+#blind
+#stealthy 30
+#spy
+#maxage 2000
+#woundfend 99
+#ethereal
+#coldres 5
+#domimmortal
+#fear 15
+#invisible
+#spiritsight
+#spreaddom 1
+#neednoteat
+#shapechange 3794
+#noleader
 #end
