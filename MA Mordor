@@ -262,7 +262,7 @@ Blacklock Lord
 #nametype 100
 #end
 
-#newmonster 3705
+#newmonster 3805
 #name "Haradrim Horseman"
 #descr "TBD"
 #rcost 12
@@ -294,7 +294,7 @@ Blacklock Lord
 #nametype 100
 #end
 
-#newmonster 3706
+#newmonster 3806
 #name "Blacklock Soldier"
 #descr "TBD"
 #rcost 2
@@ -331,7 +331,7 @@ Blacklock Lord
 #drawsize 10
 #end
 
-#newmonster 3707
+#newmonster 3807
 #name "Easterling Chariot"
 #descr "TBD"
 #rcost 8
@@ -362,7 +362,7 @@ Blacklock Lord
 #nametype 173
 #end
 
-#newmonster 3708
+#newmonster 3808
 #name "Barad-Dur Guard"
 #descr "TBD"
 #rcost 1
@@ -397,7 +397,7 @@ Blacklock Lord
 #bodyguard 1
 #end
 
-#newmonster 3709
+#newmonster 3809
 #name "Great Orc"
 #descr "TBD"
 #rcost 1
@@ -430,7 +430,7 @@ Blacklock Lord
 #nametype 170
 #end
 
-#newmonster 3710
+#newmonster 3810
 #name "Hound of Sauron"
 #descr "TBD"
 #rcost 1
@@ -465,7 +465,7 @@ Blacklock Lord
 #nametype 144
 #end
 
-#newmonster 3711
+#newmonster 3811
 #name "Mordor Orc Captain"
 #descr "TBD"
 #rcost 1
@@ -504,7 +504,7 @@ Blacklock Lord
 #taskmaster 2
 #end
 
-#newmonster 3712
+#newmonster 3812
 #name " Mordor Orc Sorcerer"
 #descr "TBD"
 #rcost 1
@@ -541,7 +541,7 @@ Blacklock Lord
 #researchbonus -3
 #end
 
-#newmonster 3713
+#newmonster 3813
 #name "Haradrim Chieftain"
 #descr "TBD"
 #rcost 12
@@ -574,7 +574,7 @@ Blacklock Lord
 #goodleader
 #end
 
-#newmonster 3714
+#newmonster 3814
 #name "Haradrim priest"
 #descr "TBD"
 #rcost 1
@@ -605,7 +605,7 @@ Blacklock Lord
 #magicskill 7 2
 #end
 
-#newmonster 3715
+#newmonster 3815
 #name "Easterling Sorcerer"
 #descr "TBD"
 #reqlab
@@ -637,7 +637,7 @@ Blacklock Lord
 #custommagic 20608 10
 #end
 
-#newmonster 3716
+#newmonster 3816
 #name "Spy"
 #descr "TBD"
 #rcost 1
@@ -669,7 +669,7 @@ Blacklock Lord
 #magicskill 8 1
 #end
 
-#newmonster 3717
+#newmonster 3817
 #name "Blacklock Lord"
 #descr "TBD"
 #rcost 2
@@ -708,7 +708,7 @@ Blacklock Lord
 #drawsize 10
 #end
 
-#newmonster 3718
+#newmonster 3818
 #name "Vampire"
 #descr "TBD"
 #rcost 1
@@ -744,7 +744,7 @@ Blacklock Lord
 #noleader
 #end
 
-#newmonster 3719
+#newmonster 3819
 #name "Sorcerer of Barad-Dur"
 #descr "TBD"
 #reqlab
@@ -782,7 +782,7 @@ Blacklock Lord
 #custommagic 21632 200
 #end
 
-#newmonster 3720
+#newmonster 3820
 #name "Pack Leader"
 #descr "TBD"
 #rcost 1
@@ -820,7 +820,7 @@ Blacklock Lord
 #beastmaster 1
 #end
 
-#newmonster 3721
+#newmonster 3821
 #name "Black Numenorian Mason"
 #descr "TBD"
 #gcost 10000
@@ -848,3 +848,51 @@ Blacklock Lord
 #nametype 183
 #poorleader
 #end
+
+newmonster 3822
+#name "Khamûl"
+#fixedname "Shadow of the East"
+#descr "TBD"
+#hp 10
+#str 11
+#att 10
+#def 12
+#prec 8
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#humanoid
+#holy
+#undead
+#blind
+#stealthy 30
+#assassin
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 6
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#patrolbonus 10
+#shapechange 3823
+#goodleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 4
+#magicboost 5 1
