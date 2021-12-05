@@ -359,7 +359,7 @@ Blacklock Lord
 #nomovepen
 #maxage 60
 #trample
-#nametype 100
+#nametype 173
 #end
 
 #newmonster 3708
@@ -467,8 +467,8 @@ Blacklock Lord
 #name "Orc Captain"
 #descr "TBD"
 #rcost 1
-#gcost 10010
-#rpcost 10000
+#gcost 10005
+#rpcost 1
 #hp 9
 #str 13
 #att 8
@@ -505,4 +505,68 @@ Blacklock Lord
 #newmonster 3712
 #name "Orc Sorcerer"
 #descr "TBD"
+#rcost 1
+#gcost 10020
+#rpcost 2
+#hp 7
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Leather Cuirass"
+#humanoid
+#wastesurvival
+#maxage 300
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#incunrest 1
+#patrolbonus 1
+#nametype 170
+#slave
+#poorleader
+#magicskill 5 1
+#custommagic 20608 100
+#researchbonus -3
+#end
 
+#newmonster 3713
+#name "Haradrim Chieftain"
+#descr "TBD"
+#rcost 12
+#gcost 10020
+#rpcost 1
+#ressize 2
+#hp 10
+#str 12
+#att 12
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 13
+#enc 3
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Scimitar"
+#weapon 56
+#armor "Scale Mail Hauberk"
+#armor "Shield"
+#armor "Half Helmet"
+#mounted
+#mountedhumanoid
+#wastesurvival
+#maxage 70
+#nametype 100
+#end
