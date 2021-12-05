@@ -466,7 +466,7 @@ Blacklock Lord
 #end
 
 #newmonster 3711
-#name "Orc Captain"
+#name "Mordor Orc Captain"
 #descr "TBD"
 #rcost 1
 #gcost 10005
@@ -505,7 +505,7 @@ Blacklock Lord
 #end
 
 #newmonster 3712
-#name "Orc Sorcerer"
+#name " Mordor Orc Sorcerer"
 #descr "TBD"
 #rcost 1
 #gcost 10020
@@ -578,4 +578,94 @@ Blacklock Lord
 #name "Haradrim priest"
 #descr "TBD"
 #rcost 1
-#
+#gcost 10020
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Dagger"
+#armor "Robe"
+#humanoid
+#holy
+#wastesurvival
+#maxage 70
+#nametype 173
+#poorleader
+#magicskill 8 2
+#magicskill 7 2
+#end
+
+#newmonster 3715
+#name "Easterling Sorcerer"
+#descr "TBD"
+#reqlab
+#rcost 1
+#gcost 10015
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Furs"
+#humanoid
+#maxage 70
+#nametype 173
+#poorleader
+#magicskill 5 1
+#magicskill 0 1
+#custommagic 20608 100
+#custommagic 20608 10
+#end
+
+#newmonster 3716
+#name "Spy"
+#descr "TBD"
+#rcost 1
+#gcost 10020
+#rpcost 2
+#reqtemple
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#armor "Leather Cuirass"
+#armor "Leather Cap"
+#humanoid
+#maxage 70
+#spy
+#stealthy 20
+#nametype 173
+#okleader
+#magicskill 8 1
+#end
+
