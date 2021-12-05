@@ -253,7 +253,7 @@ Blacklock Lord
 #ap 12
 #eyes 2
 #weapon "Scimitar"
-#armor "Scale Mail Cuirass"
+#armor "Bronze Scale Cuirass"
 #armor "Iron Cap"
 #armor "Shield"
 #humanoid
@@ -284,7 +284,7 @@ Blacklock Lord
 #eyes 2
 #weapon "Scimitar"
 #weapon 56
-#armor "Scale Mail Hauberk"
+#armor "Bronze Scale Hauberk"
 #armor "Shield"
 #armor "Half Helmet"
 #mounted
@@ -403,6 +403,7 @@ Blacklock Lord
 #rcost 1
 #gcost 10015
 #rpcost 20000
+#reqtemple
 #hp 13
 #str 16
 #att 12
@@ -435,6 +436,7 @@ Blacklock Lord
 #rcost 1
 #gcost 20
 #rpcost 15
+#reqtemple
 #hp 28
 #str 16
 #att 13
@@ -561,7 +563,7 @@ Blacklock Lord
 #eyes 2
 #weapon "Scimitar"
 #weapon 56
-#armor "Scale Mail Hauberk"
+#armor "Bronze Scale Hauberk"
 #armor "Shield"
 #armor "Half Helmet"
 #mounted
@@ -569,4 +571,11 @@ Blacklock Lord
 #wastesurvival
 #maxage 70
 #nametype 100
+#goodleader
 #end
+
+#newmonster 3714
+#name "Haradrim priest"
+#descr "TBD"
+#rcost 1
+#
