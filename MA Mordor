@@ -714,5 +714,70 @@ Blacklock Lord
 #rcost 1
 #gcost 10025
 #rpcost 2
-#
+#hp 19
+#str 12
+#att 11
+#def 12
+#prec 5
+#prot 4
+#size 3
+#mr 15
+#mor 12
+#enc 2
+#mapmove 28
+#ap 3
+#eyes 2
+#weapon "Iron Talon"
+#weapon "Life Drain"
+#bird
+#animal
+#flying
+#stealthy 30
+#assassin
+#maxage 1000
+#darkvision 100
+#castledef 1
+#siegebonus 3
+#patrolbonus 10
+#neednoteat
+#nametype 172
+#noleader
+#end
 
+#newmonster 3719
+#name "Sorcerer of Barad-Dur"
+#descr "TBD"
+#reqlab
+#reqtemple
+#rcost 1
+#gcost 10020
+#rpcost 3
+#hp 12
+#str 12
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Dagger"
+#armor "Robes"
+#humanoid
+#holy
+#maxage 300
+#darkvision 50
+#fear 5
+#patrolbonus 1
+#nametype 183
+#goodleader
+#command 40
+#goodmagicleader
+#magicskill 8 2
+#custommagic 21632 200
+#custommagic 21632 200
+#end
