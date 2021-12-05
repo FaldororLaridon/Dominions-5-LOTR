@@ -819,3 +819,32 @@ Blacklock Lord
 #okleader
 #beastmaster 1
 #end
+
+#newmonster 3721
+#name "Black Numenorian Mason"
+#descr "TBD"
+#gcost 10000
+#rcost 52
+#rpcost 2
+#hp 13
+#str 12
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 15
+#mor 12
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Fist"
+#humanoid
+#maxage 300
+#darkvision 50
+#siegebonus 20
+#mason
+#nametype 183
+#poorleader
+#end
