@@ -781,3 +781,41 @@ Blacklock Lord
 #custommagic 21632 200
 #custommagic 21632 200
 #end
+
+#newmonster 3720
+#name "Pack Leader"
+#descr "TBD"
+#rcost 1
+#gcost 20
+#rpcost 1
+#reqtemple
+#hp 30
+#str 18
+#att 13
+#def 11
+#prec 5
+#prot 6
+#size 3
+#mr 15
+#mor 14
+#enc 2
+#mapmove 20
+#ap 26
+#eyes 2
+#weapon 223
+#quadruped
+#holy
+#animal
+#snow
+#forestsurvival
+#stealthy 10
+#maxage 1000
+#falsearmy 1
+#coldres 5
+#poisonres 5
+#darkvision 100
+#patrolbonus 10
+#nametype 144
+#okleader
+#beastmaster 1
+#end
