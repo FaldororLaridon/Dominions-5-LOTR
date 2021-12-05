@@ -891,8 +891,9 @@ newmonster 3822
 #neednoteat
 #patrolbonus 10
 #shapechange 3823
-#goodleader
+#expertleader
 #goodundeadleader
 #taskmaster 2
 #magicskill 5 4
 #magicboost 5 1
+#end
