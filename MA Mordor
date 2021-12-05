@@ -690,7 +690,7 @@ Blacklock Lord
 #eyes 2
 #weapon "Axe"
 #armor "Dwarf-Mail Hauberk"
-#armor "Khazad Half Helm"
+#armor "Khazad Full Helm"
 #armor "Khazad Round Shield"
 #humanoid
 #mountainsurvival
@@ -1141,3 +1141,40 @@ newmonster 3822
 #shapechange 3826
 #noleader
 #end
+
+#newmonster 3829
+#name "Blacklock King"
+#fixedname "Narâg-Zirak"
+#descr "TBD"
+#hp 14
+#str 13
+#att 13
+#def 11
+#prec 8
+#prot 0
+#size 1
+#mr 15
+#mor 14
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Battleaxe"
+#armor "Full Khazad-Mail"
+#armor "Khazad Full Helm"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 25
+#fear 5
+#reinvigoration 3
+#darkvision 50
+#siegebonus 10
+#nametype 174
+#expertleader
+#supplybonus -1
+#formationfighter -3
+#drawsize 10
+#end
+
+
