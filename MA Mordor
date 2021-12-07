@@ -32,6 +32,8 @@ spy (stealthy priest, 40 leadership)
 Sorcerer of Barad-Dur
 Blacklock Lord
 
+
+
 #newarmor 326
 #name "Full Orc-Mail"
 #type 5
@@ -1218,42 +1220,88 @@ newmonster 3822
 #end
 
 #newmonster 3831
-#name "Gul Guard"
-#fixedname "Draughan"
+#name "Dark Lord"
+#fixedname "Sauron"
 #descr "TBD"
-
-#hp 30
-#str 23
-#att 13
-#prec 5
+#pathcost 60
+#startdom 3
+#gcost 240
+#hp 60
+#str 20
+#att 14
+#def 15
 #prot 6
-#size 4
-#mr 15
-#mor 17
-#enc 2
-#mapmove 20
-#ap 28
+#prec 11
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 16
 #eyes 2
-#weapon 223
-#weapon 29
-#armor "Werewolf Plate Harness"
-#quadruped
-#holy
-#animal
-#snow
-#forestsurvival
-#maxage 1000
-#darkvision 100
-#corpseeater 1
-#deadhp 1
-#coldres 5
-#poisonres 5
+#weapon "Mace"
+#weapon "Flaming Fist"
+#armor "Plate Hauberk"
+#armor  "Full Helmet"
+#humanoid
+#unique
+#magicbeing
+#maxage 7000
 #fear 5
-#darkvision 100
-#patrolbonus 10
-#nametype 144
-#okleader
-#command 50
+#heat 3
+#fireres 20
+#spiritsight
+#cleanshape
+#shapechange 3832
+#expertleader
+#goodmagicleader
+#goodundeadleader
+#taskmaster 2
 #beastmaster 1
-#douse
+#magicskill 3 1
+#magicskill 5 1
+#magicskill 0 1
+#mastersmith 2
+#forgebonus 20
+#spellsinger
+#end
+
+#newmonster 3832
+#name "Lord of Gifts"
+#fixedname "Sauron"
+#descr "TBD"
+#hp 25
+#str 15
+#att 13
+#def 13
+#prot 0
+#prec 11
+#size 2
+#mr 18
+#mor 14
+#enc 3
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Fist"
+#armor "Robe"
+#humanoid
+#unique
+#magicbeing
+#spy
+#stealthy 50
+#maxage 7000
+#fireres 20
+#shapechange 3831
+#spiritsight
+#heretic 3
+#expertleader
+#goodmagicleader
+#goodundeadleader
+#magicskill 0 1
+#magicskill 3 1
+#magicskill 5 1
+#forgebonus 20
+#mastersmith 2
+#spellsinger
 #end
