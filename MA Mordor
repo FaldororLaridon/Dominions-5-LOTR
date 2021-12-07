@@ -1,37 +1,12 @@
-units:
+to-do:
 
-
-Orc Tracker
-Mordor Orc (spear)
-Mordor Orc (scimitar)
-Orc archer
-warg rider
-Haradrim warrior
-Dark Dwarf
-Haradrim Horseman
-Easterling archer
-Barad-dur Guard
-Great Orc
-Werewolf
-
-(coast)
-
-Black Numenorian
-
-commanders:
-
-Orc captain
-Orc sorcerer
-Haradrim chieftain
-Easterling sorcerer (fire, blood, death)
-Blak Numenorian Captain
-Black Numenorian Sorcerer
-Vampite
-Haradrim priest (blood, 2priest)
-spy (stealthy priest, 40 leadership)
-Sorcerer of Barad-Dur
-Blacklock Lord
-
+make Morgul Knife
+make One Ring
+Make "Gift of Rings" spell
+Make "Day without Dawn" spell
+Make Herumor and Fuinur Heroes
+Make Barrow-Wights and associated summoning spell?
+Make nation
 
 
 #newarmor 326
@@ -365,7 +340,7 @@ Blacklock Lord
 #end
 
 #newmonster 3808
-#name "Barad-Dur Guard"
+#name "Barad-dûr Guard"
 #descr "TBD"
 #rcost 1
 #gcost 10010
@@ -747,7 +722,7 @@ Blacklock Lord
 #end
 
 #newmonster 3819
-#name "Sorcerer of Barad-Dur"
+#name "Sorcerer of Barad-dûr"
 #descr "TBD"
 #reqlab
 #reqtemple
@@ -1305,3 +1280,33 @@ newmonster 3822
 #mastersmith 2
 #spellsinger
 #end
+
+#newsite
+#name "Barad-dûr"
+#path 3
+#loc 16384
+#gems 7 2
+#gems 0 1
+#level 0
+#rarity 5
+#decunrest 15
+#homemon "Barad-dûr Guard"
+#homemon "Hound of Sauron"
+#homemon "Great Orc"
+#homecom "Sorcerer of Barad-dûr"
+#wallunit "Barad-dûr Guard"
+#wallmult 2
+#end
+
+#newsite
+#name "Orodruin"
+#path 0
+#loc 16384
+#rarity 5
+#level 0
+#gems 0 3
+#gems 3 2
+#constcost 15
+#end
+
+#
