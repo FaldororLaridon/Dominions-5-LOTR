@@ -1,7 +1,5 @@
 to-do:
 
-
-Make "Day without Dawn" spell
 Make Barrow-Wights and associated summoning spell?
 Make nation
 
@@ -890,6 +888,8 @@ newmonster 3822
 #taskmaster 2
 #magicskill 5 4
 #magicboost 5 1
+#allrange 1
+#reinvigoration 2
 #end
 
 #newmonster 3823
@@ -941,6 +941,8 @@ newmonster 3822
 #taskmaster 2
 #magicskill 5 4
 #magicboost 5 1
+#allrange 1
+#reinvigoration 2
 #end
 
 #newmonster 3825
@@ -1000,7 +1002,7 @@ newmonster 3822
 #mapmove 12
 #ap 10
 #eyes 0
-#weapon "Broad Sword"
+#weapon "Flaming Sword"
 #weapon "Black Breath"
 #armor "Chain Mail Hauberk"
 #humanoid
@@ -1036,6 +1038,7 @@ newmonster 3822
 #magicskill 3 3
 #magicskill 7 2
 #sorceryrange 1
+#reinvigoration 2
 #end
 
 #newmonster 3827
@@ -1091,6 +1094,7 @@ newmonster 3822
 #magicskill 3 3
 #magicskill 7 2
 #sorceryrange 1
+#reinvigoration 2
 #end
 
 #newmonster 3828
@@ -1447,4 +1451,15 @@ newmonster 3822
 #onlyatsite "Orodruin"
 #restricted "Mordor"
 #end
+
+#newspell 
+#name "A Gift of Rings"
+#descr "TBD"
+#school 3
+#researchlevel 7
+#path 0 3
+#pathlevel 5
+#fatiguecost 90
+#
+
 
