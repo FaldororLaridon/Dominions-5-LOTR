@@ -4,9 +4,25 @@ make Morgul Knife
 make One Ring
 Make "Gift of Rings" spell
 Make "Day without Dawn" spell
-Make Herumor and Fuinur Heroes
 Make Barrow-Wights and associated summoning spell?
 Make nation
+
+#newweapon 886
+#name "Morgul-knife"
+#dmg 6
+#nratt 1
+#att 2
+#def 1
+#len 1
+#sound 7
+#dt_raise
+#magic
+#pierce
+#armorpiercing
+#undeadimmune
+#hardmrnegates
+#ironweapon
+#end
 
 
 #newarmor 326
@@ -231,7 +247,7 @@ Make nation
 #eyes 2
 #weapon "Scimitar"
 #armor "Bronze Scale Cuirass"
-#armor "Iron Cap"
+#armor "Bronze Cap"
 #armor "Shield"
 #humanoid
 #wastesurvival
@@ -1377,4 +1393,43 @@ newmonster 3822
 #expertleader
 #command 30
 #drawsize 1
+#end
+
+#newitem
+#name "Morgul-knife"
+#descr "TBD"
+#constlevel 4
+#mainpath 5
+#mainlevel 4
+#type 1
+#weapon 886
+#restricted "Mordor"
+#onlyundead
+#raiseshape 556
+#end
+
+#newitem
+#name "Ruling Ring"
+#descr "TBD"
+#constlevel 6
+#mainpath 0
+#mainlevel 7
+#secondarypath 3
+#secondarylevel 4
+#type 8
+#unique
+#magicboost 0 2
+#magicboost 1 2
+#magicboost 2 2
+#magicboost 3 2
+#magicboost 4 2
+#magicboost 5 2
+#magicboost 6 2
+#magicboost 7 2
+#command 60
+#inspirational 2
+#stealthboost 100
+#noaging 70
+#spiritsight
+#cursed
 #end
