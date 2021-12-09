@@ -1309,4 +1309,72 @@ newmonster 3822
 #constcost 15
 #end
 
-#
+#newmonster 3833
+#name "Black Lord"
+#fixedname "Herumor"
+#descr "TBD"
+#hp 17
+#str 14
+#att 14
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 14
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Greatsword of Westernesse"
+#armor "Full Chain Mail"
+#armor "Full Helmet"
+#humanoid
+#sailing 999 2
+#farsail 1
+#fear 5
+#darkvision
+#maxage 350
+#patrolbonus 1
+#nametype 183
+#woundfend 1
+#expertleader
+#command 30
+#drawsize 1
+#end
+
+#newmonster 2834
+#name "Dark Knight"
+#fixedname "Fuinur"
+#descr "TBD"
+#hp 17
+#str 16
+#att 14
+#def 13
+#prec 11
+#prot 0
+#size 3
+#mr 12
+#mor 14
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Blade of Westernesse"
+#armor "Full Chain Mail"
+#armor "Full Helmet"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#sailing 999 3
+#farsail 1
+#fear 5
+#darkvision
+#maxage 350
+#patrolbonus 1
+#nametype 183
+#woundfend 1
+#expertleader
+#command 30
+#drawsize 1
+#end
