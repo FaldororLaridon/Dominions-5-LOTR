@@ -1,8 +1,6 @@
 to-do:
 
-make Morgul Knife
-make One Ring
-Make "Gift of Rings" spell
+
 Make "Day without Dawn" spell
 Make Barrow-Wights and associated summoning spell?
 Make nation
@@ -1418,6 +1416,8 @@ newmonster 3822
 #secondarylevel 4
 #type 8
 #unique
+#pen 2
+#defbonus 4
 #magicboost 0 2
 #magicboost 1 2
 #magicboost 2 2
@@ -1432,4 +1432,19 @@ newmonster 3822
 #noaging 70
 #spiritsight
 #cursed
+#allrange 1
 #end
+
+#newspell
+#copyspell "Dark Skies"
+#name "Day Without Dawn"
+#descr "TBD"
+#school 5
+#researchlevel 6
+#path 0 0
+#pathlevel 5
+#fatiguecost 50
+#onlyatsite "Orodruin"
+#restricted "Mordor"
+#end
+
