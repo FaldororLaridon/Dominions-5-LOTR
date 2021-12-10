@@ -756,6 +756,7 @@ Make nation
 #eyes 2
 #weapon "Dagger"
 #armor "Robes"
+#armor "Crown"
 #humanoid
 #holy
 #maxage 300
