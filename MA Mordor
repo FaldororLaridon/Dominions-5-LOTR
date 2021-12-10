@@ -564,7 +564,7 @@ Make nation
 #end
 
 #newmonster 3814
-#name "Haradrim priest"
+#name "Haradrim Priest"
 #descr "TBD"
 #rcost 1
 #gcost 10020
@@ -773,7 +773,7 @@ Make nation
 #end
 
 #newmonster 3820
-#name "Pack Leader"
+#name "Mordor Pack Leader"
 #descr "TBD"
 #rcost 1
 #gcost 20
@@ -1305,13 +1305,15 @@ newmonster 3822
 #path 3
 #loc 16384
 #gems 7 2
-#gems 0 1
+#gems 5 2
 #level 0
 #rarity 5
 #decunrest 15
 #homemon "Barad-dûr Guard"
 #homemon "Hound of Sauron"
 #homemon "Great Orc"
+#homecom 3818
+#homecom "Mordor Pack Leader"
 #homecom "Sorcerer of Barad-dûr"
 #wallunit "Barad-dûr Guard"
 #wallmult 2
@@ -1464,3 +1466,123 @@ newmonster 3822
 #
 
 
+
+#newnation
+#name "Mordor"
+#epithet "Land of Shadow"
+#era 2
+#descr "TBD"
+#summary "TBD"
+#brief "A nation of Orcs, evil Men and Dwarves working with the dark remnants of a bygone age to cover the world in darkness."
+#startsite "Orodruin"
+#startsite "Barad-dûr"
+#hatesterr 2
+#aifirenation
+#aicheapholy
+#startcom "Mordor Orc Captain"
+#startscout "Haradrim Priest"
+#coastunit "Black Numenorian"
+#coastcom "Black Numenorian Mason"
+#coastcom "Nâlubalak"
+#coastcom "Nâluzigûr"
+#startunittype1 3800
+#starunitnbrs1 20
+#startunittype2 "Mordor Orc Archer"
+#startunitnbrs2 20
+#addrecunit 3799
+#addrecunit 3800
+#addrecunit "Mordor Orc Tracker"
+#addrecunit "Mordor Orc Archer"
+#addrecunit "Mordor Warg Rider"
+#addrecunit "Haradrim Warrior"
+#addrecunit "Haradrim Horseman"
+#addrecunit "Blacklock Soldier"
+#addrecunit "Easterling Chariot"
+#addreccom "Mordor Orc Captain"
+#addreccom "Mordor Orc Sorcerer"
+#addreccom "Haradrim Chieftain"
+#addreccom "Haradrim Priest"
+#addreccom "Easterling Sorcerer"
+#addreccom "Blacklock Lord"
+#addreccom 3816
+#hero1 "Fuinur"
+#hero2 "Herumor"
+#hero3 "Narâg-Zirak""
+#defcom1 "Mordor Orc Captain"
+#defcom2 "Easterling Sorcerer"
+#defunit1 3800
+#defunit1b "Mordor Orc Archer"
+#defunit2 3799
+#defunit 2b "Haradrim Warrior"
+#defmult1 20
+#defmult1b 20
+#defmult2 20
+#defmult2b 10
+#wallcom "Mordor Orc Captain"
+#wallunit "Mordor Orc Archer"
+#wallmult 15
+#addgod "Devourer of Light"
+#addgod "Black Dragon"
+#addgod "Dark Lord"
+#addgod "Great Black Bull"
+#addgod "Destroyer of Worlds"
+#addgod "Lord of the Summer Plague"
+#addgod "Son of Fenrer"
+#addgod "Colossal Fetish"
+#addgod "Devourer of Souls"
+#addgod "Fomorian God King"
+#addgod "Son of the Fallen"
+#addgod "Oni Kunshu"
+#addgod "Teteo Inan"
+#addgod "Annunaki of the Underworld"
+#addgod "Teotl of War"
+#addgod "Teotl of the Underworld"
+#addgod "Idol of Sorcery"
+#addgod "Golden Idol"
+#addgod "Statue of War"
+#addgod "Azi"
+#addgod "Angra Mainyu"
+#addgod "Hun Came"
+#addgod "Bolon-ti-ku"
+#addgod "Hun Balam"
+#addgod "Man-Eater"
+#addgod "Myrmecoleon"
+#addgod "Serpent of Chaos"
+#addgod "Hound of Hades"
+#addgod "Svartalf Mastersmith"
+#addgod "Telkhine God-King"
+#addgod "Bronze Colossus"
+#addgod "Moloch"
+#addgod "Gorgon"
+#addgod "Mother of Monsters"
+#addgod "Master Lich"
+#addgod "Demilich"
+#addgod "Freak Lord"
+#addgod "Crone"
+#addgod "Saurolich"
+#addgod "Prince of Death"
+#addgod "Neter of Chaos"
+#addgod "Lich Queen"
+#addgod "Bitch Queen"
+#addgod "Great Warlock"
+#addgod "Skratti"
+#addgod "Teotl of Rain"
+#addgod "Teotl of the Night"
+#addgod "Son of Niefel"
+#addgod "Baphomet"
+#addgod "Bog Mummy"
+#addgod "Dracolich"
+#addgod "Void Lord"
+#addgod "Fountain of Blood"
+#addgod "Smoking Mirror"
+#addgod "Vampire Queen"
+#addgod "Colossal Head"
+#addgod "Firstborn of the Smokeless Flame"
+
+#cheapgod 40 "Dark Lord"
+#cheapgod20 "Devourer of Light"
+#fortera 1
+#templepic 14
+#homefort 4
+#sacrificedom
+#end
