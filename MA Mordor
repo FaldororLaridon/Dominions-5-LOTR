@@ -1215,7 +1215,7 @@ newmonster 3822
 
 #newmonster 3831
 #name "Dark Lord"
-#fixedname "Sauron"
+#fixedname "King of Men"
 #descr "TBD"
 #pathcost 60
 #startdom 3
@@ -1235,7 +1235,7 @@ newmonster 3822
 #eyes 2
 #weapon "Mace"
 #weapon "Flaming Fist"
-#armor "Plate Hauberk"
+#armor "Full Plate"
 #armor  "Full Helmet"
 #humanoid
 #unique
