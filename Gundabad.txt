@@ -91,7 +91,7 @@
 #rcost 1
 #gcost 10
 #rpcost 14
-#resize 1
+#ressize 1
 #hp 7
 #str 10
 #att 8
