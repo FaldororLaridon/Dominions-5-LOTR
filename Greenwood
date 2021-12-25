@@ -38,6 +38,7 @@
 #humanoid
 #stealthy 20
 #swimming
+#forestsurvival
 #maxage 3000
 #diseaseres 100
 #slothpower 1
@@ -70,6 +71,7 @@
 #armor "Buckler"
 #humanoid
 #stealthy 20
+#forestsurvival
 #swimming
 #maxage 3000
 #diseaseres 100
@@ -107,6 +109,7 @@
 #mounted
 #stealthy 20
 #swimming
+#forestsurvival
 #maxage 3000
 #diseaseres 100
 #slothpower 1
@@ -140,6 +143,7 @@
 #humanoid
 #stealthy 20
 #swimming
+#forestsurvival
 #maxage 3000
 #diseaseres 100
 #castledef 1
@@ -175,6 +179,7 @@
 #lanceok
 #stealthy 20
 #swimming
+#forestsurvival
 #maxage 3000
 #diseaseres 100
 #blessbers
@@ -209,6 +214,7 @@
 #humanoid
 #stealthy 10
 #swimming
+#forestsurvival
 #maxage 3000
 #diseaseres 100
 #darkvision 50
@@ -230,7 +236,7 @@
 #att 12
 #def 11
 #prec 12
-#size 2
+#size 3
 #mr 12
 #mor 11
 #enc 3
@@ -246,10 +252,66 @@
 #mounted
 #stealthy 10
 #swimming
+#forestsurvival
 #maxage 3000
 #diseaseres 100
 #darkvision 50
 #patrolbonus 2
 #nametype 177
 #drawsize 3
+#end
+
+#newmonster 3892
+#name "Woodsman"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 10
+#hp 11
+#str 10
+#att 10
+#def 10
+#prec 10
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"
+#armor "Leather Hauberk"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 70
+#namelist 100
+#end
+
+#newmonster 3893
+#name "Woodsman"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 10
+#hp 11
+#str 10
+#att 10
+#def 10
+#prec 10
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Longbow"
+#weapon "Axe"
+#armor "Leather Hauberk"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 70
+#namelist 100
 #end
