@@ -13,3 +13,36 @@
 #charge
 #end
 
+#newmonster 3835
+#name "Silvan Hunter"
+#descr "TBD"
+#rcost 1
+#gcost 11
+#rpcost 11000
+#hp 13
+#str 10
+#att 10
+#def 11
+#prec 12
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Short Bow"
+#weapon "Dagger"
+#armor "Leather Cuirass"
+#armor "Leather Cap"
+#humanoid
+#stealthy 20
+#swimming
+#maxage 3000
+#diseaseres 100
+#slothpower 1
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#drawsize 3
+#end
