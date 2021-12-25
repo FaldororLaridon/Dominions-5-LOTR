@@ -67,7 +67,7 @@
 #weapon "Spear"
 #armor "Leather Hauberk"
 #armor "Leather Cap"
-#armor "Shield"
+#armor "Buckler"
 #humanoid
 #stealthy 20
 #swimming
@@ -91,7 +91,7 @@
 #att 10
 #def 11
 #prec 12
-#size 2
+#size 3
 #mr 12
 #mor 10
 #enc 3
@@ -102,6 +102,7 @@
 #weapon "Short Bow"
 #armor "Leather Hauberk"
 #armor "Leather Cap"
+#armor "Buckler"
 #mountedhumanoid
 #mounted
 #stealthy 20
@@ -181,4 +182,74 @@
 #darkvision 50
 #patrolbonus 1
 #nametype 177
+#end
+
+#newmonster 3890
+#name "Noble Guard"
+#descr "TBD"
+#rcost 1
+#gcost 16
+#rpcost 13
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 12
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Crested Helmet"
+#armor "Shield"
+#humanoid
+#stealthy 10
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#bodyguard 1
+#nametype 177
+#drawsize 3
+#end
+
+#newmonster 3891
+#name "Royal Huntsman"
+#descr "TBD"
+#rcost 1
+#gcost 28
+#rpcost 30
+#ressize 2
+#hp 13
+#str 12
+#att 12
+#def 11
+#prec 12
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 20
+#ap 25
+#eyes 2
+#weapon "Spear"
+#weapon "Short Bow"
+#armor "Chain Mail Cuirass"
+#armor "Crested Helmet"
+#armor "Buckler"
+#mountedhumanoid
+#mounted
+#stealthy 10
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 2
+#nametype 177
+#drawsize 3
 #end
