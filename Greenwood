@@ -438,7 +438,7 @@
 #def 11
 #prec 11
 #size 2
-#mr 12
+#mr 14
 #mor 10
 #enc 3
 #mapmove 16
@@ -458,8 +458,47 @@
 #patrolbonus 1
 #nametype 177
 #poorleader
-#spellsinger
 #magicskill 8 1
 #magicskill 4 1
-#custommagicpath 2048
+#custommagicpath 2048 20
+#spellsinger
 #end
+
+#newmonster 3858
+#name "Lady of the Greenwood"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#labreq
+#hp 12
+#str 10
+#att 10
+#def 10
+#prec 11
+#size 2
+#mr 14
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Dagger"
+#armor "Leather Cuirass"
+#humanoid
+#holy
+#stealthy 20
+#swimming
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#autohealer 1
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#poorleader
+#magicskill 6 2
+#custommagicpath 10240 20
+#spellsinger
+#end
+
