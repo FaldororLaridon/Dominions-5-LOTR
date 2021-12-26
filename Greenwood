@@ -315,3 +315,151 @@
 #maxage 70
 #namelist 100
 #end
+
+#newmonster 3894
+#name "Greenwood Scout"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 13
+#str 10
+#att 10
+#def 11
+#prec 12
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Short Bow"
+#weapon "Dagger"
+#armor "Leather Cuirass"
+#armor "Leather Cap"
+#humanoid
+#stealthy 20
+#swimming
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#noleader
+#spellsinger
+#end
+
+#newmonster 3895
+#name "Hunter-Captain"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 1
+#hp 14
+#str 12
+#att 11
+#def 11
+#prec 12
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Spear"
+#weapon "Short Bow"
+#armor "Leather Hauberk"
+#armor "Leather Cap"
+#humanoid
+#stealthy 20
+#swimming
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 5
+#nametype 177
+#okleader
+#spellsinger
+#end
+
+#newmonster 3856
+#name "Greenwood Guardian"
+#descr "TBD"
+#rcost 1
+#gcost 10012
+#rpcost 2
+#reqlab
+#hp 14
+#str 12
+#att 11
+#def 11
+#prec 12
+#size 2
+#mr 14
+#mor 11
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Spear"
+#armor "Leather Hauberk"
+#armor "Crested Helmet"
+#armor "Buckler"
+#humanoid
+#stealthy 20
+#swimming
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#okleader
+#magicskill 6 1
+#custommagicpath 10752 10
+#spellsinger
+#end
+
+#newmonster 3857
+#name "Starwatcher"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 2
+#reqlab
+#reqtemple
+#hp 13
+#str 10
+#att 10
+#def 11
+#prec 11
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Dagger"
+#armor "Leather Cuirass"
+#armor "Leather Cap"
+#humanoid
+#holy
+#stealthy 20
+#swimming
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#poorleader
+#spellsinger
+#magicskill 8 1
+#magicskill 4 1
+#custommagicpath 2048
+#end
