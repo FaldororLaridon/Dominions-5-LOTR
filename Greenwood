@@ -164,7 +164,7 @@ Greenwood Lord
 #gcost 10010
 #rpcost 13000
 #hp 13
-#str 11
+#str 12
 #att 11
 #def 13
 #prec 11
@@ -535,6 +535,7 @@ Greenwood Lord
 #armor "Leather Cap"
 #humanoid
 #swimming
+#forestsurvival
 #stealthy
 #sailing 999 3
 #maxage 3000
@@ -569,13 +570,14 @@ Greenwood Lord
 #mapmove 16
 #ap 13
 #eyes 2
-#weapon "Elvish Blade"
+#weapon "Broad Sword"
 #armor "Chain Mail Hauberk"
 #armor "Crested Helmet"
 #armor "Shield"
 #humanoid
 #holy
 #stealthy 10
+#forestsurvival
 #sailing 999 3
 #swimming
 #maxage 3000
@@ -586,6 +588,7 @@ Greenwood Lord
 #goodleader
 #magicskill 6 2
 #magicskill 2 2
+#magicskill 8 1
 #custommagic  8704 100
 #custommagic 8704 20
 #spellsinger
@@ -652,6 +655,7 @@ Greenwood Lord
 #armor "Leather Cap"
 #humanoid
 #swimming
+#forestsurvival
 #stealthy
 #sailing 999 3
 #maxage 3000
@@ -698,4 +702,76 @@ Greenwood Lord
 #newmonster 3864
 #name "King of Greenwood"
 #fixedname "Oropher"
+#descr "TBD"
+#hp 17
+#str 14
+#att 13
+#def 14
+#prec 14
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 16
+#ap 15
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Crested Helmet"
+#armor "Shield"
+#humanoid
+#holy
+#stealthy 10
+#forestsurvival
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#goodleader
+#magicskill 6 4
+#magicskill 2 2
+#magicskill 8 2
+#spellsinger
+#drawsize 3
+#end
+
+#newmonster 3865 
+#name "Prince of the Greenwood"
+#fixedname "Thranduil"
+#descr "TBD"
+#hp 15
+#str 14
+#att 13
+#def 13
+#prec 13
+#size 2
+#mr 13
+#mor 15
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Spear"
+#weapon "Short Bow"
+#armor "Chain Mail Hauberk"
+#armor "Crested Helmet"
+#humanoid
+#holy
+#stealthy 10
+#forestsurvival
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#goodleader
+#magicskill 6 3
+#magicskill 2 3
+#magicskill 8 1
+#spellsinger
+#drawsize 3
+#end
 
