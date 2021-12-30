@@ -567,15 +567,16 @@ Greenwood Lord
 #mr 13
 #mor 13
 #enc 3
-#mapmove 16
-#ap 13
+#mapmove 20
+#ap 25
 #eyes 2
 #weapon "Broad Sword"
 #armor "Chain Mail Hauberk"
 #armor "Crested Helmet"
 #armor "Shield"
-#humanoid
+#mountedhumanoid
 #holy
+#mounted
 #stealthy 10
 #forestsurvival
 #sailing 999 3
@@ -660,12 +661,12 @@ Greenwood Lord
 #sailing 999 3
 #maxage 3000
 #diseaseres 100
+#batstartsum5 "Elven Fire"
 #darkvision 50
 #patrolbonus 1
 #nametype 177
 #poorleader
-#magicskill 0 1
-#magicskill 3 1
+#magicskill 0 2
 #spellsinger
 #drawsize 3
 #end
@@ -750,15 +751,17 @@ Greenwood Lord
 #mr 13
 #mor 15
 #enc 3
-#mapmove 16
-#ap 13
+#mapmove 20
+#ap 25
 #eyes 2
 #weapon "Spear"
 #weapon "Short Bow"
 #armor "Chain Mail Hauberk"
 #armor "Crested Helmet"
-#humanoid
+#armor "Buckler
+#mountedhumanoid
 #holy
+#mounted
 #stealthy 10
 #forestsurvival
 #swimming
@@ -774,4 +777,71 @@ Greenwood Lord
 #spellsinger
 #drawsize 3
 #end
+
+#newmonster 3866
+#name "Woodsman Chieftain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 12
+#str 11
+#att 10
+#def 10
+#prec 11
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Longbow"
+#weapon "Axe"
+#armor "Leather Hauberk"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 70
+#namelist 100
+#okleader
+#end
+
+#newsite 
+#name "Amon Lanc"
+#path 6
+#loc 16384
+#gems 6 2
+#level 0
+#rarity 5
+#homecom "Lord of the Greenwood"
+#end
+
+#newsite
+#name "Forest River"
+#path 2
+#loc 16384
+#gems 2 2
+#gems 6 1
+#level 0
+#rarity 5
+#end
+
+#newspell
+#name "Elven-fires"
+#descr "The Silvan elves have secrets of making fires that catch the eye, and can send people into a deep, dream-filled sleep. Most of these are used defensively to protect Greenwood from invaders, but some are brought along to aid the hosts of Greenwood in battle."
+#school 4
+#researchlevel 4
+#path 0 0
+#pathlevel 0 3
+#fatiguecost 800
+#damage 3863
+#effect 10001
+#nreff 5
+#onlymnr "Calenruist"
+#end
+
+#newnation
+#name "Greenwood"
+#epithet "
 
