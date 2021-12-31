@@ -193,7 +193,7 @@ Greenwood Lord
 #nametype 177
 #end
 
-#newmonster 3890
+#newmonster 3840
 #name "Noble Guard"
 #descr "TBD"
 #rcost 1
@@ -228,7 +228,7 @@ Greenwood Lord
 #drawsize 3
 #end
 
-#newmonster 3891
+#newmonster 3841
 #name "Royal Huntsman"
 #descr "TBD"
 #rcost 1
@@ -265,7 +265,7 @@ Greenwood Lord
 #drawsize 3
 #end
 
-#newmonster 3892
+#newmonster 3842
 #name "Woodsman"
 #descr "TBD"
 #rcost 1
@@ -292,7 +292,7 @@ Greenwood Lord
 #namelist 100
 #end
 
-#newmonster 3893
+#newmonster 3843
 #name "Woodsman"
 #descr "TBD"
 #rcost 1
@@ -320,7 +320,7 @@ Greenwood Lord
 #namelist 100
 #end
 
-#newmonster 3894
+#newmonster 3844
 #name "Greenwood Scout"
 #descr "TBD"
 #rcost 1
@@ -355,7 +355,7 @@ Greenwood Lord
 #spellsinger
 #end
 
-#newmonster 3895
+#newmonster 3845
 #name "Hunter-Captain"
 #descr "TBD"
 #rcost 1
@@ -390,7 +390,7 @@ Greenwood Lord
 #spellsinger
 #end
 
-#newmonster 3856
+#newmonster 3846
 #name "Greenwood Guardian"
 #descr "TBD"
 #rcost 1
@@ -426,9 +426,10 @@ Greenwood Lord
 #magicskill 6 1
 #custommagicpath 10752 10
 #spellsinger
+#slothresearch 2
 #end
 
-#newmonster 3857
+#newmonster 3847
 #name "Starwatcher"
 #descr "TBD"
 #rcost 1
@@ -452,7 +453,6 @@ Greenwood Lord
 #armor "Leather Cuirass"
 #armor "Leather Cap"
 #humanoid
-#female
 #holy
 #stealthy 20
 #swimming
@@ -467,9 +467,10 @@ Greenwood Lord
 #magicskill 4 1
 #custommagicpath 2048 20
 #spellsinger
+#slothresearch 3
 #end
 
-#newmonster 3858
+#newmonster 3848
 #name "Lady of the Greenwood"
 #descr "TBD"
 #rcost 1
@@ -509,9 +510,10 @@ Greenwood Lord
 #custommagicpath 10240 100
 #custommagicpath 10240 10
 #spellsinger
+#slothresearch 3
 #end
 
-#newmonster 3859
+#newmonster 3849
 #name "River-Master"
 #descr "TBD"
 #rcost 1
@@ -547,10 +549,11 @@ Greenwood Lord
 #magicskill 2 2
 #magicskill 6 1
 #spellsinger
+#slothresearch 2
 #drawsize 3
 #end
 
-#newmonster 3860
+#newmonster 3850
 #name "Lord of the Greenwood"
 #descr "TBD"
 #reqlab
@@ -593,10 +596,11 @@ Greenwood Lord
 #custommagic  8704 100
 #custommagic 8704 20
 #spellsinger
+#slothresearch 2
 #drawsize 3
 #end
 
-#newmonster 3861
+#newmonster 3851
 #name "Merrymaker"
 #descr "TBD"
 #rcost 1
@@ -632,7 +636,7 @@ Greenwood Lord
 #spellsinger
 #end
 
-#newmonster 3862
+#newmonster 3852
 #name "Calenruist"
 #descr "TBD"
 #rcost 1
@@ -668,10 +672,11 @@ Greenwood Lord
 #poorleader
 #magicskill 0 2
 #spellsinger
+#slothresearcher 3
 #drawsize 3
 #end
 
-#newmonster 3863
+#newmonster 3853
 #name "Elven Fire"
 #descr "TBD"
 #hp 3
@@ -700,7 +705,7 @@ Greenwood Lord
 #uwdamage 100
 #end
 
-#newmonster 3864
+#newmonster 3854
 #name "King of Greenwood"
 #fixedname "Oropher"
 #descr "TBD"
@@ -738,7 +743,7 @@ Greenwood Lord
 #drawsize 3
 #end
 
-#newmonster 3865 
+#newmonster 3855 
 #name "Prince of the Greenwood"
 #fixedname "Thranduil"
 #descr "TBD"
@@ -778,7 +783,7 @@ Greenwood Lord
 #drawsize 3
 #end
 
-#newmonster 3866
+#newmonster 3856
 #name "Woodsman Chieftain"
 #descr "TBD"
 #rcost 1
@@ -843,5 +848,86 @@ Greenwood Lord
 
 #newnation
 #name "Greenwood"
-#epithet "
+#epithet "Songs of Merriment"
+#era 2
+#descr "TBD"
+#brief "A nation of stealthy Sylvan Elves led by Sindar. The merry Sylvan elves do not like all work and no play, and they work much better in lands of sloth."
+#startsite "Amon Lanc"
+#startsite "Forest River"
+#likesterr 128
+#riverstart
+#hatesterr 64
+#ainaturenation
+#aicheapholy
+#startcom "Hunter-Captain"
+#addforeignunit 3842
+#addforeignunit 3843
+#addforeigncom "Woodsman Chieftain"
+#forestrec 3835
+#forestrec 3836
+#forestrec "Silvan Elf Hunter"
+#forestcom "Hunter-Captain"
+#forestcom "Greenwood Guardian"
+#startscout "Greenwood Scout"
+#startunittype1 3842
+#startunitnbrs1 20
+#startunittype2 3843
+#startunitnbrs2 20
+#addrecunit 3842
+#addrecunit 3843
+#addrecunit "Silvan Elf Hunter"
+#addrecunit "Greenwood Guard"
+#addrecunit "Limnaith"
+#addrecunit "Noble Guard"
+#addrecunit "Royal Huntsman"
+#addreccom "Greenwood Scout"
+#addreccom "Hunter-Captain"
+#addreccom "Greenwood Guardian"
+#addreccom "Starwatcher"
+#addreccom "Lady of the Greenwood"
+#addreccom "River-Master"
+#addreccom "Lord of the Greenwood"
+#addreccom "Merrymaker"
+#addreccom "Calenruist"
+#hero1 3854
+#hero2 3855
+#defcom "Hunter-Captain"
+#defcom2 "Greenwood Guardian"
+#defunit1 3842
+#defunit1b 3843
+#defunit2 "Elven Fire"
+#defunit2b 3843
+#defmult1 20
+#defmult1b 20
+#defmult2 10
+#defmult2b 20
+#wallcom "Hunter-Captain"
+#wallcom "Greenwood Guardian"
+#wallunit 3842
+#wallmult 10
+#homerealm2 
+#addgod "Vala of Growth"
+#addgod "Vala Smith"
+#addgod "Vala of the Hunt"
+#addgod "Vala Doomsman"
+#addgod "Vala of Valour"
+#addgod "Elder King"
+#addgod "Vala of Stars"
+#addgod "Star of High Hope"
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#noundeadgods
+#cheapgod20 "Vala of Valour"
+#cheapgod20 "Vala of the Hunt"
+#cheapgod20 "The Moon Hunter"
+#cheapgod40 "Star of High Hope"
+#cheapgod40 "Vala of Growth"
+#cheapgod40 "Vala of Stars"
+#fortera 1
+#forestlabcost 400
+#foresttemplecost 200
+#templepic 10
+#end
+
 
