@@ -1,1 +1,64 @@
 
+#newweapon 888 
+#name "Throwing Torch"
+#dmg 3
+#nratt -2
+#att -4
+#def 0
+#sound 10
+#range -1
+#ammo 4
+#rcost 1
+#blunt
+#secondaryeffect 216
+#woodenweapon
+#flyspr 354 4
+#end
+
+#newweapon 889
+#name "Wolf-rider Blade"
+#damage 5
+#nratt 1
+#att 1
+#def 0
+#len 1
+#sound 7
+#rcost 2
+#dt_large
+#slash
+#secondaryeffect "Weak Poison"|50
+#ironweapon
+#end
+
+#neweapon 890
+#name "Orcish Blade"
+#damage 5
+#nratt 1
+#att 1
+#def 0
+#len 1
+#sound 7
+#rcost 2
+#dt_normal
+#slash
+#secondaryeffect "Weak Poison"|50
+#ironweapon
+#end
+
+#newweapon 891
+#name "Uruk-Hai Bow"
+#damage 8
+#nratt 1
+#att 0
+#def 0
+#sound 14
+#rcost 3
+#range 40
+#ammo 12
+#pierce
+#bowstr
+#woodenweapon
+#flyspr 109 1
+#end
+
+#newmonster 3857
