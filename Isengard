@@ -62,3 +62,145 @@
 #end
 
 #newmonster 3857
+#name "Isengard Orc Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 8
+#rpcost 6
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 8
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Orcish Blade"
+#armor "Orc-Mail Hauberk"
+#armor "Iron Shield"
+#armor "Iron Cap"
+#humanoid
+#mountainsurvival
+#uwdamage 100
+#maxage 1000
+#darkvision 50
+#darkpower 1
+#pillagebonus 2
+#nametype 170
+#slave
+#end
+
+#newmonster 3858
+#name "Isengard Orc Archer"
+#descr "TBD"
+#rcost 1
+#gcost 8
+#rpcost 6
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 8
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Orcish Blade"
+#weapon "Poison Bow"
+#armor "Orc-Mail Cuirass"
+#armor "Iron Cap"
+#humanoid
+#mountainsurvival
+#uwdamage 100
+#maxage 1000
+#darkvision 50
+#darkpower 1
+#pillagebonus 2
+#nametype 170
+#slave
+#end
+
+#newmonster 3859
+#name "Isengard Wolf Rider"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 13
+#ressize 1
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+ 
+#size 2
+#mr 8
+#mor 8
+#enc 3
+#mapmove 21
+#ap 22
+#eyes 2
+#weapon "Wolf-Rider Blade"
+#weapon 20
+#armor "Orc-mail Cuirass"
+#armor "Iron Shield"
+#armor "Iron Cap"
+#mountedhumanoid
+#mounted
+#snow
+#mountainsurvival
+#stealthy
+#startage 21
+#maxage 300
+#uwdamage 100
+#darkvision 100
+#darkpower 1
+#pillagebonus 3
+#secondtmpshape "Wolf"
+#nametype 170
+#slave
+#end
+
+#newmonster 3860
+#name "Isengard Torchthrower"
+#descr "TBD"
+#rcost 1
+#gcost 9
+#rpcost 6
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 8
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Orcish Blade"
+#weapon "Throwing Torch"
+#armor "Orc-Mail Hauberk"
+#armor "Iron Cap"
+#armor "Iron Shield"
+#humanoid
+#mountainsurvival
+#uwdamage 100
+#maxage 1000
+#darkvision 50
+#darkpower 1
+#pillagebonus 3
+#nametype 170
+#slave
+#end
