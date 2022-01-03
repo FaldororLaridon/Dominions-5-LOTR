@@ -130,7 +130,7 @@
 #end
 
 #newmonster 3859
-#name "Isengard Wolf Rider"
+#name "Isengard Wolfrider"
 #descr "TBD"
 #rcost 1
 #gcost 10
@@ -144,7 +144,7 @@
  
 #size 2
 #mr 8
-#mor 8
+#mor 10
 #enc 3
 #mapmove 21
 #ap 22
@@ -203,4 +203,125 @@
 #pillagebonus 3
 #nametype 170
 #slave
+#end
+
+#newmonster 3861
+#name "Dunlending Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 9
+#rpcost 10
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#morale 10
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#armor "Furs"
+#armor "Great Hide Shield"
+#humanoid
+#stealthy
+#maxage 60
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3862
+#name "Dunlending Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 9
+#rpcost 10
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#morale 10
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#weapon "Javelin"
+#armor "Furs"
+#armor "Great Hide Shield"
+#humanoid
+#stealthy
+#maxage 60
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3863
+#name "Dunlending Rider"
+#descr "TBD"
+#rcost 1
+#gcost 20
+#rpcost 10000
+#ressize 2
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#morale 10
+#enc 2
+#mapmove 20
+#ap 25
+#eyes 2
+#weapon "Spear"
+#weapon "Javelin"
+#armor "Furs"
+#armor "Great Hide Shield"
+#mountedhumanoid
+#mounted
+#stealthy
+#maxage 60
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3864
+#name "White Hand Champion"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 10000
+#hp 12
+#str 11
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#morale 11
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Axe"
+#armor "Chain Mail Hauberk"
+#armor "Great Hide Shield"
+#armor "Iron Cap"
+#humanoid
+#stealthy
+#maxage 60
+#pillagebonus 1
+#nametype 100
 #end
