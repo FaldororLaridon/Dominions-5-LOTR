@@ -171,7 +171,7 @@
 #end
 
 #newmonster 3860
-#name "Isengard Torchthrower"
+#name "Isengard Raider"
 #descr "TBD"
 #rcost 1
 #gcost 9
