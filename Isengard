@@ -76,7 +76,7 @@
 #size 1
 #mr 8
 #morale 8
-#enc 2
+#enc 3
 #mapmove 16
 #ap 12
 #eyes 2
@@ -185,7 +185,7 @@
 #size 1
 #mr 8
 #morale 8
-#enc 2
+#enc 3
 #mapmove 16
 #ap 12
 #eyes 2
@@ -220,7 +220,7 @@
 #size 2
 #mr 10
 #morale 10
-#enc 2
+#enc 3
 #mapmove 14
 #ap 12
 #eyes 2
@@ -249,7 +249,7 @@
 #size 2
 #mr 10
 #morale 10
-#enc 2
+#enc 3
 #mapmove 14
 #ap 12
 #eyes 2
@@ -280,7 +280,7 @@
 #size 2
 #mr 10
 #morale 10
-#enc 2
+#enc 3
 #mapmove 20
 #ap 25
 #eyes 2
@@ -300,7 +300,7 @@
 #name "Uruk-Hai Whelp"
 #descr "TBD"
 #rcost 1
-#gcost 20
+#gcost 10
 #rpcost 10000
 #hp 10
 #str 11
@@ -311,7 +311,40 @@
 #size 2
 #mr 10
 #morale 11
-#enc 2
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Uruk-Hai Bow"
+#weapon "Short Sword"
+#armor "Leather Hauberk"
+#armor "Half Helmet"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#montag 1010
+#nametype 100
+#end
+
+#newmonster 3865
+#name "Uruk-Hai Whelp"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 10000
+#hp 10
+#str 11
+#att 9
+#def 9
+#prec 9
+#prot 3
+#size 2
+#mr 10
+#morale 11
+#enc 3
 #mapmove 16
 #ap 14
 #eyes 2
@@ -321,10 +354,176 @@
 #armor "Half Helmet"
 #humanoid
 #stealthy
+#patrolbonus 1
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#montag 1010
+#nametype 100
+#end
+
+#newmonster 3866
+#name "Uruk-Hai Whelp"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 10000
+#hp 10
+#str 11
+#att 9
+#def 9
+#prec 9
+#prot 3
+#size 2
+#mr 10
+#morale 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Short Sword"
+#armor "Orc-Mail Cuirass"
+#armor "Half Helmet"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#montag 1010
+#nametype 100
+#end
+
+#newmonster 3867
+#name "Uruk-Hai Whelp"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 10000
+#hp 10
+#str 11
+#att 9
+#def 9
+#prec 9
+#prot 3
+#size 2
+#mr 10
+#morale 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Spear"
+#armor "Orc-Mail Cuirass"
+#armor "Half Helmet"
+#armor "Iron Shield"
+#humanoid
 #maxage 120
 #startage 1
 #darkvision 50
 #reinvigoration 1
 #pillagebonus 1
 #nametype 100
+#montag 1010
+#end
+
+#newmonster 3868
+#name "Greater Uruk-Hai Whelp"
+#descr "TBD"
+#rcost 1
+#gcost 15
+#rpcost 10000
+#hp 12
+#str 12
+#att 10
+#def 9
+#prec 9
+#prot 3
+#size 2
+#mr 10
+#morale 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Short Sword"
+#armor "Orc-Mail Hauberk"
+#armor "Half Helmet"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#montag 1010
+#end
+
+#newmonster 3869
+#name "Greater Uruk-Hai Whelp"
+#descr "TBD"
+#rcost 1
+#gcost 15
+#rpcost 10000
+#hp 12
+#str 12
+#att 10
+#def 9
+#prec 9
+#prot 3
+#size 2
+#mr 10
+#morale 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Axe"
+#armor "Orc-Mail Hauberk"
+#armor "Half Helmet"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#montag 1010
+#end
+
+#newmonster 3870
+#name "Half-Orc Whelp"
+#rcost 1
+#gcost 20
+#rpcost 10000
+#hp 12
+#str 12
+#att 10
+#def 9
+#prec 9
+#prot 3
+#size 2
+#mr 11
+#morale 11
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Battleaxe"
+#armor "Orc-Mail Hauberk"
+#armor "Half Helmet"
+#humanoid
+#holy
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#montag 1010
 #end
