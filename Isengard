@@ -297,31 +297,34 @@
 #end
 
 #newmonster 3864
-#name "White Hand Champion"
+#name "Uruk-Hai Whelp"
 #descr "TBD"
 #rcost 1
-#gcost 10010
+#gcost 20
 #rpcost 10000
-#hp 12
+#hp 10
 #str 11
-#att 10
-#def 10
-#prec 10
-#prot 0
+#att 9
+#def 9
+#prec 9
+#prot 3
 #size 2
 #mr 10
 #morale 11
 #enc 2
-#mapmove 14
-#ap 12
+#mapmove 16
+#ap 14
 #eyes 2
-#weapon "Axe"
-#armor "Chain Mail Hauberk"
-#armor "Great Hide Shield"
-#armor "Iron Cap"
+#weapon "Uruk-Hai Bow"
+#weapon "Short Sword"
+#armor "Leather Hauberk"
+#armor "Half Helmet"
 #humanoid
 #stealthy
-#maxage 60
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
 #pillagebonus 1
 #nametype 100
 #end
