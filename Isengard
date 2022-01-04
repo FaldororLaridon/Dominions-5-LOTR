@@ -527,3 +527,71 @@
 #nametype 100
 #montag 1010
 #end
+
+#newmonster 3871
+#name "Uruk-Hai Archer"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 10000
+#hp 12
+#str 15
+#att 10
+#def 10
+#prec 11
+#prot 3
+#size 2
+#mr 11
+#morale 13
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Uruk-Hai Bow"
+#weapon "Short Sword"
+#armor "Orc-Mail Hauberk"
+#armor "Full Helmet"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3872
+#name "Uruk-Hai Tracker"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 10000
+#hp 12
+#str 15
+#att 10
+#def 10
+#prec 10
+#prot 3
+#size 2
+#mr 11
+#morale 12
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Uruk-Hai Bow"
+#weapon "Short Sword"
+#armor "Orc-Mail Hauberk"
+#armor "Full Helmet"
+#humanoid
+#stealthy
+#patrolbonus 1
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster
