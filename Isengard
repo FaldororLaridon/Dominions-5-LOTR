@@ -335,7 +335,7 @@
 #gcost 13
 #rpcost 10000
 #hp 12
-#str 15
+#str 14
 #att 10
 #def 10
 #prec 11
@@ -377,7 +377,7 @@
 #morale 11
 #enc 3
 #mapmove 16
-#ap 14
+#ap 15
 #eyes 2
 #weapon "Uruk-Hai Bow"
 #weapon "Short Sword"
@@ -390,6 +390,7 @@
 #reinvigoration 1
 #pillagebonus 1
 #montag 1010
+#xpshape 15
 #nametype 100
 #end
 
@@ -400,7 +401,7 @@
 #gcost 13
 #rpcost 10000
 #hp 12
-#str 15
+#str 14
 #att 10
 #def 10
 #prec 10
@@ -457,11 +458,44 @@
 #darkvision 50
 #reinvigoration 1
 #pillagebonus 1
+#xpshape 15
 #montag 1010
 #nametype 100
 #end
 
-#newmonster 3867
+#newmonster 3869
+#name "Fighting Uruk-Hai"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 10000
+#hp 15
+#str 15
+#att 11
+#def 10
+#prec 10
+#prot 3
+#size 2
+#mr 11
+#morale 12
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Short Sword"
+#armor "Orc-Mail Hauberk"
+#armor "Full Helmet"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3870
 #name "Uruk-Hai Whelp"
 #descr "TBD"
 #rcost 1
@@ -490,15 +524,48 @@
 #darkvision 50
 #reinvigoration 1
 #pillagebonus 1
+#xpshape 15
 #nametype 100
 #montag 1010
 #end
 
-#newmonster 3868
+#newmonster 3871
+#name "Fighting Uruk-Hai"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 10000
+#hp 15
+#str 15
+#att 11
+#def 10
+#prec 10
+#prot 3
+#size 2
+#mr 11
+#morale 12
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Pike"
+#armor "Orc-Mail Hauberk"
+#armor "Full Helmet"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#end
+
+
+#newmonster 3872
 #name "Greater Uruk-Hai Whelp"
 #descr "TBD"
 #rcost 1
-#gcost 15
+#gcost 13
 #rpcost 10000
 #hp 12
 #str 12
@@ -524,10 +591,43 @@
 #reinvigoration 1
 #pillagebonus 1
 #nametype 100
+#xpshape 15
 #montag 1010
 #end
 
-#newmonster 3869
+#newmonster 3873
+#name "Uruk-Hai Champion"
+#descr "TBD"
+#rcost 1
+#gcost 16
+#rpcost 10000
+#hp 16
+#str 16
+#att 12
+#def 11
+#prec 10
+#prot 3
+#size 2
+#mr 11
+#morale 13
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Short Sword"
+#armor "Full Orc-Mail"
+#armor "Full Helmet"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3874
 #name "Greater Uruk-Hai Whelp"
 #descr "TBD"
 #rcost 1
@@ -556,11 +656,44 @@
 #darkvision 50
 #reinvigoration 1
 #pillagebonus 1
+#xpshape 15
 #nametype 100
 #montag 1010
 #end
 
-#newmonster 3870
+#newmonster 3875
+#name "Uruk-Hai Champion"
+#descr "TBD"
+#rcost 1
+#gcost 16
+#rpcost 10000
+#hp 16
+#str 16
+#att 12
+#def 11
+#prec 10
+#prot 3
+#size 2
+#mr 11
+#morale 13
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Axe"
+#armor "Full Orc-Mail"
+#armor "Full Helmet"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3876
 #name "Half-Orc Whelp"
 #rcost 1
 #gcost 20
@@ -589,20 +722,19 @@
 #reinvigoration 1
 #pillagebonus 1
 #nametype 100
+#xpshape 15
 #montag 1010
 #end
 
-#newmonster 3871
-#name "Uruk-Hai Archer"
-#descr "TBD"
+#newmonster 3877
 #rcost 1
-#gcost 13
+#gcost 16
 #rpcost 10000
-#hp 12
-#str 15
-#att 10
-#def 10
-#prec 11
+#hp 16
+#str 16
+#att 12
+#def 11
+#prec 10
 #prot 3
 #size 2
 #mr 11
@@ -611,10 +743,10 @@
 #mapmove 18
 #ap 16
 #eyes 2
-#weapon "Uruk-Hai Bow"
-#weapon "Short Sword"
-#armor "Orc-Mail Hauberk"
+#weapon "Axe"
+#armor "Full Orc-Mail"
 #armor "Full Helmet"
+#armor "Iron Shield"
 #humanoid
 #maxage 120
 #startage 1
@@ -623,39 +755,3 @@
 #pillagebonus 1
 #nametype 100
 #end
-
-#newmonster 3872
-#name "Uruk-Hai Tracker"
-#descr "TBD"
-#rcost 1
-#gcost 13
-#rpcost 10000
-#hp 12
-#str 15
-#att 10
-#def 10
-#prec 10
-#prot 3
-#size 2
-#mr 11
-#morale 12
-#enc 3
-#mapmove 18
-#ap 16
-#eyes 2
-#weapon "Uruk-Hai Bow"
-#weapon "Short Sword"
-#armor "Orc-Mail Hauberk"
-#armor "Full Helmet"
-#humanoid
-#stealthy
-#patrolbonus 1
-#maxage 120
-#startage 1
-#darkvision 50
-#reinvigoration 1
-#pillagebonus 1
-#nametype 100
-#end
-
-#newmonster
