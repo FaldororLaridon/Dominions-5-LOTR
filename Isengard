@@ -325,6 +325,7 @@
 #pillagebonus 1
 #xpshape 15
 #montag 1010
+#montagweight 10
 #nametype 100
 #end
 
@@ -390,6 +391,7 @@
 #reinvigoration 1
 #pillagebonus 1
 #montag 1010
+#montagweight 10
 #xpshape 15
 #nametype 100
 #end
@@ -460,6 +462,7 @@
 #pillagebonus 1
 #xpshape 15
 #montag 1010
+#montagweight 10
 #nametype 100
 #end
 
@@ -525,6 +528,7 @@
 #reinvigoration 1
 #pillagebonus 1
 #xpshape 15
+#montagweight 10
 #nametype 100
 #montag 1010
 #end
@@ -593,6 +597,7 @@
 #nametype 100
 #xpshape 15
 #montag 1010
+#montagweight 5
 #end
 
 #newmonster 3873
@@ -659,6 +664,7 @@
 #xpshape 15
 #nametype 100
 #montag 1010
+#montagweight 5
 #end
 
 #newmonster 3875
@@ -724,11 +730,14 @@
 #nametype 100
 #xpshape 15
 #montag 1010
+#montagweight 2
 #end
 
 #newmonster 3877
+#name "Half-Orc"
+#descr "TBD"
 #rcost 1
-#gcost 16
+#gcost 30
 #rpcost 10000
 #hp 16
 #str 16
@@ -743,10 +752,9 @@
 #mapmove 18
 #ap 16
 #eyes 2
-#weapon "Axe"
+#weapon "Battleaxe"
 #armor "Full Orc-Mail"
 #armor "Full Helmet"
-#armor "Iron Shield"
 #humanoid
 #maxage 120
 #startage 1
