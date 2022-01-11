@@ -783,4 +783,132 @@ Will of the White Hand
 #end
 
 #newmonster 3878
-#name 
+#name "Dunlending Scout"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#morale 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#armor "Furs"
+#humanoid
+#stealthy
+#maxage 60
+#pillagebonus 1
+#nametype 100
+#noleader
+#end
+
+#newmonster 3879
+#name "Dunlending Chief"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#noreqtemple
+#hp 11
+#str 11
+#att 10
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#morale 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Short Sword"
+#armor "Furs"
+#armor "Great Hide Shield"
+#armor "Iron Cap"
+#holy
+#humanoid
+#stealthy
+#maxage 60
+#pillagebonus 1
+#nametype 100
+#okleader
+#magicskill 8 1
+#end
+
+#newmonster 3880
+#name "Dunlending Shaman"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#reqlab
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#morale 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Furs"
+#humanoid
+#stealthy
+#maxage 60
+#pillagebonus 1
+#nametype 100
+#okleader
+#custommagic 9216 100
+#custommagic 9216 10
+#end
+
+#newmonster 3881
+#name "Champion of the White Hand"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#noreqtemple
+#hp 12
+#str 13
+#att 11
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#morale 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Short Sword"
+#armor "Orc-Mail Hauberk"
+#armor "Great Hide Shield"
+#armor "Full Helmet"
+#holy
+#humanoid
+#stealthy
+#maxage 60
+#pillagebonus 1
+#nametype 100
+#okleader
+#douse 1
+#end
+
+#newmonster 3882
