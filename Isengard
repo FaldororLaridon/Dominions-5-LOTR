@@ -1036,3 +1036,74 @@ Will of the White Hand
 #researchbonus -3
 #end
 
+#newmonster 3885
+#name "Orthanc Apprentice"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#reqtemple
+#reqlab
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robe"
+#humanoid
+#holy
+#maxage 60
+#nametype 173
+#poorleader
+#magicskill 8 1
+#magicskill 7 1
+#custommagic 17536 100
+#end
+
+#newmonster 3886
+#name "Orthanc Wizard"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#reqtemple
+#reqlab
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robe"
+#humanoid
+#holy
+#maxage 60
+#nametype 173
+#okleader
+#magicskill 8 1
+#magicskill 7 1
+#magicskill 3 1
+#custommagic 17536 100
+#custommagic 17536 10
+#end
+
+#newmonster 3887
+#name "Voice of Orthanc"
+#descr "TBD"
