@@ -108,6 +108,10 @@ Will of the White Hand
 #maxage 1000
 #darkvision 50
 #darkpower 1
+#rcost 1
+#gcost 10020
+#rpcost 2
+#incunrest 1
 #pillagebonus 2
 #nametype 170
 #slave
@@ -144,6 +148,7 @@ Will of the White Hand
 #darkpower 1
 #pillagebonus 2
 #nametype 170
+#incunrest 1
 #slave
 #end
 
@@ -162,7 +167,7 @@ Will of the White Hand
  
 #size 2
 #mr 8
-#mor 10
+#mor 8
 #enc 3
 #mapmove 21
 #ap 22
@@ -182,6 +187,7 @@ Will of the White Hand
 #uwdamage 100
 #darkvision 100
 #darkpower 1
+#incunrest 1
 #pillagebonus 3
 #secondtmpshape "Wolf"
 #nametype 170
@@ -219,6 +225,7 @@ Will of the White Hand
 #darkvision 50
 #darkpower 1
 #pillagebonus 3
+#incunrest 1
 #nametype 170
 #slave
 #end
@@ -908,7 +915,124 @@ Will of the White Hand
 #pillagebonus 1
 #nametype 100
 #okleader
+#inspirational 1
 #douse 1
 #end
 
 #newmonster 3882
+#name "Wolfrider Captain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#ressize 1
+#hp 9
+#str 12
+#att 8
+#def 8
+#prec 8
+ 
+#size 2
+#mr 8
+#mor 9
+#enc 3
+#mapmove 21
+#ap 22
+#eyes 2
+#weapon "Wolf-Rider Blade"
+#weapon 20
+#armor "Orc-mail Cuirass"
+#armor "Iron Shield"
+#armor "Iron Cap"
+#mountedhumanoid
+#mounted
+#snow
+#mountainsurvival
+#stealthy
+#startage 21
+#maxage 300
+#uwdamage 100
+#darkvision 100
+#darkpower 1
+#pillagebonus 3
+#incunrest 5
+#secondtmpshape "Wolf"
+#nametype 170
+#slave
+#okleader
+#douse 1
+#command 20
+#end
+
+#newmonster 3883
+#name "Orc Wolfcaller"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 7
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Dagger"
+#armor "Furs"
+#humanoid
+#mountainsurvival
+#maxage 300
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#incunrest 5
+#patrolbonus 1
+#nametype 170
+#slave
+#poorleader
+#makemonster5 "Wolf"
+#researchbonus -3
+#end
+
+#newmonster 3884
+#name "Orc Breeder"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 7
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 10
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Dagger"
+#armor "Robes"
+#humanoid
+#mountainsurvival
+#maxage 300
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#incunrest 5
+#patrolbonus 1
+#nametype 170
+#poorleader
+#magicskill 7 1
+#magicskill 8 1
+#researchbonus -3
+#end
+
