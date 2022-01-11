@@ -1034,6 +1034,7 @@ Will of the White Hand
 #magicskill 7 1
 #magicskill 8 1
 #researchbonus -3
+#crossbreeder 3
 #end
 
 #newmonster 3885
@@ -1051,7 +1052,7 @@ Will of the White Hand
 #prec 11
 #prot 0
 #size 2
-#mr 12
+#mr 13
 #mor 13
 #enc 3
 #mapmove 14
@@ -1084,7 +1085,7 @@ Will of the White Hand
 #prec 11
 #prot 0
 #size 2
-#mr 12
+#mr 13
 #mor 13
 #enc 3
 #mapmove 14
@@ -1098,12 +1099,77 @@ Will of the White Hand
 #nametype 173
 #okleader
 #magicskill 8 1
-#magicskill 7 1
+#magicskill 7 2
 #magicskill 3 1
-#custommagic 17536 100
-#custommagic 17536 10
+#custommagic 1152 100
+#crossbreeder 5
 #end
 
 #newmonster 3887
 #name "Voice of Orthanc"
 #descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#reqtemple
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robe"
+#humanoid
+#holy
+#maxage 60
+#nametype 173
+#goodleader
+#magicskill 8 2
+#fixedresearch 10
+#crossbreeder 5
+#end
+
+#newmonster 3888
+#name "White Hand of Orthanc"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 4
+#reqtemple
+#reqlab
+#hp 11
+#str 10
+#att 10
+#def 10
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robe"
+#humanoid
+#holy
+#maxage 60
+#nametype 173
+#expertleader
+#magicskill 8 3
+#magicskill 7 3
+#magicskill 3 1
+#magicskill 0 1
+#custommagic 17536 100
+#crossbreeder 10
+#forgebonus 15
+#end
