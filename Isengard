@@ -1,3 +1,21 @@
+Dunlending Scout
+Dunlending Chieftain
+Dunlending Shaman
+Champion of the White Hand
+
+Orc Captain
+Orc Wolfcaller
+Orc Breeder
+
+Uruk-Hai Captain
+Uruk-Hai Apprentice
+Voice of Orthanc
+
+Orthanc Apprentice
+Orthanc Wizard
+Orthanc Blood Priest
+Will of the White Hand
+
 
 #newweapon 888 
 #name "Throwing Torch"
@@ -253,7 +271,7 @@
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon "Spear"
+#weapon "Axe"
 #weapon "Javelin"
 #armor "Furs"
 #armor "Great Hide Shield"
@@ -763,3 +781,6 @@
 #pillagebonus 1
 #nametype 100
 #end
+
+#newmonster 3878
+#name 
