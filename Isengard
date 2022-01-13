@@ -1191,6 +1191,7 @@ Confusion
 #nametype 100
 #goodleader
 #inspirational 1
+#douse 1
 #end
 
 #newmonster 3890
@@ -1260,6 +1261,7 @@ Confusion
 #nametype 100
 #okleader
 #magicskill 8 2
+#douse 1
 #end
 
 #newmonster 3892
@@ -1289,6 +1291,8 @@ Confusion
 #stealthy 20
 #nametype 173
 #noleader
-#insanify 5
 #heretic 1
 #end
+
+#newmonster 3893
+#name "
