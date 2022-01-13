@@ -62,22 +62,6 @@ Confusion
 #ironweapon
 #end
 
-#newweapon 891
-#name "Uruk-Hai Bow"
-#damage 8
-#nratt 1
-#att 0
-#def 0
-#sound 14
-#rcost 3
-#range 40
-#ammo 12
-#pierce
-#bowstr
-#woodenweapon
-#flyspr 109 1
-#end
-
 #newmonster 3857
 #name "Isengard Orc Warrior"
 #descr "TBD"
@@ -110,7 +94,7 @@ Confusion
 #rcost 1
 #gcost 10020
 #rpcost 2
-#incunrest 1
+#incunrest 2
 #pillagebonus 2
 #nametype 170
 #slave
@@ -147,7 +131,7 @@ Confusion
 #darkpower 1
 #pillagebonus 2
 #nametype 170
-#incunrest 1
+#incunrest 2
 #slave
 #end
 
@@ -186,7 +170,7 @@ Confusion
 #uwdamage 100
 #darkvision 100
 #darkpower 1
-#incunrest 1
+#incunrest 2
 #pillagebonus 3
 #secondtmpshape "Wolf"
 #nametype 170
@@ -224,7 +208,7 @@ Confusion
 #darkvision 50
 #darkpower 1
 #pillagebonus 3
-#incunrest 1
+#incunrest 2
 #nametype 170
 #slave
 #end
@@ -339,7 +323,7 @@ Confusion
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon "Uruk-Hai Bow"
+#weapon "Great Bow"
 #weapon "Short Sword"
 #humanoid
 #maxage 120
@@ -372,7 +356,7 @@ Confusion
 #mapmove 18
 #ap 16
 #eyes 2
-#weapon "Uruk-Hai Bow"
+#weapon "Great Bow"
 #weapon "Short Sword"
 #armor "Orc-Mail Hauberk"
 #armor "Full Helmet"
@@ -994,7 +978,9 @@ Confusion
 #patrolbonus 1
 #nametype 170
 #slave
-#poorleader
+#okleader
+#beastmaster 2
+#inspirational -1
 #makemonster5 "Wolf"
 #researchbonus -3
 #end
@@ -1165,10 +1151,144 @@ Confusion
 #nametype 173
 #expertleader
 #magicskill 8 3
-#magicskill 7 3
+#magicskill 7 2
 #magicskill 3 1
 #magicskill 0 1
 #custommagic 17536 100
 #crossbreeder 10
 #forgebonus 15
+#end
+
+#newmonster 3889
+#name "Uruk-Hai Captain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 17
+#str 16
+#att 12
+#def 11
+#prec 10
+#prot 3
+#size 2
+#mr 11
+#morale 14
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Short Sword"
+#armor "Full Orc-Mail"
+#armor "Full Helmet"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#goodleader
+#inspirational 1
+#end
+
+#newmonster 3890
+#name "Uruk-Hai Apprentice"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 12
+#str 14
+#att 10
+#def 10
+#prec 11
+#prot 3
+#size 2
+#mr 11
+#morale 13
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Orc-Mail Cuirass"
+#armor "Full Helmet"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#poorleader
+#magicskill 7 1
+#magicskill 0 1
+#custommagic 17536 100
+#end
+
+#newmonster 3891
+#name "Will of Orthanc"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 12
+#str 14
+#att 10
+#def 10
+#prec 11
+#prot 3
+#size 2
+#mr 11
+#morale 13
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Short Sword"
+#armor "Orc-Mail Cuirass"
+#armor "Full Helmet"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 1
+#darkvision 50
+#reinvigoration 1
+#pillagebonus 1
+#nametype 100
+#okleader
+#magicskill 8 2
+#end
+
+#newmonster 3892
+#name "White Hand Spy"
+#descr "TBD"
+#rcost 1
+#gcost 10020
+#rpcost 2
+#reqtemple
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Dagger"
+#humanoid
+#maxage 70
+#spy
+#stealthy 20
+#nametype 173
+#noleader
+#insanify 5
+#heretic 1
 #end
