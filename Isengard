@@ -405,7 +405,7 @@ Confusion
 #end
 
 #newmonster 3867
-#name "Uruk-Hai Tracker"
+#name "Uruk-Hai Raider"
 #descr "TBD"
 #rcost 1
 #gcost 13
@@ -1270,7 +1270,6 @@ Confusion
 #rcost 1
 #gcost 10020
 #rpcost 2
-#reqtemple
 #hp 10
 #str 10
 #att 10
@@ -1295,4 +1294,143 @@ Confusion
 #end
 
 #newmonster 3893
-#name "
+#name "Crebain"
+#descr "TBD"
+#hp 5
+#str 5
+#att 8
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 5
+#mor 8
+#enc 3
+#mapmove 22
+#ap 6
+#eyes 2
+#weapon 7553
+#weapon 408
+#bird
+#animal
+#undisciplined
+#flying
+#stealthy 20
+#spy
+#batstartsum4d6 3894
+#nametype 144
+#noleader
+#end
+
+#newmonster 3894
+#name "Crebain"
+#descr "TBD"
+#hp 5
+#str 5
+#att 8
+#def 12
+#prec 8
+#prot 0
+#size 1
+#mr 5
+#mor 8
+#enc 3
+#mapmove 22
+#ap 6
+#eyes 2
+#weapon 7553
+#weapon 408
+#bird
+#animal
+#undisciplined
+#flying
+#stealthy 20
+#nametype 144
+#end
+
+#newmonster 3895
+#name "White Hand Captain"
+#fixedname "Uglúk"
+#descr "TBD"
+#hp 18
+#str 17
+#att 13
+#def 13
+#prec 11
+#prot 3
+#size 2
+#mr 12
+#morale 14
+#enc 2
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Short Sword"
+#armor "Full Orc-Mail"
+#armor "Iron Shield"
+#humanoid
+#maxage 120
+#startage 5
+#darkvision 50
+#reinvigoration 2
+#pillagebonus 1
+#expertleader
+#command 50
+#end
+
+#newmonster 3896
+#name "Raider Captain"
+#fixedname "Mauhúr"
+#descr "TBD"
+#hp 17
+#str 16
+#att 12
+#def 12
+#prec 12
+#prot 3
+#size 2
+#mr 12
+#morale 14
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Short Sword"
+#weapon "Great Bow"
+#armor "Full Orc-Mail"
+#humanoid
+#maxage 120
+#forestsurvival
+#stealthy
+#startage 5
+#darkvision 50
+#reinvigoration 2
+#pillagebonus 3
+#goodleader
+#end
+
+#newmonster 3897
+#name "Counsellor"
+#fixedname "Gríma Wormtongue"
+#descr "TBD"
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 9
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Dagger"
+#humanoid
+#maxage 70
+#spy
+#stealthy 30
+#noleader
+#heretic 2
+#end
