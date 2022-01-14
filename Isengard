@@ -1055,8 +1055,8 @@ Confusion
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon "Quarterstaff"
-#armor "Robe"
+#weapon "Fist"
+#armor "Robes"
 #humanoid
 #holy
 #maxage 60
@@ -1089,7 +1089,7 @@ Confusion
 #ap 12
 #eyes 2
 #weapon "Quarterstaff"
-#armor "Robe"
+#armor "Robes"
 #humanoid
 #holy
 #maxage 60
@@ -1122,8 +1122,8 @@ Confusion
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon "Quarterstaff"
-#armor "Robe"
+#weapon "Fist"
+#armor "Robes"
 #humanoid
 #holy
 #maxage 60
@@ -1156,7 +1156,7 @@ Confusion
 #ap 12
 #eyes 2
 #weapon "Quarterstaff"
-#armor "Robe"
+#armor "Robes"
 #humanoid
 #holy
 #maxage 60
