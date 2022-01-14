@@ -1,11 +1,5 @@
 
 
-Uruk-Hai Captain
-Uruk-Hai Apprentice
-Will of the White Hand
-
-White Hand Spy
-
 Spells to use for new priest spells:
 Charm
 Slow
@@ -60,6 +54,24 @@ Confusion
 #slash
 #secondaryeffect "Weak Poison"|50
 #ironweapon
+#end
+
+#newweapon 811
+#copyweapon 255
+#name "Fear of Saruman"
+#range 100
+#dmg 5
+#aoe 3
+#friendlyimmune
+#end
+
+#newweapon 813
+#copyweapon "Enslave Mind"
+#name "Voice of Saruman"
+#range 100
+#explspr 10001
+#aoe 1
+#secondaryeffectalways 811
 #end
 
 #newmonster 3857
@@ -273,7 +285,7 @@ Confusion
 #end
 
 #newmonster 3863
-#name "Dunlending Rider"
+#name "Dunlending Horeman"
 #descr "TBD"
 #rcost 1
 #gcost 20
@@ -802,7 +814,7 @@ Confusion
 #end
 
 #newmonster 3879
-#name "Dunlending Chief"
+#name "Dunlending Chieftain"
 #descr "TBD"
 #rcost 1
 #gcost 10000
@@ -1023,7 +1035,7 @@ Confusion
 #end
 
 #newmonster 3885
-#name "Orthanc Apprentice"
+#name "Isengard Apprentice"
 #descr "TBD"
 #rcost 1
 #gcost 10000
@@ -1091,7 +1103,7 @@ Confusion
 #end
 
 #newmonster 3887
-#name "Voice of Orthanc"
+#name "Voice of the White Hand"
 #descr "TBD"
 #rcost 1
 #gcost 10000
@@ -1433,4 +1445,160 @@ Confusion
 #stealthy 30
 #noleader
 #heretic 2
+#end
+
+#newmonster 3531
+#name "Istar of Crafts"
+#fixedname "Saruman"
+#descr "The Istar of Crafts was sent by the Pantokrator to scour the lands for the remaining servants of the Great Adversary and destroy them. For a time, he served faithfully, hunting down dark enemies and earning glory and fame in the name of the Pantokrator. Over time, his pride grew with his fame, and he began to desire more power for himself. Now that the Pantokrator has vanished, he will seize his opportunity to become God over all. The Istar of Crafts is powerful with his words, being a mighty commander whose forces would rather die than disappoint. His craft with words is so heinous, that even opposing forces may be convinced to abandon their posts to flock to his side."
+#spr1 "images/saruman/3531_1.tga"
+#spr2 "images/saruman/3531_2.tga"
+#pathcost 10
+#startdom 1
+#gcost 10060
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 14
+#prot 0
+#size 2
+#mr 18
+#mor 30
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"|7
+#weapon "Voice of Saruman"
+#humanoid
+#startage 1500
+#maxage 3000
+#awe 1
+#expertleader
+#inspirational 4
+#magicskill 3 1
+#researchbonus 3
+#crossbreeder 3
+#incunrest -20
+#end
+
+
+#newsite
+#name "Orthanc"
+#loc 16384
+#gems 3 2
+#level 0
+#rarity 5
+#homecom "Orthanc Wizard"
+#homecom "White Hand of Orthanc"
+#xp 4
+#scry 3
+#end
+
+#newsite
+#name "Pits of Isengard"
+#loc 12384
+#gems 7 2
+#level 0
+#rarity 5
+#wallunit "Uruk-Hai Archer"
+#wallmult 10
+#end
+
+#newitem 
+#constlevel 2
+#mainpath 0
+#mainlevel 1
+#type 8
+#name "Orc-Brew"
+#descr "An unpleasant, but swift-working medicine. Orc-brew can revitalize the weary and heal the wounded. It is mostly used for keeping prisoners alive, or healing the wounds of great champions."
+#restricted "Isengard"
+#recuperation
+#autohealer 1
+#end
+
+#newitem
+#constlevel 6
+#mainpath 0
+#mainlevel 2
+#secondarypath 3
+#secondarylevel 1
+#type 8
+#name "Devilry of Orthanc"
+#descr "A weapon designed by the cunning of Isengard through secret arts, this weapon is capable of devastating fortresses and allowing the hosts of Isengard free access into the strongholds of their enemies"
+#restricted "Isengard"
+#siegebonus 100
+#end
+
+#newnation
+#name "Isengard"
+#epithet "Rise of the Uruk-Hai"
+#era 3
+#descr "TBD"
+#summary "TBD"
+#brief "Isengard is a nation that has brought together Orcs of the Misty Mountains and wild Men from Dunland to create an entirely new realm. Wildmen and Orcs make up the bulk of their forces, but their true strength is in the mighty Uruk-Hai, bred through blood magic spells and unleashed upon the unsuspecting world."
+#startsite "Orthanc"
+#startsite "Pits of Isengard"
+#aibloodnation
+#aimusthavemag 7
+#aimagrec 50
+#startcom "Dunlending Chieftain"
+#addforeignunit 3861
+#addforeignunit 3862
+#addforeignunit "Dunlending Horseman"
+#addforeigncom "Dunlending Scout"
+#addforeigncom "Dunlending Chieftain"
+#addforeigncom "Dunlending Shaman"
+#addforeigncom "Champion of the White Hand"
+#startscout "Dunlending Scout"
+#startunittype1 3861
+#startunitnbrs1 20
+#startunittype2 3682
+#startunitnbrs2 20
+#addrecunit 3861
+#addrecunit 3862
+#addrecunit "Dunlending Horseman"
+#addrecunit "Isengard Orc Archer"
+#addrecunit "Isengard Orc Warrior"
+#addrecunit "Isengard Raider"
+#addrecunit "Isengard Wolfrider"
+#addreccom "Dunlending Scout"
+#addreccom "Dunlending Chieftain"
+#addreccom "Dunlending Shaman"
+#addreccom "Champion of the White Hand"
+#addreccom "Wolfrider Captain"
+#addreccom "Orc Breeder"
+#addreccom "Orc Wolfcaller"
+#addreccom "Isengard Apprentice"
+#addreccom "Voice of the White Hand"
+#hero1 3895
+#hero2 3896
+#hero3 3897
+#defcom1 "Dunlending Chieftain"
+#defcom2 "Isengard Apprentice"
+#defunit1 "Isengard Orc Warrior"
+#defunit1b 3862
+#defunit1c 3861
+#defunit2 "Isengard Orc Archer"
+#defunit2b 3869
+#defmult1 20
+#defmult1b 10
+#defmult1c 10
+#defmult2 20
+#defmult2b 10
+#wallcom "Dunlending Chieftain"
+#wallunit "Isengard Orc Archer"
+#wallmult 15
+#homerealm 10
+#addgod "Istar of Crafts"
+#addgod "Freak Lord"
+#addgod "Lich Queen"
+#addgod "Master Alchemist"
+#addgod "Vampire Queen"
+#cheapgod40 "Istar of Crafts"
+#fortera 1
+#labcost 400
+#templepic 9
+#homefort 24
 #end
