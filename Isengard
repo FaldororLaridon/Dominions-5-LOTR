@@ -618,8 +618,8 @@ Confusion
 #xpshape 15
 #montag 1010
 #montagweight 5
-#end
-
+#montag 1011
+#montagweight 1
 #newmonster 3873
 #name "Uruk-Hai Champion"
 #descr "TBD"
@@ -685,6 +685,8 @@ Confusion
 #nametype 100
 #montag 1010
 #montagweight 5
+#montag 1011
+#montagweight 1
 #end
 
 #newmonster 3875
@@ -1698,6 +1700,57 @@ Confusion
 #damage -3866
 #effect 10001
 #nreff 10
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell 
+#name "Breed Uruk-Hai Archers"
+#descr "As the technique of creating Uruk-Hai becomes streamlined, it is now possible to breed Uruk-Hai with specific traits. This is more difficult than breeding for any trait, but provides Uruk-Hai tailored to the creator's wishes."
+#details "Creates ten Uruk-Hai Archer Whelps."
+#school 6
+#researchlevel 4
+#path 7
+#pathlevel 3
+#fatiguecost 15
+#damage -3864
+#effect 10001
+#nreff 10
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell 
+#name "Breed Uruk-Hai Champions"
+#descr "As the technique of creating Uruk-Hai becomes streamlined, it is now possible to breed Uruk-Hai with specific traits. This is more difficult than breeding for any trait, but provides Uruk-Hai tailored to the creator's wishes."
+#details "Creates five Greater Uruk-Hai Whelps."
+#school 6
+#researchlevel 4
+#path 7
+#pathlevel 3
+#fatiguecost 15
+#damage -1011
+#effect 10001
+#nreff 5
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell 
+#name "Breed Half-Orcs"
+#descr "At last, the secrets of breeding the greatest tools in Isengards arsenal are at your disposal. With these ferocious warriors, how can the world of men hope to stand against you?"
+#details "Creates ten Half-Orc Whelps"
+#school 6
+#researchlevel 5
+#path 7
+#pathlevel 3
+#fatiguecost 15
+#damage -1011
+#effect 10001
+#nreff 5
 #range 0
 #restricted "Isengard"
 #aispellmod 100
