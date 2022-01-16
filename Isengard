@@ -1747,15 +1747,93 @@ Confusion
 #researchlevel 5
 #path 7
 #pathlevel 3
-#fatiguecost 15
+#fatiguecost 20
 #damage -1011
 #effect 10001
-#nreff 5
+#nreff 10
 #range 0
 #restricted "Isengard"
 #aispellmod 100
 #end
 
+#newspell
+#copyspell "Confusion"
+#name "Voice of Doubt"
+#descr "The Isengard priest speaks and causes the victims to become confused and doubtt their own goals, convictions, and even the evidence of their own eyes."
+#details "Confusion check 50% every turn. Confused targets move randomly and might attack friend or foe."
+#school 7
+#researchlevel 0
+#path 8
+#pathlevel 2
+#restricted "Isengard"
+#end
+
+#newspell
+#copyspell "Touch of Madness"
+#name "We Come to Kill"
+#descr "The Isengard priest ignites rage in the hearts of his followers and incites some to lose all sense and focus solely on their desire to kill their foes at the expense of all other thought. Berserkers never rout and get increased figthing skills but do not care much for their own safety."
+#school 7
+#researchlevel 0
+#path 8
+#pathlevel 2
+#restricted "Isengard"
+#end
+
+#newspell 
+#copyspell "Mind Burn"
+#name "Command to Halt"
+#descr "The Priest speaks a word of such command that an enemy's mind shuts down completely, hardly able to comprehend the power of the priest's voice."
+#school 7
+#researchlevel 0
+#path 8
+#pathlevel 1
+#restricted "Isengard"
+#end
+
+#newspell
+#copyspell "Slow"
+#name "Hinder"
+#descr "The Priest projects his power on his enemies, slowing them and making them lethargic even in battle."
+#details "Slow 50%, Att -2, Def -2."
+#school 7
+#researchlevel 0
+#path 8
+#pathlevel 1
+#restricted "Isengard"
+#end
+
+#newspell 
+#copyspell "Quickness"
+#name "Whips of the Masters at your Heel."
+#descr "The priest projects his power onto a group of allies, letting them run faster and attack quicker in battle."
+#school 7
+#researchlevel 0
+#path 8
+#pathlevel 2
+#restricted "Isengard"
+#end
+
+#newspell 
+#copyspell "Quickening"
+#name "Lend Wings to their Feet"
+#descr "The priest projects his power onto a large group of allies, letting them run faster and attack quicker in battle."
+#school 7
+#researchlevel 0
+#path 8
+#pathlevel 3
+#restricted "Isengard"
+#end
+
+#newspell
+#copyspell "Charm"
+#name "Voice of Curunir"
+#descr "In the voice of the Founder of Orthanc, the caster speaks to an enemy, telling him all he wishes to hear in a voice near impossible to disobey or disagree with."
+#school 7
+#researchlevel 0
+#path 8
+#pathlevel 3
+#restricted "Isengard"
+#end
 
 
 
