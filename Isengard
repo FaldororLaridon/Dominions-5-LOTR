@@ -548,9 +548,9 @@ Confusion
 #reinvigoration 1
 #pillagebonus 1
 #xpshape 15
+#montag 1010
 #montagweight 10
 #nametype 100
-#montag 1010
 #end
 
 #newmonster 3871
@@ -1602,3 +1602,108 @@ Confusion
 #templepic 9
 #homefort 24
 #end
+
+#newspell
+#name "Summon Crebain"
+#descr "Summons a flock of Crebain to sy on your enemies"
+#school 0
+#researchlevel 2
+#path 6
+#pathlevel 1
+#fatiguecost 3
+#damage -3894
+#effect 10001
+#nreff 1
+#range 0
+#restricted "Isengard"
+#end
+
+#newspell
+#name "Breed Uruk-Hai"
+#descr "Begins the arcane and foul practices required to breed the ultimate form of Orc. Best not to speculate what that entails, but many of the subjects may not survive..."
+#details "Creates ten Uruk-Hai Whelps, with a chance for Greater Whelps or Half-Orc Whelps"
+#school 6
+#researchlevel 2
+#path 7
+#pathlevel 1
+#fatiguecost 15
+#damage -1010
+#effect 10001
+#nreff 10
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell
+#name "Mass Breed Uruk-Hai"
+#descr "As the technique of creating Uruk-Hai becomes streamlined, they can be bred in much greater numbers now, with less cost-reduction"
+#details "Creates twenty Uruk-Hai Whelps, with a chance for Greater Whelps or Half-Orc Whelps"
+#school 6
+#researchlevel 4
+#path 7
+#pathlevel 3
+#fatiguecost 20
+#damage -1010
+#effect 10001
+#nreff 20
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell 
+#name "Breed Uruk-Hai Pikemen"
+#descr "As the technique of creating Uruk-Hai becomes streamlined, it is now possible to breed Uruk-Hai with specific traits. This is more difficult than breeding for any trait, but provides Uruk-Hai tailored to the creator's wishes."
+#details "Creates ten Uruk-Hai Whelps with spears."
+#school 6
+#researchlevel 4
+#path 7
+#pathlevel 3
+#fatiguecost 15
+#damage -3870
+#effect 10001
+#nreff 10
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell 
+#name "Breed Uruk-Hai Swordsmen"
+#descr "As the technique of creating Uruk-Hai becomes streamlined, it is now possible to breed Uruk-Hai with specific traits. This is more difficult than breeding for any trait, but provides Uruk-Hai tailored to the creator's wishes."
+#details "Creates ten Uruk-Hai Whelps with swords."
+#school 6
+#researchlevel 4
+#path 7
+#pathlevel 3
+#fatiguecost 15
+#damage -3868
+#effect 10001
+#nreff 10
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell 
+#name "Breed Uruk-Hai Trackers"
+#descr "As the technique of creating Uruk-Hai becomes streamlined, it is now possible to breed Uruk-Hai with specific traits. This is more difficult than breeding for any trait, but provides Uruk-Hai tailored to the creator's wishes."
+#details "Creates ten Uruk-Hai Tracker Whelps."
+#school 6
+#researchlevel 4
+#path 7
+#pathlevel 3
+#fatiguecost 15
+#damage -3866
+#effect 10001
+#nreff 10
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+
+
+
+
