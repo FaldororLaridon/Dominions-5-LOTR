@@ -1525,6 +1525,20 @@
 #siegebonus 100
 #end
 
+#newitem 
+#constlevel 6
+#mainpath 3
+#mainlevel 3
+#type 8
+#name "White Hand Ring"
+#descr "These Rings represent the attempts of Orthanc to replicate the works of the Mastersmiths of Eregion. While not nearly at the same level as the ancient Rings of Power, they are still useful tools, especially for the mages of Isengard."
+#pen 1
+#mr 3
+#morale 3
+#bless
+#restricted "Isengard"
+#end
+
 #newnation
 #name "Isengard"
 #epithet "Rise of the Uruk-Hai"
@@ -1826,6 +1840,8 @@
 #pathlevel 3
 #restricted "Isengard"
 #end
+
+
 
 
 
