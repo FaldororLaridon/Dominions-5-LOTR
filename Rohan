@@ -318,7 +318,7 @@ rcost 1
 #prec 11
 #prot 0
 #size 2
-#mr 13
+#mr 12
 #mor 13
 #enc 2
 #mapmove 26
@@ -331,10 +331,11 @@ rcost 1
 #armor "Half Helmet"
 #armor "Shield"
 #mountedhumanoid
+#holy
 #mounted
 #maxage 60
 #nametype 100
 #darkvision 50
 #formationfighter 3
-#standard
+#standard 1
 #end
