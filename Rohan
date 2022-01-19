@@ -14,4 +14,151 @@ Leaders: scout, Captain, (120 leadership) Marshal (one step higher, maybe with p
 fire magic, some astral) and the Old Wives (nature and some water, a weaker and stronger version, stronger version may also have a level of priest.)
 
 
-#newmonster
+#newmonster 3898
+#name "Rohan Archer"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 10
+#hp 10
+#str 10
+#att 9
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Short Bow"
+#weapon "Broad Sword"
+#armor "Ring Mail Cuirass"
+#armor "Iron Cap"
+#humanoid
+#maxage 60
+#nametype 100
+#end
+
+#newmonster 3899
+#name "Rohan Defender"
+#descr "TBD"
+rcost 1
+#gcost 10000
+#rpcost 12
+#hp 11
+#str 10
+#att 10
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Shield"
+#armor "Half Helmet"
+#humanoid
+#maxage 60
+#nametype 100
+#formationfighter 2
+#end
+
+#newmonster 3900
+#name "Royal Guard"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 10000
+#hp 12
+#str 11
+#att 11
+#def 13
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#humanoid
+#maxage 60
+#formationfighter 2
+#castledef 1
+#bodyguard 1
+#nametype 100
+#end
+
+#newmonster 3901
+#name "Rohan Militia"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#ressize 2
+#rpcost 10
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 9
+#enc 3
+#mapmove 20
+#ap 25
+#eyes 2
+#weapon "Spear"
+#armor "Leather Hauberk"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#maxage 60
+#nametype 100
+#end
+
+#newmonster 3902
+#name "Rohan Outrider"
+#descr "TBD"
+#rcost 5
+#gcost 10010
+#rpcost 14
+#ressize 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 20
+#ap 25
+#eyes 2
+#weapon "Spear"
+#weapon 56
+#armor "Leather Hauberk"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#maxage 60
+#nametype 100
+#end
+
+
