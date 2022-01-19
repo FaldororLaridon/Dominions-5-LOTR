@@ -149,16 +149,156 @@ rcost 1
 #mor 10
 #enc 3
 #mapmove 20
-#ap 25
+#ap 24
 #eyes 2
-#weapon "Spear"
+#weapon 357
 #weapon 56
-#armor "Leather Hauberk"
+#armor "Ring Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#stealthy
+#maxage 60
+#nametype 100
+#patrolbonus 2
+#darkvision 50
+#end
+
+#newmonster 3903
+#name "Rohan Outrider"
+#descr "TBD"
+#rcost 5
+#gcost 10010
+#rpcost 14
+#ressize 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 20
+#ap 24
+#eyes 2
+#weapon "Short Bow"
+#weapon 357
+#weapon 56
+#armor "Ring Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#stealthy
+#maxage 60
+#nametype 100
+#patrolbonus 2
+#darkvision 50
+#end
+
+#newmonster 3904
+#name "Rider of Rohan"
+#descr "TBD"
+#rcost 14
+#ressize 2
+#gcost 10010
+#rpcost 22
+#hp 11
+#str 11
+#att 11
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 4
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#weapon 56
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
 #armor "Shield"
 #mountedhumanoid
 #mounted
 #maxage 60
 #nametype 100
+#darkvision 50
+#berserk 2
+#formationfighter 2
 #end
 
+#newmonster 3905
+#name "Rider of Rohan"
+#descr "TBD"
+#rcost 14
+#ressize 2
+#gcost 10010
+#rpcost 22
+#hp 11
+#str 11
+#att 11
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 4
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#weapon "Composite Bow"
+#weapon 56
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#maxage 60
+#nametype 100
+#darkvision 50
+#berserk 2
+#formationfighter 2
+#end
 
+#newmonster 3906
+#name "Shieldmaiden of Rohan"
+#descr "TBD"
+#rcost 8
+#gcost 10010
+#rpcost 22
+#hp 11
+#str 10
+#att 11
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 20
+#ap 24
+#eyes 2
+#weapon 596
+#weapon "Broad Sword"
+#weapon 56
+#armor "Chain Mail Cuirass"
+#armor "Half Helmet"
+#armor "Shield"
+#female
+#mountedhumanoid
+#mounted
+#nametype 103
+#formationfighter 2
+#end
