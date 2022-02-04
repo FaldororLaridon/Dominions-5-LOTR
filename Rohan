@@ -13,6 +13,20 @@ be Rohans sole sacred unit, which will leave them much more open to focus more h
 Leaders: scout, Captain, (120 leadership) Marshal (one step higher, maybe with priest level?) Minstril level 2 priest, 2 failed apprentices (one weak, one strong, earth and
 fire magic, some astral) and the Old Wives (nature and some water, a weaker and stronger version, stronger version may also have a level of priest.)
 
+Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebeard, Erkenbrand, Theodred
+
+
+#newweapon 891
+#name "Helm's Fist"
+#dmg 3
+#nratt 2
+#att 0
+#def 0
+#len 0
+#sound 10
+#magic
+#secondaryeffect "Lesser Fear"
+#end
 
 #newmonster 3898
 #name "Rohirric Archer"
@@ -486,7 +500,7 @@ rcost 1
 #prec 10
 #prot 0
 #size 2
-#mr 10
+#mr 13
 #mor 10
 #enc 3
 #mapmove 14
@@ -514,7 +528,7 @@ rcost 1
 #prec 10
 #prot 0
 #size 2
-#mr 10
+#mr 14
 #mor 10
 #enc 3
 #mapmove 14
@@ -546,7 +560,7 @@ rcost 1
 #prec 10
 #prot 0
 #size 2
-#mr 10
+#mr 13
 #mor 10
 #enc 3
 #mapmove 14
@@ -577,7 +591,7 @@ rcost 1
 #prec 10
 #prot 0
 #size 2
-#mr 10
+#mr 14
 #mor 10
 #enc 3
 #mapmove 14
@@ -594,6 +608,46 @@ rcost 1
 #magicskill 6 2
 #magicskill 7 1
 #custommagic 9728 20
+#end
+
+#newmonster 3915
+#name "Ghost of Vengeance"
+#fixedname "Helm Hammerhand"
+#descr "TBD"
+#hp 10
+#str 13
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 15
+#mor 15
+#enc 0
+#mapmove 14
+#ap 14
+#eyes 2
+#weapon "Helm's Fist"
+#djinn
+#itemslots 128
+#itemslots 1024
+#itemslots 12288
+#undead
+#float
+#pooramphibian
+#stealthy
+#assassin
+#maxage 1000
+#ethereal
+#coldres 10
+#corpseeater 1
+#deadhp 2
+#cold 4
+#fear 5
+#spiritsight
+#patrolbonus 5
+#neednoteat
+#noleader
 #end
 
 
