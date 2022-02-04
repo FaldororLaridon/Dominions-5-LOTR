@@ -15,7 +15,7 @@ fire magic, some astral) and the Old Wives (nature and some water, a weaker and 
 
 
 #newmonster 3898
-#name "Rohan Archer"
+#name "Rohirric Archer"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -38,12 +38,12 @@ fire magic, some astral) and the Old Wives (nature and some water, a weaker and 
 #armor "Ring Mail Cuirass"
 #armor "Iron Cap"
 #humanoid
-#maxage 60
+#maxage 80
 #nametype 100
 #end
 
 #newmonster 3899
-#name "Rohan Defender"
+#name "Rohirric Defender"
 #descr "TBD"
 rcost 1
 #gcost 10000
@@ -66,7 +66,7 @@ rcost 1
 #armor "Shield"
 #armor "Half Helmet"
 #humanoid
-#maxage 60
+#maxage 80
 #nametype 100
 #formationfighter 2
 #end
@@ -95,7 +95,7 @@ rcost 1
 #armor "Half Helmet"
 #armor "Shield"
 #humanoid
-#maxage 60
+#maxage 80
 #formationfighter 2
 #castledef 1
 #bodyguard 1
@@ -127,7 +127,7 @@ rcost 1
 #armor "Shield"
 #mountedhumanoid
 #mounted
-#maxage 60
+#maxage 80
 #nametype 100
 #end
 
@@ -159,7 +159,7 @@ rcost 1
 #mountedhumanoid
 #mounted
 #stealthy
-#maxage 60
+#maxage 80
 #nametype 100
 #patrolbonus 2
 #darkvision 50
@@ -194,7 +194,7 @@ rcost 1
 #mountedhumanoid
 #mounted
 #stealthy
-#maxage 60
+#maxage 80
 #nametype 100
 #patrolbonus 2
 #darkvision 50
@@ -228,7 +228,7 @@ rcost 1
 #armor "Shield"
 #mountedhumanoid
 #mounted
-#maxage 60
+#maxage 80
 #nametype 100
 #darkvision 50
 #berserk 2
@@ -264,7 +264,7 @@ rcost 1
 #armor "Shield"
 #mountedhumanoid
 #mounted
-#maxage 60
+#maxage 80
 #nametype 100
 #darkvision 50
 #berserk 2
@@ -300,6 +300,7 @@ rcost 1
 #female
 #mountedhumanoid
 #mounted
+#maxage 80
 #nametype 103
 #formationfighter 3
 #end
@@ -333,9 +334,144 @@ rcost 1
 #mountedhumanoid
 #holy
 #mounted
-#maxage 60
+#maxage 80
 #nametype 100
 #darkvision 50
 #formationfighter 3
 #standard 1
 #end
+
+#newmonster 3908
+#name "Scout of the Mark"
+#descr "TBD"
+#gcost 10010
+#rcost 5
+#rpcost 1
+#ressize 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 20
+#ap 24
+#eyes 2
+#weapon "Short Bow"
+#weapon 357
+#weapon 56
+#armor "Ring Mail Hauberk"
+#armor "Half Helmet"
+#mountedhumanoid
+#mounted
+#maxage 80
+#darkvision 50
+#nametype 100
+#end
+
+#newmonster 3909
+#name "Captain of the Mark"
+#descr "TBD"
+#gcost 10010
+#rcost 14
+#ressize 2
+#rpcost 1
+#hp 11
+#str 11
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 4
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#weapon 56
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#maxage 80
+#nametype 100
+#darkvision 50
+#formationfighter 3
+#goodleader
+#command 40
+#end
+
+#newmonster 3910
+#name "Marshal of the Mark"
+#descr "TBD"
+#gcost 10010
+#rcost 14
+#ressize 2
+#rpcost 2
+#reqtemple
+#hp 12
+#str 11
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 13
+#enc 4
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#weapon 56
+#armor "Chain Mail Hauberk"
+#armor "Full Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#maxage 80
+#nametype 100
+#darkvision 50
+#formationfighter 3
+#expertleader
+#magicpath 7 1
+#end
+
+#newmonster 3911
+#name "Rohirric Minstril"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 2
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#maxage 80
+#namelist 100
+#okleader
+#magicpath 7 2
+#end
+
+
+
