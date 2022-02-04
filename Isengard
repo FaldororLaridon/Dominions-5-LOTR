@@ -238,7 +238,7 @@
 #eyes 2
 #weapon "Spear"
 #armor "Furs"
-#armor "Great Hide Shield"
+#armor "Tower Shield"
 #humanoid
 #stealthy
 #maxage 60
@@ -268,7 +268,7 @@
 #weapon "Axe"
 #weapon "Javelin"
 #armor "Furs"
-#armor "Great Hide Shield"
+#armor "Tower Shield"
 #humanoid
 #stealthy
 #maxage 60
@@ -895,7 +895,7 @@
 #eyes 2
 #weapon "Short Sword"
 #armor "Chain Mail Hauberk"
-#armor "Great Hide Shield"
+#armor "Tower Shield"
 #armor "Full Helmet"
 #holy
 #humanoid
