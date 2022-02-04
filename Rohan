@@ -443,7 +443,7 @@ rcost 1
 #darkvision 50
 #formationfighter 3
 #expertleader
-#magicpath 7 1
+#magicskill 7 1
 #end
 
 #newmonster 3911
@@ -470,7 +470,7 @@ rcost 1
 #maxage 80
 #namelist 100
 #okleader
-#magicpath 7 2
+#magicskill 7 2
 #end
 
 #newmonster 3912
@@ -497,12 +497,104 @@ rcost 1
 #maxage 80
 #namelist 100
 #poorleader
-#magicpath 3 1
+#magicskill 3 1
 #custommagic 3200 25
 #end
 
 #newmonster 3913
-#name "
+#name "Eorlingas Wizard"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 2
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robes"
+#humanoid
+#maxage 80
+#namelist 100
+#poorleader
+#magicskill 3 1
+#magicskill 0 1
+#magicskill 4 1
+#custommagic 3468 100
+#custommagic 3968 20
+#end
+
+#newmonster 3914
+#name "Vidumavi"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 2
+#hp 10
+#str 9
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#female
+#maxage 80
+#autohealer 1
+#nametype 103
+#poorleader
+#magicskill 2 1
+#magicskill 6 1
+#custommagic 9728 20
+#end
+
+#newmonster 3915
+#name "Viduald"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 2
+#hp 10
+#str 9
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#female
+#maxage 80
+#autohealer 1
+#nametype 103
+#poorleader
+#magicskill 2 2
+#magicskill 6 2
+#magicskill 7 1
+#custommagic 9728 20
+#end
 
 
 
