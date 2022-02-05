@@ -615,7 +615,7 @@ rcost 1
 #fixedname "Helm Hammerhand"
 #descr "TBD"
 #hp 10
-#str 13
+#str 15
 #att 12
 #def 12
 #prec 10
@@ -649,6 +649,12 @@ rcost 1
 #neednoteat
 #noleader
 #end
+
+#newmonster 3916
+#name "King of the Mark"
+#fixedname "Theoden"
+#descr "TBD"
+
 
 
 
