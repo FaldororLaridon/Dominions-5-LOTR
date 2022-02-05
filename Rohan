@@ -28,6 +28,12 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #secondaryeffect "Lesser Fear"
 #end
 
+#newweapon 892
+#copyweapon "Dagger"
+#name "Dagger of Westernesse"
+#magic
+#end
+
 #newmonster 3898
 #name "Rohirric Archer"
 #descr "TBD"
@@ -654,7 +660,19 @@ rcost 1
 #name "King of the Mark"
 #fixedname "Theoden"
 #descr "TBD"
-
+#hp 12
+#str 11
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 13
+#enc 4
+#mapmove 20
+#ap 20
+#eyes 2
 
 
 
