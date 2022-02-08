@@ -1472,10 +1472,59 @@
 #expertleader
 #inspirational 4
 #magicskill 3 1
+#magicskill 8 3
 #researchbonus 3
 #crossbreeder 3
 #incunrest -20
 #end
+
+#newmonster 3926
+#name "Chosen of Orthanc"
+#descr "TBD"
+#hp 12
+#str 12
+#att 11
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#morale 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Axe"
+#armor "Full Helmet"
+#armor "Tower Shield"
+#armor "Chain Mail Cuirass"
+#humanoid
+#maxage 60
+#castledef 1
+#nametype 100
+#end
+
+#newmonster 3927
+#name "Furnacemaster"
+#descr "TBD"
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#armor "Robes"
+#humanoid
+#maxage 60
+#
 
 
 #newsite
