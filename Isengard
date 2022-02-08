@@ -783,6 +783,7 @@
 #armor "Full Orc-Mail"
 #armor "Full Helmet"
 #humanoid
+#holy
 #maxage 120
 #startage 1
 #darkvision 50
