@@ -63,7 +63,7 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #end
 
 #newmonster 3899
-#name "Rohirric Defender"
+#name "Guardsman of the Mark"
 #descr "TBD"
 rcost 1
 #gcost 10000
@@ -81,7 +81,7 @@ rcost 1
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon "Broad Sword"
+#weapon "Spear"
 #armor "Ring Mail Hauberk"
 #armor "Shield"
 #armor "Half Helmet"
