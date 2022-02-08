@@ -66,6 +66,17 @@
 #secondaryeffectalways 811
 #end
 
+#newitem
+#name "Fires of Orthanc"
+#descr "Within the depths of Orthanc are many furnaces, vents and fissures. At need, these can be directed at an attacking army in defence of the Wizard's Tower."
+#constlevel 12
+#mainpath 0
+#mainlevel 2
+#type 8
+#autospell "Falling Fires"
+#autospellrepeat 1/1
+#end
+
 #newmonster 3857
 #name "Isengard Orc Warrior"
 #descr "TBD"
@@ -1523,8 +1534,11 @@
 #weapon "Fist"
 #armor "Robes"
 #humanoid
+#startitem "Fires of Orthanc"
 #maxage 60
-#
+#noleader
+#nametype 100
+#end
 
 
 #newsite
@@ -1535,6 +1549,7 @@
 #rarity 5
 #homecom "Orthanc Wizard"
 #homecom "White Hand of Orthanc"
+#wallcom "Furnacemaster"
 #xp 4
 #scry 3
 #end
