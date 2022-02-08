@@ -623,6 +623,8 @@
 #montagweight 5
 #montag 1011
 #montagweight 1
+#end 
+
 #newmonster 3873
 #name "Uruk-Hai Champion"
 #descr "TBD"
