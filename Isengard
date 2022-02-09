@@ -420,7 +420,7 @@
 #end
 
 #newmonster 3867
-#name "Uruk-Hai Raider"
+#name "Uruk-Hai Tracker"
 #descr "TBD"
 #rcost 1
 #gcost 13
@@ -1076,7 +1076,7 @@
 #end
 
 #newmonster 3886
-#name "Orthanc Wizard"
+#name "White Wizard"
 #descr "TBD"
 #rcost 1
 #gcost 10000
@@ -1550,7 +1550,6 @@
 #gems 3 2
 #level 0
 #rarity 5
-#homecom "Orthanc Wizard"
 #homecom "White Hand of Orthanc"
 #homemon "Chosen of Orthanc"
 #wallcom "Furnacemaster"
@@ -1647,6 +1646,7 @@
 #addreccom "Orc Breeder"
 #addreccom "Orc Wolfcaller"
 #addreccom "Isengard Apprentice"
+#addreccom "White Wizard"
 #addreccom "Voice of the White Hand"
 #hero1 3895
 #hero2 3896
@@ -1831,6 +1831,52 @@
 #end
 
 #newspell
+#name "Breed Uruk-Hai Captain"
+#descr "Isengard requires powerful commanders to lead their vast armies. It is not easy to ensure the Uruk-hai in question has the qualities needed for a leader, but the result is a fierce and loyal commander. Extra magical power and number of subjects allows the Uruk-Hai to be able to take up his role much quicker than standard Uruk-Hai."
+#school 6
+#researchlevel 2
+#path 7
+#pathlevel 2
+#fatiguecost 10
+#damage -3889
+#nreff 1
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell
+#name "Breed Uruk-Hai Apprentice"
+#descr "Through careful application, it is possible to breed an Uruk-Hai with aptitude for the magical arts. While not incredible mages, these Uruk-Hai have great endurance, and can well supplement Isengards abilities on the battlefield. Extra magical power and number of subjects allows the Uruk-Hai to be able to take up his role much quicker than standard Uruk-Hai."
+#school 6
+#researchlevel 2
+#path 7
+#pathlevel 2
+#fatiguecost 10
+#damage -3890
+#nreff 1
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+#newspell
+#name "Breed Will of Orthanc"
+#descr "Through careful application, an Uruk-Hai can be bred who shows even greater devotion to the Awakening God than the rest of that fell race. They are trained quickly into the priesthood, and their black devotion to their god is an inspiration to the rest of their kin. Extra magical power and number of subjects allows the Uruk-Hai to be able to take up his role much quicker than standard Uruk-Hai."
+#school 6
+#researchlevel 2
+#path 7
+#pathlevel 2
+#fatiguecost 10
+#damage -3891
+#nreff 1
+#range 0
+#restricted "Isengard"
+#aispellmod 100
+#end
+
+
+#newspell
 #copyspell "Confusion"
 #name "Voice of Doubt"
 #descr "The Isengard priest speaks and causes the victims to become confused and doubtt their own goals, convictions, and even the evidence of their own eyes."
@@ -1908,6 +1954,7 @@
 #pathlevel 3
 #restricted "Isengard"
 #end
+
 
 
 
