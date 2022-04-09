@@ -392,6 +392,7 @@ rcost 1
 #maxage 80
 #darkvision 50
 #nametype 100
+#noleader
 #end
 
 #newmonster 3909
@@ -425,6 +426,7 @@ rcost 1
 #maxage 80
 #nametype 100
 #darkvision 50
+#stealthy
 #formationfighter 3
 #goodleader
 #command 40
@@ -673,7 +675,7 @@ rcost 1
 #mor 15
 #enc 4
 #mapmove 22
-#ap 22
+#ap 24
 #eyes 2
 #weapon "Broad Sword"
 #armor "Chain Mail Hauberk"
@@ -687,10 +689,34 @@ rcost 1
 #darkvision 50
 #formationfighter 3
 #berserk 2
-#expertleader
-#inspirational 1
+#superiorleader
 #magicskill 7 1
 #end
 
-
+#newmonster 3917
+#name "Third Marshal of the Mark"
+#fixedname "Éomer"
+#descr "TBD"
+#hp 16
+#str 15
+#att 13
+#def 15
+#prec 10
+#prot 0
+#size 3
+#mr 13
+#mor 15
+#enc 4
+#mapmove 22
+#ap 20
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 80
+#startage 28
 
