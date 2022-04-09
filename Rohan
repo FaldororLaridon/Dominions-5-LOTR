@@ -719,4 +719,16 @@ rcost 1
 #holy
 #maxage 80
 #startage 28
+#woundfend 2
+#berserk 4
+#darkvision 50
+#patrolbonus 10
+#expertleader
+#inspirational 1
+#magicskill 7 1
+#end
 
+#newmonster 3918
+#name "Lord of Helm's Deep"
+#fixedname "Erkenbrand"
+#descr "TBD"
