@@ -662,9 +662,9 @@ rcost 1
 #name "King of the Mark"
 #fixedname "Theoden"
 #descr "TBD"
-#hp 13
+#hp 14
 #str 13
-#att 12
+#att 13
 #def 14
 #prec 10
 #prot 0
