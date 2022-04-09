@@ -35,7 +35,7 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #end
 
 #newmonster 3898
-#name "Rohirric Archer"
+#name "Riddermark Archer"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -68,8 +68,8 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 rcost 1
 #gcost 10000
 #rpcost 12
-#hp 11
-#str 10
+#hp 10
+#str 11
 #att 10
 #def 11
 #prec 10
@@ -92,7 +92,7 @@ rcost 1
 #end
 
 #newmonster 3900
-#name "Royal Guard"
+#name "Meduseld Guard"
 #descr "TBD"
 #rcost 1
 #gcost 10000
@@ -115,6 +115,7 @@ rcost 1
 #armor "Half Helmet"
 #armor "Shield"
 #humanoid
+#holy
 #maxage 80
 #formationfighter 2
 #castledef 1
@@ -123,7 +124,7 @@ rcost 1
 #end
 
 #newmonster 3901
-#name "Rohan Militia"
+#name "Riddermark Militia"
 #descr "TBD"
 #rcost 1
 #gcost 10000
@@ -135,7 +136,7 @@ rcost 1
 #def 9
 #prec 10
 #prot 0
-#size 2
+#size 3
 #mr 10
 #mor 9
 #enc 3
@@ -152,7 +153,7 @@ rcost 1
 #end
 
 #newmonster 3902
-#name "Rohan Outrider"
+#name "Riddermark Outrider"
 #descr "TBD"
 #rcost 5
 #gcost 10010
@@ -164,7 +165,7 @@ rcost 1
 #def 10
 #prec 10
 #prot 0
-#size 2
+#size 3
 #mr 10
 #mor 10
 #enc 3
@@ -186,7 +187,7 @@ rcost 1
 #end
 
 #newmonster 3903
-#name "Rohan Outrider"
+#name "Riddermark Outrider"
 #descr "TBD"
 #rcost 5
 #gcost 10010
@@ -198,7 +199,7 @@ rcost 1
 #def 10
 #prec 10
 #prot 0
-#size 2
+#size 3
 #mr 10
 #mor 10
 #enc 3
@@ -221,7 +222,7 @@ rcost 1
 #end
 
 #newmonster 3904
-#name "Rider of Rohan"
+#name "Knight of the Mark"
 #descr "TBD"
 #rcost 14
 #ressize 2
@@ -233,7 +234,7 @@ rcost 1
 #def 12
 #prec 11
 #prot 0
-#size 2
+#size 3
 #mr 10
 #mor 11
 #enc 4
@@ -256,7 +257,7 @@ rcost 1
 #end
 
 #newmonster 3905
-#name "Rider of Rohan"
+#name "Knight of the Mark"
 #descr "TBD"
 #rcost 14
 #ressize 2
@@ -268,7 +269,7 @@ rcost 1
 #def 12
 #prec 11
 #prot 0
-#size 2
+#size 3
 #mr 10
 #mor 11
 #enc 4
@@ -292,7 +293,7 @@ rcost 1
 #end
 
 #newmonster 3906
-#name "Shieldmaiden of Rohan"
+#name "Shieldmaiden of the Mark"
 #descr "TBD"
 #rcost 8
 #gcost 10010
@@ -304,7 +305,7 @@ rcost 1
 #def 12
 #prec 10
 #prot 0
-#size 2
+#size 3
 #mr 12
 #mor 13
 #enc 3
@@ -338,7 +339,7 @@ rcost 1
 #def 13
 #prec 11
 #prot 0
-#size 2
+#size 3
 #mr 12
 #mor 13
 #enc 2
@@ -374,7 +375,7 @@ rcost 1
 #def 10
 #prec 10
 #prot 0
-#size 2
+#size 3
 #mr 10
 #mor 10
 #enc 3
@@ -406,7 +407,7 @@ rcost 1
 #def 12
 #prec 10
 #prot 0
-#size 2
+#size 3
 #mr 10
 #mor 11
 #enc 4
@@ -443,7 +444,7 @@ rcost 1
 #def 12
 #prec 10
 #prot 0
-#size 2
+#size 3
 #mr 10
 #mor 13
 #enc 4
@@ -454,7 +455,7 @@ rcost 1
 #weapon "Broad Sword"
 #weapon 56
 #armor "Chain Mail Hauberk"
-#armor "Full Helmet"
+#armor "Half Helmet"
 #armor "Shield"
 #mountedhumanoid
 #mounted
@@ -467,7 +468,7 @@ rcost 1
 #end
 
 #newmonster 3911
-#name "Rohirric Minstril"
+#name "Riddermark Minstril"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -494,7 +495,7 @@ rcost 1
 #end
 
 #newmonster 3912
-#name "Rohirric Apprentice"
+#name "Eorlingas Apprentice"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -645,7 +646,8 @@ rcost 1
 #assassin
 #maxage 1000
 #ethereal
-#coldres 10
+#coldres 15
+#coldpower 4
 #corpseeater 1
 #deadhp 2
 #cold 4
@@ -660,19 +662,35 @@ rcost 1
 #name "King of the Mark"
 #fixedname "Theoden"
 #descr "TBD"
-#hp 12
-#str 11
+#hp 13
+#str 13
 #att 12
-#def 12
+#def 14
 #prec 10
 #prot 0
-#size 2
-#mr 10
-#mor 13
+#size 3
+#mr 14
+#mor 15
 #enc 4
-#mapmove 20
-#ap 20
+#mapmove 22
+#ap 22
 #eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Golden Shield"
+#mountedhumanoid
+#mounted
+#holy
+#startage 71
+#maxage 80
+#darkvision 50
+#formationfighter 3
+#berserk 2
+#expertleader
+#inspirational 1
+#magicskill 7 1
+#end
 
 
 
