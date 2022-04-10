@@ -35,6 +35,7 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #end
 
 #newweapon 893
+#name "Eowyn's Blade"
 #
 
 #newmonster 3898
