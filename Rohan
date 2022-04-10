@@ -678,6 +678,7 @@ rcost 1
 #ap 24
 #eyes 2
 #weapon "Broad Sword"
+#weapon 56
 #armor "Chain Mail Hauberk"
 #armor "Half Helmet"
 #armor "Golden Shield"
@@ -711,6 +712,7 @@ rcost 1
 #ap 20
 #eyes 2
 #weapon "Broad Sword"
+#weapon 56
 #armor "Chain Mail Hauberk"
 #armor "Half Helmet"
 #armor "Shield"
@@ -729,6 +731,32 @@ rcost 1
 #end
 
 #newmonster 3918
-#name "Lord of Helm's Deep"
+#name "Lord of the Hornburg"
 #fixedname "Erkenbrand"
 #descr "TBD"
+#hp 13
+#str 13
+#att 13
+#def 14
+#prec 10
+#prot 0
+#size 3
+#mr 11
+#mor 14
+#enc 4
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#weapon 56
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#startitem "Horn of Valor"
+#mounted
+#maxage 80
+#startage 40
+#castledef 5
+#
