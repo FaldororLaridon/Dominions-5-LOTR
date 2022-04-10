@@ -29,10 +29,13 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #end
 
 #newweapon 892
-#copyweapon "Dagger"
-#name "Dagger of Westernesse"
+#copyweapon "Short Sword"
+#name "Short Sword of Westernesse"
 #magic
 #end
+
+#newweapon 893
+#
 
 #newmonster 3898
 #name "Riddermark Archer"
@@ -803,4 +806,39 @@ rcost 1
 
 #newmonster 3920
 #name "Second Marshal of the Mark"
-#fixedname "Theodred"
+#fixedname "Théodred"
+#descr "TBD"
+#hp 14
+#str 14
+#att 13
+#def 14
+#prec 10
+#prot 0
+#size 3
+#mr 12
+#mor 16
+#enc 4
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Broad Sword"
+#weapon 56
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#holy
+#unique
+#maxage 80
+#startage 28
+#darkvision 50
+#expertleader
+#inspirational 1
+#formationfighter 3
+#magicskill 7 1
+#end
+
+#newmonster 3921
+#name "White Lady of Rohan"
+#
