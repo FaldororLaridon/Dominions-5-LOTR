@@ -641,6 +641,7 @@ rcost 1
 #itemslots 128
 #itemslots 1024
 #itemslots 12288
+#unique
 #undead
 #float
 #pooramphibian
@@ -684,6 +685,7 @@ rcost 1
 #armor "Golden Shield"
 #mountedhumanoid
 #mounted
+#unique
 #holy
 #startage 71
 #maxage 80
@@ -718,6 +720,7 @@ rcost 1
 #armor "Shield"
 #mountedhumanoid
 #mounted
+#unique
 #holy
 #maxage 80
 #startage 28
@@ -727,6 +730,7 @@ rcost 1
 #patrolbonus 10
 #expertleader
 #inspirational 1
+#formationfighter 3
 #magicskill 7 1
 #end
 
@@ -756,7 +760,47 @@ rcost 1
 #mountedhumanoid
 #startitem "Horn of Valor"
 #mounted
+#unique
 #maxage 80
-#startage 40
+#startage 45
 #castledef 5
-#
+#incprovdef 5
+#expertleader
+#formationfighter 3
+#end
+
+#newmonster 3919
+#name "Captain of the Westfold"
+#fixedname "Grimbold"
+#descr "TBD"
+#hp 12
+#str 13
+#att 12
+#def 15
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 15
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#humanoid
+#unique
+#lanceok
+#startage 32
+#maxage 80
+#darkvision 50
+#goodleader
+#command 40
+#formationfighter 3
+#end
+
+#newmonster 3920
+#name "Second Marshal of the Mark"
+#fixedname "Theodred"
