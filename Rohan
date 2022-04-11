@@ -860,5 +860,37 @@ rcost 1
 #end
 
 #newmonster 3921
-#name "White Lady of Rohan"
-#
+#name "Lady of the Shield-Arm"
+#fixedname "Éowyn"
+#descr "TBD"
+#hp 12
+#str 12
+#att 12
+#def 13
+#prec 10
+#prot 0
+#size 3
+#mr 12
+#mor 30
+#enc 3
+#mapmove 20
+#ap 24
+#eyes 2
+#weapon "Éowyn's Blade"
+#weapon 56
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#female
+#unique
+#holy
+#mountedhumanoid
+#mounted
+#fixedage 24
+#maxage 80
+#formationfighter 3
+#magicskill 7 1
+#end
+
+#newmonster 3922
+#name "
