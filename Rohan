@@ -35,8 +35,27 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #end
 
 #newweapon 893
-#name "Eowyn's Blade"
-#
+#name "Éowyn's Smite"
+#dmg 4
+#nratt 1
+#att 0
+#def 0
+#len 0
+#sound 18
+#magic
+#armornegating
+#undeadonly
+#secondaryeffect "Soul Slay"
+#norepel
+#end
+
+#newweapon 894
+#copyweapon "Broad Sword"
+#name "Éowyn's Blade"
+#magic
+#secondaryeffect "Éowyn's Smite"
+#end
+
 
 #newmonster 3898
 #name "Riddermark Archer"
