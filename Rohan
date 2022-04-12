@@ -1028,6 +1028,7 @@ rcost 1
 #okleader
 #magicskill 6 4
 #spellsinger
+#latehero 16
 #end
 
 #newmonster 3925
