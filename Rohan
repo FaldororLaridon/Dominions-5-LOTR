@@ -28,13 +28,21 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #secondaryeffect "Lesser Fear"
 #end
 
-#newweapon 892
-#copyweapon "Short Sword"
-#name "Short Sword of Westernesse"
+#newweapon 894
+#copyweapon "Dagger"
+#name "Bane of Angmar"
 #magic
+#undeadonly
 #end
 
 #newweapon 893
+#copyweapon "Dagger"
+#name "Dagger of Cardolan"
+#magic
+#secondaryeffect "Bane of Angmar"
+#end
+
+#newweapon 894
 #name "Éowyn's Smite"
 #dmg 4
 #nratt 1
@@ -49,7 +57,7 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #norepel
 #end
 
-#newweapon 894
+#newweapon 895
 #copyweapon "Broad Sword"
 #name "Éowyn's Blade"
 #magic
@@ -930,4 +938,7 @@ rcost 1
 #end
 
 #newmonster 3923
+#name "Esquire of Rohan"
+#fixedname "Meriadoc Brandybuck"
+#descr "TBD"
 
