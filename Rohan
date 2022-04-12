@@ -1182,3 +1182,49 @@ rcost 1
 #templepic 11
 #homefort 3
 #end
+
+#newitem
+#constlevel 0
+#mainpath
+#mainpath 6
+#mainlevel 1
+#type 7
+#name "Horse"
+#descr "A fine steed bred in Rohan. It provides to it's bearer all the benefits of being mounted."
+#def 3
+#mapspeed 10
+#run
+#restricted "Rohan"
+#maxsize 2
+#nomounted
+#patrolbonus 1
+#end
+
+#newspell
+#name "Call Mearas"
+#descr "Summons five Mearas horses, which are mounted and ridden into battle by the most elite warriors of Rohan."
+#school 0
+#researchlevel 3
+#path 6
+#pathlevel 3
+#fatiguecost 20
+#damage 3907
+#effect 10001
+#nreff 5
+#range 0
+#onlyatsite "Meduseld"
+#restricted "Rohan"
+#end
+
+
+#newspell
+#name "Huorndark"
+#descr "A group of Huorns are roused in wrath, and set forth to an enemy province to wreak havoc on the tree-killers."
+#school 6
+#researchlevel 5
+#path 6
+#pathlevel 4
+#fatiguecost 15
+#nreff 20
+#onlygeosrec 
+
