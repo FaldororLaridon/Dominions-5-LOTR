@@ -78,7 +78,7 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 
 
 #newmonster 3898
-#name "Riddermark Archer"
+#name "Eorlingas Archer"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -167,7 +167,7 @@ rcost 1
 #end
 
 #newmonster 3901
-#name "Riddermark Militia"
+#name "Eorlingas Militia"
 #descr "TBD"
 #rcost 1
 #gcost 10000
@@ -196,7 +196,7 @@ rcost 1
 #end
 
 #newmonster 3902
-#name "Riddermark Outrider"
+#name "Eorlingas Outrider"
 #descr "TBD"
 #rcost 5
 #gcost 10010
@@ -230,7 +230,7 @@ rcost 1
 #end
 
 #newmonster 3903
-#name "Riddermark Outrider"
+#name "Eorlingas Outrider"
 #descr "TBD"
 #rcost 5
 #gcost 10010
@@ -514,7 +514,7 @@ rcost 1
 #end
 
 #newmonster 3911
-#name "Riddermark Minstril"
+#name "Eorlingas Minstril"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -969,7 +969,7 @@ rcost 1
 #eyes 2
 #weapon "Dagger of Cardolan"
 #armor "Leather Cuirass"
-#armor "Leather Cap"
+#armor "Iron Cap"
 #armor "Shield"
 #humanoid
 #startitem 532
@@ -1082,7 +1082,7 @@ rcost 1
 #newsite
 #name "Meduseld"
 #loc 16384
-#path 3
+#path 8
 #level 0
 #rarity 5
 #homemon "Meduseld Guard"
@@ -1108,3 +1108,77 @@ rcost 1
 #rarity 5
 #end
 
+
+#newnation
+#name "Rohan"
+#epithet "Lords of the Mark"
+#era 3
+#descr "TBD"
+#summary "TBD"
+#brief "Rohan is a lush land of sweeping plains. Horses live in abundance there, and the people of Rohan are skilled riders. The great forest of Fangorn and the nearby Tower of Orthanc lend inspiration and training to the mages of this proud land." 
+#addstartsite "Meduseld"
+#addstartsite "Fangorn Forest"
+#addstartsite "Helm's Deep"
+#likesterr 0
+#cavenation 0
+#hatesterr 160
+#ainaturenation
+#startcom "Marshal of the Mark"
+#addforeignunit "Eorlingas Militia"
+#startscout "Scout of the Mark"
+#startunittype1 "Guardsman of the Mark"
+#startunitnbrs1 15
+#startunittype2 "Eorlingas Archer"
+#startunitnbrs2 15
+#addrecunit "Eorlingas Archer"
+#addrecunit "Guardsman of the Mark"
+#addrecunit "Eorlingas Militia"
+#addrecunit 3902
+#addrecunit 3903
+#addrecunit 3904
+#addrecunit 3905
+#addrecunit "Shieldmaiden of the Mark"
+#addreccom "Scout of the Mark"
+#addreccom "Captain of the Mark"
+#addreccom "Marshal of the Mark"
+#addreccom "Eorlingas Minstril"
+#addreccom "Eorlingas Apprentice"
+#addreccom "Eorlingas Wizard"
+#addreccom "Vidumavi"
+#hero1 3915
+#hero2 3916
+#hero3 3917
+#hero4 3918
+#hero5 3919
+#hero6 3920
+#hero7 3921
+#hero8 3922
+#hero9 3923
+#hero10 3924
+#defcom1 "Captain of the Mark"
+#defcom2 "Marshal of the Mark"
+#defunit1 "Guardsman of the Mark
+#defunit1b "Eorlingas Militia"
+#defunit2 "Eorlingas Archer"
+#defunit2b "Guardsman of the Mark"
+#defmult1 20
+#defmult1b 8
+#defmult2 10
+#defmult2b 10
+#wallcom "Captain of the Mark"
+#wallunit "Eorlingas Archer"
+#wallmult 10
+#homerealm 1
+#homerealm 10
+#addgod "Vala of Growth"
+#addgod "Vala of the Hunt"
+#addgod "Vala of Valour"
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#cheapgod20 "Vala of Valour"
+#cheapgod20 "Maiden of Sun"
+#noundeadgods
+#fortera 1
+#templepic 11
+#homefort 3
+#end
