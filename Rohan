@@ -484,6 +484,7 @@ rcost 1
 #armor "Shield"
 #mountedhumanoid
 #mounted
+#holy
 #maxage 80
 #nametype 100
 #darkvision 50
@@ -888,9 +889,43 @@ rcost 1
 #mounted
 #fixedage 24
 #maxage 80
+#goodleader
 #formationfighter 3
 #magicskill 7 1
 #end
 
 #newmonster 3922
-#name "
+#name "Marshal of Edoras"
+#fixedname "Elfhelm"
+#descr "TBD"
+#hp 13
+#str 13
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 3
+#mr 10
+#mor 14
+#enc 4
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#weapon 56
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#holy
+#unique
+#maxage 80
+#nametype 100
+#darkvision 50
+#formationfighter 3
+#expertleader
+#magicskill 7 1
+#end
+
