@@ -32,6 +32,7 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #copyweapon "Dagger"
 #name "Bane of Angmar"
 #magic
+#armorpiercing
 #undeadonly
 #end
 
@@ -63,6 +64,17 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #magic
 #secondaryeffect "Éowyn's Smite"
 #end
+
+#selectitem 532
+#spr "images/eregion/nothing.tga"
+#name "Luck of a Hobbit"
+#descr "Always Lucky"
+#constlevel 12
+#type 8
+#luck
+#nofind
+#end
+
 
 
 #newmonster 3898
@@ -895,6 +907,7 @@ rcost 1
 #holy
 #mountedhumanoid
 #mounted
+#stealthy
 #fixedage 24
 #maxage 80
 #goodleader
@@ -941,4 +954,129 @@ rcost 1
 #name "Esquire of Rohan"
 #fixedname "Meriadoc Brandybuck"
 #descr "TBD"
+#hp 8
+#str 8
+#att 11
+#def 13
+#prec 11
+#prot 0
+#size 1
+#mr 14
+#mor 13
+#enc 3
+#mapmove 8
+#ap 8
+#eyes 2
+#weapon "Dagger of Cardolan"
+#armor "Leather Cuirass"
+#armor "Leather Cap"
+#armor "Shield"
+#humanoid
+#startitem 532
+#itemslots 31878
+#unique
+#stealthy 70
+#maxage 100
+#startage 30
+#supplybonus -2
+#noleader
+#end
+
+#newmonster 3924
+#name "Ancient Tree-Herd"
+#fixedname "Fangorn"
+#spr1 
+#spr2 
+#descr "Fangorn is slow to move and to act as are all his people. However, he recognises the power of Doriath, and knows that this war of the gods may well cause the destruction of the trees he loves. As such, he has pledged to aid Doriath in the Ascension Wars, hoping to dull the blows that will be felt across all forests across the lands. Fangorn needs no weapons or armour, his great strength as an Ent is more than sufficient for his needs.
+' Aye, aye, there was all one wood once upon a time from here to the Mountains of Lune, and this was just the East End.
+
+‘Those were the broad days! Time was when I could walk and sing all day and hear no more than the echo of my own voice in the hollow hills. The woods were like the woods of Lothlórien, only thicker, stronger, younger. And the smell of the air! I used to spend a week just breathing.’(The Lord of the Rings, The Two Towers, Chapter 4: Treebeard)"
+#hp 80
+#str 30
+#att 12
+ 
+#prot 19
+#size 4
+#mr 11
+#mor 30
+#enc 1
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Fist"
+#humanoid
+#itemslots 12288
+#plant
+#unique
+#swimming
+#forestsurvival
+#maxage 3000
+#startage 200
+#heal
+#pierceres
+#bluntres
+#fireres -5
+#poisonres 25
+#fear 5
+#summerpower 20
+#darkvision 50
+#forestshape 
+#neednoteat
+#forestshape 3856
+#siegebonus 10
+#ivylord 3
+#okleader
+#magicskill 6 4
+#spellsinger
+#end
+
+#newmonster 3925
+#name "Tree-Herd"
+#fixedname "Fangorn"
+#spr1 "images/Doriath/fangorn_1.tga"
+#spr2 "images/Doriath/fangorn_2.tga"
+#descr "Fangorn is slow to move and to act as are all his people. However, he recognises the power of Doriath, and knows that this war of the gods may well cause the destruction of the trees he loves. As such, he has pledged to aid Doriath in the Ascension Wars, hoping to dull the blows that will be felt across all forests across the lands. Fangorn needs no weapons or armour, his great strength as an Ent is more than sufficient for his needs.
+' Aye, aye, there was all one wood once upon a time from here to the Mountains of Lune, and this was just the East End.
+
+‘Those were the broad days! Time was when I could walk and sing all day and hear no more than the echo of my own voice in the hollow hills. The woods were like the woods of Lothlórien, only thicker, stronger, younger. And the smell of the air! I used to spend a week just breathing.’(The Lord of the Rings, The Two Towers, Chapter 4: Treebeard)"
+#hp 80
+#str 30
+#att 12
+ 
+#prot 19
+#size 4
+#mr 11
+#mor 30
+#enc 1
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Fist"
+#humanoid
+#itemslots 12288
+#plant
+#unique
+#swimming
+#forestsurvival
+#maxage 3000
+#startage 200
+#heal
+#pierceres
+#bluntres
+#fireres -5
+#poisonres 25
+#fear 5
+#summerpower 20
+#darkvision 50
+#forestshape 
+#neednoteat
+#stealthy 50
+#siegebonus 10
+#ivylord 3
+#okleader
+#plainshape 3623
+#magicskill 6 4
+#spellsinger
+#end
+
 
