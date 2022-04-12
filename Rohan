@@ -1080,4 +1080,31 @@ rcost 1
 #end
 
 #newsite
-#
+#name "Meduseld"
+#loc 16384
+#path 3
+#level 0
+#rarity 5
+#homemon "Meduseld Guard"
+#end
+
+#newsite
+#name "Fangorn Forest"
+#loc 16384
+#path 6
+#gems 6 2
+#gems 2 1
+#level 0
+#rarity 5
+#homecom "Viduald"
+#end
+
+#newsite
+#name "Helm's Deep"
+#path 3
+#loc 16384
+#gems 3 1
+#level 0
+#rarity 5
+#end
+
