@@ -1226,5 +1226,9 @@ rcost 1
 #pathlevel 4
 #fatiguecost 15
 #nreff 20
-#onlygeosrec 
+#onlygeosrec 896
+#walkable 1
+#nowatertrace 1
+#range 4
+#end
 
