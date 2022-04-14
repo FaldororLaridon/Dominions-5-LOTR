@@ -1080,6 +1080,87 @@ rcost 1
 #spellsinger
 #end
 
+#newmonster 3926
+#name "Istar of the Hearth"
+#fixedname "Gandalf"
+#descr "TBD"
+#pathcost 10
+#startdom 2
+#gcost 200
+#hp 20
+#str 16
+#att 14
+#def 14
+#prec 10
+#prot 0
+#size 3
+#mr 17
+#mor 30
+#enc 4
+#mapmove 26
+#ap 26
+#eyes 2
+#weapon "Staff"
+#weapon 56
+#armor "Magic Robes"
+#mountedhumanoid
+#mounted
+#startitem "Narya"
+#magicbeing
+#maxage 3000
+#startage 1000
+#invulnerable 15
+#awe 3
+#fireshield 8
+#spiritsight
+#nobadevents 15
+#spreaddom 1
+#shapechange "Grey Wanderer"
+#superiorleader
+#inspirational 1
+#magicskill 0 1
+#magicboost 5 -5
+#magicboost 7 -5
+#end
+
+#newmonster 3928
+#name "Grey Wanderer"
+#fixedname "Gandalf"
+#descr "TBD"
+#hp 20
+#str 16
+#att 14
+#def 14
+#prec 10
+#prot 0
+#size 2
+#mr 17
+#mor 30
+#enc 4
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Staff"
+#armor "Magic Robes"
+#humanoid
+#maxage 3000
+#stealthy 20
+#startage 1000
+#invulnerable 15
+#awe 1
+#fireshield 8
+#spiritsight
+#nobadevents 15
+#spreaddom 1
+#shapechange "Istar of the Hearth"
+#superiorleader
+#magicskill 0 1
+#magicboost 5 -5
+#magicboost 7 -5
+#end
+
+
+
 #newsite
 #name "Meduseld"
 #loc 16384
