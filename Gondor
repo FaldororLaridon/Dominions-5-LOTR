@@ -197,5 +197,34 @@
 #nametype 100
 #end
 
-#newmonster 3935
-#
+#newmonster 3936
+#name "Knight of the Silver Swan"
+#descr "TBD"
+#rcost 18
+#rpcost 35
+#gcost 10015
+#ressize 2
+#hp 13
+#str 12
+#att 13
+#def 12
+#prec 10
+#prot 0
+#size 3
+#mr 11
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#armor "Full Chain Mail"
+#armor "Full Helmet"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 110
+#nametype 100
+#end
