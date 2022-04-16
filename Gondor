@@ -294,18 +294,26 @@
 #descr "TBD"
 #rcost 1
 #rpcost 10000
-#gcost 10
-#hp 11
-#str 10
+#gcost 10000
+#hp 12
+#str 11
 #att 10
 #def 10
 #prec 10
 #prot 0
 #size 2
 #mr 10
-#mor 11
+#mor 10
 #enc 3
 #mapmove 14
 #ap 12
 #eyes 2
+#weapon "Axe"
+#armor "Leather Hauberk"
+#armor "Shield"
+#humanoid
+#stealthy
+#maxage 70
+#end
+
 
