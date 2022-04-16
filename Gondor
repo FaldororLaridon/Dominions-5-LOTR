@@ -4,8 +4,8 @@
 #rcost 1
 #gcost 11
 #rpcost 10000
-#hp 11
-#str 11
+#hp 13
+#str 12
 #att 11
 #def 11
 #prec 10
@@ -33,8 +33,8 @@
 #rcost 1
 #gcost 10
 #rpcost 10000
-#hp 11
-#str 11
+#hp 13
+#str 12
 #att 10
 #def 10
 #prec 11
@@ -66,7 +66,7 @@
 #str 12
 #att 10
 #def 10
-#prec 11
+#prec 10
 #prot 0
 #size 2
 #mr 10
@@ -108,4 +108,94 @@
 #armor "Iron Cap"
 #humanoid
 #maxage 90
+#nametype 100
+#end
+
+#newmonster 3933
+#name "Gondorian Rider"
+#desr "TBD"
+#rcost 8
+#rpcost 30
+#gcost 30
+#ressize 2
+#hp 11
+#str 11
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 3
+#mr 10
+#mor 10
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon 357
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#maxage 90
+#nametype 100
+#end
+
+#newmonster 3934
+#name "Spearman of Pinnath Gelin"
+#descr "TBD"
+#rcost 1
+#rpcost 10000
+#gcost 10
+#hp 11
+#str 11
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#armor "Chain Mail Cuirass"
+#armor "Iron Cap"
+#armor "Shield"
+#humanoid
+#maxage 90
+#nametype 100
+#end
+
+#newmonster 3935
+#name "Dol Amroth Man-at-Arms"
+#descr "TBD"
+#rcost 1
+#rpcost 10000
+#gcost 14
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#maxage 100
+#nametype 100
+#end
+
+#newmonster 3935
 #
