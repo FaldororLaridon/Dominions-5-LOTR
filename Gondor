@@ -1,1 +1,106 @@
+#newmonster 3929
+#name "Minas Tirith Soldier"
+#descr "TBD"
+#rcost 1
+#gcost 11
+#rpcost 10000
+#hp 11
+#str 11
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Swrod"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#maxage 100
+#castledef 1
+#nametype 100
+#end
 
+#newmonster 3930
+#name "Minas Tirith Archer"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 10000
+#hp 11
+#str 11
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#weapon "Short Bow"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#humanoid
+#maxage 100
+#castledef 1
+#nametype 100
+#end
+
+#newmonster 3931
+#name "Lossarnach Axeman"
+#descr "TBD"
+#rcost 1
+#gcost 12
+#rpcost 10000
+#hp 11
+#str 12
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#humanoid
+#maxage 100
+#nametype 100
+#end
+
+#newmonster 3932
+#name "Blackroot Vale Archer"
+#descr "TBD
+#rcost 1
+#gcost 11
+#rpcost 10000
+#hp 10
+#str 11
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Long Bow"
+#
