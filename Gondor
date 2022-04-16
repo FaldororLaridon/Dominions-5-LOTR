@@ -17,7 +17,7 @@
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon "Broad Swrod"
+#weapon "Broad Sword"
 #armor "Chain Mail Hauberk"
 #armor "Half Helmet"
 #armor "Kite Shield"
@@ -79,7 +79,7 @@
 #armor "Chain Mail Hauberk"
 #armor "Half Helmet"
 #humanoid
-#maxage 100
+#maxage 90
 #nametype 100
 #end
 
@@ -87,7 +87,7 @@
 #name "Blackroot Vale Archer"
 #descr "TBD
 #rcost 1
-#gcost 11
+#gcost 12
 #rpcost 10000
 #hp 10
 #str 11
@@ -103,4 +103,9 @@
 #ap 12
 #eyes 2
 #weapon "Long Bow"
+#weapon "Short Sword"
+#armor "Chain Mail Cuirass"
+#armor "Iron Cap"
+#humanoid
+#maxage 90
 #
