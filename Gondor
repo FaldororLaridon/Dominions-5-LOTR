@@ -446,12 +446,12 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 #newmonster 3944
 #name "Captain of Gondor"
 #descr "TBD"
-#rcost 1
+#rcost 14
 #gcost 10000
-#rpcost 1
+#rpcost 2
 #hp 13
-#str 12
-#att 12
+#str 13
+#att 13
 #def 12
 #prec 10
 #prot 0
@@ -459,17 +459,48 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 #mr 11
 #mor 13
 #enc 3
-#mapmove 14
-#ap 12
+#mapmove 20
+#ap 20
 #eyes 2
 #weapon "Broad Sword"
 #armor "Chain Mail Hauberk"
 #armor "Half Helmet"
 #armor "Kite Shield"
-#humanoid
+#mountedhumanoid
+#mounted
 #maxage 100
 #nametype 100
 #expertleader
 #end
+
+#newmonster 3945
+#name "Healer"
+#descr "TBD"
+#rocst 1
+#gcost 10000
+#rpcost 1
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#autoheal 1
+#maxage 100
+#noleader
+#end
+
+#newmonster 3946
+
+
 
 
