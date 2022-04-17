@@ -316,4 +316,35 @@
 #maxage 70
 #end
 
+#newmonster 3940
+#name "Ithilien Ranger"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 10000
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Broad Sword"
+#weapon "Spear"
+#armor "Chain Mail Cuirass"
+#armor "Hood"
+#humanoid
+#stealthy 10
+#patrolbonus 1
+#maxage 90
+#ambidextrous 2
+#end
+
+
 
