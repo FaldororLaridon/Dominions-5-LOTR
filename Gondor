@@ -5,7 +5,7 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 
 
 #newmonster 3929
-#name "Minas Tirith Soldier"
+#name "Man-at-arms of the Citadel"
 #descr "TBD"
 #rcost 1
 #gcost 11
@@ -34,7 +34,7 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 #end
 
 #newmonster 3930
-#name "Minas Tirith Archer"
+#name "Archer of the Citadel"
 #descr "TBD"
 #rcost 1
 #gcost 10
@@ -236,7 +236,7 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 #end
 
 #newmonster 3937
-#name "Citadel Guard"
+#name "Guard of the Fountain Court"
 #descr "TBD"
 #rcost 1
 #gcost 10010
@@ -351,6 +351,70 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 #maxage 90
 #ambidextrous 2
 #end
+
+#newmonster 3941
+#name "Errand-Rider"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 1
+#ressize 2
+#hp 11
+#str 11
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 3
+#mr 10
+#mor 10
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon 357
+#armor "Chain Mail Cuirass"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#maxage 90
+#stealthy
+#nametype 100
+#noleader
+#end
+
+#newmonster 3942
+#name "Ranger Captain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Broad Sword"
+#weapon "Long Bow"
+#armor "Chain Mail Cuirass"
+#armor "Hood"
+#humanoid
+#stealthy 10
+#patrolbonus 1
+#maxage 90
+#goodleader
+#end
+
+#newmonster 3943
 
 
 
