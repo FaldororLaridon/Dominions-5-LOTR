@@ -1,6 +1,6 @@
 leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprentice, Loremaster, Healer, Dol Amroth Captain?, Wavemaster/Shipmaster? Numenor Sage? some kind of high level, numenor-inspired mage, probably with some Adunic name
 
-Heroes: Aragorn, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Beregond, Forlong
+Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Beregond, Forlong, Derufin, Duilin
 
 
 
@@ -617,6 +617,7 @@ Heroes: Aragorn, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Beregond, 
 #nametype 100
 #okleader
 #magicskill 8 2
+#magicskill 1 1
 #end
 
 #newmonster 3950
@@ -633,16 +634,53 @@ Heroes: Aragorn, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Beregond, 
 #prot 0
 #size 2
 #mr 13
-#mor 11
+#mor 12
 #enc 3
 #mapmove 14
 #ap 12
 #eyes 2
 #weapon "Fist"
+#armor "Robe"
 #humanoid
+#startage 90
 #maxage 100
 #nametype 100
 #poorleader
 #inspirational -1
+#magicskill 8 2
+#magicskill 3 1
+#magicskill 4 1
+#magicskill 1 1
+#custommagic 3840 100
+#custommagic 3840 20
+#researchbonus 8
+#end
+
+#newmonster 3851
+#name "Captain-General of Gondor"
+#fixedname "Boromir"
+#descr "TBD"
+#hp 18
+#str 15
+#att 13
+#def 14
+#prec 10
+#prot 0
+#size 2
+#mr 9
+#mor 16
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#unique
+#startage 21
+#maxage 100
+#
 
 
