@@ -619,5 +619,30 @@ Heroes: Aragorn, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Beregond, 
 #magicskill 8 2
 #end
 
+#newmonster 3950
+#name "High Loremaster"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 13
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#maxage 100
+#nametype 100
+#poorleader
+#inspirational -1
 
 
