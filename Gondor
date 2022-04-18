@@ -468,6 +468,7 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 #armor "Kite Shield"
 #mountedhumanoid
 #mounted
+#sailing 999 3
 #maxage 100
 #nametype 100
 #expertleader
@@ -476,7 +477,7 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 #newmonster 3945
 #name "Healer"
 #descr "TBD"
-#rocst 1
+#rcost 1
 #gcost 10000
 #rpcost 1
 #hp 10
@@ -500,7 +501,122 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 #end
 
 #newmonster 3946
+#name "Apprentice Loremaster"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#maxage 100
+#nametype 100
+#noleader
+#magicskill 8 1
+#custommagic 3840 100
+#custommagic 3840 20
+#researchbonus 5
+#end
 
+#newmonster 3947
+#name "Loremaster"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 13
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#maxage 100
+#nametype 100
+#poorleader
+#inspirational -1
+#magicskill 8 2
+#custommagic 3840 100
+#custommagic 3840 100
+#custommagic 3840 50
+#custommagic 7936 20
+#researchbonus 8
+#end
+
+#newmonster 3948
+#name "Wavecaller"
+#descr "TBD"
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 12
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#sailing 999 3
+#maxage 100
+#nametype 100
+#poorleader
+#inspirational -1
+#magicskill 2 1
+#magicskill 1 1
+#custommagic 768 25
+#end
+
+#newmonster 3949
+#name "Westwatcher"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 12
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Fist"
+#humanoid
+#maxage 100
+#nametype 100
+#okleader
+#magicskill 8 2
+#end
 
 
 
