@@ -660,7 +660,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #name "Captain-General of Gondor"
 #fixedname "Boromir"
 #descr "TBD"
-#hp 18
+#hp 20
 #str 15
 #att 13
 #def 14
@@ -677,10 +677,15 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #armor "Chain Mail Hauberk"
 #armor "Half Helmet"
 #armor "Kite Shield"
+#startitem "Horn of the Stewards"
 #humanoid
 #unique
 #startage 21
 #maxage 100
+#pierceres
+#expertleader
+#end
+
 #
 
 
