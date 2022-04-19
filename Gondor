@@ -232,8 +232,8 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #mr 11
 #mor 12
 #enc 3
-#mapmove 14
-#ap 12
+#mapmove 20
+#ap 20
 #eyes 2
 #weapon "Lance"
 #weapon "Broad Sword"
@@ -533,6 +533,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #eyes 2
 #weapon "Fist"
 #humanoid
+#holy
 #maxage 100
 #nametype 100
 #noleader
@@ -563,6 +564,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #eyes 2
 #weapon "Fist"
 #humanoid
+#holy
 #maxage 100
 #nametype 100
 #poorleader
@@ -653,6 +655,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #weapon "Fist"
 #armor "Robe"
 #humanoid
+#holy
 #startage 90
 #maxage 100
 #nametype 100
@@ -747,6 +750,75 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #weapon "Dagger of Cardolan"
 #armor "Chain Mail Cuirass"
 #armor "Half Helmet"
-#
+#humanoid
+#startitem 532
+#itemslots 31878
+#unique
+#stealthy 70
+#maxage 100
+#startage 22
+#supplybonus -2
+#noleader
+#end
+
+#newmonster 3854
+#name "Prince of Dol Amroth"
+#fixedname "Imrahil"
+#descr "TBD"
+#ressize 2
+#hp 16
+#str 13
+#att 15
+#def 14
+#prec 10
+#prot 0
+#size 3
+#mr 12
+#mor 15
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#armor "Full Chain Mail"
+#armor "Full Helmet"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#unique
+#maxage 110
+#expertleader
+#magicskill 8 1
+#end
+
+#newmonster 3855
+#name "Fearless"
+#fixedname "Angbor"
+#descr "TBD"
+#hp 13
+#str 13
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 13
+#mor 16
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#unique
+#maxage 100
+#goodleader
+#end
 
 
