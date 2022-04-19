@@ -5,7 +5,18 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 
 
 #newweapon 896
-#
+#name "Andúril"
+#dmg 9
+#nratt 1
+#att 5
+#def 8
+#len 2
+#sound 8
+#slash
+#pierce
+#magic
+#armorpiercing
+#end
 
 #newitem
 #constlevel 12
@@ -26,7 +37,15 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #name "Andúril"
 #descr "TBD"
 #weapon "Andúril"
-#
+#inspirational 1
+#morale 10
+#fireres 10
+#command 100
+#fear 5
+#invulnerable 15
+#lucky
+#bless
+#end
 
 
 #newmonster 3929
