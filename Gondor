@@ -4,6 +4,17 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 
 
 
+#newitem
+#constlevel 12
+#mainpath 6
+#mainlevel 1
+#type 8
+#name "Horn of the Stewards"
+#descr "TBD"
+#autospell "Terror"
+#autospellrepeat 1/1
+#end
+
 
 #newmonster 3929
 #name "Man-at-arms of the Citadel"
@@ -686,6 +697,53 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #expertleader
 #end
 
-#
+#newmonster 3852
+#name "Steward of Gondor"
+#fixedname "Denethor"
+#descr "TBD"
+#hp 15
+#str 14
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 16
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Cuirass"
+#startitem "Palantir"
+#humanoid
+#unique
+#startage 89
+#maxage 90
+#nobadevents 15
+#expertleader
+#magicskill 1 1
+#researchbonus 10
+#end
+
+#newmonster 3853
+#name "Ernil i Pheriannath"
+#fixedname "Peregrin Took"
+#descr "TBD"
+#hp 8
+#str 8
+#att 11
+#def 13
+#prec 11
+#prot 0
+#size 1
+#mr 14
+#mor 13
+#enc 3
+#mapmove 8
+#ap 8
+#eyes 2
+#weapon "Dagger of Cardolan"
 
 
