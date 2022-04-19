@@ -4,6 +4,9 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 
 
 
+#newweapon 896
+#
+
 #newitem
 #constlevel 12
 #mainpath 6
@@ -14,6 +17,16 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #autospell "Terror"
 #autospellrepeat 1/1
 #end
+
+#selectitem 533
+#constlevel 12
+#mainpath 3
+#mainlevel 5
+#type 1
+#name "Andúril"
+#descr "TBD"
+#weapon "Andúril"
+#
 
 
 #newmonster 3929
@@ -756,7 +769,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #unique
 #stealthy 70
 #maxage 100
-#startage 22
+#startage 29
 #supplybonus -2
 #noleader
 #end
@@ -818,7 +831,122 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #mounted
 #unique
 #maxage 100
+#expertleader
+#end
+
+#newmonster 3856
+#name "Lord of Lossarnach"
+#fixedname "Forlong"
+#descr "TBD"
+#hp 16
+#str 14
+#att 13
+#def 12
+#prec 10
+#prot 0
+#size 3
+#mr 10
+#mor 13
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Long Spear"
+#armor "Full Helmet"
+#armor "Chain Mail Hauberk"
+#armor "Shield"
+#mountedhumanoid
+#mounted
+#maxage 100
+#startage 80
+#unique
+#expertleader
+#end
+
+#newmonster 3857
+#name "Faithful"
+#fixedname "Beregond"
+#descr "TBD"
+#hp 13
+#str 12
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#humanoid
+#unique
+#holy
+#maxage 100
+#castledef 1
+#okleader
+#magicpath 8 1
+#end
+
+#newmonster 3857
+#name "Blackroot Vale Marksman"
+#fixedname "Derufin"
+#descr "TBD"
+#hp 11
+#str 12
+#att 11
+#def 11
+#prec 14
+#prot 0
+#size 2
+#mr 10
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Long Bow"
+#weapon "Short Sword"
+#armor "Chain Mail Hauberk"
+#armor "Iron Cap"
+#humanoid
+#maxage 90
 #goodleader
 #end
+
+#newmonster 3858
+#name "Blackroot Vale Sharpshooter"
+#fixedname "Duilin"
+#descr "TBD"
+#hp 13
+#str 13
+#att 12
+#def 12
+#prec 12
+#prot 0
+#size 2
+#mr 10
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Long Bow"
+#weapon "Broad Sword"
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Iron Cap"
+#humanoid
+#maxage 90
+#abidextrous 2
+#goodleader
+#end
+
+#newmonster 3859
+#
 
 
