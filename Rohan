@@ -233,7 +233,7 @@ rcost 1
 #newmonster 3904
 #name "Knight of the Mark"
 #descr "TBD"
-#rcost 14
+#rcost 10
 #ressize 2
 #gcost 10010
 #rpcost 22
@@ -241,7 +241,7 @@ rcost 1
 #str 11
 #att 11
 #def 12
-#prec 11
+#prec 10
 #prot 0
 #size 3
 #mr 10
@@ -268,7 +268,7 @@ rcost 1
 #newmonster 3905
 #name "Knight of the Mark"
 #descr "TBD"
-#rcost 14
+#rcost 10
 #ressize 2
 #gcost 10010
 #rpcost 22
@@ -285,8 +285,7 @@ rcost 1
 #mapmove 20
 #ap 20
 #eyes 2
-#weapon "Lance"
-#weapon "Broad Sword"
+#weapon 357
 #weapon "Composite Bow"
 #weapon 56
 #armor "Chain Mail Hauberk"
