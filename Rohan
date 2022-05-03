@@ -195,40 +195,6 @@ rcost 1
 #nametype 100
 #end
 
-#newmonster 3902
-#name "Eorlingas Outrider"
-#descr "TBD"
-#rcost 5
-#gcost 10010
-#rpcost 14
-#ressize 2
-#hp 10
-#str 10
-#att 10
-#def 10
-#prec 10
-#prot 0
-#size 3
-#mr 10
-#mor 10
-#enc 3
-#mapmove 20
-#ap 24
-#eyes 2
-#weapon 357
-#weapon 56
-#armor "Ring Mail Hauberk"
-#armor "Half Helmet"
-#armor "Shield"
-#mountedhumanoid
-#mounted
-#stealthy
-#maxage 80
-#nametype 100
-#patrolbonus 2
-#darkvision 50
-#end
-
 #newmonster 3903
 #name "Eorlingas Outrider"
 #descr "TBD"
@@ -271,7 +237,7 @@ rcost 1
 #ressize 2
 #gcost 10010
 #rpcost 22
-#hp 11
+#hp 12
 #str 11
 #att 11
 #def 12
@@ -306,7 +272,7 @@ rcost 1
 #ressize 2
 #gcost 10010
 #rpcost 22
-#hp 11
+#hp 12
 #str 11
 #att 11
 #def 12
