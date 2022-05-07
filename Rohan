@@ -266,7 +266,7 @@ rcost 1
 #end
 
 #newmonster 3905
-#name "Knight of the Mark"
+#name "Rider of the Mark"
 #descr "TBD"
 #rcost 10
 #ressize 2
