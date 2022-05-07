@@ -6,10 +6,10 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 
 #newweapon 896
 #name "Andúril"
-#dmg 9
+#dmg 11
 #nratt 1
-#att 5
-#def 8
+#att 4
+#def 6
 #len 2
 #sound 8
 #slash
@@ -658,6 +658,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #eyes 2
 #weapon "Fist"
 #humanoid
+#holy
 #maxage 100
 #nametype 100
 #okleader
