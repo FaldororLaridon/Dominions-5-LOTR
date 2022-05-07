@@ -18,6 +18,18 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #armorpiercing
 #end
 
+#newweapon 897
+#copyweapon 139
+#name "Oathbreaker Spear"
+#dmg 1
+#len 3
+#sound 18
+#magic
+#aoe 1
+#unrepel
+#end
+
+
 #newitem
 #constlevel 12
 #mainpath 6
@@ -334,6 +346,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #armor "Chain Mail Cuirass"
 #armor "Hood"
 #humanoid
+#forestsurvival
 #stealthy 10
 #patrolbonus 1
 #maxage 90
@@ -390,6 +403,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #armor "Chain Mail Cuirass"
 #armor "Hood"
 #humanoid
+#forestsurvival
 #stealthy 10
 #patrolbonus 1
 #maxage 90
@@ -452,6 +466,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #armor "Chain Mail Cuirass"
 #armor "Hood"
 #humanoid
+#forestsurivival
 #stealthy 10
 #patrolbonus 1
 #maxage 90
@@ -727,7 +742,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #startitem "Horn of the Stewards"
 #humanoid
 #unique
-#startage 21
+#startage 41
 #maxage 100
 #pierceres
 #expertleader
@@ -967,6 +982,102 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #end
 
 #newmonster 3859
-#
+#name "Beloved Captain"
+#fixedname "Faramir"
+#descr "TBD"
+#hp 16
+#str 13
+#att 12
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Cuirass"
+#armor "Hood"
+#humanoid
+#holy
+#unique
+#stealthy 20
+#forestsurvival
+#startage 36
+#maxage 110
+#patrolbonus 5
+#shapechange 3860
+#expertleader
+#inspirational 2
+#magicskill 8 2
+#end
+
+#newmonster 3860
+#name "Beloved Captain"
+#fixedname "Faramir"
+#descr "TBD"
+#hp 16
+#str 13
+#att 12
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#mountedhumanoid
+#holy
+#mounted
+#unique
+#startage 36
+#maxage 110
+#shapechange 3859
+#expertleader
+#inspirational 2
+#magicskill 8 2
+#end
+
+#newmonster 3861
+#name "Oathbreaker"
+#singlebattle
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 12
+#mor 18
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Oathbreaker Spear"
+#armor "Spectral Shield"
+#djinn
+#undead
+#float
+#stealthy 20
+#maxage 3000
+#startage 2500
+#ethereal
+#fear 5
+#darkpower 3
+#spiritsight
+#nametyp 100
+#end
+
 
 
