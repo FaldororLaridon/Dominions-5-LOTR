@@ -185,7 +185,7 @@ rcost 1
 #size 3
 #mr 10
 #mor 9
-#enc 3
+#enc 5
 #mapmove 20
 #ap 25
 #eyes 2
@@ -203,7 +203,7 @@ rcost 1
 #descr "TBD"
 #rcost 5
 #gcost 10010
-#rpcost 14
+#rpcost 15
 #ressize 2
 #hp 10
 #str 10
@@ -214,7 +214,7 @@ rcost 1
 #size 3
 #mr 10
 #mor 10
-#enc 3
+#enc 5
 #mapmove 20
 #ap 24
 #eyes 2
@@ -249,7 +249,7 @@ rcost 1
 #size 3
 #mr 10
 #mor 11
-#enc 4
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -284,7 +284,7 @@ rcost 1
 #size 3
 #mr 10
 #mor 11
-#enc 4
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -319,7 +319,7 @@ rcost 1
 #size 3
 #mr 12
 #mor 13
-#enc 3
+#enc 5
 #mapmove 20
 #ap 24
 #eyes 2
@@ -353,7 +353,7 @@ rcost 1
 #size 3
 #mr 12
 #mor 13
-#enc 2
+#enc 4
 #mapmove 26
 #ap 26
 #eyes 2
@@ -389,7 +389,7 @@ rcost 1
 #size 3
 #mr 10
 #mor 10
-#enc 3
+#enc 5
 #mapmove 20
 #ap 24
 #eyes 2
@@ -422,7 +422,7 @@ rcost 1
 #size 3
 #mr 10
 #mor 11
-#enc 4
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -460,7 +460,7 @@ rcost 1
 #size 3
 #mr 10
 #mor 13
-#enc 4
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -686,7 +686,7 @@ rcost 1
 #size 3
 #mr 14
 #mor 15
-#enc 4
+#enc 5
 #mapmove 22
 #ap 24
 #eyes 2
@@ -721,7 +721,7 @@ rcost 1
 #size 3
 #mr 13
 #mor 15
-#enc 4
+#enc 5
 #mapmove 22
 #ap 20
 #eyes 2
@@ -759,7 +759,7 @@ rcost 1
 #size 3
 #mr 11
 #mor 14
-#enc 4
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -826,7 +826,7 @@ rcost 1
 #size 3
 #mr 12
 #mor 16
-#enc 4
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -861,7 +861,7 @@ rcost 1
 #size 3
 #mr 12
 #mor 30
-#enc 3
+#enc 5
 #mapmove 20
 #ap 24
 #eyes 2
@@ -896,7 +896,7 @@ rcost 1
 #size 3
 #mr 10
 #mor 14
-#enc 4
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
