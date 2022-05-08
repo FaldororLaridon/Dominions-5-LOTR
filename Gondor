@@ -1340,6 +1340,11 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #cheapgod20 "Vala of the Sea"
 #cheapgod40 "Elder King"
 #cheapgod40 "Star of High Hope"
+#noundeadgods
+#fortera 3
+#templepic 32
+#tradecoast 10
+#end
 
 
 
