@@ -927,7 +927,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #magicpath 8 1
 #end
 
-#newmonster 3857
+#newmonster 3858
 #name "Blackroot Vale Marksman"
 #fixedname "Derufin"
 #descr "TBD"
@@ -953,7 +953,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #goodleader
 #end
 
-#newmonster 3858
+#newmonster 3859
 #name "Blackroot Vale Sharpshooter"
 #fixedname "Duilin"
 #descr "TBD"
@@ -981,7 +981,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #goodleader
 #end
 
-#newmonster 3859
+#newmonster 3860
 #name "Beloved Captain"
 #fixedname "Faramir"
 #descr "TBD"
@@ -1015,7 +1015,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #magicskill 8 2
 #end
 
-#newmonster 3860
+#newmonster 3861
 #name "Beloved Captain"
 #fixedname "Faramir"
 #descr "TBD"
@@ -1048,7 +1048,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #magicskill 8 2
 #end
 
-#newmonster 3861
+#newmonster 3862
 #name "Oathbreaker"
 #singlebattle
 #hp 10
@@ -1080,7 +1080,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #nametype 100
 #end
 
-#newmonster 3862
+#newmonster 3863
 #name "Oathbreaker"
 #singlebattle
 #hp 10
@@ -1113,7 +1113,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #nametype 100
 #end
 
-#newmonster 3863
+#newmonster 3864
 #name "Oathbreaker Chieftain"
 #singlebattle
 #hp 10
@@ -1146,7 +1146,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #goodundeadleader
 #end
 
-#newmonster 3864
+#newmonster 3865
 #name "King of the Dead"
 #fixedname "  "
 #singlebattle
@@ -1180,7 +1180,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #goodundeadleader
 #end
 
-#newmonster 3865
+#newmonster 3866
 #name "Heir of Isildur"
 #fixedname "Aragorn"
 #hp 22
@@ -1273,14 +1273,33 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #startsite "Dol Amroth"
 #startsite "The Fountain Court"
 #aigoodbless 50
-#startcom "Captain of Gondor"
+#startcom "Gondorian Guard Captain"
 #forestrec 3938
 #forestrec 3940
 #addforeignunit "Hillman of Lamedon"
 #startscout "Errand-Rider"
 #forestcom "Ranger Captain"
-#startunittype1 "Spearman of Pinnath Gelin"
-#
+#startunittype1 "Man-at-Arms of the Citadel"
+#startunitnbrs1 10
+#startunittype2 "Archer of the Citadel"
+#startunitnbrs2 10
+#addrecunit "Spearman of Pinnath Gelin"
+#addrecunit "Lossarnach Axeman"
+#addrecunit "Blackroot Vale Archer"
+#addrecunit "Gondorian Rider"
+#addrecunit "Dol Amroth Man-at-Arms"
+#addrecunit "Man-at-Arms of the Citadel"
+#addrecunit "Archer of the Citadel"
+#addreccom "Errand-Rider"
+#addreccom "Gondorian Guard Captain"
+#addreccom "Ranger Captain"
+#addreccom "Captain of Gondor"
+#addreccom "Healer"
+#addreccom "Apprentice Loremaster"
+#addreccom "Loremaster"
+#addreccom "Westwatcher"
+#addreccom "Wavecaller"
+#hero1
 
 
 
