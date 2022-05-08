@@ -1073,6 +1073,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #maxage 3000
 #startage 2500
 #ethereal
+#poisonres 25
 #fear 5
 #darkpower 3
 #spiritsight
@@ -1105,6 +1106,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #maxage 3000
 #startage 2500
 #ethereal
+#poisonres 25
 #fear 5
 #darkpower 3
 #spiritsight
@@ -1136,6 +1138,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #maxage 3000
 #startage 2500
 #ethereal
+#poisonres 25
 #fear 5
 #darkpower 3
 #spiritsight
@@ -1169,6 +1172,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #maxage 3000
 #startage 2500
 #ethereal
+#poisonres 25
 #fear 9
 #darkpower 5
 #spiritsight
@@ -1204,7 +1208,51 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #mountainsurvival
 #sailing 999 2
 #swimming
-#
+#stealthy 60
+#startage 88
+#maxage 200
+#autohealer 3
+#autodishealer 1
+#awe 1
+#darkvision 50
+#castledef 4
+#patrolbonus 5
+#expertleader
+#goodundeadleader
+#inspirational 1
+#magicskill 8 3
+#end
+
+#newsite
+#name "Minas Tirith"
+#path 3
+#loc 16384
+#gems 3 1
+#gems 4 1
+#level 0
+#rarity 5
+#homecom "High Loremaster"
+#end
+
+#newsite 
+#name "Dol Amroth"
+#path 2
+#loc 16384
+#gems 2 1
+#gems 1 1
+#level 0
+#rarity 5
+#homemon "Knight of the Silver Swan"
+#end
+
+#newsite 
+#name "The Fountain Court"
+#path 3
+#loc 16384
+#level 0
+#rarity 5
+#homemon "Guard of the Fountain Court"
+#end
 
 
 
