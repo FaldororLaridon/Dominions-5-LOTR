@@ -14,10 +14,44 @@ Commanders: Necromancer apprentice, Necromancer (Death) Servant of Mirkwood (pri
 Misty Mountains: Mountain Orc Raider, Mountain Orc Warrior, Goblin Raider (bow) Goblin Runner (mountains)
 Commanders: Orc Chieftain, Goblin Scout, Hand of Shadow
 
-Basic recruitment: Mordor Orc (spear) Mordor Orc (scimitar) Mordor Orc archer, Black Uruk,
+Basic recruitment: Mordor Orc (spear) Mordor Orc (scimitar) Mordor Orc archer, Mordor Orctracker, Black Uruk
 Commanders: Orc Taskmaster, Uruk Captain, Orc Sorcerer, Mordor Catapult,  Mordor Spy
 
 Capital only: Morgul Orc, Morgul-Orc archer, Barad-Dur Guard, Olog-hai
 Commanders: Sorcerer of Barad-dur, Olog-hai Chieftain, Morgul Lieutenant
 
 Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, The Mouth of Sauron
+
+
+
+#newmonster 3867
+#name "Haradrim Spearman"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 10000
+#hp 10
+#str 10
+#att 11
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#armor "Bronze Scale Cuirass"
+#armor "Bronze Cap"
+#armor "Shield"
+#humanoid
+#wastesurvival
+#maxage 70
+#nametype 100
+#end
+
+#newmonster 3868
+#
