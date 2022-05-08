@@ -194,7 +194,7 @@ Aragorn, and should also immediately get the same item.
 #size 3
 #mr 10
 #mor 10
-#enc 3
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -280,7 +280,7 @@ Aragorn, and should also immediately get the same item.
 #size 3
 #mr 11
 #mor 12
-#enc 3
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -431,7 +431,7 @@ Aragorn, and should also immediately get the same item.
 #size 3
 #mr 10
 #mor 10
-#enc 3
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -522,7 +522,7 @@ Aragorn, and should also immediately get the same item.
 #size 2
 #mr 11
 #mor 13
-#enc 3
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -828,7 +828,7 @@ Aragorn, and should also immediately get the same item.
 #size 3
 #mr 12
 #mor 15
-#enc 3
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -859,7 +859,7 @@ Aragorn, and should also immediately get the same item.
 #size 2
 #mr 13
 #mor 16
-#enc 3
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -887,6 +887,7 @@ Aragorn, and should also immediately get the same item.
 #size 3
 #mr 10
 #mor 13
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -1033,7 +1034,7 @@ Aragorn, and should also immediately get the same item.
 #size 2
 #mr 14
 #mor 15
-#enc 3
+#enc 5
 #mapmove 20
 #ap 20
 #eyes 2
@@ -1065,7 +1066,7 @@ Aragorn, and should also immediately get the same item.
 #size 2
 #mr 11
 #mor 18
-#enc 3
+#enc 0
 #mapmove 20
 #ap 20
 #eyes 2
@@ -1097,7 +1098,7 @@ Aragorn, and should also immediately get the same item.
 #size 2
 #mr 11
 #mor 18
-#enc 3
+#enc 0
 #mapmove 20
 #ap 20
 #eyes 2
@@ -1130,7 +1131,7 @@ Aragorn, and should also immediately get the same item.
 #size 2
 #mr 11
 #mor 18
-#enc 3
+#enc 0
 #mapmove 20
 #ap 20
 #eyes 2
@@ -1164,7 +1165,7 @@ Aragorn, and should also immediately get the same item.
 #size 2
 #mr 13
 #mor 18
-#enc 3
+#enc 0
 #mapmove 20
 #ap 20
 #eyes 2
