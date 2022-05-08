@@ -1299,7 +1299,48 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #addreccom "Loremaster"
 #addreccom "Westwatcher"
 #addreccom "Wavecaller"
-#hero1
+#hero1 3851
+#hero2 3852
+#hero3 3853
+#hero4 3854
+#hero5 3855
+#hero6 3856
+#hero7 3857
+#hero8 3858
+#hero9 3859
+#hero10 3860
+#defcom1 "Gondorian Guard Captain"
+#defcom2 "Captain of Gondor"
+#defunit1 "Spearman of Pinnath Gelin"
+#defunit1b "Lossarnach Axeman"
+#defunit2 "Man-at-Arms of the Citadel"
+#defunit2b "Archer of the Citadel"
+#defmult1 20
+#defmult1b 15
+#defmult2 10
+#defmult2b 10
+#wallcom "Gondorian Guard Captain"
+#wallunit "Archer of the Citadel"
+#wallmult 10
+#homerealm 10
+#addgod "The Moon Hunter"
+#addgod "Herald of Manwë"
+#addgod "Vala of the Hunt"
+#addgod "Vala Smith"
+#addgod "Vala Doomsman"
+#addgod "Vala of Valour"
+#addgod "Elder King"
+#addgod "Vala of Stars"
+#addgod "Vala of the Sea"
+#addgod "Vala of Growth"
+#addgod "Star of High Hope"
+#addgod "Maiden of Sun"
+#addgod "Istar of the Hearth"
+#cheapgod20 "Istar of the Hearth"
+#cheapgod20 "Vala of the Sea"
+#cheapgod40 "Elder King"
+#cheapgod40 "Star of High Hope"
+
 
 
 
