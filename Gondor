@@ -6,7 +6,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 
 #newweapon 896
 #name "Andúril"
-#dmg 11
+#dmg 10
 #nratt 1
 #att 4
 #def 6
@@ -723,7 +723,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #fixedname "Boromir"
 #descr "TBD"
 #hp 20
-#str 15
+#str 16
 #att 13
 #def 14
 #prec 10
@@ -1111,8 +1111,8 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #nametype 100
 #end
 
-#newmonster 3862
-#name "Oathbreaker"
+#newmonster 3863
+#name "Oathbreaker Chieftain"
 #singlebattle
 #hp 10
 #str 10
@@ -1140,7 +1140,72 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #darkpower 3
 #spiritsight
 #nametype 100
+#goodundeadleader
 #end
+
+#newmonster 3864
+#name "King of the Dead"
+#fixedname "  "
+#singlebattle
+#hp 12
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 13
+#mor 18
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Oathbreaker Spear"
+#armor "Spectral Shield"
+#djinn
+#undead
+#float
+#stealthy 20
+#maxage 3000
+#startage 2500
+#ethereal
+#fear 9
+#darkpower 5
+#spiritsight
+#raredomsummon "Oathbreaker Chieftain"
+#goodundeadleader
+#end
+
+#newmonster 3865
+#name "Heir of Isildur"
+#fixedname "Aragorn"
+#hp 22
+#str 15
+#att 14
+#def 14
+#prec 12
+#prot 0
+#size 2
+#mr 16
+#mor 17
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#armor "Chain Mail Hauberk"
+#armor "Shield"
+#armor "Iron Cap"
+#humanoid
+#startitem "Andúril"
+#unique
+#holy
+#forestsurvival
+#wastesurvival
+#mountainsurvival
+#sailing 999 2
+#swimming
+#
+
 
 
 
