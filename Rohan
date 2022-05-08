@@ -15,6 +15,8 @@ fire magic, some astral) and the Old Wives (nature and some water, a weaker and 
 
 Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebeard, Erkenbrand, Theodred
 
+Huorndark Spell! Damaging spell, can be cast at range but must come from a forest
+
 
 #newweapon 891
 #name "Helm's Fist"
@@ -25,6 +27,7 @@ Heroes: Theoden, Eomer, Elfhelm, Grimbold, Helm Hammerhand, Merry, Eowyn, Treebe
 #len 0
 #sound 10
 #magic
+#unrepel
 #secondaryeffect "Lesser Fear"
 #end
 
@@ -1222,8 +1225,12 @@ rcost 1
 #addgod "Vala of Valour"
 #addgod "The Moon Hunter"
 #addgod "Maiden of Sun"
+#addgod "Elder King"
+#addgod "Vala Doomsman"
+#addgod "Istar of the Hearth"
 #cheapgod20 "Vala of Valour"
 #cheapgod20 "Maiden of Sun"
+#cheapgod 40 "Istar of the Hearth"
 #noundeadgods
 #fortera 1
 #templepic 11
