@@ -1058,7 +1058,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #prec 10
 #prot 0
 #size 2
-#mr 12
+#mr 11
 #mor 18
 #enc 3
 #mapmove 20
@@ -1076,7 +1076,70 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #fear 5
 #darkpower 3
 #spiritsight
-#nametyp 100
+#nametype 100
+#end
+
+#newmonster 3862
+#name "Oathbreaker"
+#singlebattle
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 18
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Oathbreaker Spear"
+#armor "Spectral Shield"
+#mountedhumanoid
+#undead
+#float
+#mounted
+#stealthy 20
+#maxage 3000
+#startage 2500
+#ethereal
+#fear 5
+#darkpower 3
+#spiritsight
+#nametype 100
+#end
+
+#newmonster 3862
+#name "Oathbreaker"
+#singlebattle
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 18
+#enc 3
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Oathbreaker Spear"
+#armor "Spectral Shield"
+#djinn
+#undead
+#float
+#stealthy 20
+#maxage 3000
+#startage 2500
+#ethereal
+#fear 5
+#darkpower 3
+#spiritsight
+#nametype 100
 #end
 
 
