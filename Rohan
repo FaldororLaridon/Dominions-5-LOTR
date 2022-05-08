@@ -1261,7 +1261,7 @@ rcost 1
 #researchlevel 3
 #path 6
 #pathlevel 3
-#fatiguecost 20
+#fatiguecost 2000
 #damage 3907
 #effect 10001
 #nreff 5
@@ -1278,7 +1278,7 @@ rcost 1
 #researchlevel 5
 #path 6
 #pathlevel 4
-#fatiguecost 15
+#fatiguecost 1500
 #nreff 20
 #onlygeosrec 896
 #walkable 1
