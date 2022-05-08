@@ -54,4 +54,283 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 3868
-#
+#name "Haradrim Archer"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 10000
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Short Bow"
+#weapon "Scimitar"
+#armor "Bronze Scale Cuirass"
+#armor "Bronze Cap"
+#humanoid
+#wastesurvival
+#maxage 70
+#nametype 100
+#end
+
+#newmonster 3869
+#name "Haradrim Standard Bearer"
+#descr "TBD"
+#rcost 12
+#gcost 10015
+#rpcost 10000
+#ressize 2
+#hp 10
+#str 10
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Scimitar"
+#weapon 56
+#armor "Bronze Scale Hauberk"
+#armor "Shield"
+#armor "Half Helmet"
+#mounted
+#mountedhumanoid
+#wastesurvival
+#maxage 70
+#nametype 100
+#inspirational 1
+#end
+
+#newmonster 3870
+#name "Half-Troll"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 12000
+#hp 17
+#str 15
+#att 12
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 13
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Great Club"
+#weapon "Javelin"
+#armor "Furs"
+#humanoid
+#wastesurvival
+#maxage 130
+#woundfend 1
+#fireres 5
+#invulnerable 10
+#darkpower 3
+#berserk 3
+#darkvision 100
+#nametype 100
+#undisciplined
+#end
+
+#newmonster 3871
+#name "Balchoth Warrior"
+#descr "TBD"
+#gcost 8
+#rcost 1
+#rpcost 6
+#hp 11
+#str 11
+#att 10
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Mace"
+#armor "Leather Hauberk"
+#armor "Leather Cap"
+#armor "Shield"
+#humanoid
+#maxage 60
+#nametype 100
+#undisciplined
+#end
+
+#newmonster 3872
+#name "Balchoth Warrior"
+#descr "TBD"
+#gcost 8
+#rcost 1
+#rpcost 6
+#hp 11
+#str 11
+#att 10
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Mace"
+#armor "Leather Hauberk"
+#armor "Leather Cap"
+#armor "Shield"
+#humanoid
+#maxage 60
+#nametype 100
+#undisciplined
+#end
+
+#newmonster 3783
+#name "Haradrim Cavalry"
+#descr "Many Men have remained heavily under the influence of the Shadow in Middle-Earth, and the southern people of Harad are no exception. While there is division among the Haradrim, the majority of the tribes and lands of Haradwaith are loyal to Mordor. The Haradrim Horsemen bring all the fierceness of the Haradrim combined with the speed of horses to bring destruction to the enemies of Mordor.
+
+'Southward beyond the road lay the main force of the Haradrim, and there their horsemen were gathered about the standard of their chieftain. And he looked out, and in the growing light he saw the banner of the king, and that it was far ahead of the battle with few men about it. Then he was filled with ared wrath and shouted aloud, and displaying his standard, black serpent upon scarlet, he came against the white horse and the green with a great press of men; and the drawing of the scimitars of the Southrons was like a glitter of stars.' The Return of the King; Chapter VI: The Battle of the Pelennor Fields"
+#rcost 12
+#gcost 10010
+#rpcost 10000
+#ressize 2
+#hp 10
+#str 11
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 12
+#enc 5
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Scimitar"
+#weapon 56
+#armor "Scale Mail Hauberk"
+#armor "Shield"
+#armor "Half Helmet"
+#mounted
+#mountedhumanoid
+#wastesurvival
+#maxage 70
+#nametype 100
+#end
+
+#newmonster 3874
+#name "Variag Tribesman"
+#descr "TBD"
+#rcost 7
+#gcost 10010
+#rpcost 10000
+#ressize 2
+#hp 12
+#str 10
+#att 10
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 9
+#enc 5
+#mapmove 20
+#ap 25
+#eyes 2
+#weapon 357
+#armor "Scale Mail Cuirass"
+#armor "Iron Cap"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#maxage 60
+#nametype 100
+#end
+
+#newmonster 3875
+#name "Variag Cataphract"
+#descr "TBD"
+#rcost 14
+#gcost 10010
+#rpcost 10000
+#ressize 2
+#hp 13
+#str 12
+#att 11
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 5
+#mapmove 20
+#ap 20
+#eyes 2
+#weapon "Lance"
+#weapon "Mace"
+#armor "Scale Mail Hauberk"
+#armor "Full Helmet"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#maxage 60
+#nametype 100
+#end
+
+#newmonster 3876
+#name "Wainrider Warrior Maiden"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 10000
+#hp 10
+#str 10
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#armor "Ring Mail Cuirass"
+#armor "Iron Cap"
+#armor "Shield"
+#humanoid
+#female
+#maxage 60
+#castledef 1
+#nametype 119
+#end
+
+
