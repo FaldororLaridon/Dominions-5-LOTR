@@ -1265,7 +1265,7 @@ rcost 1
 #damage 3907
 #effect 10001
 #nreff 5
-#range 0
+#provrange 0
 #onlyatsite "Meduseld"
 #restricted "Rohan"
 #end
@@ -1283,6 +1283,6 @@ rcost 1
 #onlygeosrec 896
 #walkable 1
 #nowatertrace 1
-#range 4
+#provrange 4
 #end
 
