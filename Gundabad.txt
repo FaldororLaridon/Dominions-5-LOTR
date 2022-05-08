@@ -296,12 +296,12 @@
 #reqtemple
 #hp 13
 #str 15
-#att 11
-#def 11
+#att 12
+#def 12
 #prec 8
 #prot 0
 #size 2
-#mr 8
+#mr 9
 #morale 15
 #enc 3
 #mapmove 16
@@ -315,11 +315,11 @@
 #holy
 #mountainsurvival
 #maxage 1000
-#invulnerable 10
 #darkvision 100
 #castledef 1
 #nametype (orcs)
 #bodyguard 2
+#formationfighter 2
 #standard 1
 #end
 #newmonster 3759
