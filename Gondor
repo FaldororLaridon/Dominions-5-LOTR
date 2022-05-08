@@ -1254,6 +1254,34 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #homemon "Guard of the Fountain Court"
 #end
 
+#newsite 
+#name "The Stone of Erech"
+#path 3
+#loc 16384
+#level 0
+#rarity 5
+#end
+
+#newnation
+#name "Gondor"
+#epithet "Line of Stewards"
+#era 3
+#descr "TBD"
+#summary "TBD"
+#brief "A nation of distant, yet proud legacy. Featuring the descendants of ancient Numenor and the guardians of Middle-Earth against the Shadow. Heavily-armed soldiers with a variety of troops from various fiefdoms within the nation."
+#startsite "Minas Tirith
+#startsite "Dol Amroth"
+#startsite "The Fountain Court"
+#aigoodbless 50
+#startcom "Captain of Gondor"
+#forestrec 3938
+#forestrec 3940
+#addforeignunit "Hillman of Lamedon"
+#startscout "Errand-Rider"
+#forestcom "Ranger Captain"
+#startunittype1 "Spearman of Pinnath Gelin"
+#
+
 
 
 
