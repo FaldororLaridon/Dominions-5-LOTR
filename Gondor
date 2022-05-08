@@ -2,6 +2,11 @@ leaders: Ranger Captian, Fiefdom Captain? Gondorian Captain, Loremaster apprenti
 
 Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Beregond, Forlong, Derufin, Duilin
 
+need to set up an event that allows Aragorn and the King of the Dead to automatically call say... 1d6 Oathbreakers and 1 Oathbreaker Horseman every turn they remain
+at the Capital and with the Stone of Erech. Only one instance of this can happen per turn, so you can't get 2d6 Oathbreakers and 2 Oathbreaker Horsemen each turn. 
+Aragorn should arrive around the start of year three, and should immediately get the 'Black Stone' Magic item. The King of the Dead should come in one turn after
+Aragorn, and should also immediately get the same item. 
+
 
 
 #newweapon 896
@@ -1143,7 +1148,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #darkpower 3
 #spiritsight
 #nametype 100
-#goodundeadleader
+#okundeadleader
 #end
 
 #newmonster 3865
@@ -1166,6 +1171,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #weapon "Oathbreaker Spear"
 #armor "Spectral Shield"
 #djinn
+#itemslots 31878
 #undead
 #float
 #stealthy 20
@@ -1200,6 +1206,7 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 #armor "Shield"
 #armor "Iron Cap"
 #humanoid
+#itemslots 31878
 #startitem "Andúril"
 #unique
 #holy
@@ -1349,17 +1356,48 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 
 #newspell
 #name "Ride of the Rohirrim"
-#descr "Calls a force of Riders of Rohan to assist you in battle"
+#descr "Calls a force of Riders of Rohan to assist you in battle."
 #school 4
 #researchlevel 5
 #path 1
 #pathlevel 3
-#fatiguecost 35
+#fatiguecost 32
 #damage 3904
 #effect 10001
-#nreff 30
-#range 0
+#nreff 20
+#provrange 0
 #restricted "Gondor"
+#end
+
+#newspell 
+#name "Call Oathbreaker Chieftain"
+#descr "Calls an Oathbreaker Chieftain to fulfil his Oath."
+#school 4
+#researchlevel 3
+#path -1
+#pathlevel 1
+#fatiguecost 800
+#damage 3864
+#effect 10001
+#nreff 1
+#provrange 0
+#onlyatsite "Stone of Erech"
+#restricted "Gondor"
+#onlymnr "Heir of Isildur"
+#onlymnr "King of the Dead"
+#end
+
+
+#newitem
+#constlevel 12
+#mainpath 5
+#mainlevel 3
+#type 8
+#name "Black Stone"
+#descr "A fragment of the Stone of Erech that allows the bearer to summon an Oathbreaker Cheiftain"
+#spell "Call Oathbreaker Chieftain"
+#nofind
+#cursed
 #end
 
 
