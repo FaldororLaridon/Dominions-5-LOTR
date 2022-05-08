@@ -1393,8 +1393,8 @@ Aragorn, and should also immediately get the same item.
 #mainpath 5
 #mainlevel 3
 #type 8
-#name "Black Stone"
-#descr "A fragment of the Stone of Erech that allows the bearer to summon an Oathbreaker Cheiftain"
+#name "Right of Lineage"
+#descr "Only Aragorn and the King of the Dead hold the power to call Oathbreaker Chieftains to their aid."
 #spell "Call Oathbreaker Chieftain"
 #nofind
 #cursed
