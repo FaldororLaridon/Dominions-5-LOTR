@@ -1348,16 +1348,16 @@ Heroes: Aragorn*event, Boromir, Faramir, Denethor, Pippin, Angbor, Imrahil, Bere
 
 
 #newspell
-#name "Call Mearas"
-#descr "Summons five Mearas horses, which are mounted and ridden into battle by the most elite warriors of Rohan."
+#name "Ride of the Rohirrim"
+#descr "Calls a force of Riders of Rohan to assist you in battle"
 #school 4
 #researchlevel 5
 #path 1
 #pathlevel 3
-#fatiguecost 2000
-#damage 3907
+#fatiguecost 35
+#damage 3904
 #effect 10001
-#nreff 5
+#nreff 30
 #range 0
 #restricted "Gondor"
 #end
