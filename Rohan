@@ -654,6 +654,7 @@ rcost 1
 #itemslots 1024
 #itemslots 12288
 #unique
+#holy
 #undead
 #float
 #pooramphibian
