@@ -531,7 +531,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #rpcost 15000
 #hp 13
 #str 12
-#att 12
+#att 13
 #def 13
 #prec 11
 #prot 0
@@ -552,5 +552,6 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #maxage 100
 #darkvision 50
 #nametype 183
+#end
 
 
