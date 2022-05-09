@@ -482,7 +482,7 @@ rcost 1
 #end
 
 #newmonster 3911
-#name "Eorlingas Minstril"
+#name "Eorlingas Minstrel"
 #descr "TBD"
 #gcost 10000
 #rcost 1
@@ -650,9 +650,7 @@ rcost 1
 #eyes 2
 #weapon "Helm's Fist"
 #djinn
-#itemslots 128
-#itemslots 1024
-#itemslots 12288
+#itemslots 15488
 #unique
 #holy
 #undead
