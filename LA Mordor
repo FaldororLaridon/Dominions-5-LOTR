@@ -251,7 +251,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #ressize 2
 #hp 12
 #str 10
-#att 10
+#att 11
 #def 11
 #prec 10
 #prot 0
@@ -281,7 +281,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #ressize 2
 #hp 13
 #str 12
-#att 11
+#att 12
 #def 12
 #prec 10
 #prot 0
@@ -340,18 +340,26 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #gcost 10020
 #rpcost 20000
 #ressize 2
-#hp 10
-#str 10
+#hp 11
+#str 12
 #att 11
-#def 11
+#def 10
 #prec 10
 #prot 0
-#size 2
+#size 4
 #mr 10
-#mor 11
-#enc 3
+#mor 12
+#enc 5
 #mapmove 14
 #ap 12
-#eyes 2
+#eyes 6
+#weapon "Javelin"
+#weapon "Javelin"
+#weapon "Javelin"
+#weapon "Spear"
+#weapon "Spear"
+#armor "Ring Mail Hauberk"
+#armor "Iron Cap"
+
 
 
