@@ -560,12 +560,12 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #rcost 1
 #gcost 8
 #rpcost 14
-#hp 14
+#hp 13
 #str 9
 #att 11
 #def 9
 #prec 7
-#prot 7
+#prot 6
 #size 3
 #mr 8
 #mor 10
@@ -581,22 +581,23 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #maxage 40
 #animal
 #berserk 3
+#stealthy
 #nametype 140
 #undisciplined
 #end
 
-#newmonster 3992
+#newmonster 3993
 #name "Mirkwood Spider"
 #descr "TBD"
 #rcost 1
 #gcost 8
 #rpcost 14
-#hp 14
+#hp 13
 #str 9
 #att 11
 #def 9
 #prec 7
-#prot 7
+#prot 6
 #size 3
 #mr 8
 #mor 10
@@ -609,11 +610,46 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #weapon "Web Spit"
 #lizard
 #forestsurvival
+#stealthy
 #maxage 40
 #animal
 #berserk 3
 #nametype 140
 #undisciplined
 #end
+
+#newmonster 3994
+#name "Greater Mirkwood Spider"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 18
+#hp 16
+#str 10
+#att 12
+#def 9
+#prec 7
+#prot 8
+#size 4
+#mr 8
+#mor 11
+#enc 2
+#mapmove 14
+#ap 14
+#eyes 8
+#weapon 65
+#weapon "Web"
+#weapon "Web Spit"
+#lizard
+#forestsurvival
+#stealthy
+#maxage 40
+#animal
+#nametype 140
+#end
+
+#newmonster 3995
+#
+
 
 
