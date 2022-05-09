@@ -3,7 +3,7 @@ armor: chain curiass and hauberk, maybe scale for lower tier units and leather f
 2 militia units, one mounted, one not.
 Darkvision 25 to test
 
-3 unmounted units, militia, unmoiunted rider, Meduseld Guard
+3 unmounted units, militia, unmounted rider, Meduseld Guard
 
 militia rider, 2 light cav (one w/ light lance, one w/short bow) 2 Riders (1 w/ heavy oneshotlance/sword, 1 w/composite bow and broad sword. Riderw/lance has berserk?
 no, both Riders should have it. Shieldmaiden, more lightly armoured, more focused on speed, perhaps slightly better morale and magic resistance? Possibly an elite Rider as well
@@ -46,7 +46,7 @@ Huorndark Spell! Damaging spell, can be cast at range but must come from a fores
 #secondaryeffect "Bane of Angmar"
 #end
 
-#newweapon 894
+#newweapon 895
 #name "Éowyn's Smite"
 #dmg 4
 #nratt 1
@@ -61,7 +61,7 @@ Huorndark Spell! Damaging spell, can be cast at range but must come from a fores
 #norepel
 #end
 
-#newweapon 895
+#newweapon 896
 #copyweapon "Broad Sword"
 #name "Éowyn's Blade"
 #magic
@@ -80,7 +80,7 @@ Huorndark Spell! Damaging spell, can be cast at range but must come from a fores
 
 
 
-#newmonster 3898
+#newmonster 3907
 #name "Eorlingas Archer"
 #descr "TBD"
 #gcost 10000
