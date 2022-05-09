@@ -24,7 +24,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 
 
 
-#newmonster 3867
+#newmonster 3967
 #name "Haradrim Spearman"
 #descr "TBD"
 #gcost 10000
@@ -53,7 +53,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3868
+#newmonster 3968
 #name "Haradrim Archer"
 #descr "TBD"
 #rcost 1
@@ -82,7 +82,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3869
+#newmonster 3969
 #name "Haradrim Standard Bearer"
 #descr "TBD"
 #rcost 12
@@ -115,7 +115,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #inspirational 1
 #end
 
-#newmonster 3870
+#newmonster 3970
 #name "Half-Troll"
 #descr "TBD"
 #rcost 1
@@ -150,7 +150,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #undisciplined
 #end
 
-#newmonster 3871
+#newmonster 3971
 #name "Balchoth Warrior"
 #descr "TBD"
 #gcost 8
@@ -179,7 +179,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #undisciplined
 #end
 
-#newmonster 3872
+#newmonster 3972
 #name "Balchoth Warrior"
 #descr "TBD"
 #gcost 8
@@ -208,7 +208,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #undisciplined
 #end
 
-#newmonster 3783
+#newmonster 3973
 #name "Haradrim Cavalry"
 #descr "Many Men have remained heavily under the influence of the Shadow in Middle-Earth, and the southern people of Harad are no exception. While there is division among the Haradrim, the majority of the tribes and lands of Haradwaith are loyal to Mordor. The Haradrim Horsemen bring all the fierceness of the Haradrim combined with the speed of horses to bring destruction to the enemies of Mordor.
 
@@ -242,7 +242,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3874
+#newmonster 3974
 #name "Variag Tribesman"
 #descr "TBD"
 #rcost 7
@@ -272,7 +272,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3875
+#newmonster 3975
 #name "Variag Cataphract"
 #descr "TBD"
 #rcost 14
@@ -303,7 +303,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3876
+#newmonster 3976
 #name "Wainrider Warrior Maiden"
 #descr "TBD"
 #gcost 10000
@@ -333,7 +333,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 119
 #end
 
-#newmonster 3877
+#newmonster 3977
 #name "War Chariot"
 #descr "TBD"
 #rcost 20
@@ -370,7 +370,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3878
+#newmonster 3978
 #name "War Chariot"
 #descr "TBD"
 #rcost 20
@@ -403,7 +403,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3878
+#newmonster 3978
 #name "Easterling Axeman"
 #descr "TBD"
 #gcost 10000
@@ -430,7 +430,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3878
+#newmonster 3979
 #name "Corsair Spearman"
 #descr "TBD"
 #rcost 1
@@ -461,7 +461,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3879
+#newmonster 3980
 #name "Corsair Archer"
 #descr "TBD"
 #rcost 1
@@ -492,7 +492,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3880
+#newmonster 3981
 #name "Corsair Swordsman"
 #descr "TBD"
 #rcost 1
@@ -523,7 +523,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3881
+#newmonster 3982
 #name "Black Numenorian"
 #descr "TBD"
 #rcost 16
