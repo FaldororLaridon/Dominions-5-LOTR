@@ -156,7 +156,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #gcost 8
 #rcost 1
 #rpcost 6
-#hp 11
+#hp 12
 #str 11
 #att 9
 #def 9
@@ -185,7 +185,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #gcost 8
 #rcost 1
 #rpcost 6
-#hp 11
+#hp 12
 #str 11
 #att 9
 #def 9
@@ -250,7 +250,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #rpcost 10000
 #ressize 2
 #hp 12
-#str 10
+#str 11
 #att 11
 #def 11
 #prec 10
@@ -309,9 +309,9 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #gcost 10000
 #rcost 1
 #rpcost 10000
-#hp 10
-#str 10
-#att 11
+#hp 11
+#str 11
+#att 10
 #def 11
 #prec 10
 #prot 0
@@ -340,15 +340,15 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #gcost 10020
 #rpcost 20000
 #ressize 2
-#hp 11
+#hp 13
 #str 12
 #att 11
-#def 10
+#def 11
 #prec 10
 #prot 0
 #size 4
 #mr 10
-#mor 12
+#mor 13
 #enc 5
 #mapmove 14
 #ap 12
@@ -370,5 +370,187 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
+#newmonster 3878
+#name "War Chariot"
+#descr "TBD"
+#rcost 20
+#gcost 10020
+#rpcost 20000
+#ressize 2
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 4
+#mr 10
+#mor 13
+#enc 5
+#mapmove 14
+#ap 12
+#eyes 6
+#weapon "Spear"
+#armor "Ring Mail Hauberk"
+#armor "Iron Cap"
+#mountedhumanoid
+#mounted
+#nomovepen
+#maxage 60
+#trample
+#pillagebonus 1
+#firstshape 3878
+#nametype 100
+#end
+
+#newmonster 3878
+#name "Easterling Axeman"
+#descr "TBD"
+#gcost 10000
+#rcost 1
+#rpcost 10000
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"
+#armor "Chain Mail Hauberk"
+#armor "Iron Cap"
+#humanoid 
+#maxage 60
+#nametype 100
+#end
+
+#newmonster 3878
+#name "Corsair Spearman"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 10000
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#armor "Scale Mail Cuirass"
+#armor "Iron Cap"
+#armor "Buckler"
+#humanoid
+#swimming
+#stealthy
+#maxage 90
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3879
+#name "Corsair Archer"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 10000
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Short Bow"
+#weapon "Short Sword"
+#armor "Scale Mail Cuirass"
+#armor "Iron Cap"
+#humanoid
+#swimming
+#stealthy
+#maxage 90
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3880
+#name "Corsair Swordsman"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 10000
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Scimitar"
+#armor "Scale Mail Cuirass"
+#armor "Iron Cap"
+#armor "Buckler"
+#humanoid
+#swimming
+#stealthy
+#maxage 90
+#pillagebonus 1
+#nametype 100
+#end
+
+#newmonster 3881
+#name "Black Numenorian"
+#descr "TBD"
+#rcost 16
+#gcost 10010
+#rpcost 15000
+#hp 13
+#str 12
+#att 12
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Broad Sword"
+#armor "Half Helmet"
+#armor "Chain Mail Hauberk"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 100
+#darkvision 50
+#nametype 183
 
 
