@@ -667,11 +667,11 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #mapmove 20
 #ap 22
 #eyes 2
-#weapon "Orcish Blade"|900
-#weapon "Bite"|237
-#armor "Leather Cuirass"|5
-#armor "Leather Cap"|120
-#armor "Shield"|2
+#weapon "Orcish Blade"
+#weapon 237
+#armor "Leather Cuirass"
+#armor "Leather Cap"
+#armor "Shield"
 #mountedhumanoid
 #mounted
 #mountainsurvival
@@ -680,6 +680,107 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #darkvision 100
 #pillagebonus 2
 #incunrest 5
+#nametype (Orc)
+#undisciplined
+#end
+
+#newmonster 3996
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 14
+#resize 1
+#hp 7
+#str 10
+#att 8
+#def 8
+#prec 9
+#prot 0
+#size 2
+#mr 8
+#morale 9
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Short Bow"
+#weapon "Orcish Blade"
+#weapon 237
+#armor "Leather Cuirass"
+#armor "Leather Cap"
+#mountedhumanoid
+#mounted
+#mountainsurvival
+#stealthy
+#maxage 1000
+#darkvision 100
+#pillagebonus 2
+#incunrest 5
+#nametype (Orc)
+#undisciplined
+#end
+
+#newmonster 3997
+#name "Mountain Orc Raider"
+#descr "TBD"
+#rcost 1
+#gcost 8
+#rpcost 8
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 8
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Battleaxe"|18
+#weapon "Javelin"|21
+#armor "Furs"|44
+#humanoid
+#mountainsurvival
+#stealthy 
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#nametype (Orc)
+#undisciplined
+#end
+
+#newmonster 3998
+#name "Mountain Orc Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 8
+#rpcost 8
+#hp 8
+#str 12
+#att 9
+#def 9
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 9
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Orcish Blade"|900
+#armor "Orc-Mail Hauberk"
+#armor "Iron Cap"|20
+#armor "Shield"|2
+#humanoid
+#mountainsurvival
+#stealthy 
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
 #nametype (Orc)
 #undisciplined
 #end
