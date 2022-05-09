@@ -80,7 +80,7 @@ Huorndark Spell! Damaging spell, can be cast at range but must come from a fores
 
 
 
-#newmonster 3907
+#newmonster 3898
 #name "Eorlingas Archer"
 #descr "TBD"
 #gcost 10000
