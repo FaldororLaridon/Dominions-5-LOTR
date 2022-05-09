@@ -649,7 +649,40 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 3995
-#
+#descr "The alliance between the Wargs and the Orcs of Gundabad is perhaps their greatest weapon. Riding on these fierce mounts, the goblins can move much swifter"
+#rcost 1
+#gcost 10
+#rpcost 14
+#ressize 1
+#hp 7
+#str 10
+#att 8
+#def 8
+#prec 9
+#prot 0
+#size 2
+#mr 8
+#morale 9
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Orcish Blade"|900
+#weapon "Bite"|237
+#armor "Leather Cuirass"|5
+#armor "Leather Cap"|120
+#armor "Shield"|2
+#mountedhumanoid
+#mounted
+#mountainsurvival
+#stealthy 
+#maxage 1000
+#darkvision 100
+#pillagebonus 2
+#incunrest 5
+#nametype (Orc)
+#undisciplined
+#end
 
 
 
