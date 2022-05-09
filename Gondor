@@ -723,7 +723,7 @@ Aragorn, and should also immediately get the same item.
 #researchbonus 8
 #end
 
-#newmonster 3851
+#newmonster 3951
 #name "Captain-General of Gondor"
 #fixedname "Boromir"
 #descr "TBD"
@@ -753,7 +753,7 @@ Aragorn, and should also immediately get the same item.
 #expertleader
 #end
 
-#newmonster 3852
+#newmonster 3952
 #name "Steward of Gondor"
 #fixedname "Denethor"
 #descr "TBD"
@@ -783,7 +783,7 @@ Aragorn, and should also immediately get the same item.
 #researchbonus 10
 #end
 
-#newmonster 3853
+#newmonster 3953
 #name "Ernil i Pheriannath"
 #fixedname "Peregrin Took"
 #descr "TBD"
@@ -814,7 +814,7 @@ Aragorn, and should also immediately get the same item.
 #noleader
 #end
 
-#newmonster 3854
+#newmonster 3954
 #name "Prince of Dol Amroth"
 #fixedname "Imrahil"
 #descr "TBD"
@@ -846,7 +846,7 @@ Aragorn, and should also immediately get the same item.
 #magicskill 8 1
 #end
 
-#newmonster 3855
+#newmonster 3955
 #name "Fearless"
 #fixedname "Angbor"
 #descr "TBD"
@@ -874,7 +874,7 @@ Aragorn, and should also immediately get the same item.
 #expertleader
 #end
 
-#newmonster 3856
+#newmonster 3956
 #name "Lord of Lossarnach"
 #fixedname "Forlong"
 #descr "TBD"
@@ -903,7 +903,7 @@ Aragorn, and should also immediately get the same item.
 #expertleader
 #end
 
-#newmonster 3857
+#newmonster 3957
 #name "Faithful"
 #fixedname "Beregond"
 #descr "TBD"
@@ -933,7 +933,7 @@ Aragorn, and should also immediately get the same item.
 #magicpath 8 1
 #end
 
-#newmonster 3858
+#newmonster 3958
 #name "Blackroot Vale Marksman"
 #fixedname "Derufin"
 #descr "TBD"
@@ -959,7 +959,7 @@ Aragorn, and should also immediately get the same item.
 #goodleader
 #end
 
-#newmonster 3859
+#newmonster 3959
 #name "Blackroot Vale Sharpshooter"
 #fixedname "Duilin"
 #descr "TBD"
@@ -987,7 +987,7 @@ Aragorn, and should also immediately get the same item.
 #goodleader
 #end
 
-#newmonster 3860
+#newmonster 3960
 #name "Beloved Captain"
 #fixedname "Faramir"
 #descr "TBD"
@@ -1021,7 +1021,7 @@ Aragorn, and should also immediately get the same item.
 #magicskill 8 2
 #end
 
-#newmonster 3861
+#newmonster 3961
 #name "Beloved Captain"
 #fixedname "Faramir"
 #descr "TBD"
@@ -1054,7 +1054,7 @@ Aragorn, and should also immediately get the same item.
 #magicskill 8 2
 #end
 
-#newmonster 3862
+#newmonster 3962
 #name "Oathbreaker"
 #singlebattle
 #hp 10
@@ -1072,13 +1072,14 @@ Aragorn, and should also immediately get the same item.
 #eyes 2
 #weapon "Oathbreaker Spear"
 #armor "Spectral Shield"
-#djinn
+#humanoid
 #undead
 #float
 #stealthy 20
 #maxage 3000
 #startage 2500
 #ethereal
+#neednoteat
 #poisonres 25
 #fear 5
 #darkpower 3
@@ -1086,7 +1087,7 @@ Aragorn, and should also immediately get the same item.
 #nametype 100
 #end
 
-#newmonster 3863
+#newmonster 3963
 #name "Oathbreaker"
 #singlebattle
 #hp 10
@@ -1112,6 +1113,7 @@ Aragorn, and should also immediately get the same item.
 #maxage 3000
 #startage 2500
 #ethereal
+#neednoteat
 #poisonres 25
 #fear 5
 #darkpower 3
@@ -1119,7 +1121,7 @@ Aragorn, and should also immediately get the same item.
 #nametype 100
 #end
 
-#newmonster 3864
+#newmonster 3964
 #name "Oathbreaker Chieftain"
 #singlebattle
 #hp 10
@@ -1137,7 +1139,7 @@ Aragorn, and should also immediately get the same item.
 #eyes 2
 #weapon "Oathbreaker Spear"
 #armor "Spectral Shield"
-#djinn
+#humanoid
 #undead
 #float
 #stealthy 20
@@ -1145,6 +1147,7 @@ Aragorn, and should also immediately get the same item.
 #startage 2500
 #ethereal
 #poisonres 25
+#neednoteat
 #fear 5
 #darkpower 3
 #spiritsight
@@ -1152,7 +1155,7 @@ Aragorn, and should also immediately get the same item.
 #okundeadleader
 #end
 
-#newmonster 3865
+#newmonster 3965
 #name "King of the Dead"
 #fixedname "  "
 #singlebattle
@@ -1171,7 +1174,7 @@ Aragorn, and should also immediately get the same item.
 #eyes 2
 #weapon "Oathbreaker Spear"
 #armor "Spectral Shield"
-#djinn
+#humanoid
 #itemslots 31878
 #undead
 #float
@@ -1179,6 +1182,7 @@ Aragorn, and should also immediately get the same item.
 #maxage 3000
 #startage 2500
 #ethereal
+#neednoteat
 #poisonres 25
 #fear 9
 #darkpower 5
@@ -1187,7 +1191,7 @@ Aragorn, and should also immediately get the same item.
 #goodundeadleader
 #end
 
-#newmonster 3866
+#newmonster 3966
 #name "Heir of Isildur"
 #fixedname "Aragorn"
 #hp 22
