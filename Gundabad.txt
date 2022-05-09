@@ -208,7 +208,7 @@
 #ap 12
 #eyes 2
 #weapon "Orcish Blade"|900
-#armor "Leather Hauberk"|10
+#armor "Orc-Mail Hauberk"
 #armor "Iron Cap"|20
 #armor "Shield"|2
 #humanoid
@@ -241,7 +241,7 @@
 #eyes 2
 #weapon "Orcish Blade"|900
 #weapon "Bite"|237
-#armor "Leather Hauberk"|10
+#armor "Orc-Mail Hauberk"
 #armor "Iron Cap"|20
 #armor "Shield"|2
 #mountedhumanoid
