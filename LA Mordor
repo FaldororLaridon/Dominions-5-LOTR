@@ -158,7 +158,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #rpcost 6
 #hp 11
 #str 11
-#att 10
+#att 9
 #def 9
 #prec 10
 #prot 0
@@ -187,7 +187,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #rpcost 6
 #hp 11
 #str 11
-#att 10
+#att 9
 #def 9
 #prec 10
 #prot 0
@@ -332,5 +332,26 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #castledef 1
 #nametype 119
 #end
+
+#newmonster 3877
+#name "War Chariot"
+#descr "TBD"
+#rcost 20
+#gcost 10020
+#rpcost 20000
+#ressize 2
+#hp 10
+#str 10
+#att 11
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
 
 
