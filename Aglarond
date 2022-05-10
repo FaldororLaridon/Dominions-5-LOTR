@@ -1,0 +1,36 @@
+#newmonster 3902
+#name "Guardian of Aglarond"
+#descr "Crystals and gems woven into armour/beards, gives awe or at least a defence bonus *currently 11 instead of the usual 9* oh! could be sun awe, only works when the sun is out to shine on their dazzling selves?"
+#rcost 1
+#gcost 10000
+#rpcost 18
+#rcost 2
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 8
+#prot 0
+#size 1
+#mr 14
+#mor 13
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Axe"
+#armor "Dwarf-Mail Hauberk"
+#armor "Dwarf Half Helm'
+#armor "Khazad Round Shield"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#addupkeep 5
+#reinvigoration 2
+#darkvision 50
+#castledef 1
+#nametype 174
+#supplybonus -1
+#drawsize 10
+#end
