@@ -89,3 +89,21 @@
 #mapmove 20
 #ap 8
 #eyes 2
+#weapon "Hammer"
+#armor "Dwarf-Mail Cuirass"
+#humanoid 
+#mountainsurvival
+#maxage 230
+#fireres 5
+#reinvigoration 2
+#darkvision 50
+#sunawe 1
+#nametype 174
+#mason
+#resources 15
+#poorleader
+#supplybonus -1
+#researchbonus -4
+#formationfighter -3
+#drawsize 10
+#end
