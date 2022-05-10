@@ -649,6 +649,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 3995
+#name "Goblin Raider"
 #descr "The alliance between the Wargs and the Orcs of Gundabad is perhaps their greatest weapon. Riding on these fierce mounts, the goblins can move much swifter"
 #rcost 1
 #gcost 10
@@ -675,16 +676,18 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #mountedhumanoid
 #mounted
 #mountainsurvival
-#stealthy 
+#stealthy
+#uwdamage 100
 #maxage 1000
 #darkvision 100
 #pillagebonus 2
 #incunrest 5
-#nametype (Orc)
+#nametype 170
 #undisciplined
 #end
 
 #newmonster 3996
+#name "Goblin Raider"
 #descr "TBD"
 #rcost 1
 #gcost 10
@@ -711,12 +714,13 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #mountedhumanoid
 #mounted
 #mountainsurvival
+#uwdamage 100
 #stealthy
 #maxage 1000
 #darkvision 100
 #pillagebonus 2
 #incunrest 5
-#nametype (Orc)
+#nametype 170
 #undisciplined
 #end
 
@@ -745,10 +749,11 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #humanoid
 #mountainsurvival
 #stealthy 
+#uwdamage 100
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
-#nametype (Orc)
+#nametype 170
 #undisciplined
 #end
 
@@ -778,12 +783,69 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #humanoid
 #mountainsurvival
 #stealthy 
+#uwdamage 100
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
-#nametype (Orc)
+#nametype 170
 #undisciplined
 #end
+
+#newmonster 3999
+#name "Mordor Uruk
+#descr "TBD"
+#rcost 1
+#gcost 11
+#rpcost 10000
+#hp 12
+#str 15
+#att 11
+#def 10
+#prec 9
+#prot 0
+#size 2
+#mr 9
+#morale 10
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Poisoned Scimitar"
+#armor "Orc-Mail Hauberk"
+#armor "Full Helmet"
+#armor "Iron Shield"
+#humanoid
+#wastesurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#nametype 170
+#slave
+#end
+
+#newmonster 4000
+#name "Morgul Orc"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 8
+#hp 8
+#str 12
+#att 9
+#def 9
+#prec 9
+#prot 0
+#size 1
+#mr 10
+#mor 8
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon 
+
 
 
 
