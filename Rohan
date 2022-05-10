@@ -1064,8 +1064,8 @@ rcost 1
 #mr 17
 #mor 30
 #enc 4
-#mapmove 26
-#ap 26
+#mapmove 30
+#ap 28
 #eyes 2
 #weapon "Staff"
 #weapon 56
