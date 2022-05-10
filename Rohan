@@ -864,6 +864,7 @@ rcost 1
 #mapmove 20
 #ap 24
 #eyes 2
+#weapon "Lance"
 #weapon "Éowyn's Blade"
 #weapon 56
 #armor "Chain Mail Hauberk"
