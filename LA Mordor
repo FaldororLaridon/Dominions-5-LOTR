@@ -941,21 +941,37 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #gcost 10010
 #rpcost 10000
 #hp 26
-#str 21
-#att 11
+#str 19
+#att 10
 #def 9
 #prec 9
 #prot 3
 #size 3
 #mr 9
 #morale 50
-#enc 3
-#mapmove 14
+#enc 4
+#mapmove 16
 #ap 14
 #eyes 2
 #weapon "Mace"
 #weapon 29
-#weapon 
+#weapon 20
+#armor "Buckler"
+#humanoid
+#holy
+#magicbeing
+#swampsurvival
+#wastesurvival
+#uwdamage 100
+#maxage 300
+#invulnerable 23
+#darkpower 2
+#dominionpower 1
+#darkvision 100
+#nametype 170
+#end 
+
+
 
 
 
