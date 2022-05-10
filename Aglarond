@@ -3,12 +3,12 @@
 #descr "Crystals and gems woven into armour/beards, gives awe or at least a defence bonus *currently 11 instead of the usual 9* oh! could be sun awe, only works when the sun is out to shine on their dazzling selves?"
 #rcost 1
 #gcost 10000
-#rpcost 18
+#rpcost 20
 #rcost 2
 #hp 13
 #str 12
 #att 11
-#def 11
+#def 9
 #prec 8
 #prot 0
 #size 1
@@ -26,6 +26,7 @@
 #mountainsurvival
 #maxage 230
 #fireres 5
+#sunawe 1
 #addupkeep 5
 #reinvigoration 2
 #darkvision 50
@@ -34,3 +35,57 @@
 #supplybonus -1
 #drawsize 10
 #end
+
+#newmonster 4004
+#name "Captain of Aglarond"
+#descr "TBD"
+#rcost 2
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 12
+#att 11
+#def 9
+#prec 8
+#prot 0
+#size 1
+#mr 14
+#mor 13
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Axe"
+#armor "Dwarf-Mail Hauberk"
+#armor "Dwarf Half Helm"
+#armor "Khazad Round Shield"
+#humanoid
+#mountainsurvival
+#maxage 230
+#fireres 5
+#sunawe 1
+#reinvigoration 2
+#darkvision 50
+#castledef 1
+#nametype 174
+#goodleader
+#supplybonus -1
+#addupkeep 5
+#drawsize 10
+#end
+
+#newmonster 4005
+#name "Aglarond Smith"
+#descr "TBD"
+#hp 11
+#att 9
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 16
+#mor 13
+#enc 2
+#mapmove 20
+#ap 8
+#eyes 2
