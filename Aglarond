@@ -107,3 +107,15 @@
 #formationfighter -3
 #drawsize 10
 #end
+
+#newsite
+#name "Aglarond"
+#loc 16384
+#path 3
+#level 0
+#rarity 5
+#homemon "Guardian of Aglarond"
+#homecom "Captain of Aglarond"
+#homecom "Aglarond Smith"
+#end
+
