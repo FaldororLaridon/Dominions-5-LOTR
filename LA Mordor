@@ -389,7 +389,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #enc 5
 #mapmove 14
 #ap 12
-#eyes 6
+#eyes 4
 #weapon "Spear"
 #armor "Ring Mail Hauberk"
 #armor "Iron Cap"
@@ -972,6 +972,75 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end 
 
 #newmonster 4006
+#name "Haradrim Chieftain"
+#descr "TBD"
+#rcost 12
+#gcost 10020
+#rpcost 1
+#ressize 2
+#hp 10
+#str 12
+#att 12
+#def 11
+#prec 10
+#prot 0
+#size 2
+#mr 10
+#mor 13
+#enc 3
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Scimitar"
+#weapon 56
+#armor "Scale Mail Hauberk"
+#armor "Shield"
+#armor "Half Helmet"
+#mounted
+#mountedhumanoid
+#wastesurvival
+#maxage 70
+#nametype 100
+#goodleader
+#end
+
+#newmonster 4007
+#name "Haradrim King"
+#descr "TBD"
+#rcost 12
+#gcost 10020
+#rpcost 2
+#ressize 2
+#hp 11
+#str 12
+#att 12
+#def 12
+#prec 10
+#prot 0
+#size 2
+#mr 11
+#mor 14
+#enc 3
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Scimitar"
+#weapon 56
+#armor "Scale Mail Hauberk"
+#armor "Shield"
+#armor "Half Helmet"
+#mounted
+#mountedhumanoid
+#wastesurvival
+#batstartsum3 "Haradrim Cavalry"
+#maxage 70
+#nametype 100
+#expertleader
+#end
+
+#newmonster 4008
+#name "Haradrim Apprentice"
+#fixedname "TBD"
 
 
 
