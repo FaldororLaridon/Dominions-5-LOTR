@@ -1041,6 +1041,64 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #newmonster 4008
 #name "Haradrim Apprentice"
 #fixedname "TBD"
+#rcost 1
+#gcost 10020
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Dagger"
+#armor "Robes"
+#humanoid
+#wastesurvival
+#maxage 70
+#nametype 173
+#poorleader
+#magicskill 0 1
+#custommagic 18560 25
+#end
+
+#newmonster 4009
+#rcost 1
+#gcost 10020
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robes"
+#humanoid
+#wastesurvival
+#maxage 70
+#nametype 173
+#poorleader
+#magicskill 0 1
+#magicskill 7 1
+#custommagic 18560 100
+#custommagic 2176 50
+#custommagic 18560 25
+#end
+
 
 
 
