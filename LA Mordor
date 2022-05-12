@@ -1069,6 +1069,8 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 4009
+#name "Haradrim Sorcerer"
+#descr "TBD"
 #rcost 1
 #gcost 10020
 #rpcost 2
@@ -1095,9 +1097,12 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #magicskill 0 1
 #magicskill 7 1
 #custommagic 18560 100
-#custommagic 2176 50
-#custommagic 18560 25
+#custommagic 128 25
+#custommagic 2048 25
+#custommagic 16384 50
 #end
+
+
 
 
 
