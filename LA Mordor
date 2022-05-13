@@ -212,7 +212,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #name "Haradrim Cavalry"
 #descr "Many Men have remained heavily under the influence of the Shadow in Middle-Earth, and the southern people of Harad are no exception. While there is division among the Haradrim, the majority of the tribes and lands of Haradwaith are loyal to Mordor. The Haradrim Horsemen bring all the fierceness of the Haradrim combined with the speed of horses to bring destruction to the enemies of Mordor.
 
-'Southward beyond the road lay the main force of the Haradrim, and there their horsemen were gathered about the standard of their chieftain. And he looked out, and in the growing light he saw the banner of the king, and that it was far ahead of the battle with few men about it. Then he was filled with ared wrath and shouted aloud, and displaying his standard, black serpent upon scarlet, he came against the white horse and the green with a great press of men; and the drawing of the scimitars of the Southrons was like a glitter of stars.' The Return of the King; Chapter VI: The Battle of the Pelennor Fields"
+'Southward beyond the road lay the main force of the Haradrim, and there their horsemen were gathered about the standard of their chieftain. And he looked out, and in the growing light he saw the banner of the king, and that it was far ahead of the battle with few men about it. Then he was filled with a red wrath and shouted aloud, and displaying his standard, black serpent upon scarlet, he came against the white horse and the green with a great press of men; and the drawing of the scimitars of the Southrons was like a glitter of stars.' The Return of the King; Chapter VI: The Battle of the Pelennor Fields"
 #rcost 12
 #gcost 10010
 #rpcost 10000
@@ -346,7 +346,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #def 11
 #prec 10
 #prot 0
-#size 4
+#size 5
 #mr 10
 #mor 13
 #enc 5
@@ -1103,7 +1103,39 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 4011
-
+#name "Wainrider Chieftain"
+#descr "TBD"
+#rcost 20
+#gcost 10020
+#rpcost 2
+#hp 13
+#str 13
+#att 12
+#def 11
+#prec 10
+#prot 0
+#size 5
+#mr 10
+#mor 13
+#enc 5
+#mapmove 14
+#ap 12
+#eyes 6
+#weapon "Javelin"
+#weapon "Javelin"
+#weapon "Spear"
+#armor "Ring Mail Hauberk"
+#armor "Iron Cap"
+#mountedhumanoid
+#mounted
+#nomovepen
+#maxage 60
+#trample
+#pillagebonus 1
+#nametype 100
+#goodleader
+#inspirational 1
+#end
 
 
 
