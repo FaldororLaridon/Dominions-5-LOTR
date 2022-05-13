@@ -1079,6 +1079,7 @@ Aragorn, and should also immediately get the same item.
 #maxage 3000
 #startage 2500
 #ethereal
+#pooramphibian
 #neednoteat
 #poisonres 25
 #fear 5
@@ -1108,6 +1109,7 @@ Aragorn, and should also immediately get the same item.
 #mountedhumanoid
 #undead
 #float
+#pooramphibian
 #mounted
 #stealthy 20
 #maxage 3000
@@ -1141,6 +1143,7 @@ Aragorn, and should also immediately get the same item.
 #armor "Spectral Shield"
 #humanoid
 #undead
+#pooramphibian
 #float
 #stealthy 20
 #maxage 3000
@@ -1177,6 +1180,7 @@ Aragorn, and should also immediately get the same item.
 #humanoid
 #itemslots 31878
 #undead
+#pooramphibian
 #float
 #stealthy 20
 #maxage 3000
