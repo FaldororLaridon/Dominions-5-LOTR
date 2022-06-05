@@ -1137,6 +1137,38 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #inspirational 1
 #end
 
+#newmonster 4012
+#name "Easterling Shaman"
+#descr "TBD"
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 11
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Furs"
+#humanoid
+#maxage 70
+#nametype 173
+#poorleader
+#magicskill 7 1
+#magicskill 0 1
+#custommagic 21504 100
+#custommagic 5120 15
+#end
+
+#newmonster 4013
+#name "Variag Commander"
+#descr "TBD"
+
 
 
 
