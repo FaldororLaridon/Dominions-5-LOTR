@@ -435,7 +435,7 @@ Aragorn, and should also immediately get the same item.
 #mapmove 20
 #ap 20
 #eyes 2
-#weapon 357
+#weapon "Short Sword"
 #armor "Chain Mail Cuirass"
 #armor "Half Helmet"
 #armor "Shield"
@@ -536,6 +536,7 @@ Aragorn, and should also immediately get the same item.
 #maxage 100
 #nametype 100
 #expertleader
+#castledef 5
 #end
 
 #newmonster 3945
