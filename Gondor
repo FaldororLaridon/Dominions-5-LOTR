@@ -743,7 +743,7 @@ Aragorn, and should also immediately get the same item.
 #eyes 2
 #weapon "Broad Sword"
 #armor "Chain Mail Hauberk"
-#armor "Half Helmet"
+#armor "Full Helmet"
 #armor "Kite Shield"
 #startitem "Horn of the Stewards"
 #humanoid
@@ -978,6 +978,7 @@ Aragorn, and should also immediately get the same item.
 #ap 14
 #eyes 2
 #weapon "Broad Sword"
+#weapon "Long Bow"
 #armor "Chain Mail Cuirass"
 #armor "Hood"
 #humanoid
