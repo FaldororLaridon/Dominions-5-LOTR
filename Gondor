@@ -412,7 +412,7 @@ Aragorn, and should also immediately get the same item.
 #stealthy 10
 #patrolbonus 1
 #maxage 90
-#ambidextrous 2
+#ambidextrous 3
 #end
 
 #newmonster 3941
@@ -938,9 +938,9 @@ Aragorn, and should also immediately get the same item.
 #name "Blackroot Vale Marksman"
 #fixedname "Derufin"
 #descr "TBD"
-#hp 11
+#hp 12
 #str 12
-#att 11
+#att 12
 #def 11
 #prec 14
 #prot 0
@@ -957,34 +957,6 @@ Aragorn, and should also immediately get the same item.
 #armor "Iron Cap"
 #humanoid
 #maxage 90
-#goodleader
-#end
-
-#newmonster 3959
-#name "Blackroot Vale Sharpshooter"
-#fixedname "Duilin"
-#descr "TBD"
-#hp 13
-#str 13
-#att 12
-#def 12
-#prec 12
-#prot 0
-#size 2
-#mr 10
-#mor 13
-#enc 3
-#mapmove 14
-#ap 12
-#eyes 2
-#weapon "Long Bow"
-#weapon "Broad Sword"
-#weapon "Broad Sword"
-#armor "Chain Mail Hauberk"
-#armor "Iron Cap"
-#humanoid
-#maxage 90
-#abidextrous 2
 #goodleader
 #end
 
@@ -1179,7 +1151,6 @@ Aragorn, and should also immediately get the same item.
 #weapon "Oathbreaker Spear"
 #armor "Spectral Shield"
 #humanoid
-#itemslots 31878
 #undead
 #pooramphibian
 #float
@@ -1192,7 +1163,6 @@ Aragorn, and should also immediately get the same item.
 #fear 9
 #darkpower 5
 #spiritsight
-#raredomsummon "Oathbreaker Chieftain"
 #goodundeadleader
 #end
 
@@ -1238,6 +1208,7 @@ Aragorn, and should also immediately get the same item.
 #goodundeadleader
 #inspirational 1
 #magicskill 8 3
+#latehero 24
 #end
 
 #newsite
@@ -1289,6 +1260,7 @@ Aragorn, and should also immediately get the same item.
 #startsite "Minas Tirith
 #startsite "Dol Amroth"
 #startsite "The Fountain Court"
+#startsite "The Stone of Erech"
 #aigoodbless 50
 #startcom "Gondorian Guard Captain"
 #forestrec 3938
@@ -1316,16 +1288,16 @@ Aragorn, and should also immediately get the same item.
 #addreccom "Loremaster"
 #addreccom "Westwatcher"
 #addreccom "Wavecaller"
-#hero1 3851
-#hero2 3852
-#hero3 3853
-#hero4 3854
-#hero5 3855
-#hero6 3856
-#hero7 3857
-#hero8 3858
-#hero9 3859
-#hero10 3860
+#hero1 3951
+#hero2 3952
+#hero3 3953
+#hero4 3954
+#hero5 3955
+#hero6 3956
+#hero7 3957
+#hero8 3958
+#hero9 3966
+#hero10 3960
 #defcom1 "Gondorian Guard Captain"
 #defcom2 "Captain of Gondor"
 #defunit1 "Spearman of Pinnath Gelin"
@@ -1380,21 +1352,20 @@ Aragorn, and should also immediately get the same item.
 #end
 
 #newspell 
-#name "Call Oathbreaker Chieftain"
-#descr "Calls an Oathbreaker Chieftain to fulfil his Oath."
+#name "Call Oathbreakers"
+#descr "Calls the Oathbreakers to fulfil his Oath."
 #school 4
 #researchlevel 3
-#path -1
+#path 4
 #pathlevel 1
-#fatiguecost 800
+#fatiguecost 100
 #damage 3864
 #effect 10001
 #nreff 1
-#provrange 0
+#provrange 5
 #onlyatsite "Stone of Erech"
 #restricted "Gondor"
 #onlymnr "Heir of Isildur"
-#onlymnr "King of the Dead"
 #end
 
 
@@ -1405,7 +1376,7 @@ Aragorn, and should also immediately get the same item.
 #type 8
 #name "Right of Lineage"
 #descr "Only Aragorn and the King of the Dead hold the power to call Oathbreaker Chieftains to their aid."
-#spell "Call Oathbreaker Chieftain"
+#spell "Call Oathbreakers"
 #nofind
 #cursed
 #end
