@@ -534,6 +534,7 @@ Aragorn, and should also immediately get the same item.
 #maxage 100
 #nametype 100
 #goodleader
+#castledef 10
 #end
 
 #newmonster 3944
@@ -565,7 +566,6 @@ Aragorn, and should also immediately get the same item.
 #maxage 100
 #nametype 100
 #expertleader
-#castledef 5
 #end
 
 #newmonster 3945
@@ -1092,7 +1092,7 @@ Aragorn, and should also immediately get the same item.
 #end
 
 #newmonster 3963
-#name "Oathbreaker"
+#name "Oathbreaker Horseman"
 #singlebattle
 #hp 10
 #str 10
@@ -1107,7 +1107,8 @@ Aragorn, and should also immediately get the same item.
 #mapmove 20
 #ap 20
 #eyes 2
-#weapon "Oathbreaker Spear"
+#weapon "Oathbreaker Lance"
+#weapon "Oathbreaker Sword"
 #armor "Spectral Shield"
 #mountedhumanoid
 #undead
@@ -1142,7 +1143,7 @@ Aragorn, and should also immediately get the same item.
 #mapmove 20
 #ap 20
 #eyes 2
-#weapon "Oathbreaker Spear"
+#weapon "Oathbreaker Sword"
 #armor "Spectral Shield"
 #humanoid
 #undead
