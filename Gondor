@@ -32,7 +32,36 @@ Aragorn, and should also immediately get the same item.
 #magic
 #aoe 1
 #unrepel
+#nostr
 #end
+
+#newweapon 898
+#copyweapon 139
+#name "Oathbreaker Sword"
+#dmg 1
+#len 1
+#att 1
+#def 1
+#sound 18
+#magic
+#aoe 1
+#unrepel
+#nostr
+#end
+
+#newweapon 899
+#copyweapon 139
+#name "Oathbreaker Lance"
+#dmg 1
+#len 3
+#att 1
+#sound 18
+#magic
+#aoe1
+#unrepel
+#nostr
+#end
+
 
 
 #newitem
