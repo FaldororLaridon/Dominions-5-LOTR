@@ -403,7 +403,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3978
+#newmonster 3979
 #name "Easterling Axeman"
 #descr "TBD"
 #gcost 10000
@@ -430,7 +430,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3979
+#newmonster 3980
 #name "Corsair Spearman"
 #descr "TBD"
 #rcost 1
@@ -461,7 +461,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3980
+#newmonster 3981
 #name "Corsair Archer"
 #descr "TBD"
 #rcost 1
@@ -492,7 +492,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3981
+#newmonster 3982
 #name "Corsair Swordsman"
 #descr "TBD"
 #rcost 1
@@ -523,7 +523,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 100
 #end
 
-#newmonster 3982
+#newmonster 3983
 #name "Black Numenorian"
 #descr "TBD"
 #rcost 16
@@ -1390,6 +1390,205 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #custommagic 13312 100
 #reanimpriest
 #end 
+
+#newmonster 4020
+#name "Broodmother"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 18
+#hp 26
+#str 12
+#att 12
+#def 9
+#prec 11
+#prot 14
+#size 4
+#mr 14
+#mor 12
+#enc 2
+#mapmove 14
+#ap 14
+#eyes 8
+#weapon 65
+#weapon "Web"
+#weapon "Web Spit"
+#lizard
+#forestsurvival
+#stealthy
+#maxage 80
+#animal
+#nametype 140
+#okleader
+#beastmaster 1
+#domsummon20 3993
+#end
+
+#newmonster 4021
+#name "Warg"
+#descr "TBD"
+#hp 11
+#str 10
+#att 11
+#def 11
+#prec 5
+#prot 4
+#size 2
+#mr 8
+#morale 12
+#enc 2
+#mapmove 22
+#ap 26
+#eyes 2
+#weapon "Bite"|20
+#quadruped
+#animal
+#snow
+#mountainsurvival
+#forestsurvival
+#stealthy 10
+#maxage 80
+#patrolbonus 1
+#undisciplined
+#end
+
+#newmonster 4022
+#name "Goblin Scout"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 7
+#str 10
+#att 7
+#def 7
+#prec 9
+#prot 0
+#size 1
+#mr 8
+#morale 7
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Short Bow"|23
+#weapon "Dagger"|9
+#armor "Furs"|44
+#humanoid
+#mountainsurvival
+#stealthy 10
+#maxage 250
+#darkvision 100
+#nametype 170
+#noleader
+#end
+
+#newmonster 4023
+#name "Warg Chieftain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 28
+#str 16
+#att 13
+#def 9
+#prec 5
+#prot 6
+#size 3
+#mr 13
+#morale 12
+#enc 2
+#mapmove 22
+#ap 26
+#eyes 2
+#weapon "Bite"|20
+#quadruped
+#animal
+#mountainsurvival
+#snow
+#forestsurvival
+#stealthy
+#maxage 80
+#patrolbonus 5
+#nametype 140
+#poorleader
+#command 50
+#beastmaster 2
+#end
+
+#newmonster 4024
+#name "Hound of Sauron"
+#descr "TBD"
+#reqtemple
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 28
+#str 16
+#att 13
+#def 9
+#prec 5
+#prot 6
+#size 3
+#mr 13
+#morale 12
+#enc 2
+#mapmove 22
+#ap 26
+#eyes 2
+#weapon "Bite"|20
+#quadruped
+#holy
+#animal
+#mountainsurvival
+#snow
+#forestsurvival
+#stealthy 20
+#spy
+#maxage 80
+#fireres -5
+#patrolbonus 5
+#nametype 140
+#noleader
+#magicskill 8 1
+#end
+
+#newmonster 4025
+#name "Orc Chieftain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 9
+#str 14
+#att 10
+#def 10
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#morale 11
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Poisoned Scimitar"|805
+#armor "Orc-Mail Hauberk"
+#armor "Iron Cap"|20
+#armor "Iron Shield"|208
+#humanoid
+#mountainsurvival
+#stealthy
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#nametype (Orc)
+#okleader
+#command 110
+#end
+
+#newmonster 4026
 
 
 
