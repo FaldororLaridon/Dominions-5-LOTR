@@ -554,7 +554,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 183
 #end
 
-#newmonster 3992
+#newmonster 3993
 #name "Mirkwood Spider"
 #descr "TBD"
 #rcost 1
@@ -586,7 +586,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #undisciplined
 #end
 
-#newmonster 3993
+#newmonster 3994
 #name "Mirkwood Spider"
 #descr "TBD"
 #rcost 1
@@ -618,7 +618,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #undisciplined
 #end
 
-#newmonster 3994
+#newmonster 3995
 #name "Greater Mirkwood Spider"
 #descr "TBD"
 #rcost 1
@@ -648,7 +648,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 140
 #end
 
-#newmonster 3995
+#newmonster 3996
 #name "Goblin Raider"
 #descr "The alliance between the Wargs and the Orcs of Gundabad is perhaps their greatest weapon. Riding on these fierce mounts, the goblins can move much swifter"
 #rcost 1
@@ -686,7 +686,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #undisciplined
 #end
 
-#newmonster 3996
+#newmonster 3997
 #name "Goblin Raider"
 #descr "TBD"
 #rcost 1
@@ -724,7 +724,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #undisciplined
 #end
 
-#newmonster 3997
+#newmonster 3998
 #name "Mountain Orc Raider"
 #descr "TBD"
 #rcost 1
@@ -750,41 +750,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #mountainsurvival
 #stealthy 
 #uwdamage 100
-#maxage 1000
-#darkvision 100
-#pillagebonus 1
-#nametype 170
-#undisciplined
-#end
-
-#newmonster 3998
-#name "Mountain Orc Warrior"
-#descr "TBD"
-#rcost 1
-#gcost 8
-#rpcost 8
-#hp 8
-#str 12
-#att 9
-#def 9
-#prec 8
-#prot 0
-#size 1
-#mr 8
-#morale 9
-#enc 2
-#mapmove 16
-#ap 12
-#eyes 2
-#weapon "Orcish Blade"|900
-#armor "Orc-Mail Hauberk"
-#armor "Iron Cap"|20
-#armor "Shield"|2
-#humanoid
-#mountainsurvival
-#stealthy 
-#uwdamage 100
-#maxage 1000
+#maxage 300
 #darkvision 100
 #pillagebonus 1
 #nametype 170
