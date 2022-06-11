@@ -1250,7 +1250,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #ap 12
 #eyes 2
 #weapon "Dagger"
-#armor "Linen Cuirass
+#armor "Linen Cuirass"
 #humanoid
 #swimming
 #sailing 999 3
@@ -1261,6 +1261,140 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #magicskill 2 2
 #magicskill 1 1
 #end
+
+#newmonster 4016
+#name "Black Numenorian"
+#descr "TBD"
+#rcost 16
+#gcost 10010
+#rpcost 2
+#hp 14
+#str 13
+#att 13
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 11
+#mor 13
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Broad Sword"
+#armor "Full Helmet"
+#armor "Chain Mail Hauberk"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 100
+#darkvision 50
+#nametype 183
+#expertleader
+#magicskill 8 1
+#end
+
+#newmonster 4017
+#name "Necromancer Apprentice"
+#descr "TBD"
+#rcost 1
+#rpcost 2
+#gcost 10000
+#hp 9
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 13
+#mor 10
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Dagger"
+#humanoid
+#holy
+#forestsurvival
+#maxage 60
+#nametype 100
+#poorleader
+#magicskill 5 1
+#custommagic 4096 10
+#end 
+
+#newmonster 4018
+#name "Master Necromancer"
+#descr "TBD"
+#rcost 1
+#rpcost 2
+#gcost 10000
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 13
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robes"
+#humanoid
+#holy
+#forestsurvival
+#maxage 60
+#nametype 100
+#poorleader
+#magicskill 5 2
+#magicskill 8 1
+#custommagic 14336 100
+#custommagic 14336 10
+#end 
+
+#newmonster 4019
+#name "Servant of Mirkwood"
+#descr "TBD"
+#rcost 1
+#rpcost 2
+#gcost 10000
+#hp 10
+#str 10
+#att 9
+#def 9
+#prec 10
+#prot 0
+#size 2
+#mr 13
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Dagger"
+#armor "Robes"
+#humanoid
+#holy
+#forestsurvival
+#maxage 60
+#nametype 100
+#poorleader
+#magicskill 6 1
+#magicskill 8 2
+#custommagic 13312 100
+#reanimpriest
+#end 
+
+
+
+
+
 
 
 
