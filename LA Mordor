@@ -46,6 +46,11 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #att 2
 #end
 
+#newspell
+#name "Haradrim Darts"
+#descr "The Archers riding the war tower on the Mumak fire their bows constantly at the enemy."
+
+
 
 
 #newmonster 3967
