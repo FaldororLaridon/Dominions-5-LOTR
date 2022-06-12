@@ -51,6 +51,12 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #descr "The Archers riding the war tower on the Mumak fire their bows constantly at the enemy."
 #school 2
 #researchlevel 9
+#pathreq -1
+#pathlavel 0
+#fatiguecost 5
+#damage 10
+#effect 2
+#nreff 5
 
 
 
