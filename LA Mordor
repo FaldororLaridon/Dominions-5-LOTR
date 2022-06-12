@@ -764,7 +764,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #gcost 10000
 #rpcost 10000
 #hp 12
-#str 15
+#str 14
 #att 11
 #def 10
 #prec 9
@@ -1229,7 +1229,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 4016
-#name "Black Numenorian"
+#name "Black Numenorian Captain"
 #descr "TBD"
 #rcost 16
 #gcost 10010
@@ -1555,8 +1555,184 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 4026
+#name "Hand of Shadow"
+#descr "TBD"
+#reqtemple
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 8
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 10
+#morale 10
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Poison Dagger"|126
+#armor "Leather Cuirass"|5
+#humanoid
+#holy
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#nametype orc
+#noleader
+#magicskill 8 2
+#end
 
+#newmonster 4027
+#name "Mordor Orc Taskmaster"
+#rcost 2
+#gcost 20
+#rpcost 1
+#hp 9
+#str 13
+#att 8
+#def 10
+#prec 8
+#prot 0
+#size 2
+#mr 9
+#mor 8
+#enc 3
+#mapmove 11
+#ap 11
+#eyes 2
+#weapon "Whip" | 40
+#armor "Orc-Mail Hauberk" | 301
+#armor "Iron Shield"
+#armor "Iron Cap"
+#humanoid
+#wastesurvival
+#startage 150
+#maxage 1000
+#darkpower 1
+#darkvision 100
+#uwdamage 100
+#nametype 161
+#poorleader 
+#command 60
+#taskmaster 2
+#slave
+#end
 
+#newmonster 4027
+#name "Uruk Captain"
+#descr "TBD"
+#rcost 1
+#gcost 45
+#rpcost 1
+#hp 13
+#str 15
+#att 12
+#def 11
+#prec 9
+#prot 0
+#size 2
+#mr 9
+#morale 11
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Poisoned Scimitar"
+#armor "Orc-Mail Hauberk"
+#armor "Iron Shield"
+#armor "Full Helmet"
+#humanoid
+#wastesurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 100
+#pillagebonus 1
+#nametype 170
+#slave
+#okleader
+#command 60
+#taskmaster 2
+#end
+
+#newmonster 4028
+#name "Olog-hai Chieftain"
+#descr "TBD
+#rcost 3
+#gcost 10010
+#rpcost 2
+#hp 32
+#str 21
+#att 11
+#def 10
+#prec 9
+#prot 0
+#size 3
+#mr 9
+#morale 50
+#enc 4
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Mace"
+#weapon 29
+#weapon 20
+#armor "Buckler"
+#humanoid
+#holy
+#magicbeing
+#swampsurvival
+#wastesurvival
+#uwdamage 100
+#maxage 300
+#invulnerable 23
+#darkpower 2
+#dominionpower 1
+#darkvision 100
+#nametype 170
+#noleader
+#magicleader 60
+#end 
+
+#newmonster 4029
+#name "Morgul Lieutenant"
+#descr "TBD"
+#descr "TBD"
+#rcost 16
+#gcost 10010
+#rpcost 2
+#hp 14
+#str 13
+#att 12
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 13
+#mor 13
+#enc 3
+#mapmove 20
+#ap 23
+#eyes 2
+#weapon "Broad Sword"
+#armor "Full Helmet"
+#armor "Chain Mail Cuirass"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 100
+#darkvision 50
+#nametype 183
+#expertleader
+#magicskill 8 1
+#magicskill 0 1
+#magicskill 5 2
+#end
 
 
 
