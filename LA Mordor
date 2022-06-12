@@ -22,6 +22,30 @@ Commanders: Sorcerer of Barad-dur, Olog-hai Chieftain, Morgul Lieutenant
 
 Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, The Mouth of Sauron
 
+#newweapon 900
+#copyweapon "Fear"
+#name "Decapitated Heads"
+#sound 10
+#range -1
+#nratt -2
+#ammo 10
+#rcost 2
+#natural
+#undeadimmune
+#att 2
+#end
+
+#newweapon 901
+#copyweapon 425
+#name "Flaming Boulder"
+#range -1
+#nratt -3
+#ammo 10
+#rcost 10
+#natural
+#att 2
+#end
+
 
 
 #newmonster 3967
@@ -366,6 +390,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #maxage 60
 #trample
 #pillagebonus 1
+#supplybonus -2
 #secondshape 3878
 #nametype 100
 #end
@@ -1743,7 +1768,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #hp 100
 #str 29
 #att 10
-#def 10
+#def 9
 #prec 11
 #prot 20
 #size 6
@@ -1756,9 +1781,53 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #weapon "Tusk"
 #weapon 437
 #weapon 437
-#quadroped
+#quadruped
 #startitem "Haradrim Archers"
 #itemslots 28672
+#animal
+#swimming
+#wastesurvival
+#maxage 100
+#pierceres
+#fear 8
+#woundfend 2
+#trample
+#siegebonus 10
+#supplybonus -10
+#nametype 100
+#okleader
+#end
+
+#newmonster 4031
+#name "Mordor Catapult"
+#descr "TBD"
+#gcost 70
+#rcost 30
+#rpcost 10
+#hp 40
+#str 20
+#att 8
+#def 8
+#prec 11
+#prot 8
+#size 4
+#mr 10
+#mor 50
+#enc 3
+#mapmove 14
+#ap 0
+#eyes 2
+#weapon "Decapitated Heads"
+#weapon "Flaming Boulder"
+#weapon "Spear"
+#miscshape
+#inanimate
+#maxage 300
+#fireres -5
+#poisonres 30
+#siegebonus 20
+#nametype 170
+#end
 
 
 
