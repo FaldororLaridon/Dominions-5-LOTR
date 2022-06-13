@@ -57,6 +57,14 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #damage 10
 #effect 2
 #nreff 5
+#sound 14
+#flightspr 109 1
+#range 35
+#precision 1
+#special 64
+#end
+
+
 
 
 
