@@ -1850,6 +1850,79 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #nametype 170
 #end
 
+#newmonster 4032
+#name "Mordor Orc"
+#descr "TBD"
+#rcost 1
+#gcost 7
+#rpcost 5
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 7
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Poisoned Scimitar"
+#armor "Iron Cap"
+#armor "Iron Shield"
+#armor "Orc-Mail Hauberk"
+#humanoid
+#wastesurvival
+#startage 20
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#incunrest 1
+#pillagebonus 1
+#nametype 170
+#slave
+#undisciplined
+#end
+
+#newmonster 4033
+#name "Mordor Orc"
+#descr "TBD"
+#rcost 1
+#gcost 7
+#rpcost 5
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 7
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Poison Tipped Spear"
+#armor "Iron Cap"
+#armor "Iron Shield"
+#armor "Orc-Mail Hauberk"
+#humanoid
+#wastesurvival
+#startage 20
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#incunrest 1
+#pillagebonus 1
+#nametype 170
+#slave
+#undisciplined
+#end
 
 
 
