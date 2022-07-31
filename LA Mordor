@@ -243,7 +243,8 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #mapmove 14
 #ap 12
 #eyes 2
-#weapon "Mace"
+#weapon "Spear"
+#weapon "Javelin"
 #armor "Leather Hauberk"
 #armor "Leather Cap"
 #armor "Shield"
