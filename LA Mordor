@@ -1983,7 +1983,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #armor "Full Helmet"
 #humanoid
 #wastesurvival
-#ambidextrous 3 
+#ambidextrous 2
 #maxage 300
 #uwdamage 100
 #darkpower 1
@@ -2003,7 +2003,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #descr "TBD"
 #hp 17
 #str 15
-#att 12
+#att 13
 #def 12
 #prec 9
 #prot 2
@@ -2026,12 +2026,53 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #darkpower 1
 #darkvision 100
 #pillagebonus 1
-#nametype 170
 #slave
 #goodleader
 #command 60
 #taskmaster 2
 #end
+
+#newmonster 3047
+#name "Lieutenant of Barad-dûr"
+#fixedname "Mouth of Sauron"
+#descr "TBD"
+#hp 15
+#str 14
+#att 12
+#def 12
+#prec 11
+#prot 0
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 20
+#ap 23
+#eyes 2
+#weapon "Broad Sword"
+#weapon 676
+#armor "Full Helmet"
+#armor "Robe"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 100
+#darkvision 50
+#nametype 183
+#expertleader
+#okundeadleader
+#magicskill 8 3
+#magicskill 0 2
+#magicskill 5 2
+#magicskill 7 2
+#magicskill 1 1
+#end
+
+#newmonster 3048
+#name "Lieutenant-Commander of Morgul"
+#fixedname "Gothmog"
+#descr "TBD"
+
 
 
 
