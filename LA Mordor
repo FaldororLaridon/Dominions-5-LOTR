@@ -1960,7 +1960,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #taskmaster 2
 #end
 
-#newmonster 3045
+#newmonster 4035
 #name "Morgul Captain"
 #fixedname "Gorbag"
 #descr "TBD"
@@ -1997,7 +1997,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #taskmaster 1
 #end
 
-#newmonster 3046
+#newmonster 4036
 #name "Commander of Cirith Ungol"
 #fixedname "Shagrat"
 #descr "TBD"
@@ -2032,7 +2032,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #taskmaster 2
 #end
 
-#newmonster 3047
+#newmonster 4037
 #name "Lieutenant of Barad-dûr"
 #fixedname "Mouth of Sauron"
 #descr "TBD"
@@ -2068,7 +2068,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #magicskill 1 1
 #end
 
-#newmonster 3048
+#newmonster 4038
 #name "Lieutenant-Commander of Morgul"
 #fixedname "Gothmog"
 #descr "TBD"
@@ -2111,7 +2111,142 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #magicskill 5 2
 #end
 
-#newmonster 3048
+#newmonster 4039
+#name "Nazgûl"
+#descr "TBD"
+#descr "Pale shadows that have succumbed to the power of the Rings they wear, the Nazgûl are deadly and terrifying to behold. Their mere prescence can cause even the most hardened warrior to lose heart in battle, and think only of flight, or hiding."
+#hp 10
+#str 12
+#att 7
+#def 7
+#prec 8
+#prot 0
+#size 2
+#mr 13
+#mor 15
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#humanoid
+#holy
+#undead
+#blind
+#stealthy 30
+#assassin
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#shapechange 4040
+#goodleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 2
+#end
+
+#newmonster 4040
+#name "Nazgûl"
+#descr "TBD"
+#hp 10
+#str 12
+#att 12
+#def 13
+#prec 10
+#prot 0
+#size 3
+#mr 13
+#mor 15
+#enc 0
+#mapmove 20
+#ap 24
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#mountedhumanoid
+#holy
+#undead
+#mounted
+#stealthy 30
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#shapechange 4041
+#goodleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 2
+#end
+
+#newmonster 4041
+#name "Nazgûl"
+#descr "TBD"
+#hp 10
+#str 12
+#att 12
+#def 13
+#prec 10
+#prot 0
+#size 3
+#mr 13
+#mor 15
+#enc 0
+#mapmove 38
+#ap 8
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#mountedhumanoid
+#holy
+#undead
+#mounted
+#stealthy 30
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#shapechange 4039
+#goodleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 2
+#end
 
 
 
