@@ -1531,7 +1531,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 4024
-#name "Hound of Sauron"
+#name "Werewolf Shadow"
 #descr "TBD"
 #reqtemple
 #rcost 1
@@ -2072,6 +2072,46 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #name "Lieutenant-Commander of Morgul"
 #fixedname "Gothmog"
 #descr "TBD"
+#hp 12
+#str 13
+#att 13
+#def 13
+#prec 10
+#prot 0
+#size 2
+#mr 14
+#mor 15
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 0
+#weapon "Broad Sword"
+#armor "Full Chain Mail"
+#armor "Kite Shield"
+#armor "Full Helmet"
+#mountedhumanoid
+#holy
+#undead
+#mounted
+#stealthy 30
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#poisonres 20
+#fear 6
+#curseluckshield 2
+#darkpower 4
+#spiritsight
+#neednoteat
+#goodleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 2
+#end
+
+#newmonster 3048
 
 
 
