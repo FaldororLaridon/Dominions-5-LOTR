@@ -46,6 +46,13 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #att 2
 #end
 
+#newweapon 902
+#copyweapon 404
+#name "Fell Beast Beak"
+#dmg 17
+#nostr
+#end
+
 #newspell
 #name "Haradrim Darts"
 #descr "The Archers riding the war tower on the Mumak fire their bows constantly at the enemy."
@@ -2212,7 +2219,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #def 13
 #prec 10
 #prot 0
-#size 3
+#size 5
 #mr 13
 #mor 15
 #enc 0
@@ -2221,12 +2228,14 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #eyes 0
 #weapon "Broad Sword"
 #weapon "Black Breath"
+#weapon 902
 #armor "Chain Mail Hauberk"
 #mountedhumanoid
 #holy
 #undead
 #mounted
-#stealthy 30
+#flying
+#stealthy
 #maxage 2000
 #woundfend 10
 #ethereal
@@ -2246,8 +2255,360 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #goodundeadleader
 #taskmaster 2
 #magicskill 5 2
+#onebattlespell "Terror"
 #end
 
+#newmonster 4042
+#name "Shadow of the East"
+#fixedname "Khamûl"
+#spr1 "images/mordor(MA)/khamul_1.tga"
+#spr2 "images/mordor(MA)/khamul_2.tga"
+#descr "A great king and sorcerer of the East, Khamûl's power was only increased by his gift of a Ring of Power. In life, it made him the unchallenged ruler of his kingdom, and many others. But he was consumed by it, and became a wraith bound to the Master Ring and the Dominion of Mordor. Khamûl is more vulnerable to sunlight than the other Nazgûl, but is even stronger in darkness, and his senses are keener than any other but the Lord of the Nazgûl. He is a mighty servant of Mordor, and the second in command of the Nazgûl.
+
+'...while the second to the Chief, Khamûl the Shadow of the East, abode in Dol Guldur as Sauron’s lieutenant, with one other as his messenger...Of Khamûl it is said here that he was the most ready of all the Nazgûl, after the Black Captain himself, to perceive the presence of the Ring, but also the one whose power was most confused and diminished by daylight.' -Unfinished Tales of Numenor and Middle-earth; The Hunt for the Ring"
+#hp 10
+#str 11
+#att 7
+#def 7
+#prec 8
+#prot 0
+#size 2
+#mr 13
+#mor 15
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#humanoid
+#holy
+#unique
+#undead
+#blind
+#stealthy 30
+#assassin
+#patience 1
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#uwdamage 100
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 6
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#patrolbonus 10
+#shapechange 4043
+#expertleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 2
+#allrange 1
+#end
+
+#newmonster 4043
+#name "Shadow of the East"
+#fixedname "Khamûl"
+#spr1 "images/mordor(MA)/horse_khamul_1.tga"
+#spr2 "images/mordor(MA)/horse_khamul_2.tga"
+#descr "A great king and sorcerer of the East, Khamûl's power was only increased by his gift of a Ring of Power. In life, it made him the unchallenged ruler of his kingdom, and many others. But he was consumed by it, and became a wraith bound to the Master Ring and the Dominion of Mordor. Khamûl is more vulnerable to sunlight than the other Nazgûl, but is even stronger in darkness, and his senses are keener than any other but the Lord of the Nazgûl. He is a mighty servant of Mordor, and the second in command of the Nazgûl.
+
+'...while the second to the Chief, Khamûl the Shadow of the East, abode in Dol Guldur as Sauron’s lieutenant, with one other as his messenger...Of Khamûl it is said here that he was the most ready of all the Nazgûl, after the Black Captain himself, to perceive the presence of the Ring, but also the one whose power was most confused and diminished by daylight.' -Unfinished Tales of Numenor and Middle-earth; The Hunt for the Ring"
+#hp 10
+#str 11
+#att 11
+#def 12
+#prec 10
+#prot 0
+#size 3
+#mr 14
+#mor 15
+#enc 0
+#mapmove 20
+#ap 24
+#eyes 0
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#mountedhumanoid
+#holy
+#undead
+#unique
+#mounted
+#stealthy 30
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 6
+#uwdamage 100
+#dompower 1
+#spiritsight
+#spreaddom 1
+#patrolbonus 10
+#neednoteat
+#shapechange 4044
+#expertleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 4
+#allrange 1
+#reinvigoration 2
+#end
+
+#newmonster 4044
+#name "Shadow of the East"
+#fixedname "Khamûl"
+#spr1 "images/mordor(MA)/horse_khamul_1.tga"
+#spr2 "images/mordor(MA)/horse_khamul_2.tga"
+#descr "A great king and sorcerer of the East, Khamûl's power was only increased by his gift of a Ring of Power. In life, it made him the unchallenged ruler of his kingdom, and many others. But he was consumed by it, and became a wraith bound to the Master Ring and the Dominion of Mordor. Khamûl is more vulnerable to sunlight than the other Nazgûl, but is even stronger in darkness, and his senses are keener than any other but the Lord of the Nazgûl. He is a mighty servant of Mordor, and the second in command of the Nazgûl.
+
+'...while the second to the Chief, Khamûl the Shadow of the East, abode in Dol Guldur as Sauron’s lieutenant, with one other as his messenger...Of Khamûl it is said here that he was the most ready of all the Nazgûl, after the Black Captain himself, to perceive the presence of the Ring, but also the one whose power was most confused and diminished by daylight.' -Unfinished Tales of Numenor and Middle-earth; The Hunt for the Ring"
+#hp 10
+#str 11
+#att 11
+#def 12
+#prec 10
+#prot 0
+#size 5
+#mr 14
+#mor 15
+#enc 0
+#mapmove 20
+#ap 24
+#eyes 0
+#weapon 902
+#weapon "Broad Sword"
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#mountedhumanoid
+#holy
+#undead
+#unique
+#mounted
+#flying
+#stealthy
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#domimmortal
+#fear 10
+#curseluckshield 2
+#damagerev 1
+#darkpower 6
+#uwdamage 100
+#dompower 1
+#spiritsight
+#spreaddom 1
+#patrolbonus 10
+#neednoteat
+#shapechange 4042
+#expertleader
+#goodundeadleader
+#taskmaster 2
+#magicskill 5 4
+#allrange 1
+#reinvigoration 2
+#onebattlespell "Terror"
+#end
+
+#newmonster 4045
+#name "Lord of the Nazgul"
+#fixedname "The Witch King"
+#spr1 "images/mordor(MA)/witchking_1.tga"
+#spr2 "images/mordor(MA)/witchking_2.tga"
+#descr "The Lord of the Nazgûl is the mightiest of all the Nazgûl. It is unknown who he was in life, though he was likely one of the Men of Númenor. What is known is that he is the mightiest and deadliest servant of Mordor. Intelligent, cruel, cunning and powerful, the Lord of the Nazgûl can strike terror into even the strongest hearts, and to strike at him is to court death. Those under his command follow him blindly, for what fear could there be that could possibly overtake the fear of the greatest Lord of Mordor?
+
+'Old fool!' he said. 'Old fool!' This is my hour. Do you not know Death when you see it? Die now and curse in vain!' and with that he lifted high his sword and flames ran down the blade.' The Return of the King; Chapter IV: The Siege of Gondor"
+#hp 12
+#str 14
+#att 14
+#def 13
+#prec 11
+#prot 0
+#size 2
+#mr 15
+#mor 18
+#enc 0
+#mapmove 12
+#ap 10
+#eyes 0
+#weapon 801
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#armor "Magic Crown"
+#humanoid
+#holy
+#unique
+#undead
+#blind
+#stealthy 30
+#assassin
+#maxage 2000
+#woundfend 10
+#ethereal
+#invulnerable 15
+#coldres 5
+#uwdamage 100
+#fireres -5
+#domimmortal
+#fear 15
+#curseluckshield 3
+#deathcurse
+#damagerev 2
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#siegebonus 15
+#shapechange 4046
+#superiorleader
+#superiorundeadleader
+#taskmaster 3
+#magicskill 5 3
+#magicskill 3 3
+#magicskill 7 2
+#sorceryrange 1
+#reinvigoration 2
+#drawsize 2
+#end
+
+#newmonster 4046
+#name "Lord of the Nazgul"
+#fixedname "The Witch King"
+#descr "The Lord of the Nazgûl is the mightiest of all the Nazgûl. It is unknown who he was in life, though he was likely one of the Men of Númenor. What is known is that he is the mightiest and deadliest servant of Mordor. Intelligent, cruel, cunning and powerful, the Lord of the Nazgûl can strike terror into even the strongest hearts, and to strike at him is to court death. Those under his command follow him blindly, for what fear could there be that could possibly overtake the fear of the greatest Lord of Mordor?
+
+'Old fool!' he said. 'Old fool!' This is my hour. Do you not know Death when you see it? Die now and curse in vain!' and with that he lifted high his sword and flames ran down the blade.' The Return of the King; Chapter IV: The Siege of Gondor"
+#hp 12
+#str 14
+#att 14
+#def 13
+#prec 10
+#prot 0
+#size 3
+#mr 15
+#mor 18
+#enc 0
+#mapmove 20
+#ap 24
+#eyes 0
+#weapon 801
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#armor "Magic Crown"
+#mountedhumanoid
+#holy
+#unique
+#undead
+#mounted
+#stealthy 30
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#uwdamage 100
+#domimmortal
+#fear 15
+#curseluckshield 3
+#deathcurse
+#invulnerable 15
+#damagerev 2
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#siegebonus 15
+#shapechange 4047
+#superiorleader
+#superiorundeadleader
+#taskmaster 2
+#magicskill 5 5
+#magicskill 3 3
+#magicskill 7 2
+#sorceryrange 1
+#reinvigoration 2
+#drawsize 2
+#end
+
+#newmonster 4047
+#name "Lord of the Nazgul"
+#fixedname "The Witch King"
+#descr "The Lord of the Nazgûl is the mightiest of all the Nazgûl. It is unknown who he was in life, though he was likely one of the Men of Númenor. What is known is that he is the mightiest and deadliest servant of Mordor. Intelligent, cruel, cunning and powerful, the Lord of the Nazgûl can strike terror into even the strongest hearts, and to strike at him is to court death. Those under his command follow him blindly, for what fear could there be that could possibly overtake the fear of the greatest Lord of Mordor?
+
+'Old fool!' he said. 'Old fool!' This is my hour. Do you not know Death when you see it? Die now and curse in vain!' and with that he lifted high his sword and flames ran down the blade.' The Return of the King; Chapter IV: The Siege of Gondor"
+#hp 12
+#str 14
+#att 14
+#def 13
+#prec 10
+#prot 0
+#size 5
+#mr 15
+#mor 18
+#enc 0
+#mapmove 20
+#ap 24
+#eyes 0
+#weapon "Mace"
+#weapon 902
+#weapon "Black Breath"
+#armor "Chain Mail Hauberk"
+#armor "Magic Crown"
+#mountedhumanoid
+#holy
+#unique
+#undead
+#mounted
+#flying
+#stealthy
+#maxage 2000
+#woundfend 10
+#ethereal
+#coldres 5
+#fireres -5
+#uwdamage 100
+#domimmortal
+#fear 15
+#curseluckshield 3
+#deathcurse
+#invulnerable 15
+#damagerev 2
+#darkpower 4
+#dompower 1
+#spiritsight
+#spreaddom 1
+#neednoteat
+#siegebonus 15
+#shapechange 4045
+#superiorleader
+#superiorundeadleader
+#taskmaster 2
+#magicskill 5 5
+#magicskill 3 3
+#magicskill 7 2
+#sorceryrange 1
+#reinvigoration 2
+#drawsize 2
+#onebattlespell "Terror"
+#end
 
 
 
