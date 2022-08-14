@@ -2634,6 +2634,53 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #darkvision 100
 #end
 
+#newsite 
+#name "Mount Doom"
+#path 0
+#loc 16384
+#rarity 5
+#level 0
+#gems 0 2
+#gems 3 1
+#constcost 15
+#end
+
+#newsite 1502 [use 1501 for MA version]
+#name "Lugbúrz"
+#path 3
+#loc 16384
+#gems 7 1
+#level 0
+#rarity 5
+#decunrest 15
+#homemon 4002
+#homemon "Olog-hai"
+#homecom "Sorcerer of Barad-dûr"
+#homecom "Olog-hai Chieftain"
+#wallunit 4002
+#wallmult 2
+#end
+
+#newsite
+#name "Minas Morgul"
+#path 5
+#gems 5 2
+#loc 16384
+#level 0
+#rarity 5
+#homemon "Morgul Orc"
+#homemon "Morgul Uruk"
+#homecom "Morgul Lieutenant"
+#end
+
+#newnation
+#name "Mordor"
+#epithet "Shadow in the East"
+#era 3
+#descr "TBD"
+#summary "TBD"
+#brief "The centre of dark power and a spreading shadow across the land, many nations have already been subjugated under it's banner, the wild Orcs, the grim tribesmen of the East, the fierce Haradrim, the cruel Corsairs, and even the Spiders of Mirkwood."
+#startsite
 
 
 
