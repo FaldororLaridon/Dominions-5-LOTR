@@ -2180,7 +2180,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #enc 0
 #mapmove 20
 #ap 24
-#eyes 0
+#eyes 2
 #weapon "Broad Sword"
 #weapon "Black Breath"
 #armor "Chain Mail Hauberk"
@@ -2225,7 +2225,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #enc 0
 #mapmove 38
 #ap 8
-#eyes 0
+#eyes 2
 #weapon "Broad Sword"
 #weapon "Black Breath"
 #weapon 902
@@ -2334,7 +2334,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #enc 0
 #mapmove 20
 #ap 24
-#eyes 0
+#eyes 2
 #weapon "Broad Sword"
 #weapon "Black Breath"
 #armor "Chain Mail Hauberk"
@@ -2389,7 +2389,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #enc 0
 #mapmove 20
 #ap 24
-#eyes 0
+#eyes 2
 #weapon 902
 #weapon "Broad Sword"
 #weapon "Black Breath"
@@ -2507,7 +2507,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #enc 0
 #mapmove 20
 #ap 24
-#eyes 0
+#eyes 2
 #weapon 801
 #weapon "Black Breath"
 #armor "Chain Mail Hauberk"
@@ -2566,7 +2566,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #enc 0
 #mapmove 20
 #ap 24
-#eyes 0
+#eyes 2
 #weapon "Mace"
 #weapon 902
 #weapon "Black Breath"
@@ -2608,6 +2608,30 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #reinvigoration 2
 #drawsize 2
 #onebattlespell "Terror"
+#end
+
+#newmonster 4048
+#name "Fell Beast"
+#descr "TBD"
+#hp 40
+#str 15
+#att 14
+#def 11
+#prec 10
+#prot 10
+#size 5
+#mr 13
+#mor 15
+#enc 0
+#mapmove 20
+#ap 8
+#eyes 2
+#weapon "Beak"
+#animal
+#flying
+#maxage 300
+#fear 5
+#darkvision 100
 #end
 
 
