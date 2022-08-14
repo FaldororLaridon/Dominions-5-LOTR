@@ -2680,9 +2680,87 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #descr "TBD"
 #summary "TBD"
 #brief "The centre of dark power and a spreading shadow across the land, many nations have already been subjugated under it's banner, the wild Orcs, the grim tribesmen of the East, the fierce Haradrim, the cruel Corsairs, and even the Spiders of Mirkwood."
-#startsite
-
-
+#startsite "Mount Doom"
+#startsite "Lugbúrz"
+#startsite "Minas Morgul"
+#aigoodbless 60
+#startcom "Uruk Captain"
+#coastcom1 "Nâluzigûr"
+#coastcom2 "Black Numenorian Captain"
+#forestrec 3993
+#forestrec 3994
+#forestrec 3995
+#mountainrec 3996
+#mountainrec 3997
+#mountainrec "Mountain Orc Raider"
+#caverec "Mountain Orc Raider"
+#wasterec "Haradrim Warrior"
+#wasterec "Haradrim Cavalry"
+#wasterec "Haradrim Spearman"
+#wasterec "Haradrim Archer"
+#wasterec "Haradrim Standard Bearer"
+#wasterec "Half-Troll"
+#coastrec "Corsair Spearman"
+#coastrec "Corsair Archer"
+#coastrec "Corsair Swordsman"
+#coastunit1 "Black Numenorian"
+#startscout 3816
+#forestcom "Apprentice Necromancer"
+#forestcom "Master Necromancer"
+#forestcom "Servant of Mirkwood"
+#forestcom "Broodmother"
+#mountaincom "Goblin Scout"
+#mountaincom "Warg Chieftain"
+#mountaincom "Werewolf Shadow"
+#mountaincom "Orc Chieftain"
+#mountaincom "Hand of Shadow"
+#cavecom "Orc Chieftain"
+#cavecom "Hand of Shadow"
+#wastecom 40006
+#wastecom "Haradrim King"
+#wastecom "Haradrim Apprentice"
+#wastecom "Haradrim Priest"
+#wastecom "Haradrim Sorcerer"
+#wastecom "Mûmakil"
+#coastcom "Corsair Captain"
+#coastcom "Corsair Waverider"
+#startunittype1 4032
+#startunitnbrs1 20
+#startunittype2 "Mordor Orc Archer"
+#startunitnbrs2 20
+#addreccom "Mordor Orc Taskmaster"
+#addreccom "Uruk Captain"
+#addreccom "Mordor Orc Captain"
+#addreccom "Mordor Orc Sorcerer"
+#addreccom "Spy"
+#addrecunit 4032
+#addrecunit 4033
+#addrecunit "Mordor Orc Archer"
+#addrecunit "Mordor Orc Tracker"
+#addrecunit "Mordor Uruk"
+#addrecunit "Mordor Catapult"
+#hero1 4034
+#hero2 4035
+#hero3 4036
+#hero4 4037
+#hero5 4038
+#defcom1 "Mordor Orc Captain"
+#defcom2 "Uruk Captain"
+#defunit1 4032
+#defunit1b 4033
+#defunit1c "Mordor Orc Archer"
+#defunit2 "Mordor Uruk"
+#defunit2b 4033
+#defmult1 20
+#defmult1b 20
+#defmultc 20
+#defmult2 10
+#defmult2b 20
+#wallcom "Uruk Captain"
+#wallunit "Mordor Orc Archer"
+#wallmult 10
+#wallunit "Haradrim Archer"
+#wallmult 5
 
 
 
