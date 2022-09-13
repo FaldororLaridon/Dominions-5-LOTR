@@ -2910,7 +2910,40 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #addgod "Firstborn of the Smokeless Flame"
 #cheapgod "Dark Lord"
 #minprison 1
-#
+#fortera 2
+#templepic 1
+#homefort 19
+#halfdeathinc
+#sacrificedom
+#end
+
+#name "Call Hounds of Sauron"
+#descr "Summon a pack of Werewolves to fight under Mordor's banner."
+#school 0
+#researchlevel 3
+#path 0 5
+#pathlevel 0 2
+#fatiguecost 800
+#effect 10001
+#damage 3810
+#nreff 15
+#provrange 0
+#restricted 133
+#end
+
+#name "Summon Fell Beasts"
+#descr "Calls five Fell Beasts to Mordor's Aid."
+#school 0
+#researchlevel 5
+#path 0 5
+#pathlevel 0 2
+#fatiguecost 1000
+#effect 10001
+#damage 4048
+#nreff 5
+#provrange 0
+#restricted 133
+#end
 
 
 
