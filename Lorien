@@ -33,7 +33,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #gcost 10
 #rpcost 13
 #hp 13
-#str 10
+#str 11
 #att 9
 #def 9
 #prec 11
@@ -51,6 +51,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #stealthy 40
 #forestsurvival
 #swimming
+#snow
 #maxage 3000
 #diseaseres 100
 #darkvision 50
@@ -65,7 +66,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #gcost 11
 #rpcost 13
 #hp 13
-#str 10
+#str 11
 #att 10
 #def 10
 #prec 11
@@ -78,14 +79,116 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #eyes 2
 #weapon "Broad Sword"
 #weapon "Galadhrim Longbow"
-#armor "Leather Hauberk"
+#armor "Chain Mail Cuirass"
 #humanoid
 #stealthy 40
+#forestsurvival
+#swimming
+#snow
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#end
+
+#newmonster 4053
+#name "Galadhrim Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 11
+#rpcost 13
+#hp 13
+#str 11
+#att 10
+#def 10
+#prec 11
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Spear"
+#armor "Shield"
+#armor "Chain Mail Cuirass"
+#humanoid
+#stealthy 40
+#forestsurvival
+#swimming
+#snow
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#end
+
+#newmonster 4054
+#name "Guardian of the Golden Wood"
+#descr "TBD"
+#rcost 1
+#gcost 11
+#rpcost 13
+#hp 13
+#str 11
+#att 11
+#def 11
+#prec 11
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Spear"
+#armor "Galadhrim Longbow"
+#armor "Chain Mail Hauberk"
+#armor "Crested Helmet"
+#humanoid
+#stealthy 30
 #forestsurvival
 #swimming
 #maxage 3000
 #diseaseres 100
 #darkvision 50
+#dompower 1
+#patrolbonus 1
+#nametype 177
+#end
+
+#newmonster 4055
+#name "Guardian of the Golden Wood"
+#descr "TBD"
+#rcost 1
+#gcost 11
+#rpcost 13
+#hp 13
+#str 11
+#att 11
+#def 11
+#prec 11
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Broad Sword"
+#armor "Galadhrim Longbow"
+#armor "Chain Mail Hauberk"
+#armor "Crested Helmet"
+#humanoid
+#stealthy 30
+#forestsurvival
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#dompower 1
 #patrolbonus 1
 #nametype 177
 #end
