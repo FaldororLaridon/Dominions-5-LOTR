@@ -2634,6 +2634,98 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #darkvision 100
 #end
 
+#newmonster 4049
+#name "Dark Lord"
+#fixedname "Sauron"
+#descr "TBD"
+#pathcost 60
+#startdom 3
+#hp 45
+#str 17
+#att 12
+#def 13
+#prot 6
+#prec 11
+#size 3
+#mr 15
+#mor 30
+#enc 1
+#mapmove 16
+#ap 16
+#eyes 2
+#weapon "Mace"
+#weapon "Flaming Fist"
+#armor "Full Plate"
+#armor  "Full Helmet"
+#humanoid
+#magicbeing
+#maxage 7000
+#fear 5
+#heat 3
+#fireres 20
+#spiritsight
+#expertleader
+#goodmagicleader
+#goodundeadleader
+#taskmaster 2
+#beastmaster 1
+#magicskill 3 1
+#magicskill 5 1
+#magicskill 0 1
+#mastersmith 1
+#forgebonus 20
+#spellsinger
+#end
+
+#newmonster 4050
+#name "Lord of the Rings"
+#descr "TBD"
+#pathcost 60
+#startdom 3
+#hp 66
+#str 24
+#att 15
+#def 15
+#prot 6
+#prec 11
+#size 3
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 18
+#eyes 2
+#weapon "Mace"
+#weapon "Flaming Fist"
+#armor "Full Plate"
+#armor  "Full Helmet"
+#humanoid
+#magicbeing
+#maxage 7000
+#fear 9
+#heat 5
+#fireshield 5
+#fireres 20
+#spiritsight
+#expertleader
+#goodmagicleader
+#goodundeadleader
+#taskmaster 2
+#beastmaster 1
+#magicskill 3 1
+#magicskill 5 1
+#magicskill 0 1
+#mastersmith 2
+#forgebonus 20
+#spellsinger
+#end
+
+
+
+
+
+
+
 #newsite 
 #name "Mount Doom"
 #path 0
@@ -2761,6 +2853,64 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #wallmult 10
 #wallunit "Haradrim Archer"
 #wallmult 5
+#addgod "Dark Lord"
+#addgod "Great Black Bull"
+#addgod "Destroyer of Worlds"
+#addgod "Lord of the Summer Plague"
+#addgod "Son of Fenrer"
+#addgod "Colossal Fetish"
+#addgod "Devourer of Souls"
+#addgod "Fomorian God King"
+#addgod "Son of the Fallen"
+#addgod "Oni Kunshu"
+#addgod "Teteo Inan"
+#addgod "Annunaki of the Underworld"
+#addgod "Teotl of War"
+#addgod "Teotl of the Underworld"
+#addgod "Idol of Sorcery"
+#addgod "Golden Idol"
+#addgod "Statue of War"
+#addgod "Azi"
+#addgod "Angra Mainyu"
+#addgod "Hun Came"
+#addgod "Bolon-ti-ku"
+#addgod "Hun Balam"
+#addgod "Man-Eater"
+#addgod "Myrmecoleon"
+#addgod "Serpent of Chaos"
+#addgod "Hound of Hades"
+#addgod "Svartalf Mastersmith"
+#addgod "Telkhine God-King"
+#addgod "Bronze Colossus"
+#addgod "Moloch"
+#addgod "Gorgon"
+#addgod "Mother of Monsters"
+#addgod "Master Lich"
+#addgod "Demilich"
+#addgod "Freak Lord"
+#addgod "Crone"
+#addgod "Saurolich"
+#addgod "Prince of Death"
+#addgod "Neter of Chaos"
+#addgod "Lich Queen"
+#addgod "Bitch Queen"
+#addgod "Great Warlock"
+#addgod "Skratti"
+#addgod "Teotl of Rain"
+#addgod "Teotl of the Night"
+#addgod "Son of Niefel"
+#addgod "Baphomet"
+#addgod "Bog Mummy"
+#addgod "Dracolich"
+#addgod "Void Lord"
+#addgod "Fountain of Blood"
+#addgod "Smoking Mirror"
+#addgod "Vampire Queen"
+#addgod "Colossal Head"
+#addgod "Firstborn of the Smokeless Flame"
+#cheapgod "Dark Lord"
+#minprison 1
+#
 
 
 
