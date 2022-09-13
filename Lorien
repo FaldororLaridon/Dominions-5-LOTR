@@ -200,8 +200,8 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #rpcost 22
 #hp 13
 #str 12
-#att 12
-#def 13
+#att 11
+#def 12
 #prec 11
 #size 2
 #mr 12
