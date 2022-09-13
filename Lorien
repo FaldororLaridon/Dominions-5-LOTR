@@ -1,0 +1,91 @@
+General stats: Stealthy 70-80, swimming, hybrid units, nature, water, air, astral some earth and fire, Temples spread dominion, priests cannot, start with growth 
+and one level of nature bless.
+
+Heroes: Haldir, Celeborn
+
+Non-dompower:
+
+ dagger/bow, sword/bow, spear/shield. 
+
+dompower: bow/spear, (sindarin) bow/sword, sword/shield (Noldorin Sword, mail, kite sword)
+
+Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, Noldorin Smith, Noldor Captain, Keeper of the Timelees Woods
+
+#newweapon 903
+#name "Galadhrim Bow"
+#dmg 10
+#att 1
+#def 0
+#twohanded
+#sound 14
+#range 50
+#rcost 4
+#dt_normal
+#pierce
+#bowstr
+#flyspr 109 1
+#end
+
+#newmonster 4051
+#name "Galadhrim Archer"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 13
+#hp 13
+#str 10
+#att 9
+#def 9
+#prec 11
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Dagger"
+#weapon "Galadhrim Longbow"
+#armor "Leather Hauberk"
+#humanoid
+#stealthy 40
+#forestsurvival
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#end
+
+#newmonster 4052
+#name "Galadhrim Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 11
+#rpcost 13
+#hp 13
+#str 10
+#att 10
+#def 10
+#prec 11
+#size 2
+#mr 12
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Broad Sword"
+#weapon "Galadhrim Longbow"
+#armor "Leather Hauberk"
+#humanoid
+#stealthy 40
+#forestsurvival
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#end
