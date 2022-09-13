@@ -7,7 +7,7 @@ Non-dompower:
 
  dagger/bow, sword/bow, spear/shield. 
 
-dompower: bow/spear, (sindarin) bow/sword, sword/shield (Noldorin Sword, mail, kite sword)
+dompower: bow/spear, (sindarin) bow/sword, sword/shield (Noldorin Sword, mail, kite sword) (Guardian is Sindarin)
 
 Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, Noldorin Smith, Noldor Captain, Keeper of the Timelees Woods
 
@@ -126,25 +126,25 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #end
 
 #newmonster 4054
-#name "Guardian of the Golden Wood"
+#name "Galadhrim Soldier"
 #descr "TBD"
 #rcost 1
 #gcost 11
-#rpcost 13
+#rpcost 15
 #hp 13
 #str 11
 #att 11
 #def 11
-#prec 11
+#prec 12
 #size 2
 #mr 12
-#mor 10
+#mor 11
 #enc 3
 #mapmove 16
 #ap 13
 #eyes 2
 #weapon "Spear"
-#armor "Galadhrim Longbow"
+#weapon "Galadhrim Longbow"
 #armor "Chain Mail Hauberk"
 #armor "Crested Helmet"
 #humanoid
@@ -160,28 +160,62 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #end
 
 #newmonster 4055
-#name "Guardian of the Golden Wood"
+#name "Galadhrim Soldier"
 #descr "TBD"
 #rcost 1
 #gcost 11
-#rpcost 13
+#rpcost 15
 #hp 13
 #str 11
 #att 11
 #def 11
-#prec 11
+#prec 12
 #size 2
 #mr 12
-#mor 10
+#mor 11
 #enc 3
 #mapmove 16
 #ap 13
 #eyes 2
 #weapon "Broad Sword"
-#armor "Galadhrim Longbow"
+#weapon "Galadhrim Longbow"
 #armor "Chain Mail Hauberk"
 #armor "Crested Helmet"
 #humanoid
+#stealthy 30
+#forestsurvival
+#swimming
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#dompower 1
+#patrolbonus 1
+#nametype 177
+#end
+
+#newmonster 4056
+#name "Guardian of the Golden Wood"
+#rcost 1
+#gcost 25
+#rpcost 22
+#hp 13
+#str 12
+#att 12
+#def 13
+#prec 11
+#size 2
+#mr 12
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elven Blade"
+#armor "Kite Shield"
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#humanoid
+#holy
 #stealthy 30
 #forestsurvival
 #swimming
