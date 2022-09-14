@@ -30,15 +30,15 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #name "Galadhrim Archer"
 #descr "TBD"
 #rcost 1
-#gcost 10
-#rpcost 13
+#gcost 9
+#rpcost 11
 #hp 13
 #str 11
 #att 9
 #def 9
 #prec 11
 #size 2
-#mr 12
+#mr 13
 #mor 10
 #enc 3
 #mapmove 16
@@ -71,7 +71,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #def 10
 #prec 11
 #size 2
-#mr 12
+#mr 13
 #mor 10
 #enc 3
 #mapmove 16
@@ -104,7 +104,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #def 10
 #prec 11
 #size 2
-#mr 12
+#mr 13
 #mor 10
 #enc 3
 #mapmove 16
@@ -137,7 +137,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #def 11
 #prec 12
 #size 2
-#mr 12
+#mr 13
 #mor 11
 #enc 3
 #mapmove 16
@@ -171,7 +171,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #def 11
 #prec 12
 #size 2
-#mr 12
+#mr 13
 #mor 11
 #enc 3
 #mapmove 16
@@ -204,7 +204,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #def 12
 #prec 11
 #size 2
-#mr 12
+#mr 13
 #mor 12
 #enc 3
 #mapmove 16
@@ -225,4 +225,74 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #dompower 1
 #patrolbonus 1
 #nametype 177
+#end
+
+#newmonster 4057
+#name "Lorien Scout"
+#descr "TBD"
+#rcost 1
+#gcost 70
+#rpcost 1
+#hp 13
+#str 10
+#att 10
+#def 11
+#prec 12
+#size 2
+#mr 13
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Galadhrim Longbow"
+#weapon "Dagger"
+#armor "Leather Cuirass"
+#humanoid
+#stealthy 40
+#swimming
+#forestsurvival
+#mountainsurvival
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#noleader
+#spellsinger
+#end
+
+#newmonster 4058
+#name "Captain of the Golden Wood"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 1
+#hp 13
+#str 12
+#att 11
+#def 11
+#prec 12
+#size 2
+#mr 13
+#mor 11
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Broad Sword"
+#weapon "Galadhrim Longbow"
+#armor "Chain Mail Cuirass"
+#armor "Crested Helmet"
+#humanoid
+#stealthy 40
+#swimming
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 5
+#nametype 177
+#okleader
+#spellsinger
 #end
