@@ -250,6 +250,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #armor "Leather Cuirass"
 #humanoid
 #stealthy 40
+#spy
 #swimming
 #forestsurvival
 #mountainsurvival
@@ -291,8 +292,124 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #maxage 3000
 #diseaseres 100
 #darkvision 50
-#patrolbonus 5
+#patrolbonus 1
 #nametype 177
-#okleader
+#goodleader
+#inspirational 1
 #spellsinger
+#end
+
+#newmonster 4059
+#name "Handmaiden"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 2
+#reqlab
+#reqtemple
+#hp 13
+#str 10
+#att 10
+#def 10
+#prec 11
+#size 2
+#mr 15
+#mor 10
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Fist"
+#humanoid
+#female
+#holy
+#stealthy 40
+#swimming
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#nametype 177
+#poorleader
+#magicskill 8 1
+#magicskill 4 1
+#custommagicpath 2816 20
+#spellsinger
+#end
+
+#newmonster 4060
+#name "Riverwatcher"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 2
+#reqlab
+#hp 13
+#str 11
+#att 10
+#def 10
+#prec 11
+#size 2
+#mr 14
+#mor 13
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Dagger"
+#armor "Leather Cuirass"
+#humanoid
+#female
+#swimming
+#forestsurvival
+#stealthy 40
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#poorleader
+#magicskill 2 1
+#magicskill 1 1
+#custommagicpath 768 25
+#spellsinger
+#drawsize 3
+#end
+
+#newmonster 4061
+#name "Galadelieon
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 2
+#reqlab
+#hp 13
+#str 11
+#att 10
+#def 10
+#prec 11
+#size 2
+#mr 14
+#mor 13
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Dagger"
+#humanoid
+#female
+#swimming
+#forestsurvival
+#stealthy 40
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#nametype 177
+#poorleader
+#magicskill 2 1
+#magicskill 1 1
+#custommagicpath 768 25
+#spellsinger
+#drawsize 3
 #end
