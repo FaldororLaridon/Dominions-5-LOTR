@@ -649,4 +649,26 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #level 0
 #rarity 5
 #scry 3
+#end
+
+#newsite 
+#name "Golden Wood"
+#path 6
+#loc 16384
+#gems 6 2
+#level 0
+#rarity 5
+#homecom "Keeper of the Timeless Woods"
+#homecom 4063
+#homecom "Noldor Smith"
+#homemon "Guardian of the Golden Wood"
+#end
+
+#newnation
+#name "Lothlórien"
+#epithet "the Golden Wood"
+#era 3
+#descr "TBD"
+#summary "TBD"
+#brief "A nation of stealthy 
 
