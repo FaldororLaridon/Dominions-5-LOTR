@@ -672,7 +672,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 
 #newnation
 #name "Lothlórien"
-#epithet "the Golden Wood"
+#epithet "Dreamflower"
 #era 3
 #descr "TBD"
 #summary "TBD"
@@ -746,7 +746,22 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 
 #newspell
 #name "Protective Mist"
-#descr "Summons a 
+#descr "Summons an enshrouding mist that moves swiftly across the land, shielding an army from prying eyes and allowing them to move much faster over long distances than would otherwise be possible."
+#school 4
+#researchlevel 5
+#path 0 2
+#pathlevel 1 2
+#path 1 1
+#pathlevel 1 2
+#fatiguecost 2000
+#effect 10077
+#nreff 1
+#provrange 3
+#nowatertrace 1
+#walkable 1
+#restricted "Lothlórien"
+#reqspellsinger
+#end
 
 
 
