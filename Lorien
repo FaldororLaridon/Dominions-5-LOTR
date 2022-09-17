@@ -36,7 +36,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #str 11
 #att 9
 #def 9
-#prec 11
+#prec 12
 #size 2
 #mr 13
 #mor 10
@@ -69,7 +69,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #str 11
 #att 10
 #def 10
-#prec 11
+#prec 12
 #size 2
 #mr 13
 #mor 10
@@ -102,7 +102,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #str 11
 #att 10
 #def 10
-#prec 11
+#prec 12
 #size 2
 #mr 13
 #mor 10
@@ -135,7 +135,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #str 11
 #att 11
 #def 11
-#prec 12
+#prec 13
 #size 2
 #mr 13
 #mor 11
@@ -169,7 +169,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #str 11
 #att 11
 #def 11
-#prec 12
+#prec 13
 #size 2
 #mr 13
 #mor 11
@@ -228,7 +228,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #end
 
 #newmonster 4057
-#name "Lorien Scout"
+#name "Galadhrim Scout"
 #descr "TBD"
 #rcost 1
 #gcost 70
@@ -254,6 +254,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #swimming
 #forestsurvival
 #mountainsurvival
+#snow
 #maxage 3000
 #diseaseres 100
 #darkvision 50
@@ -264,7 +265,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #end
 
 #newmonster 4058
-#name "Captain of the Golden Wood"
+#name "Galadhrim Captain"
 #descr "TBD"
 #rcost 1
 #gcost 10010
@@ -273,7 +274,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #str 12
 #att 11
 #def 11
-#prec 12
+#prec 13
 #size 2
 #mr 13
 #mor 11
@@ -288,6 +289,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #humanoid
 #stealthy 40
 #swimming
+#snow
 #forestsurvival
 #maxage 3000
 #diseaseres 100
@@ -324,6 +326,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #holy
 #stealthy 40
 #swimming
+#snow
 #forestsurvival
 #maxage 3000
 #diseaseres 100
@@ -360,6 +363,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #humanoid
 #female
 #swimming
+#snow
 #forestsurvival
 #stealthy 40
 #maxage 3000
@@ -398,6 +402,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #humanoid
 #female
 #swimming
+#snow
 #forestsurvival
 #stealthy 
 #maxage 3000
@@ -439,6 +444,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #armor "Robes"
 #humanoid
 #holy
+#snow
 #maxage 3000
 #diseaseres 100
 #darkvision 50
@@ -570,7 +576,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #end
 
 #newmonster 4066
-#name "Warden of Lorien"
+#name "Marchwarden"
 #fixedname "Haldir"
 #descr "TBD"
 #hp 13
@@ -602,7 +608,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #end
 
 #newmonster 4067
-#name "Lady of the Golden Woods"
+#name "Lady of the Golden Wood"
 #fixedname "Galadriel"
 #descr "TBD"
 #pathcost 40
@@ -670,5 +676,77 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #era 3
 #descr "TBD"
 #summary "TBD"
-#brief "A nation of stealthy 
+#brief "A nation of Silvan Elves bolstered by their Sindarin and Noldoran bretheren. The forces of Lorien excel at stealth and archery, and their dedicated soldiers are empowered to defend the lands within their dominion with fierce strength."
+#startsite "Mirror of Galadriel"
+#startsite "Golden Wood"
+#likesterr 128
+#defdeath -1
+#hatesterr 64
+#ainaturenation
+#startcom "Galadhrim Captain"
+#startscout "Galadhrim Scout"
+#startunittype1 4053
+#startunitnbrs1 15
+#startunittype2 "Galadhrim Archer"
+#startunitnbrs2 15
+#addrecunit "Galadhrim Archer"
+#addrecunit 4052
+#addrecunit 4053
+#addrecunit 4054
+#addrecunit 4055
+#addreccom "Galadhrim Scout"
+#addreccom "Galadhrim Captain"
+#addreccom "Handmaiden"
+#addreccom "Riverwatcher"
+#addreccom "Galadelieon"
+#hero1 4065
+#hero2 4066
+#defcom1 "Galadhrim Captain"
+#defcom2 "Galadelieon"
+#defunit1 "Galadhrim Archer"
+#defunit1b 4052
+#defunit2 4052
+#defunit2b 4053
+#defmult1 15
+#defmult1b 10
+#defmult2 15
+#defmult2b 15
+#wallcom "Galadhrim Captain"
+#wallunit "Galadhrim Archer"
+#wallmult 15
+#homerealm 2
+#homerealm 10 
+#addgod "Vala of the Hunt"
+#addgod "Vala Smith"
+#addgod "Vala Doomsman"
+#addgod "Vala of Valour"
+#addgod "Elder King"
+#addgod "Vala of Stars"
+#addgod "Vala of the Sea"
+#addgod "Vala of Growth"
+#addgod "Star of High Hope"
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#addgod "Lady of the Golden Wood"
+#noundeadgods
+#cheapgod20 "Vala of the Hunt"
+#cheapgod20 "Elder King"
+#cheapgod20 "The Moon Hunter"
+#cheapgod40 "Star of High Hope"
+#cheapgod40 "Vala of Growth"
+#cheapgod40 "Vala of Stars"
+#cheapgod40 "Lady of the Golden Wood"
+#astralblessbonus 2
+#fortera 2
+#foresttemplecost 300
+#templepic 10
+#nopreach
+#end
+
+#newspell
+#name "Protective Mist"
+#descr "Summons a 
+
+
 
