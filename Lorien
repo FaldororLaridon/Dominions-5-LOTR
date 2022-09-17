@@ -155,7 +155,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #diseaseres 100
 #darkvision 50
 #dompower 1
-#patrolbonus 1
+#patrolbonus 3
 #nametype 177
 #end
 
@@ -189,7 +189,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #diseaseres 100
 #darkvision 50
 #dompower 1
-#patrolbonus 1
+#patrolbonus 3
 #nametype 177
 #end
 
@@ -533,4 +533,120 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #drawsize 5
 #end
 
+#newmonster 4065
+#name "Lord of the Golden Wood"
+#fixedname "Celeborn"
+#descr "TBD"
+#hp 14
+#str 12
+#att 11
+#def 11
+#prec 12
+#size 2
+#mr 16
+#mor 14
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Dagger"
+#armor "Robe"
+#humanoid
+#holy
+#forestsurvival
+#swimming
+#stealthy 40
+#heal 1
+#age 2200
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 1
+#goodleader
+#magicskill 2 3
+#magicskill 6 2
+#spellsinger
+#drawsize 3
+#end
+
+#newmonster 4066
+#name "Warden of Lorien"
+#fixedname "Haldir"
+#descr "TBD"
+#hp 13
+#str 13
+#att 12
+#def 11
+#prec 13
+#size 2
+#mr 13
+#mor 14
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Broad Sword"
+#weapon "Galadhrim Longbow"
+#armor "Chain Mail Cuirass"
+#humanoid
+#stealthy 40
+#swimming
+#forestsurvival
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#patrolbonus 5
+#goodleader
+#spellsinger
+#magicskill 6 1
+#end
+
+#newmonster 4067
+#name "Lady of the Golden Woods"
+#fixedname "Galadriel"
+#descr "TBD"
+#pathcost 40
+#startdom 1
+#gcost 10000
+#hp 15
+#str 11
+#prec 12
+
+#size 2
+#mr 14
+#mor 30
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Fist"
+#armor "Robes"
+#humanoid
+#startitem 526
+#female
+#startage 600
+#maxage 3000
+#autohealer 2
+#diseaseres 100
+#awe 3
+
+#patrolbonus 2
+#nobadevents 20
+#expertleader
+#okmagicleader
+#magicskill 1 1
+#magicskill 4 1
+#spellsinger
+#drawsize 6
+#end
+
+#newsite
+#name "Mirror of Galadriel"
+#path 2
+#loc 16384
+#gems 2 1
+#gems 4 1
+#level 0
+#rarity 5
+#scry 3
 
