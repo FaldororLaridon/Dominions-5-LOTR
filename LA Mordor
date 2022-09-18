@@ -1793,13 +1793,13 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #descr "TBD"
 #rcost 30
 #gcost 180
-#rpcost 2
+#rpcost 3
 #hp 100
 #str 29
 #att 10
 #def 9
 #prec 11
-#prot 20
+#prot 17
 #size 6
 #mr 8
 #mor 10
