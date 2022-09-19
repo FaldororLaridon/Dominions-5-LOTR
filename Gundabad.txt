@@ -17,7 +17,7 @@
 #name "Scavenged Dwarf-Mail"
 #type 5
 #prot 14
-#def -2
+#def -1
 #enc 2
 #rcost 30
 #end
@@ -45,7 +45,7 @@
 #armor "Furs"|44
 #humanoid
 #mountainsurvival
-#stealthy 
+#stealthy 10
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
@@ -78,7 +78,7 @@
 #armor "Furs"|44
 #humanoid
 #mountainsurvival
-#stealthy 10
+#stealthy 20
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
@@ -113,7 +113,7 @@
 #mountedhumanoid
 #mounted
 #mountainsurvival
-#stealthy 
+#stealthy 10
 #maxage 1000
 #darkvision 100
 #pillagebonus 2
@@ -149,7 +149,7 @@
 #mountedhumanoid
 #mounted
 #mountainsurvival
-#stealthy
+#stealthy 10
 #maxage 1000
 #darkvision 100
 #pillagebonus 2
@@ -274,7 +274,7 @@
 #mapmove 16
 #ap 12
 #eyes 2
-#weapon "Orcish Blade"|900
+#weapon "Poisoned Scimitar"
 #armor "Orc-Mail Hauberk"
 #armor "Iron Cap"|20
 #armor "Iron Shield"|208
