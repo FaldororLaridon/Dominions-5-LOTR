@@ -17,7 +17,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #descr "TBD"
 #rcost 1
 #gcost 5
-#rpcost 6
+#rpcost 5
 #hp 6
 #str 10
 #att 7
@@ -39,6 +39,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
+#darkpower 1
 #incunrest 2
 #nametype 170
 #slave
@@ -50,7 +51,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #descr "TBD"
 #rcost 1
 #gcost 5
-#rpcost 6
+#rpcost 5
 #hp 6
 #str 10
 #att 7
@@ -72,11 +73,111 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #maxage 1000
 #darkvision 100
 #pillagebonus 1
+#darkpower 1
 #incunrest 2
 #nametype 170
 #slave
 #undisciplined
 #end
 
-#
+#newmonster 4070
+#name "Moria Orc"
+#rcost 1
+#gcost 7
+#rpcost 6
+#hp 8
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Scimitar"
+#armor "Iron Cap"
+#armor "Iron Shield"
+#armor "Full Orc-Mail"
+#humanoid
+#wastesurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#incunrest 1
+#pillagebonus 1
+#nametype 170
+#end
+
+#newmonster 4071
+#name "Moria Orc Archer"
+#rcost 1
+#gcost 7
+#rpcost 6
+#hp 8
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon 594
+#weapon "Poisoned Dagger
+#armor "Iron Cap"
+#armor "Orc-Mail Hauberk"
+#humanoid
+#wastesurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#incunrest 1
+#pillagebonus 1
+#nametype 170
+#end
+
+#newmonster 4072
+#name "Demolisher"
+#descr "TBD"
+#rcost 1
+#gcost 8
+#rpcost 8
+#hp 10
+#str 13
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 10
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Maul"
+#armor "Full Helmet"
+#armor "Full Orc-Mail"
+#humanoid
+#wastesurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#incunrest 1
+#siegebonus 1
+#pillagebonus 1
+#nametype 170
+#end
+
 
