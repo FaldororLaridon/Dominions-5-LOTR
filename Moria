@@ -11,3 +11,72 @@ Burned Dwarf: no armour, blackened bone, fireshield, heat aura, flaming punch? S
 a couple of warg rider guys recruitable in mountain provinces.
 
 commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Priest of Shadow and Flame, High servant of the Shadow and Flame
+
+#newmonster 4068
+#name "Moria Snaga"
+#descr "TBD"
+#rcost 1
+#gcost 5
+#rpcost 6
+#hp 6
+#str 10
+#att 7
+#def 7
+#prec 7
+#prot 0
+#size 1
+#mr 8
+#morale 6
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Spear"
+#armor "Hide Shield"
+#humanoid
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#incunrest 2
+#nametype 170
+#slave
+#undisciplined
+#end
+
+#newmonster 4069
+#name "Moria Snaga"
+#descr "TBD"
+#rcost 1
+#gcost 5
+#rpcost 6
+#hp 6
+#str 10
+#att 7
+#def 7
+#prec 7
+#prot 0
+#size 1
+#mr 8
+#morale 6
+#enc 2
+#mapmove 16
+#ap 12
+#eyes 2
+#weapon "Short Bow"
+#weapon "Poisoned Dagger"
+#humanoid
+#mountainsurvival
+#stealthy 10
+#maxage 1000
+#darkvision 100
+#pillagebonus 1
+#incunrest 2
+#nametype 170
+#slave
+#undisciplined
+#end
+
+#
+
