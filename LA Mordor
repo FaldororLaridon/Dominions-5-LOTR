@@ -357,7 +357,7 @@ Gothmog, Nazgul (all Fell Beast Varients) Shelob, Grishnakh, Shagrat, Gorbag, Th
 #end
 
 #newmonster 3976
-#name "Wainrider Warrior Maiden"
+#name "Easterling Warrior Maiden"
 #descr "TBD"
 #gcost 10000
 #rcost 1
