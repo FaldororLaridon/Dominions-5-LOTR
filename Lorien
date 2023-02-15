@@ -47,6 +47,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #weapon "Dagger"
 #weapon "Galadhrim Longbow"
 #armor "Leather Hauberk"
+#armor "Buckler"
 #humanoid
 #stealthy 40
 #forestsurvival
@@ -80,6 +81,7 @@ Commanders: Captain, Handmaiden, Riverwatcher, *Elven for tender of the trees*, 
 #weapon "Broad Sword"
 #weapon "Galadhrim Longbow"
 #armor "Chain Mail Cuirass"
+#armor "Buckler"
 #humanoid
 #stealthy 40
 #forestsurvival
