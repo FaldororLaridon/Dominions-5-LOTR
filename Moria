@@ -147,7 +147,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #end
 
 #newmonster 4072
-#name "Demolisher"
+#name "Scavenged Dwarf-mail"
 #descr "TBD"
 #rcost 1
 #gcost 8
