@@ -12,6 +12,15 @@ a couple of warg rider guys recruitable in mountain provinces.
 
 commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Priest of Shadow and Flame, High servant of the Shadow and Flame
 
+#newarmor 327
+#name "Scavenged Dwarf-Mail"
+#type 5
+#prot 14
+#def -1
+#enc 2
+#rcost 10
+#end
+
 #newmonster 4068
 #name "Moria Snaga"
 #descr "TBD"
@@ -147,7 +156,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #end
 
 #newmonster 4072
-#name "Scavenged Dwarf-mail"
+#name "Demolisher"
 #descr "TBD"
 #rcost 1
 #gcost 8
@@ -167,7 +176,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #eyes 2
 #weapon "Maul"
 #armor "Full Helmet"
-#armor "Full Orc-Mail"
+#armor "Scavenged Dwarf-Mail"
 #humanoid
 #wastesurvival
 #maxage 300
