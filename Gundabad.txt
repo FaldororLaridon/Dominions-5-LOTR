@@ -13,7 +13,7 @@
 #ironweapon
 #end
 
-#newarmor 600
+#newarmor 327
 #name "Scavenged Dwarf-Mail"
 #type 5
 #prot 14
