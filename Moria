@@ -17,7 +17,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #descr "TBD"
 #rcost 1
 #gcost 5
-#rpcost 5
+#rpcost 4
 #hp 6
 #str 10
 #att 7
@@ -51,7 +51,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #descr "TBD"
 #rcost 1
 #gcost 5
-#rpcost 5
+#rpcost 4
 #hp 6
 #str 10
 #att 7
