@@ -19,7 +19,7 @@
 #prot 14
 #def -1
 #enc 2
-#rcost 30
+#rcost 10
 #end
 
 #newmonster 3750
