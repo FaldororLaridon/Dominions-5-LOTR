@@ -36,6 +36,12 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #charge
 #end
 
+#newweapon 911
+#copyweapon "Whip"
+#name "Many-Thonged Whip"
+nratt 2
+#end
+
 #newmonster 4070
 #name "Moria Snaga"
 #descr "TBD"
@@ -292,7 +298,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #ap 14
 #eyes 2
 #weapon "Dwarven Falchion"
-#weapon "Whip"
+#weapon "Many-Thonged Whip"
 #armor "Heavy Scavenged Dwarf-Mail"
 #armor "Full Helmet"
 #humanoid
@@ -379,4 +385,67 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #undisciplined
 #end
 
+#newmonster 4080
+#name "Burned Dwarf"
+#descr "TBD"
+#hp 7
+#str 11
+#att 10
+#def 10
+#prec 8
+#prot 6
+#size 1
+#mr 11
+#mor 50
+#enc 0
+#mapmove 18
+#ap 8
+#eyes 2
+#weapon "Flaming Fist"
+#humanoid
+#undead
+#mountainsurvival
+#maxage 500
+#noheal
+#fireres 20
+#pierceres
+#heat 5
+#fireshield 8
+#darkvision 100
+#neednoteat
+#end
 
+#newmonster 4081
+#name "Nameless Thing"
+#descr "TBD"
+#hp 73
+#str 20
+#att 10
+#def 7
+#prec 5
+#prot 6
+#size 5
+#mr 12
+#mor 18
+#enc 5
+#mapmove 8
+#ap 5
+#eyes 0
+#weapon 319
+#snake
+#magicbeing
+#blind
+#mountainsurvival
+#maxage 1000
+#coldres 5
+#fireres 5
+#bluntres
+#poisoncloud 6
+#fear 8
+#acidshield 8
+#siegebonus 20
+#end
+
+#newmonster 4082
+#name "Forgotten Cat"
+#descr "TBD"
