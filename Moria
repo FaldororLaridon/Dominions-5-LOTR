@@ -15,13 +15,28 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #newarmor 327
 #name "Scavenged Dwarf-Mail"
 #type 5
-#prot 14
+#prot 13
 #def -1
 #enc 2
 #rcost 10
 #end
 
-#newmonster 4068
+#newarmor 328
+#name "Heavy Scavenged Dwarf-Mail"
+#type 5
+#prot 17
+#def -3
+#enc 5
+#rcost 20
+#end
+
+#newweapon 910
+#copyweapon "Machaka Spear"
+#name "Heavy Moria-Spear"
+#charge
+#end
+
+#newmonster 4070
 #name "Moria Snaga"
 #descr "TBD"
 #rcost 1
@@ -55,7 +70,7 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #undisciplined
 #end
 
-#newmonster 4069
+#newmonster 4071
 #name "Moria Snaga"
 #descr "TBD"
 #rcost 1
@@ -89,11 +104,11 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #undisciplined
 #end
 
-#newmonster 4070
+#newmonster 4072
 #name "Moria Orc"
 #rcost 1
 #gcost 7
-#rpcost 6
+#rpcost 8
 #hp 8
 #str 12
 #att 8
@@ -122,11 +137,11 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #nametype 170
 #end
 
-#newmonster 4071
+#newmonster 4073
 #name "Moria Orc Archer"
 #rcost 1
 #gcost 7
-#rpcost 6
+#rpcost 8
 #hp 8
 #str 11
 #att 8
@@ -155,12 +170,12 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #nametype 170
 #end
 
-#newmonster 4072
+#newmonster 4074
 #name "Demolisher"
 #descr "TBD"
 #rcost 1
 #gcost 8
-#rpcost 8
+#rpcost 9
 #hp 10
 #str 13
 #att 8
@@ -189,6 +204,141 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 #nametype 170
 #end
 
+#newmonster 4075
+#name "Moria Uruk"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 14
+#hp 12
+#str 14
+#att 11
+#def 10
+#prec 9
+#prot 0
+#size 2
+#mr 9
+#mor 10
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Poisoned Scimitar"
+#armor "Scavenged Dwarf-Mail"
+#armor "Full Helmet"
+#armor "Iron Shield"
+#humanoid
+#mountainsurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 100
+#pillagebonus 1
+#nametype 170
+#end
+
 #newmonster 4076
+#name "Uruk Shock Trooper"
+#descr "TBD"
+#rcost 1
+#gcost 14
+#rpcost 16
+#hp 14
+#str 14
+#att 12
+#def 12
+#prec 9
+#prot 0
+#size 2
+#mr 9
+#mor 11
+#enc 3
+#mapmove 18
+#ap 16
+#eyes 2
+#weapon "Heavy Moria-Spear"
+#armor "Orc-Mail Cuirass"
+#armor "Half Helmet"
+#armor "Great Hide Shield"
+#humanoid
+#mountainsurvival
+#maxage 300
+#uwdamage 100
+#lanceok
+#stealthy
+#darkpower 1
+#darkvision 100
+#pillagebonus 2
+#nametype 170
+#end
+
+#newmonster 4077
+#name "Nameless Ones"
+#descr "TBD"
+#rcost 1
+#gcost 25
+#rpcost 22
+#hp 15
+#str 15
+#att 12
+#def 12
+#prec 9
+#prot 0
+#size 2
+#mr 12
+#mor 13
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Dwarven Falchion"
+#weapon "Whip"
+#armor "Heavy Scavenged Dwarf-Mail"
+#armor "Full Helmet"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 300
+#uwdamage 100
+#fireres 5
+#darkpower 2
+#darkvision 100
+#ambidextrous 3
+#pillagebonus 1
+#nametype 170
+#end
+
+#newmonster 4078
+#name "Orc Drummer"
+#descr "TBD"
+#rcost 1
+#gcost 7
+#rpcost 12
+#hp 8
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Poisoned Dagger
+#armor "Iron Cap"
+#armor "Orc-Mail Hauberk"
+#humanoid
+#wastesurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 50
+#incunrest 1
+#pillagebonus 1
+#nametype 170
+#end
 
 
