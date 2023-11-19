@@ -315,43 +315,46 @@ nratt 2
 #end
 
 #newmonster 4078
-#name "Orc Drummer"
+#name "Troll Drummer"
 #descr "TBD"
-#rcost 1
-#gcost 7
-#rpcost 12
-#hp 8
-#str 11
-#att 8
-#def 8
-#prec 8
-#prot 0
-#size 1
+#rcost 2
+#gcost 40
+#rpcost 35
+#hp 24
+#str 12
+#att 0
+#def 0
+#prec 5
+#prot 5
+#size 3
 #mr 8
-#mor 9
+#mor 11
 #enc 3
 #mapmove 16
-#ap 10
+#ap 1
 #eyes 2
-#weapon "Poisoned Dagger
-#armor "Iron Cap"
-#armor "Orc-Mail Hauberk"
+#weapon "Club"
+#weapon 20
+#armor "Troll Hide"
 #humanoid
+#maxage 200
 #mountainsurvival
-#maxage 300
+#snow
+#invulnerable 12
 #uwdamage 100
-#darkpower 1
-#darkvision 50
-#incunrest 1
-#pillagebonus 1
+#fear 5
+#darkpower 11
+#darkvision 100
+#reinvigoration 9
 #nametype 170
+#undisciplined
+#end
 #standard 1
 #end
 
 #newmonster 4079
 #name "Cave Troll"
 #descr "TBD"
-#ainorec
 #rcost 2
 #gcost 40
 #rpcost 25
@@ -444,8 +447,103 @@ nratt 2
 #fear 8
 #acidshield 8
 #siegebonus 20
+#noleader
 #end
 
 #newmonster 4082
-#name "Forgotten Cat"
-#descr "TBD"
+#name “Forgotten Cat”
+#descr “TBD”
+#hp 45
+#str 14
+#att 14
+#def 14
+#prec 5
+#prot 3
+#size 3
+#mr 13
+#mor 30
+#enc 3
+#mapmove 22
+#ap 25
+#eyes 2
+#weapon 33
+#quadruped
+#demon
+#magicbeing
+#mountainsurvival
+#stealthy 70
+#assassin
+#patience 2
+#scalewalls
+#maxage 10000
+#older 1000
+#regeneration 20
+#fear 5
+#curseluckshield 1
+#spiritsight
+#noleader
+#end
+
+#newmonster 4083
+#name “Ancient Vampire”
+#descr “TBD”
+#hp 19
+#str 12
+#att 11
+#def 13
+ 
+#prot 4
+#size 3
+#mr 15
+#mor 14
+#enc 2
+#mapmove 28
+#ap 3
+#eyes 2
+#weapon "Iron Talon"
+#weapon "Life Drain"
+#bird
+#flying
+#stealthy 30
+#maxage 1000
+#darkvision 100
+#neednoteat
+#nametype 172
+#okleader
+#okundeadleader
+#magicskill 7 1
+#magicskill 5 1
+#custommagic 20480 200
+#end
+
+#newmonster 4084
+#name “Balrog”
+#hp 50
+#str 18
+#att 12
+#def 12
+ 
+#prot 15
+#size 5
+#mr 18
+#mor 30
+#enc 2
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon “Iron Talon”
+#weapon "Balrog Whip"
+#humanoid
+#holy
+#demon
+#maxage 7000
+#fireres 30
+#heat 3
+#fear 5
+#fireshield 5
+#ambidextrous 2
+#spiritsight
+#nametype 171
+#goodleader
+#end
+
