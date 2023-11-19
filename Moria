@@ -42,6 +42,19 @@ commanders: Captain, Chieftain, Darkcaller, Smith, Necromancer, Deepdelver, Prie
 nratt 2
 #end
 
+#newweapon 912
+#name "Grasping Tentacle"
+#dmg -3
+#nratt 1
+#att 0
+#def 0
+#len 5
+#sound 38
+#blunt
+#secondaryeffect 137
+#bonus
+#end
+
 #newmonster 4070
 #name "Moria Snaga"
 #descr "TBD"
@@ -421,13 +434,13 @@ nratt 2
 #newmonster 4081
 #name "Nameless Thing"
 #descr "TBD"
-#hp 73
-#str 20
+#hp 83
+#str 22
 #att 10
 #def 7
 #prec 5
-#prot 6
-#size 5
+#prot 8
+#size 6
 #mr 12
 #mor 18
 #enc 5
@@ -447,6 +460,8 @@ nratt 2
 #fear 8
 #acidshield 8
 #siegebonus 20
+#montag 1014
+#montagweight 10
 #noleader
 #end
 
@@ -471,7 +486,7 @@ nratt 2
 #demon
 #magicbeing
 #mountainsurvival
-#stealthy 70
+#stealthy 30
 #assassin
 #patience 2
 #scalewalls
@@ -481,6 +496,8 @@ nratt 2
 #fear 5
 #curseluckshield 1
 #spiritsight
+#montag 1014
+#montagweight 10
 #noleader
 #end
 
@@ -509,6 +526,8 @@ nratt 2
 #darkvision 100
 #neednoteat
 #nametype 172
+#montag 1014
+#montagweight 10
 #okleader
 #okundeadleader
 #magicskill 7 1
@@ -539,11 +558,93 @@ nratt 2
 #maxage 7000
 #fireres 30
 #heat 3
-#fear 5
+#fear 8
 #fireshield 5
 #ambidextrous 2
 #spiritsight
+#montag 1014
+#montagweight 1
 #nametype 171
 #goodleader
 #end
+
+#newmonster 4085
+#name "Watcher in the Water"
+#descr "TBD"
+#hp 65
+#str 20
+#att 12
+#def 9
+#prec 10
+#prot 11
+#size 6
+#mr 10
+#mor 14
+#enc 3
+#mapmove 12
+#ap 8
+#eyes 2
+#weapon "Grasping Tentacle"
+#weapon "Grasping Tentacle"
+#weapon "Grasping Tentacle"
+#weapon "Grasping Tentacle"
+#weapon "Grasping Tentacle"
+#weapon "Grasping Tentacle"
+#weapon "Grasping Tentacle"
+#miscshape
+#demon
+#aquatic
+#stealthy 30
+#maxage 7000
+#darkvision 100
+#noleader
+
+#newmonster 4086
+#name "Writhing Tentacle"
+#descr "TBD"
+#hp 13
+#str 20
+#att 10
+#def 8
+#prec 10
+#prot 7
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 0
+#ap 12
+#eyes 0
+#weapon "Grasping Tentacle"
+#snake
+#demon
+#blind
+#neednoteat
+
+#newmonster 4087
+#name "Vile Tentacle"
+#descr "TBD"
+#hp 13
+#str 20
+#att 10
+#def 8
+#prec 10
+#prot 7
+#size 2
+#mr 10
+#mor 10
+#enc 3
+#mapmove 0
+#ap 12
+#eyes 0
+#weapon "Grasping Tentacle"
+#snake
+#demon
+#blind
+#neednoteat
+#batstartsum3 "Writhing Tentacle"
+#poorleader
+
+#newmonster 4088
+
 
