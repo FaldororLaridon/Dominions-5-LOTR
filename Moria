@@ -730,7 +730,7 @@ nratt 2
 #name "Darkcaller"
 #descr "TBD"
 #rcost 1
-#gcost 150
+#gcost 300
 #rpcost 4
 #hp 9
 #str 12
