@@ -777,7 +777,7 @@ nratt 2
 #mountainsurvival
 #maxage 300
 #darkpower 1
-#darkvision 50
+#darkvision 100
 #pillagebonus 1
 #nametype 170
 #poorleader
@@ -814,11 +814,12 @@ nratt 2
 #mountainsurvival
 #maxage 300
 #darkpower 1
-#darkvision 50
+#darkvision 100
 #pillagebonus 1
 #nametype 170
 #poorleader
 #magicskill 8 1
+#magicskill 3 2
 #end
 
 #newmonster 4093
@@ -847,11 +848,11 @@ nratt 2
 #mountainsurvival
 #maxage 300
 #darkpower 1
-#darkvision 50
+#darkvision 100
 #pillagebonus 1
 #nametype 170
 #okleader
-#magicskill 8 1
+#magicskill 8 2
 #magicskill 0 2
 #custommagic 17536 100
 #custommagic 17408 100
@@ -884,7 +885,7 @@ nratt 2
 #mountainsurvival
 #maxage 300
 #darkpower 1
-#darkvision 50
+#darkvision 100
 #pillagebonus 1
 #nametype 170
 #goodleader
@@ -895,4 +896,71 @@ nratt 2
 #custommagic 17536 100
 #custommagic 17408 100
 #tmpfiregems 1
+#end
+
+#newmonster 4095
+#name "Moria Sorcerer"
+#descr "TBD"
+#rpcost 2
+#hp 8
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robes"
+#humanoid
+#mountainsurvival
+#maxage 300
+#darkpower 1
+#darkvision 100
+#pillagebonus 1
+#nametype 170
+#poorleader
+#magicskill 5 1
+#magcskill 7 1
+#magicskill 3 1
+#custommagic 21632 100
+#custommagic 21632 100
+#end
+
+#newmonster 4096
+#name "Shadowcaller"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 7
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 10
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Poisoned Dagger"
+#armor "Orc-Mail Cuirass"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 300
+#darkpower 1
+#darkvision 100
+#pillagebonus 1
+#nametype 170
+#poorleader
+#magicskill 8 1
 #end
