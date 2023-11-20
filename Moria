@@ -675,6 +675,7 @@ nratt 2
 #darkpower 1
 #darkvision 100
 #pillagebonus 1
+#incunrest 20
 #nametype 170
 #okleader
 #command 60
@@ -720,4 +721,178 @@ nratt 2
 #newmonster 4090
 #name "Darkcaller"
 #descr "TBD"
+#rcost 1
+#gcost 150
+#rpcost 4
+#hp 9
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 2
+#mr 9
+#mor 8
+#enc 3
+#mapmove 11
+#ap 11
+#eyes 2
+#weapon "Dagger"
+#armor "Orc-Mail Hauberk"
+#itemslots 4096
+#humanoid
+#mountain
+#maxage 300
+#darkpower 1
+#darkvision 100
+#uwdamage 100
+#nametype 170
+#noleader 
+#warning -5
+#onebattlespell "Solar Eclipse"
+#end
 
+#newmonster 4091
+#name "Moria Necromancer"
+#descr "TBD"
+#rcost 1
+#gcost 10010
+#rpcost 2
+#hp 7
+#str 11
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 8
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robes"
+#humanoid
+#mountainsurvival
+#maxage 300
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#nametype 170
+#poorleader
+#okundeadleader
+#magicskill 5 1
+#custommagic 4224 100
+#custommagic 4224 10
+#researchbonus -3
+#end
+
+#newmonster 4092
+#name "Deepdelver"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 7
+#str 12
+#att 8
+#def 8
+#prec 8
+#prot 0
+#size 1
+#mr 10
+#mor 9
+#enc 3
+#mapmove 16
+#ap 10
+#eyes 2
+#weapon "Orcish Blade"
+#armor "Orc-Mail Hauberk"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 300
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#nametype 170
+#poorleader
+#magicskill 8 1
+#end
+
+#newmonster 4093
+#name "Priest of Shadow and Flame"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 14
+#str 15
+#att 10
+#def 10
+#prec 9
+#prot 0
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Many-Thonged Whip"
+#armor "Robe"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 300
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#nametype 170
+#okleader
+#magicskill 8 1
+#magicskill 0 2
+#custommagic 17536 100
+#custommagic 17408 100
+#end
+
+#newmonster 4094
+#name "High Priest of Shadow and Flame"
+#descr "TBD"
+#rcost 1
+#gcost 10040
+#rpcost 4
+#hp 15
+#str 16
+#att 11
+#def 11
+#prec 9
+#prot 0
+#size 2
+#mr 12
+#mor 12
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Many-Thonged Whip"
+#weapon "Dwarven Falchion"
+#armor "Scavenged Dwarf-Mail"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 300
+#darkpower 1
+#darkvision 50
+#pillagebonus 1
+#nametype 170
+#goodleader
+#magicskill 8 2
+#magicskill 0 2
+#magicskill 3 1
+#magicskill 7 2
+#custommagic 17536 100
+#custommagic 17408 100
+#tmpfiregems 1
+#end
