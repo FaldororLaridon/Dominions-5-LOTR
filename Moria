@@ -55,6 +55,14 @@ nratt 2
 #bonus
 #end
 
+#newweapon 913
+#copyweapon "Lance"
+#name "Great Moria-Spear"
+#dmg 8
+#len 4
+#def -1
+#end
+
 #newmonster 4070
 #name "Moria Snaga"
 #descr "TBD"
@@ -257,7 +265,7 @@ nratt 2
 #end
 
 #newmonster 4076
-#name "Uruk Shock Trooper"
+#name "Uruk Linebreaker"
 #descr "TBD"
 #rcost 1
 #gcost 14
@@ -667,7 +675,7 @@ nratt 2
 #weapon "Poisoned Scimitar"
 #armor "Full Orc-Mail"
 #armor "Iron Shield"
-#armor "Iron Cap"
+#armor "Half Helmet"
 #humanoid
 #mountainsurvival
 #maxage 300
@@ -951,7 +959,7 @@ nratt 2
 #mapmove 16
 #ap 10
 #eyes 2
-#weapon "Poisoned Dagger"
+#weapon "Poison Dagger"
 #armor "Orc-Mail Cuirass"
 #humanoid
 #holy
@@ -963,4 +971,109 @@ nratt 2
 #nametype 170
 #poorleader
 #magicskill 8 1
+#end
+
+#newmonster 4097
+#name "Champion of Moria"
+#fixedname "Yagûl"
+#descr "TBD"
+#hp 20
+#str 17
+#att 13
+#def 15
+#prec 9
+#prot 0
+#size 2
+#mr 11
+#mor 30
+#enc 2
+#mapmove 18
+#ap 20
+#eyes 2
+#weapon "Great Moria-Spear"
+#weapon "Poisoned Scimitar"
+#armor "Full Orc-Mail"
+#armor "Full Helmet"
+#armor "Great Hide Shield"
+#humanoid
+#mountainsurvival
+#maxage 300
+#uwdamage 100
+#unique
+#lanceok
+#darkpower 1
+#darkvision 100
+#pillagebonus 2
+#patrolbonus 10
+#nametype 170
+#goodleader
+#inspirational 2
+#end
+
+#newmonster 4098
+#name "Lord of Moria"
+#fixedname "Azog"
+#descr "TBD"
+#hp 20
+#str 18
+#att 13
+#def 13
+#prec 9
+#prot 0
+#size 2
+#mr 11
+#mor 14
+#enc 2
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Dwarven Falchion
+#armor "Heavy Scavenged Dwarf-Mail"
+#armor "Iron Shield"
+#humanoid
+#unique
+#mountainsurvival
+#maxage 300
+#uwdamage 100
+#darkvision 100
+#darkpower 1
+#expertleader
+#end
+
+#newmonster 4099
+#name "Durin's Bane"
+#fixedname "Ghâshgoth"
+#pathcost 50
+#startdom 2
+#gcost 10000
+#hp 50
+#str 22
+#att 14
+#def 14
+ 
+#prot 15
+#size 5
+#mr 18
+#mor 30
+#enc 2
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon 801
+#weapon "Balrog Whip"
+#humanoid
+#itemslots 15490
+#fireshield 5
+#demon
+#maxage 7000
+#fireres 30
+#heat 3
+#fear 8
+#ambidextrous 3
+#spiritsight
+#expertleader
+#okmagicleader
+#goodundeadleader
+#taskmaster 4
+#magicskill 0 2
 #end
