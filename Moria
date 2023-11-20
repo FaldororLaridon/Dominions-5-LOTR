@@ -229,15 +229,15 @@ nratt 2
 #rcost 1
 #gcost 13
 #rpcost 14
-#hp 12
-#str 14
-#att 11
+#hp 14
+#str 15
+#att 10
 #def 10
 #prec 9
 #prot 0
 #size 2
 #mr 9
-#mor 10
+#mor 11
 #enc 3
 #mapmove 18
 #ap 14
@@ -263,9 +263,9 @@ nratt 2
 #gcost 14
 #rpcost 16
 #hp 14
-#str 14
-#att 12
-#def 12
+#str 15
+#att 10
+#def 10
 #prec 9
 #prot 0
 #size 2
@@ -298,14 +298,14 @@ nratt 2
 #gcost 25
 #rpcost 22
 #hp 15
-#str 15
-#att 12
+#str 16
+#att 11
 #def 12
 #prec 9
 #prot 0
 #size 2
-#mr 12
-#mor 13
+#mr 11
+#mor 12
 #enc 3
 #mapmove 18
 #ap 14
@@ -466,8 +466,8 @@ nratt 2
 #end
 
 #newmonster 4082
-#name “Forgotten Cat”
-#descr “TBD”
+#name "Forgotten Cat"
+#descr "TBD"
 #hp 45
 #str 14
 #att 14
@@ -502,8 +502,8 @@ nratt 2
 #end
 
 #newmonster 4083
-#name “Ancient Vampire”
-#descr “TBD”
+#name "Ancient Vampire"
+#descr "TBD"
 #hp 19
 #str 12
 #att 11
@@ -536,7 +536,7 @@ nratt 2
 #end
 
 #newmonster 4084
-#name “Balrog”
+#name "Balrog"
 #hp 50
 #str 18
 #att 12
@@ -550,7 +550,7 @@ nratt 2
 #mapmove 20
 #ap 14
 #eyes 2
-#weapon “Iron Talon”
+#weapon "Iron Talon"
 #weapon "Balrog Whip"
 #humanoid
 #holy
@@ -646,5 +646,78 @@ nratt 2
 #poorleader
 
 #newmonster 4088
+#name "Moria Chieftain"
+#descr "TBD"
+#rcost 1
+#gcost 35
+#rpcost 1
+#hp 15
+#str 16
+#att 11
+#def 11
+#prec 9
+#prot 0
+#size 2
+#mr 9
+#mor 13
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Poisoned Scimitar"
+#armor "Full Orc-Mail"
+#armor "Iron Shield"
+#armor "Iron Cap"
+#humanoid
+#mountainsurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 100
+#pillagebonus 1
+#nametype 170
+#okleader
+#command 60
+#taskmaster 1
+#end
 
+#newmonster 4089
+#name "Moria-Lord"
+#descr "TBD"
+#rcost 1
+#gcost 65
+#rpcost 1
+#hp 15
+#str 16
+#att 12
+#def 12
+#prec 9
+#prot 0
+#size 2
+#mr 9
+#mor 13
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Dwarven Falchion"
+#armor "Heavy Scavenged Dwarf-Mail"
+#armor "Iron Shield"
+#armor "Full Helmet"
+#humanoid
+#mountainsurvival
+#maxage 300
+#uwdamage 100
+#darkpower 1
+#darkvision 100
+#pillagebonus 1
+#nametype 170
+#goodleader
+#command 40
+#inspirational 1
+#end
+
+#newmonster 4090
+#name "Darkcaller"
+#descr "TBD"
 
