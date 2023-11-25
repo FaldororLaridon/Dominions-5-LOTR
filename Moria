@@ -265,7 +265,7 @@ nratt 2
 #end
 
 #newmonster 4076
-#name "Uruk Linebreaker"
+#name "Great Orc Linebreaker"
 #descr "TBD"
 #rcost 1
 #gcost 14
@@ -1102,8 +1102,132 @@ nratt 2
 #homecom "High Priest of Shadow and Flame"
 #end
 
-#newnation 
+#newsite
+#name "Dark Delving"
+#path 5
+#level 0
+#rarity 5
+#end
 
+#newnation 
+#name "Moria"
+#epithet "Shadow and Flame"
+#era 3
+#descr "TBD"
+#summary "TBD"
+#brief "A nation of Orcs delving deep into the darkness under the Mountains. They are better-equipped than any other Orcs and have access to powerful summoning spells accessing creatures lurking in the Deep places of the world."
+#startsite "Mansions of Khazad-dûm"
+#startsite "Lower Deeps"
+#likesterr 4096
+#cavenation 2
+#aifirenation
+#startcom "Moria Chieftain"
+#mountainrec 3996
+#mountainrec 3997
+#caverec "Cave Troll"
+#startscout "Goblin Scout"
+#startunittype1 "Moria Orc"
+#startunitnbrs1 30
+#startunittype2 4071
+#startunitnbrs2 30
+#addrecunit 4070
+#addrecunit 4071
+#addrecunit "Moria Orc"
+#addrecunit "Moria Orc Archer"
+#addrecunit "Demolisher"
+#addrecunit "Moria Uruk"
+#addrecunit "Great Orc Linebreaker"
+#addrecunit "Troll Drummer"
+#addrecunit "Cave Troll"
+#addreccom "Goblin Scout"
+#addreccom "Moria Chieftain"
+#addreccom "Moria-Lord"
+#addreccom "Moria Necromancer"
+#addreccom "Deepdelver"
+#addreccom "Priest of Shadow and Flame"
+#addreccom "Shadowcaller"
+#addreccom "Moria Sorcerer"
+#hero1 4097
+#hero2 4098
+#defcom1 "Moria Chieftain"
+#defcom2 "Darkcaller"
+#defunit1a 4070
+#defunit1b 4071
+#defunit1c "Moria Orc"
+#defunit2 "Moria Orc"
+#defunit2b "Moria Orc Archer"
+#defmult1a 30
+#defmult1b 30
+#defmult1c 20
+#defmult2 30
+#defmult2b 20
+#wallcom "Moria Chieftain"
+#wallcom "Darkcaller"
+#wallunit "Moria Orc Archer"
+#wallmult 15
+#addgod "Dark Lord"
+#addgod "Great Black Bull"
+#addgod "Destroyer of Worlds"
+#addgod "Lord of the Summer Plague"
+#addgod "Son of Fenrer"
+#addgod "Colossal Fetish"
+#addgod "Devourer of Souls"
+#addgod "Fomorian God King"
+#addgod "Son of the Fallen"
+#addgod "Oni Kunshu"
+#addgod "Teteo Inan"
+#addgod "Annunaki of the Underworld"
+#addgod "Teotl of War"
+#addgod "Teotl of the Underworld"
+#addgod "Idol of Sorcery"
+#addgod "Golden Idol"
+#addgod "Statue of War"
+#addgod "Azi"
+#addgod "Angra Mainyu"
+#addgod "Hun Came"
+#addgod "Bolon-ti-ku"
+#addgod "Hun Balam"
+#addgod "Man-Eater"
+#addgod "Myrmecoleon"
+#addgod "Serpent of Chaos"
+#addgod "Hound of Hades"
+#addgod "Svartalf Mastersmith"
+#addgod "Telkhine God-King"
+#addgod "Bronze Colossus"
+#addgod "Moloch"
+#addgod "Gorgon"
+#addgod "Mother of Monsters"
+#addgod "Master Lich"
+#addgod "Demilich"
+#addgod "Freak Lord"
+#addgod "Crone"
+#addgod "Saurolich"
+#addgod "Prince of Death"
+#addgod "Neter of Chaos"
+#addgod "Lich Queen"
+#addgod "Bitch Queen"
+#addgod "Great Warlock"
+#addgod "Skratti"
+#addgod "Teotl of Rain"
+#addgod "Teotl of the Night"
+#addgod "Son of Niefel"
+#addgod "Baphomet"
+#addgod "Bog Mummy"
+#addgod "Dracolich"
+#addgod "Void Lord"
+#addgod "Fountain of Blood"
+#addgod "Smoking Mirror"
+#addgod "Vampire Queen"
+#addgod "Colossal Head"
+#addgod "Durin's Bane"
+#addgod "Istar of Crafts"
+#cheapgod40 "Durin's Bane"
+#cheapgod20  "Dark Lord"
+#homerealm 10
+#fortera 2
+#templepic 31
+#homefort 4
+#end
 
 
 
