@@ -1265,7 +1265,7 @@ nratt 2
 #spr "images/eregion/mithrilcuirass.tga"
 #constlevel 2
 #mainpath 3
-#mainlevel 1
+#mainlevel 2
 #type 5
 #descr "Light as a feather and hard as Dragon-scale, Mithril is a rare and prized metal. The Dwarves have made many things of Mithril, but their armours are most renowned. In this later age, Mithril is more often found in the vaults of Dwarven fortresses than made, as the skills and materials to make them have dwindled.'"
 #armor "Mithril Cuirass"
@@ -1278,7 +1278,7 @@ nratt 2
 #spr "images/eregion/mithrilhauberk.tga"
 #constlevel 4
 #mainpath 3
-#mainlevel 2
+#mainlevel 3
 #type 5
 #descr "Light as a feather and hard as Dragon-scale, Mithril is a rare and prized metal. The Dwarves have made many things of Mithril, but their armours are most renowned. In this later age, Mithril is more often found in the vaults of Dwarven fortresses than made, as the skills and materials to make them have dwindled."
 #armor "Mithril Hauberk"
