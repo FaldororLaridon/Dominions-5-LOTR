@@ -993,7 +993,7 @@ nratt 2
 #weapon "Great Moria-Spear"
 #weapon "Poisoned Scimitar"
 #armor "Full Orc-Mail"
-#armor "Full Helmet"
+#armor "Half Helmet"
 #armor "Great Hide Shield"
 #humanoid
 #mountainsurvival
@@ -1029,6 +1029,7 @@ nratt 2
 #eyes 2
 #weapon "Dwarven Falchion
 #armor "Heavy Scavenged Dwarf-Mail"
+#armor "Full Helmet"
 #armor "Iron Shield"
 #humanoid
 #unique
@@ -1257,6 +1258,32 @@ nratt 2
 #fortera 2
 #templepic 31
 #homefort 4
+#end
+
+#selectitem 542
+#name "Reclaimed Mithril Cuirass"
+#spr "images/eregion/mithrilcuirass.tga"
+#constlevel 2
+#mainpath 3
+#mainlevel 1
+#type 5
+#descr "Light as a feather and hard as Dragon-scale, Mithril is a rare and prized metal. The Dwarves have made many things of Mithril, but their armours are most renowned. In this later age, Mithril is more often found in the vaults of Dwarven fortresses than made, as the skills and materials to make them have dwindled.'"
+#armor "Mithril Cuirass"
+#restricted "Moria"
+#restricted "134"
+#end
+
+#selectitem 543
+#name "Mithril Hauberk"
+#spr "images/eregion/mithrilhauberk.tga"
+#constlevel 4
+#mainpath 3
+#mainlevel 2
+#type 5
+#descr "Light as a feather and hard as Dragon-scale, Mithril is a rare and prized metal. The Dwarves have made many things of Mithril, but their armours are most renowned. In this later age, Mithril is more often found in the vaults of Dwarven fortresses than made, as the skills and materials to make them have dwindled."
+#armor "Mithril Hauberk"
+#restricted "Moria"
+#restricted 134
 #end
 
 
