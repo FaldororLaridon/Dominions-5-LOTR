@@ -1274,7 +1274,7 @@ nratt 2
 #end
 
 #selectitem 543
-#name "Mithril Hauberk"
+#name "Reclaimed Mithril Hauberk"
 #spr "images/eregion/mithrilhauberk.tga"
 #constlevel 4
 #mainpath 3
