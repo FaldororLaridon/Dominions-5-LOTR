@@ -745,8 +745,8 @@ nratt 2
 #mapmove 11
 #ap 11
 #eyes 2
-#weapon "Dagger"
-#armor "Orc-Mail Hauberk"
+#weapon "Quarterstaff"
+#armor "Robes"
 #itemslots 4096
 #humanoid
 #mountain
@@ -756,7 +756,6 @@ nratt 2
 #uwdamage 100
 #nametype 170
 #noleader 
-#warning -5
 #onebattlespell "Solar Eclipse"
 #end
 
@@ -855,7 +854,7 @@ nratt 2
 #holy
 #mountainsurvival
 #maxage 300
-#darkpower 1
+#darkpower 2
 #darkvision 100
 #pillagebonus 1
 #nametype 170
@@ -892,7 +891,7 @@ nratt 2
 #holy
 #mountainsurvival
 #maxage 300
-#darkpower 1
+#darkpower 2
 #darkvision 100
 #pillagebonus 1
 #nametype 170
@@ -1042,8 +1041,8 @@ nratt 2
 #end
 
 #newmonster 4099
-#name "Durin's Bane"
-#fixedname "Ghâshgoth"
+#name "Ancient Balrog"
+#fixedname "Durin's Bane"
 #pathcost 50
 #startdom 2
 #gcost 10000
@@ -1079,6 +1078,41 @@ nratt 2
 #magicskill 0 2
 #end
 
+#newmonster 5000
+#name "Burzum-hai"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 12
+#str 13
+#att 9
+#def 9
+#prec 9
+#prot 0
+#size 2
+#mr 14
+#mor 13
+#enc 3
+#mapmove 18
+#ap 14
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robe"
+#humanoid
+#holy
+#mountainsurvival
+#maxage 300
+#darkpower 2
+#darkvision 100
+#pillagebonus 1
+#nametype 170
+#poorleader
+#magicskill 8 3
+#onebattlespell "Solar Eclipse"
+#end
+
+
 #newsite
 #name "Mansions of Khazad-dûm"
 #path 3
@@ -1102,13 +1136,6 @@ nratt 2
 #homecom "High Priest of Shadow and Flame"
 #end
 
-#newsite
-#name "Dark Delving"
-#path 5
-#level 0
-#rarity 5
-#end
-
 #newnation 
 #name "Moria"
 #epithet "Shadow and Flame"
@@ -1121,6 +1148,7 @@ nratt 2
 #likesterr 4096
 #cavenation 2
 #aifirenation
+#aideathnation
 #startcom "Moria Chieftain"
 #mountainrec 3996
 #mountainrec 3997
@@ -1149,6 +1177,7 @@ nratt 2
 #addreccom "Moria Sorcerer"
 #hero1 4097
 #hero2 4098
+#multihero1 5000
 #defcom1 "Moria Chieftain"
 #defcom2 "Darkcaller"
 #defunit1a 4070
@@ -1230,4 +1259,37 @@ nratt 2
 #end
 
 
+#newspell
+#name "Call Nameless Things"
+#descr "Spill the blood of innocents to summon one of four types of ancient creature hidden deep beneath the earth to serve the Awakening God."
+#school 6
+#researchlevel 5
+#path 0 7
+#path 1 3
+#pathlevel 0 4
+#pathlevel 1 1
+#fatiguecost 5000
+#damage 1014
+#effect 10001
+#nreff 1
+#range 0
+#onlygeosrc 4096
+#restricted "Moria"
+#end
 
+#newspell
+#name "Raise Burned Dwarves"
+#descr "Desecrate the bodies of the Burned Dwarves from the Battle of Azanulbizar by raising their blackened bones and forcing them to fight for the armies of Moria"
+#school 4
+#researchlevel 4
+#path 0 5
+#path 1 0
+#pathlevel 0 1
+#pathlevel 1 1
+#fatiguecost 15
+#damage 4080
+#effect 10001
+#nreff 1005
+#range 0
+#restricted "Moria"
+#end
