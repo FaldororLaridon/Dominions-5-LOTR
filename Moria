@@ -300,7 +300,7 @@ nratt 2
 #end
 
 #newmonster 4077
-#name "Nameless Ones"
+#name "Nameless One"
 #descr "TBD"
 #rcost 1
 #gcost 25
@@ -904,6 +904,7 @@ nratt 2
 #custommagic 17536 100
 #custommagic 17408 100
 #tmpfiregems 1
+#combatcaster
 #end
 
 #newmonster 4095
@@ -1077,3 +1078,32 @@ nratt 2
 #taskmaster 4
 #magicskill 0 2
 #end
+
+#newsite
+#name "Mansions of Khazad-dûm"
+#path 3
+#loc 16384
+#gems 5 1
+#gold 80
+#res 50
+#rarity 5
+#level 0
+#end
+
+#newsite
+#name "Lower Deeps"
+#path 3
+#loc 16384
+#gems 0 2
+#gems 3 1
+#rarity 5
+#level 0
+#homemon "Nameless One"
+#homecom "High Priest of Shadow and Flame"
+#end
+
+#newnation 
+
+
+
+
