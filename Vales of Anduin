@@ -1,3 +1,8 @@
+#newweapon 914
+#copyweapon 578
+#name "Bee Sting"
+#
+
 #newmonster 4102
 #name "Woodsman Archer"
 #descr "TBD"
@@ -144,6 +149,23 @@
 #end
 
 #newmonster 4107
+#name "Bee"
+#descr "A giant bee from the Beorning Beehives."
+#hp 1
+#str 1
+#att 14
+#def 103
+#prec 10
+#size 1
+#mr 5
+#mor 50
+#enc 5
+#mapmove 14
+#ap 12
+#eyes 2
+
+
+#newmonster 4108
 #name "Beekeeper"
 #descr "TBD"
 #rcost 1
