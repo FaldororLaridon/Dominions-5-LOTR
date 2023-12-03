@@ -2,7 +2,7 @@
 #name "Woodsman Archer"
 #descr "TBD"
 #rcost 1
-#gcost 10
+#gcost 8
 #rpcost 6
 #hp 11
 #str 11
@@ -31,7 +31,7 @@
 #newmonster 4103
 #name "Woodsman Warrior"
 #rcost 1
-#gcost 10
+#gcost 8
 #rpcost 6
 #hp 11
 #str 11
@@ -87,3 +87,86 @@
 #nametype 100
 #end
 
+#newmonster 4105
+#name "Beorning Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 7
+#hp 13
+#str 12
+#att 11
+#def 10
+#prec 10
+#size 2
+#mr 11
+#mor 11
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Axe"
+#armor "Linen Cuirass"
+#armor "Iron Cap"
+#armor "Shield"
+#humanoid
+#maxage 60
+#beartattoo 2
+#nametype 100
+#end
+
+#newmonster 4106
+#name "Beorning Warrior"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 7
+#hp 13
+#str 12
+#att 11
+#def 10
+#prec 10
+#size 2
+#mr 11
+#mor 11
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"
+#armor "Linen Cuirass"
+#armor "Iron Cap"
+#humanoid
+#maxage 60
+#beartattoo 2
+#berserk 3
+#nametype 100
+#end
+
+#newmonster 4107
+#name "Beekeeper"
+#descr "TBD"
+#rcost 1
+#gcost 13
+#rpcost 7
+#hp 13
+#str 12
+#att 11
+#def 10
+#prec 10
+#size 2
+#mr 11
+#mor 11
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Axe"
+#armor "Linen Cuirass"
+#armor "Iron Cap"
+#armor "Kite Shield"
+#humanoid
+#maxage 60
+#beartattoo 2
+#nametype 100
+#end
