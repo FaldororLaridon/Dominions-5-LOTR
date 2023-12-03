@@ -1,1 +1,89 @@
-#newmonster
+#newmonster 4102
+#name "Woodsman Archer"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 6
+#hp 11
+#str 11
+#att 10
+#def 10
+#prec 12
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Long Bow"
+#weapon "Axe"
+#armor "Leather Hauberk"
+#armor "Leather Cap"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 60
+#nametype 100
+#skirmisher 25
+#end
+
+#newmonster 4103
+#name "Woodsman Warrior"
+#rcost 1
+#gcost 10
+#rpcost 6
+#hp 11
+#str 11
+#att 10
+#def 10
+#prec 10
+#size 2
+#mr 10
+#mor 11
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Spear"
+#weapon "Javelin"
+#armor "Leather Hauberk"
+#armor "Leather Cap"
+#armor "Shield"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 60
+#nametype 100
+#skirmisher 25
+#end
+
+#newmonster 4104
+#name "Woodsman Soldier"
+#descr "TBD"
+#rcost 1
+#gcost 10
+#rpcost 6
+#hp 12
+#str 11
+#att 11
+#def 12
+#prec 10
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Shield"
+#humanoid
+#forestsurvival
+#stealthy
+#maxage 60
+#nametype 100
+#end
+
