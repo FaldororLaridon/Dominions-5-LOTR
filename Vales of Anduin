@@ -6,7 +6,7 @@
 #rcost 1
 #gcost 8
 #rpcost 6
-#hp 11
+#hp 10
 #str 11
 #att 10
 #def 10
@@ -35,7 +35,7 @@
 #rcost 1
 #gcost 8
 #rpcost 6
-#hp 11
+#hp 10
 #str 11
 #att 10
 #def 10
@@ -233,10 +233,10 @@
 #name "Black Bear"
 #descr "TBD"
 #hp 35
-#str 17
+#str 20
 #att 12
 #def 10
-#prot 7
+#prot 10
 #prec 5
 #size 3
 #mr 10
@@ -279,7 +279,7 @@
 #ap 12
 #eyes 2
 #weapon "Battleaxe"
-#armor "Linen Cuirass"
+#armor "Chain Mail Cuirass"
 #armor "Iron Cap"
 #humanoid
 #holy
@@ -290,3 +290,287 @@
 #secondshape 4111
 #end
 
+#newmonster 4113
+#name "Woodsman Chieftain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 11
+#str 11
+#att 10
+#def 10
+#prec 12
+#size 2
+#mr 10
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Long Bow"
+#weapon "Axe"
+#armor "Chain Mail Cuirass"
+#armor "Iron Cap"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 60
+#nametype 100
+#okleader
+#end
+
+#newmonster 4114
+#name "Beorning Chieftain"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 1
+#hp 14
+#str 13
+#att 12
+#def 10
+#prec 10
+#size 2
+#mr 11
+#mor 12
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Axe"
+#armor "Linen Cuirass"
+#armor "Iron Cap"
+#armor "Shield"
+#humanoid
+#maxage 60
+#beartattoo 3
+#nametype 100
+#okleader
+#end
+
+#newmonster 4115
+#name "Chief Beekeeper"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 14
+#str 13
+#att 11
+#def 12
+#prot 0
+#prec 10
+#size 2
+#mr 11
+#mor 12
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Axe"
+#armor "Linen Cuirass"
+#armor "Iron Cap"
+#armor "Kite Shield"
+#humanoid
+#holy
+#maxage 60
+#poisonres 5
+#supplybonus 10 
+#beartattoo 3
+#nametype 100
+#batstartsum3d6 "Giant Bee"
+#okleader
+#inspirational 1
+#magicskill 6 1
+#custommagic 8448 20
+#end
+
+#newmonster 4116
+#name "Bear Brother"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 12
+#att 11
+#def 10
+#prec 10
+#size 2
+#mr 13
+#mor 11
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Axe"
+#armor "Linen Cuirass"
+#humanoid
+#holy
+#maxage 60
+#beartattoo 4
+#nametype 100
+#magicskill 6 1
+#magicskill 8 1
+#okleader
+#beastmaster 2
+#end
+
+#newmonster 4117
+#name "Great Black Bear"
+#descr "TBD"
+#hp 40
+#str 22
+#att 12
+#def 10
+#prot 11
+#prec 5
+#size 4
+#mr 10
+#mor 13
+#enc 3
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon "Claw"
+#quadruped
+#holy
+#forestsurvival
+#mountainsurvival
+#snowmove
+#swimming
+#berserk 3
+#blessbers
+#stealthy
+#maxage 80
+#firstshape "Son of Beorn"
+#end
+
+
+#newmonster 4118
+#name "Son of Beorn"
+#descr "TBD"
+#rcost 1
+#gcost 10030
+#rpcost 2
+#hp 15
+#str 14
+#att 12
+#def 10
+#prot 0
+#prec 10
+#size 2
+#mr 13
+#mor 13
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"
+#armor "Chain Mail Cuirass"
+#armor "Iron Cap"
+#humanoid
+#holy
+#maxage 60
+#beartattoo 5
+#berserk 5
+#nametype 100
+#secondshape 4117
+#goodleader
+#magicskill 8 1
+#magicskill 6 1
+#end
+
+#newmonster 4119
+#name "Woodsman Bastion"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 60
+#poorleader
+#nametype 100
+#magicskill 8 2
+#end
+
+#newmonster 4120
+#name "Brown Order Apprentice"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#humanoid
+#forestsurvival
+#stealthy 10
+#maxage 60
+#poorleader
+#nametype 100
+#magicskill 6 1
+#magicskill 2 1
+#custommagic 9984 10
+#end
+
+#newmonster 4121
+#name "Brown Order Wizard"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 4
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#size 2
+#mr 11
+#mor 12
+#enc 3
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robe"
+#humanoid
+#forestsurvival
+#stealthy 20
+#maxage 60
+#nametype 100
+#okleader
+#inspirational -1
+#beastmaster 2
+#magicskill 6 2
+#magicskill 2 1
+#magicskill 1 1
+#magicskill 3 1
+#custommagic 9984 100
+#end
