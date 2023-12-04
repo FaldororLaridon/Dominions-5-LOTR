@@ -180,6 +180,7 @@
 #str 12
 #att 11
 #def 12
+#prot 0
 #prec 10
 #size 2
 #mr 11
@@ -202,3 +203,90 @@
 #end
 
 #newmonster 4110
+#name "Black Bear"
+#descr "TBD"
+#hp 35
+#str 17
+#att 12
+#def 10
+#prot 7
+#prec 5
+#size 3
+#mr 10
+#mor 13
+#enc 3
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon "Claw"
+#quadruped
+#holy
+#forestsurvival
+#mountainsurvival
+#snowmove
+#swimming
+#stealthy
+#maxage 80
+#end
+
+#newmonster 4111
+#name "Black Bear"
+#descr "TBD"
+#hp 35
+#str 17
+#att 12
+#def 10
+#prot 7
+#prec 5
+#size 3
+#mr 10
+#mor 13
+#enc 3
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon "Claw"
+#quadruped
+#holy
+#forestsurvival
+#mountainsurvival
+#snowmove
+#swimming
+#berserk 3
+#blessbers
+#stealthy
+#maxage 80
+#firstshape "Beorning Skinshifter"
+#end
+
+#newmonster 4112
+#name "Beorning Skinshifter"
+#descr "TBD"
+#rcost 1
+#gcost 30
+#rpcost 20
+#hp 14
+#str 13
+#att 12
+#def 10
+#prot 0
+#prec 10
+#size 2
+#mr 13
+#mor 13
+#enc 2
+#mapmove 14
+#ap 12
+#eyes 2
+#weapon "Battleaxe"
+#armor "Linen Cuirass"
+#armor "Iron Cap"
+#humanoid
+#holy
+#maxage 60
+#beartattoo 4
+#berserk 4
+#nametype 100
+#secondshape 4111
+#end
+
