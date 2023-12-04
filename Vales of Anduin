@@ -1,9 +1,6 @@
-#newweapon 914
-#copyweapon 578
-#name "Bee Sting"
-#
 
-#newmonster 4102
+
+#newmonster 4103
 #name "Woodsman Archer"
 #descr "TBD"
 #rcost 1
@@ -33,7 +30,7 @@
 #skirmisher 25
 #end
 
-#newmonster 4103
+#newmonster 4104
 #name "Woodsman Warrior"
 #rcost 1
 #gcost 8
@@ -63,7 +60,7 @@
 #skirmisher 25
 #end
 
-#newmonster 4104
+#newmonster 4105
 #name "Woodsman Soldier"
 #descr "TBD"
 #rcost 1
@@ -92,11 +89,11 @@
 #nametype 100
 #end
 
-#newmonster 4105
+#newmonster 4106
 #name "Beorning Warrior"
 #descr "TBD"
 #rcost 1
-#gcost 13
+#gcost 12
 #rpcost 7
 #hp 13
 #str 12
@@ -120,12 +117,12 @@
 #nametype 100
 #end
 
-#newmonster 4106
+#newmonster 4107
 #name "Beorning Warrior"
 #descr "TBD"
 #rcost 1
 #gcost 13
-#rpcost 7
+#rpcost 8
 #hp 13
 #str 12
 #att 11
@@ -148,13 +145,13 @@
 #nametype 100
 #end
 
-#newmonster 4107
+#newmonster 4108
 #name "Bee"
 #descr "A giant bee from the Beorning Beehives."
 #hp 1
 #str 1
 #att 14
-#def 103
+#def 13
 #prec 10
 #size 1
 #mr 5
@@ -163,15 +160,23 @@
 #mapmove 14
 #ap 12
 #eyes 2
+#weapon 450
+#weapon "Tiny Sting"
+#bird
+#bug
+#flying
+#swimming
+#neednoteat
+#end
 
 
-#newmonster 4108
+#newmonster 4109
 #name "Beekeeper"
 #descr "TBD"
 #rcost 1
-#gcost 13
-#rpcost 7
-#hp 13
+#gcost 15
+#rpcost 10
+#hp 14
 #str 12
 #att 11
 #def 12
@@ -189,6 +194,11 @@
 #armor "Kite Shield"
 #humanoid
 #maxage 60
+#poisonres 5
+#supplybonus 3
 #beartattoo 2
 #nametype 100
+#batstartsum4 "Giant Bee"
 #end
+
+#newmonster 4110
