@@ -383,7 +383,7 @@
 #okleader
 #inspirational 1
 #magicskill 6 1
-#custommagic 8448 20
+#custommagic 8960 20
 #end
 
 #newmonster 4116
@@ -418,7 +418,7 @@
 #end
 
 #newmonster 4117
-#name "Great Black Bear"
+#name "Enraged Bear-kin"
 #descr "TBD"
 #hp 40
 #str 22
@@ -444,12 +444,12 @@
 #blessbers
 #stealthy
 #maxage 80
-#firstshape "Son of Beorn"
+#firstshape "Bear-Kin"
 #end
 
 
 #newmonster 4118
-#name "Son of Beorn"
+#name "Bear-Kin"
 #descr "TBD"
 #rcost 1
 #gcost 10030
@@ -573,4 +573,237 @@
 #magicskill 1 1
 #magicskill 3 1
 #custommagic 9984 100
+#end
+
+#newmonster 4122
+#name "Enraged Great Black Bear"
+#descr "TBD"
+#hp 60
+#str 25
+#att 12
+#def 9
+#prot 10
+#prec 5
+#size 5
+#mr 10
+#mor 13
+#enc 3
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon "Claw"
+#quadruped
+#holy
+#forestsurvival
+#mountainsurvival
+#snowmove
+#invulnerable 15
+#swimming
+#berserk 6
+#blessbers
+#stealthy
+#maxage 80
+#firstshape "Son of Beorn"
+#end
+
+#newmonster 4123
+#name "Great Black Bear"
+#descr "TBD"
+#hp 40
+#str 22
+#att 12
+#def 9
+#prot 8
+#prec 5
+#size 4
+#mr 10
+#mor 13
+#enc 3
+#mapmove 20
+#ap 14
+#eyes 2
+#weapon "Claw"
+#quadruped
+#holy
+#forestsurvival
+#mountainsurvival
+#snowmove
+#swimming
+#berserk 3
+#blessbers
+#invulnerable 10
+#stealthy
+#maxage 80
+#firstshape "Son of Beorn"
+#secondshape "Enraged Great Black Bear"
+#end
+
+#newmonster 4124
+#name "Son of Beorn"
+#fixedname "Grimbeorn the Old"
+#descr "TBD"
+#hp 22
+#str 17
+#att 13
+#def 9
+#prot 0
+#prec 10
+#size 3
+#mr 14
+#mor 15
+#enc 2
+#mapmove 14
+#ap 14
+#eyes 2
+#weapon "Battleaxe"
+#armor "Chain Mail Cuirass"
+#humanoid
+#holy
+#maxage 60
+#unique
+#startage 55
+#beartattoo 7
+#berserk 3
+#secondshape "Great Black Bear"
+#goodleader
+#magicskill 8 2
+#magicskill 6 2
+#magicskill 3 1
+#end
+
+#newmonster 4125
+#name "Brown"
+#fixedname "Radagast"
+#descr "TBD"
+#hp 15
+#str 11
+#att 11
+#def 10
+#prec 13
+#size 2
+#mr 14
+#mor 15
+#enc 3
+#mapmove 12
+#ap 12
+#eyes 2
+#weapon "Quarterstaff"
+#armor "Robe"
+#humanoid
+#unique
+#forestsurvival
+#swimming
+#mountainsurvival
+#swampsurvival
+#wastesurvival
+#stealthy 30
+#autohealer 2
+#autodishealer 2
+#animalawe 6
+#maxage 2000
+#startage 1800
+#supplybonus 50
+#goodleader
+#inspirational -3
+#beastmaster 5
+#magicskill 6 3
+#magicskill 2 2
+#magicskill 1 3
+#magicskill 3 1
+#end
+
+#newmonster 4126
+#name "Skin-Changer"
+#fixedname "Beorn"
+#descr "TBD"
+#pathcost 60
+#startdom 2
+#gcost 180
+#hp 25
+#str 19
+#att 13
+#def 11
+#prot 4
+#prec 10
+#size 3
+#mr 14
+#mor 30
+#enc 2
+#mapmove 14
+#ap 16
+#eyes 2
+#weapon "Battleaxe"
+#armor "Linen Cuirass"
+#humanoid
+#holy
+#maxage 60
+#invulnerable 10
+#berserk 3
+#secondshape 4127
+#goodleader
+#magicskill 6 1
+#magicskill 3 1
+#end
+
+#newmonster 4127
+#name "Skin-Changer"
+#descr "TBD"
+#hp 65
+#str 27
+#att 13
+#def 11
+#prot 10
+#prec 5
+#size 5
+#mr 16
+#mor 30
+#enc 3
+#mapmove 22
+#ap 16
+#eyes 2
+#weapon "Claw"
+#quadruped
+#holy
+#forestsurvival
+#mountainsurvival
+#snowmove
+#invulnerable 15
+#reinvigoration 4
+#swimming
+#berserk 6
+#stealthy
+#maxage 80
+#firstshape 4126
+#secondshape "Enraged Skin-changer"
+#end
+
+#newmonster 4128
+#name "Enraged Skin-Changer"
+#descr "TBD"
+#hp 80
+#str 29
+#att 13
+#def 11
+#prot 10
+#prec 5
+#size 6
+#mr 16
+#mor 30
+#enc 3
+#mapmove 24
+#ap 18
+#eyes 2
+#weapon "Claw"
+#quadruped
+#holy
+#forestsurvival
+#mountainsurvival
+#snowmove
+#invulnerable 15
+#swimming
+#berserk 9
+#reinvigoration 7
+#stealthy
+#maxage 80
+#firstshape 4126
 #end
