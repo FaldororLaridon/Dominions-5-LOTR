@@ -545,7 +545,7 @@
 #descr "TBD"
 #rcost 1
 #gcost 10000
-#rpcost 4
+#rpcost 2
 #hp 10
 #str 10
 #att 10
@@ -719,6 +719,7 @@
 #pathcost 60
 #startdom 2
 #gcost 180
+#maxprison 2
 #hp 25
 #str 19
 #att 13
@@ -807,3 +808,67 @@
 #maxage 80
 #firstshape 4126
 #end
+
+#newnsite
+#name "Rhosgobel"
+#path 6
+#loc 16384
+#gems 6 1
+#gems 1 1
+#level 0
+#rarity 5
+#homecom "Brown Order Wizard"
+#end
+
+#newsite 
+#name "Beorn's House"
+#path 6
+#loc 16384
+#gems 6 1
+#gems 2 1
+#level 0
+#rarity 5
+#homemon "Beorning Skinshifter"
+#homecom "Bear-Kin"
+#end
+
+#newsite
+#name "Great Beehives"
+#path 6
+#level 0
+#rarity 5
+#decunrest 5
+#supply 150
+#wallunit "Bee"
+#wallmult 20
+#end
+
+#selectspell "Awaken Tattoos"
+#restricted "Vales of Anduin"
+
+#selectspell "Summon Bears"
+#restricted "Vales of Anduin"
+
+#newnation
+#name "Vales of Anduin"
+#epithet "Land of the Skin-Changers"
+#era 3
+#descr "TBD"
+#summary "TBD"
+#brief "A nation of tribal Men, stealthy skirmisher Woodsmen supported by fierce and strong Beornings with access to sacred Bears."
+#startsite "Rhosgobel"
+#startsite "Beorn's House"
+#startsite "Great Beehive"
+#likesterr 128
+#hatesterr 64
+#ainaturenation
+#aigoodbless 50
+#startcom "Woodsman Chieftain"
+#addforeignunit "Woodsman Archer"
+#addforeignunit "Woodsman Warrior"
+#addforeignunit 1406
+#addforeignunit 1407
+#addforeigncom "Woodsman Chieftain"
+#addforeigncom "Beorning Chieftain"
+#addforeigncom "Bear Brother"
+
