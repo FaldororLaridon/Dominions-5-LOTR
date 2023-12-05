@@ -718,7 +718,7 @@
 #descr "TBD"
 #pathcost 60
 #startdom 2
-#gcost 180
+#gcost 200
 #maxprison 2
 #hp 25
 #str 19
@@ -863,7 +863,7 @@
 #hatesterr 64
 #ainaturenation
 #aigoodbless 50
-#startcom "Woodsman Chieftain"
+#startcom "Bear Brother"
 #addforeignunit "Woodsman Archer"
 #addforeignunit "Woodsman Warrior"
 #addforeignunit 1406
@@ -871,4 +871,48 @@
 #addforeigncom "Woodsman Chieftain"
 #addforeigncom "Beorning Chieftain"
 #addforeigncom "Bear Brother"
+#startscout "Woodsman Chieftain"
+#startunittype1 "Woodsman Warrior"
+#startunitnbrs1 20
+#startunittype2 1406
+#startunitnbrs2 20
+#addrecunit "Woodsman Archer"
+#addrecnunit "Woodsman Warrior"
+#addrecunit 1406
+#addrecunit 1407
+#addrecunit "Woodsman Soldier"
+#addrecunit "Beekeeper"
+#addreccom "Woodsman Chieftain"
+#addreccom "Beorning Chieftain"
+#addreccom "Chief Beekeeper"
+#addreccom "Bear Brother"
+#addreccom "Woodsman Bastion"
+#addreccom "Brown Order Apprentice"
+#hero1 4124
+#hero2 4125
+#defcom1 "Beorning Chieftain"
+#defcom2 "Bear Brother"
+#defunit1 "Woodsman Archer"
+#defunit1b 1406
+#defunit2 "Woodsman Soldier"
+#defunit2b 1407
+#defmult1 20
+#defmult1b 20
+#defmult2 5
+#defmult2b 5
+#wallcom "Woodsman Chieftain"
+#wallunit "Woodsman Archer"
+#wallmult 10
+#addgod 4126
+#homerealm 2
+#homerealm 2
+#noundeadgods
+#cheapgod40 4126
+#fortcost -10
+#templepic 10
+#homefort 28
+#buildfort 28
+#nationinc 25
+#end
+
 
