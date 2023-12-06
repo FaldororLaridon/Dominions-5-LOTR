@@ -916,7 +916,7 @@
 #end
 
 
-#selectitem 544
+#selectitem 546
 #name "Lembas"
 #descr "A filling and long-lasting food that enheartens those that eat it."
 #constlevel 2
@@ -931,7 +931,7 @@
 #supplybonus 35
 #end
 
-#selectitem 545
+#selectitem 547
 #name "Honey-cakes"
 #descr "The famous honey-cakes of the Beornings are delicious and can be baked in large enough quantities to feed a small army."
 #constlevel 2
