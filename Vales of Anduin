@@ -316,6 +316,7 @@
 #forestsurvival
 #stealthy 10
 #maxage 60
+#taxcollector
 #nametype 100
 #okleader
 #end
@@ -345,6 +346,7 @@
 #humanoid
 #maxage 60
 #beartattoo 3
+#taxcollector
 #nametype 100
 #okleader
 #end
@@ -382,6 +384,7 @@
 #batstartsum3d6 "Giant Bee"
 #okleader
 #inspirational 1
+#taxcollector
 #magicskill 6 1
 #custommagic 8960 20
 #end
