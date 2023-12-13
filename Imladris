@@ -1,1 +1,398 @@
+--side note: add the age thing on Gondorian rangers to the changelog. Also add tax collector on Numenorians for MA, and increase Apprentice Loremaster cost to 80--
+
+commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Mage, Eregion Smith, Noldor mage, Noldor Lord
+
+#newmonster 4129
+#name "Dúnedain Ranger"
+#descr "TBD"
+#gcost 14
+#rcost 1
+#rpcost 18
+#hp 14
+#str 12
+#att 11
+#def 12
+#prot 0
+#prec 12
+#size 2
+#mr 11
+#mor 13
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Long Bow"
+#weapon "Broad Sword"
+#armor "Chain Mail Cuirass"
+#armor "Leather Hood"
+#humanoid
+#forestsurvival
+#mountainsurvival
+#wastesurvival
+#stealthy 20
+#maxage 140
+#patrolbonus 1
+#nametype 177
+#end
+
+#newmonster 4130
+#name "Dúnedain Soldier"
+#descr "TBD"
+#gcost 16
+#rcost 1
+#rpcost 18
+#hp 14
+#str 12
+#att 12
+#def 13
+#prot 0
+#prec 11
+#size 2
+#mr 11
+#mor 13
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Leather Hood"
+#armor "Shield"
+#humanoid
+#forestsurvival
+#mountainsurvival
+#wastesurvival
+#stealthy 10
+#maxage 140
+#nametype 177
+#end
+
+#newmonster 4131
+#name "Dúnedain Horseman"
+#descr "TBD"
+#gcost 16
+#rcost 8
+#rpcost 26
+#ressize 2
+#hp 14
+#str 12
+#att 12
+#def 12
+#prot 0
+#prec 11
+#size 3
+#mr 11
+#mor 13
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#forestsurvival
+#mountainsurvival
+#wastesurvival
+#stealthy 10
+#maxage 140
+#nametype 177
+#end
+
+#newmonster 4132
+#name "Imladris Soldier"
+#descr "TBD"
+#gcost 35
+#rcost 1
+#rpcost 26
+#hp 15
+#str 13
+#att 13
+#def 13
+#prot 0
+#prec 12
+#size 2
+#mr 13
+#mor 14
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 2
+#xpshape 100
+#darkvision 50
+#nametype 175
+#drawsize 6
+#end
+
+#newmonster 4133
+#name "Weary Imladris Soldier"
+#descr "TBD"
+#gcost 35
+#rcost 1
+#rpcost 26
+#deserter 2
+#hp 15
+#str 13
+#att 13
+#def 13
+#prot 0
+#prec 12
+#size 2
+#mr 13
+#mor 14
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#humanoid
+#maxage 3000
+#diseaseres 100
+#awe 2
+#darkvision 50
+#nametype 175
+#drawsize 6
+#end
+
+#newmonster 4134
+#name "Imladris Knight"
+#descr "TBD"
+#gcost 50
+#rcost 12
+#rpcost 32
+#ressize 2
+#hp 15
+#str 13
+#att 13
+#def 13
+#prot 0
+#prec 12
+#size 3
+#mr 13
+#mor 13
+#enc 3
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"
+#weapon "Elvish Blade"
+#weapon 56
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 3000
+#diseaseres 100
+#awe 3
+#xpshape 100
+#darkvision 50
+#nametype 175
+#drawsize 6
+#end
+
+#newmonster 4135
+#name "Weary Imladris Knight"
+#descr "TBD"
+#gcost 50
+#rcost 12
+#rpcost 32
+#ressize 2
+#deserter 1
+#hp 15
+#str 13
+#att 13
+#def 13
+#prot 0
+#prec 12
+#size 3
+#mr 13
+#mor 13
+#enc 3
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"
+#weapon "Elvish Blade"
+#weapon 56
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 3000
+#diseaseres 100
+#awe 3
+#darkvision 50
+#nametype 175
+#drawsize 6
+#end
+
+#newmonster 4136
+#name "Dúnedain Captain"
+#descr "TBD"
+#gcost 10000
+#rcost 8
+#rpcost 1
+#ressize 2
+#hp 15
+#str 13
+#att 12
+#def 12
+#prot 0
+#prec 11
+#size 3
+#mr 11
+#mor 13
+#enc 3
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon "Lance"
+#weapon "Broad Sword"
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#forestsurvival
+#mountainsurvival
+#wastesurvival
+#stealthy 10
+#maxage 140
+#nametype 177
+#goodleader
+#end
+
+#newmonster 4137
+#name "Dúnedain Scout"
+#descr "TBD"
+#gcost 1000
+#rcost 1
+#rpcost 1
+#hp 14
+#str 12
+#att 11
+#def 12
+#prot 0
+#prec 12
+#size 2
+#mr 11
+#mor 13
+#enc 2
+#mapmove 16
+#ap 14
+#eyes 2
+#weapon "Long Bow"
+#weapon "Broad Sword"
+#armor "Chain Mail Cuirass"
+#armor "Leather Hood"
+#humanoid
+#forestsurvival
+#mountainsurvival
+#wastesurvival
+#stealthy 20
+#maxage 140
+#patrolbonus 1
+#nametype 177
+#noleader
+#end
+
+#newmonster 4138
+#name "Imladris Captain"
+#descr "TBD"
+#gcost 1000
+#rcost 12
+#rpcost 2
+#ressize 2
+#hp 15
+#str 14
+#att 14
+#def 14
+#prot 0
+#prec 12
+#size 3
+#mr 13
+#mor 13
+#enc 3
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"
+#weapon "Elvish Blade"
+#weapon 56
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 3000
+#diseaseres 100
+#awe 3
+#xpshape 100
+#darkvision 50
+#nametype 175
+#drawsize 6
+#goodleader
+#inspirational 1
+#end
+
+#newmonster 4135
+#name "Weary Imladris Captain"
+#descr "TBD"
+#gcost 50
+#rcost 12
+#rpcost 32
+#ressize 2
+#deserter 2
+#hp 15
+#str 13
+#att 13
+#def 13
+#prot 0
+#prec 12
+#size 3
+#mr 13
+#mor 13
+#enc 3
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"
+#weapon "Elvish Blade"
+#weapon 56
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#maxage 3000
+#diseaseres 100
+#awe 3
+#darkvision 50
+#nametype 175
+#drawsize 6
+#goodleader
+#inspirational 1
+#end
+
+
+
 
