@@ -1,5 +1,7 @@
 --side note: add the age thing on Gondorian rangers to the changelog. Also add tax collector on Numenorians for MA, and increase Apprentice Loremaster cost to 80--
 
+-Idea: Noldor commanders get a research bonus when they become Weary. Note spell bonuses for both Dwarves and Elves--
+
 commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Mage, Eregion Smith, Noldor mage, Noldor Lord
 
 #newmonster 4129
@@ -177,7 +179,7 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #ressize 2
 #hp 15
 #str 13
-#att 13
+#att 14
 #def 13
 #prot 0
 #prec 12
@@ -216,7 +218,7 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #deserter 1
 #hp 15
 #str 13
-#att 13
+#att 14
 #def 13
 #prot 0
 #prec 12
@@ -352,9 +354,12 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #drawsize 6
 #goodleader
 #inspirational 1
+#magicskill 3 1
+#custommagic 3200 25
+#spellsinger
 #end
 
-#newmonster 4135
+#newmonster 4139
 #name "Weary Imladris Captain"
 #descr "TBD"
 #gcost 50
@@ -391,6 +396,165 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #drawsize 6
 #goodleader
 #inspirational 1
+#magicskill 3 1
+#custommagic 3200 25
+#spellsinger
+#end
+
+#newmonster 4140
+#name "Sea-Friend"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#att 10
+#def 10
+#prec 12
+#size 2
+#mr 14
+#mor 13
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Dagger"
+#armor "Robes"
+#humanoid
+#swimming
+#stealthy
+#sailing 999 3
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#nametype 177
+#poorleader
+#magicskill 2 1
+#magicskill 4 1
+#custommagic 8960 100
+#custommagic 8960 10
+#spellsinger
+#drawsize 4
+#end
+
+#newmonster 4141
+#name "Imladris Sage"
+#descr "TBD"
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#prec 12
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Dagger"
+#armor "Robes"
+#humanoid
+#snow
+#holy
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#awe 2
+#nobadevents 15
+#xpshape 100
+#nametype 175
+#poorleader
+#magicskill 8 1
+#magicskill 4 2
+#custommagic 2304 100
+#spellsinger 
+#researchbonus 5
+#drawsize 6
+#end
+
+#newmonster 4142
+#name "Weary Imladris Sage"
+#descr "TBD"
+#deserter 4
+#rcost 1
+#gcost 10000
+#rpcost 2
+#hp 13
+#str 13
+#prec 12
+#size 2
+#mr 14
+#mor 12
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Dagger"
+#armor "Robes"
+#humanoid
+#snow
+#holy
+#maxage 3000
+#diseaseres 100
+#darkvision 50
+#awe 2
+#nobadevents 15
+#nametype 175
+#poorleader
+#magicskill 8 1
+#magicskill 4 2
+#custommagic 2304 100
+#spellsinger 
+#drawsize 6
+#researchbonus 8
+#end
+
+#newmonster 4143
+#name "Imladris Lord"
+#descr "TBD"
+#gcost 1000
+#rcost 12
+#rpcost 2
+#ressize 2
+#hp 17
+#str 15
+#att 15
+#def 14
+#prot 0
+#prec 12
+#size 3
+#mr 14
+#mor 15
+#enc 3
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Lance"
+#weapon "Elvish Blade"
+#weapon 56
+#armor "Elf-Mail Hauberk"
+#armor "Noldor Helm"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#maxage 3000
+#diseaseres 100
+#awe 4
+#darkvision 50
+#nametype 175
+#drawsize 6
+#expertleader
+#inspirational 1
+#magicskill 3 2
+#magicskill 0 1
+#magicskill 8 2
+#custommagic 3200 100
+#custommagic 3200 100
+#spellsinger
 #end
 
 
