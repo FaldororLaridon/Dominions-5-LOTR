@@ -1,8 +1,10 @@
---side note: add the age thing on Gondorian rangers to the changelog. Also add tax collector on Numenorians for MA, and increase Apprentice Loremaster cost to 80--
+--side note: add the age thing on Gondorian rangers to the changelog. Also add tax collector on Numenorians for MA, and increase Apprentice Loremaster cost to 80, add riverstart to Lorien--
 
 -Idea: Noldor commanders get a research bonus when they become Weary. Note spell bonuses for both Dwarves and Elves--
 
 commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Mage, Eregion Smith, Noldor mage, Noldor Lord
+
+Heroes: Elladan, Elrohir, Halbarad, Glorfindel, Arwen
 
 #newmonster 4129
 #name "Dúnedain Ranger"
@@ -59,7 +61,7 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #weapon "Broad Sword"
 #armor "Chain Mail Hauberk"
 #armor "Leather Hood"
-#armor "Shield"
+#armor "Kite Shield"
 #humanoid
 #forestsurvival
 #mountainsurvival
@@ -201,7 +203,7 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #holy
 #maxage 3000
 #diseaseres 100
-#awe 3
+#awe 2
 #xpshape 100
 #darkvision 50
 #nametype 175
@@ -240,7 +242,7 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #holy
 #maxage 3000
 #diseaseres 100
-#awe 3
+#awe 2
 #darkvision 50
 #nametype 175
 #drawsize 6
@@ -347,7 +349,7 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #holy
 #maxage 3000
 #diseaseres 100
-#awe 3
+#awe 2
 #xpshape 100
 #darkvision 50
 #nametype 175
@@ -390,7 +392,7 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #mounted
 #maxage 3000
 #diseaseres 100
-#awe 3
+#awe 2
 #darkvision 50
 #nametype 175
 #drawsize 6
@@ -543,7 +545,7 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #holy
 #maxage 3000
 #diseaseres 100
-#awe 4
+#awe 3
 #darkvision 50
 #nametype 175
 #drawsize 6
@@ -557,6 +559,286 @@ commanders: Sindar Captain, Dunedain Captain, Noldor Captain (mounted) Sindar Ma
 #spellsinger
 #end
 
+#newmonster 4144
+#name "First Twin"
+#fixedname "Elladan"
+#descr "TBD"
+#hp 18
+#str 15
+#att 15
+#def 15
+#prot 0
+#prec 12
+#size 3
+#mr 14
+#mor 16
+#enc 3
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Blade"
+#weapon "Long Bow'
+#weapon 56
+#armor "Elf-Mail Hauberk"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#stealthy 20
+#maxage 3000
+#diseaseres 100
+#awe 3
+#darkvision 50
+#nametype 175
+#drawsize 6
+#expertleader
+#inspirational 1
+#magicskill 3 2
+#magicskill 6 2
+#magicskill 0 1
+#magicskill 8 1
+#spellsinger
+#end
 
+#newmonster 4145
+#name "Second Twin"
+#fixedname "Elrohir"
+#descr "TBD"
+#hp 18
+#str 15
+#att 15
+#def 15
+#prot 0
+#prec 12
+#size 3
+#mr 14
+#mor 16
+#enc 3
+#mapmove 26
+#ap 24
+#eyes 2
+#weapon "Elvish Blade"
+#weapon "Long Bow'
+#weapon 56
+#armor "Elf-Mail Hauberk"
+#armor "Kite Shield"
+#mountedhumanoid
+#mounted
+#holy
+#stealthy 20
+#maxage 3000
+#diseaseres 100
+#awe 3
+#darkvision 50
+#nametype 175
+#drawsize 6
+#expertleader
+#inspirational 1
+#magicskill 3 2
+#magicskill 6 1
+#magicskill 1 2
+#magicskill 8 3
+#spellsinger
+#end
 
+#newmonster 4146
+#name "Eldest Elf"
+#descr "TBD" 
+#hp 14
+#str 13
+#att 12
+#def 13
+#prec 12
+#size 2
+#mr 14
+#mor 14
+#enc 3
+#mapmove 16
+#ap 13
+#eyes 2
+#weapon "Elvish Blade"
+#armor "Magic Robes"
+#humanoid
+#holy
+#stealthy 10
+#sailing 999 3
+#swimming
+#farsail 1
+#age 2900
+#maxage 3000
+#autohealer 1
+#diseaseres 100
+#darkvision 50
+#nobadevents 20
+#expertleader
+#magicskill 2 4
+#magicskill 4 3
+#magicskill 2 3
+#magicskill 8 2
+#spellsinger
+#drawsize 4
+#end
+
+#newmonster 4147
+#name "Dúnedain Faithful"
+#fixedname "Halbarad"
+#descr "TBD"
+#hp 14
+#str 13
+#att 12
+#def 13
+#prot 0
+#prec 11
+#size 3
+#mr 11
+#mor 13
+#enc 2
+#mapmove 20
+#ap 22
+#eyes 2
+#weapon 357
+#armor "Chain Mail Hauberk"
+#armor "Half Helmet"
+#mountedhumanoid
+#mounted
+#forestsurvival
+#mountainsurvival
+#wastesurvival
+#stealthy 20
+#maxage 140
+#nametype 177
+#goodleader
+#magicskill 6 2
+#end
+
+#newmonster 4148
+#name "Master of Rivendell"
+#fixedname "Elrond"
+#descr "TBD"
+#pathcost 10
+#startdom 1
+#gcost 10000
+#hp 15
+#str 13
+#att 13
+#def 13
+#prec 12
+#size 2
+#mr 15
+#mor 30
+#enc 3
+#mapmove 16
+#ap 14
+#eyes 2
+#armor "Magic Robes"
+#humanoid
+#startitem "Vilya"
+#startage 2580
+#maxage 3000
+#diseaseres 100
+#autohealer 2
+#autodishealer 1
+#awe 3
+#darkvision 50
+#nobadevents 15
+#goodleader
+#magicskill 4 1
+#researchbonus 5
+#spellsinger
+#drawsize 6
+#end
+
+#newsite 
+#name "Last Homely House"
+#path 4
+#loc 16384
+#gems 4 2
+#gems 3 1
+#level 0
+#rarity 5
+#homecom "Imladris Lord"
+#homemon "Imladris Knight"
+#heal 30
+#end
+
+#newsite
+#name "Bruinen River"
+#path 2
+#loc 16384
+#gems 2 1
+#level 0
+#rarity 5
+#end
+
+#newnation
+#name "Imladris"
+#epithet "Houses of Healing"
+#era 3
+#descr "TBD"
+#summary "TBD"
+#brief "A nation of Elves harbouring the last scions of Arnor. Here lies the last stronghold of the Noldor, though their days are waning and their hearts begin to weary of the world."
+#startsite "Last Homely House"
+#startsite "Bruinen River"
+#startcom "Dúnedain Captain"
+#coastcom1 "Sindar Captain"
+#coastcom2 "Sea-Friend"
+#startscout "Dúnedain Scout"
+#startunittype1 "Dúnedain Ranger"
+#startunitnbrs1 15
+#startunittype2 "Dúnedain Soldier"
+#startunitnbrs2 15
+#addrecunit "Dúnedain Ranger"
+#addrecunit "Dúnedain Soldier"
+#addrecunit "Dúnedain Horseman"
+#addrecunit "Imladris Soldier"
+#addreccom "Dúnedain Scout"
+#addreccom "Dúnedain Captain"
+#addreccom "Imladris Captain"
+#addreccom "Imladris Sage"
+#addreccom "Noldor Maiden"
+#coastunit1 "Sindar Archer"
+#coastunit2 3736
+#coastunit3 3737
+#hero1 4145
+#hero2 4146
+#hero3 4147
+#defcom1 "Dúnedain Captain"
+#defcom2 "Dúnedain Captain"
+#defunit1 "Dúnedain Ranger"
+#defunit1b "Dúnedain Soldier"
+#defunit2 "Dúnedain Soldier"
+#defunit2b "Dúnedain Horseman"
+#defmult1 10
+#defmult1b 10
+#defmult2 10
+#defmult 2b 3
+#wallcom "Dúnedain Captain"
+#wallunit "Dúnedain Ranger"
+#wallmult 10
+#homerealm 2
+#homerealm 10
+#addgod "Vala of the Hunt"
+#addgod "Vala Smith"
+#addgod "Vala Doomsman"
+#addgod "Vala of Valour"
+#addgod "Elder King"
+#addgod "Vala of Stars"
+#addgod "Vala of the Sea"
+#addgod "Vala of Growth"
+#addgod "Star of High Hope"
+#addgod "High Lady"
+#addgod "The Moon Hunter"
+#addgod "Maiden of Sun"
+#addgod "Herald of Manwë"
+#addgod "Master of Rivendell"
+#cheapgod20 "Herald of Manwë"
+#cheapgod20 "Vala Doomsman"
+#cheapgod20 "Elder King"
+#cheapgod40 "Vala of Stars"
+#cheapgod40 "Star of High Hope"
+#cheapgod40 "Master of Rivendell"
+#noundeadgods
+#fortera 2
+#templepic 9
+#end
 
