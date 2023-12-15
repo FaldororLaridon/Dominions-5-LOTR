@@ -22,7 +22,7 @@
 #rcost 10
 #end
 
-#newmonster 3750
+#newmonster 4150
 #name "Goblin Snaga"
 #descr "Small, weak and cowardly, the Goblin Snagas are nothing more than fodder for their overlords, to be driven shrieking into enemy lines before the real battle begins."
 #rcost 1
